@@ -6,17 +6,15 @@ interface CTABannerProps {
   description: string;
   buttonText: string;
   buttonHref: string;
+  secondaryButtonText?: string;
+  secondaryButtonHref?: string;
 }
 
-export function CTABanner({ title, description, buttonText, buttonHref }: CTABannerProps) {
+export function CTABanner({ title, description, buttonText, buttonHref, secondaryButtonText, secondaryButtonHref }: CTABannerProps) {
   return (
-    <section className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-primary/5"></div>
-      <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
-      <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
-      
-      <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
-        <motion.h2 
+    <section className="py-24 bg-card border-y border-border">
+      <div className="container mx-auto px-4 max-w-4xl text-center">
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -24,7 +22,7 @@ export function CTABanner({ title, description, buttonText, buttonHref }: CTABan
         >
           {title}
         </motion.h2>
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -38,10 +36,24 @@ export function CTABanner({ title, description, buttonText, buttonHref }: CTABan
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Link href={buttonHref} className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-4 text-lg font-bold shadow-lg hover:bg-primary/90 transition-all hover:scale-105 h-14">
+          <Link
+            href={buttonHref}
+            data-testid="cta-primary-button"
+            className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-4 text-lg font-bold hover:opacity-90 transition-opacity h-14"
+          >
             {buttonText}
           </Link>
+          {secondaryButtonText && secondaryButtonHref && (
+            <Link
+              href={secondaryButtonHref}
+              data-testid="cta-secondary-button"
+              className="inline-flex items-center justify-center rounded-lg border border-border bg-background text-foreground px-8 py-4 text-lg font-bold hover:border-foreground/30 transition-colors h-14"
+            >
+              {secondaryButtonText}
+            </Link>
+          )}
         </motion.div>
       </div>
     </section>

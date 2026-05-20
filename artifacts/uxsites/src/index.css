@@ -51,50 +51,28 @@
 }
 
 :root {
-  /* Dark theme throughout as default */
-  --background: 132 100% 5%; /* #001805 */
-  --foreground: 210 16% 98%; /* Light */
-  --card: 132 100% 7%;
-  --card-foreground: 210 16% 98%;
-  --popover: 132 100% 7%;
-  --popover-foreground: 210 16% 98%;
-  --primary: 145 83% 59%; /* #40ED88 */
-  --primary-foreground: 160 100% 3%; /* #000F0A */
-  --secondary: 210 16% 98%; /* #F9FAFB */
-  --secondary-foreground: 160 100% 3%;
-  --muted: 132 50% 12%;
-  --muted-foreground: 215 20.2% 65.1%;
+  /* True dark — black/very dark grey with bright green accent */
+  --background: 0 0% 4%;          /* #0a0a0a */
+  --foreground: 0 0% 96%;         /* near white */
+  --card: 0 0% 7%;                /* #111 */
+  --card-foreground: 0 0% 96%;
+  --popover: 0 0% 9%;
+  --popover-foreground: 0 0% 96%;
+  --primary: 145 83% 59%;         /* #40ED88 vivid green — accent only */
+  --primary-foreground: 0 0% 4%;  /* black on green buttons */
+  --secondary: 0 0% 14%;          /* dark grey secondary */
+  --secondary-foreground: 0 0% 96%;
+  --muted: 0 0% 11%;
+  --muted-foreground: 0 0% 55%;
   --accent: 145 83% 59%;
-  --accent-foreground: 160 100% 3%;
+  --accent-foreground: 0 0% 4%;
   --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 132 50% 15%;
-  --input: 132 50% 15%;
+  --destructive-foreground: 0 0% 96%;
+  --border: 0 0% 14%;             /* #232323 */
+  --input: 0 0% 14%;
   --ring: 145 83% 59%;
-  
-  --radius: 0.5rem;
-}
 
-.dark {
-  --background: 132 100% 5%; /* #001805 */
-  --foreground: 210 16% 98%; /* Light */
-  --card: 132 100% 7%;
-  --card-foreground: 210 16% 98%;
-  --popover: 132 100% 7%;
-  --popover-foreground: 210 16% 98%;
-  --primary: 145 83% 59%; /* #40ED88 */
-  --primary-foreground: 160 100% 3%; /* #000F0A */
-  --secondary: 210 16% 98%; /* #F9FAFB */
-  --secondary-foreground: 160 100% 3%;
-  --muted: 132 50% 12%;
-  --muted-foreground: 215 20.2% 65.1%;
-  --accent: 145 83% 59%;
-  --accent-foreground: 160 100% 3%;
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 132 50% 15%;
-  --input: 132 50% 15%;
-  --ring: 145 83% 59%;
+  --radius: 0.5rem;
 }
 
 @layer base {
@@ -104,5 +82,9 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 }

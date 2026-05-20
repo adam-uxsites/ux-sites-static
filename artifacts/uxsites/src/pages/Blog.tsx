@@ -1,77 +1,74 @@
 import { SEO } from "@/components/seo/SEO";
-import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { motion } from "framer-motion";
-import { Calendar } from "lucide-react";
+import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-
-// Static placeholder posts
-const POSTS = [
-  {
-    id: 1,
-    title: "Why Managed WordPress Hosting is Essential for UK Businesses",
-    excerpt: "Discover the hidden costs of cheap hosting and why a managed solution is the best investment for your online presence.",
-    date: "Feb 12, 2026",
-    category: "Hosting",
-  },
-  {
-    id: 2,
-    title: "5 Signs Your Website Needs a Rebuild",
-    excerpt: "Is your site driving customers away? Learn the key indicators that it's time for a modern redesign.",
-    date: "Jan 28, 2026",
-    category: "Design",
-  },
-  {
-    id: 3,
-    title: "Core Web Vitals: Speed and Conversion",
-    excerpt: "How loading speed directly impacts your bottom line, and practical ways to improve it.",
-    date: "Jan 10, 2026",
-    category: "Performance",
-  }
-];
+import { BLOG_POSTS } from "@/data/blogPosts";
 
 export default function Blog() {
   return (
     <>
-      <SEO 
-        title="Blog & Insights | UX Sites Shropshire" 
-        description="Expert insights on web design, WordPress hosting, UX, and digital strategy for businesses."
+      <SEO
+        title="Blog & Insights | UX Sites Shropshire"
+        description="Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK."
       />
       <main>
-        <HeroBlock 
-          headline="Insights & Thoughts"
-          subheadline="Expert perspectives on web performance, user experience, and digital strategy for modern businesses."
-        />
-
-        <section className="py-24 bg-background">
+        <section className="pt-32 pb-16 md:pt-44 md:pb-20">
           <div className="container mx-auto px-4 max-w-5xl">
-            <div className="grid gap-8">
-              {POSTS.map((post, i) => (
-                <motion.article 
-                  key={post.id}
+            <div className="mb-4">
+              <span className="inline-flex items-center rounded-full border border-border bg-card px-3 py-1 text-sm font-medium text-muted-foreground">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary mr-2"></span>
+                Insights & thinking
+              </span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 max-w-3xl">
+              WordPress, Web Design & Digital Strategy
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
+              Practical guides and honest perspectives on web performance, user experience, WordPress, SEO, and running a better business online — written for Shropshire businesses and beyond.
+            </p>
+          </div>
+        </section>
+
+        <section className="pb-24 bg-background">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <div className="grid gap-6">
+              {BLOG_POSTS.map((post, i) => (
+                <motion.article
+                  key={post.slug}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
-                  className="group bg-card border border-border rounded-2xl p-8 hover:border-primary/50 transition-colors"
+                  transition={{ delay: i * 0.08 }}
+                  data-testid={`article-card-${post.slug}`}
+                  className="group bg-card border border-border rounded-2xl p-8 hover:border-foreground/20 transition-colors"
                 >
-                  <div className="flex items-center text-sm text-muted-foreground mb-4 gap-4">
-                    <span className="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium">
+                  <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-4">
+                    <span className="border border-border text-foreground px-2.5 py-0.5 rounded-md text-xs font-semibold">
                       {post.category}
                     </span>
                     <span className="flex items-center gap-1">
-                      <Calendar size={14} />
+                      <Calendar size={13} />
                       {post.date}
                     </span>
+                    <span className="flex items-center gap-1">
+                      <Clock size={13} />
+                      {post.readTime}
+                    </span>
                   </div>
-                  <h2 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
+                  <h2 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors leading-snug">
                     {post.title}
                   </h2>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {post.excerpt}
                   </p>
-                  <Link href="/blog" className="text-primary font-bold text-sm inline-flex items-center hover:underline">
-                    Read Article
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    data-testid={`read-article-${post.slug}`}
+                    className="inline-flex items-center gap-2 text-sm font-bold text-foreground group-hover:text-primary transition-colors"
+                  >
+                    Read article
+                    <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </motion.article>
               ))}
@@ -79,10 +76,10 @@ export default function Blog() {
           </div>
         </section>
 
-        <CTABanner 
-          title="Ready to upgrade your web presence?"
-          description="Let's apply these strategies to your business."
-          buttonText="Start a Project"
+        <CTABanner
+          title="Have a question about your website?"
+          description="Every article here is based on real problems real businesses face. If something resonates, let's talk — there's no obligation, just a straight conversation."
+          buttonText="Get in Touch"
           buttonHref="/contact"
         />
       </main>
