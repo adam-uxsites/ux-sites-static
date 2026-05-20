@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "UX Sites"
+version = "1.0.0"
+id = "artifacts/uxsites"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24947
+
+[services.development]
+run = "pnpm --filter @workspace/uxsites run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/uxsites", "run", "build" ]
+publicDir = "artifacts/uxsites/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24947"
+BASE_PATH = "/"

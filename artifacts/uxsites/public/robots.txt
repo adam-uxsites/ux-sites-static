@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://uxsites.co.uk/sitemap.xml
