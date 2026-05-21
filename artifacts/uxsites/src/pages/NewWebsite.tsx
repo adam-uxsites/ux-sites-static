@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
+import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
@@ -244,6 +245,48 @@ export default function NewWebsite() {
           description="Get in touch to discuss your project. We'll have a straightforward conversation about what you need, what's possible, and what it's likely to cost — no hard sell, no obligation."
           buttonText="Start the Conversation"
           buttonHref="/contact"
+        />
+
+        <RelatedPages
+          title="Explore the New Website Cluster"
+          pages={[
+            {
+              title: "Web Design Shropshire",
+              description: "Local web design for businesses in Shrewsbury, Telford, and across Shropshire — in-person meetings available.",
+              href: "/web-design-shropshire",
+              tag: "Local"
+            },
+            {
+              title: "Websites for Small Businesses",
+              description: "Specifically tailored website solutions for small and growing UK businesses.",
+              href: "/small-business-websites",
+              tag: "Small Business"
+            },
+            {
+              title: "Managed WordPress Hosting",
+              description: "Keep your new site secure and performing with managed hosting from £50/month.",
+              href: "/managed-wordpress-hosting",
+              tag: "Hosting"
+            },
+            {
+              title: "Website Support & Care Plans",
+              description: "Post-launch: ongoing updates, security, backups, and expert support.",
+              href: "/website-support",
+              tag: "Support"
+            },
+            {
+              title: "5 Signs Your Website Needs a Rebuild",
+              description: "How to know when your current website is costing you more than it's worth.",
+              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              tag: "Blog"
+            },
+            {
+              title: "Local SEO for Shropshire Businesses",
+              description: "How to rank in local searches — practical steps that actually move the needle.",
+              href: "/blog/local-seo-shropshire-businesses",
+              tag: "Blog"
+            }
+          ]}
         />
       </main>
     </>

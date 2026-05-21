@@ -4,6 +4,7 @@ import { PricingBlock } from "@/components/blocks/PricingBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { StatsBar } from "@/components/blocks/StatsBar";
+import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
 import { Check, Shield, Zap, HardDrive, HeadphonesIcon, BarChart3, Globe, RefreshCw, Lock } from "lucide-react";
 
@@ -406,6 +407,48 @@ export default function ManagedHosting() {
           buttonHref="/contact"
           secondaryButtonText="Ask a Question"
           secondaryButtonHref="/contact"
+        />
+
+        <RelatedPages
+          title="Explore the Managed Hosting Cluster"
+          pages={[
+            {
+              title: "Managed Hosting for Shropshire Businesses",
+              description: "Local expertise with enterprise reliability — tailored specifically for Shropshire businesses.",
+              href: "/wordpress-hosting-shropshire",
+              tag: "Local"
+            },
+            {
+              title: "WordPress Security Monitoring",
+              description: "How we actively protect your site from hacks, malware, and vulnerabilities — 24/7.",
+              href: "/wordpress-security",
+              tag: "Security"
+            },
+            {
+              title: "WordPress Backup & Recovery",
+              description: "Daily off-site backups with 30-day retention — and rapid restoration when needed.",
+              href: "/wordpress-backup-recovery",
+              tag: "Backups"
+            },
+            {
+              title: "WordPress Maintenance Service",
+              description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
+              href: "/wordpress-maintenance",
+              tag: "Maintenance"
+            },
+            {
+              title: "Why Managed Hosting Matters",
+              description: "The real cost comparison between cheap hosting and managed — the numbers might surprise you.",
+              href: "/blog/why-managed-wordpress-hosting",
+              tag: "Blog"
+            },
+            {
+              title: "WordPress Security Essentials",
+              description: "What every WordPress site owner needs to know about keeping their site secure.",
+              href: "/blog/wordpress-security-essentials",
+              tag: "Blog"
+            }
+          ]}
         />
       </main>
     </>

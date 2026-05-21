@@ -3,6 +3,7 @@ import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
+import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
 import { TrendingUp, Smartphone, Zap, ShieldCheck, BarChart2, Wrench } from "lucide-react";
 
@@ -229,6 +230,48 @@ export default function ExistingWebsite() {
           description="Get a free, honest site audit — no obligation, no sales pitch. We'll tell you what's working, what isn't, and what your realistic options are."
           buttonText="Request a Free Audit"
           buttonHref="/contact"
+        />
+
+        <RelatedPages
+          title="Explore the Website Refresh Cluster"
+          pages={[
+            {
+              title: "Website Speed Optimisation",
+              description: "Diagnose and fix the root causes of slow load times — Core Web Vitals, images, caching, and hosting.",
+              href: "/website-speed-optimisation",
+              tag: "Performance"
+            },
+            {
+              title: "WordPress Security Monitoring",
+              description: "Security issues often explain poor performance — we scan, protect, and harden your site.",
+              href: "/wordpress-security",
+              tag: "Security"
+            },
+            {
+              title: "WordPress Maintenance Service",
+              description: "Post-refresh: keep your updated site maintained, secure, and performing well.",
+              href: "/wordpress-maintenance",
+              tag: "Maintenance"
+            },
+            {
+              title: "Managed WordPress Hosting",
+              description: "Move to hosting built for WordPress — the fastest way to improve baseline performance.",
+              href: "/managed-wordpress-hosting",
+              tag: "Hosting"
+            },
+            {
+              title: "Core Web Vitals & Speed",
+              description: "How your site's loading performance directly impacts your rankings and revenue.",
+              href: "/blog/core-web-vitals-speed-conversion",
+              tag: "Blog"
+            },
+            {
+              title: "5 Signs Your Website Needs a Rebuild",
+              description: "When a refresh isn't enough — the five clear indicators of a site that needs replacing.",
+              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              tag: "Blog"
+            }
+          ]}
         />
       </main>
     </>

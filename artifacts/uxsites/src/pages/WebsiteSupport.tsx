@@ -3,6 +3,7 @@ import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
+import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
 import { Check, AlertTriangle } from "lucide-react";
 
@@ -208,6 +209,48 @@ export default function WebsiteSupport() {
           description="A properly maintained WordPress site is more secure, faster, and more effective. Get in touch to discuss a care plan for your business."
           buttonText="Discuss a Care Plan"
           buttonHref="/contact"
+        />
+
+        <RelatedPages
+          title="Explore the Website Support Cluster"
+          pages={[
+            {
+              title: "WordPress Maintenance Service",
+              description: "Careful updates, database optimisation, plugin audits, and monthly health reporting.",
+              href: "/wordpress-maintenance",
+              tag: "Maintenance"
+            },
+            {
+              title: "WordPress Security Monitoring",
+              description: "Active malware scanning, vulnerability monitoring, and brute-force protection.",
+              href: "/wordpress-security",
+              tag: "Security"
+            },
+            {
+              title: "WordPress Backup & Recovery",
+              description: "Daily off-site backups with 30-day retention and restoration within the hour.",
+              href: "/wordpress-backup-recovery",
+              tag: "Backups"
+            },
+            {
+              title: "Managed WordPress Hosting",
+              description: "Hosting + care + support in a single plan — from £50/month.",
+              href: "/managed-wordpress-hosting",
+              tag: "Hosting"
+            },
+            {
+              title: "Website Speed Optimisation",
+              description: "Performance monitoring and Core Web Vitals improvements — included in care plans.",
+              href: "/website-speed-optimisation",
+              tag: "Performance"
+            },
+            {
+              title: "WordPress Security Essentials",
+              description: "A practical guide to what actually keeps a WordPress site secure.",
+              href: "/blog/wordpress-security-essentials",
+              tag: "Blog"
+            }
+          ]}
         />
       </main>
     </>
