@@ -1,0 +1,90 @@
+import { SEO } from "@/components/seo/SEO";
+import { WorkShowcase } from "@/components/blocks/WorkShowcase";
+import { CTABanner } from "@/components/blocks/CTABanner";
+import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
+import { motion } from "framer-motion";
+import { PORTFOLIO } from "@/data/portfolio";
+
+const SERVICE_COUNTS = PORTFOLIO.reduce<Record<string, number>>((acc, p) => {
+  acc[p.service] = (acc[p.service] ?? 0) + 1;
+  return acc;
+}, {});
+
+export default function Work() {
+  return (
+    <>
+      <SEO
+        title="Our Work | Recent Projects & Hosting Clients | UX Sites Shropshire"
+        description="A selection of websites we've designed, built, and manage for businesses across Shropshire and the UK. New builds, redesigns, and managed hosting clients."
+        url="https://uxsites.co.uk/work"
+        schema={[
+          webPageSchema({
+            name: "Our Work | UX Sites",
+            description: "Recent web design projects and managed hosting clients across Shropshire and the UK.",
+            url: "https://uxsites.co.uk/work",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Our Work", url: "https://uxsites.co.uk/work" },
+          ]),
+        ]}
+      />
+      <main>
+        {/* Hero */}
+        <section className="pt-32 pb-16 md:pt-44 md:pb-20">
+          <div className="container mx-auto px-4 max-w-4xl text-center">
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+              <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
+                <span className="flex h-2 w-2 rounded-full bg-primary mr-2" />
+                Our Work
+              </div>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Projects & Hosting Clients
+              </h1>
+              <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+                A selection of the websites we've built, redesigned, and manage on behalf of businesses across Shropshire and the UK.
+              </p>
+            </motion.div>
+
+            {/* Stats */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="mt-12 flex flex-wrap justify-center gap-6"
+            >
+              {Object.entries(SERVICE_COUNTS).map(([service, count]) => (
+                <div key={service} className="flex flex-col items-center gap-1 px-6 py-4 bg-card border border-border rounded-xl">
+                  <span className="text-3xl font-bold text-primary">{count}</span>
+                  <span className="text-sm text-muted-foreground">{service}</span>
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Grid — all items */}
+        <WorkShowcase showAll />
+
+        {/* Note about more */}
+        <section className="pb-16">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <div className="bg-card border border-border rounded-2xl p-8 text-center">
+              <h2 className="text-xl font-bold mb-3">More projects coming soon</h2>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mx-auto">
+                We're continually adding recent work to this page. If you'd like to see examples relevant to your industry or business type, just get in touch — we're happy to share more.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <CTABanner
+          title="Ready to be our next project?"
+          description="Whether you need a new website, a hosting upgrade, or ongoing support — we'd love to hear about your business."
+          buttonText="Start the conversation"
+          buttonHref="/contact"
+        />
+      </main>
+    </>
+  );
+}

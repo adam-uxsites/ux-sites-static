@@ -38,6 +38,9 @@ export function Nav() {
         </DropdownMenuContent>
       </DropdownMenu>
 
+      <Link href="/work" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/work') ? 'text-primary' : 'text-foreground'}`}>
+        Work
+      </Link>
       <Link href="/blog" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/blog') ? 'text-primary' : 'text-foreground'}`}>
         Blog
       </Link>
@@ -85,6 +88,7 @@ export function Nav() {
               <Link href="/website-support" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website Support</Link>
             </div>
           </div>
+          <Link href="/work" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Work</Link>
           <Link href="/blog" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
           <Link href="/contact" className="text-base font-medium py-2 mb-4" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
           <Link href="/contact" className="inline-flex w-full items-center justify-center rounded-lg bg-primary text-primary-foreground px-5 py-3 text-sm font-bold shadow hover:bg-primary/90" onClick={() => setIsMobileMenuOpen(false)}>

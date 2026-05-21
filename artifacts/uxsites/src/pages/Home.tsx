@@ -5,6 +5,7 @@ import { ServicesGrid } from "@/components/blocks/ServicesGrid";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
+import { WorkShowcase } from "@/components/blocks/WorkShowcase";
 import { webSiteSchema, organizationSchema } from "@/lib/schemas";
 
 export default function Home() {
@@ -88,6 +89,8 @@ export default function Home() {
           name="Zahrah Aullybocus"
           date="Jan 5, 2026"
         />
+
+        <WorkShowcase limit={3} />
 
         <BenefitsGrid 
           title="What's included on every website"

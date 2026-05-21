@@ -25,6 +25,7 @@ import WebsiteSpeedOptimisation from "@/pages/WebsiteSpeedOptimisation";
 import WordPressSecurity from "@/pages/WordPressSecurity";
 import WordPressBackupRecovery from "@/pages/WordPressBackupRecovery";
 
+import Work from "@/pages/Work";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
@@ -60,6 +61,9 @@ function Router() {
 
         {/* Existing Website cluster */}
         <Route path="/website-speed-optimisation" component={WebsiteSpeedOptimisation} />
+
+        {/* Portfolio */}
+        <Route path="/work" component={Work} />
 
         <Route component={NotFound} />
       </Switch>

@@ -52,6 +52,7 @@ export function Footer() {
               <li><Link href="/website-support" className="hover:text-primary transition-colors">Website Support & Care</Link></li>
               <li><Link href="/wordpress-maintenance" className="hover:text-primary transition-colors">WordPress Maintenance</Link></li>
               <li><Link href="/wordpress-security" className="hover:text-primary transition-colors">Security Monitoring</Link></li>
+              <li><Link href="/work" className="hover:text-primary transition-colors">Our Work</Link></li>
               <li><Link href="/blog" className="hover:text-primary transition-colors">Blog & Guides</Link></li>
               <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
             </ul>
