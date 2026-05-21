@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { StatsBar } from "@/components/blocks/StatsBar";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Shield, AlertTriangle, Lock, Eye } from "lucide-react";
@@ -15,6 +16,20 @@ export default function WordPressSecurity() {
       <SEO
         title="WordPress Security Monitoring & Protection | UX Sites"
         description="Active WordPress security monitoring, malware protection, and vulnerability management for UK businesses. Keep your website safe — continuously monitored and proactively protected."
+        url="https://uxsites.co.uk/wordpress-security"
+        schema={[
+          serviceSchema({
+            name: "WordPress Security Monitoring & Protection",
+            description: "Active WordPress security monitoring including malware scanning, vulnerability patching, firewall configuration, login protection, and SSL management. Included in all managed hosting plans.",
+            url: "https://uxsites.co.uk/wordpress-security",
+            category: "WordPress Security",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
+            { name: "WordPress Security", url: "https://uxsites.co.uk/wordpress-security" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

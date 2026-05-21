@@ -6,6 +6,7 @@ import { StatsBar } from "@/components/blocks/StatsBar";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
@@ -22,6 +23,25 @@ export default function WebDesignShropshire() {
       <SEO
         title="Web Design Shropshire | UX Sites — Shrewsbury Web Designer"
         description="Professional web design for Shropshire businesses. Based in Shrewsbury, serving businesses across Shropshire and the West Midlands. Custom WordPress websites from a Google UX Certified designer."
+        url="https://uxsites.co.uk/web-design-shropshire"
+        schema={[
+          serviceSchema({
+            name: "Web Design Shropshire",
+            description: "Custom WordPress web design for Shropshire businesses. Based in Shrewsbury, serving Telford, Oswestry, Bridgnorth and beyond. Google UX Certified with 10+ years experience.",
+            url: "https://uxsites.co.uk/web-design-shropshire",
+            category: "Web Design",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
+            { name: "Web Design Shropshire", url: "https://uxsites.co.uk/web-design-shropshire" },
+          ]),
+          faqSchema([
+            { question: "Do you only design websites for Shropshire businesses?", answer: "We're based in Shropshire but work with businesses across the UK. Being local is a bonus for face-to-face meetings, but most projects are handled remotely." },
+            { question: "How much does web design cost in Shropshire?", answer: "Most small business websites start from around £1,500. We provide a fixed quote after understanding your requirements — no surprises." },
+            { question: "How long does a Shropshire web design project take?", answer: "Most projects take 4–6 weeks from briefing to launch. We'll give you a realistic timeline before starting." },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

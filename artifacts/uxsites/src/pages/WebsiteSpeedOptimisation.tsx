@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { StatsBar } from "@/components/blocks/StatsBar";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Zap, BarChart2, Smartphone } from "lucide-react";
@@ -15,6 +16,25 @@ export default function WebsiteSpeedOptimisation() {
       <SEO
         title="Website Speed Optimisation | WordPress Performance | UX Sites"
         description="Professional website speed optimisation for WordPress. Improve Core Web Vitals, reduce load times, and boost search rankings. Expert performance work for UK businesses."
+        url="https://uxsites.co.uk/website-speed-optimisation"
+        schema={[
+          serviceSchema({
+            name: "Website Speed Optimisation",
+            description: "Professional WordPress speed optimisation to improve Core Web Vitals, reduce page load times, and boost Google search rankings. Image optimisation, caching, database cleanup, and CDN setup included.",
+            url: "https://uxsites.co.uk/website-speed-optimisation",
+            category: "Website Performance Optimisation",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website" },
+            { name: "Website Speed Optimisation", url: "https://uxsites.co.uk/website-speed-optimisation" },
+          ]),
+          faqSchema([
+            { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from £200–£500 depending on the size of the site and the work required." },
+            { question: "How quickly will I see results?", answer: "Most optimisation improvements are visible immediately after implementation. Google's Core Web Vitals scores typically update within 28 days as the crawl data refreshes." },
+            { question: "Will it affect my website's appearance?", answer: "No. Speed optimisation is entirely technical — it improves how your site loads without changing how it looks to visitors." },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { Check, AlertTriangle } from "lucide-react";
 
 const careFeatures = [
@@ -37,6 +38,19 @@ export default function WebsiteSupport() {
       <SEO
         title="WordPress Website Support & Care Plans | UX Sites Shropshire"
         description="Professional WordPress website support and care plans for Shropshire businesses. Regular updates, security monitoring, backups, and expert support to keep your site running perfectly."
+        url="https://uxsites.co.uk/website-support"
+        schema={[
+          serviceSchema({
+            name: "WordPress Website Support & Care Plans",
+            description: "Professional WordPress website support covering regular plugin and core updates, daily backups, security monitoring, uptime monitoring, performance checks, and expert email support.",
+            url: "https://uxsites.co.uk/website-support",
+            category: "WordPress Website Support",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

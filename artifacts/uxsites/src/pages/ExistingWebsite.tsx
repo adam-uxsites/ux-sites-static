@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { TrendingUp, Smartphone, Zap, ShieldCheck, BarChart2, Wrench } from "lucide-react";
 
 const improvements = [
@@ -59,6 +60,19 @@ export default function ExistingWebsite() {
       <SEO
         title="Website Refresh & Rebuild | UX Sites Shropshire"
         description="Modernise your existing WordPress website. Performance improvements, mobile experience, design refresh, SEO, and conversion optimisation — for Shropshire businesses and across the UK."
+        url="https://uxsites.co.uk/existing-website"
+        schema={[
+          serviceSchema({
+            name: "Website Refresh & Rebuild",
+            description: "Modernise your existing WordPress website — performance optimisation, mobile experience improvements, design refresh, SEO, and conversion rate improvements. Free site audit included.",
+            url: "https://uxsites.co.uk/existing-website",
+            category: "Website Redesign",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

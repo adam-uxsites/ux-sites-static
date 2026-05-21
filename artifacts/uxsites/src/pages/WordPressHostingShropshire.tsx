@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
@@ -15,6 +16,23 @@ export default function WordPressHostingShropshire() {
       <SEO
         title="Managed WordPress Hosting Shropshire | From £50/month | UX Sites"
         description="Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Based in Shrewsbury, serving businesses across Shropshire."
+        url="https://uxsites.co.uk/wordpress-hosting-shropshire"
+        schema={[
+          serviceSchema({
+            name: "Managed WordPress Hosting Shropshire",
+            description: "Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support.",
+            url: "https://uxsites.co.uk/wordpress-hosting-shropshire",
+            category: "Managed WordPress Hosting",
+            price: "50",
+            priceCurrency: "GBP",
+            priceUnit: "month",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
+            { name: "WordPress Hosting Shropshire", url: "https://uxsites.co.uk/wordpress-hosting-shropshire" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

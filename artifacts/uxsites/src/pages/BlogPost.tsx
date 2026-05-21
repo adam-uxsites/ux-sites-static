@@ -1,14 +1,28 @@
+import React from "react";
 import { useParams, Link } from "wouter";
 import { SEO } from "@/components/seo/SEO";
+import { articleSchema, breadcrumbSchema } from "@/lib/schemas";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { getPostBySlug, BLOG_POSTS } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import NotFound from "./not-found";
 
+function toIsoDate(dateStr: string): string {
+  const months: Record<string, string> = {
+    January: "01", February: "02", March: "03", April: "04",
+    May: "05", June: "06", July: "07", August: "08",
+    September: "09", October: "10", November: "11", December: "12",
+  };
+  const [day, month, year] = dateStr.split(" ");
+  const mm = months[month] ?? "01";
+  const dd = day.padStart(2, "0");
+  return `${year}-${mm}-${dd}`;
+}
+
 function renderContent(markdown: string) {
   const lines = markdown.trim().split("\n");
-  const elements: JSX.Element[] = [];
+  const elements: React.ReactElement[] = [];
   let i = 0;
   let keyCounter = 0;
 
@@ -127,6 +141,21 @@ export default function BlogPost() {
       <SEO
         title={`${post.title} | UX Sites`}
         description={post.excerpt}
+        url={`https://uxsites.co.uk/blog/${post.slug}`}
+        schema={[
+          articleSchema({
+            headline: post.title,
+            description: post.excerpt,
+            url: `https://uxsites.co.uk/blog/${post.slug}`,
+            datePublished: toIsoDate(post.date),
+            category: post.category,
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Blog", url: "https://uxsites.co.uk/blog" },
+            { name: post.title, url: `https://uxsites.co.uk/blog/${post.slug}` },
+          ]),
+        ]}
       />
       <main>
         <section className="pt-32 pb-16 md:pt-44">

@@ -5,13 +5,16 @@ import { ServicesGrid } from "@/components/blocks/ServicesGrid";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
+import { webSiteSchema, organizationSchema } from "@/lib/schemas";
 
 export default function Home() {
   return (
     <>
-      <SEO 
-        title="UX Sites | Managed WordPress Hosting & Web Design Shropshire" 
+      <SEO
+        title="UX Sites | Managed WordPress Hosting & Web Design Shropshire"
         description="Managed website hosting and WordPress support for UK businesses. Expert web design and hosting in Shropshire."
+        url="https://uxsites.co.uk/"
+        schema={[webSiteSchema(), organizationSchema()]}
       />
       <main>
         <HeroBlock 

@@ -5,6 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Check, X } from "lucide-react";
@@ -15,6 +16,20 @@ export default function SmallBusinessWebsites() {
       <SEO
         title="Websites for Small Businesses | UX Sites — Professional & Affordable"
         description="Professional websites for small and medium businesses. Custom-designed, conversion-focused WordPress websites that generate real enquiries. Based in Shropshire, serving businesses across the UK."
+        url="https://uxsites.co.uk/small-business-websites"
+        schema={[
+          serviceSchema({
+            name: "Websites for Small Businesses",
+            description: "Custom WordPress websites for small and medium businesses. Clear messaging, conversion-focused design, mobile-first, SEO foundations, and training included. Based in Shropshire.",
+            url: "https://uxsites.co.uk/small-business-websites",
+            category: "Web Design",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
+            { name: "Small Business Websites", url: "https://uxsites.co.uk/small-business-websites" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

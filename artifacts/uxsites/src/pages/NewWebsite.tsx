@@ -7,6 +7,7 @@ import { StatsBar } from "@/components/blocks/StatsBar";
 import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { Check } from "lucide-react";
 
 const processSteps = [
@@ -68,6 +69,25 @@ export default function NewWebsite() {
       <SEO
         title="New Website Design & Build | UX Sites Shropshire"
         description="Custom WordPress websites for small and medium businesses in Shropshire and across the UK. Data-driven design, built to convert — from a Google UX Certified developer."
+        url="https://uxsites.co.uk/new-website"
+        schema={[
+          serviceSchema({
+            name: "New Website Design & Build",
+            description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from £1,500.",
+            url: "https://uxsites.co.uk/new-website",
+            category: "Web Design",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
+          ]),
+          faqSchema([
+            { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4–6 weeks from the initial briefing to launch. Larger or more complex sites may take 8–10 weeks." },
+            { question: "How much does a new website cost?", answer: "Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly." },
+            { question: "What platform do you build on?", answer: "We build on WordPress using custom themes — not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites." },
+            { question: "Will I be able to update my website myself?", answer: "Yes. WordPress is built for non-technical users to manage content. We set up your site properly and include a training session so you feel confident making updates." },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

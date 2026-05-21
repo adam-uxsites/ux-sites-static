@@ -42,9 +42,28 @@ export default function Contact() {
 
   return (
     <>
-      <SEO 
-        title="Contact Us | UX Sites Shropshire" 
+      <SEO
+        title="Contact Us | UX Sites Shropshire"
         description="Get in touch to discuss your website requirements. We'll provide a tailored quote based on your specific needs in Shropshire or nationwide."
+        url="https://uxsites.co.uk/contact"
+        schema={[
+          {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            name: "Contact UX Sites",
+            description: "Get in touch with UX Sites to discuss managed WordPress hosting, web design, or website support for your business.",
+            url: "https://uxsites.co.uk/contact",
+            inLanguage: "en-GB",
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://uxsites.co.uk/" },
+              { "@type": "ListItem", position: 2, name: "Contact", item: "https://uxsites.co.uk/contact" },
+            ],
+          },
+        ]}
       />
       <main className="py-24">
         <div className="container mx-auto px-4 max-w-4xl">

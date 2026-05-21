@@ -1,5 +1,6 @@
 import { SEO } from "@/components/seo/SEO";
 import { CTABanner } from "@/components/blocks/CTABanner";
+import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
@@ -11,6 +12,18 @@ export default function Blog() {
       <SEO
         title="Blog & Insights | UX Sites Shropshire"
         description="Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK."
+        url="https://uxsites.co.uk/blog"
+        schema={[
+          webPageSchema({
+            name: "Blog & Insights | UX Sites",
+            description: "Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK.",
+            url: "https://uxsites.co.uk/blog",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Blog", url: "https://uxsites.co.uk/blog" },
+          ]),
+        ]}
       />
       <main>
         <section className="pt-32 pb-16 md:pt-44 md:pb-20">

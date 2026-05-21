@@ -6,6 +6,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { Check, Shield, Zap, HardDrive, HeadphonesIcon, BarChart3, Globe, RefreshCw, Lock } from "lucide-react";
 
 const included = [
@@ -76,6 +77,28 @@ export default function ManagedHosting() {
       <SEO
         title="Managed WordPress Hosting | From £50/month | UX Sites Shropshire"
         description="Fully managed WordPress hosting from £50/month. Daily backups, security monitoring, performance optimisation, updates, and expert support — all included. Based in Shropshire."
+        url="https://uxsites.co.uk/managed-wordpress-hosting"
+        schema={[
+          serviceSchema({
+            name: "Managed WordPress Hosting",
+            description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support — all included.",
+            url: "https://uxsites.co.uk/managed-wordpress-hosting",
+            category: "Managed WordPress Hosting",
+            price: "50",
+            priceCurrency: "GBP",
+            priceUnit: "month",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
+          ]),
+          faqSchema([
+            { question: "What exactly is managed WordPress hosting?", answer: "Standard hosting gives you server space and leaves everything else to you — updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously." },
+            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting starts from £50/month on a rolling monthly plan, or £500/year on an annual plan (saving £100 — equivalent to two months free)." },
+            { question: "Can you migrate my existing site?", answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is included free with annual plans." },
+            { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months." },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

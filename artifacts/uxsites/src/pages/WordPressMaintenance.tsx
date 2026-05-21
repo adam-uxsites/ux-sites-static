@@ -4,6 +4,7 @@ import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { AlertTriangle, Check } from "lucide-react";
@@ -27,6 +28,23 @@ export default function WordPressMaintenance() {
       <SEO
         title="WordPress Maintenance Service | UX Sites — Monthly WordPress Care"
         description="Professional WordPress maintenance service for UK businesses. Monthly plugin updates, security scanning, daily backups, uptime monitoring and expert support. From £50/month."
+        url="https://uxsites.co.uk/wordpress-maintenance"
+        schema={[
+          serviceSchema({
+            name: "WordPress Maintenance Service",
+            description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From £50/month.",
+            url: "https://uxsites.co.uk/wordpress-maintenance",
+            category: "WordPress Maintenance",
+            price: "50",
+            priceCurrency: "GBP",
+            priceUnit: "month",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
+            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock

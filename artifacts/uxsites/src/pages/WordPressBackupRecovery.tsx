@@ -4,6 +4,7 @@ import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { HardDrive, AlertTriangle, Check } from "lucide-react";
@@ -14,6 +15,20 @@ export default function WordPressBackupRecovery() {
       <SEO
         title="WordPress Backup & Recovery Service | UX Sites"
         description="Automated daily WordPress backups with 30-day retention and rapid restoration. Off-site cloud storage, full-site recovery within the hour. Included in all managed hosting plans."
+        url="https://uxsites.co.uk/wordpress-backup-recovery"
+        schema={[
+          serviceSchema({
+            name: "WordPress Backup & Recovery Service",
+            description: "Automated daily WordPress backups with 30-day retention, off-site cloud storage, and rapid full-site recovery. Included in all managed hosting plans.",
+            url: "https://uxsites.co.uk/wordpress-backup-recovery",
+            category: "WordPress Backup",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: "https://uxsites.co.uk/" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
+            { name: "WordPress Backup & Recovery", url: "https://uxsites.co.uk/wordpress-backup-recovery" },
+          ]),
+        ]}
       />
       <main>
         <HeroBlock
