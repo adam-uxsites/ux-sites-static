@@ -278,7 +278,7 @@ export default function WordPressSecurity() {
               title: "Managed WordPress Hosting",
               description: "Security monitoring included — plus hosting, backups, updates, and support from £50/month.",
               href: "/managed-wordpress-hosting",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "WordPress Backup & Recovery",

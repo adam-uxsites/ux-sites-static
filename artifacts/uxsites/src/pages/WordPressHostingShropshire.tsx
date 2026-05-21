@@ -225,7 +225,7 @@ export default function WordPressHostingShropshire() {
             },
             {
               question: "How do I migrate from my current host?",
-              answer: "We handle the complete migration process — WordPress files, database, email accounts, and DNS. Migration is free with annual plans; there's a one-off fee for monthly plan migrations. Zero downtime during the transfer."
+              answer: "We handle the complete migration process — WordPress files, database, email accounts, and DNS. Migration is always free regardless of which plan you're on. Zero downtime during the transfer."
             }
           ]}
         />
@@ -244,7 +244,7 @@ export default function WordPressHostingShropshire() {
               title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and the full feature comparison.",
               href: "/managed-wordpress-hosting",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "WordPress Security Monitoring",

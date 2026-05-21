@@ -249,7 +249,7 @@ export default function SmallBusinessWebsites() {
               title: "New Website Design & Build",
               description: "Full details of our website design and development process — from first conversation to launch.",
               href: "/new-website",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "Web Design Shropshire",

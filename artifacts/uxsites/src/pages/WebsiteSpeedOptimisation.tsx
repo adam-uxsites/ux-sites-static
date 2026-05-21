@@ -270,7 +270,7 @@ export default function WebsiteSpeedOptimisation() {
               title: "Website Refreshes & Rebuilds",
               description: "Sometimes performance issues require more than optimisation — a full rebuild delivers speed from the ground up.",
               href: "/existing-website",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",

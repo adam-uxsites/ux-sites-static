@@ -208,7 +208,7 @@ export default function WordPressMaintenance() {
                     ["Hosting infrastructure", false, true],
                     ["SSL certificate", false, true],
                     ["Uptime guarantee", false, true],
-                    ["Site migration included", false, true],
+                    ["Site migration included", true, true],
                   ].map(([feature, maint, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
@@ -274,7 +274,7 @@ export default function WordPressMaintenance() {
               title: "Website Support & Care Plans",
               description: "Full care plan details — what's covered and why it matters for your business.",
               href: "/website-support",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",

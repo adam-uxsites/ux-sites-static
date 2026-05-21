@@ -276,7 +276,7 @@ export default function WebDesignShropshire() {
               title: "New Website Design & Build",
               description: "Full details of our new website process — from discovery to launch.",
               href: "/new-website",
-              tag: "Pillar Page"
+              tag: "Service"
             },
             {
               title: "Small Business Websites",

@@ -95,7 +95,7 @@ export default function ManagedHosting() {
           faqSchema([
             { question: "What exactly is managed WordPress hosting?", answer: "Standard hosting gives you server space and leaves everything else to you — updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously." },
             { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting starts from £50/month on a rolling monthly plan, or £500/year on an annual plan (saving £100 — equivalent to two months free)." },
-            { question: "Can you migrate my existing site?", answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is included free with annual plans." },
+            { question: "Can you migrate my existing site?", answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is always included free." },
             { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months." },
           ]),
         ]}
@@ -341,7 +341,7 @@ export default function ManagedHosting() {
                   Already have a WordPress site with another host? We handle the full migration process — files, database, email, DNS — with zero downtime for your visitors.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  Migration is included free with annual plans, or available for a one-off fee on monthly plans. We'll let you know the exact cost before you commit to anything.
+                  Migration is always included free — whatever plan you're on. We'll handle everything and let you know what's involved before you commit to anything.
                 </p>
                 <ul className="space-y-3">
                   {[
@@ -398,7 +398,7 @@ export default function ManagedHosting() {
             },
             {
               question: "Can you migrate my existing site?",
-              answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is included free with annual plans; there's a one-off fee for monthly plan migrations. We'll quote you exactly before anything starts, and we maintain zero downtime during the transfer."
+              answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is always free — there's no charge regardless of which plan you're on. We maintain zero downtime during the transfer."
             },
             {
               question: "What counts as a 'content update request'?",
