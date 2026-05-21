@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Globe } from "lucide-react";
+import { ExternalLink, Globe, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { PORTFOLIO, FEATURED_PORTFOLIO, type PortfolioItem } from "@/data/portfolio";
 
@@ -47,11 +47,12 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
 
       {/* Screenshot or stylised placeholder */}
       {item.screenshot ? (
-        <div className="aspect-[16/9] overflow-hidden">
+        <div className="aspect-[16/9] overflow-hidden bg-[#111]">
           <img
             src={item.screenshot}
             alt={`${item.name} website`}
             className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
         </div>
       ) : (
@@ -59,7 +60,6 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
           className="aspect-[16/9] flex items-center justify-center relative overflow-hidden"
           style={{ background: `linear-gradient(135deg, ${accent}18 0%, ${accent}06 60%, transparent 100%)` }}
         >
-          {/* Decorative grid */}
           <div
             className="absolute inset-0 opacity-10"
             style={{
@@ -67,14 +67,12 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
               backgroundSize: "32px 32px",
             }}
           />
-          {/* Stylised "content" lines */}
           <div className="relative z-10 w-3/4 space-y-3 px-4">
             <div className="h-2.5 rounded-full w-2/3" style={{ background: `${accent}30` }} />
             <div className="h-2 rounded-full w-full" style={{ background: `${accent}18` }} />
             <div className="h-2 rounded-full w-5/6" style={{ background: `${accent}18` }} />
             <div className="h-8 rounded-lg w-1/3 mt-4" style={{ background: `${accent}40` }} />
           </div>
-          {/* Initial monogram */}
           <div
             className="absolute bottom-4 right-4 w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold"
             style={{ background: `${accent}20`, color: accent, border: `1px solid ${accent}30` }}
@@ -92,12 +90,81 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
             <p className="text-xs text-muted-foreground mt-0.5">{item.industry}</p>
           </div>
           <span
-            className={`shrink-0 text-xs font-medium px-2.5 py-1 rounded-full border ${SERVICE_STYLES[item.service] ?? SERVICE_STYLES["Managed Hosting"]}`}
+            className={`shrink-0 text-xs font-medium px-2.5 py-1 rounded-full border ${SERVICE_STYLES[item.service] ?? SERVICE_STYLES["New Build"]}`}
           >
             {item.service}
           </span>
         </div>
         <p className="text-sm text-muted-foreground leading-relaxed flex-1">{item.description}</p>
+        {item.url && (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors mt-auto"
+          >
+            Visit site <ExternalLink className="w-3 h-3" />
+          </a>
+        )}
+      </div>
+    </motion.div>
+  );
+}
+
+function CTACard({ index }: { index: number }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.45, delay: index * 0.07 }}
+      className="flex flex-col bg-card border border-dashed border-primary/30 rounded-2xl overflow-hidden hover:border-primary/60 transition-all duration-300 group"
+    >
+      {/* Browser chrome */}
+      <div className="bg-[#1a1a1a] border-b border-border px-4 py-3 flex items-center gap-3 shrink-0">
+        <div className="flex gap-1.5">
+          <span className="w-3 h-3 rounded-full bg-red-500/30" />
+          <span className="w-3 h-3 rounded-full bg-yellow-500/30" />
+          <span className="w-3 h-3 rounded-full bg-green-500/30" />
+        </div>
+        <div className="flex-1 bg-[#111] rounded-md px-3 py-1 flex items-center gap-2 min-w-0">
+          <Globe className="w-3 h-3 text-muted-foreground/40 shrink-0" />
+          <span className="text-xs text-muted-foreground/40">yourbusiness.co.uk</span>
+        </div>
+      </div>
+
+      {/* Placeholder area */}
+      <div className="aspect-[16/9] flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-primary/5 to-transparent">
+        <div
+          className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage: "linear-gradient(#40ED8840 1px, transparent 1px), linear-gradient(90deg, #40ED8840 1px, transparent 1px)",
+            backgroundSize: "32px 32px",
+          }}
+        />
+        <div className="relative z-10 text-center px-6">
+          <div className="w-12 h-12 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-3 group-hover:bg-primary/20 transition-colors">
+            <span className="text-primary text-xl font-bold">?</span>
+          </div>
+          <p className="text-sm text-muted-foreground">Your project here</p>
+        </div>
+      </div>
+
+      {/* CTA body */}
+      <div className="p-5 flex flex-col gap-3 flex-1 justify-between">
+        <div>
+          <h3 className="font-semibold text-foreground leading-tight">Work with us</h3>
+          <p className="text-xs text-muted-foreground mt-0.5">Your industry</p>
+        </div>
+        <p className="text-sm text-muted-foreground leading-relaxed">
+          We're always taking on new projects. Get in touch to discuss your website or hosting requirements.
+        </p>
+        <Link
+          href="/contact"
+          className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors"
+        >
+          Start a conversation <ArrowRight className="w-3 h-3" />
+        </Link>
       </div>
     </motion.div>
   );
@@ -110,6 +177,7 @@ interface WorkShowcaseProps {
 
 export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) {
   const items = showAll ? PORTFOLIO : FEATURED_PORTFOLIO.slice(0, limit);
+  const showCtaCard = items.length < 3;
 
   return (
     <section className="py-24 bg-background">
@@ -125,7 +193,7 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
               A selection of websites we've built, redesigned, or brought onto our managed hosting platform.
             </p>
           </div>
-          {!showAll && (
+          {!showAll && PORTFOLIO.length > limit && (
             <Link
               href="/work"
               className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
@@ -139,9 +207,10 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
           {items.map((item, i) => (
             <BrowserCard key={item.id} item={item} index={i} />
           ))}
+          {showCtaCard && <CTACard index={items.length} />}
         </div>
 
-        {!showAll && (
+        {!showAll && PORTFOLIO.length > limit && (
           <div className="mt-10 text-center">
             <Link
               href="/work"

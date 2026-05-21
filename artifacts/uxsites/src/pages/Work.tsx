@@ -5,10 +5,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
 import { PORTFOLIO } from "@/data/portfolio";
 
-const SERVICE_COUNTS = PORTFOLIO.reduce<Record<string, number>>((acc, p) => {
-  acc[p.service] = (acc[p.service] ?? 0) + 1;
-  return acc;
-}, {});
+const industries = [...new Set(PORTFOLIO.map(p => p.industry))].length;
 
 export default function Work() {
   return (
@@ -53,10 +50,15 @@ export default function Work() {
               transition={{ duration: 0.5, delay: 0.15 }}
               className="mt-12 flex flex-wrap justify-center gap-6"
             >
-              {Object.entries(SERVICE_COUNTS).map(([service, count]) => (
-                <div key={service} className="flex flex-col items-center gap-1 px-6 py-4 bg-card border border-border rounded-xl">
-                  <span className="text-3xl font-bold text-primary">{count}</span>
-                  <span className="text-sm text-muted-foreground">{service}</span>
+              {[
+                { value: PORTFOLIO.length.toString(), label: "Featured Projects" },
+                { value: `${industries}`, label: "Industries" },
+                { value: "228+", label: "Sites Delivered" },
+                { value: "10+", label: "Years Experience" },
+              ].map(({ value, label }) => (
+                <div key={label} className="flex flex-col items-center gap-1 px-6 py-4 bg-card border border-border rounded-xl">
+                  <span className="text-3xl font-bold text-primary">{value}</span>
+                  <span className="text-sm text-muted-foreground">{label}</span>
                 </div>
               ))}
             </motion.div>
