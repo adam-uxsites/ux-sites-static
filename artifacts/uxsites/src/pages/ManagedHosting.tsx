@@ -5,6 +5,7 @@ import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { SiteDashboardMockup } from "@/components/blocks/SiteDashboardMockup";
 import { motion } from "framer-motion";
 import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { Check, Shield, Zap, HardDrive, HeadphonesIcon, BarChart3, Globe, RefreshCw, Lock } from "lucide-react";
@@ -215,20 +216,37 @@ export default function ManagedHosting() {
                 Standard hosting gives you server space and leaves the rest to you. Here's why that's a problem.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-6">
-              {whyManaged.map((item, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
-                  className="p-7 bg-card border border-border rounded-2xl"
-                >
-                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                </motion.div>
-              ))}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Reasons */}
+              <div className="space-y-5">
+                {whyManaged.map((item, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, x: -16 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.1 }}
+                    className="flex gap-5 p-6 bg-card border border-border rounded-2xl"
+                  >
+                    <div className="shrink-0 w-8 h-8 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-sm font-bold text-primary">
+                      {i + 1}
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold mb-2">{item.title}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+              {/* Dashboard mockup */}
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <SiteDashboardMockup />
+              </motion.div>
             </div>
           </div>
         </section>

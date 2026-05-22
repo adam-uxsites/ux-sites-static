@@ -38,6 +38,18 @@ export const PORTFOLIO: PortfolioItem[] = [
     accentColor: "#7c3aed",
     featured: true,
   },
+  {
+    id: "rhind-speech-therapy",
+    name: "Rhind Speech Therapy",
+    domain: "rhindspeechtherapy.co.uk",
+    url: "https://rhindspeechtherapy.co.uk",
+    industry: "Healthcare",
+    service: "Managed Hosting",
+    description: "Managed WordPress hosting for a PROMPT-certified speech and language therapist with clinics in Shrewsbury and London.",
+    screenshot: "/rhind-speech-therapy.png",
+    accentColor: "#0ea5e9",
+    featured: true,
+  },
 ];
 
 export const FEATURED_PORTFOLIO = PORTFOLIO.filter(p => p.featured);

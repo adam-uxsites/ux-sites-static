@@ -2,11 +2,13 @@ import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { ServicesGrid } from "@/components/blocks/ServicesGrid";
-import { TestimonialBlock } from "@/components/blocks/TestimonialBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { WorkShowcase } from "@/components/blocks/WorkShowcase";
+import { SiteDashboardMockup } from "@/components/blocks/SiteDashboardMockup";
 import { webSiteSchema, organizationSchema } from "@/lib/schemas";
+import { motion } from "framer-motion";
+import { Quote, Star } from "lucide-react";
 
 export default function Home() {
   return (
@@ -36,6 +38,44 @@ export default function Home() {
           ]}
         />
 
+        {/* Hosting dashboard visual */}
+        <section className="py-24 bg-muted/20 border-y border-border">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="grid lg:grid-cols-2 gap-14 items-center">
+              <div>
+                <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
+                  <span className="flex h-2 w-2 rounded-full bg-primary mr-2" />
+                  Managed Hosting
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold mb-5 leading-tight">
+                  Your site monitored, maintained &amp; secure — around the clock
+                </h2>
+                <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                  From daily off-site backups to real-time malware scanning, our managed WordPress hosting handles everything so you never have to think about it.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-8">
+                  You'll always have a live dashboard view of your site health, and we'll reach out proactively if anything needs attention.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {["99.9% uptime", "Daily backups", "Real-time security", "Instant support"].map(tag => (
+                    <span key={tag} className="text-xs px-3 py-1.5 rounded-full bg-card border border-border text-muted-foreground">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <SiteDashboardMockup />
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-16">
@@ -46,49 +86,92 @@ export default function Home() {
           </div>
         </section>
 
+        {/* About + Testimonial */}
         <section className="py-24 bg-muted/30">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Left: About + Certs */}
               <div>
                 <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">
-                  <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
+                  <span className="flex h-2 w-2 rounded-full bg-primary mr-2" />
                   About UX Sites
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">10+ years optimising websites in Shropshire</h2>
                 <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                  Not just another web developer. I have professionally worked as a designer, developer and UX analyst with Google-certified UX expertise, I know what turns visitors into customers.
+                  Not just another web developer. I have professionally worked as a designer, developer and UX analyst with Google-certified UX expertise — I know what turns visitors into customers.
                 </p>
                 <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                   Every website I create is informed by data, user research, and over a decade of experience across 15+ industries. No guesswork — just proven results.
                 </p>
-                <div className="flex gap-4">
-                  <div className="flex items-center justify-center p-4 bg-card rounded-lg border border-border">
-                    <span className="font-semibold">Google Mobile UX Certified</span>
-                  </div>
-                  <div className="flex items-center justify-center p-4 bg-card rounded-lg border border-border">
-                    <span className="font-semibold">Google Analytics Certified</span>
-                  </div>
+                {/* Google cert badges */}
+                <div className="flex gap-5 items-center">
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.85 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4 }}
+                    className="flex flex-col items-center gap-2"
+                  >
+                    <img
+                      src="/google-mobile-cert.webp"
+                      alt="Google Mobile UX Certified"
+                      className="w-20 h-20 object-contain"
+                    />
+                    <span className="text-xs text-muted-foreground text-center leading-tight">Google Mobile UX<br/>Certified</span>
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.85 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: 0.1 }}
+                    className="flex flex-col items-center gap-2"
+                  >
+                    <img
+                      src="/google-analytics-cert.webp"
+                      alt="Google Analytics Certified"
+                      className="w-20 h-20 object-contain"
+                    />
+                    <span className="text-xs text-muted-foreground text-center leading-tight">Google Analytics<br/>Certified</span>
+                  </motion.div>
                 </div>
               </div>
-              <div className="relative aspect-square">
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-full blur-3xl opacity-50"></div>
-                <div className="absolute inset-4 border border-primary/20 rounded-2xl rotate-3"></div>
-                <div className="absolute inset-4 border border-primary/20 rounded-2xl -rotate-3"></div>
-                <div className="absolute inset-4 bg-card rounded-2xl border border-border flex flex-col justify-center items-center p-8 text-center">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-2xl mb-4">UX</div>
-                  <h3 className="text-xl font-bold mb-2">Built for Conversion</h3>
-                  <p className="text-sm text-muted-foreground">Expertly crafted web experiences for forward-thinking businesses.</p>
+
+              {/* Right: Testimonial */}
+              <motion.div
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="relative"
+              >
+                {/* Glow */}
+                <div className="absolute -inset-4 bg-primary/5 rounded-3xl blur-2xl pointer-events-none" />
+                <div className="relative bg-card border border-border rounded-2xl p-8">
+                  {/* Stars */}
+                  <div className="flex gap-1 mb-5">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star key={i} size={16} className="text-primary fill-primary" />
+                    ))}
+                  </div>
+                  {/* Quote icon */}
+                  <Quote size={28} className="text-primary/30 mb-4" />
+                  <blockquote className="text-foreground text-lg leading-relaxed mb-6 font-medium">
+                    "Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+                  </blockquote>
+                  <div className="flex items-center gap-4 pt-4 border-t border-border">
+                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+                      <span className="text-primary font-bold text-sm">ZA</span>
+                    </div>
+                    <div>
+                      <div className="font-bold text-foreground">Zahrah Aullybocus</div>
+                      <div className="text-xs text-muted-foreground">Jan 5, 2026 · Google Review</div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>
-
-        <TestimonialBlock 
-          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
-          name="Zahrah Aullybocus"
-          date="Jan 5, 2026"
-        />
 
         <WorkShowcase limit={3} />
 
