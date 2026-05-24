@@ -8,7 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
 
-const Home = lazy(() => import("@/pages/Home"));
+import Home from "@/pages/Home";
 const ManagedHosting = lazy(() => import("@/pages/ManagedHosting"));
 const WebsiteSupport = lazy(() => import("@/pages/WebsiteSupport"));
 const NewWebsite = lazy(() => import("@/pages/NewWebsite"));
