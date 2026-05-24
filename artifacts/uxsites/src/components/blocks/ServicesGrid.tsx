@@ -67,8 +67,8 @@ export function ServicesGrid() {
             </div>
             <h3 className="text-xl font-bold mb-3 pr-20">{service.title}</h3>
             <p className="text-muted-foreground flex-grow mb-6 leading-relaxed">{service.description}</p>
-            <Link href={service.href} aria-label={`Learn more about ${service.title}`} className="inline-flex items-center text-sm font-bold text-foreground group-hover:text-primary transition-colors mt-auto">
-              Learn more <ArrowRight size={16} className="ml-1 group-hover:translate-x-1 transition-transform" />
+            <Link href={service.href} className="inline-flex items-center text-sm font-bold text-foreground group-hover:text-primary transition-colors mt-auto">
+              Learn more <span className="sr-only">about {service.title}</span> <ArrowRight size={16} className="ml-1 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
         );

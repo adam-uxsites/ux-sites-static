@@ -38,6 +38,7 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
+            aria-label={`Visit ${item.name}`}
             onClick={e => e.stopPropagation()}
           >
             <ExternalLink className="w-3.5 h-3.5" />
@@ -102,6 +103,7 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors mt-auto"
+            aria-label={`Visit ${item.name} website`}
           >
             Visit site <ExternalLink className="w-3 h-3" />
           </a>
