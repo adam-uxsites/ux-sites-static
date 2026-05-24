@@ -1,24 +1,7 @@
-import { defineConfig, type Plugin } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
-
-function asyncCss(): Plugin {
-  return {
-    name: "async-css",
-    enforce: "post",
-    transformIndexHtml: {
-      order: "post",
-      handler(html) {
-        return html.replace(
-          /<link rel="stylesheet" crossorigin href="([^"]+\.css)">/g,
-          (_, href) =>
-            `<link rel="preload" as="style" href="${href}" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link rel="stylesheet" crossorigin href="${href}"></noscript>`,
-        );
-      },
-    },
-  };
-}
 
 const port = Number(process.env.PORT) || 5173;
 const basePath = process.env.BASE_PATH || "/";
@@ -29,7 +12,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    asyncCss(),
   ],
   resolve: {
     alias: {
