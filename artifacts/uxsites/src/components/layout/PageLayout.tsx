@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import { Helmet } from "react-helmet-async";
 import { Nav } from "./Nav";
 import { Footer } from "./Footer";
-import { Breadcrumbs } from "./Breadcrumbs";
 import { localBusinessSchema } from "@/lib/schemas";
 
 interface PageLayoutProps {
@@ -18,7 +17,6 @@ export function PageLayout({ children }: PageLayoutProps) {
         </script>
       </Helmet>
       <Nav />
-      <Breadcrumbs />
       <div className="flex-1">
         {children}
       </div>
