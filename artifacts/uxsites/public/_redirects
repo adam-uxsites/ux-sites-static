@@ -1,2 +1,7 @@
+# Old URLs → new locations (301)
+/diy-websites-vs-professional-in-2025  /blog/diy-websites-vs-professional-in-2025  301
+/how-much-does-a-wordpress-website-cost-in-2025  /blog/how-much-does-a-wordpress-website-cost-in-2025  301
+/magento-to-shopify-migration-2025  /blog/magento-to-shopify-migration-2025  301
+
 # SPA fallback — all routes served by index.html
 /*    /index.html   200

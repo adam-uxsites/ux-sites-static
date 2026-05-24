@@ -52,3 +52,6 @@ libpeerconnection.log
 
 # Cloudflare Pages (local output if you run wrangler)
 .wrangler/
+
+# OpenCode reference files
+opencode-references/
