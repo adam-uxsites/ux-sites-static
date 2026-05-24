@@ -12,7 +12,7 @@ interface HeroBlockProps {
 
 export function HeroBlock({ tagline, headline, subheadline, primaryCta, secondaryCta, chips }: HeroBlockProps) {
   return (
-    <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <section className="relative pt-24 pb-20 md:pt-36 md:pb-32 overflow-hidden">
       {/* Floating triangles */}
       <div className="absolute -top-20 -right-10 w-64 h-64 bg-primary/10 rotate-[180deg] animate-[float-2_12s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
       <div className="absolute top-44 -right-32 w-44 h-44 bg-primary/10 rotate-[135deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none hidden md:block" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
