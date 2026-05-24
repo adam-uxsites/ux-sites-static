@@ -233,6 +233,7 @@ export default function WebsitesForAirConditioningFitters() {
                 >
                   <Link
                     href={item.href}
+                    aria-label={`Learn more about ${item.name}`}
                     className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"
                   >
                     <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3>
