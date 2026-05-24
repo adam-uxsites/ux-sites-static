@@ -5,7 +5,7 @@ import { ArrowRight, Server, Wrench, Globe, RefreshCcw, Code } from "lucide-reac
 const services = [
   {
     title: "Managed WordPress Hosting",
-    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support — all included from £50/month.",
+    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support  -  all included from £50/month.",
     icon: Server,
     href: "/managed-wordpress-hosting",
     primary: true,
@@ -57,7 +57,7 @@ export function ServicesGrid() {
           >
             {service.primary && service.tag && (
               <div className="absolute top-4 right-4">
-                <div className="text-xs font-bold px-2 py-1 bg-primary text-primary-foreground rounded-full">
+                <div className="text-sm font-bold px-2 py-1 bg-primary text-primary-foreground rounded-full">
                   {service.tag}
                 </div>
               </div>

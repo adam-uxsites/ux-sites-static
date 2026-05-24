@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams, Link } from "wouter";
 import { SEO } from "@/components/seo/SEO";
-import { articleSchema, breadcrumbSchema } from "@/lib/schemas";
+import { articleSchema, breadcrumbSchema, personSchema } from "@/lib/schemas";
 import { CTABanner } from "@/components/blocks/CTABanner";
-import { getPostBySlug, BLOG_POSTS } from "@/data/blogPosts";
+import { getPostBySlug, BLOG_POSTS, CATEGORY_COLORS } from "@/data/blogPosts";
 import { Calendar, Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import NotFound from "./not-found";
@@ -149,7 +149,9 @@ export default function BlogPost() {
             url: `https://uxsites.co.uk/blog/${post.slug}`,
             datePublished: toIsoDate(post.date),
             category: post.category,
+            image: `https://uxsites.co.uk${post.image}`,
           }),
+          personSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "Blog", url: "https://uxsites.co.uk/blog" },
@@ -171,11 +173,19 @@ export default function BlogPost() {
               </Link>
 
               <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground mb-6">
-                <span className="border border-border text-foreground px-2.5 py-0.5 rounded-md text-xs font-semibold">
+                <span
+                  className="px-2.5 py-0.5 rounded-md text-sm font-semibold"
+                  style={{
+                    backgroundColor: `${CATEGORY_COLORS[post.category] || "#40ED88"}20`,
+                    color: CATEGORY_COLORS[post.category] || "#40ED88",
+                    border: `1px solid ${CATEGORY_COLORS[post.category] || "#40ED88"}60`,
+                  }}
+                >
                   {post.category}
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar size={13} />
+                  <span className="text-muted-foreground/60 mr-0.5">Published</span>
                   {post.date}
                 </span>
                 <span className="flex items-center gap-1">
@@ -187,9 +197,23 @@ export default function BlogPost() {
               <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">
                 {post.title}
               </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-12 border-b border-border pb-12">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 {post.excerpt}
               </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="mb-12 rounded-2xl overflow-hidden border border-border flex items-center justify-center p-8 md:p-12"
+              style={{
+                background: `linear-gradient(135deg, ${CATEGORY_COLORS[post.category] || "#40ED88"}44 0%, ${CATEGORY_COLORS[post.category] || "#40ED88"}18 50%, transparent 100%)`,
+              }}
+            >
+              <h2 className="text-2xl md:text-3xl font-bold text-white text-center leading-snug drop-shadow-sm">
+                {post.title}
+              </h2>
             </motion.div>
 
             <motion.div
@@ -208,7 +232,7 @@ export default function BlogPost() {
                     data-testid="prev-post"
                     className="group flex flex-col gap-2 p-5 rounded-xl bg-card border border-border hover:border-foreground/20 transition-colors"
                   >
-                    <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                    <span className="flex items-center gap-1 text-sm text-muted-foreground">
                       <ArrowLeft size={13} /> Previous
                     </span>
                     <span className="text-sm font-bold leading-snug group-hover:text-primary transition-colors">
@@ -222,7 +246,7 @@ export default function BlogPost() {
                     data-testid="next-post"
                     className="group flex flex-col gap-2 p-5 rounded-xl bg-card border border-border hover:border-foreground/20 transition-colors text-right"
                   >
-                    <span className="flex items-center gap-1 text-xs text-muted-foreground justify-end">
+                    <span className="flex items-center gap-1 text-sm text-muted-foreground justify-end">
                       Next <ArrowRight size={13} />
                     </span>
                     <span className="text-sm font-bold leading-snug group-hover:text-primary transition-colors">
@@ -237,7 +261,7 @@ export default function BlogPost() {
 
         <CTABanner
           title="Need help with your website?"
-          description="Whether it's hosting, a new build, or a quick question — get in touch and we'll give you a straight answer."
+          description="Whether it's hosting, a new build, or a quick question  -  get in touch and we'll give you a straight answer."
           buttonText="Get in Touch"
           buttonHref="/contact"
         />

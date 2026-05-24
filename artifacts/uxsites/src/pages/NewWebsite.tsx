@@ -15,7 +15,7 @@ const processSteps = [
     number: "01",
     title: "Discovery & Strategy",
     description: "We start by understanding your business, your customers, and your goals. What do you want the website to achieve? Who are you trying to reach? What makes your business different? This shapes everything that follows.",
-    detail: "1–2 hours of your time via call or in-person (Shropshire area)"
+    detail: "1-2 hours of your time via call or in-person (Shropshire area)"
   },
   {
     number: "02",
@@ -32,7 +32,7 @@ const processSteps = [
   {
     number: "04",
     title: "WordPress Development",
-    description: "We build on WordPress with clean, efficient code — properly structured themes, minimal plugins, and a CMS that's genuinely easy for you to use. Speed and accessibility built in from day one.",
+    description: "We build on WordPress with clean, efficient code  -  properly structured themes, minimal plugins, and a CMS that's genuinely easy for you to use. Speed and accessibility built in from day one.",
     detail: "Development on a private staging URL"
   },
   {
@@ -50,7 +50,7 @@ const processSteps = [
 ];
 
 const included = [
-  "Custom design — no templates or page builders",
+  "Custom design  -  no templates or page builders",
   "Mobile-first, fully responsive across all devices",
   "Technical SEO foundations (meta, schema, sitemap, Search Console)",
   "Google Analytics 4 with goal and conversion tracking",
@@ -58,7 +58,7 @@ const included = [
   "SSL certificate and secure hosting setup",
   "Page speed optimisation from day one",
   "Image optimisation and compression",
-  "WordPress training — you'll feel confident using your site",
+  "WordPress training  -  you'll feel confident using your site",
   "1 month of post-launch support included",
   "Optional managed hosting from £50/month"
 ];
@@ -68,7 +68,7 @@ export default function NewWebsite() {
     <>
       <SEO
         title="New Website Design & Build | UX Sites Shropshire"
-        description="Custom WordPress websites for small and medium businesses in Shropshire and across the UK. Data-driven design, built to convert — from a Google UX Certified developer."
+        description="Custom WordPress websites built to generate real enquiries. Data-driven design, mobile-first, SEO-ready  -  from a Google UX Certified developer. Based in Shropshire, serving the UK."
         url="https://uxsites.co.uk/new-website"
         schema={[
           serviceSchema({
@@ -82,9 +82,9 @@ export default function NewWebsite() {
             { name: "New Website", url: "https://uxsites.co.uk/new-website" },
           ]),
           faqSchema([
-            { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4–6 weeks from the initial briefing to launch. Larger or more complex sites may take 8–10 weeks." },
+            { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4-6 weeks from the initial briefing to launch. Larger or more complex sites may take 8-10 weeks." },
             { question: "How much does a new website cost?", answer: "Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly." },
-            { question: "What platform do you build on?", answer: "We build on WordPress using custom themes — not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites." },
+            { question: "What platform do you build on?", answer: "We build on WordPress using custom themes  -  not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites." },
             { question: "Will I be able to update my website myself?", answer: "Yes. WordPress is built for non-technical users to manage content. We set up your site properly and include a training session so you feel confident making updates." },
           ]),
         ]}
@@ -93,7 +93,7 @@ export default function NewWebsite() {
         <HeroBlock
           tagline="Custom websites built to convert"
           headline="A Website That Actually Works for Your Business"
-          subheadline="Not a template. Not a page builder dragged into shape. A precision-crafted WordPress website designed around your customers, your goals, and your brand — built by a Google-certified UX expert with 10+ years of experience across 15+ industries."
+          subheadline="Not a template. Not a page builder dragged into shape. A precision-crafted WordPress website designed around your customers, your goals, and your brand  -  built by a Google-certified UX expert with 10+ years of experience across 15+ industries."
           primaryCta={{ text: "Start Your Project", href: "/contact" }}
           secondaryCta={{ text: "See Our Process", href: "#process" }}
           chips={["Bespoke Design", "Mobile First", "SEO Optimised", "Google UX Certified", "WordPress"]}
@@ -103,7 +103,7 @@ export default function NewWebsite() {
           stats={[
             { number: "228+", label: "Sites Delivered", sub: "Across 15+ industries" },
             { number: "10+", label: "Years Experience", sub: "In web design & UX" },
-            { number: "4–6", label: "Week Delivery", sub: "Typical project timeline" },
+            { number: "4-6", label: "Week Delivery", sub: "Typical project timeline" },
             { number: "100%", label: "Client Satisfaction", sub: "Across all projects" }
           ]}
         />
@@ -132,7 +132,7 @@ export default function NewWebsite() {
                 <div className="p-6 bg-card border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">What About Pricing?</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                    New websites are quoted based on your specific requirements — the number of pages, complexity of functionality, and whether content creation support is needed.
+                    New websites are quoted based on your specific requirements  -  the number of pages, complexity of functionality, and whether content creation support is needed.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
@@ -144,14 +144,14 @@ export default function NewWebsite() {
                     After launch, your site will need hosting and ideally ongoing maintenance. We recommend our managed hosting plan (£50/month or £500/year) which covers everything.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Domain registration is typically £10–15/year for a .co.uk domain.
+                    Domain registration is typically £10-15/year for a .co.uk domain.
                   </p>
                 </div>
                 <div className="p-6 bg-card border border-primary/30 rounded-2xl">
                   <h3 className="font-bold mb-3">Industries We've Worked In</h3>
                   <div className="flex flex-wrap gap-2">
                     {["Legal", "Property", "Health & Beauty", "Construction", "Ecommerce", "Manufacturing", "Education", "Logistics", "Events", "Finance", "Healthcare", "B2B"].map((ind, i) => (
-                      <span key={i} className="text-xs border border-border px-2.5 py-1 rounded-md text-muted-foreground">{ind}</span>
+                      <span key={i} className="text-sm border border-border px-2.5 py-1 rounded-md text-muted-foreground">{ind}</span>
                     ))}
                   </div>
                 </div>
@@ -183,7 +183,7 @@ export default function NewWebsite() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">{step.title}</h3>
                     <p className="text-muted-foreground leading-relaxed mb-3">{step.description}</p>
-                    <div className="text-xs text-muted-foreground border border-border rounded-md px-3 py-1.5 inline-block">
+                    <div className="text-sm text-muted-foreground border border-border rounded-md px-3 py-1.5 inline-block">
                       {step.detail}
                     </div>
                   </div>
@@ -194,20 +194,20 @@ export default function NewWebsite() {
         </section>
 
         <BenefitsGrid
-          title="Why UX Sites — Not Just Another Web Developer"
-          subtitle="10+ years of professional experience as a designer, developer, and UX analyst — applied to every project."
+          title="Why UX Sites  -  Not Just Another Web Developer"
+          subtitle="10+ years of professional experience as a designer, developer, and UX analyst  -  applied to every project."
           benefits={[
             {
               title: "Google UX Certified",
-              description: "Formal UX training and certification from Google means every design decision is grounded in how users actually think and behave — not just what looks nice."
+              description: "Formal UX training and certification from Google means every design decision is grounded in how users actually think and behave  -  not just what looks nice."
             },
             {
               title: "Data-Driven Approach",
-              description: "Designs informed by user research, analytics data, and conversion principles — not guesswork or personal preference. Every layout decision has a reason."
+              description: "Designs informed by user research, analytics data, and conversion principles  -  not guesswork or personal preference. Every layout decision has a reason."
             },
             {
               title: "WordPress Specialist",
-              description: "Deep WordPress expertise means your site is built properly — clean code, minimal plugins, and a CMS you'll actually find easy to use."
+              description: "Deep WordPress expertise means your site is built properly  -  clean code, minimal plugins, and a CMS you'll actually find easy to use."
             },
             {
               title: "15+ Industries Experience",
@@ -219,13 +219,13 @@ export default function NewWebsite() {
             },
             {
               title: "Shropshire-Based, Available",
-              description: "Based in Shropshire — available for in-person meetings for local clients, and fully remote-capable for businesses across the UK."
+              description: "Based in Shropshire  -  available for in-person meetings for local clients, and fully remote-capable for businesses across the UK."
             }
           ]}
         />
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site  -  I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Client"
@@ -235,11 +235,11 @@ export default function NewWebsite() {
           faqs={[
             {
               question: "How long does a new website take?",
-              answer: "Most small-to-medium business websites take 4–6 weeks from the initial briefing to launch. Larger or more complex sites may take 8–10 weeks. The timeline depends significantly on how quickly client content and feedback are provided — we'll give you a clear project schedule at the start."
+              answer: "Most small-to-medium business websites take 4-6 weeks from the initial briefing to launch. Larger or more complex sites may take 8-10 weeks. The timeline depends significantly on how quickly client content and feedback are provided  -  we'll give you a clear project schedule at the start."
             },
             {
               question: "Do I need to provide my own content?",
-              answer: "You'll need to provide the core information about your business — services, contact details, key messages, any existing brand materials. We structure and present it effectively. If you need help writing copy, we can discuss that as part of the brief, or recommend a copywriter."
+              answer: "You'll need to provide the core information about your business  -  services, contact details, key messages, any existing brand materials. We structure and present it effectively. If you need help writing copy, we can discuss that as part of the brief, or recommend a copywriter."
             },
             {
               question: "Will I be able to update my website myself?",
@@ -247,11 +247,11 @@ export default function NewWebsite() {
             },
             {
               question: "Do you work with businesses outside Shropshire?",
-              answer: "Yes — we work with businesses across the UK. The entire project can be managed remotely via video calls, email, and shared design tools. For Shropshire and West Midlands clients, in-person meetings are available."
+              answer: "Yes  -  we work with businesses across the UK. The entire project can be managed remotely via video calls, email, and shared design tools. For Shropshire and West Midlands clients, in-person meetings are available."
             },
             {
               question: "What platform do you build on?",
-              answer: "We build on WordPress using custom themes — not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites that don't rely on third-party subscriptions to function."
+              answer: "We build on WordPress using custom themes  -  not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites that don't rely on third-party subscriptions to function."
             },
             {
               question: "What happens after the site launches?",
@@ -262,7 +262,7 @@ export default function NewWebsite() {
 
         <CTABanner
           title="Ready to build something remarkable?"
-          description="Get in touch to discuss your project. We'll have a straightforward conversation about what you need, what's possible, and what it's likely to cost — no hard sell, no obligation."
+          description="Get in touch to discuss your project. We'll have a straightforward conversation about what you need, what's possible, and what it's likely to cost  -  no hard sell, no obligation."
           buttonText="Start the Conversation"
           buttonHref="/contact"
         />
@@ -272,7 +272,7 @@ export default function NewWebsite() {
           pages={[
             {
               title: "Web Design Shropshire",
-              description: "Local web design for businesses in Shrewsbury, Telford, and across Shropshire — in-person meetings available.",
+              description: "Local web design for businesses in Shrewsbury, Telford, and across Shropshire  -  in-person meetings available.",
               href: "/web-design-shropshire",
               tag: "Local"
             },
@@ -302,7 +302,7 @@ export default function NewWebsite() {
             },
             {
               title: "Local SEO for Shropshire Businesses",
-              description: "How to rank in local searches — practical steps that actually move the needle.",
+              description: "How to rank in local searches  -  practical steps that actually move the needle.",
               href: "/blog/local-seo-shropshire-businesses",
               tag: "Blog"
             }

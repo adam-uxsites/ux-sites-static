@@ -12,12 +12,12 @@ const improvements = [
   {
     icon: Smartphone,
     title: "Mobile Experience Overhaul",
-    description: "Rebuild the mobile experience from scratch with a genuine mobile-first approach — not just a shrunken desktop layout. Properly sized text, touch-friendly controls, and fast load times on 4G/5G."
+    description: "Rebuild the mobile experience from scratch with a genuine mobile-first approach  -  not just a shrunken desktop layout. Properly sized text, touch-friendly controls, and fast load times on 4G/5G."
   },
   {
     icon: Zap,
     title: "Performance Optimisation",
-    description: "Target Core Web Vitals improvements: image compression and WebP conversion, server-side caching, CSS/JS minification and deferral, database cleanup. Load time reductions of 60–70% are common."
+    description: "Target Core Web Vitals improvements: image compression and WebP conversion, server-side caching, CSS/JS minification and deferral, database cleanup. Load time reductions of 60-70% are common."
   },
   {
     icon: TrendingUp,
@@ -27,7 +27,7 @@ const improvements = [
   {
     icon: ShieldCheck,
     title: "Security Hardening",
-    description: "Full security audit, malware scan, removal of outdated or vulnerable plugins, login security improvements, and a clean baseline to move forward from — whether you're keeping your current host or moving."
+    description: "Full security audit, malware scan, removal of outdated or vulnerable plugins, login security improvements, and a clean baseline to move forward from  -  whether you're keeping your current host or moving."
   },
   {
     icon: BarChart2,
@@ -49,7 +49,7 @@ const auditCovers = [
   "SEO technical health (meta, schema, sitemap)",
   "Google Search Console data (if available)",
   "Conversion paths and calls to action",
-  "Plugin audit — bloat, conflicts, outdated",
+  "Plugin audit  -  bloat, conflicts, outdated",
   "Current hosting performance",
   "Accessibility basics"
 ];
@@ -59,12 +59,12 @@ export default function ExistingWebsite() {
     <>
       <SEO
         title="Website Refresh & Rebuild | UX Sites Shropshire"
-        description="Modernise your existing WordPress website. Performance improvements, mobile experience, design refresh, SEO, and conversion optimisation — for Shropshire businesses and across the UK."
+        description="Transform your existing WordPress site into a high-performance asset. Design refresh, speed optimisation, mobile improvements, SEO and conversion tweaks  -  free audit included."
         url="https://uxsites.co.uk/existing-website"
         schema={[
           serviceSchema({
             name: "Website Refresh & Rebuild",
-            description: "Modernise your existing WordPress website — performance optimisation, mobile experience improvements, design refresh, SEO, and conversion rate improvements. Free site audit included.",
+            description: "Modernise your existing WordPress website  -  performance optimisation, mobile experience improvements, design refresh, SEO, and conversion rate improvements. Free site audit included.",
             url: "https://uxsites.co.uk/existing-website",
             category: "Website Redesign",
           }),
@@ -78,7 +78,7 @@ export default function ExistingWebsite() {
         <HeroBlock
           tagline="Turn your website into an asset"
           headline="Website Refreshes & Rebuilds That Actually Deliver"
-          subheadline="Is your site slow, outdated, or simply not generating the enquiries it should? We modernise existing WordPress sites — improving performance, design, user experience, and conversions without necessarily starting from scratch."
+          subheadline="Is your site slow, outdated, or simply not generating the enquiries it should? We modernise existing WordPress sites  -  improving performance, design, user experience, and conversions without necessarily starting from scratch."
           primaryCta={{ text: "Get a Free Site Audit", href: "/contact" }}
           secondaryCta={{ text: "See What We Fix", href: "#improvements" }}
           chips={["Performance Fix", "Mobile Experience", "UX Improvements", "SEO", "Conversion Optimisation"]}
@@ -92,7 +92,7 @@ export default function ExistingWebsite() {
                 {
                   stat: "60%+",
                   context: "of web traffic is now on mobile devices",
-                  point: "If your site isn't excellent on mobile — not just functional, genuinely good — you're failing the majority of your visitors."
+                  point: "If your site isn't excellent on mobile  -  not just functional, genuinely good  -  you're failing the majority of your visitors."
                 },
                 {
                   stat: "32%",
@@ -102,7 +102,7 @@ export default function ExistingWebsite() {
                 {
                   stat: "50ms",
                   context: "time for a first trust impression",
-                  point: "An outdated-looking website communicates something about your business — even if the reality is entirely different."
+                  point: "An outdated-looking website communicates something about your business  -  even if the reality is entirely different."
                 }
               ].map((item, i) => (
                 <motion.div
@@ -132,11 +132,11 @@ export default function ExistingWebsite() {
                   Before recommending anything, we audit your current site properly. This gives us both a clear, honest picture of what's working, what isn't, and what the realistic options are.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  The audit takes a few days and results in a written summary you keep — whether you work with us or not. No obligation.
+                  The audit takes a few days and results in a written summary you keep  -  whether you work with us or not. No obligation.
                 </p>
                 <div className="p-6 bg-card border border-primary/30 rounded-2xl">
                   <p className="text-sm font-bold mb-2">What the free audit covers:</p>
-                  <p className="text-xs text-muted-foreground">Just share your website URL and we'll take it from there.</p>
+                  <p className="text-sm text-muted-foreground">Just share your website URL and we'll take it from there.</p>
                 </div>
               </div>
               <div className="grid grid-cols-1 gap-2">
@@ -179,7 +179,7 @@ export default function ExistingWebsite() {
                     "The content management setup works well"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">✓</div>
                       {item}
                     </li>
                   ))}
@@ -196,7 +196,7 @@ export default function ExistingWebsite() {
                     "Security issues are too embedded to resolve without starting clean"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">→</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">→</div>
                       {item}
                     </li>
                   ))}
@@ -209,7 +209,7 @@ export default function ExistingWebsite() {
         <section id="improvements">
           <BenefitsGrid
             title="What We Typically Improve"
-            subtitle="The most common areas where existing sites underperform — and where the right intervention has the biggest impact."
+            subtitle="The most common areas where existing sites underperform  -  and where the right intervention has the biggest impact."
             benefits={improvements.map(item => ({ title: item.title, description: item.description }))}
           />
         </section>
@@ -218,7 +218,7 @@ export default function ExistingWebsite() {
           faqs={[
             {
               question: "Can you work on a site that wasn't built by you?",
-              answer: "Yes — the majority of our refresh and rebuild work is on sites built by other developers. We review the codebase first and let you know our assessment before committing to a scope of work."
+              answer: "Yes  -  the majority of our refresh and rebuild work is on sites built by other developers. We review the codebase first and let you know our assessment before committing to a scope of work."
             },
             {
               question: "Will my site need to go offline during the work?",
@@ -226,7 +226,7 @@ export default function ExistingWebsite() {
             },
             {
               question: "How long does a refresh or rebuild take?",
-              answer: "A focused performance and design refresh can take 2–3 weeks. A more substantial redesign or full rebuild typically takes 4–8 weeks depending on scope. We give you a clear timeline before starting."
+              answer: "A focused performance and design refresh can take 2-3 weeks. A more substantial redesign or full rebuild typically takes 4-8 weeks depending on scope. We give you a clear timeline before starting."
             },
             {
               question: "What if I also need new content?",
@@ -234,14 +234,14 @@ export default function ExistingWebsite() {
             },
             {
               question: "Do I need to move hosting for a refresh?",
-              answer: "Not necessarily. If your current hosting is adequate and you want to stay with them, we can work with that. If poor hosting is contributing to your performance problems — which it often is — we'll tell you honestly and discuss the options."
+              answer: "Not necessarily. If your current hosting is adequate and you want to stay with them, we can work with that. If poor hosting is contributing to your performance problems  -  which it often is  -  we'll tell you honestly and discuss the options."
             }
           ]}
         />
 
         <CTABanner
           title="Let's see what your site is actually doing"
-          description="Get a free, honest site audit — no obligation, no sales pitch. We'll tell you what's working, what isn't, and what your realistic options are."
+          description="Get a free, honest site audit  -  no obligation, no sales pitch. We'll tell you what's working, what isn't, and what your realistic options are."
           buttonText="Request a Free Audit"
           buttonHref="/contact"
         />
@@ -251,13 +251,13 @@ export default function ExistingWebsite() {
           pages={[
             {
               title: "Website Speed Optimisation",
-              description: "Diagnose and fix the root causes of slow load times — Core Web Vitals, images, caching, and hosting.",
+              description: "Diagnose and fix the root causes of slow load times  -  Core Web Vitals, images, caching, and hosting.",
               href: "/website-speed-optimisation",
               tag: "Performance"
             },
             {
               title: "WordPress Security Monitoring",
-              description: "Security issues often explain poor performance — we scan, protect, and harden your site.",
+              description: "Security issues often explain poor performance  -  we scan, protect, and harden your site.",
               href: "/wordpress-security",
               tag: "Security"
             },
@@ -269,19 +269,19 @@ export default function ExistingWebsite() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Move to hosting built for WordPress — the fastest way to improve baseline performance.",
+              description: "Move to hosting built for WordPress  -  the fastest way to improve baseline performance.",
               href: "/managed-wordpress-hosting",
               tag: "Hosting"
             },
             {
-              title: "Core Web Vitals & Speed",
-              description: "How your site's loading performance directly impacts your rankings and revenue.",
-              href: "/blog/core-web-vitals-speed-conversion",
-              tag: "Blog"
+              title: "Websites for Small Businesses",
+              description: "Need a full rebuild? We build custom WordPress sites tailored to small businesses.",
+              href: "/small-business-websites",
+              tag: "Web Design"
             },
             {
               title: "5 Signs Your Website Needs a Rebuild",
-              description: "When a refresh isn't enough — the five clear indicators of a site that needs replacing.",
+              description: "When a refresh isn't enough  -  the five clear indicators of a site that needs replacing.",
               href: "/blog/5-signs-your-website-needs-a-rebuild",
               tag: "Blog"
             }

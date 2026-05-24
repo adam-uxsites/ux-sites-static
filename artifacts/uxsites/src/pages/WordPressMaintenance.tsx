@@ -26,8 +26,8 @@ export default function WordPressMaintenance() {
   return (
     <>
       <SEO
-        title="WordPress Maintenance Service | UX Sites — Monthly WordPress Care"
-        description="Professional WordPress maintenance service for UK businesses. Monthly plugin updates, security scanning, daily backups, uptime monitoring and expert support. From £50/month."
+        title="WordPress Maintenance Service | UX Sites  -  Monthly WordPress Care"
+        description="Professional WordPress maintenance for UK businesses. Monthly updates, security scanning, daily backups, uptime monitoring, and expert support  -  from £50/month. Stress-free site care."
         url="https://uxsites.co.uk/wordpress-maintenance"
         schema={[
           serviceSchema({
@@ -49,8 +49,8 @@ export default function WordPressMaintenance() {
       <main>
         <HeroBlock
           tagline="WordPress maintenance done properly"
-          headline="WordPress Maintenance Service — Done for You"
-          subheadline="WordPress requires regular, careful maintenance to stay secure, current, and performing well. Our maintenance service handles all of it — updates, backups, security, performance monitoring — so you can focus entirely on your business."
+          headline="WordPress Maintenance Service  -  Done for You"
+          subheadline="WordPress requires regular, careful maintenance to stay secure, current, and performing well. Our maintenance service handles all of it  -  updates, backups, security, performance monitoring  -  so you can focus entirely on your business."
           primaryCta={{ text: "Get Maintenance Coverage", href: "/contact" }}
           secondaryCta={{ text: "Full Hosting & Support", href: "/website-support" }}
           chips={["Plugin Updates", "Security Scanning", "Daily Backups", "Uptime Monitoring", "Expert Support"]}
@@ -63,13 +63,13 @@ export default function WordPressMaintenance() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">What Happens to an Unmaintained WordPress Site</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  WordPress isn't a "set it and forget it" platform. Without regular maintenance, sites gradually deteriorate — and the consequences range from embarrassing to business-critical.
+                  WordPress isn't a "set it and forget it" platform. Without regular maintenance, sites gradually deteriorate  -  and the consequences range from embarrassing to business-critical.
                 </p>
                 <div className="space-y-4">
                   {[
                     { risk: "Security vulnerabilities accumulate", consequence: "Outdated plugins are the #1 cause of WordPress hacks. Each update that doesn't get applied is a potential entry point for attackers." },
-                    { risk: "Plugin conflicts cause breakages", consequence: "Multiple plugins updating at different times without compatibility testing is a recipe for a broken site — often discovered by a customer, not you." },
-                    { risk: "Performance degrades over time", consequence: "Database bloat, uncompressed images, and accumulated redundant data slow your site down — which hurts both rankings and conversions." },
+                    { risk: "Plugin conflicts cause breakages", consequence: "Multiple plugins updating at different times without compatibility testing is a recipe for a broken site  -  often discovered by a customer, not you." },
+                    { risk: "Performance degrades over time", consequence: "Database bloat, uncompressed images, and accumulated redundant data slow your site down  -  which hurts both rankings and conversions." },
                     { risk: "Backup failures go unnoticed", consequence: "Many cheap hosting backups fail silently. You only find out when you need to restore and there's nothing there." }
                   ].map((item, i) => (
                     <motion.div
@@ -84,7 +84,7 @@ export default function WordPressMaintenance() {
                         <AlertTriangle size={16} className="text-yellow-500 shrink-0 mt-0.5" />
                         <span className="font-bold text-sm">{item.risk}</span>
                       </div>
-                      <p className="text-xs text-muted-foreground leading-relaxed pl-7">{item.consequence}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed pl-7">{item.consequence}</p>
                     </motion.div>
                   ))}
                 </div>
@@ -106,8 +106,8 @@ export default function WordPressMaintenance() {
                         <span className="text-sm font-medium">{item.task}</span>
                       </div>
                       <div className="text-right shrink-0 ml-4">
-                        <div className="text-xs font-semibold text-primary">{item.frequency}</div>
-                        <div className="text-xs text-muted-foreground">{item.detail}</div>
+                        <div className="text-sm font-semibold text-primary">{item.frequency}</div>
+                        <div className="text-sm text-muted-foreground">{item.detail}</div>
                       </div>
                     </motion.div>
                   ))}
@@ -123,14 +123,14 @@ export default function WordPressMaintenance() {
             <div className="text-center mb-14">
               <h2 className="text-3xl font-bold mb-4">How We Apply Updates Safely</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                "Just clicking update" is how sites break. Our process is methodical — ensuring updates are applied safely, with an instant rollback path if anything goes wrong.
+                "Just clicking update" is how sites break. Our process is methodical  -  ensuring updates are applied safely, with an instant rollback path if anything goes wrong.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { step: "1", title: "Backup first", desc: "A fresh backup is taken immediately before any update is applied — giving us an instant restore point." },
+                { step: "1", title: "Backup first", desc: "A fresh backup is taken immediately before any update is applied  -  giving us an instant restore point." },
                 { step: "2", title: "Review the update", desc: "We check plugin changelogs for major changes, known conflicts, and compatibility with your WordPress version." },
-                { step: "3", title: "Apply & test", desc: "Updates are applied and the site is tested — key pages, forms, checkout if applicable — to confirm nothing has broken." },
+                { step: "3", title: "Apply & test", desc: "Updates are applied and the site is tested  -  key pages, forms, checkout if applicable  -  to confirm nothing has broken." },
                 { step: "4", title: "Monitor", desc: "Post-update monitoring continues for 24 hours. If any issues surface, we restore from the pre-update backup immediately." }
               ].map((s, i) => (
                 <motion.div
@@ -151,31 +151,31 @@ export default function WordPressMaintenance() {
         </section>
 
         <BenefitsGrid
-          title="Beyond Updates — What Maintenance Really Covers"
+          title="Beyond Updates  -  What Maintenance Really Covers"
           benefits={[
             {
               title: "Security Hardening",
-              description: "Login protection, file permission checks, and configuration hardening — reducing attack surface beyond just keeping software current."
+              description: "Login protection, file permission checks, and configuration hardening  -  reducing attack surface beyond just keeping software current."
             },
             {
               title: "Database Maintenance",
-              description: "Regular cleanup of post revisions, spam comments, expired transients, and orphaned metadata — keeping the database lean and queries fast."
+              description: "Regular cleanup of post revisions, spam comments, expired transients, and orphaned metadata  -  keeping the database lean and queries fast."
             },
             {
               title: "Image Optimisation",
-              description: "New images uploaded to WordPress are automatically compressed and converted to WebP — preventing the gradual performance degradation that comes with unoptimised media."
+              description: "New images uploaded to WordPress are automatically compressed and converted to WebP  -  preventing the gradual performance degradation that comes with unoptimised media."
             },
             {
               title: "Plugin Audit",
-              description: "Quarterly review of all installed plugins — removing unused ones, identifying redundant or conflicting ones, and flagging any that have become abandoned by their developers."
+              description: "Quarterly review of all installed plugins  -  removing unused ones, identifying redundant or conflicting ones, and flagging any that have become abandoned by their developers."
             },
             {
               title: "Monthly Reporting",
-              description: "A clear monthly summary of everything done: updates applied, security scan results, uptime, backup status, and performance scores — in plain language."
+              description: "A clear monthly summary of everything done: updates applied, security scan results, uptime, backup status, and performance scores  -  in plain language."
             },
             {
               title: "Content Update Requests",
-              description: "Simple content changes (text, images, contact details, prices) handled by email — no need to log into WordPress yourself."
+              description: "Simple content changes (text, images, contact details, prices) handled by email  -  no need to log into WordPress yourself."
             }
           ]}
         />
@@ -212,8 +212,8 @@ export default function WordPressMaintenance() {
                   ].map(([feature, maint, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
-                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">✓</span> : <span className="text-muted-foreground">—</span>}</td>
-                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground">—</span>}</td>
+                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
+                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
                     </tr>
                   ))}
                   <tr className="border-b border-border/50">
@@ -225,7 +225,7 @@ export default function WordPressMaintenance() {
               </table>
             </div>
             <div className="text-center mt-8">
-              <p className="text-muted-foreground text-sm mb-4">Most clients find managed hosting better value — it replaces their existing hosting cost entirely.</p>
+              <p className="text-muted-foreground text-sm mb-4">Most clients find managed hosting better value  -  it replaces their existing hosting cost entirely.</p>
               <Link href="/managed-wordpress-hosting" className="text-primary text-sm font-bold hover:underline">
                 View managed hosting plans from £50/month →
               </Link>
@@ -245,22 +245,22 @@ export default function WordPressMaintenance() {
             },
             {
               question: "What if an update breaks my site?",
-              answer: "We take a backup immediately before every update. If anything breaks, we restore from that backup and investigate the conflict before trying again — usually within the hour."
+              answer: "We take a backup immediately before every update. If anything breaks, we restore from that backup and investigate the conflict before trying again  -  usually within the hour."
             },
             {
               question: "How is this different from my hosting provider's 'auto-updates'?",
-              answer: "Hosting provider auto-updates just apply updates without any testing or compatibility checking. Ours involves a review, backup, application, and testing process — plus someone who actually looks at your site and will notice if something looks wrong."
+              answer: "Hosting provider auto-updates just apply updates without any testing or compatibility checking. Ours involves a review, backup, application, and testing process  -  plus someone who actually looks at your site and will notice if something looks wrong."
             },
             {
               question: "Do I need a maintenance service if I'm on your managed hosting?",
-              answer: "No — managed hosting includes all maintenance tasks automatically. If you're on our managed hosting plan, you're already covered."
+              answer: "No  -  managed hosting includes all maintenance tasks automatically. If you're on our managed hosting plan, you're already covered."
             }
           ]}
         />
 
         <CTABanner
           title="Stop worrying about your WordPress site"
-          description="Get ongoing maintenance coverage and know your site is being looked after — properly, by someone who understands it."
+          description="Get ongoing maintenance coverage and know your site is being looked after  -  properly, by someone who understands it."
           buttonText="Get in Touch"
           buttonHref="/contact"
           secondaryButtonText="View Managed Hosting"
@@ -272,13 +272,13 @@ export default function WordPressMaintenance() {
           pages={[
             {
               title: "Website Support & Care Plans",
-              description: "Full care plan details — what's covered and why it matters for your business.",
+              description: "Full care plan details  -  what's covered and why it matters for your business.",
               href: "/website-support",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + maintenance in one plan — the most complete solution from £50/month.",
+              description: "Hosting + maintenance in one plan  -  the most complete solution from £50/month.",
               href: "/managed-wordpress-hosting",
               tag: "Service"
             },
@@ -296,7 +296,7 @@ export default function WordPressMaintenance() {
             },
             {
               title: "Website Speed Optimisation",
-              description: "How we keep your site loading fast — and why speed matters for rankings.",
+              description: "How we keep your site loading fast  -  and why speed matters for rankings.",
               href: "/website-speed-optimisation",
               tag: "Related"
             },

@@ -1,0 +1,49 @@
+# UX Sites
+> Managed WordPress hosting, web design, and ongoing support for small and medium businesses in Shropshire and across the UK.
+
+## Core pages
+- Home: https://uxsites.co.uk/
+- Managed WordPress Hosting: https://uxsites.co.uk/managed-wordpress-hosting (From £50/month. Daily backups, security monitoring, performance optimisation, updates, and expert support.)
+- New Website Design & Build: https://uxsites.co.uk/new-website (Bespoke WordPress websites with data-driven UX design. From £1,500.)
+- Website Refreshes: https://uxsites.co.uk/existing-website
+- Website Support & Care Plans: https://uxsites.co.uk/website-support
+- Instant Quote: https://uxsites.co.uk/instant-site-quote
+- Contact: https://uxsites.co.uk/contact
+
+## Services
+- Fully Managed WordPress Hosting: https://uxsites.co.uk/fully-managed-wordpress-hosting
+- What Is Managed Hosting: https://uxsites.co.uk/what-is-managed-wordpress-hosting
+- Managed vs Shared Hosting: https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting
+- What's Included: https://uxsites.co.uk/whats-included-managed-wordpress-hosting
+- Small Business Hosting: https://uxsites.co.uk/managed-hosting-small-businesses
+- Hosting Cost UK: https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026
+- WordPress Security Monitoring: https://uxsites.co.uk/wordpress-security
+- WordPress Backup & Recovery: https://uxsites.co.uk/wordpress-backup-recovery
+- WordPress Maintenance Service: https://uxsites.co.uk/wordpress-maintenance
+- Websites for Consultants: https://uxsites.co.uk/websites-for-consultants
+- Web Design Shropshire: https://uxsites.co.uk/web-design-shropshire
+- Speed Optimisation: https://uxsites.co.uk/website-speed-optimisation
+
+## Guides
+- WordPress Help & Guides: https://uxsites.co.uk/wordpress-help
+- Fix a Slow WordPress Site: https://uxsites.co.uk/wordpress-help/wordpress-slow
+- WordPress Security Guide: https://uxsites.co.uk/wordpress-help/wordpress-security
+- WordPress Update Issues: https://uxsites.co.uk/wordpress-help/wordpress-update-issues
+- Why Sites Get Hacked: https://uxsites.co.uk/wordpress-help/wordpress-hacked
+- Maintenance Checklist: https://uxsites.co.uk/wordpress-help/wordpress-maintenance
+- Common WordPress Errors: https://uxsites.co.uk/common-wordpress-errors
+- WordPress Care Plan: https://uxsites.co.uk/wordpress-care-plan
+- WordPress Migration: https://uxsites.co.uk/wordpress-migration-to-managed-hosting
+
+## Blog
+- Why Managed WordPress Hosting is Essential: https://uxsites.co.uk/blog/why-managed-wordpress-hosting
+- 5 Signs Your Website Needs a Rebuild: https://uxsites.co.uk/blog/5-signs-your-website-needs-a-rebuild
+- Core Web Vitals: Speed & Conversion: https://uxsites.co.uk/blog/core-web-vitals-speed-conversion
+- Local SEO for Shropshire Businesses: https://uxsites.co.uk/blog/local-seo-shropshire-businesses
+- WordPress Security Essentials: https://uxsites.co.uk/blog/wordpress-security-essentials
+- Why Your WordPress Site Keeps Breaking: https://uxsites.co.uk/blog/why-your-wordpress-website-keeps-breaking
+- Managed Hosting Shropshire & Wrexham: https://uxsites.co.uk/blog/managed-wordpress-hosting-shropshire-wrexham-local-support-2026
+- Managed Hosting for Small Business 2026: https://uxsites.co.uk/blog/managed-wordpress-hosting-small-business-2026
+- Web Design Shropshire & Chester: https://uxsites.co.uk/blog/web-design-shropshire-chester
+- Website Redesign UK: https://uxsites.co.uk/blog/website-redesign-uk
+- WordPress Website Cost 2025: https://uxsites.co.uk/blog/how-much-does-a-wordpress-website-cost-in-2025

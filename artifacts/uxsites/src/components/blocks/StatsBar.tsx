@@ -24,7 +24,7 @@ export function StatsBar({ stats }: StatsBarProps) {
             >
               <div className="text-3xl md:text-4xl font-bold text-primary mb-1">{stat.number}</div>
               <div className="text-sm text-foreground font-semibold">{stat.label}</div>
-              {stat.sub && <div className="text-xs text-muted-foreground mt-0.5">{stat.sub}</div>}
+              {stat.sub && <div className="text-sm text-muted-foreground mt-0.5">{stat.sub}</div>}
             </motion.div>
           ))}
         </div>

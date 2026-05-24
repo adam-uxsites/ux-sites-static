@@ -34,7 +34,7 @@ export function RelatedPages({ title = "Related Guides & Services", pages }: Rel
                 className="group flex flex-col h-full p-5 bg-card border border-border rounded-xl hover:border-foreground/20 transition-colors"
               >
                 {page.tag && (
-                  <span className="text-xs font-semibold text-muted-foreground border border-border rounded-md px-2 py-0.5 mb-3 self-start">
+                  <span className="text-sm font-semibold text-muted-foreground border border-border rounded-md px-2 py-0.5 mb-3 self-start">
                     {page.tag}
                   </span>
                 )}
@@ -44,7 +44,7 @@ export function RelatedPages({ title = "Related Guides & Services", pages }: Rel
                 <p className="text-sm text-muted-foreground leading-relaxed flex-grow mb-3">
                   {page.description}
                 </p>
-                <span className="inline-flex items-center gap-1 text-xs font-bold text-muted-foreground group-hover:text-primary transition-colors">
+                <span className="inline-flex items-center gap-1 text-sm font-bold text-muted-foreground group-hover:text-primary transition-colors">
                   Read more <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
                 </span>
               </Link>

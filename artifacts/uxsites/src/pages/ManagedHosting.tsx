@@ -7,14 +7,15 @@ import { StatsBar } from "@/components/blocks/StatsBar";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { SiteDashboardMockup } from "@/components/blocks/SiteDashboardMockup";
 import { motion } from "framer-motion";
-import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
-import { Check, Shield, Zap, HardDrive, HeadphonesIcon, BarChart3, Globe, RefreshCw, Lock } from "lucide-react";
+import { Link } from "wouter";
+import { serviceSchema, breadcrumbSchema, faqSchema, organizationSchema, personSchema } from "@/lib/schemas";
+import { Check, Shield, Zap, HardDrive, HeadphonesIcon, BarChart3, Globe, RefreshCw, Lock, Clock } from "lucide-react";
 
 const included = [
   {
     icon: HardDrive,
     title: "Daily Automated Backups",
-    description: "Your site is backed up every day to secure off-site cloud storage. Backups are retained for 30 days. If anything goes wrong — a bad update, an accidental deletion, a hack — we can restore your site to a clean working state within the hour."
+    description: "Your site is backed up every day to secure off-site cloud storage. Backups are retained for 30 days. If anything goes wrong  -  a bad update, an accidental deletion, a hack  -  we can restore your site to a clean working state within the hour."
   },
   {
     icon: Shield,
@@ -24,17 +25,17 @@ const included = [
   {
     icon: RefreshCw,
     title: "WordPress Core, Plugin & Theme Updates",
-    description: "Outdated software is the number one cause of WordPress hacks. We apply updates carefully and promptly — reviewing compatibility before pushing them live. You never need to log into your dashboard to run updates."
+    description: "Outdated software is the number one cause of WordPress hacks. We apply updates carefully and promptly  -  reviewing compatibility before pushing them live. You never need to log into your dashboard to run updates."
   },
   {
     icon: Zap,
     title: "Performance Optimisation",
-    description: "Fast websites rank better and convert more visitors. We implement server-level caching, image optimisation, CSS and JS minification, and database maintenance to keep your site loading quickly — and we monitor performance over time."
+    description: "Fast websites rank better and convert more visitors. We implement server-level caching, image optimisation, CSS and JS minification, and database maintenance to keep your site loading quickly  -  and we monitor performance over time."
   },
   {
     icon: HeadphonesIcon,
     title: "Expert Email & Plugin Support",
-    description: "When something looks wrong or you have a question, you're talking to someone who actually knows your website — not a generic support ticket. We respond quickly and give you straight answers, not copy-pasted documentation."
+    description: "When something looks wrong or you have a question, you're talking to someone who actually knows your website  -  not a generic support ticket. We respond quickly and give you straight answers, not copy-pasted documentation."
   },
   {
     icon: Globe,
@@ -44,19 +45,19 @@ const included = [
   {
     icon: BarChart3,
     title: "Google Analytics 4 Setup",
-    description: "We set up Google Analytics 4 properly — with goals, conversion tracking, and a clear view of how your visitors behave. You'll have actual data to make decisions with, not just a page view counter."
+    description: "We set up Google Analytics 4 properly  -  with goals, conversion tracking, and a clear view of how your visitors behave. You'll have actual data to make decisions with, not just a page view counter."
   },
   {
     icon: Lock,
     title: "Uptime Monitoring & 99.9% Commitment",
-    description: "We monitor your site every minute from multiple locations. If your site goes down, we know before you do — and we're already working on it. We commit to 99.9% uptime, which means less than 9 hours downtime per year."
+    description: "We monitor your site every minute from multiple locations. If your site goes down, we know before you do  -  and we're already working on it. We commit to 99.9% uptime, which means less than 9 hours downtime per year."
   }
 ];
 
 const whyManaged = [
   {
     title: "Your time is worth more than this",
-    description: "Managing WordPress updates, security, and backups yourself takes 2–4 hours every month. At any realistic hourly rate, that's more than the cost of managed hosting — and it's time you could spend on your business."
+    description: "Managing WordPress updates, security, and backups yourself takes 2-4 hours every month. At any realistic hourly rate, that's more than the cost of managed hosting  -  and it's time you could spend on your business."
   },
   {
     title: "One bad update can break your site",
@@ -64,11 +65,11 @@ const whyManaged = [
   },
   {
     title: "43% of WordPress sites get hacked",
-    description: "The vast majority of WordPress compromises are preventable with proper maintenance. An infected site costs far more to clean than a managed hosting plan — and the reputational damage can be significant."
+    description: "The vast majority of WordPress compromises are preventable with proper maintenance. An infected site costs far more to clean than a managed hosting plan  -  and the reputational damage can be significant."
   },
   {
     title: "Speed directly affects your revenue",
-    description: "A 1-second improvement in load time increases conversions by up to 7%. Our managed environment includes active performance monitoring — your site doesn't just stay up, it stays fast."
+    description: "A 1-second improvement in load time increases conversions by up to 7%. Our managed environment includes active performance monitoring  -  your site doesn't just stay up, it stays fast."
   }
 ];
 
@@ -77,26 +78,28 @@ export default function ManagedHosting() {
     <>
       <SEO
         title="Managed WordPress Hosting | From £50/month | UX Sites Shropshire"
-        description="Fully managed WordPress hosting from £50/month. Daily backups, security monitoring, performance optimisation, updates, and expert support — all included. Based in Shropshire."
+        description="Stress-free managed WordPress hosting from £50/month. Daily backups, security monitoring, performance optimisation, WordPress updates, and expert support  -  no technical headaches."
         url="https://uxsites.co.uk/managed-wordpress-hosting"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting",
-            description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support — all included.",
+            description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
             url: "https://uxsites.co.uk/managed-wordpress-hosting",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
             priceUnit: "month",
           }),
+          organizationSchema(),
+          personSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
           ]),
           faqSchema([
-            { question: "What exactly is managed WordPress hosting?", answer: "Standard hosting gives you server space and leaves everything else to you — updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously." },
-            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting starts from £50/month on a rolling monthly plan, or £500/year on an annual plan (saving £100 — equivalent to two months free)." },
-            { question: "Can you migrate my existing site?", answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is always included free." },
+            { question: "What exactly is managed WordPress hosting?", answer: "Standard hosting gives you server space and leaves everything else to you  -  updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously." },
+            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting starts from £50/month on a rolling monthly plan, or £500/year on an annual plan (saving £100  -  equivalent to two months free)." },
+            { question: "Can you migrate my existing site?", answer: "Yes. We handle the complete migration process  -  WordPress files, database, any email accounts, and DNS management. Migration is always included free." },
             { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months." },
           ]),
         ]}
@@ -105,31 +108,31 @@ export default function ManagedHosting() {
         <HeroBlock
           tagline="Everything included, nothing to worry about"
           headline="Managed WordPress Hosting from £50/month"
-          subheadline="We handle the hosting, security, backups, performance, and updates — so you can focus entirely on running your business. No technical knowledge required. No nasty surprises."
+          subheadline="We handle the hosting, security, backups, performance, and updates  -  so you can focus entirely on running your business. No technical knowledge required. No nasty surprises."
           primaryCta={{ text: "Get Started", href: "/contact" }}
           secondaryCta={{ text: "View Pricing", href: "#pricing" }}
-          chips={["Daily Backups", "Security Monitoring", "99.9% Uptime", "Expert Support", "SSL Included", "Performance Optimised"]}
+          chips={["Daily Backups", "Security Monitoring", "30 Min Dev Time", "Expert Support", "SSL Included", "Performance Optimised"]}
         />
 
         <StatsBar
           stats={[
             { number: "99.9%", label: "Uptime Commitment", sub: "Less than 9hrs downtime/year" },
-            { number: "30", label: "Days Backup Retention", sub: "Off-site cloud storage" },
+            { number: "30", label: "Min Dev Time / Month", sub: "Content changes included" },
             { number: "24/7", label: "Security Monitoring", sub: "Continuous active scanning" },
-            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" }
+            { number: "£50", label: "Per Month", sub: "Or £500/year  -  save £100" }
           ]}
         />
 
-        {/* What's included */}
-        <section className="py-24 bg-background">
-          <div className="container mx-auto px-4 max-w-6xl">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Everything Included — No Hidden Extras</h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+
+        <section className="section-padding-lg bg-background">
+          <div className="section-wrap">
+            <div className="section-header">
+              <h2 className="heading-section mb-4">Everything Included  -  No Hidden Extras</h2>
+              <p className="subhead-section">
                 Unlike standard hosting that charges extra for backups, security, and support, our managed plan includes everything your WordPress site needs to stay secure, fast, and online.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid-cards">
               {included.map((item, i) => {
                 const Icon = item.icon;
                 return (
@@ -139,14 +142,14 @@ export default function ManagedHosting() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.07 }}
-                    className="flex gap-5 p-7 bg-card border border-border rounded-2xl hover:border-foreground/15 transition-colors"
+                    className="card-base card-hover flex gap-5 p-7"
                   >
-                    <div className="shrink-0 w-11 h-11 rounded-xl bg-muted flex items-center justify-center">
+                    <div className="card-icon-box">
                       <Icon size={20} className="text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2">{item.title}</h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                      <h3 className="heading-card mb-2">{item.title}</h3>
+                      <p className="body-card">{item.description}</p>
                     </div>
                   </motion.div>
                 );
@@ -156,22 +159,25 @@ export default function ManagedHosting() {
         </section>
 
         {/* Content updates section */}
-        <section className="py-20 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+        <section className="section-padding section-alt">
+          <div className="section-wrap">
+            <div className="grid-split">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Content Update Requests Included</h2>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Both plans include simple content update requests — text changes, image swaps, opening hours, contact details, adding new team members, updating a product or service description.
+                <div className="tag-pill mb-4">
+                  <Clock size={12} /> 30 mins included
+                </div>
+                <h2 className="heading-section mb-6">30 Minutes Development Time  -  Included Every Month</h2>
+                <p className="body-lg mb-6">
+                  Both plans include <strong className="text-foreground">up to 30 minutes of development time each month</strong> for content changes  -  text edits, image swaps, updating team profiles, adding new service descriptions, changing pricing, or any other routine content updates.
                 </p>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  Just email us what needs changing. We'll turn it around promptly — no need to log into WordPress, no worrying about breaking the design.
+                <p className="body-lg mb-8">
+                  Just email us what needs changing. We'll turn it around promptly  -  no need to log into WordPress, no worrying about breaking the design. This is the kind of ongoing support you simply won't find with standard hosting at this price point.
                 </p>
                 <ul className="space-y-3">
                   {["Text and copy changes", "Image updates and additions", "Contact details and business info", "Opening hours and pricing", "Team profiles and bios", "Service descriptions"].map((item, i) => (
                     <li key={i} className="flex items-center gap-3 text-sm">
-                      <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0">
-                        <Check size={12} className="text-primary-foreground" strokeWidth={3} />
+                      <div className="check-bullet">
+                        <Check size={12} className="check-icon" />
                       </div>
                       {item}
                     </li>
@@ -184,7 +190,7 @@ export default function ManagedHosting() {
                     <div className="w-2 h-2 rounded-full bg-red-500"></div>
                     <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
                     <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                    <span className="text-xs text-muted-foreground ml-2">Email to hello@uxsites.co.uk</span>
+                    <span className="text-sm text-muted-foreground ml-2">Email to hello@uxsites.co.uk</span>
                   </div>
                   <div className="space-y-4 text-sm">
                     <div>
@@ -195,9 +201,9 @@ export default function ManagedHosting() {
                       "Hi Adam, can you update our phone number on the contact page? It's changed to 01743 000 111. Also, can you swap the team photo on the About page? I've attached the new one."
                     </div>
                     <div className="border-t border-border pt-4">
-                      <div className="text-primary font-semibold text-xs mb-1">Reply — same day</div>
+                      <div className="text-primary font-semibold text-sm mb-1">Reply  -  same day</div>
                       <div className="text-muted-foreground leading-relaxed">
-                        "Done — phone number updated and new team photo live. Let me know if anything else needs changing."
+                        "Done  -  phone number updated and new team photo live. Let me know if anything else needs changing."
                       </div>
                     </div>
                   </div>
@@ -208,15 +214,15 @@ export default function ManagedHosting() {
         </section>
 
         {/* Why managed section */}
-        <section className="py-24 bg-background">
-          <div className="container mx-auto px-4 max-w-6xl">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Managed Hosting Makes Sense</h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+        <section className="section-padding-lg bg-background">
+          <div className="section-wrap">
+            <div className="section-header">
+              <h2 className="heading-section mb-4">Why Managed Hosting Makes Sense</h2>
+              <p className="subhead-section">
                 Standard hosting gives you server space and leaves the rest to you. Here's why that's a problem.
               </p>
             </div>
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid-split-wide">
               {/* Reasons */}
               <div className="space-y-5">
                 {whyManaged.map((item, i) => (
@@ -226,14 +232,14 @@ export default function ManagedHosting() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.1 }}
-                    className="flex gap-5 p-6 bg-card border border-border rounded-2xl"
+                    className="card-base flex gap-5 p-6"
                   >
                     <div className="shrink-0 w-8 h-8 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center text-sm font-bold text-primary">
                       {i + 1}
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2">{item.title}</h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                      <h3 className="heading-card mb-2">{item.title}</h3>
+                      <p className="body-card">{item.description}</p>
                     </div>
                   </motion.div>
                 ))}
@@ -252,7 +258,7 @@ export default function ManagedHosting() {
         </section>
 
         {/* Comparison table */}
-        <section className="py-20 bg-card border-y border-border">
+        <section className="section-padding section-alt">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Managed vs Standard Hosting</h2>
@@ -276,22 +282,23 @@ export default function ManagedHosting() {
                     ["Daily off-site backups", false, true],
                     ["Malware removal included", false, true],
                     ["Performance optimisation", false, true],
+                    ["30 min monthly development time", false, true],
                     ["Content updates on request", false, true],
                     ["Expert support (real person)", false, true],
                     ["99.9% uptime commitment", false, true],
                     ["SSL certificate", "Extra cost", "Included"],
-                    ["Your time required (hrs/month)", "2–4 hrs", "0 hrs"],
+                    ["Your time required (hrs/month)", "2-4 hrs", "0 hrs"],
                   ].map(([feature, cheap, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-4 px-4 text-foreground font-medium">{feature as string}</td>
                       <td className="py-4 px-4 text-center">
                         {cheap === false
-                          ? <span className="text-muted-foreground">✕</span>
+                          ? <span className="text-muted-foreground">&#x2715;</span>
                           : <span className="text-muted-foreground">{cheap as string}</span>}
                       </td>
                       <td className="py-4 px-4 text-center">
                         {managed === true
-                          ? <span className="text-primary font-bold">✓</span>
+                          ? <span className="text-primary font-bold">&#x2713;</span>
                           : <span className="text-primary font-bold">{managed as string}</span>}
                       </td>
                     </tr>
@@ -310,7 +317,7 @@ export default function ManagedHosting() {
                 title: "Monthly",
                 price: "£50",
                 period: "month",
-                description: "Flexible rolling plan — cancel any time with 30 days notice.",
+                description: "Flexible rolling plan  -  cancel any time with 30 days notice.",
                 features: [
                   "Professional managed WordPress hosting",
                   "Daily automated off-site backups (30-day retention)",
@@ -319,18 +326,18 @@ export default function ManagedHosting() {
                   "Performance optimisation & caching",
                   "SSL certificate included",
                   "Google Analytics 4 setup",
-                  "Content update requests",
-                  "Uptime monitoring — 99.9% commitment",
+                  "30 min monthly content changes",
+                  "Uptime monitoring  -  99.9% commitment",
                   "Email & plugin support"
                 ],
-                ctaText: "Get Started — Monthly",
+                ctaText: "Get Started  -  Monthly",
                 ctaHref: "/contact?plan=monthly"
               },
               {
                 title: "Annual",
                 price: "£500",
                 period: "year",
-                description: "Pay annually and save £100 — equivalent to two months free.",
+                description: "Pay annually and save £100  -  equivalent to two months free.",
                 features: [
                   "Everything in Monthly, plus:",
                   "Free site migration from existing host",
@@ -341,7 +348,7 @@ export default function ManagedHosting() {
                   "Google Search Console setup & monitoring",
                   "Year-end traffic & performance report"
                 ],
-                ctaText: "Get Started — Annual",
+                ctaText: "Get Started  -  Annual",
                 ctaHref: "/contact?plan=annual",
                 popular: true
               }
@@ -350,16 +357,16 @@ export default function ManagedHosting() {
         </section>
 
         {/* Migration info */}
-        <section className="py-20 bg-background">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+        <section className="section-padding bg-background">
+          <div className="section-wrap">
+            <div className="grid-split">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Moving Your Existing Site</h2>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Already have a WordPress site with another host? We handle the full migration process — files, database, email, DNS — with zero downtime for your visitors.
+                <h2 className="heading-section mb-6">Moving Your Existing Site</h2>
+                <p className="body-lg mb-6">
+                  Already have a WordPress site with another host? We handle the full migration process  -  files, database, email, DNS  -  with zero downtime for your visitors.
                 </p>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  Migration is always included free — whatever plan you're on. We'll handle everything and let you know what's involved before you commit to anything.
+                <p className="body-lg mb-8">
+                  Migration is always included free  -  whatever plan you're on. We'll handle everything and let you know what's involved before you commit to anything.
                 </p>
                 <ul className="space-y-3">
                   {[
@@ -367,18 +374,18 @@ export default function ManagedHosting() {
                     "DNS and domain management",
                     "Email account migration where needed",
                     "Post-migration testing and verification",
-                    "Zero downtime — your old site stays live until the new one is confirmed"
+                    "Zero downtime  -  your old site stays live until the new one is confirmed"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0 mt-0.5">
-                        <Check size={12} className="text-primary-foreground" strokeWidth={3} />
+                      <div className="check-bullet mt-0.5">
+                        <Check size={12} className="check-icon" />
                       </div>
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="p-8 bg-card border border-border rounded-2xl">
+              <div className="card-base p-8">
                 <h3 className="text-xl font-bold mb-6">What to Expect</h3>
                 <div className="space-y-6">
                   {[
@@ -404,23 +411,41 @@ export default function ManagedHosting() {
           </div>
         </section>
 
+        {/* Downtime risk calculator link */}
+        <section className="section-padding bg-card border-y border-border">
+          <div className="section-wrap">
+            <div className="card-base p-8 md:p-12 text-center max-w-4xl mx-auto">
+              <h2 className="heading-section mb-4">What Could Downtime or a Hack Cost You?</h2>
+              <p className="body-lg max-w-3xl mx-auto mb-8">
+                Even a few hours of downtime can mean lost revenue and damaged reputation. Use our <strong className="text-foreground">downtime and hack cost calculator</strong> to see what your site is really worth protecting  -  and compare it with the cost of managed hosting.
+              </p>
+              <Link
+                href="/downtime-hack-calculator"
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
+              >
+                Calculate Your Risk
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <FAQBlock
           faqs={[
             {
               question: "What exactly is managed WordPress hosting?",
-              answer: "Standard hosting gives you server space and leaves everything else to you — updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously. You don't need to log into WordPress to run updates or worry about whether your backups are working."
+              answer: "Standard hosting gives you server space and leaves everything else to you  -  updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously. You don't need to log into WordPress to run updates or worry about whether your backups are working."
             },
             {
               question: "How is it different from what I currently have?",
-              answer: "Most standard hosting (GoDaddy, Bluehost, SiteGround basic) requires you to manage your own WordPress updates, security, and backups. If your site gets hacked or breaks, you're dealing with it yourself — or paying for emergency support. Our managed plan means none of that is your problem."
+              answer: "Most standard hosting (GoDaddy, Bluehost, SiteGround basic) requires you to manage your own WordPress updates, security, and backups. If your site gets hacked or breaks, you're dealing with it yourself  -  or paying for emergency support. Our managed plan means none of that is your problem."
             },
             {
               question: "Can you migrate my existing site?",
-              answer: "Yes. We handle the complete migration process — WordPress files, database, any email accounts, and DNS management. Migration is always free — there's no charge regardless of which plan you're on. We maintain zero downtime during the transfer."
+              answer: "Yes. We handle the complete migration process  -  WordPress files, database, any email accounts, and DNS management. Migration is always free  -  there's no charge regardless of which plan you're on. We maintain zero downtime during the transfer."
             },
             {
               question: "What counts as a 'content update request'?",
-              answer: "Text changes, image swaps, updating contact details, changing opening hours, adding team members, updating service descriptions — the kind of things that should be straightforward to change. We're not talking about adding new sections or functionality; those would be quoted separately. But most routine content changes are covered."
+              answer: "Text changes, image swaps, updating contact details, changing opening hours, adding team members, updating service descriptions  -  the kind of things that should be straightforward to change. We're not talking about adding new sections or functionality; those would be quoted separately. But most routine content changes are covered."
             },
             {
               question: "What if my site gets hacked while I'm on managed hosting?",
@@ -428,7 +453,7 @@ export default function ManagedHosting() {
             },
             {
               question: "Do you only host WordPress sites?",
-              answer: "Yes — we specialise exclusively in WordPress. This lets us be genuinely expert at what we do rather than spreading thin across dozens of platforms. If your site isn't on WordPress, we'd likely recommend migrating it as part of any onboarding."
+              answer: "Yes  -  we specialise exclusively in WordPress. This lets us be genuinely expert at what we do rather than spreading thin across dozens of platforms. If your site isn't on WordPress, we'd likely recommend migrating it as part of any onboarding."
             },
             {
               question: "Is there a setup fee or minimum contract?",
@@ -455,19 +480,19 @@ export default function ManagedHosting() {
           pages={[
             {
               title: "Managed Hosting for Shropshire Businesses",
-              description: "Local expertise with enterprise reliability — tailored specifically for Shropshire businesses.",
+              description: "Local expertise with enterprise reliability  -  tailored specifically for Shropshire businesses.",
               href: "/wordpress-hosting-shropshire",
               tag: "Local"
             },
             {
               title: "WordPress Security Monitoring",
-              description: "How we actively protect your site from hacks, malware, and vulnerabilities — 24/7.",
+              description: "How we actively protect your site from hacks, malware, and vulnerabilities  -  24/7.",
               href: "/wordpress-security",
               tag: "Security"
             },
             {
               title: "WordPress Backup & Recovery",
-              description: "Daily off-site backups with 30-day retention — and rapid restoration when needed.",
+              description: "Daily off-site backups with 30-day retention  -  and rapid restoration when needed.",
               href: "/wordpress-backup-recovery",
               tag: "Backups"
             },
@@ -479,15 +504,21 @@ export default function ManagedHosting() {
             },
             {
               title: "Why Managed Hosting Matters",
-              description: "The real cost comparison between cheap hosting and managed — the numbers might surprise you.",
+              description: "The real cost comparison between cheap hosting and managed  -  the numbers might surprise you.",
               href: "/blog/why-managed-wordpress-hosting",
               tag: "Blog"
             },
             {
-              title: "WordPress Security Essentials",
-              description: "What every WordPress site owner needs to know about keeping their site secure.",
-              href: "/blog/wordpress-security-essentials",
-              tag: "Blog"
+              title: "Websites for Trades & Construction",
+              description: "Industry-specific websites for builders, electricians, plumbers, and trades across Shropshire.",
+              href: "/websites-for-builders",
+              tag: "Trades"
+            },
+            {
+              title: "Downtime & Hack Cost Calculator",
+              description: "See how much a website outage or security breach could cost your business in lost revenue.",
+              href: "/downtime-hack-calculator",
+              tag: "Tool"
             }
           ]}
         />

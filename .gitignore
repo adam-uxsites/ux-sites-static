@@ -1,49 +1,54 @@
-# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# Dependencies
+node_modules/
 
-# compiled output
-dist
-tmp
-out-tsc
-*.tsbuildinfo
-.expo
-.expo-shared
+# Build output
+dist/
 
-# dependencies
-node_modules
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
+# IDE and editor files
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+*~
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
-# System Files
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-.cursor/rules/nx-rules.mdc
-.github/instructions/nx.instructions.md
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Replit
+# TypeScript
+*.tsbuildinfo
+
+# Temp and cache
+tmp/
 .cache/
-.local/
+.eslintcache
+.stylelintcache
+
+# Testing
+coverage/
+
+# System
+connect.lock
+libpeerconnection.log
+/typings
+
+# Cloudflare Pages (local output if you run wrangler)
+.wrangler/

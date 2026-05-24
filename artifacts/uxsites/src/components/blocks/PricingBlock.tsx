@@ -33,7 +33,7 @@ export function PricingBlock({ plans }: PricingBlockProps) {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <span className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  <span className="bg-primary text-primary-foreground text-sm font-bold px-3 py-1 rounded-full uppercase tracking-wider">
                     Most Popular
                   </span>
                 </div>

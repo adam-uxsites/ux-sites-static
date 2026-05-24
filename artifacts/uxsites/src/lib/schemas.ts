@@ -9,6 +9,8 @@ const provider = {
 
 const areaServed = [
   { "@type": "City", name: "Shrewsbury" },
+  { "@type": "City", name: "Oswestry" },
+  { "@type": "City", name: "Wrexham" },
   { "@type": "AdministrativeArea", name: "Shropshire" },
   { "@type": "Country", name: "United Kingdom" },
 ];
@@ -25,9 +27,14 @@ export function localBusinessSchema() {
     email: "hello@uxsites.co.uk",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Shrewsbury",
+      addressLocality: "St. Martins",
       addressRegion: "Shropshire",
       addressCountry: "GB",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 52.9167,
+      longitude: -3.0167,
     },
     areaServed,
     knowsAbout: [
@@ -96,7 +103,7 @@ export function organizationSchema() {
     email: "hello@uxsites.co.uk",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Shrewsbury",
+      addressLocality: "St. Martins",
       addressRegion: "Shropshire",
       addressCountry: "GB",
     },
@@ -178,6 +185,7 @@ export function articleSchema({
   dateModified,
   authorName = "Adam",
   category,
+  image,
 }: {
   headline: string;
   description: string;
@@ -186,6 +194,7 @@ export function articleSchema({
   dateModified?: string;
   authorName?: string;
   category?: string;
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -196,6 +205,7 @@ export function articleSchema({
     datePublished,
     dateModified: dateModified ?? datePublished,
     inLanguage: "en-GB",
+    ...(image ? { image: { "@type": "ImageObject", url: image } } : {}),
     author: {
       "@type": "Person",
       name: authorName,
@@ -232,6 +242,46 @@ export function faqSchema(
         text: item.answer,
       },
     })),
+  };
+}
+
+export function personSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE_URL}/#person`,
+    name: "Adam",
+    jobTitle: "Owner & Web Designer",
+    url: SITE_URL,
+    email: "hello@uxsites.co.uk",
+    knowsAbout: [
+      "WordPress",
+      "Web Design",
+      "Managed Hosting",
+      "Search Engine Optimisation",
+      "User Experience Design",
+      "Website Security",
+      "Google Analytics",
+    ],
+    sameAs: [
+      "https://uxsites.co.uk",
+    ],
+  };
+}
+
+export function blogSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${SITE_URL}/blog`,
+    name: "Blog & Insights | UX Sites Shropshire",
+    description:
+      "Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK.",
+    url: `${SITE_URL}/blog`,
+    publisher: {
+      "@id": `${SITE_URL}/#organization`,
+    },
+    inLanguage: "en-GB",
   };
 }
 

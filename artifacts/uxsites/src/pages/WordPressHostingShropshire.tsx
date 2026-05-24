@@ -15,7 +15,7 @@ export default function WordPressHostingShropshire() {
     <>
       <SEO
         title="Managed WordPress Hosting Shropshire | From £50/month | UX Sites"
-        description="Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Based in Shrewsbury, serving businesses across Shropshire."
+        description="Stress-free managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Based in St. Martins, Oswestry, serving businesses across Shropshire."
         url="https://uxsites.co.uk/wordpress-hosting-shropshire"
         schema={[
           serviceSchema({

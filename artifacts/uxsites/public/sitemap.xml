@@ -2,110 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Core pages -->
-  <url>
-    <loc>https://uxsites.co.uk/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://uxsites.co.uk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://uxsites.co.uk/managed-wordpress-hosting</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://uxsites.co.uk/new-website</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://uxsites.co.uk/existing-website</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://uxsites.co.uk/website-support</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://uxsites.co.uk/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
-  <!-- Managed Hosting pillar + cluster -->
-  <url>
-    <loc>https://uxsites.co.uk/managed-wordpress-hosting</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/wordpress-hosting-shropshire</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/wordpress-security</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/wordpress-backup-recovery</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
+  <!-- Managed Hosting cluster -->
+  <url><loc>https://uxsites.co.uk/fully-managed-wordpress-hosting</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/what-is-managed-wordpress-hosting</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/whats-included-managed-wordpress-hosting</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/managed-hosting-small-businesses</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-migration-to-managed-hosting</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-shropshire</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-oswestry</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-st-martins</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-chirk</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-gobowen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-shrewsbury</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-wrexham</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-ruabon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-ellesmere</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-llangollen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-whitchurch</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-hosting-welshpool</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-security</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-backup-recovery</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-maintenance</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-maintenance-cost-uk</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-care-plan</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/common-wordpress-errors</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Website Support pillar + cluster -->
-  <url>
-    <loc>https://uxsites.co.uk/website-support</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/wordpress-maintenance</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
+  <!-- SEO / location pages -->
+  <url><loc>https://uxsites.co.uk/web-design-shropshire</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/small-business-websites</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/website-speed-optimisation</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
 
-  <!-- New Website pillar + cluster -->
-  <url>
-    <loc>https://uxsites.co.uk/new-website</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/web-design-shropshire</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/small-business-websites</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
+  <!-- WordPress Help guides -->
+  <url><loc>https://uxsites.co.uk/wordpress-help</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-help/wordpress-slow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-help/wordpress-maintenance</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-help/wordpress-hacked</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-help/wordpress-security</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/wordpress-help/wordpress-update-issues</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Existing Website pillar + cluster -->
-  <url>
-    <loc>https://uxsites.co.uk/existing-website</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/website-speed-optimisation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
+  <!-- Consultant pages -->
+  <url><loc>https://uxsites.co.uk/websites-for-consultants</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-business-consultants</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-legal-consultants</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-marketing-consultants</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Trades & Construction -->
+  <url><loc>https://uxsites.co.uk/websites-for-builders</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-electricians</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-plumbers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-decorators</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-joiners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-scaffolders</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-roofers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-air-conditioning-fitters</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-solar-panel-fitters</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-pressure-washers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-gardeners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-landscapers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-cleaners</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Professional Services -->
+  <url><loc>https://uxsites.co.uk/websites-for-lawyers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-finance-advisors</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-estate-agents</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Beauty & Personal Care -->
+  <url><loc>https://uxsites.co.uk/websites-for-hairdressers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-facial-aesthetics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-tanning-studios</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-nail-studios</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-tattoo-studios</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Food & Drink -->
+  <url><loc>https://uxsites.co.uk/websites-for-restaurants</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-takeaways</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-coffee-shops</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-cafes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-butchers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Retail & Home -->
+  <url><loc>https://uxsites.co.uk/websites-for-retail-shops</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-jewellers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-manufacturers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-developers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Community & Education -->
+  <url><loc>https://uxsites.co.uk/websites-for-charities</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-schools</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-tutors</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-nursing-homes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-local-groups</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Websites for Business & Tech -->
+  <url><loc>https://uxsites.co.uk/websites-for-smes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/websites-for-medium-businesses</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Misc pages -->
+  <url><loc>https://uxsites.co.uk/instant-site-quote</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://uxsites.co.uk/downtime-hack-calculator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://uxsites.co.uk/work</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/sitemap</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://uxsites.co.uk/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://uxsites.co.uk/terms-of-service</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
   <!-- Blog posts -->
-  <url>
-    <loc>https://uxsites.co.uk/blog/why-managed-wordpress-hosting</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/blog/5-signs-your-website-needs-a-rebuild</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/blog/core-web-vitals-speed-conversion</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/blog/local-seo-shropshire-businesses</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://uxsites.co.uk/blog/wordpress-security-essentials</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.65</priority>
-  </url>
+  <url><loc>https://uxsites.co.uk/blog/why-managed-wordpress-hosting</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/5-signs-your-website-needs-a-rebuild</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/core-web-vitals-speed-conversion</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/local-seo-shropshire-businesses</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/wordpress-security-essentials</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/why-your-wordpress-website-keeps-breaking</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/managed-wordpress-hosting-shropshire-wrexham-local-support-2026</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/managed-wordpress-hosting-small-business-2026</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/magento-to-shopify-migration-2025</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/web-design-shropshire-chester</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/diy-websites-vs-professional-in-2025</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/website-redesign-uk</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://uxsites.co.uk/blog/how-much-does-a-wordpress-website-cost-in-2025</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
 
 </urlset>

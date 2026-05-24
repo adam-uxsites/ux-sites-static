@@ -13,6 +13,12 @@ interface HeroBlockProps {
 export function HeroBlock({ tagline, headline, subheadline, primaryCta, secondaryCta, chips }: HeroBlockProps) {
   return (
     <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+      {/* Floating triangles */}
+      <div className="absolute -top-20 -right-10 w-64 h-64 bg-primary/10 rotate-[180deg] animate-[float-2_12s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="absolute top-44 -right-32 w-44 h-44 bg-primary/10 rotate-[135deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none hidden md:block" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="absolute bottom-0 -right-14 w-56 h-56 bg-primary/10 rotate-[180deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="absolute bottom-44 right-16 w-48 h-48 bg-primary/10 rotate-[225deg] animate-[float-2_12s_ease-in-out_infinite] pointer-events-none hidden md:block" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] max-w-3xl opacity-10 pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-b from-primary to-transparent blur-3xl"></div>
       </div>
@@ -31,11 +37,11 @@ export function HeroBlock({ tagline, headline, subheadline, primaryCta, secondar
             </motion.div>
           )}
 
-          <motion.h1
+            <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 max-w-4xl"
+            className="heading-hero mb-6 max-w-4xl"
           >
             {headline}
           </motion.h1>
@@ -85,7 +91,7 @@ export function HeroBlock({ tagline, headline, subheadline, primaryCta, secondar
               {chips.map((chip, i) => (
                 <div
                   key={i}
-                  className="px-3 py-1.5 rounded-md bg-card border border-border text-xs text-muted-foreground font-medium"
+                  className="px-3 py-1.5 rounded-md bg-card border border-border text-sm text-muted-foreground font-medium"
                 >
                   {chip}
                 </div>

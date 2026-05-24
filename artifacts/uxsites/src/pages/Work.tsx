@@ -12,7 +12,7 @@ export default function Work() {
     <>
       <SEO
         title="Our Work | Recent Projects & Hosting Clients | UX Sites Shropshire"
-        description="A selection of websites we've designed, built, and manage for businesses across Shropshire and the UK. New builds, redesigns, and managed hosting clients."
+        description="Real websites we've designed, built, and manage for businesses across Shropshire and the UK. See our portfolio of new builds, redesigns, and managed hosting clients."
         url="https://uxsites.co.uk/work"
         schema={[
           webPageSchema({
@@ -65,7 +65,7 @@ export default function Work() {
           </div>
         </section>
 
-        {/* Grid — all items */}
+        {/* Grid  -  all items */}
         <WorkShowcase showAll />
 
         {/* Note about more */}
@@ -74,7 +74,7 @@ export default function Work() {
             <div className="bg-card border border-border rounded-2xl p-8 text-center">
               <h2 className="text-xl font-bold mb-3">More projects coming soon</h2>
               <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mx-auto">
-                We're continually adding recent work to this page. If you'd like to see examples relevant to your industry or business type, just get in touch — we're happy to share more.
+                We're continually adding recent work to this page. If you'd like to see examples relevant to your industry or business type, just get in touch  -  we're happy to share more.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Work() {
 
         <CTABanner
           title="Ready to be our next project?"
-          description="Whether you need a new website, a hosting upgrade, or ongoing support — we'd love to hear about your business."
+          description="Whether you need a new website, a hosting upgrade, or ongoing support  -  we'd love to hear about your business."
           buttonText="Start the conversation"
           buttonHref="/contact"
         />

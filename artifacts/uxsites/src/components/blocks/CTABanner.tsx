@@ -12,8 +12,17 @@ interface CTABannerProps {
 
 export function CTABanner({ title, description, buttonText, buttonHref, secondaryButtonText, secondaryButtonHref }: CTABannerProps) {
   return (
-    <section className="py-24 bg-card border-y border-border">
-      <div className="container mx-auto px-4 max-w-4xl text-center">
+    <section className="section-padding-lg section-alt relative overflow-hidden">
+      {/* Left triangles — spread vertically, tucked at edge */}
+      <div className="hidden md:block absolute top-6 -left-3 w-28 h-28 bg-primary/[0.07] rotate-0 animate-[float-2_12s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="hidden md:block absolute top-1/3 -left-2 w-32 h-32 bg-primary/[0.07] rotate-[45deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="hidden md:block absolute bottom-16 -left-4 w-36 h-36 bg-primary/[0.07] rotate-[315deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+
+      {/* Right triangles — spread far apart */}
+      <div className="absolute top-6 -right-3 w-28 h-28 bg-primary/[0.07] rotate-[180deg] animate-[float-2_12s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+      <div className="absolute bottom-10 -right-4 w-32 h-32 bg-primary/[0.07] rotate-[135deg] animate-[float-1_10s_ease-in-out_infinite] pointer-events-none" style={{ clipPath: "polygon(0% 0%, 100% 50%, 0% 100%)" }}></div>
+
+      <div className="container mx-auto px-4 max-w-4xl text-center relative z-10">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

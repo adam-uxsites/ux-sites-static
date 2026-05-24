@@ -18,15 +18,15 @@ interface FAQBlockProps {
 
 export function FAQBlock({ title = "Frequently Asked Questions", faqs }: FAQBlockProps) {
   return (
-    <section className="py-24 bg-background">
+    <section className="section-padding-lg bg-background">
       <div className="container mx-auto px-4 max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="section-header"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
+          <h2 className="heading-section mb-4">{title}</h2>
         </motion.div>
         
         <motion.div

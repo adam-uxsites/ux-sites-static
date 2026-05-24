@@ -21,11 +21,11 @@ export function Nav() {
         Managed Hosting
       </Link>
       
-      <DropdownMenu>
+          <DropdownMenu>
         <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium transition-colors hover:text-primary text-foreground outline-none">
           Services <ChevronDown size={14} />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-48 bg-card border-border">
+        <DropdownMenuContent className="w-56 bg-card border-border">
           <DropdownMenuItem asChild className="cursor-pointer">
             <Link href="/new-website" className="w-full">New Website</Link>
           </DropdownMenuItem>
@@ -35,12 +35,16 @@ export function Nav() {
           <DropdownMenuItem asChild className="cursor-pointer">
             <Link href="/website-support" className="w-full">Website Support</Link>
           </DropdownMenuItem>
+          <DropdownMenuItem asChild className="cursor-pointer">
+            <Link href="/instant-site-quote" className="w-full">Get a Quote</Link>
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
 
-      <Link href="/work" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/work') ? 'text-primary' : 'text-foreground'}`}>
-        Work
+      <Link href="/wordpress-help" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/wordpress-help') ? 'text-primary' : 'text-foreground'}`}>
+        WordPress Help
       </Link>
+
       <Link href="/blog" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/blog') ? 'text-primary' : 'text-foreground'}`}>
         Blog
       </Link>
@@ -53,9 +57,9 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary text-primary-foreground rounded-lg px-2.5 py-1 font-black text-xl tracking-tighter group-hover:bg-primary/90 transition-colors">UX</div>
-          <span className="font-bold text-xl tracking-tight">Sites</span>
+        <Link href="/" className="flex items-center gap-1.5 group">
+          <div className="bg-primary text-primary-foreground rounded-sm px-1.5 py-0.5 font-black text-xs tracking-tighter mb-2 leading-none">UX</div>
+          <span className="font-bold text-2xl tracking-tight text-foreground">Sites</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -86,9 +90,18 @@ export function Nav() {
               <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
               <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
               <Link href="/website-support" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website Support</Link>
+              <Link href="/instant-site-quote" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Get a Quote</Link>
             </div>
           </div>
-          <Link href="/work" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Work</Link>
+          <div className="py-2 border-b border-border/50">
+            <div className="text-base font-medium mb-2 text-muted-foreground">WordPress Help</div>
+            <div className="flex flex-col gap-2 pl-4">
+              <Link href="/wordpress-help" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>All Guides</Link>
+              <Link href="/wordpress-help/wordpress-slow" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Slow WordPress Site</Link>
+              <Link href="/wordpress-help/wordpress-security" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>WordPress Security</Link>
+              <Link href="/wordpress-help/wordpress-maintenance" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Maintenance Checklist</Link>
+            </div>
+          </div>
           <Link href="/blog" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
           <Link href="/contact" className="text-base font-medium py-2 mb-4" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
           <Link href="/contact" className="inline-flex w-full items-center justify-center rounded-lg bg-primary text-primary-foreground px-5 py-3 text-sm font-bold shadow hover:bg-primary/90" onClick={() => setIsMobileMenuOpen(false)}>

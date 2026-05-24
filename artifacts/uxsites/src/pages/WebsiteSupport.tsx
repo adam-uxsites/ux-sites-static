@@ -13,7 +13,7 @@ const careFeatures = [
   "Plugin and theme updates",
   "Daily off-site cloud backups",
   "Security scanning and monitoring",
-  "Uptime monitoring — every minute",
+  "Uptime monitoring  -  every minute",
   "Performance checks and optimisation",
   "Malware scanning and removal",
   "SSL certificate monitoring and renewal",
@@ -24,12 +24,12 @@ const careFeatures = [
 ];
 
 const withoutCare = [
-  "A plugin update breaks your layout — you don't notice for weeks",
+  "A plugin update breaks your layout  -  you don't notice for weeks",
   "Your site gets hacked via an outdated plugin vulnerability",
-  "Your SSL certificate expires — browsers show 'Not Secure' warnings",
-  "Your hosting backup fails silently — you have nothing to restore from",
-  "Your site goes down on a weekend — nobody is watching",
-  "A bot injects spam content — Google penalises your search rankings"
+  "Your SSL certificate expires  -  browsers show 'Not Secure' warnings",
+  "Your hosting backup fails silently  -  you have nothing to restore from",
+  "Your site goes down on a weekend  -  nobody is watching",
+  "A bot injects spam content  -  Google penalises your search rankings"
 ];
 
 export default function WebsiteSupport() {
@@ -37,7 +37,7 @@ export default function WebsiteSupport() {
     <>
       <SEO
         title="WordPress Website Support & Care Plans | UX Sites Shropshire"
-        description="Professional WordPress website support and care plans for Shropshire businesses. Regular updates, security monitoring, backups, and expert support to keep your site running perfectly."
+        description="Keep your WordPress site secure, updated, and running smoothly. Professional website support and care plans with updates, security monitoring, backups, and expert help  -  from £50/month."
         url="https://uxsites.co.uk/website-support"
         schema={[
           serviceSchema({
@@ -56,7 +56,7 @@ export default function WebsiteSupport() {
         <HeroBlock
           tagline="Protect your digital investment"
           headline="WordPress Support & Website Care Plans"
-          subheadline="Your website is a business asset — it needs ongoing attention to stay secure, current, and performing well. Our care plans ensure you're never left dealing with a hacked, broken, or outdated site."
+          subheadline="Your website is a business asset  -  it needs ongoing attention to stay secure, current, and performing well. Our care plans ensure you're never left dealing with a hacked, broken, or outdated site."
           primaryCta={{ text: "Discuss a Care Plan", href: "/contact" }}
           secondaryCta={{ text: "View Hosting Plans", href: "/managed-wordpress-hosting" }}
           chips={["Security Monitoring", "Plugin Updates", "Daily Backups", "Uptime Monitoring", "Content Updates"]}
@@ -69,7 +69,7 @@ export default function WebsiteSupport() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">What Happens Without Ongoing Support</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  WordPress sites left unmanaged don't just stay the same — they deteriorate. Software gets out of date. Vulnerabilities pile up. And eventually, something goes wrong at the worst possible time.
+                  WordPress sites left unmanaged don't just stay the same  -  they deteriorate. Software gets out of date. Vulnerabilities pile up. And eventually, something goes wrong at the worst possible time.
                 </p>
                 <div className="space-y-4">
                   {withoutCare.map((item, i) => (
@@ -110,7 +110,7 @@ export default function WebsiteSupport() {
           benefits={[
             {
               title: "Core, Plugin & Theme Updates",
-              description: "Updates are reviewed and applied carefully — we don't just click 'update all'. Compatibility is checked first, and we can roll back instantly if anything causes a problem."
+              description: "Updates are reviewed and applied carefully  -  we don't just click 'update all'. Compatibility is checked first, and we can roll back instantly if anything causes a problem."
             },
             {
               title: "Daily Off-Site Cloud Backups",
@@ -118,7 +118,7 @@ export default function WebsiteSupport() {
             },
             {
               title: "Continuous Security Monitoring",
-              description: "Active scanning for malware, unauthorised file changes, brute-force login attempts, and known vulnerabilities — caught before they cause damage."
+              description: "Active scanning for malware, unauthorised file changes, brute-force login attempts, and known vulnerabilities  -  caught before they cause damage."
             },
             {
               title: "Uptime Monitoring (Every Minute)",
@@ -142,7 +142,7 @@ export default function WebsiteSupport() {
             },
             {
               title: "Priority Email Support",
-              description: "Questions answered by someone who actually knows your site — not a generic helpdesk. Priority response times for care plan clients."
+              description: "Questions answered by someone who actually knows your site  -  not a generic helpdesk. Priority response times for care plan clients."
             }
           ]}
         />
@@ -152,7 +152,7 @@ export default function WebsiteSupport() {
           <div className="container mx-auto px-4 max-w-4xl text-center">
             <h2 className="text-3xl font-bold mb-6">Is a Care Plan Right for You?</h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-12 max-w-2xl mx-auto">
-              Website support plans work best for businesses where the website is genuinely important to how they operate — not just a brochure that never changes.
+              Website support plans work best for businesses where the website is genuinely important to how they operate  -  not just a brochure that never changes.
             </p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div className="p-7 bg-background border border-border rounded-2xl">
@@ -183,7 +183,7 @@ export default function WebsiteSupport() {
                     "You're actively migrating away from your current platform"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <span className="text-muted-foreground shrink-0 mt-0.5">—</span>
+                      <span className="text-muted-foreground shrink-0 mt-0.5"> - </span>
                       {item}
                     </li>
                   ))}
@@ -197,7 +197,7 @@ export default function WebsiteSupport() {
           faqs={[
             {
               question: "How is a care plan different from managed hosting?",
-              answer: "Managed hosting includes all the care plan services plus the hosting infrastructure itself — servers, bandwidth, SSL, and uptime. A care plan can apply to a WordPress site on any host where we have access. If you're on our managed hosting, care plan services are included automatically."
+              answer: "Managed hosting includes all the care plan services plus the hosting infrastructure itself  -  servers, bandwidth, SSL, and uptime. A care plan can apply to a WordPress site on any host where we have access. If you're on our managed hosting, care plan services are included automatically."
             },
             {
               question: "Can you support a site that wasn't built by you?",
@@ -205,15 +205,15 @@ export default function WebsiteSupport() {
             },
             {
               question: "What if something goes wrong while I'm on a care plan?",
-              answer: "That's exactly what the plan is for. If your site is hacked, breaks after an update, or goes down unexpectedly, we deal with it immediately as part of your plan — no emergency call-out charges."
+              answer: "That's exactly what the plan is for. If your site is hacked, breaks after an update, or goes down unexpectedly, we deal with it immediately as part of your plan  -  no emergency call-out charges."
             },
             {
               question: "How do content update requests work?",
-              answer: "Just email us what you need changing — plain English, no technical knowledge required. 'Please change the phone number to 01743 000 111' or 'Can you swap the hero image to this attached photo?' We turn around straightforward changes quickly."
+              answer: "Just email us what you need changing  -  plain English, no technical knowledge required. 'Please change the phone number to 01743 000 111' or 'Can you swap the hero image to this attached photo?' We turn around straightforward changes quickly."
             },
             {
               question: "Do I need to give you access to my website?",
-              answer: "Yes — we need admin-level WordPress access and (where applicable) hosting control panel access. We handle all credentials securely and only access your site when actively working on it."
+              answer: "Yes  -  we need admin-level WordPress access and (where applicable) hosting control panel access. We handle all credentials securely and only access your site when actively working on it."
             }
           ]}
         />
@@ -248,13 +248,13 @@ export default function WebsiteSupport() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + care + support in a single plan — from £50/month.",
+              description: "Hosting + care + support in a single plan  -  from £50/month.",
               href: "/managed-wordpress-hosting",
               tag: "Hosting"
             },
             {
               title: "Website Speed Optimisation",
-              description: "Performance monitoring and Core Web Vitals improvements — included in care plans.",
+              description: "Performance monitoring and Core Web Vitals improvements  -  included in care plans.",
               href: "/website-speed-optimisation",
               tag: "Performance"
             },

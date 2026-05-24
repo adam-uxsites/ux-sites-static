@@ -30,7 +30,7 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
         </div>
         <div className="flex-1 bg-[#111] rounded-md px-3 py-1 flex items-center gap-2 min-w-0">
           <Globe className="w-3 h-3 text-muted-foreground shrink-0" />
-          <span className="text-xs text-muted-foreground truncate">{item.domain}</span>
+          <span className="text-sm text-muted-foreground truncate">{item.domain}</span>
         </div>
         {item.url && (
           <a
@@ -87,10 +87,10 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
         <div className="flex items-start justify-between gap-3">
           <div>
             <h3 className="font-semibold text-foreground leading-tight">{item.name}</h3>
-            <p className="text-xs text-muted-foreground mt-0.5">{item.industry}</p>
+            <p className="text-sm text-muted-foreground mt-0.5">{item.industry}</p>
           </div>
           <span
-            className={`shrink-0 text-xs font-medium px-2.5 py-1 rounded-full border ${SERVICE_STYLES[item.service] ?? SERVICE_STYLES["New Build"]}`}
+            className={`shrink-0 text-sm font-medium px-2.5 py-1 rounded-full border ${SERVICE_STYLES[item.service] ?? SERVICE_STYLES["New Build"]}`}
           >
             {item.service}
           </span>
@@ -101,7 +101,7 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors mt-auto"
+            className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors mt-auto"
           >
             Visit site <ExternalLink className="w-3 h-3" />
           </a>
@@ -129,7 +129,7 @@ function CTACard({ index }: { index: number }) {
         </div>
         <div className="flex-1 bg-[#111] rounded-md px-3 py-1 flex items-center gap-2 min-w-0">
           <Globe className="w-3 h-3 text-muted-foreground/40 shrink-0" />
-          <span className="text-xs text-muted-foreground/40">yourbusiness.co.uk</span>
+          <span className="text-sm text-muted-foreground/40">yourbusiness.co.uk</span>
         </div>
       </div>
 
@@ -154,14 +154,14 @@ function CTACard({ index }: { index: number }) {
       <div className="p-5 flex flex-col gap-3 flex-1 justify-between">
         <div>
           <h3 className="font-semibold text-foreground leading-tight">Work with us</h3>
-          <p className="text-xs text-muted-foreground mt-0.5">Your industry</p>
+          <p className="text-sm text-muted-foreground mt-0.5">Your industry</p>
         </div>
         <p className="text-sm text-muted-foreground leading-relaxed">
           We're always taking on new projects. Get in touch to discuss your website or hosting requirements.
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors"
+          className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors"
         >
           Start a conversation <ArrowRight className="w-3 h-3" />
         </Link>

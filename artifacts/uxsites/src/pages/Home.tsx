@@ -8,14 +8,14 @@ import { WorkShowcase } from "@/components/blocks/WorkShowcase";
 import { SiteDashboardMockup } from "@/components/blocks/SiteDashboardMockup";
 import { webSiteSchema, organizationSchema } from "@/lib/schemas";
 import { motion } from "framer-motion";
-import { Quote, Star } from "lucide-react";
+import { Quote, Star, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart, Building2, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
     <>
       <SEO
         title="UX Sites | Managed WordPress Hosting & Web Design Shropshire"
-        description="Managed website hosting and WordPress support for UK businesses. Expert web design and hosting in Shropshire."
+        description="Managed website hosting for UK businesses from £50/month. Stress-free WordPress support, security, updates and backups. Expert web design by a Google UX Certified developer."
         url="https://uxsites.co.uk/"
         schema={[webSiteSchema(), organizationSchema()]}
       />
@@ -23,7 +23,7 @@ export default function Home() {
         <HeroBlock 
           tagline="Perfect for small/medium businesses"
           headline="Managed Website Hosting & WordPress Support for Businesses"
-          subheadline="We offer managed website hosting and WordPress support for UK businesses — hosting, updates, security, performance, and expert help included — so you can focus on running your business while we keep your site secure, online, and performing well."
+          subheadline="We offer managed website hosting and WordPress support for UK businesses  -  hosting, updates, security, performance, and expert help included  -  so you can focus on running your business while we keep your site secure, online, and performing well."
           primaryCta={{ text: "Managed Hosting", href: "/managed-wordpress-hosting" }}
           secondaryCta={{ text: "New Website", href: "/new-website" }}
           chips={["Managed Hosting", "Content updates", "Secure & Reliable", "Optimised speeds", "Expert Support", "Updates & Backups", "Website Analytics", "Uptime Monitoring"]}
@@ -48,7 +48,7 @@ export default function Home() {
                   Managed Hosting
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-5 leading-tight">
-                  Your site monitored, maintained &amp; secure — around the clock
+                  Your site monitored, maintained &amp; secure  -  around the clock
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                   From daily off-site backups to real-time malware scanning, our managed WordPress hosting handles everything so you never have to think about it.
@@ -58,7 +58,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-3">
                   {["99.9% uptime", "Daily backups", "Real-time security", "Instant support"].map(tag => (
-                    <span key={tag} className="text-xs px-3 py-1.5 rounded-full bg-card border border-border text-muted-foreground">
+                    <span key={tag} className="text-sm px-3 py-1.5 rounded-full bg-card border border-border text-muted-foreground">
                       {tag}
                     </span>
                   ))}
@@ -86,6 +86,56 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Websites by Industry */}
+        <section className="py-24 bg-card border-y border-border">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="text-center mb-14">
+              <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4">
+                <span className="flex h-2 w-2 rounded-full bg-primary mr-2" />
+                Websites by Industry
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Tried &amp; Tested Across Multiple Industries</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                We build bespoke WordPress sites for every type of business  —  from tradespeople and retailers to professional firms and community organisations.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              {[
+                { icon: Wrench, title: "Trades & Construction", desc: "Builders, electricians, plumbers and more", href: "/websites-for-builders" },
+                { icon: Briefcase, title: "Professional Services", desc: "Solicitors, accountants, estate agents", href: "/websites-for-lawyers" },
+                { icon: Sparkles, title: "Beauty & Personal Care", desc: "Hair salons, nail bars, tattoo studios", href: "/websites-for-hairdressers" },
+                { icon: Coffee, title: "Food & Drink", desc: "Restaurants, cafes, takeaways, butchers", href: "/websites-for-restaurants" },
+                { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, jewellers, gardeners, cleaners", href: "/websites-for-retail-shops" },
+                { icon: Heart, title: "Community & Education", desc: "Schools, charities, nursing homes", href: "/websites-for-schools" },
+                { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers" },
+              ].map((cat, i) => {
+                const Icon = cat.icon;
+                return (
+                  <a
+                    key={i}
+                    href={cat.href}
+                    className="group flex flex-col items-center text-center p-6 rounded-xl bg-background border border-border hover:border-primary/40 hover:bg-primary/[0.02] transition-all"
+                  >
+                    <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-3 group-hover:bg-primary/20 transition-colors">
+                      <Icon size={20} className="text-primary" />
+                    </div>
+                    <h3 className="font-bold text-sm mb-1 group-hover:text-primary transition-colors">{cat.title}</h3>
+                    <p className="text-xs text-muted-foreground leading-relaxed">{cat.desc}</p>
+                  </a>
+                );
+              })}
+            </div>
+            <div className="text-center mt-10">
+              <a
+                href="/small-business-websites"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+              >
+                View all industries we serve <ArrowRight size={14} />
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* About + Testimonial */}
         <section className="py-24 bg-muted/30">
           <div className="container mx-auto px-4 max-w-6xl">
@@ -98,10 +148,10 @@ export default function Home() {
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">10+ years optimising websites in Shropshire</h2>
                 <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                  Not just another web developer. I have professionally worked as a designer, developer and UX analyst with Google-certified UX expertise — I know what turns visitors into customers.
+                  Not just another web developer. I have professionally worked as a designer, developer and UX analyst with Google-certified UX expertise  -  I know what turns visitors into customers.
                 </p>
                 <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                  Every website I create is informed by data, user research, and over a decade of experience across 15+ industries. No guesswork — just proven results.
+                  Every website I create is informed by data, user research, and over a decade of experience across 15+ industries. No guesswork  -  just proven results.
                 </p>
                 {/* Google cert badges */}
                 <div className="flex gap-5 items-center">
@@ -117,7 +167,7 @@ export default function Home() {
                       alt="Google Mobile UX Certified"
                       className="w-20 h-20 object-contain"
                     />
-                    <span className="text-xs text-muted-foreground text-center leading-tight">Google Mobile UX<br/>Certified</span>
+                    <span className="text-sm text-muted-foreground text-center leading-tight">Google Mobile UX<br/>Certified</span>
                   </motion.div>
                   <motion.div
                     initial={{ opacity: 0, scale: 0.85 }}
@@ -131,7 +181,7 @@ export default function Home() {
                       alt="Google Analytics Certified"
                       className="w-20 h-20 object-contain"
                     />
-                    <span className="text-xs text-muted-foreground text-center leading-tight">Google Analytics<br/>Certified</span>
+                    <span className="text-sm text-muted-foreground text-center leading-tight">Google Analytics<br/>Certified</span>
                   </motion.div>
                 </div>
               </div>
@@ -156,7 +206,7 @@ export default function Home() {
                   {/* Quote icon */}
                   <Quote size={28} className="text-primary/30 mb-4" />
                   <blockquote className="text-foreground text-lg leading-relaxed mb-6 font-medium">
-                    "Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+                    "Adam did a fantastic job upgrading an existing site  -  I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
                   </blockquote>
                   <div className="flex items-center gap-4 pt-4 border-t border-border">
                     <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
@@ -164,7 +214,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="font-bold text-foreground">Zahrah Aullybocus</div>
-                      <div className="text-xs text-muted-foreground">Jan 5, 2026 · Google Review</div>
+                      <div className="text-sm text-muted-foreground">Jan 5, 2026 · Google Review</div>
                     </div>
                   </div>
                 </div>

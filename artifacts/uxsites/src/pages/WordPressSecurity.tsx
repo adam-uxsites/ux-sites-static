@@ -15,7 +15,7 @@ export default function WordPressSecurity() {
     <>
       <SEO
         title="WordPress Security Monitoring & Protection | UX Sites"
-        description="Active WordPress security monitoring, malware protection, and vulnerability management for UK businesses. Keep your website safe — continuously monitored and proactively protected."
+        description="Keep your WordPress site safe with active security monitoring, malware protection, and vulnerability management. Continuous protection for UK businesses by security-aware experts."
         url="https://uxsites.co.uk/wordpress-security"
         schema={[
           serviceSchema({
@@ -33,9 +33,9 @@ export default function WordPressSecurity() {
       />
       <main>
         <HeroBlock
-          tagline="Your website is a target — let's protect it properly"
+          tagline="Your website is a target  -  let's protect it properly"
           headline="WordPress Security Monitoring & Malware Protection"
-          subheadline="WordPress powers 43% of the web, which makes it the most targeted CMS on the internet. We provide continuous security monitoring, vulnerability management, and rapid malware response — so your site stays protected around the clock."
+          subheadline="WordPress powers 43% of the web, which makes it the most targeted CMS on the internet. We provide continuous security monitoring, vulnerability management, and rapid malware response  -  so your site stays protected around the clock."
           primaryCta={{ text: "Get Security Coverage", href: "/contact" }}
           secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting" }}
           chips={["24/7 Monitoring", "Malware Scanning", "Brute Force Protection", "Vulnerability Management", "Rapid Response"]}
@@ -60,10 +60,10 @@ export default function WordPressSecurity() {
                   WordPress's popularity is precisely what makes it a target. Automated bots scan the entire internet continuously, looking for known vulnerabilities in specific plugin versions, outdated WordPress installs, and weak login credentials.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  The threat isn't theoretical — it's happening to real small business websites every day. The consequences range from spam injections that destroy search rankings, to customer data breaches, to ransomware that encrypts your files.
+                  The threat isn't theoretical  -  it's happening to real small business websites every day. The consequences range from spam injections that destroy search rankings, to customer data breaches, to ransomware that encrypts your files.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  The good news: the vast majority of successful attacks are entirely preventable with proper, ongoing security practices. The key word is <em>ongoing</em> — security isn't a one-time setup job.
+                  The good news: the vast majority of successful attacks are entirely preventable with proper, ongoing security practices. The key word is <em>ongoing</em>  -  security isn't a one-time setup job.
                 </p>
                 <Link
                   href="/wordpress-maintenance"
@@ -76,8 +76,8 @@ export default function WordPressSecurity() {
                 {[
                   {
                     icon: Lock,
-                    title: "Outdated Plugins — #1 Attack Vector",
-                    desc: "Plugin vulnerabilities are the most exploited entry point. Developers release security patches regularly — but only if you apply them. Each update you skip is a known, public vulnerability."
+                    title: "Outdated Plugins  -  #1 Attack Vector",
+                    desc: "Plugin vulnerabilities are the most exploited entry point. Developers release security patches regularly  -  but only if you apply them. Each update you skip is a known, public vulnerability."
                   },
                   {
                     icon: Eye,
@@ -87,7 +87,7 @@ export default function WordPressSecurity() {
                   {
                     icon: AlertTriangle,
                     title: "Supply Chain Attacks",
-                    desc: "Malicious actors compromise popular plugins and inject malware into updates. This affects sites running 'legitimate' plugins — making plugin monitoring and file integrity checking essential."
+                    desc: "Malicious actors compromise popular plugins and inject malware into updates. This affects sites running 'legitimate' plugins  -  making plugin monitoring and file integrity checking essential."
                   },
                   {
                     icon: Shield,
@@ -124,16 +124,16 @@ export default function WordPressSecurity() {
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14">
-              <h2 className="text-3xl font-bold mb-4">Our Security Approach — Active, Not Passive</h2>
+              <h2 className="text-3xl font-bold mb-4">Our Security Approach  -  Active, Not Passive</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Most "security" for WordPress sites is reactive — you find out about a problem when something breaks or Google flags it. We operate proactively: monitoring, hardening, and responding before damage occurs.
+                Most "security" for WordPress sites is reactive  -  you find out about a problem when something breaks or Google flags it. We operate proactively: monitoring, hardening, and responding before damage occurs.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
                   title: "Continuous Malware Scanning",
-                  description: "Automated scanning of WordPress files against known malware signatures — running continuously, not weekly. File changes are detected within minutes."
+                  description: "Automated scanning of WordPress files against known malware signatures  -  running continuously, not weekly. File changes are detected within minutes."
                 },
                 {
                   title: "Login Security Hardening",
@@ -141,7 +141,7 @@ export default function WordPressSecurity() {
                 },
                 {
                   title: "Vulnerability Monitoring",
-                  description: "We track newly discovered vulnerabilities in WordPress plugins and themes via security databases — and apply patches before attackers can exploit them."
+                  description: "We track newly discovered vulnerabilities in WordPress plugins and themes via security databases  -  and apply patches before attackers can exploit them."
                 },
                 {
                   title: "File Integrity Monitoring",
@@ -149,11 +149,11 @@ export default function WordPressSecurity() {
                 },
                 {
                   title: "Web Application Firewall",
-                  description: "A WAF filters malicious traffic before it reaches your WordPress install — blocking exploit attempts, SQL injection, and cross-site scripting attacks."
+                  description: "A WAF filters malicious traffic before it reaches your WordPress install  -  blocking exploit attempts, SQL injection, and cross-site scripting attacks."
                 },
                 {
                   title: "Security Headers Configuration",
-                  description: "HTTP security headers (CSP, X-Frame-Options, HSTS, Referrer-Policy) properly configured — closing browser-level attack vectors."
+                  description: "HTTP security headers (CSP, X-Frame-Options, HSTS, Referrer-Policy) properly configured  -  closing browser-level attack vectors."
                 },
                 {
                   title: "SSL Certificate Monitoring",
@@ -161,10 +161,10 @@ export default function WordPressSecurity() {
                 },
                 {
                   title: "Spam & Content Injection",
-                  description: "Monitoring for injected spam content in pages and posts — a common result of low-level infections that can devastate search rankings without visible symptoms."
+                  description: "Monitoring for injected spam content in pages and posts  -  a common result of low-level infections that can devastate search rankings without visible symptoms."
                 },
                 {
-                  title: "Malware Removal — Included",
+                  title: "Malware Removal  -  Included",
                   description: "If our monitoring identifies a security incident on a managed site, cleanup and restoration is included. No emergency call-out fees."
                 }
               ].map((item, i) => (
@@ -190,7 +190,7 @@ export default function WordPressSecurity() {
             <div className="p-10 bg-card border border-border rounded-2xl">
               <h2 className="text-2xl font-bold mb-4">Signs Your Site May Already Be Compromised</h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Many WordPress infections run silently for months — affecting your search rankings and potentially spreading to visitors without obvious visible symptoms. Watch for:
+                Many WordPress infections run silently for months  -  affecting your search rankings and potentially spreading to visitors without obvious visible symptoms. Watch for:
               </p>
               <div className="grid md:grid-cols-2 gap-3 mb-8">
                 {[
@@ -212,7 +212,7 @@ export default function WordPressSecurity() {
                 ))}
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-                If you're seeing any of these, treat it as urgent. A compromised site can be cleaned, but speed matters — the longer an infection runs, the more damage it causes to your search presence and reputation.
+                If you're seeing any of these, treat it as urgent. A compromised site can be cleaned, but speed matters  -  the longer an infection runs, the more damage it causes to your search presence and reputation.
               </p>
               <Link
                 href="/contact"
@@ -226,13 +226,13 @@ export default function WordPressSecurity() {
 
         <BenefitsGrid
           title="Security as Part of Managed Hosting"
-          subtitle="Security monitoring is included in every managed hosting and care plan — not sold as a separate add-on."
+          subtitle="Security monitoring is included in every managed hosting and care plan  -  not sold as a separate add-on."
           benefits={[
-            { title: "No Extra Security Charges", description: "Everything described here is included in our managed hosting and care plans. Security isn't an optional extra — it's built into the service." },
+            { title: "No Extra Security Charges", description: "Everything described here is included in our managed hosting and care plans. Security isn't an optional extra  -  it's built into the service." },
             { title: "Malware Removal Included", description: "If your site on our managed hosting is ever compromised, cleanup and restoration is included. No surprise invoices for security incidents." },
-            { title: "Rapid Response", description: "Security alerts are responded to immediately — not on a 48-hour support ticket cycle. You're dealing with someone who knows your site." },
-            { title: "Documented Security Posture", description: "Monthly reports include security scan results and any incidents detected — giving you a clear record of your site's security health over time." },
-            { title: "Proactive Hardening", description: "New clients' sites are security-reviewed and hardened on onboarding — not just monitored but actively improved from day one." },
+            { title: "Rapid Response", description: "Security alerts are responded to immediately  -  not on a 48-hour support ticket cycle. You're dealing with someone who knows your site." },
+            { title: "Documented Security Posture", description: "Monthly reports include security scan results and any incidents detected  -  giving you a clear record of your site's security health over time." },
+            { title: "Proactive Hardening", description: "New clients' sites are security-reviewed and hardened on onboarding  -  not just monitored but actively improved from day one." },
             { title: "GDPR Considerations", description: "For businesses handling customer data, we discuss appropriate security measures and can help with documentation of technical security controls." }
           ]}
         />
@@ -240,11 +240,11 @@ export default function WordPressSecurity() {
         <FAQBlock
           faqs={[
             {
-              question: "My site is small — do hackers really care about it?",
-              answer: "Yes — but not in the way you might think. Hackers rarely target small businesses specifically. Automated bots scan every WordPress site on the internet for known vulnerabilities, regardless of size. Your site gets attacked not because of who you are, but because it runs WordPress."
+              question: "My site is small  -  do hackers really care about it?",
+              answer: "Yes  -  but not in the way you might think. Hackers rarely target small businesses specifically. Automated bots scan every WordPress site on the internet for known vulnerabilities, regardless of size. Your site gets attacked not because of who you are, but because it runs WordPress."
             },
             {
-              question: "I have a security plugin installed — am I covered?",
+              question: "I have a security plugin installed  -  am I covered?",
               answer: "Security plugins provide some protection, but they require proper configuration and ongoing attention. A poorly configured security plugin, or one that hasn't been updated, provides false confidence. Real security requires monitoring, updates, and active management."
             },
             {
@@ -253,18 +253,18 @@ export default function WordPressSecurity() {
             },
             {
               question: "Can you review the security of an existing site?",
-              answer: "Yes — we offer a security audit as part of our onboarding process for new clients. We review the current security posture, identify vulnerabilities, and provide a clear remediation plan."
+              answer: "Yes  -  we offer a security audit as part of our onboarding process for new clients. We review the current security posture, identify vulnerabilities, and provide a clear remediation plan."
             },
             {
               question: "Do I need to do anything differently once you're monitoring my site?",
-              answer: "Not for security specifically — that's our job. We'd advise you to use strong, unique passwords for your WordPress admin account and any email accounts, and enable two-factor authentication where possible. Beyond that, leave the rest to us."
+              answer: "Not for security specifically  -  that's our job. We'd advise you to use strong, unique passwords for your WordPress admin account and any email accounts, and enable two-factor authentication where possible. Beyond that, leave the rest to us."
             }
           ]}
         />
 
         <CTABanner
           title="Get your WordPress site properly protected"
-          description="Security monitoring, malware protection, and vulnerability management — all included in our managed hosting and care plans."
+          description="Security monitoring, malware protection, and vulnerability management  -  all included in our managed hosting and care plans."
           buttonText="Get Protected"
           buttonHref="/contact"
           secondaryButtonText="View Managed Hosting"
@@ -276,19 +276,19 @@ export default function WordPressSecurity() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Security monitoring included — plus hosting, backups, updates, and support from £50/month.",
+              description: "Security monitoring included  -  plus hosting, backups, updates, and support from £50/month.",
               href: "/managed-wordpress-hosting",
               tag: "Service"
             },
             {
               title: "WordPress Backup & Recovery",
-              description: "Daily off-site backups — your last line of defence if a security incident damages your site.",
+              description: "Daily off-site backups  -  your last line of defence if a security incident damages your site.",
               href: "/wordpress-backup-recovery",
               tag: "Related"
             },
             {
               title: "WordPress Maintenance Service",
-              description: "Keeping plugins and WordPress core updated — the primary defence against vulnerabilities.",
+              description: "Keeping plugins and WordPress core updated  -  the primary defence against vulnerabilities.",
               href: "/wordpress-maintenance",
               tag: "Related"
             },

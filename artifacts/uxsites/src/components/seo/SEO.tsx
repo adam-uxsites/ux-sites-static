@@ -7,14 +7,16 @@ interface SEOProps {
   url?: string;
   ogImage?: string;
   schema?: object | object[];
+  noindex?: boolean;
 }
 
 export function SEO({
   title = "UX Sites | Managed WordPress Hosting Shropshire",
-  description = "Managed WordPress hosting and website support for UK businesses from £50/month. Based in Shropshire, serving businesses nationwide.",
+  description = "Managed WordPress hosting and website support for UK businesses from £50/month. Based in St. Martins, Oswestry, Shropshire, serving businesses nationwide.",
   url = "https://uxsites.co.uk",
   ogImage = "/og-image.png",
-  schema
+  schema,
+  noindex = false,
 }: SEOProps) {
   const schemas = schema
     ? Array.isArray(schema) ? schema : [schema]
@@ -29,10 +31,12 @@ export function SEO({
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="UX Sites" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       <link rel="canonical" href={url} />
       {schemas.map((s, i) => (
         <script key={i} type="application/ld+json">
