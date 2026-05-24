@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState, useEffect } from "react";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
@@ -129,6 +129,9 @@ function RouterFallback() {
 }
 
 function Router() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
+
   return (
     <>
       <ScrollToTop />
@@ -223,7 +226,7 @@ function Router() {
           <Route path="/instant-site-quote" component={InstantSiteQuote} />
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />
           <Route path="/work" component={Work} />
-          <Route component={NotFound} />
+          {mounted && <Route component={NotFound} />}
         </Switch>
       </Suspense>
     </>
