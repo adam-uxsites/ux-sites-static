@@ -65,6 +65,10 @@ export default function WordPressSecurity() {
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   The good news: the vast majority of successful attacks are entirely preventable with proper, ongoing security practices. The key word is <em>ongoing</em>  -  security isn't a one-time setup job.
                 </p>
+                <p className="text-muted-foreground text-sm mb-6">
+                  For a step-by-step guide to securing your site, read our{" "}
+                  <a href="/blog/wordpress-security-guide" className="text-primary font-bold hover:underline">WordPress security guide for small businesses</a>.
+                </p>
                 <Link
                   href="/wordpress-maintenance"
                   className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline"

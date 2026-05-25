@@ -1126,7 +1126,331 @@ A WordPress site has ongoing costs that you need to budget for:
 
 [Get an instant quote](/quote) for your specific project, or [contact us](/contact) to discuss your requirements.
     `
-  }
+  },
+  {
+    slug: "responsive-web-design-uk",
+    title: "Responsive Web Design: Why Your Business Website Must Work on Every Device",
+    excerpt: "Over 60% of web traffic comes from mobile devices. If your site isn't responsive, you're losing customers. Here's what responsive design means and why it matters for UK businesses.",
+    date: "14 May 2026",
+    category: "Design",
+    readTime: "7 min read",
+    image: "/blog/responsive-design.svg",
+    content: `
+## What Is Responsive Web Design?
+
+Responsive web design means your website automatically adapts to look and work perfectly on any device — phone, tablet, laptop, or desktop. It's not a separate "mobile site" or an afterthought. It's a single website that responds to the screen it's viewed on.
+
+In 2024, over 60% of all web traffic came from mobile devices (Statista). Google now indexes and ranks websites based on their mobile version first. If your site isn't responsive, you're providing a poor experience to more than half your visitors and actively hurting your search rankings.
+
+## Why It Matters for Your Business
+
+A non-responsive website creates frustration at every stage of the customer journey:
+
+**Users leave immediately.** If a potential customer visits your site on their phone and has to pinch, zoom, and scroll sideways to read content, they'll leave within seconds. 53% of mobile users abandon a site that takes over 3 seconds to load, and that number climbs even higher for sites that are difficult to navigate (Google Research).
+
+**Your SEO suffers.** Google's mobile-first indexing means the search engine primarily uses your mobile version to determine rankings. If your mobile experience is poor — slow loading, unreadable text, touch targets too close together — you'll rank lower on all devices, not just phones.
+
+**Your credibility takes a hit.** A site that looks broken on mobile signals that you haven't invested in your online presence. In a competitive local market like Shropshire, that trust gap can be the difference between a prospect choosing you or a competitor.
+
+## What Good Responsive Design Looks Like
+
+- **Fluid layouts** that resize naturally across screen widths
+- **Touch-friendly navigation** with buttons and links sized for fingers, not mouse cursors
+- **Readable text** without zooming — minimum 16px body text, adequate line height
+- **Optimised images** that load the right size for each device
+- **Simplified navigation** that adapts menus for small screens
+- **Fast loading** on mobile connections — the same Core Web Vitals standards apply
+
+## Common Responsive Design Mistakes
+
+**Hiding content on mobile** — "Mobile" doesn't mean "less". Hiding important content on small screens forces users to find a desktop to access basic information. Instead, prioritise and reorganise.
+
+**Not testing on real devices** — Browser DevTools resizing doesn't capture real-world behaviour. Touch interactions, data connection speeds, and screen glare all affect the actual experience.
+
+**Fixed-width elements** — Any element with a fixed pixel width will overflow on smaller screens, forcing horizontal scrolling.
+
+## How UX Sites Builds Responsive Websites
+
+Every website we build at UX Sites is designed mobile-first. We start with the phone layout and add complexity as screens get larger — rather than the traditional approach of designing for desktop and stripping things away.
+
+This means your site is genuinely optimised for mobile, not just adapted. Every element — navigation, forms, calls to action, images — is designed for touch interaction and small screens from the ground up.
+
+The result is a site that works for your customers wherever they're browsing. Whether they're searching for your business on their phone in a coffee shop, browsing on a tablet at home, or reviewing details on a desktop at work, they get a consistent, professional experience.
+
+If your current site isn't responsive, or you're not sure how your mobile experience stacks up, [get in touch](/contact) for a free mobile UX review. We can also show you examples of our responsive work on our [portfolio page](/work).
+    `
+  },
+  {
+    slug: "website-speed-optimisation-guide",
+    title: "Website Speed Optimisation: A Complete Guide for UK Businesses",
+    excerpt: "A slow website is costing you customers and revenue. Here's a practical guide to page speed optimisation — what causes slow sites and how to fix them.",
+    date: "11 May 2026",
+    category: "Performance",
+    readTime: "8 min read",
+    image: "/blog/speed-guide.svg",
+    content: `
+## Why Speed Matters More Than You Think
+
+Your website's load time directly affects your bottom line. The research is consistent and compelling:
+
+- Amazon calculated that every 100ms of additional load time cost them 1% in sales
+- Google found that as page load time goes from 1 to 3 seconds, bounce rate increases by 32%
+- Portent's 2024 study showed a 1-second improvement increases conversion rates by an average of 4.8%
+
+For a UK small business generating even 10 enquiries per month from their website, losing one or two because the site is too slow represents a significant revenue hit over a year.
+
+## What Causes Slow Websites
+
+Most slow websites share common problems:
+
+**Unoptimised images** — This is the single biggest culprit by far. Smartphone photos can be 5-8MB each, and serving them at full resolution on a web page means visitors download massive files unnecessarily. Images should be compressed, converted to WebP format, and resized to their display dimensions.
+
+**Cheap shared hosting** — On a £5/month shared hosting plan, your site competes for resources with hundreds of other websites. When another site on your server gets a traffic spike, yours slows down. There's no technical fix for this — the hosting itself is the bottleneck.
+
+**Too many plugins** — Every plugin adds code that must be loaded. A typical business WordPress site with 20-30 plugins creates enormous overhead, much of which is unnecessary.
+
+**Render-blocking resources** — CSS and JavaScript files that must load fully before the page can display anything, causing a blank white screen for the first 2-3 seconds.
+
+**No caching** — Without caching, every single visitor causes the server to rebuild the entire page from scratch. Caching delivers a pre-built version instantly.
+
+## How to Fix a Slow WordPress Site
+
+**Step 1: Measure your current performance.** Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev). Pay attention to the mobile score — this is what Google primarily uses for rankings. A score below 50 needs urgent attention. 50-89 needs improvement. 90+ is good.
+
+**Step 2: Optimise images.** Compress all existing images and ensure future uploads are automatically compressed. Convert to WebP format. Use responsive image sizes so mobile devices don't download desktop-sized images.
+
+**Step 3: Enable caching.** Set up server-level caching (or use a caching plugin for WordPress). This single change can cut load times by 50-70% for repeat visitors.
+
+**Step 4: Minify and defer.** Minify CSS, JavaScript, and HTML. Defer non-critical JavaScript so it loads after the main content. Remove unused CSS if possible.
+
+**Step 5: Review your hosting.** If you've done everything above and your site is still slow, your hosting is the problem. [Managed WordPress hosting](/managed-wordpress-hosting) provides dedicated resources, server-level caching, and automatic performance optimisation that cheap shared hosting simply can't match.
+
+## How We Help
+
+Our [website speed optimisation service](/website-speed-optimisation) covers everything above and more — from performance audits to image compression and caching setup. For clients on our managed hosting, performance monitoring and optimisation are ongoing, not a one-time fix.
+
+If you'd like a free speed audit for your website, [get in touch](/contact). We'll tell you exactly what's slowing your site down and what it would take to fix it.
+    `
+  },
+  {
+    slug: "small-business-seo-guide",
+    title: "Small Business SEO: How to Get Found on Google in 2026",
+    excerpt: "A practical SEO guide for UK small businesses — from local search to technical foundations. What actually moves the needle for small business websites.",
+    date: "8 May 2026",
+    category: "SEO",
+    readTime: "9 min read",
+    image: "/blog/seo-guide.svg",
+    content: `
+## Why SEO Matters for Small Businesses
+
+When a potential customer searches for your service — "plumber near me", "accountant Shrewsbury", "website designer UK" — the businesses that appear on the first page of Google get the overwhelming majority of clicks. 68% of all clicks go to the top five organic results (Backlinko, 2024).
+
+For small businesses competing against larger companies with bigger marketing budgets, SEO is the great leveller. A well-optimised small business website can outrank a much larger competitor if it's built properly, serves relevant content, and earns genuine local signals.
+
+## The Foundation: Technical SEO
+
+Before anything else, your website needs solid technical foundations:
+
+**Core Web Vitals** — Google measures how real users experience your site: loading speed (LCP), interactivity (INP), and visual stability (CLS). Poor scores here hurt rankings on all devices. We wrote about this in detail in our [Core Web Vitals and speed guide](/blog/core-web-vitals-speed-conversion).
+
+**Mobile-friendly design** — With Google's mobile-first indexing, your mobile site is your primary ranking signal. If it's not responsive and fast, you can't rank well.
+
+**SSL certificate** — HTTPS is a ranking signal. Modern browsers actively warn users about non-HTTPS sites, damaging trust and reducing traffic.
+
+**Clean site structure** — Logical URL hierarchy, proper heading structure (H1, H2, H3), and internal linking help search engines understand your content.
+
+## Local SEO for UK Businesses
+
+For businesses serving a specific geographic area, local SEO is often the highest-return activity available:
+
+**Google Business Profile** — This is the single most important local SEO factor. Claim your listing, verify your details, choose accurate categories, and actively manage it with posts and photo updates.
+
+**NAP consistency** — Your business Name, Address, and Phone number must be identical across your website, Google Business Profile, and all directory listings (Yell, Bing Places, Apple Maps, etc.).
+
+**Local content** — Create pages and blog posts that serve local search intent. A "plumber in Telford" page with genuine, useful content will outperform a generic "plumber" page for local searches.
+
+For a deeper dive, see our full [local SEO guide for Shropshire businesses](/blog/local-seo-shropshire-businesses).
+
+## On-Page SEO Essentials
+
+**Title tags and meta descriptions** — Every page needs a unique, descriptive title tag (under 60 characters) and meta description (under 160 characters). Include your primary keyword and location naturally.
+
+**Content quality** — Google increasingly rewards genuinely useful content. Thin, generic pages that don't serve the user will struggle to rank. Pages that provide thorough, helpful information perform better.
+
+**Internal linking** — Link between related pages and blog posts on your site. This helps search engines understand your site structure and distributes ranking authority across your pages.
+
+## Building Authority
+
+Backlinks — links from other websites to yours — remain a strong ranking signal. For small businesses, focus on quality over quantity:
+
+- Local business directories and chambers of commerce
+- Industry associations and professional bodies
+- Links from clients and partners (where appropriate)
+- Local press coverage
+- Guest content on relevant local sites
+
+## What SEO Can Achieve for a Small Business
+
+Realistic expectations matter. Most small business sites won't rank #1 nationally for broad terms overnight. But ranking for local, service-specific terms — "accountant in Shrewsbury", "website designer UK" — is achievable with consistent effort over 3-6 months.
+
+If you'd like an honest assessment of your current SEO position and what's realistically achievable for your business, [get in touch](/contact). We offer free SEO reviews for UK small businesses.
+    `
+  },
+  {
+    slug: "wordpress-security-guide",
+    title: "WordPress Security for Small Businesses: A Practical Protection Guide",
+    excerpt: "WordPress powers 43% of the web — and is the most targeted CMS. Here's a practical guide to keeping your business website secure without becoming a security expert.",
+    date: "6 May 2026",
+    category: "Security",
+    readTime: "7 min read",
+    image: "/blog/security-guide.svg",
+    content: `
+## The Reality: Small Business Websites Are Targets
+
+There's a common myth that hackers only target large companies with valuable data. The reality is different: automated bots scan the internet constantly for any vulnerable WordPress site, regardless of size. Small business websites are actually more attractive targets because they're less likely to have robust security measures in place.
+
+A compromised website can mean lost customer data, damaged reputation, blacklisting by Google, and costly emergency repairs. For most small businesses, these consequences are far more damaging than for a large company with dedicated IT staff.
+
+## The Most Common Vulnerabilities
+
+**Outdated plugins and themes** account for the majority of WordPress compromises. When developers discover security flaws, they release patches. If you don't apply those patches, your site remains exposed to vulnerabilities that hackers actively exploit. We covered this in more detail in our [WordPress security essentials post](/blog/wordpress-security-essentials).
+
+**Weak passwords** — Automated brute force attacks try thousands of common passwords per minute. If your admin password is anything guessable, your site will be compromised eventually.
+
+**Unused themes and plugins** — Old, deactivated plugins and themes that are still present on your server create additional attack surfaces. If you're not using something, delete it completely.
+
+**Default login URL** — Every WordPress site uses /wp-admin by default. Changing this eliminates a significant volume of automated attacks.
+
+**Insecure hosting** — Cheap shared hosting environments can allow cross-site contamination. A compromised site on the same server can affect yours.
+
+## Seven Steps to a Secure WordPress Site
+
+**1. Keep everything updated.** WordPress core, all active themes, all plugins — apply updates promptly. This alone prevents the majority of successful attacks.
+
+**2. Use strong, unique credentials.** Every admin, editor, and author account should have a strong, unique password stored in a password manager. Never reuse passwords across accounts.
+
+**3. Limit login attempts.** A plugin that locks out IP addresses after repeated failed login attempts stops brute force attacks cold.
+
+**4. Remove unused installations.** Delete any themes, plugins, or WordPress installations you're not actively using. Each one is a potential entry point.
+
+**5. Enable two-factor authentication.** Even if an attacker obtains a password, 2FA prevents them from logging in. This is one of the most effective security measures available.
+
+**6. Install a security plugin.** Wordfence or Solid Security provide firewall protection, malware scanning, and login monitoring. They're not a replacement for good practices, but they're an important additional layer.
+
+**7. Choose secure hosting.** Your hosting provider is your first line of defence. Managed hosting providers actively monitor for threats, apply security updates, and isolate your site from other customers. See how our [managed WordPress hosting](/managed-wordpress-hosting) handles security.
+
+## Signs Your Site May Be Compromised
+
+- Visitors redirected to unfamiliar sites
+- Google Search Console warnings about malware
+- Unusual admin users in your dashboard
+- Your site loading much more slowly than usual
+- Spam content appearing on your pages
+
+If you notice any of these, act immediately. [Get in touch](/contact) and we can help assess the situation and clean your site.
+
+## Prevention Is Cheaper Than Recovery
+
+The cost of preventing a security incident — good hosting, regular updates, proper configuration — is a fraction of the cost of recovering from one. Emergency WordPress repair can run £200-500 per incident, plus lost revenue during downtime and reputational damage.
+
+Our [WordPress maintenance service](/wordpress-maintenance) and managed hosting plans handle all of this for you, so security is something you never need to think about.
+    `
+  },
+  {
+    slug: "shopify-vs-woocommerce-uk",
+    title: "Shopify vs WooCommerce: Choosing the Right Ecommerce Platform for Your UK Business",
+    excerpt: "Shopify or WooCommerce? An honest comparison for UK small businesses — costs, features, flexibility, and which one makes sense for your specific situation.",
+    date: "4 May 2026",
+    category: "E-commerce",
+    readTime: "8 min read",
+    image: "/blog/ecommerce-compare.svg",
+    content: `
+## The Big Question for UK Ecommerce Businesses
+
+If you're starting an online store, the first major decision is which platform to build on. Shopify and WooCommerce (WordPress) are the two most popular options, and each has distinct strengths.
+
+The right choice depends on your specific situation: your budget, your technical confidence, the complexity of your products, and your growth plans. Here's an honest comparison to help you decide.
+
+## Shopify: The All-in-One Solution
+
+Shopify is a fully hosted platform. You pay a monthly subscription and everything — hosting, security, checkout, payments — is included and managed for you.
+
+**Pros:**
+- Quick to set up — you can have a basic store running in a day
+- Everything works out of the box — hosting, SSL, payments included
+- Excellent for physical products with simple variations
+- Good app ecosystem for adding functionality
+- Built-in PCI compliance for payment security
+
+**Cons:**
+- Monthly fees add up (£25-£200/month depending on plan)
+- Transaction fees unless you use Shopify Payments
+- Limited customisation without apps (which cost extra)
+- Less control over your data and SEO
+- Harder to migrate away if you outgrow it
+
+**Best for:** Businesses that want a straightforward, low-maintenance setup and are happy with monthly subscription pricing.
+
+## WooCommerce: The Flexible Powerhouse
+
+WooCommerce is a free WordPress plugin that turns any WordPress site into a fully functional online store. You arrange your own hosting and manage the technical aspects yourself (or with a managed provider).
+
+**Pros:**
+- Complete control over design, functionality, and data
+- No monthly platform fees (just hosting and domain costs)
+- Unlimited customisation — if you can imagine it, WooCommerce can do it
+- Better SEO capabilities than Shopify
+- No transaction fees beyond payment gateway charges
+- Full ownership of your content and customer data
+
+**Cons:**
+- More complex to set up and manage
+- Hosting, security, backups, and updates are your responsibility
+- Requires more maintenance — plugins need updating, performance needs monitoring
+- Can become expensive with premium plugins and extensions
+
+**Best for:** Businesses that want full control, plan to scale with custom features, or already have a WordPress site.
+
+## Cost Comparison for UK Businesses
+
+| | Shopify (Basic) | WooCommerce (Managed) |
+|---|---|---|
+| Monthly platform cost | £25/month | £0 |
+| Hosting | Included | £50/month (managed) |
+| Domain | £10-15/year | £10-15/year |
+| SSL | Included | Included (managed) |
+| Transaction fees | 1.5% + 20p (Shopify Payments) | 1.5% + 20p (Stripe) |
+| Premium plugins/apps | Variable | Variable |
+| **Year 1 total** | **~£375+** | **~£625** (including design) |
+
+With WooCommerce on managed WordPress hosting, year two onwards drops to around £600/year with no design costs. Shopify remains at £375/year plus transaction fees.
+
+## Which One Should You Choose?
+
+Choose **Shopify** if:
+- You want the simplest possible setup
+- You have limited technical confidence or support
+- You're selling physical products with straightforward requirements
+- You don't mind ongoing monthly subscription costs
+
+Choose **WooCommerce** if:
+- You want full control over your store
+- You already have or plan to have a WordPress website
+- You need custom functionality or complex product options
+- SEO performance is critical to your business
+- You prefer predictable hosting costs over platform subscriptions
+
+## The Middle Ground
+
+If WooCommerce sounds right but you don't want the technical responsibility, [managed WordPress hosting](/managed-wordpress-hosting) solves that problem. We handle hosting, security, updates, backups, and performance — so you get WooCommerce's flexibility without the maintenance burden.
+
+## Need Help Building Your Online Store?
+
+Whether you choose Shopify or WooCommerce, [we can build your online store](/new-website) and set everything up properly. We work with both platforms and will give you honest advice about which is the right fit for your specific business.
+
+[Get in touch](/contact) for a free consultation about your ecommerce project.
+    `
+  },
 ];
 
 export const CATEGORY_COLORS: Record<string, string> = {

@@ -104,6 +104,10 @@ export default function SmallBusinessWebsites() {
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   We've built websites for 228+ businesses across 15+ industries. We know what works, and we build it in from the start.
                 </p>
+                <p className="text-muted-foreground text-sm mb-6">
+                  Want to know how SEO helps small businesses get found? Read our{" "}
+                  <a href="/blog/small-business-seo-guide" className="text-primary font-bold hover:underline">small business SEO guide</a>.
+                </p>
                 <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>

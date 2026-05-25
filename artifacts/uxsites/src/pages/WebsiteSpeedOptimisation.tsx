@@ -213,6 +213,10 @@ export default function WebsiteSpeedOptimisation() {
               >
                 Google PageSpeed Insights  -  pagespeed.web.dev � - 
               </a>
+              <p className="mt-4 text-sm text-muted-foreground">
+                For a complete walkthrough of speed optimisation techniques, read our{" "}
+                <a href="/blog/website-speed-optimisation-guide" className="text-primary font-bold hover:underline">website speed optimisation guide</a>.
+              </p>
             </div>
           </div>
         </section>

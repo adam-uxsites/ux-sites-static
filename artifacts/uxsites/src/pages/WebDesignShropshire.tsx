@@ -80,6 +80,10 @@ export default function WebDesignShropshire() {
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   We've worked with businesses across Shrewsbury, Telford, Oswestry, and throughout the county — from professional services and tradespeople to healthcare and hospitality. That breadth of local experience shapes how we approach every new project.
                 </p>
+                <p className="text-muted-foreground text-sm mb-6">
+                  Learn why responsive design matters for local businesses in our{" "}
+                  <a href="/blog/responsive-web-design-uk" className="text-primary font-bold hover:underline">responsive web design guide</a>.
+                </p>
                 <Link
                   href="/new-website"
                   className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"

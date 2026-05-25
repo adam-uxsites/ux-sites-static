@@ -110,10 +110,15 @@ const blogSlugs = [
   "managed-wordpress-hosting-shropshire-wrexham-local-support-2026",
   "managed-wordpress-hosting-small-business-2026",
   "web-design-shropshire-chester",
+  "responsive-web-design-uk",
+  "shopify-vs-woocommerce-uk",
+  "small-business-seo-guide",
   "website-redesign-uk",
+  "website-speed-optimisation-guide",
   "why-managed-wordpress-hosting",
   "why-your-wordpress-website-keeps-breaking",
   "wordpress-security-essentials",
+  "wordpress-security-guide",
 ];
 
 blogSlugs.forEach(slug => routes.push(`/blog/${slug}`));

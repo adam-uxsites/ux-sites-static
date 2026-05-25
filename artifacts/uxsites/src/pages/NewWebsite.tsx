@@ -137,6 +137,10 @@ export default function NewWebsite() {
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
                   </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    Thinking about selling online? Read our comparison of{" "}
+                    <a href="/blog/shopify-vs-woocommerce-uk" className="text-primary font-bold hover:underline">Shopify vs WooCommerce for UK businesses</a>.
+                  </p>
                 </div>
                 <div className="p-6 bg-card border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">What About Ongoing Costs?</h3>
