@@ -94,6 +94,7 @@ const routes = [
   "/website-speed-optimisation",
   "/privacy-policy",
   "/terms-of-service",
+  "/thank-you",
   "/sitemap",
   "/instant-site-quote",
   "/downtime-hack-calculator",

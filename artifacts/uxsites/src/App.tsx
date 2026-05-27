@@ -100,6 +100,7 @@ const WordPressBackupRecovery = lazy(() => import("@/pages/WordPressBackupRecove
 
 const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("@/pages/TermsOfService"));
+const ThankYou = lazy(() => import("@/pages/ThankYou"));
 const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const InstantSiteQuote = lazy(() => import("@/pages/InstantSiteQuote"));
 const Work = lazy(() => import("@/pages/Work"));
@@ -222,6 +223,7 @@ function Router() {
           <Route path="/website-speed-optimisation" component={WebsiteSpeedOptimisation} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
           <Route path="/terms-of-service" component={TermsOfService} />
+          <Route path="/thank-you" component={ThankYou} />
           <Route path="/sitemap" component={SitemapPage} />
           <Route path="/instant-site-quote" component={InstantSiteQuote} />
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />

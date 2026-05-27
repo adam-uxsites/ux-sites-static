@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SEO } from "@/components/seo/SEO";
 import { motion } from "framer-motion";
+import { useLocation } from "wouter";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -9,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { AlertCircle, CheckCircle2, Loader2, Mail, Phone, Clock, ArrowRight, Send, MessageSquare, Shield, Building2, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart } from "lucide-react";
+import { AlertCircle, Loader2, Mail, Phone, Clock, ArrowRight, Send, MessageSquare, Shield, Building2, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart } from "lucide-react";
 
 const services = [
   { value: "hosting", label: "Managed WordPress Hosting" },
@@ -33,7 +34,7 @@ const formSchema = z.object({
 });
 
 export default function Contact() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [, setLocation] = useLocation();
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -60,7 +61,8 @@ export default function Contact() {
         body: JSON.stringify(values),
       });
       if (res.ok) {
-        setIsSubmitted(true);
+        setLocation("/thank-you");
+        return;
       } else {
         const data = await res.json().catch(() => ({}));
         setSubmitError(data?.error || "Something went wrong. Please try again.");
@@ -254,23 +256,6 @@ export default function Contact() {
                 className="md:col-span-3"
               >
                 <div className="card-base p-8">
-                  {isSubmitted ? (
-                    <div className="text-center py-12">
-                      <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-                        <CheckCircle2 size={32} className="text-primary" />
-                      </div>
-                      <h2 className="text-2xl font-bold mb-2">Thanks for reaching out</h2>
-                      <p className="text-muted-foreground mb-2 max-w-md mx-auto">
-                        We've received your message and will be in touch within 24 hours.
-                      </p>
-                      <p className="text-sm text-muted-foreground mb-8">
-                        In the meantime, feel free to browse our services or check the blog.
-                      </p>
-                      <Button onClick={() => { setIsSubmitted(false); setSubmitError(null); }} variant="outline">
-                        Send another message
-                      </Button>
-                    </div>
-                  ) : (
                     <Form {...form}>
                       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-7">
                         <div>
@@ -416,7 +401,6 @@ export default function Contact() {
                         </p>
                       </form>
                     </Form>
-                  )}
                 </div>
               </motion.div>
             </div>
