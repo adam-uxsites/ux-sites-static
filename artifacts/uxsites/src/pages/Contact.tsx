@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SEO } from "@/components/seo/SEO";
 import { motion } from "framer-motion";
 import { useLocation } from "wouter";
+import { getConsent, GTAG_ID } from "@/lib/analytics";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -50,6 +51,12 @@ export default function Contact() {
       _gotcha: "",
     },
   });
+
+  useEffect(() => {
+    if (getConsent() !== "accepted") return;
+    if (typeof window.gtag !== "function") return;
+    window.gtag("config", GTAG_ID);
+  }, []);
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setSubmitError(null);

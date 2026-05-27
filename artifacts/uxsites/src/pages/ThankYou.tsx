@@ -3,17 +3,15 @@ import { SEO } from "@/components/seo/SEO";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { CheckCircle2 } from "lucide-react";
-import { getConsent } from "@/lib/analytics";
-
-const GTAG_ID = "AW-18192197831";
+import { getConsent, GTAG_ID } from "@/lib/analytics";
 
 export default function ThankYou() {
   useEffect(() => {
     if (getConsent() !== "accepted") return;
+    if (typeof window.gtag !== "function") return;
 
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push(["config", GTAG_ID]);
-    window.dataLayer.push(["event", "conversion", { send_to: GTAG_ID }]);
+    window.gtag("config", GTAG_ID);
+    window.gtag("event", "conversion", { send_to: GTAG_ID });
   }, []);
 
   return (
