@@ -9,9 +9,11 @@ const GTAG_ID = "AW-18192197831";
 
 export default function ThankYou() {
   useEffect(() => {
-    if (getConsent() === "accepted" && typeof window.gtag === "function") {
-      window.gtag("event", "conversion", { send_to: GTAG_ID });
-    }
+    if (getConsent() !== "accepted") return;
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(["config", GTAG_ID]);
+    window.dataLayer.push(["event", "conversion", { send_to: GTAG_ID }]);
   }, []);
 
   return (
