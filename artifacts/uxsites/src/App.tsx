@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 import { PageLayout } from "@/components/layout/PageLayout";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
+import { CookieConsent } from "@/components/layout/CookieConsent";
 
 import Home from "@/pages/Home";
 const ManagedHosting = lazy(() => import("@/pages/ManagedHosting"));
@@ -246,6 +247,7 @@ function App() {
             </PageLayout>
           </WouterRouter>
           <Toaster />
+          <CookieConsent />
         </TooltipProvider>
       </QueryClientProvider>
     </HelmetProvider>

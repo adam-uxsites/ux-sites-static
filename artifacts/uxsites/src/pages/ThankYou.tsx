@@ -1,9 +1,19 @@
+import { useEffect } from "react";
 import { SEO } from "@/components/seo/SEO";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { CheckCircle2 } from "lucide-react";
+import { getConsent } from "@/lib/analytics";
+
+const GTAG_ID = "AW-18192197831";
 
 export default function ThankYou() {
+  useEffect(() => {
+    if (getConsent() === "accepted" && typeof window.gtag === "function") {
+      window.gtag("event", "conversion", { send_to: GTAG_ID });
+    }
+  }, []);
+
   return (
     <>
       <SEO
