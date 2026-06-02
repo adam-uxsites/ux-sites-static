@@ -25,7 +25,13 @@ export function Nav() {
         <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium transition-colors hover:text-primary text-foreground outline-none">
           Services <ChevronDown size={14} />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 bg-card border-border">
+        <DropdownMenuContent className="w-64 bg-card border-border">
+          <DropdownMenuItem asChild className="cursor-pointer">
+            <Link href="/wordpress-care-plan" className="w-full">WordPress Care Plan</Link>
+          </DropdownMenuItem>
+          <DropdownMenuItem asChild className="cursor-pointer">
+            <Link href="/wordpress-care-plan-pro" className="w-full">Care Plan Pro</Link>
+          </DropdownMenuItem>
           <DropdownMenuItem asChild className="cursor-pointer">
             <Link href="/new-website" className="w-full">New Website</Link>
           </DropdownMenuItem>
@@ -87,6 +93,8 @@ export function Nav() {
           <div className="py-2 border-b border-border/50">
             <div className="text-base font-medium mb-2 text-muted-foreground">Services</div>
             <div className="flex flex-col gap-2 pl-4">
+              <Link href="/wordpress-care-plan" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>WordPress Care Plan</Link>
+              <Link href="/wordpress-care-plan-pro" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Care Plan Pro</Link>
               <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
               <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
               <Link href="/website-support" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website Support</Link>
