@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { ArrowRight, Server, Wrench, Globe, RefreshCcw, Code } from "lucide-react";
+import { ArrowRight, Server, Wrench, Globe, RefreshCcw, Code, TrendingUp, Zap } from "lucide-react";
 
 const services = [
   {
@@ -12,10 +12,18 @@ const services = [
     tag: "From £50/month"
   },
   {
-    title: "Website Support & Care",
-    description: "Ongoing maintenance, updates, content changes, and technical support to keep your site secure and performing well.",
+    title: "WordPress Care Plan",
+    description: "Everything in Managed Hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
     icon: Wrench,
-    href: "/website-support"
+    href: "/wordpress-care-plan",
+    tag: "From £250/month"
+  },
+  {
+    title: "WordPress Care Plan Pro",
+    description: "Increased development capacity, conversion optimisation, advanced performance, integration support, and strategic guidance from £500/month.",
+    icon: TrendingUp,
+    href: "/wordpress-care-plan-pro",
+    tag: "From £500/month"
   },
   {
     title: "New Websites",

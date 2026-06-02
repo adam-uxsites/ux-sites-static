@@ -20,11 +20,11 @@ export default function Home() {
       <main>
         <HeroBlock 
           tagline="Perfect for small/medium businesses"
-          headline="Managed Website Hosting & WordPress Support for Businesses"
-          subheadline="We offer managed website hosting and WordPress support for UK businesses  -  hosting, updates, security, performance, and expert help included  -  so you can focus on running your business while we keep your site secure, online, and performing well."
+          headline="Managed Hosting, Care Plans & WordPress Support for UK Businesses"
+          subheadline="From £50/month managed hosting to full-service care plans at £250 or £500/month  —  hosting, updates, security, development, and expert support included. Focus on running your business while we handle your website."
           primaryCta={{ text: "Managed Hosting", href: "/managed-wordpress-hosting" }}
-          secondaryCta={{ text: "New Website", href: "/new-website" }}
-          chips={["Managed Hosting", "Content updates", "Secure & Reliable", "Optimised speeds", "Expert Support", "Updates & Backups", "Website Analytics", "Uptime Monitoring"]}
+          secondaryCta={{ text: "View Care Plans", href: "/wordpress-care-plan" }}
+          chips={["Managed Hosting £50/mo", "Care Plan £250/mo", "Care Plan Pro £500/mo", "Security & Backups", "Expert Support", "Content Updates", "Performance Optimised", "Uptime Monitoring"]}
         />
         
         <StatsBar 

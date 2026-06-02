@@ -3,7 +3,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { WorkShowcase } from "@/components/blocks/WorkShowcase";
 import { motion } from "framer-motion";
-import { Quote, Star, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart, Building2, ArrowRight } from "lucide-react";
+import { Quote, Star, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart, Building2, ArrowRight, Activity } from "lucide-react";
 
 export default function HomeBelowFold() {
   return (
@@ -41,6 +41,7 @@ export default function HomeBelowFold() {
               { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, jewellers, gardeners, cleaners", href: "/websites-for-retail-shops" },
               { icon: Heart, title: "Community & Education", desc: "Schools, charities, nursing homes", href: "/websites-for-schools" },
               { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers" },
+              { icon: Activity, title: "Health & Medical", desc: "Therapists, nursing homes, clinics", href: "/websites-for-nursing-homes" },
             ].map((cat, i) => {
               const Icon = cat.icon;
               return (
