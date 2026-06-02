@@ -41,9 +41,6 @@ export function Nav() {
           <DropdownMenuItem asChild className="cursor-pointer">
             <Link href="/website-support" className="w-full">Website Support</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/instant-site-quote" className="w-full">Get a Quote</Link>
-          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
 
@@ -98,7 +95,6 @@ export function Nav() {
               <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
               <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
               <Link href="/website-support" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website Support</Link>
-              <Link href="/instant-site-quote" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Get a Quote</Link>
             </div>
           </div>
           <div className="py-2 border-b border-border/50">

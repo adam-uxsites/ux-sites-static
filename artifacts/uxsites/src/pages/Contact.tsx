@@ -157,111 +157,12 @@ export default function Contact() {
         <section className="pb-24">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="grid md:grid-cols-5 gap-10">
-              {/* Left column  -  contact info */}
+              {/* Form  -  first in DOM for mobile */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.3 }}
-                className="md:col-span-2 space-y-6"
-              >
-                <div className="card-base p-7">
-                  <h2 className="font-bold text-lg mb-5">Contact Details</h2>
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-3">
-                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
-                        <Mail size={16} className="text-primary" />
-                      </div>
-                      <div>
-                        <div className="text-[15px] font-medium">Email</div>
-                        <a href="mailto:enquiries@uxsites.co.uk" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
-                          enquiries@uxsites.co.uk
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
-                        <Phone size={16} className="text-primary" />
-                      </div>
-                      <div>
-                        <div className="text-[15px] font-medium">Phone</div>
-                        <a href="tel:07356298100" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
-                          07356 298100
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
-                        <Clock size={16} className="text-primary" />
-                      </div>
-                      <div>
-                        <div className="text-[15px] font-medium">Response Time</div>
-                        <div className="text-[15px] text-muted-foreground">
-                          We aim to respond to all enquiries within 24 hours, usually sooner.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="card-base p-7">
-                  <h2 className="font-bold text-lg mb-4">What Happens Next?</h2>
-                  <div className="space-y-5">
-                    {[
-                      { step: "1", title: "You send the form", desc: "Tell us about your project and what you need." },
-                      { step: "2", title: "We review and reply", desc: "Within 24 hours, we'll respond with a thoughtful assessment and clear options." },
-                      { step: "3", title: "Chat if you'd like", desc: "A phone or video call to clarify anything and agree on next steps  -  no pressure." },
-                      { step: "4", title: "You decide", desc: "A clear proposal with fixed pricing. Say yes when you're ready, or walk away  -  no hard feelings." },
-                    ].map((s, i) => (
-                      <div key={i} className="flex gap-3">
-                        <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
-                          {s.step}
-                        </div>
-                        <div>
-                          <div className="text-sm font-medium">{s.title}</div>
-                          <div className="text-sm text-muted-foreground mt-0.5">{s.desc}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="card-base p-7">
-                  <h2 className="font-bold text-lg mb-4">Industries We Serve</h2>
-                  <div className="space-y-3">
-                    {[
-                      { icon: Wrench, label: "Trades & Construction", href: "/websites-for-builders" },
-                      { icon: Briefcase, label: "Professional Services", href: "/websites-for-lawyers" },
-                      { icon: Sparkles, label: "Beauty & Personal Care", href: "/websites-for-hairdressers" },
-                      { icon: Coffee, label: "Food & Drink", href: "/websites-for-restaurants" },
-                      { icon: ShoppingBag, label: "Retail & Home", href: "/websites-for-retail-shops" },
-                      { icon: Heart, label: "Community & Education", href: "/websites-for-schools" },
-                      { icon: Building2, label: "Business & Tech", href: "/websites-for-developers" },
-                    ].map((ind, i) => {
-                      const Icon = ind.icon;
-                      return (
-                        <a
-                          key={i}
-                          href={ind.href}
-                          className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-primary/[0.03] hover:border-primary/20 border border-transparent transition-all group"
-                        >
-                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                            <Icon size={15} className="text-primary" />
-                          </div>
-                          <span className="text-sm font-medium group-hover:text-primary transition-colors">{ind.label}</span>
-                          <ArrowRight size={12} className="ml-auto text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
-              </motion.div>
-
-              {/* Right column  -  form */}
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.35 }}
-                className="md:col-span-3"
+                className="md:col-span-3 md:order-2"
               >
                 <div className="card-base p-8">
                     <Form {...form}>
@@ -409,6 +310,105 @@ export default function Contact() {
                         </p>
                       </form>
                     </Form>
+                </div>
+              </motion.div>
+
+              {/* Contact info  -  second in DOM, shows below form on mobile */}
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 }}
+                className="md:col-span-2 space-y-6 md:order-1"
+              >
+                <div className="card-base p-7">
+                  <h2 className="font-bold text-lg mb-5">Contact Details</h2>
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3">
+                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+                        <Mail size={16} className="text-primary" />
+                      </div>
+                      <div>
+                        <div className="text-[15px] font-medium">Email</div>
+                        <a href="mailto:enquiries@uxsites.co.uk" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
+                          enquiries@uxsites.co.uk
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+                        <Phone size={16} className="text-primary" />
+                      </div>
+                      <div>
+                        <div className="text-[15px] font-medium">Phone</div>
+                        <a href="tel:07356298100" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
+                          07356 298100
+                        </a>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+                        <Clock size={16} className="text-primary" />
+                      </div>
+                      <div>
+                        <div className="text-[15px] font-medium">Response Time</div>
+                        <div className="text-[15px] text-muted-foreground">
+                          We aim to respond to all enquiries within 24 hours, usually sooner.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card-base p-7">
+                  <h2 className="font-bold text-lg mb-4">What Happens Next?</h2>
+                  <div className="space-y-5">
+                    {[
+                      { step: "1", title: "You send the form", desc: "Tell us about your project and what you need." },
+                      { step: "2", title: "We review and reply", desc: "Within 24 hours, we'll respond with a thoughtful assessment and clear options." },
+                      { step: "3", title: "Chat if you'd like", desc: "A phone or video call to clarify anything and agree on next steps  -  no pressure." },
+                      { step: "4", title: "You decide", desc: "A clear proposal with fixed pricing. Say yes when you're ready, or walk away  -  no hard feelings." },
+                    ].map((s, i) => (
+                      <div key={i} className="flex gap-3">
+                        <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground text-sm font-bold flex items-center justify-center shrink-0 mt-0.5">
+                          {s.step}
+                        </div>
+                        <div>
+                          <div className="text-sm font-medium">{s.title}</div>
+                          <div className="text-sm text-muted-foreground mt-0.5">{s.desc}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="card-base p-7">
+                  <h2 className="font-bold text-lg mb-4">Industries We Serve</h2>
+                  <div className="space-y-3">
+                    {[
+                      { icon: Wrench, label: "Trades & Construction", href: "/websites-for-builders" },
+                      { icon: Briefcase, label: "Professional Services", href: "/websites-for-lawyers" },
+                      { icon: Sparkles, label: "Beauty & Personal Care", href: "/websites-for-hairdressers" },
+                      { icon: Coffee, label: "Food & Drink", href: "/websites-for-restaurants" },
+                      { icon: ShoppingBag, label: "Retail & Home", href: "/websites-for-retail-shops" },
+                      { icon: Heart, label: "Community & Education", href: "/websites-for-schools" },
+                      { icon: Building2, label: "Business & Tech", href: "/websites-for-developers" },
+                    ].map((ind, i) => {
+                      const Icon = ind.icon;
+                      return (
+                        <a
+                          key={i}
+                          href={ind.href}
+                          className="flex items-center gap-3 p-2.5 rounded-lg hover:bg-primary/[0.03] hover:border-primary/20 border border-transparent transition-all group"
+                        >
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                            <Icon size={15} className="text-primary" />
+                          </div>
+                          <span className="text-sm font-medium group-hover:text-primary transition-colors">{ind.label}</span>
+                          <ArrowRight size={12} className="ml-auto text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
+                        </a>
+                      );
+                    })}
+                  </div>
                 </div>
               </motion.div>
             </div>
