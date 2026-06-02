@@ -8,6 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { CookieConsent } from "@/components/layout/CookieConsent";
+import { ErrorBoundary } from "@/components/layout/ErrorBoundary";
 
 import Home from "@/pages/Home";
 const ManagedHosting = lazy(() => import("@/pages/ManagedHosting"));
@@ -140,6 +141,7 @@ function Router() {
   return (
     <>
       <ScrollToTop />
+      <ErrorBoundary>
       <Suspense fallback={<RouterFallback />}>
         <Switch>
           <Route path="/" component={Home} />
@@ -238,6 +240,7 @@ function Router() {
           {mounted && <Route component={NotFound} />}
         </Switch>
       </Suspense>
+      </ErrorBoundary>
     </>
   );
 }
