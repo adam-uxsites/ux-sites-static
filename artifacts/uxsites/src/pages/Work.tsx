@@ -2,6 +2,7 @@ import { SEO } from "@/components/seo/SEO";
 import { WorkShowcase } from "@/components/blocks/WorkShowcase";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
+import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { PORTFOLIO } from "@/data/portfolio";
 
@@ -72,10 +73,16 @@ export default function Work() {
         <section className="pb-16">
           <div className="container mx-auto px-4 max-w-3xl">
             <div className="bg-card border border-border rounded-2xl p-8 text-center">
-              <h2 className="text-xl font-bold mb-3">More projects coming soon</h2>
-              <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mx-auto">
-                We're continually adding recent work to this page. If you'd like to see examples relevant to your industry or business type, just get in touch  -  we're happy to share more.
+              <h2 className="text-xl font-bold mb-3">Read the full case studies</h2>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mx-auto mb-6">
+                Get the full story behind each project — the challenges, our approach, and what was delivered.
               </p>
+              <Link
+                href="/case-studies"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground text-sm font-bold hover:bg-primary/90 transition-colors"
+              >
+                View Case Studies
+              </Link>
             </div>
           </div>
         </section>

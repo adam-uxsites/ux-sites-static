@@ -11,6 +11,7 @@ export interface PortfolioItem {
   screenshot?: string;
   accentColor?: string;
   featured?: boolean;
+  caseStudySlug?: string;
 }
 
 export const PORTFOLIO: PortfolioItem[] = [
@@ -25,6 +26,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     screenshot: "/kingman-law.png",
     accentColor: "#2563eb",
     featured: true,
+    caseStudySlug: "kingman-property-law",
   },
   {
     id: "conveyancing-fairy",
@@ -37,6 +39,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     screenshot: "/conveyancing-fairy.png",
     accentColor: "#7c3aed",
     featured: true,
+    caseStudySlug: "conveyancing-fairy",
   },
   {
     id: "rhind-speech-therapy",
@@ -49,6 +52,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     screenshot: "/rhind-speech-therapy.png",
     accentColor: "#0ea5e9",
     featured: true,
+    caseStudySlug: "rhind-speech-therapy",
   },
 ];
 

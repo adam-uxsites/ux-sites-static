@@ -106,6 +106,8 @@ const ThankYou = lazy(() => import("@/pages/ThankYou"));
 const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const InstantSiteQuote = lazy(() => import("@/pages/InstantSiteQuote"));
 const Work = lazy(() => import("@/pages/Work"));
+const CaseStudies = lazy(() => import("@/pages/CaseStudies"));
+const CaseStudyPage = lazy(() => import("@/pages/CaseStudyPage"));
 const DowntimeCalculator = lazy(() => import("@/pages/DowntimeCalculator"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
@@ -231,6 +233,8 @@ function Router() {
           <Route path="/instant-site-quote" component={InstantSiteQuote} />
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />
           <Route path="/work" component={Work} />
+          <Route path="/case-studies" component={CaseStudies} />
+          <Route path="/case-studies/:slug" component={CaseStudyPage} />
           {mounted && <Route component={NotFound} />}
         </Switch>
       </Suspense>

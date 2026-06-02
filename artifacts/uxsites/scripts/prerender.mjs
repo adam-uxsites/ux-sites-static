@@ -100,6 +100,10 @@ const routes = [
   "/instant-site-quote",
   "/downtime-hack-calculator",
   "/work",
+  "/case-studies",
+  "/case-studies/kingman-property-law",
+  "/case-studies/conveyancing-fairy",
+  "/case-studies/rhind-speech-therapy",
 ];
 
 const blogSlugs = [

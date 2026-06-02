@@ -97,17 +97,27 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
           </span>
         </div>
         <p className="text-sm text-muted-foreground leading-relaxed flex-1">{item.description}</p>
-        {item.url && (
-          <a
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors mt-auto"
-            aria-label={`Visit ${item.name} website`}
-          >
-            Visit site <ExternalLink className="w-3 h-3" />
-          </a>
-        )}
+        <div className="flex items-center gap-4 mt-auto">
+          {item.caseStudySlug && (
+            <Link
+              href={`/case-studies/${item.caseStudySlug}`}
+              className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors"
+            >
+              Read case study <ArrowRight className="w-3 h-3" />
+            </Link>
+          )}
+          {item.url && (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              aria-label={`Visit ${item.name} website`}
+            >
+              Visit site <ExternalLink className="w-3 h-3" />
+            </a>
+          )}
+        </div>
       </div>
     </motion.div>
   );
