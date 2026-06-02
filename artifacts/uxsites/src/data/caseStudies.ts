@@ -41,12 +41,6 @@ export const CASE_STUDIES: CaseStudy[] = [
       "Ongoing managed WordPress hosting",
       "SSL certificate and security hardening",
     ],
-    testimony: {
-      quote:
-        "Adam understood exactly what I needed as a new practice. The website looks professional and has already generated enquiries. Having everything — branding, social media, analytics — taken care of meant I could focus on my clients from day one.",
-      author: "Terese Kingman",
-      role: "Director, Kingman Property Law",
-    },
     screenshot: "/kingman-law.png",
     liveUrl: "https://kingman-law.co.uk",
     accentColor: "#2563eb",
@@ -78,7 +72,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     testimony: {
       quote:
-        "The first website was a complete waste of money. Adam listened to what I actually needed and built something that finally looks and feels right. My clients regularly comment on how easy the site is to use, and I can update everything myself.",
+        "Adam did a fantastic job upgrading an existing site  -  I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues.",
       author: "Zahrah Aullybocus",
       role: "Solicitor & Founder, Conveyancing Fairy",
     },
