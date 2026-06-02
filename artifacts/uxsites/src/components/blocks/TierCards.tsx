@@ -88,7 +88,7 @@ export function TierCards({ tiers, annualNote }: TierCardsProps) {
                   </div>
                   {annual && saving > 0 && (
                     <div className="text-sm text-primary font-bold mb-1">
-                      Save £{saving.toLocaleString()} ({tier.monthly} months free equivalent)
+                      Save £{saving.toLocaleString()}
                     </div>
                   )}
                   <p className="text-sm text-muted-foreground leading-relaxed mt-4 mb-6">
