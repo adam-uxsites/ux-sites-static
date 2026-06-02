@@ -21,6 +21,7 @@ const routes = [
   "/managed-wordpress-hosting-cost-uk-2026",
   "/wordpress-maintenance-cost-uk",
   "/wordpress-care-plan",
+  "/wordpress-care-plan-pro",
   "/wordpress-migration-to-managed-hosting",
   "/common-wordpress-errors",
   "/managed-wordpress-hosting-vs-shared-hosting",

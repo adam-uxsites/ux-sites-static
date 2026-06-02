@@ -22,6 +22,7 @@ const FullyManagedHosting = lazy(() => import("@/pages/FullyManagedHosting"));
 const ManagedHostingCostUK = lazy(() => import("@/pages/ManagedHostingCostUK"));
 const WordPressMaintenanceCostUK = lazy(() => import("@/pages/WordPressMaintenanceCostUK"));
 const WordPressCarePlan = lazy(() => import("@/pages/WordPressCarePlan"));
+const WordPressCarePlanPro = lazy(() => import("@/pages/WordPressCarePlanPro"));
 const WordPressMigration = lazy(() => import("@/pages/WordPressMigration"));
 const CommonWordPressErrors = lazy(() => import("@/pages/CommonWordPressErrors"));
 const MgdHostingVsShared = lazy(() => import("@/pages/MgdHostingVsShared"));
@@ -151,6 +152,7 @@ function Router() {
           <Route path="/managed-wordpress-hosting-cost-uk-2026" component={ManagedHostingCostUK} />
           <Route path="/wordpress-maintenance-cost-uk" component={WordPressMaintenanceCostUK} />
           <Route path="/wordpress-care-plan" component={WordPressCarePlan} />
+          <Route path="/wordpress-care-plan-pro" component={WordPressCarePlanPro} />
           <Route path="/wordpress-migration-to-managed-hosting" component={WordPressMigration} />
           <Route path="/common-wordpress-errors" component={CommonWordPressErrors} />
           <Route path="/managed-wordpress-hosting-vs-shared-hosting" component={MgdHostingVsShared} />

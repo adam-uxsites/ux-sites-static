@@ -14,11 +14,12 @@ import { Button } from "@/components/ui/button";
 import { AlertCircle, Loader2, Mail, Phone, Clock, ArrowRight, Send, MessageSquare, Shield, Building2, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart } from "lucide-react";
 
 const services = [
-  { value: "hosting", label: "Managed WordPress Hosting" },
+  { value: "hosting", label: "Managed WordPress Hosting (£50/mo)" },
+  { value: "care-plan", label: "WordPress Care Plan (£250/mo)" },
+  { value: "care-plan-pro", label: "WordPress Care Plan Pro (£500/mo)" },
   { value: "new", label: "New Website" },
   { value: "refresh", label: "Website Refresh / Redesign" },
   { value: "improve", label: "Existing Website Improvements" },
-  { value: "support", label: "Website Support & Maintenance" },
   { value: "seo", label: "SEO & Performance" },
   { value: "custom", label: "Custom Development" },
   { value: "other", label: "Something Else" },

@@ -1,119 +1,175 @@
 import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
-import { CTABanner } from "@/components/blocks/CTABanner";
+import { PricingBlock } from "@/components/blocks/PricingBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
+import { CTABanner } from "@/components/blocks/CTABanner";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
-import { Check, Users, Briefcase, Building2 } from "lucide-react";
+import { Check, Clock, HeadphonesIcon, TrendingUp, Lightbulb, Zap, Shield, RefreshCw, Users, Briefcase, Building2, ArrowRight } from "lucide-react";
 
-const carePlanFeatures = [
-  "Managed WordPress hosting on high-performance servers",
-  "Daily automated off-site backups (30-day retention)",
-  "Security monitoring & malware protection  -  24/7",
-  "WordPress core, plugin & theme updates (tested first)",
-  "Performance monitoring & optimisation",
-  "SSL certificate  -  included, monitored, auto-renewed",
-  "Uptime monitoring  -  every minute, from multiple locations",
-  "Content update requests by email",
-  "Priority expert support  -  no ticketing system",
-  "Monthly site health report"
+const features = [
+  {
+    icon: Shield,
+    title: "Everything in Managed Hosting",
+    description: "Your site runs on our high-performance managed hosting with daily backups, security monitoring, WordPress updates, SSL, and 30 minutes of monthly development time for content changes."
+  },
+  {
+    icon: Clock,
+    title: "4 Hours Development & Support",
+    description: "Four hours of dedicated development time each month for content updates, feature additions, page builds, design tweaks, or any other website work you need."
+  },
+  {
+    icon: Lightbulb,
+    title: "Proactive Website Improvements",
+    description: "We don't wait for things to break. We actively identify opportunities to improve your site's performance, user experience, security posture, and search visibility."
+  },
+  {
+    icon: HeadphonesIcon,
+    title: "Priority Support",
+    description: "Skip the queue. Care plan clients get fast, direct access to your dedicated website team. No ticket systems, no hold music  -  just email us and we get on it."
+  },
+  {
+    icon: TrendingUp,
+    title: "Ongoing Website Optimisation",
+    description: "Continuous performance tuning, SEO adjustments, and user experience refinements. Your site keeps getting better month after month rather than slowly degrading."
+  },
+  {
+    icon: Zap,
+    title: "Technical Consultation",
+    description: "Need advice on a new feature, a plugin decision, or a wider digital strategy? Your care plan includes access to technical guidance from someone who knows your site inside out."
+  }
 ];
 
-const whoShouldChoose = [
+const whoItsFor = [
   {
     icon: Users,
-    title: "Small Business Owners",
-    description: "You need your website to work reliably, generate enquiries, and stay secure  -  without spending your limited time on technical maintenance."
+    title: "Established Small Businesses",
+    description: "Your website is central to how you generate leads and revenue. You need it to be more than just 'working'  -  you need it actively improved, maintained, and supported as part of your wider operations."
   },
   {
     icon: Briefcase,
-    title: "Solo Practitioners & Freelancers",
-    description: "Your website is often your primary marketing tool. A care plan ensures it's always professional, secure, and performing well  -  so you can focus on client work."
+    title: "Service Providers & Agencies",
+    description: "You rely on your website to showcase your work, win new clients, and communicate your expertise. A care plan gives you a partner who keeps your digital presence sharp and professional."
   },
   {
     icon: Building2,
-    title: "Organisations Without In-House Tech",
-    description: "You rely on your website but don't have internal WordPress expertise. A care plan gives you a dedicated expert who knows your site and handles everything."
+    title: " Growing Organisations",
+    description: "As your business expands, your website needs to keep pace. Ongoing development capacity, proactive improvements, and consultative support mean your site evolves with you."
   }
 ];
+
+const tierComparison = [
+  { feature: "Managed WordPress Hosting", hosting: true, care: true, pro: true },
+  { feature: "WordPress & Plugin Updates", hosting: true, care: true, pro: true },
+  { feature: "Security Monitoring & Malware Protection", hosting: true, care: true, pro: true },
+  { feature: "Daily Automated Backups (30-day retention)", hosting: true, care: true, pro: true },
+  { feature: "Uptime Monitoring (every minute)", hosting: true, care: true, pro: true },
+  { feature: "SSL Certificate (auto-renewed)", hosting: true, care: true, pro: true },
+  { feature: "Free Website Migration", hosting: true, care: true, pro: true },
+  { feature: "30 Min Monthly Development Time", hosting: true, care: true, pro: true },
+  { feature: "Monthly Development Time", hosting: "30 min", care: "4 hours", pro: "8 hours" },
+  { feature: "Proactive Website Improvements", hosting: false, care: true, pro: true },
+  { feature: "Priority Support", hosting: false, care: true, pro: "Faster" },
+  { feature: "Technical Consultation", hosting: false, care: true, pro: true },
+  { feature: "Ongoing Website Optimisation", hosting: false, care: true, pro: "Advanced" },
+  { feature: "Conversion & Performance Improvements", hosting: false, care: false, pro: true },
+  { feature: "Integrations & Digital Tools Support", hosting: false, care: false, pro: true },
+  { feature: "Monthly Cost", hosting: "£50", care: "£250", pro: "£500" }
+];
+
+function checkIcon(value: boolean | string): string {
+  if (value === true) return "✓";
+  if (value === false) return "—";
+  return value as string;
+}
+
+function isValue(val: boolean | string): boolean {
+  return val !== false;
+}
 
 export default function WordPressCarePlan() {
   return (
     <>
       <SEO
-        title="WordPress Care Plan | UX Sites"
-        description="What's a WordPress care plan and does your business need one? A simple guide comparing care plans, managed hosting, and website support to help you find the right fit."
+        title="WordPress Care Plan | From £250/month | UX Sites"
+        description="Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation. From £250/month."
         url="https://uxsites.co.uk/wordpress-care-plan"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan",
-            description: "A simple guide to what a WordPress care plan includes and how it compares to managed hosting and website support.",
+            description: "Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
             url: "https://uxsites.co.uk/wordpress-care-plan",
             category: "WordPress Care Plan",
+            price: "250",
+            priceCurrency: "GBP",
+            priceUnit: "month",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
             { name: "WordPress Care Plan", url: "https://uxsites.co.uk/wordpress-care-plan" },
           ]),
           faqSchema([
-            { question: "What is a WordPress care plan?", answer: "A WordPress care plan is an all-in-one service that combines hosting, maintenance, security, backups, and support into a single monthly fee. It's designed for business owners who want their website to just work without needing to manage the technical side." },
-            { question: "What's the difference between a care plan and managed hosting?", answer: "Managed hosting focuses primarily on the hosting infrastructure plus maintenance. A care plan typically bundles hosting, maintenance, support, and content updates together as a complete package. In practice, many providers use the terms interchangeably." },
-            { question: "How much does a WordPress care plan cost?", answer: "WordPress care plans in the UK typically range from £50-£200/month depending on what's included. Our managed hosting plan at £50/month covers what most people mean by a care plan  -  hosting, maintenance, support, and content updates." },
+            { question: "What is a WordPress care plan?", answer: "A WordPress care plan is a monthly retainer that combines managed hosting with ongoing development time, proactive improvements, and priority support. It's designed for businesses that want a reliable long-term partner looking after their website rather than just hosting it." },
+            { question: "How is a care plan different from managed hosting?", answer: "Managed hosting (£50/month) keeps your site secure, fast, and online. A care plan (£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation. Think of it as managed hosting plus a dedicated website team." },
+            { question: "What kind of work does the 4 hours cover?", answer: "Content updates, new pages, design tweaks, feature additions, performance improvements, SEO adjustments, plugin configurations, and any other website changes you need. If it can reasonably be done within the monthly allocation, it's covered." },
+            { question: "Can I upgrade from managed hosting to a care plan?", answer: "Yes  -  at any time. You're not locked in. The tiers are designed as a natural progression: start with managed hosting and upgrade to a care plan when you need more ongoing support and development time." },
           ]),
         ]}
       />
       <main>
         <HeroBlock
-          tagline="Simple, all-in-one care"
-          headline="What Is a WordPress Care Plan?"
-          subheadline="A simple guide to the term many businesses use when they want hosting, maintenance, and support wrapped together."
-          primaryCta={{ text: "Get a Care Plan", href: "/contact" }}
-          secondaryCta={{ text: "Full Service Details", href: "/website-support" }}
-          chips={["All-Inclusive", "£50/month", "No Surprises", "Expert Support"]}
+          tagline="Ongoing website support & improvement"
+          headline="WordPress Care Plan from £250/month"
+          subheadline="Managed hosting, 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  everything your website needs to keep getting better."
+          primaryCta={{ text: "Get Your Care Plan", href: "/contact" }}
+          secondaryCta={{ text: "Compare Plans", href: "#comparison" }}
+          chips={["4 Hours Dev/Month", "Priority Support", "Proactive Improvements", "Technical Consultation", "Managed Hosting Included"]}
         />
 
-        {/* What people mean by a care plan */}
+        {/* Features grid */}
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 max-w-6xl">
-            <div className="grid md:grid-cols-2 gap-14 items-start">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">What People Usually Mean by a Care Plan</h2>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  "Care plan" isn't an official industry term  -  it's what many businesses call it when they want someone to just handle everything so their website works without them having to think about it.
-                </p>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  At its core, a care plan typically bundles together: the hosting your site runs on, the maintenance that keeps it secure and current, the backups that protect your data, and the support you need when something needs attention.
-                </p>
-                <p className="text-muted-foreground text-lg leading-relaxed">
-                  Some providers include content updates, performance monitoring, and reporting. Others offer a more basic package. The key is understanding what's actually covered  -  because the term itself doesn't guarantee anything.
-                </p>
-              </div>
-              <div className="p-8 bg-card border border-border rounded-2xl">
-                <h3 className="text-xl font-bold mb-6">What a Good Care Plan Includes</h3>
-                <ul className="space-y-3">
-                  {carePlanFeatures.map((feature, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0 mt-0.5">
-                        <Check size={12} className="text-primary-foreground" strokeWidth={3} />
-                      </div>
-                      <span className="text-sm">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">What a Care Plan Includes</h2>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                Everything in managed hosting, plus the ongoing development and support your business needs to keep growing.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {features.map((item, i) => {
+                const Icon = item.icon;
+                return (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.07 }}
+                    className="flex gap-5 p-7 bg-card border border-border rounded-2xl hover:border-foreground/15 transition-colors"
+                  >
+                    <div className="shrink-0 w-11 h-11 rounded-xl bg-muted flex items-center justify-center">
+                      <Icon size={20} className="text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold mb-2">{item.title}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
+                    </div>
+                  </motion.div>
+                );
+              })}
             </div>
           </div>
         </section>
 
-        {/* Comparison table */}
-        <section className="py-20 bg-card border-y border-border">
+        {/* Tier comparison */}
+        <section id="comparison" className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Care Plan vs Managed Hosting vs Website Support</h2>
+              <h2 className="text-3xl font-bold mb-4">Compare the Tiers</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                These terms overlap significantly. Here's how they typically compare.
+                From essential hosting to full-service partnership  -  pick the level that fits your business.
               </p>
             </div>
             <div className="overflow-x-auto">
@@ -121,59 +177,53 @@ export default function WordPressCarePlan() {
                 <thead>
                   <tr className="border-b border-border">
                     <th className="text-left py-4 px-4 font-bold"></th>
-                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Care Plan</th>
-                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Managed Hosting</th>
-                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Website Support</th>
+                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Managed Hosting<br /><span className="text-foreground">£50/mo</span></th>
+                    <th className="text-center py-4 px-4 font-bold text-primary">Care Plan<br /><span className="text-foreground">£250/mo</span></th>
+                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Care Plan Pro<br /><span className="text-foreground">£500/mo</span></th>
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    ["Hosting infrastructure", true, true, false],
-                    ["WordPress updates", true, true, true],
-                    ["Security monitoring", true, true, true],
-                    ["Daily backups", true, true, true],
-                    ["Performance optimisation", true, true, true],
-                    ["SSL certificate", true, true, false],
-                    ["Content update requests", "Often", false, true],
-                    ["Expert support", true, true, true],
-                    ["Works with your current host", false, false, true],
-                    ["All-in-one monthly fee", true, true, false]
-                  ].map(([feature, care, managed, support], i) => (
+                  {tierComparison.map((row, i) => (
                     <tr key={i} className="border-b border-border/50">
-                      <td className="py-3 px-4 font-medium">{feature as string}</td>
-                      <td className="py-3 px-4 text-center">
-                        {care === true ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground">{care as string}</span>}
-                      </td>
-                      <td className="py-3 px-4 text-center">
-                        {managed === true ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground">{managed as string}</span>}
-                      </td>
-                      <td className="py-3 px-4 text-center">
-                        {support === true ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground">{support as string}</span>}
-                      </td>
+                      <td className={`py-3 px-4 font-medium ${row.feature === "Monthly Cost" ? "font-bold text-foreground" : ""}`}>{row.feature}</td>
+                      <td className={`py-3 px-4 text-center ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.hosting)}</td>
+                      <td className={`py-3 px-4 text-center font-medium text-primary ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.care)}</td>
+                      <td className={`py-3 px-4 text-center ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.pro)}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-            <div className="text-center mt-8">
-              <p className="text-muted-foreground text-sm">
-                Our managed hosting plan at £50/month covers everything most businesses mean by a "care plan"  -  and more.
-              </p>
+            <div className="flex justify-center gap-4 mt-10">
+              <Link
+                href="/managed-wordpress-hosting"
+                className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+              >
+                Managed Hosting £50
+                <ArrowRight size={14} />
+              </Link>
+              <Link
+                href="/wordpress-care-plan-pro"
+                className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
+              >
+                Care Plan Pro £500
+                <ArrowRight size={14} />
+              </Link>
             </div>
           </div>
         </section>
 
-        {/* Who should choose */}
+        {/* Who it's for */}
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14">
-              <h2 className="text-3xl font-bold mb-4">Who Should Choose a Care Plan?</h2>
+              <h2 className="text-3xl font-bold mb-4">Who Is a Care Plan For?</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                A care plan makes sense when your website matters to your business but the technical side isn't something you want to deal with.
+                A care plan makes sense when your website is too important to just host  —  you need active development, support, and strategic input.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              {whoShouldChoose.map((item, i) => {
+              {whoItsFor.map((item, i) => {
                 const Icon = item.icon;
                 return (
                   <motion.div
@@ -193,78 +243,138 @@ export default function WordPressCarePlan() {
                 );
               })}
             </div>
-            <div className="mt-12 p-8 bg-card border border-border rounded-2xl max-w-3xl mx-auto">
-              <h3 className="font-bold text-lg mb-4">You might also benefit from a care plan if...</h3>
-              <ul className="space-y-3">
-                {[
-                  "You've ever had your site hacked or broken by an update",
-                  "You're currently paying for hosting, a maintenance service, and occasional support separately",
-                  "You want one predictable monthly cost instead of surprise bills",
-                  "You value knowing there's someone who understands your site and can fix things quickly"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                    <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center shrink-0 mt-0.5">
-                      <Check size={12} className="text-primary-foreground" strokeWidth={3} />
+          </div>
+        </section>
+
+        {/* How the ladder works */}
+        <section className="py-20 bg-card border-y border-border">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="text-center mb-14">
+              <h2 className="text-3xl font-bold mb-4">A Clear Path to Scale</h2>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                Start where you are. Upgrade when you need more. No lock-in, no friction.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "Managed Hosting",
+                  price: "£50/month",
+                  desc: "Hosting, maintenance, security, backups, and basic content changes. For businesses that want their site professionally managed.",
+                  href: "/managed-wordpress-hosting",
+                  tag: "Essential"
+                },
+                {
+                  title: "WordPress Care Plan",
+                  price: "£250/month",
+                  desc: "Everything in hosting plus ongoing development, proactive improvements, and priority support. For businesses that want a website partner.",
+                  href: "/wordpress-care-plan",
+                  tag: "Recommended"
+                },
+                {
+                  title: "Care Plan Pro",
+                  price: "£500/month",
+                  desc: "Everything in the care plan with increased capacity, advanced optimisation, and growth-focused support. For businesses that rely heavily on their website.",
+                  href: "/wordpress-care-plan-pro",
+                  tag: "Growth"
+                }
+              ].map((tier, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08 }}
+                  className={`relative p-7 rounded-2xl border ${i === 1 ? 'border-primary shadow-lg shadow-primary/10 bg-background' : 'border-border bg-card'}`}
+                >
+                  {i === 1 && (
+                    <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                      <span className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Sweet Spot</span>
                     </div>
-                    {item}
-                  </li>
-                ))}
-              </ul>
+                  )}
+                  <span className="text-xs font-bold text-muted-foreground uppercase tracking-wide mb-2 block">{tier.tag}</span>
+                  <h3 className="text-xl font-bold mb-2">{tier.title}</h3>
+                  <div className="mb-4">
+                    <span className="text-3xl font-bold">{tier.price}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-6">{tier.desc}</p>
+                  <Link
+                    href={tier.href}
+                    className={`inline-flex items-center gap-1.5 text-sm font-bold ${i === 1 ? 'text-primary' : 'text-foreground hover:text-primary'} transition-colors`}
+                  >
+                    {i === 1 ? "This Plan" : "View Plan"}
+                    <ArrowRight size={14} />
+                  </Link>
+                </motion.div>
+              ))}
             </div>
           </div>
         </section>
 
         <FAQBlock
-          title="Care Plan FAQs"
           faqs={[
             {
               question: "What is a WordPress care plan?",
-              answer: "A WordPress care plan is an all-in-one service that wraps hosting, maintenance, security, backups, and support into a single monthly fee. It's not a standardised industry term  -  different providers include different things  -  but the core idea is that you pay one predictable amount and your website is fully looked after."
+              answer: "A WordPress care plan is a monthly retainer that bundles managed hosting with ongoing development time, proactive improvements, priority support, and technical consultation. It's designed for businesses that want a long-term partner proactively looking after their website."
             },
             {
-              question: "What's the difference between a care plan and managed hosting?",
-              answer: "Managed hosting focuses primarily on providing optimised hosting infrastructure plus maintenance, security, and backups. A care plan typically means the same thing but with more emphasis on ongoing support and content updates. At UX Sites, our managed hosting plan includes everything most people expect from a care plan."
+              question: "How is a care plan different from managed hosting?",
+              answer: "Managed hosting (£50/month) keeps your site secure, fast, and online with daily backups, updates, security monitoring, and 30 minutes of monthly content changes. A care plan (£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  it's a significantly deeper level of ongoing support."
             },
             {
-              question: "Do I need a care plan if I already have hosting?",
-              answer: "Standard hosting doesn't include maintenance, security monitoring, or support. If you have a basic hosting plan somewhere else, a care plan adds everything that's missing  -  updates, security, backups, and support. Alternatively, migrating to managed hosting replaces your hosting entirely and includes everything in one plan."
+              question: "What can I use the development hours for?",
+              answer: "Content updates, new pages, design improvements, performance tuning, SEO adjustments, plugin configurations, form additions, integration work, and most other website changes. If you're unsure whether something is covered, just ask  -  if it fits within the monthly allocation, we'll handle it."
             },
             {
-              question: "Can I get a care plan for an existing site I built elsewhere?",
-              answer: "Yes. We review existing WordPress sites before taking them on to understand their setup and flag any immediate concerns. Once on a care plan, we handle everything  -  updates, security, backups, monitoring, and support."
+              question: "Can I start on managed hosting and upgrade later?",
+              answer: "Yes. The three tiers are designed as a natural progression. Start with managed hosting (£50/month) and upgrade to a care plan (£250/month) or care plan pro (£500/month) whenever your needs grow  -  no lock-in, no penalties."
+            },
+            {
+              question: "What if I need more than 4 hours in a month?",
+              answer: "Additional development time is charged at our standard hourly rate. We'll always confirm before any work that exceeds your monthly allocation, so there are never surprise bills."
+            },
+            {
+              question: "Do you work with existing sites or only sites you build?",
+              answer: "Both. We review existing WordPress sites before taking them on to understand their setup and address any immediate issues. Once on a care plan, we handle everything."
             }
           ]}
         />
 
         <CTABanner
-          title="Get the peace of mind a proper care plan brings"
-          description="One predictable monthly cost. Everything covered. No technical knowledge required. Get in touch to discuss what a care plan would look like for your website."
+          title="Ready for a proper website partner?"
+          description="Get managed hosting, 4 hours of monthly development, proactive improvements, and priority support from £250/month. No lock-in. No hassle."
           buttonText="Start Your Care Plan"
           buttonHref="/contact"
-          secondaryButtonText="View Managed Hosting"
+          secondaryButtonText="Managed Hosting £50"
           secondaryButtonHref="/managed-wordpress-hosting"
         />
 
         <RelatedPages
-          title="Related Services & Guides"
+          title="Explore the Service Tiers"
           pages={[
             {
+              title: "Managed WordPress Hosting",
+              description: "Hosting, maintenance, security, and backups from £50/month. The foundation tier for businesses that want professional hosting.",
+              href: "/managed-wordpress-hosting",
+              tag: "From £50"
+            },
+            {
+              title: "WordPress Care Plan Pro",
+              description: "Increased development capacity, advanced optimisation, conversion improvements, and integration support from £500/month.",
+              href: "/wordpress-care-plan-pro",
+              tag: "From £500"
+            },
+            {
               title: "Website Support & Care Plans",
-              description: "Full details on our website support services  -  what's covered and why it matters.",
+              description: "Full details on our website support services and how they compare with managed hosting.",
               href: "/website-support",
               tag: "Service"
             },
             {
-              title: "Managed WordPress Hosting",
-              description: "Hosting + maintenance + support in a single plan from £50/month.",
-              href: "/managed-wordpress-hosting",
-              tag: "Service"
-            },
-            {
-              title: "WordPress Maintenance Service",
-              description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
-              href: "/wordpress-maintenance",
-              tag: "Maintenance"
+              title: "Managed Hosting Cost UK",
+              description: "See what managed hosting costs and how to judge the real value for your business.",
+              href: "/managed-wordpress-hosting-cost-uk-2026",
+              tag: "Pricing"
             },
             {
               title: "Fully Managed Hosting",
@@ -273,16 +383,10 @@ export default function WordPressCarePlan() {
               tag: "Hosting"
             },
             {
-              title: "WordPress Security Monitoring",
-              description: "How we actively protect your site from hacks, malware, and vulnerabilities.",
-              href: "/wordpress-security",
-              tag: "Security"
-            },
-            {
-              title: "Managed Hosting Cost UK",
-              description: "See what managed hosting costs and how to judge the real value.",
-              href: "/managed-wordpress-hosting-cost-uk-2026",
-              tag: "Pricing"
+              title: "WordPress Maintenance Service",
+              description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
+              href: "/wordpress-maintenance",
+              tag: "Maintenance"
             }
           ]}
         />
