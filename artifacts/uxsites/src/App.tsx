@@ -10,6 +10,7 @@ import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { CookieConsent } from "@/components/layout/CookieConsent";
 import { ErrorBoundary } from "@/components/layout/ErrorBoundary";
 
+import { preloadRoutes } from "@/lib/preloadRoutes";
 import Home from "@/pages/Home";
 const ManagedHosting = lazy(() => import("@/pages/ManagedHosting"));
 const WebsiteSupport = lazy(() => import("@/pages/WebsiteSupport"));
@@ -137,6 +138,7 @@ function RouterFallback() {
 function Router() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => { setMounted(true); }, []);
+  useEffect(() => { preloadRoutes(); }, []);
 
   return (
     <>
