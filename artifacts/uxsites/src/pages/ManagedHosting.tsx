@@ -5,6 +5,7 @@ import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { StatsBar } from "@/components/blocks/StatsBar";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { TierCards } from "@/components/blocks/TierCards";
 import { SiteDashboardMockup } from "@/components/blocks/SiteDashboardMockup";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -411,6 +412,65 @@ export default function ManagedHosting() {
           </div>
         </section>
 
+        <TierCards
+          tiers={[
+            {
+              name: "Managed WordPress Hosting",
+              monthly: 50,
+              annual: 500,
+              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
+              features: [
+                "Managed WordPress hosting on high-performance servers",
+                "Daily automated off-site backups (30-day retention)",
+                "Security monitoring & malware protection",
+                "WordPress core, plugin & theme updates",
+                "Performance monitoring & optimisation",
+                "SSL certificate  —  included, auto-renewed",
+                "Uptime monitoring every minute",
+                "30 minutes monthly development time",
+                "Expert email & plugin support"
+              ],
+              href: "/managed-wordpress-hosting",
+              ctaText: "View Managed Hosting",
+              highlighted: true
+            },
+            {
+              name: "WordPress Care Plan",
+              monthly: 250,
+              annual: 2500,
+              description: "Everything in managed hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation.",
+              features: [
+                "Everything in Managed Hosting",
+                "4 hours development & support monthly",
+                "Proactive website improvements",
+                "Priority support  —  faster response",
+                "Technical consultation included",
+                "Ongoing website optimisation"
+              ],
+              href: "/wordpress-care-plan",
+              ctaText: "View Care Plan"
+            },
+            {
+              name: "WordPress Care Plan Pro",
+              monthly: 500,
+              annual: 5000,
+              description: "Increased development capacity, conversion optimisation, advanced performance tuning, integration support, and strategic technical guidance.",
+              features: [
+                "Everything in WordPress Care Plan",
+                "Increased development capacity",
+                "Faster priority support",
+                "Conversion & performance improvements",
+                "Advanced website optimisation",
+                "Integrations & digital tools support",
+                "Ongoing strategic technical guidance"
+              ],
+              href: "/wordpress-care-plan-pro",
+              ctaText: "View Care Plan Pro"
+            }
+          ]}
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
+        />
+
         {/* Downtime risk calculator link */}
         <section className="section-padding bg-card border-y border-border">
           <div className="section-wrap">
@@ -479,6 +539,18 @@ export default function ManagedHosting() {
           title="Explore the Managed Hosting Cluster"
           pages={[
             {
+              title: "WordPress Care Plan",
+              description: "Managed hosting plus 4 hours monthly development, proactive improvements, and priority support from £250/month.",
+              href: "/wordpress-care-plan",
+              tag: "£250/mo"
+            },
+            {
+              title: "WordPress Care Plan Pro",
+              description: "Increased development capacity, conversion optimisation, and integration support from £500/month.",
+              href: "/wordpress-care-plan-pro",
+              tag: "£500/mo"
+            },
+            {
               title: "Managed Hosting for Shropshire Businesses",
               description: "Local expertise with enterprise reliability  -  tailored specifically for Shropshire businesses.",
               href: "/wordpress-hosting-shropshire",
@@ -497,28 +569,10 @@ export default function ManagedHosting() {
               tag: "Backups"
             },
             {
-              title: "WordPress Maintenance Service",
-              description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
-              href: "/wordpress-maintenance",
-              tag: "Maintenance"
-            },
-            {
               title: "Why Managed Hosting Matters",
               description: "The real cost comparison between cheap hosting and managed  -  the numbers might surprise you.",
               href: "/blog/why-managed-wordpress-hosting",
               tag: "Blog"
-            },
-            {
-              title: "Websites for Trades & Construction",
-              description: "Industry-specific websites for builders, electricians, plumbers, and trades across Shropshire.",
-              href: "/websites-for-builders",
-              tag: "Trades"
-            },
-            {
-              title: "Downtime & Hack Cost Calculator",
-              description: "See how much a website outage or security breach could cost your business in lost revenue.",
-              href: "/downtime-hack-calculator",
-              tag: "Tool"
             }
           ]}
         />

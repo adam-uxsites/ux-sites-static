@@ -1,13 +1,13 @@
 import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
-import { PricingBlock } from "@/components/blocks/PricingBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
+import { TierCards } from "@/components/blocks/TierCards";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
-import { Check, Clock, HeadphonesIcon, TrendingUp, Lightbulb, Zap, Shield, RefreshCw, Users, Briefcase, Building2, ArrowRight } from "lucide-react";
+import { Shield, Clock, HeadphonesIcon, TrendingUp, Lightbulb, Zap, Users, Briefcase, Building2, ArrowRight } from "lucide-react";
 
 const features = [
   {
@@ -60,35 +60,6 @@ const whoItsFor = [
   }
 ];
 
-const tierComparison = [
-  { feature: "Managed WordPress Hosting", hosting: true, care: true, pro: true },
-  { feature: "WordPress & Plugin Updates", hosting: true, care: true, pro: true },
-  { feature: "Security Monitoring & Malware Protection", hosting: true, care: true, pro: true },
-  { feature: "Daily Automated Backups (30-day retention)", hosting: true, care: true, pro: true },
-  { feature: "Uptime Monitoring (every minute)", hosting: true, care: true, pro: true },
-  { feature: "SSL Certificate (auto-renewed)", hosting: true, care: true, pro: true },
-  { feature: "Free Website Migration", hosting: true, care: true, pro: true },
-  { feature: "30 Min Monthly Development Time", hosting: true, care: true, pro: true },
-  { feature: "Monthly Development Time", hosting: "30 min", care: "4 hours", pro: "8 hours" },
-  { feature: "Proactive Website Improvements", hosting: false, care: true, pro: true },
-  { feature: "Priority Support", hosting: false, care: true, pro: "Faster" },
-  { feature: "Technical Consultation", hosting: false, care: true, pro: true },
-  { feature: "Ongoing Website Optimisation", hosting: false, care: true, pro: "Advanced" },
-  { feature: "Conversion & Performance Improvements", hosting: false, care: false, pro: true },
-  { feature: "Integrations & Digital Tools Support", hosting: false, care: false, pro: true },
-  { feature: "Monthly Cost", hosting: "£50", care: "£250", pro: "£500" }
-];
-
-function checkIcon(value: boolean | string): string {
-  if (value === true) return "✓";
-  if (value === false) return "—";
-  return value as string;
-}
-
-function isValue(val: boolean | string): boolean {
-  return val !== false;
-}
-
 export default function WordPressCarePlan() {
   return (
     <>
@@ -124,7 +95,7 @@ export default function WordPressCarePlan() {
           headline="WordPress Care Plan from £250/month"
           subheadline="Managed hosting, 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  everything your website needs to keep getting better."
           primaryCta={{ text: "Get Your Care Plan", href: "/contact" }}
-          secondaryCta={{ text: "Compare Plans", href: "#comparison" }}
+          secondaryCta={{ text: "Compare Plans", href: "#pricing" }}
           chips={["4 Hours Dev/Month", "Priority Support", "Proactive Improvements", "Technical Consultation", "Managed Hosting Included"]}
         />
 
@@ -163,55 +134,64 @@ export default function WordPressCarePlan() {
           </div>
         </section>
 
-        {/* Tier comparison */}
-        <section id="comparison" className="py-20 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-5xl">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Compare the Tiers</h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                From essential hosting to full-service partnership  -  pick the level that fits your business.
-              </p>
-            </div>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-border">
-                    <th className="text-left py-4 px-4 font-bold"></th>
-                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Managed Hosting<br /><span className="text-foreground">£50/mo</span></th>
-                    <th className="text-center py-4 px-4 font-bold text-primary">Care Plan<br /><span className="text-foreground">£250/mo</span></th>
-                    <th className="text-center py-4 px-4 font-bold text-muted-foreground">Care Plan Pro<br /><span className="text-foreground">£500/mo</span></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {tierComparison.map((row, i) => (
-                    <tr key={i} className="border-b border-border/50">
-                      <td className={`py-3 px-4 font-medium ${row.feature === "Monthly Cost" ? "font-bold text-foreground" : ""}`}>{row.feature}</td>
-                      <td className={`py-3 px-4 text-center ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.hosting)}</td>
-                      <td className={`py-3 px-4 text-center font-medium text-primary ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.care)}</td>
-                      <td className={`py-3 px-4 text-center ${row.feature === "Monthly Cost" ? "font-bold" : ""}`}>{checkIcon(row.pro)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <div className="flex justify-center gap-4 mt-10">
-              <Link
-                href="/managed-wordpress-hosting"
-                className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
-              >
-                Managed Hosting £50
-                <ArrowRight size={14} />
-              </Link>
-              <Link
-                href="/wordpress-care-plan-pro"
-                className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium hover:bg-muted transition-colors"
-              >
-                Care Plan Pro £500
-                <ArrowRight size={14} />
-              </Link>
-            </div>
-          </div>
-        </section>
+        <TierCards
+          tiers={[
+            {
+              name: "Managed WordPress Hosting",
+              monthly: 50,
+              annual: 500,
+              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
+              features: [
+                "Managed WordPress hosting on high-performance servers",
+                "Daily automated off-site backups (30-day retention)",
+                "Security monitoring & malware protection",
+                "WordPress core, plugin & theme updates",
+                "Performance monitoring & optimisation",
+                "SSL certificate  —  included, auto-renewed",
+                "Uptime monitoring every minute",
+                "30 minutes monthly development time",
+                "Expert email & plugin support"
+              ],
+              href: "/managed-wordpress-hosting",
+              ctaText: "View Managed Hosting"
+            },
+            {
+              name: "WordPress Care Plan",
+              monthly: 250,
+              annual: 2500,
+              description: "Everything in managed hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation.",
+              features: [
+                "Everything in Managed Hosting",
+                "4 hours development & support monthly",
+                "Proactive website improvements",
+                "Priority support  —  faster response",
+                "Technical consultation included",
+                "Ongoing website optimisation"
+              ],
+              href: "/wordpress-care-plan",
+              ctaText: "View Care Plan",
+              highlighted: true
+            },
+            {
+              name: "WordPress Care Plan Pro",
+              monthly: 500,
+              annual: 5000,
+              description: "Increased development capacity, conversion optimisation, advanced performance tuning, integration support, and strategic technical guidance.",
+              features: [
+                "Everything in WordPress Care Plan",
+                "Increased development capacity",
+                "Faster priority support",
+                "Conversion & performance improvements",
+                "Advanced website optimisation",
+                "Integrations & digital tools support",
+                "Ongoing strategic technical guidance"
+              ],
+              href: "/wordpress-care-plan-pro",
+              ctaText: "View Care Plan Pro"
+            }
+          ]}
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
+        />
 
         {/* Who it's for */}
         <section className="py-24 bg-background">

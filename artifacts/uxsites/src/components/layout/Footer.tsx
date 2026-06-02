@@ -26,10 +26,11 @@ export function Footer() {
             <h3 className="font-bold mb-4 text-sm">Services</h3>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
               <li><Link href="/managed-wordpress-hosting" className="hover:text-primary transition-colors">Managed Hosting</Link></li>
+              <li><Link href="/wordpress-care-plan" className="hover:text-primary transition-colors">WordPress Care Plan</Link></li>
+              <li><Link href="/wordpress-care-plan-pro" className="hover:text-primary transition-colors">Care Plan Pro</Link></li>
               <li><Link href="/new-website" className="hover:text-primary transition-colors">New Websites</Link></li>
               <li><Link href="/existing-website" className="hover:text-primary transition-colors">Website Refreshes</Link></li>
               <li><Link href="/website-support" className="hover:text-primary transition-colors">Support & Care</Link></li>
-              <li><Link href="/websites-for-consultants" className="hover:text-primary transition-colors">Websites for Consultants</Link></li>
               <li><Link href="/instant-site-quote" className="hover:text-primary transition-colors">Instant Quote</Link></li>
             </ul>
           </div>
