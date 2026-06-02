@@ -311,7 +311,7 @@ export default function ManagedHosting() {
         </section>
 
         {/* Pricing */}
-        <section id="pricing">
+        <section id="pricing" className="scroll-mt-24">
           <PricingBlock
             plans={[
               {

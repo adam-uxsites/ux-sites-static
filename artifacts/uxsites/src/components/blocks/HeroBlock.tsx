@@ -62,22 +62,40 @@ export function HeroBlock({ tagline, headline, subheadline, primaryCta, secondar
             className="flex flex-col sm:flex-row gap-4 mb-16"
           >
             {primaryCta && (
-              <Link
-                href={primaryCta.href}
-                data-testid="hero-primary-cta"
-                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
-              >
-                {primaryCta.text}
-              </Link>
+              primaryCta.href.startsWith("#") ? (
+                <a
+                  href={primaryCta.href}
+                  className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
+                >
+                  {primaryCta.text}
+                </a>
+              ) : (
+                <Link
+                  href={primaryCta.href}
+                  data-testid="hero-primary-cta"
+                  className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
+                >
+                  {primaryCta.text}
+                </Link>
+              )
             )}
             {secondaryCta && (
-              <Link
-                href={secondaryCta.href}
-                data-testid="hero-secondary-cta"
-                className="inline-flex items-center justify-center rounded-lg border border-border bg-card text-foreground px-8 py-3.5 text-sm font-bold hover:border-foreground/30 transition-colors h-12"
-              >
-                {secondaryCta.text}
-              </Link>
+              secondaryCta.href.startsWith("#") ? (
+                <a
+                  href={secondaryCta.href}
+                  className="inline-flex items-center justify-center rounded-lg border border-border bg-card text-foreground px-8 py-3.5 text-sm font-bold hover:border-foreground/30 transition-colors h-12"
+                >
+                  {secondaryCta.text}
+                </a>
+              ) : (
+                <Link
+                  href={secondaryCta.href}
+                  data-testid="hero-secondary-cta"
+                  className="inline-flex items-center justify-center rounded-lg border border-border bg-card text-foreground px-8 py-3.5 text-sm font-bold hover:border-foreground/30 transition-colors h-12"
+                >
+                  {secondaryCta.text}
+                </Link>
+              )
             )}
           </motion.div>
 
