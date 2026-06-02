@@ -230,25 +230,12 @@ export default function CaseStudyPage() {
           </section>
         )}
 
-        {/* Visit site CTA */}
-        <section className="pb-16">
-          <div className="container mx-auto px-4 max-w-3xl">
-            <div className="bg-card border border-border rounded-2xl p-8 text-center">
-              <h2 className="text-xl font-bold mb-3">Visit {study.client}</h2>
-              <p className="text-muted-foreground text-sm mb-6 max-w-lg mx-auto">
-                See the live site and explore the full range of services they offer.
-              </p>
-              <a
-                href={study.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground text-sm font-bold hover:bg-primary/90 transition-colors"
-              >
-                Visit Website <ExternalLink size={14} />
-              </a>
-            </div>
-          </div>
-        </section>
+        <CTABanner
+          title={`Visit ${study.client}`}
+          description="See the live site and explore the full range of services they offer."
+          buttonText="Visit Website"
+          buttonHref={study.liveUrl}
+        />
 
         {/* Related case studies */}
         {related.length > 0 && (
