@@ -111,9 +111,12 @@ export default function WordPressCarePlanPro() {
             { name: "WordPress Care Plan Pro", url: "https://uxsites.co.uk/wordpress-care-plan-pro" },
           ]),
           faqSchema([
-            { question: "What is the WordPress Care Plan Pro?", answer: "Care Plan Pro is our top-tier monthly retainer for businesses that rely heavily on their website. It includes everything in the standard Care Plan plus increased development capacity, faster support, advanced optimisation, conversion improvements, and integration support." },
-            { question: "Who needs Care Plan Pro over the standard Care Plan?", answer: "Growing businesses that need more development capacity each month, want active conversion and performance improvements, require integration work with third-party tools, and value having strategic technical guidance as part of their retainer." },
-            { question: "Can I upgrade from the standard Care Plan?", answer: "Yes  -  upgrade at any time with no penalties. We'll adjust your monthly allocation and support priority from the next billing cycle." },
+            { question: "What is the WordPress Care Plan Pro?", answer: "Care Plan Pro is our top-tier monthly retainer for businesses that rely heavily on their website. It includes everything in the standard Care Plan plus increased development capacity, faster support, advanced optimisation, conversion improvements, integration support, and strategic technical guidance." },
+            { question: "Who needs Care Plan Pro over the standard Care Plan?", answer: "Growing businesses that consistently need more than 4 hours of monthly development, want active conversion rate optimisation and advanced performance work, require integration support for business tools, and value having strategic technical input as part of their retainer." },
+            { question: "What kind of integration work is covered?", answer: "Connecting your website with CRM systems, booking and scheduling platforms, email marketing tools, payment gateways, analytics platforms, and other third-party services. If your business tools need to talk to your website, we handle the integration and ongoing maintenance." },
+            { question: "Can I upgrade from the standard Care Plan to Pro?", answer: "Yes  —  at any time with no penalties. We'll adjust your monthly development allocation, support priority, and billing from the next cycle. Downgrading also works the same way." },
+            { question: "What does a quarterly growth roadmap involve?", answer: "Every three months we review your website's performance data, identify opportunities for improvement, and agree on priorities for the coming quarter. This ensures your site has a clear direction aligned with your business goals." },
+            { question: "Is there a minimum commitment for Care Plan Pro?", answer: "No  —  like all our plans, Care Plan Pro runs month-to-month with 30 days notice. We believe you stay with us because you value the service, not because you're locked in." },
           ]),
         ]}
       />

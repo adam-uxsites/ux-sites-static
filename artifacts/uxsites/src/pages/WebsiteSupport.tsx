@@ -5,7 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
-import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { Check, AlertTriangle } from "lucide-react";
 
 const careFeatures = [
@@ -49,6 +49,28 @@ export default function WebsiteSupport() {
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
+          ]),
+          faqSchema([
+            {
+              question: "How is a care plan different from managed hosting?",
+              answer: "Managed hosting includes all the care plan services plus the hosting infrastructure itself  -  servers, bandwidth, SSL, and uptime. A care plan can apply to a WordPress site on any host where we have access. If you're on our managed hosting, care plan services are included automatically."
+            },
+            {
+              question: "Can you support a site that wasn't built by you?",
+              answer: "Yes. We work with WordPress sites built by other developers. We'll review the site first to understand its setup, flag any immediate concerns, and let you know if anything needs addressing before we take it on."
+            },
+            {
+              question: "What if something goes wrong while I'm on a care plan?",
+              answer: "That's exactly what the plan is for. If your site is hacked, breaks after an update, or goes down unexpectedly, we deal with it immediately as part of your plan  -  no emergency call-out charges."
+            },
+            {
+              question: "How do content update requests work?",
+              answer: "Just email us what you need changing  -  plain English, no technical knowledge required. 'Please change the phone number to 01743 000 111' or 'Can you swap the hero image to this attached photo?' We turn around straightforward changes quickly."
+            },
+            {
+              question: "Do I need to give you access to my website?",
+              answer: "Yes  -  we need admin-level WordPress access and (where applicable) hosting control panel access. We handle all credentials securely and only access your site when actively working on it."
+            }
           ]),
         ]}
       />

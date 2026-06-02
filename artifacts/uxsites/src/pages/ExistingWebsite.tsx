@@ -5,7 +5,7 @@ import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
-import { serviceSchema, breadcrumbSchema } from "@/lib/schemas";
+import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
 import { TrendingUp, Smartphone, Zap, ShieldCheck, BarChart2, Wrench } from "lucide-react";
 
 const improvements = [
@@ -71,6 +71,28 @@ export default function ExistingWebsite() {
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "Existing Website", url: "https://uxsites.co.uk/existing-website" },
+          ]),
+          faqSchema([
+            {
+              question: "Can you work on a site that wasn't built by you?",
+              answer: "Yes  -  the majority of our refresh and rebuild work is on sites built by other developers. We review the codebase first and let you know our assessment before committing to a scope of work."
+            },
+            {
+              question: "Will my site need to go offline during the work?",
+              answer: "No. We work on a staging (development) copy of your site first. Your live site continues to run normally throughout. We only switch over once the new version is fully tested and approved."
+            },
+            {
+              question: "How long does a refresh or rebuild take?",
+              answer: "A focused performance and design refresh can take 2-3 weeks. A more substantial redesign or full rebuild typically takes 4-8 weeks depending on scope. We give you a clear timeline before starting."
+            },
+            {
+              question: "What if I also need new content?",
+              answer: "We can work with your existing content, help you restructure and improve it, or bring in a copywriter if more substantial writing is needed. Photography sourcing is also something we can help arrange."
+            },
+            {
+              question: "Do I need to move hosting for a refresh?",
+              answer: "Not necessarily. If your current hosting is adequate and you want to stay with them, we can work with that. If poor hosting is contributing to your performance problems  -  which it often is  -  we'll tell you honestly and discuss the options."
+            }
           ]),
         ]}
       />

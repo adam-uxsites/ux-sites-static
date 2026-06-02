@@ -82,10 +82,12 @@ export default function NewWebsite() {
             { name: "New Website", url: "https://uxsites.co.uk/new-website" },
           ]),
           faqSchema([
-            { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4-6 weeks from the initial briefing to launch. Larger or more complex sites may take 8-10 weeks." },
-            { question: "How much does a new website cost?", answer: "Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly." },
-            { question: "What platform do you build on?", answer: "We build on WordPress using custom themes  -  not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites." },
-            { question: "Will I be able to update my website myself?", answer: "Yes. WordPress is built for non-technical users to manage content. We set up your site properly and include a training session so you feel confident making updates." },
+            { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4-6 weeks from the initial briefing to launch. Larger or more complex sites may take 8-10 weeks. The timeline depends significantly on how quickly client content and feedback are provided  -  we'll give you a clear project schedule at the start." },
+            { question: "Do I need to provide my own content?", answer: "You'll need to provide the core information about your business  -  services, contact details, key messages, any existing brand materials. We structure and present it effectively. If you need help writing copy, we can discuss that as part of the brief, or recommend a copywriter." },
+            { question: "Will I be able to update my website myself?", answer: "Yes. WordPress is built for non-technical users to manage content. We set up your site properly and include a training session so you feel confident making text changes, adding pages, writing blog posts, and managing your media library." },
+            { question: "Do you work with businesses outside Shropshire?", answer: "Yes  -  we work with businesses across the UK. The entire project can be managed remotely via video calls, email, and shared design tools. For Shropshire and West Midlands clients, in-person meetings are available." },
+            { question: "What platform do you build on?", answer: "We build on WordPress using custom themes  -  not Elementor, WPBakery, or other page builders. This produces faster, more maintainable sites that don't rely on third-party subscriptions to function." },
+            { question: "What happens after the site launches?", answer: "Every new website includes one month of post-launch support. After that, we recommend one of our care or managed hosting plans to keep the site secure and maintained. You're not obligated, but most clients find it worthwhile." },
           ]),
         ]}
       />
