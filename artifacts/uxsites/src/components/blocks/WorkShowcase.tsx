@@ -207,7 +207,7 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
           </div>
           {!showAll && PORTFOLIO.length > limit && (
             <Link
-              href="/work"
+              href="/case-studies"
               className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
             >
               View all work →
@@ -225,7 +225,7 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
         {!showAll && PORTFOLIO.length > limit && (
           <div className="mt-10 text-center">
             <Link
-              href="/work"
+              href="/case-studies"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-card/80 transition-all text-sm font-medium"
             >
               See all projects & clients

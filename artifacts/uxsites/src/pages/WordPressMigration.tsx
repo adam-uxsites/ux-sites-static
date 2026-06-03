@@ -40,7 +40,7 @@ const migrationSteps = [
   {
     icon: Activity,
     title: "We Migrate Your Site",
-    description: "We transfer your WordPress files, database, media library, and any email accounts to our managed hosting environment. We configure the server, apply optimisation settings, and test everything thoroughly in a staging environment before it goes live."
+    description: "We transfer your WordPress files, database, and media library to our managed hosting environment. We configure the server, apply optimisation settings, and test everything thoroughly in a staging environment before it goes live."
   },
   {
     icon: Globe,
@@ -81,7 +81,7 @@ export default function WordPressMigration() {
           headline="WordPress Migration to Managed Hosting"
           subheadline="Moving your WordPress site should be simple, safe, and low stress. This page explains the migration process."
           primaryCta={{ text: "Start Your Migration", href: "/contact" }}
-          secondaryCta={{ text: "Managed Hosting Details", href: "/managed-wordpress-hosting" }}
+          secondaryCta={{ text: "View the Step-by-Step Guide", href: "/migration-guide" }}
           chips={["Free Migration", "Zero Downtime", "We Handle Everything", "Stress-Free Process"]}
         />
 
@@ -200,20 +200,20 @@ export default function WordPressMigration() {
                 transition={{ delay: 0.1 }}
                 className="p-7 bg-card border border-border rounded-2xl"
               >
-                <h3 className="font-bold text-lg mb-3">Email</h3>
+                <h3 className="font-bold text-lg mb-3">Data Loss</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  If you use email through your current hosting provider, we handle the migration of mailboxes, settings, and continuity as part of the process. We ensure no emails are lost during the transition and everything continues working after the move.
+                  Will I lose any files or content? No  -  we take a full backup of your entire site before we do anything. Your original site stays untouched on your current host throughout the entire process. If anything went wrong (it won't), we can restore everything instantly.
                 </p>
                 <div className="flex items-center gap-3 text-sm font-bold text-primary">
                   <Check size={14} />
-                  Email accounts migrated
+                  Full backup before anything
                 </div>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: 0.15 }}
+                transition={{ delay: 0.2 }}
                 className="p-7 bg-card border border-border rounded-2xl"
               >
                 <h3 className="font-bold text-lg mb-3">Existing Sites</h3>
@@ -244,11 +244,7 @@ export default function WordPressMigration() {
               question: "Will there be any downtime during the migration?",
               answer: "No. We manage the migration so your current site stays live until the new site on our servers is confirmed working. DNS propagation means there's a brief period where some visitors may still reach your old host, but there's no point where your site is intentionally offline."
             },
-            {
-              question: "What about my email accounts?",
-              answer: "We handle email migration as part of the process. If you use email through your current hosting provider, we transfer your mailboxes, settings, and ensure continuity. We verify everything is working before we consider the migration complete."
-            },
-            {
+{
               question: "Can you migrate an existing WordPress site I've had for years?",
               answer: "Yes  -  we migrate existing WordPress sites of all ages and sizes. We start with a full review to understand your site's setup and identify any potential issues. Most sites transfer smoothly regardless of age."
             },

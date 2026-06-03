@@ -88,7 +88,6 @@ export function preloadRoutes() {
     () => import("@/pages/ThankYou"),
     () => import("@/pages/SitemapPage"),
     () => import("@/pages/InstantSiteQuote"),
-    () => import("@/pages/Work"),
     () => import("@/pages/CaseStudies"),
     () => import("@/pages/CaseStudyPage"),
     () => import("@/pages/DowntimeCalculator"),

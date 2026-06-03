@@ -1,4 +1,4 @@
-﻿import { chromium } from "playwright";
+import { chromium } from "playwright";
 import { preview } from "vite";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -16,6 +16,7 @@ const routes = [
   "/new-website",
   "/existing-website",
   "/contact",
+  "/about",
   "/blog",
   "/fully-managed-wordpress-hosting",
   "/managed-wordpress-hosting-cost-uk-2026",
@@ -23,6 +24,7 @@ const routes = [
   "/wordpress-care-plan",
   "/wordpress-care-plan-pro",
   "/wordpress-migration-to-managed-hosting",
+  "/migration-guide",
   "/common-wordpress-errors",
   "/managed-wordpress-hosting-vs-shared-hosting",
   "/whats-included-managed-wordpress-hosting",
@@ -100,7 +102,6 @@ const routes = [
   "/instant-site-quote",
 
   "/downtime-hack-calculator",
-  "/work",
   "/case-studies",
   "/case-studies/kingman-property-law",
   "/case-studies/conveyancing-fairy",
@@ -203,10 +204,10 @@ async function prerender() {
       fs.mkdirSync(path.dirname(filePath), { recursive: true });
       fs.writeFileSync(filePath, html, "utf-8");
       success++;
-      process.stdout.write(`\r  ✓ [${i + 1}/${total}] ${route}                  `);
+      process.stdout.write(`\r  ? [${i + 1}/${total}] ${route}                  `);
     } catch (err) {
       failed++;
-      process.stdout.write(`\r  ✗ [${i + 1}/${total}] ${route} (${err.message})`);
+      process.stdout.write(`\r  ? [${i + 1}/${total}] ${route} (${err.message})`);
     }
 
     if (pageConsoleErrors.length > 0) {
@@ -218,7 +219,7 @@ async function prerender() {
 
   // Report any captured console/page errors
   if (routeErrors.size > 0) {
-    console.log(`\n\n⚠ Console/Page Errors captured for ${routeErrors.size} route(s):\n`);
+    console.log(`\n\n? Console/Page Errors captured for ${routeErrors.size} route(s):\n`);
     let errorCount = 0;
     for (const [route, errors] of routeErrors) {
       console.log(`  --- ${route} ---`);
@@ -229,7 +230,7 @@ async function prerender() {
     }
     console.log(`\nTotal errors/warnings: ${errorCount}`);
   } else {
-    console.log(`\n\n✓ No console errors or warnings captured for any route.`);
+    console.log(`\n\n? No console errors or warnings captured for any route.`);
   }
 
   console.log(`\nDone: ${success} succeeded, ${failed} failed`);

@@ -26,7 +26,9 @@ const WordPressMaintenanceCostUK = lazy(() => import("@/pages/WordPressMaintenan
 const WordPressCarePlan = lazy(() => import("@/pages/WordPressCarePlan"));
 const WordPressCarePlanPro = lazy(() => import("@/pages/WordPressCarePlanPro"));
 const WordPressMigration = lazy(() => import("@/pages/WordPressMigration"));
+const MigrationGuide = lazy(() => import("@/pages/MigrationGuide"));
 const CommonWordPressErrors = lazy(() => import("@/pages/CommonWordPressErrors"));
+const About = lazy(() => import("@/pages/About"));
 const MgdHostingVsShared = lazy(() => import("@/pages/MgdHostingVsShared"));
 const WhatsIncludedMgdHosting = lazy(() => import("@/pages/WhatsIncludedMgdHosting"));
 const WhatIsMgdHosting = lazy(() => import("@/pages/WhatIsMgdHosting"));
@@ -107,7 +109,6 @@ const TermsOfService = lazy(() => import("@/pages/TermsOfService"));
 const ThankYou = lazy(() => import("@/pages/ThankYou"));
 const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const InstantSiteQuote = lazy(() => import("@/pages/InstantSiteQuote"));
-const Work = lazy(() => import("@/pages/Work"));
 const CaseStudies = lazy(() => import("@/pages/CaseStudies"));
 const CaseStudyPage = lazy(() => import("@/pages/CaseStudyPage"));
 const DowntimeCalculator = lazy(() => import("@/pages/DowntimeCalculator"));
@@ -152,6 +153,7 @@ function Router() {
           <Route path="/new-website" component={NewWebsite} />
           <Route path="/existing-website" component={ExistingWebsite} />
           <Route path="/contact" component={Contact} />
+          <Route path="/about" component={About} />
           <Route path="/blog/:slug" component={BlogPost} />
           <Route path="/blog" component={Blog} />
           <Route path="/fully-managed-wordpress-hosting" component={FullyManagedHosting} />
@@ -160,6 +162,7 @@ function Router() {
           <Route path="/wordpress-care-plan" component={WordPressCarePlan} />
           <Route path="/wordpress-care-plan-pro" component={WordPressCarePlanPro} />
           <Route path="/wordpress-migration-to-managed-hosting" component={WordPressMigration} />
+          <Route path="/migration-guide" component={MigrationGuide} />
           <Route path="/common-wordpress-errors" component={CommonWordPressErrors} />
           <Route path="/managed-wordpress-hosting-vs-shared-hosting" component={MgdHostingVsShared} />
           <Route path="/whats-included-managed-wordpress-hosting" component={WhatsIncludedMgdHosting} />
@@ -236,7 +239,6 @@ function Router() {
           <Route path="/sitemap" component={SitemapPage} />
           <Route path="/instant-site-quote" component={InstantSiteQuote} />
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />
-          <Route path="/work" component={Work} />
           <Route path="/case-studies/:slug" component={CaseStudyPage} />
           <Route path="/case-studies" component={CaseStudies} />
           <Route component={NotFound} />
