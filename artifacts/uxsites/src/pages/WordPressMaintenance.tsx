@@ -26,8 +26,8 @@ export default function WordPressMaintenance() {
   return (
     <>
       <SEO
-        title="WordPress Maintenance Service | UX Sites  -  Monthly WordPress Care"
-        description="Professional WordPress maintenance for UK businesses. Monthly updates, security scanning, daily backups, uptime monitoring, and expert support  -  from £50/month. Stress-free site care."
+        title="WordPress Maintenance from £50/mo | UX Sites Shropshire"
+        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support — from £50/month. Stress-free site care."
         url="https://uxsites.co.uk/wordpress-maintenance"
         schema={[
           serviceSchema({

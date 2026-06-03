@@ -85,8 +85,8 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Start Your Project | UX Sites"
-        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing  -  no obligation, no hard sell."
+        title="Start Your Website Project | UX Sites Shropshire"
+        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing — no obligation, no hard sell."
         url="https://uxsites.co.uk/contact"
         schema={[
           {

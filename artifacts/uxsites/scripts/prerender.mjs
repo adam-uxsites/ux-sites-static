@@ -1,4 +1,4 @@
-import { chromium } from "playwright";
+﻿import { chromium } from "playwright";
 import { preview } from "vite";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -98,6 +98,7 @@ const routes = [
   "/thank-you",
   "/sitemap",
   "/instant-site-quote",
+
   "/downtime-hack-calculator",
   "/work",
   "/case-studies",
@@ -150,6 +151,7 @@ async function prerender() {
     throw new Error("Preview server failed to start");
   }
 
+
   const total = routes.length;
   console.log(`Prerendering ${total} routes...`);
 
@@ -165,17 +167,35 @@ async function prerender() {
   let success = 0;
   let failed = 0;
 
+  // Collect route-specific console/page errors
+  const routeErrors = new Map();
+
   for (let i = 0; i < total; i++) {
     const route = routes[i];
     const page = await context.newPage();
+    const pageConsoleErrors = [];
+
+    page.on("console", msg => {
+      const txt = msg.text();
+      if (msg.type() === "error" || msg.type() === "warning") {
+        pageConsoleErrors.push(`[${msg.type()}] ${txt}`);
+      }
+    });
+
+    page.on("pageerror", err => {
+      pageConsoleErrors.push(`[pageerror] ${err.message}\n${err.stack}`);
+    });
+
     try {
-      await page.goto(`${address}${route}`, { waitUntil: "commit" });
+      const fullUrl = (address.endsWith('/') ? address.slice(0, -1) : address) + route;
+
+      await page.goto(fullUrl, { waitUntil: "load" });
       await page.waitForSelector("#root > *", { timeout: 15000 });
       await page.waitForLoadState("networkidle");
-      await page.evaluate(() => new Promise(r => setTimeout(r, 500)));
+      await page.evaluate(() => new Promise(r => setTimeout(r, 1000)));
 
       const html = await page.content();
-
+      
       const filePath = route === "/"
         ? path.join(root, "dist/public/index.html")
         : path.join(root, "dist/public", route.slice(1), "index.html");
@@ -188,10 +208,31 @@ async function prerender() {
       failed++;
       process.stdout.write(`\r  ✗ [${i + 1}/${total}] ${route} (${err.message})`);
     }
+
+    if (pageConsoleErrors.length > 0) {
+      routeErrors.set(route, [...pageConsoleErrors]);
+    }
+
     await page.close();
   }
 
-  console.log(`\n\nDone: ${success} succeeded, ${failed} failed`);
+  // Report any captured console/page errors
+  if (routeErrors.size > 0) {
+    console.log(`\n\n⚠ Console/Page Errors captured for ${routeErrors.size} route(s):\n`);
+    let errorCount = 0;
+    for (const [route, errors] of routeErrors) {
+      console.log(`  --- ${route} ---`);
+      for (const err of errors) {
+        errorCount++;
+        console.log(`    ${err}`);
+      }
+    }
+    console.log(`\nTotal errors/warnings: ${errorCount}`);
+  } else {
+    console.log(`\n\n✓ No console errors or warnings captured for any route.`);
+  }
+
+  console.log(`\nDone: ${success} succeeded, ${failed} failed`);
 
   // Write sitemap
   const sitemap = generateSitemap(routes);

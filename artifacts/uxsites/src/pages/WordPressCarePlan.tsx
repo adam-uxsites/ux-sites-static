@@ -64,8 +64,8 @@ export default function WordPressCarePlan() {
   return (
     <>
       <SEO
-        title="WordPress Care Plan | From £250/month | UX Sites"
-        description="Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation. From £250/month."
+        title="WordPress Care Plan from £250/mo | UX Sites Shropshire"
+        description="WordPress care plan from £250/month with managed hosting, 4 hours monthly development & priority support — your website actively maintained and improved."
         url="https://uxsites.co.uk/wordpress-care-plan"
         schema={[
           serviceSchema({

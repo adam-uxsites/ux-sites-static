@@ -1,4 +1,4 @@
-import { lazy, Suspense, useState, useEffect } from "react";
+﻿import { lazy, Suspense, useState, useEffect } from "react";
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
@@ -12,13 +12,13 @@ import { ErrorBoundary } from "@/components/layout/ErrorBoundary";
 
 import { preloadRoutes } from "@/lib/preloadRoutes";
 import Home from "@/pages/Home";
+const BlogPost = lazy(() => import("@/pages/BlogPost"));
 const ManagedHosting = lazy(() => import("@/pages/ManagedHosting"));
 const WebsiteSupport = lazy(() => import("@/pages/WebsiteSupport"));
 const NewWebsite = lazy(() => import("@/pages/NewWebsite"));
 const ExistingWebsite = lazy(() => import("@/pages/ExistingWebsite"));
 const Contact = lazy(() => import("@/pages/Contact"));
 const Blog = lazy(() => import("@/pages/Blog"));
-const BlogPost = lazy(() => import("@/pages/BlogPost"));
 
 const FullyManagedHosting = lazy(() => import("@/pages/FullyManagedHosting"));
 const ManagedHostingCostUK = lazy(() => import("@/pages/ManagedHostingCostUK"));
@@ -152,8 +152,8 @@ function Router() {
           <Route path="/new-website" component={NewWebsite} />
           <Route path="/existing-website" component={ExistingWebsite} />
           <Route path="/contact" component={Contact} />
-          <Route path="/blog" component={Blog} />
           <Route path="/blog/:slug" component={BlogPost} />
+          <Route path="/blog" component={Blog} />
           <Route path="/fully-managed-wordpress-hosting" component={FullyManagedHosting} />
           <Route path="/managed-wordpress-hosting-cost-uk-2026" component={ManagedHostingCostUK} />
           <Route path="/wordpress-maintenance-cost-uk" component={WordPressMaintenanceCostUK} />
@@ -237,9 +237,9 @@ function Router() {
           <Route path="/instant-site-quote" component={InstantSiteQuote} />
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />
           <Route path="/work" component={Work} />
-          <Route path="/case-studies" component={CaseStudies} />
           <Route path="/case-studies/:slug" component={CaseStudyPage} />
-          {mounted && <Route component={NotFound} />}
+          <Route path="/case-studies" component={CaseStudies} />
+          <Route component={NotFound} />
         </Switch>
       </Suspense>
       </ErrorBoundary>

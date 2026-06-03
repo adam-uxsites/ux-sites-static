@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="UX Sites | Managed WordPress Hosting & Web Design Shropshire"
-        description="Managed website hosting for UK businesses from £50/month. Stress-free WordPress support, security, updates and backups. Expert web design by a Google UX Certified developer."
+        title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
+        description="Managed WordPress hosting & care plans from £50–£500/month. Daily backups, real-time security, expert support — no technical headaches. Google UX Certified."
         url="https://uxsites.co.uk/"
         schema={[webSiteSchema(), organizationSchema()]}
       />

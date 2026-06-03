@@ -34,6 +34,7 @@ export default function InstantSiteQuote() {
         title="Instant Website Quote | UX Sites"
         description="Instant website pricing with no callbacks. Get a transparent, fixed quote for your new website, redesign, or managed hosting  -  based on what you actually need."
         url="https://uxsites.co.uk/instant-site-quote"
+        noindex
         schema={[
           serviceSchema({
             name: "Website Design & Development",

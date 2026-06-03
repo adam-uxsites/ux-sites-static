@@ -58,8 +58,8 @@ export default function ExistingWebsite() {
   return (
     <>
       <SEO
-        title="Website Refresh & Rebuild | UX Sites Shropshire"
-        description="Transform your existing WordPress site into a high-performance asset. Design refresh, speed optimisation, mobile improvements, SEO and conversion tweaks  -  free audit included."
+        title="WordPress Website Refresh & Redesign | UX Sites Shropshire"
+        description="Transform your existing WordPress site into a high-performance asset — design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
         url="https://uxsites.co.uk/existing-website"
         schema={[
           serviceSchema({

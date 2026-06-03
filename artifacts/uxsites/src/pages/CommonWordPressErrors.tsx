@@ -80,8 +80,8 @@ export default function CommonWordPressErrors() {
   return (
     <>
       <SEO
-        title="Common WordPress Errors and How to Fix Them | UX Sites"
-        description="Common WordPress errors explained in plain English with step-by-step fixes. From white screen of death to database connection issues  -  solve them yourself or let us handle it."
+        title="Common WordPress Errors & How to Fix Them | UX Sites"
+        description="Common WordPress errors explained in plain English — white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
         url="https://uxsites.co.uk/common-wordpress-errors"
         schema={[
           serviceSchema({

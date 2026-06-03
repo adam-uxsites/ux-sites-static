@@ -78,8 +78,8 @@ export default function ManagedHosting() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting | From £50/month | UX Sites Shropshire"
-        description="Stress-free managed WordPress hosting from £50/month. Daily backups, security monitoring, performance optimisation, WordPress updates, and expert support  -  no technical headaches."
+        title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
+        description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support — 99.9% uptime. No tech headaches."
         url="https://uxsites.co.uk/managed-wordpress-hosting"
         schema={[
           serviceSchema({

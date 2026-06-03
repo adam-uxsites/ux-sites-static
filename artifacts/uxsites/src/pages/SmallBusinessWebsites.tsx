@@ -14,8 +14,8 @@ export default function SmallBusinessWebsites() {
   return (
     <>
       <SEO
-        title="Websites for Small Businesses | UX Sites  -  Professional & Affordable"
-        description="Professional small business websites that actually generate enquiries. Custom WordPress design, mobile-first, SEO foundations  -  from a Google UX Certified designer. Based in Shropshire."
+        title="Websites for Small Businesses | UX Sites Shropshire"
+        description="Professional small business websites that actually generate enquiries — custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
         url="https://uxsites.co.uk/small-business-websites"
         schema={[
           serviceSchema({

@@ -67,8 +67,8 @@ export default function NewWebsite() {
   return (
     <>
       <SEO
-        title="New Website Design & Build | UX Sites Shropshire"
-        description="Custom WordPress websites built to generate real enquiries. Data-driven design, mobile-first, SEO-ready  -  from a Google UX Certified developer. Based in Shropshire, serving the UK."
+        title="Custom WordPress Website Design & Build | UX Sites Shropshire"
+        description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready — from a Google UX Certified developer. Based in Shropshire, serving the UK."
         url="https://uxsites.co.uk/new-website"
         schema={[
           serviceSchema({

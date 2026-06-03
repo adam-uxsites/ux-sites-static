@@ -36,8 +36,8 @@ export default function WebsiteSupport() {
   return (
     <>
       <SEO
-        title="WordPress Website Support & Care Plans | UX Sites Shropshire"
-        description="Keep your WordPress site secure, updated, and running smoothly. Professional website support and care plans with updates, security monitoring, backups, and expert help  -  from £50/month."
+        title="WordPress Care & Support from £50/mo | UX Sites Shropshire"
+        description="Keep your WordPress site secure, updated & running smoothly — updates, backups, security monitoring & expert support from £50/month."
         url="https://uxsites.co.uk/website-support"
         schema={[
           serviceSchema({

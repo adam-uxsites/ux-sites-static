@@ -21,8 +21,8 @@ export default function WebDesignShropshire() {
   return (
     <>
       <SEO
-        title="Web Design Shropshire | UX Sites — St. Martins Web Designer"
-        description="Professional web design for Shropshire businesses. Custom WordPress websites from a Google UX Certified designer based in St. Martins, Oswestry. Serving Shropshire and businesses across the UK."
+        title="Web Design Shropshire | UX Sites — WordPress Websites for Local Businesses"
+        description="Professional web design for Shropshire businesses — custom WordPress websites from a Google UX Certified designer based in St. Martins, Oswestry. Serving Shropshire and the UK."
         url="https://uxsites.co.uk/web-design-shropshire"
         schema={[
           serviceSchema({
