@@ -253,6 +253,12 @@ export default function CommonWordPressErrors() {
               tag: "Related"
             },
             {
+              title: "WordPress Support Shropshire",
+              description: "Expert WordPress support for Shropshire businesses — local help when you need it.",
+              href: "/wordpress-support-shropshire",
+              tag: "Local"
+            },
+            {
               title: "WordPress Hosting Shropshire",
               description: "Local managed hosting with expert support for Shropshire businesses.",
               href: "/wordpress-hosting-shropshire",

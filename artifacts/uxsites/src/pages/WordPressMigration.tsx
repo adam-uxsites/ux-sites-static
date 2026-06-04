@@ -300,6 +300,12 @@ export default function WordPressMigration() {
               tag: "Backups"
             },
             {
+              title: "WordPress Support Shropshire",
+              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
+              href: "/wordpress-support-shropshire",
+              tag: "Local"
+            },
+            {
               title: "Managed Hosting Cost UK",
               description: "See what managed hosting costs and how to judge the real value for your business.",
               href: "/managed-wordpress-hosting-cost-uk-2026",

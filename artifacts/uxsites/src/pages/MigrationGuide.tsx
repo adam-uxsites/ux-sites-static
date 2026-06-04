@@ -193,6 +193,7 @@ export default function MigrationGuide() {
           pages={[
             { title: "Managed WordPress Hosting", href: "/managed-wordpress-hosting", description: "Everything included in our managed hosting plan" },
             { title: "WordPress Care Plan", href: "/wordpress-care-plan", description: "Ongoing development & priority support" },
+            { title: "WordPress Support Shropshire", href: "/wordpress-support-shropshire", description: "Expert WordPress support for Shropshire businesses" },
             { title: "Common WordPress Errors", href: "/common-wordpress-errors", description: "Troubleshoot issues before migration" },
           ]}
         />

@@ -97,6 +97,9 @@ const WebsitesForJewellers = lazy(() => import("@/pages/WebsitesForJewellers"));
 const WebsitesForManufacturers = lazy(() => import("@/pages/WebsitesForManufacturers"));
 
 const WebDesignShropshire = lazy(() => import("@/pages/WebDesignShropshire"));
+const WebDesignOswestry = lazy(() => import("@/pages/WebDesignOswestry"));
+const WordPressSupportShropshire = lazy(() => import("@/pages/WordPressSupportShropshire"));
+const WebsiteMaintenanceShropshire = lazy(() => import("@/pages/WebsiteMaintenanceShropshire"));
 const WordPressHostingShropshire = lazy(() => import("@/pages/WordPressHostingShropshire"));
 const SmallBusinessWebsites = lazy(() => import("@/pages/SmallBusinessWebsites"));
 const WordPressMaintenance = lazy(() => import("@/pages/WordPressMaintenance"));
@@ -111,6 +114,10 @@ const SitemapPage = lazy(() => import("@/pages/SitemapPage"));
 const InstantSiteQuote = lazy(() => import("@/pages/InstantSiteQuote"));
 const CaseStudies = lazy(() => import("@/pages/CaseStudies"));
 const CaseStudyPage = lazy(() => import("@/pages/CaseStudyPage"));
+const GoogleAnalyticsSetup = lazy(() => import("@/pages/GoogleAnalyticsSetup"));
+const FreeGA4Review = lazy(() => import("@/pages/FreeGA4Review"));
+const ConversionTrackingSetup = lazy(() => import("@/pages/ConversionTrackingSetup"));
+const WebsiteUXAudit = lazy(() => import("@/pages/WebsiteUXAudit"));
 const DowntimeCalculator = lazy(() => import("@/pages/DowntimeCalculator"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
@@ -230,6 +237,9 @@ function Router() {
           <Route path="/websites-for-jewellers" component={WebsitesForJewellers} />
           <Route path="/websites-for-manufacturers" component={WebsitesForManufacturers} />
           <Route path="/web-design-shropshire" component={WebDesignShropshire} />
+          <Route path="/web-design-oswestry" component={WebDesignOswestry} />
+          <Route path="/wordpress-support-shropshire" component={WordPressSupportShropshire} />
+          <Route path="/website-maintenance-shropshire" component={WebsiteMaintenanceShropshire} />
           <Route path="/small-business-websites" component={SmallBusinessWebsites} />
           <Route path="/wordpress-maintenance" component={WordPressMaintenance} />
           <Route path="/website-speed-optimisation" component={WebsiteSpeedOptimisation} />
@@ -241,6 +251,10 @@ function Router() {
           <Route path="/downtime-hack-calculator" component={DowntimeCalculator} />
           <Route path="/case-studies/:slug" component={CaseStudyPage} />
           <Route path="/case-studies" component={CaseStudies} />
+          <Route path="/google-analytics-setup" component={GoogleAnalyticsSetup} />
+          <Route path="/free-ga4-review" component={FreeGA4Review} />
+          <Route path="/conversion-tracking-setup" component={ConversionTrackingSetup} />
+          <Route path="/website-ux-audit" component={WebsiteUXAudit} />
           <Route component={NotFound} />
         </Switch>
       </Suspense>

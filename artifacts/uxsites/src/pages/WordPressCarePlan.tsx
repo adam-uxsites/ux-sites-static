@@ -7,7 +7,7 @@ import { TierCards } from "@/components/blocks/TierCards";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
-import { Shield, Clock, HeadphonesIcon, TrendingUp, Lightbulb, Zap, Users, Briefcase, Building2, ArrowRight } from "lucide-react";
+import { Shield, Clock, HeadphonesIcon, BarChart3, TrendingUp, Lightbulb, Zap, Users, Briefcase, Building2, ArrowRight } from "lucide-react";
 
 const features = [
   {
@@ -29,6 +29,11 @@ const features = [
     icon: HeadphonesIcon,
     title: "Priority Support",
     description: "Skip the queue. Care plan clients get fast, direct access to your dedicated website team. No ticket systems, no hold music  -  just email us and we get on it."
+  },
+  {
+    icon: BarChart3,
+    title: "Analytics & Conversion Tracking",
+    description: "Proper GA4 setup with goal and conversion tracking included. If you're running Google Ads, we configure conversion tracking so you know exactly what's driving results."
   },
   {
     icon: TrendingUp,
@@ -98,7 +103,7 @@ export default function WordPressCarePlan() {
           subheadline="Managed hosting, 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  everything your website needs to keep getting better."
           primaryCta={{ text: "Get Your Care Plan", href: "/contact" }}
           secondaryCta={{ text: "Compare Plans", href: "#pricing" }}
-          chips={["4 Hours Dev/Month", "Priority Support", "Proactive Improvements", "Technical Consultation", "Managed Hosting Included"]}
+          chips={["4 Hours Dev/Month", "UX & Analytics", "Priority Support", "Proactive Improvements", "Technical Consultation", "Managed Hosting Included"]}
         />
 
         {/* Features grid */}
@@ -363,6 +368,18 @@ export default function WordPressCarePlan() {
               description: "Everything included  -  hosting, updates, security, backups, and 30 min development time.",
               href: "/fully-managed-wordpress-hosting",
               tag: "Hosting"
+            },
+            {
+              title: "Website Maintenance Shropshire",
+              description: "Professional website maintenance for Shropshire businesses, locally supported.",
+              href: "/website-maintenance-shropshire",
+              tag: "Local"
+            },
+            {
+              title: "WordPress Support Shropshire",
+              description: "Expert WordPress support and fixes for Shropshire businesses.",
+              href: "/wordpress-support-shropshire",
+              tag: "Local"
             },
             {
               title: "WordPress Maintenance Service",

@@ -293,6 +293,8 @@ export default function About() {
           pages={[
             { title: "Managed WordPress Hosting", href: "/managed-wordpress-hosting", description: "Everything included in our managed hosting plans" },
             { title: "WordPress Care Plan", href: "/wordpress-care-plan", description: "Ongoing development, updates & priority support" },
+            { title: "Web Design Oswestry", href: "/web-design-oswestry", description: "Custom WordPress websites for Oswestry and the Welsh borders" },
+            { title: "WordPress Support Shropshire", href: "/wordpress-support-shropshire", description: "Expert WordPress support for Shropshire businesses" },
             { title: "New Website", href: "/new-website", description: "Custom WordPress websites built for your business" },
             { title: "Case Studies", href: "/case-studies", description: "Recent projects and client results" },
           ]}

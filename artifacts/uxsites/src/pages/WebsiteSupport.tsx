@@ -275,6 +275,12 @@ export default function WebsiteSupport() {
               tag: "Hosting"
             },
             {
+              title: "WordPress Support Shropshire",
+              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
+              href: "/wordpress-support-shropshire",
+              tag: "Local"
+            },
+            {
               title: "Website Speed Optimisation",
               description: "Performance monitoring and Core Web Vitals improvements  -  included in care plans.",
               href: "/website-speed-optimisation",

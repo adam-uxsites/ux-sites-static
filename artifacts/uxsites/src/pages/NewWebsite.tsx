@@ -44,7 +44,7 @@ const processSteps = [
   {
     number: "06",
     title: "Testing & Launch",
-    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics and Search Console configuration, then a smooth handover and launch.",
+    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics 4 and Search Console configuration, conversion tracking setup — then a smooth handover and launch.",
     detail: "Training session included so you can manage your site"
   }
 ];
@@ -98,7 +98,7 @@ export default function NewWebsite() {
           subheadline="Not a template. Not a page builder dragged into shape. A precision-crafted WordPress website designed around your customers, your goals, and your brand  -  built by a Google-certified UX expert with 10+ years of experience across 15+ industries."
           primaryCta={{ text: "Start Your Project", href: "/contact" }}
           secondaryCta={{ text: "See Our Process", href: "#process" }}
-          chips={["Bespoke Design", "Mobile First", "SEO Optimised", "Google UX Certified", "WordPress"]}
+          chips={["Bespoke Design", "Mobile First", "SEO Optimised", "Google UX Certified", "Conversion Tracking", "WordPress"]}
         />
 
         <StatsBar
@@ -224,6 +224,10 @@ export default function NewWebsite() {
               description: "Technical SEO isn't an afterthought. Site structure, meta data, schema markup, page speed, and Search Console setup are part of every build."
             },
             {
+              title: "Conversion Tracking Included",
+              description: "GA4 with goal and conversion tracking configured as standard. You'll know where your leads come from from day one."
+            },
+            {
               title: "Shropshire-Based, Available",
               description: "Based in Shropshire  -  available for in-person meetings for local clients, and fully remote-capable for businesses across the UK."
             }
@@ -308,9 +312,15 @@ export default function NewWebsite() {
             },
             {
               title: "Local SEO for Shropshire Businesses",
-              description: "How to rank in local searches  -  practical steps that actually move the needle.",
+              description: "How to rank in local searches  —  practical steps that actually move the needle.",
               href: "/blog/local-seo-shropshire-businesses",
               tag: "Blog"
+            },
+            {
+              title: "Website UX Audit",
+              description: "Data-driven UX analysis to improve your site's performance and conversions.",
+              href: "/website-ux-audit",
+              tag: "Service"
             }
           ]}
         />

@@ -12,45 +12,45 @@ import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
 
 const areas = [
-  "Shrewsbury", "Telford", "Oswestry", "Bridgnorth",
-  "Market Drayton", "Whitchurch", "Ludlow", "Newport",
-  "Church Stretton", "Much Wenlock", "Shropshire Hills", "West Midlands"
+  "Oswestry", "St. Martins", "Gobowen", "Chirk",
+  "Ellesmere", "Llangollen", "Welshpool", "Whitchurch",
+  "Shrewsbury", "Wrexham", "Ruabon", "North Shropshire"
 ];
 
-export default function WebDesignShropshire() {
+export default function WebDesignOswestry() {
   return (
     <>
       <SEO
-        title="Web Design Shropshire | UX Sites — WordPress Websites for Local Businesses"
-        description="Professional web design for Shropshire businesses — custom WordPress websites from a Google UX Certified designer based in St. Martins, Oswestry. Serving Shropshire and the UK."
-        url="https://uxsites.co.uk/web-design-shropshire"
+        title="Web Design Oswestry | UX Sites — WordPress Websites for Local Businesses"
+        description="Professional web design for Oswestry businesses — custom WordPress websites from a Google UX Certified designer based near Oswestry. Serving Oswestry, St. Martins, Gobowen and across North Shropshire."
+        url="https://uxsites.co.uk/web-design-oswestry"
         schema={[
           serviceSchema({
-            name: "Web Design Shropshire",
-            description: "Custom WordPress web design for Shropshire businesses. Based in Shrewsbury, serving Telford, Oswestry, Bridgnorth and beyond. Google UX Certified with 10+ years experience.",
-            url: "https://uxsites.co.uk/web-design-shropshire",
+            name: "Web Design Oswestry",
+            description: "Custom WordPress web design for Oswestry businesses. Based near Oswestry, serving St. Martins, Gobowen, Chirk and beyond. Google UX Certified with 10+ years experience.",
+            url: "https://uxsites.co.uk/web-design-oswestry",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "New Website", url: "https://uxsites.co.uk/new-website" },
-            { name: "Web Design Shropshire", url: "https://uxsites.co.uk/web-design-shropshire" },
+            { name: "Web Design Oswestry", url: "https://uxsites.co.uk/web-design-oswestry" },
           ]),
           faqSchema([
-            { question: "Do you only design websites for Shropshire businesses?", answer: "We're based in Shropshire but work with businesses across the UK. Being local is a bonus for face-to-face meetings, but most projects are handled remotely." },
-            { question: "How much does web design cost in Shropshire?", answer: "Most small business websites start from around £1,500. We provide a fixed quote after understanding your requirements — no surprises." },
-            { question: "How long does a Shropshire web design project take?", answer: "Most projects take 4–6 weeks from briefing to launch. We'll give you a realistic timeline before starting." },
+            { question: "Do you only design websites for Oswestry businesses?", answer: "We're based near Oswestry but work with businesses across the UK. Being local is a bonus for face-to-face meetings, but most projects are handled remotely." },
+            { question: "How much does web design cost in Oswestry?", answer: "Most small business websites start from around £1,500. We provide a fixed quote after understanding your requirements — no surprises." },
+            { question: "How long does an Oswestry web design project take?", answer: "Most projects take 4–6 weeks from briefing to launch. We'll give you a realistic timeline before starting." },
           ]),
         ]}
       />
       <main>
         <HeroBlock
-          tagline="Local web design — national quality"
-          headline="Web Design for Shropshire Businesses"
-          subheadline="Based in Shropshire, we build custom WordPress websites for local businesses across Shrewsbury, Telford, Oswestry, Bridgnorth and beyond. A genuine local expert with 10+ years experience and Google UX certification."
+          tagline="Local web design for Oswestry businesses"
+          headline="Web Design for Oswestry & the Welsh Borders"
+          subheadline="Based near Oswestry, we build custom WordPress websites for businesses across North Shropshire and the Welsh borders. A genuine local expert with 10+ years experience and Google UX certification."
           primaryCta={{ text: "Discuss Your Project", href: "/contact" }}
-          secondaryCta={{ text: "View Our Work", href: "/new-website" }}
-          chips={["Shrewsbury Based", "Custom WordPress", "Google UX Certified", "10+ Years Experience"]}
+          secondaryCta={{ text: "View Our Work", href: "/case-studies" }}
+          chips={["Oswestry Area", "Custom WordPress", "Google UX Certified", "10+ Years Experience"]}
         />
 
         <StatsBar
@@ -69,20 +69,16 @@ export default function WebDesignShropshire() {
               <div>
                 <div className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground border border-border rounded-full px-3 py-1 mb-6">
                   <MapPin size={14} className="text-primary" />
-                  Serving Shropshire & West Midlands
+                  Serving Oswestry & North Shropshire
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  A Local Web Designer Who Understands Your Market
+                  A Local Web Designer Who Knows the Oswestry Area
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Working with a local web designer means you get someone who understands the Shropshire business landscape — the mix of rural and urban markets, the industries that dominate the county, and the audience you're trying to reach.
+                  Working with a local web designer means you get someone who understands the Oswestry business community — the mix of town centre retail, agricultural businesses across the border region, and professional services serving North Shropshire and Wrexham.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  We've worked with businesses across Shrewsbury, Telford, Oswestry, and throughout the county — from professional services and tradespeople to healthcare and hospitality. That breadth of local experience shapes how we approach every new project.
-                </p>
-                <p className="text-muted-foreground text-sm mb-6">
-                  Learn why responsive design matters for local businesses in our{" "}
-                  <a href="/blog/responsive-web-design-uk" className="text-primary font-bold hover:underline">responsive web design guide</a>.
+                  We've worked with businesses across Oswestry, St. Martins, Gobowen, Chirk, and throughout the border region. That local experience shapes how we approach every new project.
                 </p>
                 <Link
                   href="/new-website"
@@ -113,36 +109,36 @@ export default function WebDesignShropshire() {
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14">
-              <h2 className="text-3xl font-bold mb-4">What Working with a Local Shropshire Web Designer Gets You</h2>
+              <h2 className="text-3xl font-bold mb-4">What Working with a Local Oswestry Web Designer Gets You</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Beyond just proximity — there are genuine advantages to working with someone based in your county.
+                Beyond just proximity — there are genuine advantages to working with someone based in your area.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 {
                   title: "In-Person Meetings Available",
-                  description: "For clients in and around Shrewsbury, Telford, and across Shropshire, we're available for face-to-face meetings at your premises or a local location. Remote working also fully supported."
+                  description: "For clients in and around Oswestry and across North Shropshire, we're available for face-to-face meetings at your premises. Remote working also fully supported."
                 },
                 {
                   title: "Local SEO That Actually Works",
-                  description: "We understand which local keywords your Shropshire customers are searching for, and build that into your site from day one — helping you appear in local and map-based searches."
+                  description: "We understand which local keywords your Oswestry and North Shropshire customers are searching for, and build that into your site from day one."
                 },
                 {
                   title: "Understanding of Local Competition",
-                  description: "Having worked with businesses across the county, we know your competitive landscape. We design with that context in mind — positioning your business effectively against local alternatives."
+                  description: "Having worked with businesses across the Oswestry area, we know your competitive landscape and design with that context in mind."
                 },
                 {
                   title: "No Agency Overheads",
-                  description: "You're working directly with the person building your site — not a project manager relaying messages to an offshore developer. Faster communication, clearer accountability, better results."
+                  description: "You're working directly with the person building your site — not a project manager relaying messages offshore. Faster communication, better results."
                 },
                 {
                   title: "Real Business Understanding",
-                  description: "10+ years working with Shropshire businesses means we understand what matters to your customers — whether you're a Shrewsbury solicitor, a Telford manufacturer, or a Bridgnorth hospitality business."
+                  description: "10+ years working with Oswestry and border region businesses means we understand what matters to your customers."
                 },
                 {
                   title: "Long-Term Partnership",
-                  description: "We're not going anywhere. Our managed hosting and support clients have been with us for years. We build relationships, not just websites — and we're here when you need us."
+                  description: "Our managed hosting and support clients have been with us for years. We build relationships, not just websites."
                 }
               ].map((item, i) => (
                 <motion.div
@@ -161,14 +157,14 @@ export default function WebDesignShropshire() {
           </div>
         </section>
 
-        {/* Industries in Shropshire */}
+        {/* Industries */}
         <section className="py-20 bg-background">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="grid md:grid-cols-2 gap-14 items-start">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Industries We've Served Across Shropshire</h2>
+                <h2 className="text-3xl font-bold mb-6">Industries We've Served Across the Oswestry Area</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  Shropshire has a diverse business economy — from professional services in Shrewsbury to manufacturing in Telford, agricultural businesses across the rural county, and a thriving hospitality and tourism sector. We've built websites across all of these.
+                  Oswestry and the border region has a diverse business economy — from town centre professional services to agricultural businesses, hospitality, and manufacturing. We've built websites across all of these.
                 </p>
                 <div className="grid grid-cols-2 gap-3">
                   {[
@@ -188,11 +184,11 @@ export default function WebDesignShropshire() {
               </div>
               <div className="space-y-4">
                 <div className="p-7 bg-card border border-border rounded-2xl">
-                  <h3 className="font-bold text-lg mb-3">Recent Shropshire Projects</h3>
+                  <h3 className="font-bold text-lg mb-3">Recent Local Projects</h3>
                   <div className="space-y-4">
                     {[
-                      { name: "Kingman Law", type: "Legal Services", url: "kingman-law.co.uk", desc: "Professional legal services website — December 2025" },
-                      { name: "Conveyancing Fairy", type: "Property Services", url: "conveyancingfairy.co.uk", desc: "Residential conveyancing specialists — January 2026" }
+                      { name: "Kingman Law", type: "Legal Services", desc: "Professional legal services website — December 2025" },
+                      { name: "Conveyancing Fairy", type: "Property Services", desc: "Residential conveyancing specialists — January 2026" }
                     ].map((project, i) => (
                       <div key={i} className="border-b border-border last:border-0 pb-4 last:pb-0">
                         <div className="font-bold mb-1">{project.name}</div>
@@ -210,7 +206,7 @@ export default function WebDesignShropshire() {
                 <div className="p-7 bg-card border border-primary/30 rounded-2xl">
                   <h3 className="font-bold text-lg mb-3">Free Website Consultation</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                    Not sure what you need, or want to understand what's involved before committing? We offer a free initial consultation — call, video, or in-person for Shropshire clients.
+                    Not sure what you need? We offer a free initial consultation — call, video, or in-person for Oswestry area clients.
                   </p>
                   <Link
                     href="/contact"
@@ -232,10 +228,10 @@ export default function WebDesignShropshire() {
         />
 
         <BenefitsGrid
-          title="Every Shropshire Website We Build Includes"
+          title="Every Oswestry Website We Build Includes"
           benefits={[
             { title: "Custom Design", description: "No templates — every site is designed specifically for your business and brand." },
-            { title: "Local SEO Foundations", description: "Built to rank for your location — Shropshire search terms, Google Business Profile guidance, and local schema markup." },
+            { title: "Local SEO Foundations", description: "Built to rank for your location — Oswestry search terms, Google Business Profile guidance, and local schema markup." },
             { title: "Mobile-First", description: "Over 60% of your customers are on phones. Your site will work perfectly on every device." },
             { title: "Google Analytics 4", description: "Proper tracking setup so you can see what's working and make informed decisions." },
             { title: "Technical SEO", description: "Sitemap, meta data, schema, Search Console — the technical foundations that help Google understand your site." },
@@ -246,27 +242,27 @@ export default function WebDesignShropshire() {
         <FAQBlock
           faqs={[
             {
-              question: "Do you only work with Shropshire businesses?",
-              answer: "No — we work with businesses across the UK. However, for Shropshire clients we offer the option of in-person meetings, which many local businesses prefer for the initial brief and design review stages."
+              question: "Do you only work with Oswestry businesses?",
+              answer: "No — we work with businesses across the UK. However, for Oswestry and North Shropshire clients we offer the option of in-person meetings, which many local businesses prefer for the initial brief and design review stages."
             },
             {
               question: "Can you help with local SEO as well as the website?",
               answer: "Yes. Every website we build includes technical SEO foundations. For ongoing local SEO — Google Business Profile optimisation, local content strategy, and link building — this can be discussed as a separate ongoing service."
             },
             {
-              question: "How much does a website cost for a Shropshire business?",
+              question: "How much does a website cost for an Oswestry business?",
               answer: "Websites are quoted based on scope — the number of pages, complexity of design, and any custom functionality. Most small business sites start from around £1,500. We always provide a detailed quote before any work begins."
             },
             {
               question: "What happens after my site launches?",
-              answer: "We offer managed WordPress hosting from £50/month, which covers hosting, security, backups, updates and support. Most Shropshire clients find this the most convenient option rather than managing hosting themselves."
+              answer: "We offer managed WordPress hosting from £50/month, which covers hosting, security, backups, updates and support. Most Oswestry clients find this the most convenient option rather than managing hosting themselves."
             }
           ]}
         />
 
         <CTABanner
-          title="Ready to talk about your Shropshire business website?"
-          description="Get in touch for a free initial conversation. In-person meetings available across Shropshire — or video call if you prefer."
+          title="Ready to talk about your Oswestry business website?"
+          description="Get in touch for a free initial conversation. In-person meetings available across Oswestry and North Shropshire — or video call if you prefer."
           buttonText="Get in Touch"
           buttonHref="/contact"
           secondaryButtonText="View Our Process"
@@ -274,7 +270,7 @@ export default function WebDesignShropshire() {
         />
 
         <RelatedPages
-          title="Related Services & Guides"
+          title="Related Services & Local Pages"
           pages={[
             {
               title: "New Website Design & Build",
@@ -283,15 +279,21 @@ export default function WebDesignShropshire() {
               tag: "Service"
             },
             {
-              title: "Small Business Websites",
-              description: "Specifically tailored website solutions for small and growing businesses.",
-              href: "/small-business-websites",
+              title: "Web Design Shropshire",
+              description: "Professional web design for businesses across Shropshire.",
+              href: "/web-design-shropshire",
+              tag: "Service"
+            },
+            {
+              title: "Managed WordPress Hosting Oswestry",
+              description: "Local managed hosting from £50/month for Oswestry businesses.",
+              href: "/wordpress-hosting-oswestry",
               tag: "Related"
             },
             {
-              title: "Managed WordPress Hosting Shropshire",
-              description: "Local managed hosting from £50/month — keeping your Shropshire site secure and fast.",
-              href: "/wordpress-hosting-shropshire",
+              title: "Small Business Websites",
+              description: "Specifically tailored website solutions for small and growing businesses.",
+              href: "/small-business-websites",
               tag: "Related"
             },
             {
@@ -305,24 +307,6 @@ export default function WebDesignShropshire() {
               description: "Ongoing maintenance to keep your website secure, updated, and performing well.",
               href: "/wordpress-maintenance",
               tag: "Related"
-            },
-            {
-              title: "Web Design Oswestry",
-              description: "Custom WordPress websites for Oswestry and the Welsh borders.",
-              href: "/web-design-oswestry",
-              tag: "Local"
-            },
-            {
-              title: "WordPress Support Shropshire",
-              description: "Expert WordPress support and fixes for Shropshire businesses.",
-              href: "/wordpress-support-shropshire",
-              tag: "Local"
-            },
-            {
-              title: "Local SEO for Shropshire Businesses",
-              description: "How to improve your local search visibility — a practical guide.",
-              href: "/blog/local-seo-shropshire-businesses",
-              tag: "Blog"
             }
           ]}
         />

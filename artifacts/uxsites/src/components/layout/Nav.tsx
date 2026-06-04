@@ -25,28 +25,50 @@ export function Nav() {
         <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium transition-colors hover:text-primary text-foreground outline-none">
           Services <ChevronDown size={14} />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-64 bg-card border-border">
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/wordpress-care-plan" className="w-full">WordPress Care Plan</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/wordpress-care-plan-pro" className="w-full">Care Plan Pro</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/new-website" className="w-full">New Website</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/existing-website" className="w-full">Existing Website</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild className="cursor-pointer">
-            <Link href="/website-support" className="w-full">Website Support</Link>
-          </DropdownMenuItem>
+        <DropdownMenuContent sideOffset={14} className="w-[42rem] bg-card border-border p-4">
+          <div className="grid grid-cols-3 gap-4">
+            <div>
+              <div className="text-xs font-semibold text-muted-foreground tracking-wider uppercase mb-2 px-2">Support &amp; Hosting</div>
+              <div className="flex flex-col gap-0.5">
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/managed-wordpress-hosting" className="w-full">Managed Hosting</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/wordpress-care-plan" className="w-full">Site Care Plan</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/wordpress-care-plan-pro" className="w-full flex items-center gap-2">Site Care Plan <span className="text-[10px] font-bold text-black bg-green-400 rounded px-1 py-0.5 leading-none">Pro</span></Link>
+                </DropdownMenuItem>
+              </div>
+            </div>
+            <div>
+              <div className="text-xs font-semibold text-muted-foreground tracking-wider uppercase mb-2 px-2">Website Design</div>
+              <div className="flex flex-col gap-0.5">
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/new-website" className="w-full">New Website</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/existing-website" className="w-full">Existing Website</Link>
+                </DropdownMenuItem>
+              </div>
+            </div>
+            <div>
+              <div className="text-xs font-semibold text-muted-foreground tracking-wider uppercase mb-2 px-2">Analytics &amp; UX</div>
+              <div className="flex flex-col gap-0.5">
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/google-analytics-setup" className="w-full">Google Analytics Setup</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/conversion-tracking-setup" className="w-full">Conversion Tracking</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/website-ux-audit" className="w-full">Website UX Audit</Link>
+                </DropdownMenuItem>
+              </div>
+            </div>
+          </div>
         </DropdownMenuContent>
       </DropdownMenu>
-
-      <Link href="/wordpress-help" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/wordpress-help') ? 'text-primary' : 'text-foreground'}`}>
-        WordPress Help
-      </Link>
 
       <Link href="/case-studies" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/case-studies') ? 'text-primary' : 'text-foreground'}`}>
         Case Studies
@@ -57,8 +79,7 @@ export function Nav() {
       <Link href="/about" className={`text-sm font-medium transition-colors hover:text-primary ${isActive('/about') ? 'text-primary' : 'text-foreground'}`}>
         About
       </Link>
-    </>
-  );
+    </>);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -91,22 +112,22 @@ export function Nav() {
         <div className="md:hidden border-b border-border bg-background p-4 flex flex-col gap-4 shadow-lg absolute w-full">
           <Link href="/managed-wordpress-hosting" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Managed Hosting</Link>
           <div className="py-2 border-b border-border/50">
-            <div className="text-base font-medium mb-2 text-muted-foreground">Services</div>
+            <div className="text-base font-medium mb-2 text-muted-foreground">Support &amp; Hosting</div>
             <div className="flex flex-col gap-2 pl-4">
-              <Link href="/wordpress-care-plan" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>WordPress Care Plan</Link>
-              <Link href="/wordpress-care-plan-pro" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Care Plan Pro</Link>
-              <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
-              <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
-              <Link href="/website-support" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website Support</Link>
+              <Link href="/managed-wordpress-hosting" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Managed Hosting</Link>
+              <Link href="/wordpress-care-plan" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan</Link>
+              <Link href="/wordpress-care-plan-pro" className="text-base font-medium inline-flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan <span className="text-[10px] font-bold text-black bg-green-400 rounded px-1 py-0.5 leading-none">Pro</span></Link>
             </div>
-          </div>
-          <div className="py-2 border-b border-border/50">
-            <div className="text-base font-medium mb-2 text-muted-foreground">WordPress Help</div>
+<div className="text-sm font-medium text-muted-foreground mt-3 mb-2 pl-4">Website Design</div>
+              <div className="flex flex-col gap-2 pl-4">
+                <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
+                <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
+            </div>
+            <div className="text-sm font-medium text-muted-foreground mt-3 mb-2 pl-4">Analytics &amp; UX</div>
             <div className="flex flex-col gap-2 pl-4">
-              <Link href="/wordpress-help" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>All Guides</Link>
-              <Link href="/wordpress-help/wordpress-slow" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Slow WordPress Site</Link>
-              <Link href="/wordpress-help/wordpress-security" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>WordPress Security</Link>
-              <Link href="/wordpress-help/wordpress-maintenance" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Maintenance Checklist</Link>
+              <Link href="/google-analytics-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Google Analytics Setup</Link>
+              <Link href="/conversion-tracking-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Conversion Tracking</Link>
+              <Link href="/website-ux-audit" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website UX Audit</Link>
             </div>
           </div>
           <Link href="/case-studies" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Case Studies</Link>

@@ -304,6 +304,12 @@ export default function WordPressHostingOswestry() {
               tag: "Service"
             },
             {
+              title: "Web Design Oswestry",
+              description: "Custom WordPress websites for Oswestry and the Welsh borders.",
+              href: "/web-design-oswestry",
+              tag: "Nearby"
+            },
+            {
               title: "Website Support & Maintenance",
               description: "Ongoing support, updates and care for existing WordPress websites.",
               href: "/website-support",

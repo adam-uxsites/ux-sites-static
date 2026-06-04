@@ -113,10 +113,10 @@ export default function ManagedHosting() {
         <HeroBlock
           tagline="Everything included, nothing to worry about"
           headline="Managed WordPress Hosting from £50/month"
-          subheadline="We handle the hosting, security, backups, performance, and updates  -  so you can focus entirely on running your business. No technical knowledge required. No nasty surprises."
+          subheadline="We handle the hosting, security, backups, performance, and updates  -  so you can focus entirely on running your business. Backed by 10+ years of UX and analytics expertise, not just server management. No technical knowledge required. No nasty surprises."
           primaryCta={{ text: "Get Started", href: "/contact" }}
           secondaryCta={{ text: "View Pricing", href: "#pricing" }}
-          chips={["Daily Backups", "Security Monitoring", "30 Min Dev Time", "Expert Support", "SSL Included", "Performance Optimised"]}
+          chips={["Daily Backups", "Security Monitoring", "GA4 Included", "30 Min Dev Time", "Expert Support", "UX & Analytics Backed"]}
         />
 
         <StatsBar
@@ -493,6 +493,50 @@ export default function ManagedHosting() {
           </div>
         </section>
 
+        {/* Backed by UX & analytics */}
+        <section className="section-padding-lg bg-background">
+          <div className="section-wrap">
+            <div className="section-header">
+              <h2 className="heading-section mb-4">More Than Just Hosting — Backed by UX & Analytics Expertise</h2>
+              <p className="subhead-section">
+                Most hosting companies just keep your site online. What sets us apart is the depth of experience behind it.
+              </p>
+            </div>
+            <div className="grid-cards">
+              {[
+                {
+                  title: "Google Analytics 4 Included",
+                  description: "Every managed hosting plan includes proper GA4 setup with goal and conversion tracking — not just a tracking code pasted in. You get data you can actually use."
+                },
+                {
+                  title: "UX-Driven Development Time",
+                  description: "Your 30 minutes monthly development time isn't just for text changes. We can analyse user behaviour, suggest UX improvements, and implement changes that improve conversion rates."
+                },
+                {
+                  title: "Conversion Tracking Expertise",
+                  description: "If you're running Google Ads, we can set up proper conversion tracking so you know exactly which clicks turn into customers. Hosting + analytics in one monthly plan."
+                },
+                {
+                  title: "10+ Years of UX Analysis",
+                  description: "Before UX Sites, we worked as UX analysts — running user testing sessions, analysing behaviour data, and optimising conversion funnels. That experience shapes how we manage and improve every site."
+                }
+              ].map((item, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.07 }}
+                  className="card-base card-hover p-7"
+                >
+                  <h3 className="heading-card mb-2">{item.title}</h3>
+                  <p className="body-card">{item.description}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <FAQBlock
           faqs={[
             {
@@ -577,6 +621,18 @@ export default function ManagedHosting() {
               description: "The real cost comparison between cheap hosting and managed  -  the numbers might surprise you.",
               href: "/blog/why-managed-wordpress-hosting",
               tag: "Blog"
+            },
+            {
+              title: "Google Analytics 4 Setup",
+              description: "GA4 setup, troubleshooting, and custom reporting — included with every managed hosting plan.",
+              href: "/google-analytics-setup",
+              tag: "Service"
+            },
+            {
+              title: "Conversion Tracking Setup",
+              description: "Professional conversion tracking for Google Ads, forms, and phone calls.",
+              href: "/conversion-tracking-setup",
+              tag: "Service"
             }
           ]}
         />

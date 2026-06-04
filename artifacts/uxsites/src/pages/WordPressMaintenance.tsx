@@ -295,6 +295,18 @@ export default function WordPressMaintenance() {
               tag: "Related"
             },
             {
+              title: "Website Maintenance Shropshire",
+              description: "Professional website maintenance for Shropshire businesses — local, reliable, stress-free.",
+              href: "/website-maintenance-shropshire",
+              tag: "Local"
+            },
+            {
+              title: "WordPress Support Shropshire",
+              description: "Expert WordPress support and fixes for Shropshire businesses.",
+              href: "/wordpress-support-shropshire",
+              tag: "Local"
+            },
+            {
               title: "Website Speed Optimisation",
               description: "How we keep your site loading fast  -  and why speed matters for rankings.",
               href: "/website-speed-optimisation",
