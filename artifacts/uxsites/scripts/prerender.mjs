@@ -147,6 +147,54 @@ function generateSitemap(allRoutes) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>`;
 }
 
+/**
+ * Deduplicate head tags that react-helmet-async sometimes fails to clean up
+ * during client-side SPA routing. Removes all but the last occurrence of
+ * each specified tag type in the <head>.
+ */
+function deduplicateHeadTags(html) {
+  // Tag selectors to deduplicate: [tagPattern, removeAllButLast]
+  const rules = [
+    // <title> — keep last
+    { pattern: /<title[^>]*>[\s\S]*?<\/title>/gi },
+    // <meta name="description" ...>
+    { pattern: /<meta[^>]+name=["']description["'][^>]*\/?>/gi },
+    // <meta property="og:title" ...>
+    { pattern: /<meta[^>]+property=["']og:title["'][^>]*\/?>/gi },
+    // <meta property="og:description" ...>
+    { pattern: /<meta[^>]+property=["']og:description["'][^>]*\/?>/gi },
+    // <meta property="og:url" ...>
+    { pattern: /<meta[^>]+property=["']og:url["'][^>]*\/?>/gi },
+    // <meta name="twitter:title" ...>
+    { pattern: /<meta[^>]+name=["']twitter:title["'][^>]*\/?>/gi },
+    // <meta name="twitter:description" ...>
+    { pattern: /<meta[^>]+name=["']twitter:description["'][^>]*\/?>/gi },
+    // <meta property="og:image" ...>
+    { pattern: /<meta[^>]+property=["']og:image["'][^>]*\/?>/gi },
+    // <meta name="twitter:image" ...>
+    { pattern: /<meta[^>]+name=["']twitter:image["'][^>]*\/?>/gi },
+    // <meta property="og:type" ...>
+    { pattern: /<meta[^>]+property=["']og:type["'][^>]*\/?>/gi },
+    // <meta property="og:site_name" ...>
+    { pattern: /<meta[^>]+property=["']og:site_name["'][^>]*\/?>/gi },
+    // <meta name="twitter:card" ...>
+    { pattern: /<meta[^>]+name=["']twitter:card["'][^>]*\/?>/gi },
+    // <link rel="canonical" ...>
+    { pattern: /<link[^>]+rel=["']canonical["'][^>]*\/?>/gi },
+  ];
+
+  let result = html;
+  for (const { pattern } of rules) {
+    const matches = result.match(pattern);
+    if (matches && matches.length > 1) {
+      const last = matches[matches.length - 1];
+      result = result.replace(pattern, "");
+      result = result.replace("</head>", `${last}</head>`);
+    }
+  }
+  return result;
+}
+
 async function prerender() {
   const server = await preview({
     root,
@@ -202,7 +250,11 @@ async function prerender() {
       await page.waitForLoadState("networkidle");
       await page.evaluate(() => new Promise(r => setTimeout(r, 1000)));
 
-      const html = await page.content();
+      let html = await page.content();
+
+      // Deduplicate head tags: react-helmet-async occasionally leaves stale tags from
+      // previous route renders. Keep only the LAST occurrence of each tag type.
+      html = deduplicateHeadTags(html);
       
       const filePath = route === "/"
         ? path.join(root, "dist/public/index.html")
