@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,6 +11,7 @@ import {
 export function Nav() {
   const [location] = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = React.useState(false);
 
   const isActive = (path: string) => location === path;
 
@@ -109,27 +109,47 @@ export function Nav() {
 
       {/* Mobile Nav */}
       {isMobileMenuOpen && (
-        <div className="md:hidden border-b border-border bg-background p-4 flex flex-col gap-4 shadow-lg absolute w-full">
+        <div className="md:hidden border-b border-border bg-background p-4 flex flex-col gap-4 shadow-lg absolute w-full max-h-[calc(100vh-5rem)] overflow-y-auto">
           <Link href="/managed-wordpress-hosting" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Managed Hosting</Link>
-          <div className="py-2 border-b border-border/50">
-            <div className="text-base font-medium mb-2 text-muted-foreground">Support &amp; Hosting</div>
-            <div className="flex flex-col gap-2 pl-4">
-              <Link href="/managed-wordpress-hosting" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Managed Hosting</Link>
-              <Link href="/wordpress-care-plan" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan</Link>
-              <Link href="/wordpress-care-plan-pro" className="text-base font-medium inline-flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan <span className="text-[10px] font-bold text-black bg-green-400 rounded px-1 py-0.5 leading-none">Pro</span></Link>
-            </div>
-<div className="text-sm font-medium text-muted-foreground mt-3 mb-2 pl-4">Website Design</div>
-              <div className="flex flex-col gap-2 pl-4">
-                <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
-                <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
-            </div>
-            <div className="text-sm font-medium text-muted-foreground mt-3 mb-2 pl-4">Analytics &amp; UX</div>
-            <div className="flex flex-col gap-2 pl-4">
-              <Link href="/google-analytics-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Google Analytics Setup</Link>
-              <Link href="/conversion-tracking-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Conversion Tracking</Link>
-              <Link href="/website-ux-audit" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website UX Audit</Link>
-            </div>
+
+          {/* Services accordion */}
+          <div className="border-b border-border/50">
+            <button
+              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+              className="flex items-center justify-between w-full py-2 text-base font-medium text-foreground"
+            >
+              Services
+              <ChevronDown size={18} className={`transition-transform duration-200 ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {mobileServicesOpen && (
+              <div className="flex flex-col gap-3 pb-3 animate-in slide-in-from-top-1 duration-200">
+                <div>
+                  <div className="text-sm font-medium text-muted-foreground/70 mb-1.5 pl-4">Support &amp; Hosting</div>
+                  <div className="flex flex-col gap-1.5 pl-4">
+                    <Link href="/managed-wordpress-hosting" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Managed Hosting</Link>
+                    <Link href="/wordpress-care-plan" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan</Link>
+                    <Link href="/wordpress-care-plan-pro" className="text-base font-medium inline-flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>Site Care Plan <span className="text-[10px] font-bold text-black bg-green-400 rounded px-1 py-0.5 leading-none">Pro</span></Link>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-sm font-medium text-muted-foreground/70 mb-1.5 pl-4">Website Design</div>
+                  <div className="flex flex-col gap-1.5 pl-4">
+                    <Link href="/new-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
+                    <Link href="/existing-website" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-sm font-medium text-muted-foreground/70 mb-1.5 pl-4">Analytics &amp; UX</div>
+                  <div className="flex flex-col gap-1.5 pl-4">
+                    <Link href="/google-analytics-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Google Analytics Setup</Link>
+                    <Link href="/conversion-tracking-setup" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Conversion Tracking</Link>
+                    <Link href="/website-ux-audit" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Website UX Audit</Link>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
+
           <Link href="/case-studies" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Case Studies</Link>
           <Link href="/blog" className="text-base font-medium py-2 border-b border-border/50" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
           <Link href="/about" className="text-base font-medium py-2 mb-4" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
