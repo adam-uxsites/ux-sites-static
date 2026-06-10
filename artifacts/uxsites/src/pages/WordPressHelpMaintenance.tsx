@@ -89,8 +89,8 @@ export default function WordPressHelpMaintenance() {
           tagline="Complete maintenance guide"
           headline="WordPress Maintenance Checklist for Small Businesses"
           subheadline="Keep your WordPress website running smoothly with this complete maintenance checklist."
-          primaryCta={{ text: "Get Professional Maintenance", href: "/contact" }}
-          secondaryCta={{ text: "View All Guides", href: "/wordpress-help" }}
+          primaryCta={{ text: "Get Professional Maintenance", href: "/contact/" }}
+          secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Daily", "Weekly", "Monthly", "Quarterly", "Annual"]}
         />
 
@@ -276,10 +276,10 @@ export default function WordPressHelpMaintenance() {
           <div className="container mx-auto px-4 max-w-4xl text-center">
             <h2 className="text-2xl font-bold mb-4">Too Busy to Handle All This Yourself?</h2>
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-              Our maintenance service covers every task on this checklist  -  plus expert support, security monitoring, and performance optimisation. From £50/month.
+              Our maintenance service covers every task on this checklist  -  plus expert support, security monitoring, and performance optimisation. From Â£50/month.
             </p>
             <Link
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold hover:opacity-90 transition-opacity h-12"
             >
               Get Maintenance Coverage
@@ -296,9 +296,9 @@ export default function WordPressHelpMaintenance() {
           title="Let us handle your WordPress maintenance"
           description="Full-service WordPress maintenance covering updates, security, backups, and performance  -  so you can focus on your business, not your website."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View All Guides"
-          secondaryButtonHref="/wordpress-help"
+          secondaryButtonHref="/wordpress-help/"
         />
 
         <RelatedPages
@@ -307,25 +307,25 @@ export default function WordPressHelpMaintenance() {
             {
               title: "How to Fix a Slow WordPress Website",
               description: "Diagnose and fix slow WordPress loading times.",
-              href: "/wordpress-help/wordpress-slow",
+              href: "/wordpress-help/wordpress-slow/",
               tag: "Guide"
             },
             {
               title: "How to Secure a WordPress Website",
               description: "Essential security measures to protect your site.",
-              href: "/wordpress-help/wordpress-security",
+              href: "/wordpress-help/wordpress-security/",
               tag: "Guide"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Professional maintenance handled for you.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Hosting with built-in maintenance and support.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
           ]}

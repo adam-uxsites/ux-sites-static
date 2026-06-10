@@ -100,7 +100,7 @@ function BrowserCard({ item, index }: { item: PortfolioItem; index: number }) {
         <div className="flex items-center gap-4 mt-auto">
           {item.caseStudySlug && (
             <Link
-              href={`/case-studies/${item.caseStudySlug}`}
+              href={`/case-studies/${item.caseStudySlug}/`}
               className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors"
             >
               Read case study <ArrowRight className="w-3 h-3" />
@@ -172,7 +172,7 @@ function CTACard({ index }: { index: number }) {
           We're always taking on new projects. Get in touch to discuss your website or hosting requirements.
         </p>
         <Link
-          href="/contact"
+          href="/contact/"
           className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-primary/80 transition-colors"
         >
           Start a conversation <ArrowRight className="w-3 h-3" />
@@ -207,10 +207,10 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
           </div>
           {!showAll && PORTFOLIO.length > limit && (
             <Link
-              href="/case-studies"
+              href="/case-studies/"
               className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
             >
-              View all work →
+              View all work â†’
             </Link>
           )}
         </div>
@@ -225,7 +225,7 @@ export function WorkShowcase({ limit = 3, showAll = false }: WorkShowcaseProps) 
         {!showAll && PORTFOLIO.length > limit && (
           <div className="mt-10 text-center">
             <Link
-              href="/case-studies"
+              href="/case-studies/"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border bg-card hover:border-primary/40 hover:bg-card/80 transition-all text-sm font-medium"
             >
               See all projects & clients

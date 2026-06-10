@@ -85,8 +85,8 @@ export default function WebsitesForMarketingConsultants() {
           tagline="Marketing consultant websites"
           headline="Marketing Consultant Websites Focused on Positioning and Pipeline"
           subheadline="Marketing consultants need websites that present strategic capability clearly, demonstrate proof, and attract the right kind of enquiry."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Strategic Positioning", "Proof Led", "Qualified Leads", "Conversion Focused"]}
         />
 
@@ -128,7 +128,7 @@ export default function WebsitesForMarketingConsultants() {
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                   We structure marketing consultant sites around the services that generate the most qualified enquiries, with clear progression from interest to action.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -227,9 +227,9 @@ export default function WebsitesForMarketingConsultants() {
           title="Let's build your marketing consultant website"
           description="Get a free, no-obligation quote. We'll talk through your specialism, what your site needs to achieve, and how we can help  -  no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -238,37 +238,37 @@ export default function WebsitesForMarketingConsultants() {
             {
               title: "Websites for Consultants",
               description: "Specialist websites for consultants and professional services firms.",
-              href: "/websites-for-consultants",
+              href: "/websites-for-consultants/",
               tag: "Hub"
             },
             {
               title: "Websites for Business Consultants",
               description: "Business consultant websites that turn expertise into enquiries.",
-              href: "/websites-for-business-consultants",
+              href: "/websites-for-business-consultants/",
               tag: "Service"
             },
             {
               title: "Websites for Legal Consultants",
               description: "Legal consultant websites built for clarity and trust.",
-              href: "/websites-for-legal-consultants",
+              href: "/websites-for-legal-consultants/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
               description: "Full details of our website design and development process.",
-              href: "/new-website",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }          ]}
         />

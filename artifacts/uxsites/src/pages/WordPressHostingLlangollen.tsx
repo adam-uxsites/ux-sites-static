@@ -11,66 +11,66 @@ import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
 
 const nearbyLocations = [
-  { name: "Chirk", href: "/wordpress-hosting-chirk" },
-  { name: "Ruabon", href: "/wordpress-hosting-ruabon" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
+  { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+  { name: "Ruabon", href: "/wordpress-hosting-ruabon/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
   { name: "Ruthin", href: null },
   { name: "Corwen", href: null },
 ];
 
 const trades = [
-  { name: "Builders", href: "/websites-for-builders" },
-  { name: "Electricians", href: "/websites-for-electricians" },
-  { name: "Plumbers", href: "/websites-for-plumbers" },
-  { name: "Decorators", href: "/websites-for-decorators" },
-  { name: "Joiners", href: "/websites-for-joiners" },
-  { name: "Scaffolders", href: "/websites-for-scaffolders" },
-  { name: "Roofers", href: "/websites-for-roofers" },
-  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters" },
-  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters" },
-  { name: "Pressure Washers", href: "/websites-for-pressure-washers" },
-  { name: "Solicitors", href: "/websites-for-lawyers" },
-  { name: "Finance Advisors", href: "/websites-for-finance-advisors" },
-  { name: "Estate Agents", href: "/websites-for-estate-agents" },
-  { name: "Consultants", href: "/websites-for-consultants" },
-  { name: "Hairdressers", href: "/websites-for-hairdressers" },
-  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics" },
-  { name: "Tanning Studios", href: "/websites-for-tanning-studios" },
-  { name: "Nail Studios", href: "/websites-for-nail-studios" },
-  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios" },
-  { name: "Restaurants", href: "/websites-for-restaurants" },
-  { name: "Takeaways", href: "/websites-for-takeaways" },
-  { name: "Coffee Shops", href: "/websites-for-coffee-shops" },
-  { name: "Cafes", href: "/websites-for-cafes" },
-  { name: "Butchers", href: "/websites-for-butchers" },
-  { name: "Retail Shops", href: "/websites-for-retail-shops" },
-  { name: "Jewellers", href: "/websites-for-jewellers" },
-  { name: "Gardeners", href: "/websites-for-gardeners" },
-  { name: "Landscapers", href: "/websites-for-landscapers" },
-  { name: "Cleaners", href: "/websites-for-cleaners" },
-  { name: "Schools", href: "/websites-for-schools" },
-  { name: "Tutors", href: "/websites-for-tutors" },
-  { name: "Charities", href: "/websites-for-charities" },
-  { name: "Local Groups", href: "/websites-for-local-groups" },
-  { name: "Nursing Homes", href: "/websites-for-nursing-homes" },
-  { name: "Developers", href: "/websites-for-developers" },
-  { name: "SMEs", href: "/websites-for-smes" },
-  { name: "Medium Businesses", href: "/websites-for-medium-businesses" },
-  { name: "Manufacturers", href: "/websites-for-manufacturers" },
-  { name: "Small Businesses", href: "/small-business-websites" }
+  { name: "Builders", href: "/websites-for-builders/" },
+  { name: "Electricians", href: "/websites-for-electricians/" },
+  { name: "Plumbers", href: "/websites-for-plumbers/" },
+  { name: "Decorators", href: "/websites-for-decorators/" },
+  { name: "Joiners", href: "/websites-for-joiners/" },
+  { name: "Scaffolders", href: "/websites-for-scaffolders/" },
+  { name: "Roofers", href: "/websites-for-roofers/" },
+  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters/" },
+  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters/" },
+  { name: "Pressure Washers", href: "/websites-for-pressure-washers/" },
+  { name: "Solicitors", href: "/websites-for-lawyers/" },
+  { name: "Finance Advisors", href: "/websites-for-finance-advisors/" },
+  { name: "Estate Agents", href: "/websites-for-estate-agents/" },
+  { name: "Consultants", href: "/websites-for-consultants/" },
+  { name: "Hairdressers", href: "/websites-for-hairdressers/" },
+  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics/" },
+  { name: "Tanning Studios", href: "/websites-for-tanning-studios/" },
+  { name: "Nail Studios", href: "/websites-for-nail-studios/" },
+  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios/" },
+  { name: "Restaurants", href: "/websites-for-restaurants/" },
+  { name: "Takeaways", href: "/websites-for-takeaways/" },
+  { name: "Coffee Shops", href: "/websites-for-coffee-shops/" },
+  { name: "Cafes", href: "/websites-for-cafes/" },
+  { name: "Butchers", href: "/websites-for-butchers/" },
+  { name: "Retail Shops", href: "/websites-for-retail-shops/" },
+  { name: "Jewellers", href: "/websites-for-jewellers/" },
+  { name: "Gardeners", href: "/websites-for-gardeners/" },
+  { name: "Landscapers", href: "/websites-for-landscapers/" },
+  { name: "Cleaners", href: "/websites-for-cleaners/" },
+  { name: "Schools", href: "/websites-for-schools/" },
+  { name: "Tutors", href: "/websites-for-tutors/" },
+  { name: "Charities", href: "/websites-for-charities/" },
+  { name: "Local Groups", href: "/websites-for-local-groups/" },
+  { name: "Nursing Homes", href: "/websites-for-nursing-homes/" },
+  { name: "Developers", href: "/websites-for-developers/" },
+  { name: "SMEs", href: "/websites-for-smes/" },
+  { name: "Medium Businesses", href: "/websites-for-medium-businesses/" },
+  { name: "Manufacturers", href: "/websites-for-manufacturers/" },
+  { name: "Small Businesses", href: "/small-business-websites/" }
 ];
 export default function WordPressHostingLlangollen() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Llangollen | From £50/month | UX Sites"
-        description="Managed WordPress hosting for Llangollen businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Llangollen | From Â£50/month | UX Sites"
+        description="Managed WordPress hosting for Llangollen businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-llangollen/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Llangollen",
-            description: "Managed WordPress hosting for Llangollen businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Llangollen and surrounding areas.",
+            description: "Managed WordPress hosting for Llangollen businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Llangollen and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-llangollen/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingLlangollen() {
         <HeroBlock
           tagline="Hosting for the Vale of Llangollen"
           headline="Managed WordPress Hosting for Llangollen Businesses"
-          subheadline="Professional managed WordPress hosting from a border-region expert serving Llangollen and the beautiful Vale of Llangollen. Security, backups, updates, performance monitoring and support all included from £50/month. Your Llangollen business website kept secure, fast and professionally managed."
-          primaryCta={{ text: "Get Started from £50/month", href: "/contact?plan=monthly" }}
-          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting" }}
-          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          subheadline="Professional managed WordPress hosting from a border-region expert serving Llangollen and the beautiful Vale of Llangollen. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Llangollen business website kept secure, fast and professionally managed."
+          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
+          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
+            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -117,16 +117,16 @@ export default function WordPressHostingLlangollen() {
                   Why Llangollen Businesses Need Managed Hosting
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Llangollen is one of North Wales' most famous destinations — a historic market town set in the stunning Vale of Llangollen along the A5, home to the world-renowned International Eisteddfod, the Llangollen Railway steam heritage line on Berwyn Street, the Grade I listed Llangollen Bridge spanning the River Dee, and the spectacular Pontcysyllte Aqueduct. The local economy along Castle Street and the wider town is driven by tourism, hospitality, independent retail, and creative industries, alongside professional services serving the wider community.
+                  Llangollen is one of North Wales' most famous destinations â€” a historic market town set in the stunning Vale of Llangollen along the A5, home to the world-renowned International Eisteddfod, the Llangollen Railway steam heritage line on Berwyn Street, the Grade I listed Llangollen Bridge spanning the River Dee, and the spectacular Pontcysyllte Aqueduct. The local economy along Castle Street and the wider town is driven by tourism, hospitality, independent retail, and creative industries, alongside professional services serving the wider community.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                   For tourism and hospitality businesses in particular, your website is make-or-break. Visitors check opening times, book accommodation, and decide where to eat based on your online presence. A slow, insecure, or unreliable website directly loses you customers. Budget hosting simply can't provide the reliability your business depends on.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With UX Sites managed hosting, your Llangollen website gets enterprise-grade UK hosting with personal support from someone who understands the area. We manage everything — daily backups, security monitoring, WordPress updates, performance optimisation — so your site is always fast, secure and available. No call centres, no ticket queues, just direct support when you need it.
+                  With UX Sites managed hosting, your Llangollen website gets enterprise-grade UK hosting with personal support from someone who understands the area. We manage everything â€” daily backups, security monitoring, WordPress updates, performance optimisation â€” so your site is always fast, secure and available. No call centres, no ticket queues, just direct support when you need it.
                 </p>
                 <Link
-                  href="/managed-wordpress-hosting"
+                  href="/managed-wordpress-hosting/"
                   className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
                 >
                   View full hosting details
@@ -136,11 +136,11 @@ export default function WordPressHostingLlangollen() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support for Llangollen businesses",
-                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -234,10 +234,10 @@ export default function WordPressHostingLlangollen() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -248,12 +248,12 @@ export default function WordPressHostingLlangollen() {
         <FAQBlock
           faqs={[
             {
-              question: "My Llangollen B&B or hotel relies on online bookings — can you handle that?",
+              question: "My Llangollen B&B or hotel relies on online bookings â€” can you handle that?",
               answer: "Absolutely. We host and maintain many hospitality websites with booking functionality. Our managed hosting ensures your booking system is always available, secure, and loading quickly for potential guests."
             },
             {
               question: "Do you build new websites for Llangollen tourism businesses?",
-              answer: "Yes — we build custom WordPress websites from £1,500, perfect for Llangollen's thriving tourism and hospitality sector. Galleries, accommodation, restaurants, and attraction websites are all areas we specialise in."
+              answer: "Yes â€” we build custom WordPress websites from Â£1,500, perfect for Llangollen's thriving tourism and hospitality sector. Galleries, accommodation, restaurants, and attraction websites are all areas we specialise in."
             },
             {
               question: "Can you support bilingual Welsh and English websites?",
@@ -261,7 +261,7 @@ export default function WordPressHostingLlangollen() {
             },
             {
               question: "What's the difference between managed hosting and what I have now?",
-              answer: "Most budget hosting is shared — your site competes with hundreds of others for resources, and you manage everything yourself. Managed hosting gives you a dedicated WordPress-optimised environment with proactive security, daily backups, automatic updates, and direct expert support — all included."
+              answer: "Most budget hosting is shared â€” your site competes with hundreds of others for resources, and you manage everything yourself. Managed hosting gives you a dedicated WordPress-optimised environment with proactive security, daily backups, automatic updates, and direct expert support â€” all included."
             }
 
 
@@ -270,9 +270,9 @@ export default function WordPressHostingLlangollen() {
 
         <CTABanner
           title="Let's get your Llangollen website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -281,37 +281,37 @@ export default function WordPressHostingLlangollen() {
             {
               title: "Managed WordPress Hosting Chirk",
               description: "Reliable managed hosting for Chirk border businesses.",
-              href: "/wordpress-hosting-chirk",
+              href: "/wordpress-hosting-chirk/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting Ruabon",
               description: "Managed hosting for Ruabon and the Ceiriog Valley.",
-              href: "/wordpress-hosting-ruabon",
+              href: "/wordpress-hosting-ruabon/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting Wrexham",
               description: "Expert managed hosting for Wrexham businesses.",
-              href: "/wordpress-hosting-wrexham",
+              href: "/wordpress-hosting-wrexham/",
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting — Full Details",
+              title: "Managed WordPress Hosting â€” Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process — from discovery to launch.",
-              href: "/new-website",
+              description: "Full details of our new website process â€” from discovery to launch.",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing support, updates and care for existing WordPress websites.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             }
 

@@ -111,7 +111,7 @@ export default function TermsOfService() {
           title="Ready to get started?"
           description="If you're happy with the terms, get in touch and we'll talk about your project."
           buttonText="Get a Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

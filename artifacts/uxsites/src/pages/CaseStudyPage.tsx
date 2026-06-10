@@ -7,7 +7,7 @@ import { getCaseStudyBySlug, getRelatedCaseStudies, CASE_STUDIES } from "@/data/
 import { breadcrumbSchema } from "@/lib/schemas";
 
 export default function CaseStudyPage() {
-  const [, params] = useRoute<{ slug: string }>("/case-studies/:slug");
+  const [, params] = useRoute<{ slug: string }>("/case-studies/:slug/");
   const slug = params?.slug;
   const study = slug ? getCaseStudyBySlug(slug) : null;
 
@@ -19,7 +19,7 @@ export default function CaseStudyPage() {
           <div className="container mx-auto px-4 max-w-3xl text-center">
             <h1 className="text-3xl font-bold mb-4">Case study not found</h1>
             <p className="text-muted-foreground mb-8">The case study you're looking for doesn't exist or has been moved.</p>
-            <Link href="/case-studies" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
+            <Link href="/case-studies/" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
               <ArrowLeft size={16} /> Back to case studies
             </Link>
           </div>
@@ -49,7 +49,7 @@ export default function CaseStudyPage() {
         <section className="pt-28 pb-0">
           <div className="container mx-auto px-4 max-w-6xl">
             <Link
-              href="/case-studies"
+              href="/case-studies/"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <ArrowLeft size={14} /> Back to case studies
@@ -252,7 +252,7 @@ export default function CaseStudyPage() {
                     transition={{ delay: i * 0.1 }}
                   >
                     <Link
-                      href={`/case-studies/${cs.slug}`}
+                      href={`/case-studies/${cs.slug}/`}
                       className="group flex flex-col bg-background border border-border rounded-2xl overflow-hidden hover:border-primary/40 transition-all duration-300"
                     >
                       <div className="bg-[#1a1a1a] border-b border-border px-4 py-2.5 flex items-center gap-3">
@@ -280,9 +280,9 @@ export default function CaseStudyPage() {
 
         <CTABanner
           title="Ready to start your own project?"
-          description="Whether you need a new website, hosting, or ongoing support — we'd love to hear about your business."
+          description="Whether you need a new website, hosting, or ongoing support â€” we'd love to hear about your business."
           buttonText="Get in touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

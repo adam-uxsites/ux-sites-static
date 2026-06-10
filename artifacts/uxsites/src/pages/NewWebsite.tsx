@@ -44,7 +44,7 @@ const processSteps = [
   {
     number: "06",
     title: "Testing & Launch",
-    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics 4 and Search Console configuration, conversion tracking setup — then a smooth handover and launch.",
+    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics 4 and Search Console configuration, conversion tracking setup â€” then a smooth handover and launch.",
     detail: "Training session included so you can manage your site"
   }
 ];
@@ -60,7 +60,7 @@ const included = [
   "Image optimisation and compression",
   "WordPress training  -  you'll feel confident using your site",
   "1 month of post-launch support included",
-  "Optional managed hosting from £50/month"
+  "Optional managed hosting from Â£50/month"
 ];
 
 export default function NewWebsite() {
@@ -68,12 +68,12 @@ export default function NewWebsite() {
     <>
       <SEO
         title="Custom WordPress Website Design & Build | UX Sites Shropshire"
-        description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready — from a Google UX Certified developer. Based in Shropshire, serving the UK."
+        description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready â€” from a Google UX Certified developer. Based in Shropshire, serving the UK."
         url="https://uxsites.co.uk/new-website/"
         schema={[
           serviceSchema({
             name: "New Website Design & Build",
-            description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from £1,500.",
+            description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from Â£1,500.",
             url: "https://uxsites.co.uk/new-website/",
             category: "Web Design",
           }),
@@ -96,7 +96,7 @@ export default function NewWebsite() {
           tagline="Custom websites built to convert"
           headline="A Website That Actually Works for Your Business"
           subheadline="Not a template. Not a page builder dragged into shape. A precision-crafted WordPress website designed around your customers, your goals, and your brand  -  built by a Google-certified UX expert with 10+ years of experience across 15+ industries."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Process", href: "#process" }}
           chips={["Bespoke Design", "Mobile First", "SEO Optimised", "Google UX Certified", "Conversion Tracking", "WordPress"]}
         />
@@ -137,20 +137,20 @@ export default function NewWebsite() {
                     New websites are quoted based on your specific requirements  -  the number of pages, complexity of functionality, and whether content creation support is needed.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
+                    Most small business websites start from around Â£1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Thinking about selling online? Read our comparison of{" "}
-                    <a href="/blog/shopify-vs-woocommerce-uk" className="text-primary font-bold hover:underline">Shopify vs WooCommerce for UK businesses</a>.
+                    <a href="/blog/shopify-vs-woocommerce-uk/" className="text-primary font-bold hover:underline">Shopify vs WooCommerce for UK businesses</a>.
                   </p>
                 </div>
                 <div className="p-6 bg-card border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">What About Ongoing Costs?</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                    After launch, your site will need hosting and ideally ongoing maintenance. We recommend our managed hosting plan (£50/month or £500/year) which covers everything.
+                    After launch, your site will need hosting and ideally ongoing maintenance. We recommend our managed hosting plan (Â£50/month or Â£500/year) which covers everything.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Domain registration is typically £10-15/year for a .co.uk domain.
+                    Domain registration is typically Â£10-15/year for a .co.uk domain.
                   </p>
                 </div>
                 <div className="p-6 bg-card border border-primary/30 rounded-2xl">
@@ -274,7 +274,7 @@ export default function NewWebsite() {
           title="Ready to build something remarkable?"
           description="Get in touch to discuss your project. We'll have a straightforward conversation about what you need, what's possible, and what it's likely to cost  -  no hard sell, no obligation."
           buttonText="Start the Conversation"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -283,43 +283,43 @@ export default function NewWebsite() {
             {
               title: "Web Design Shropshire",
               description: "Local web design for businesses in Shrewsbury, Telford, and across Shropshire  -  in-person meetings available.",
-              href: "/web-design-shropshire",
+              href: "/web-design-shropshire/",
               tag: "Local"
             },
             {
               title: "Websites for Small Businesses",
               description: "Specifically tailored website solutions for small and growing UK businesses.",
-              href: "/small-business-websites",
+              href: "/small-business-websites/",
               tag: "Small Business"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Keep your new site secure and performing with managed hosting from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Keep your new site secure and performing with managed hosting from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Hosting"
             },
             {
               title: "Website Support & Care Plans",
               description: "Post-launch: ongoing updates, security, backups, and expert support.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             },
             {
               title: "5 Signs Your Website Needs a Rebuild",
               description: "How to know when your current website is costing you more than it's worth.",
-              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              href: "/blog/5-signs-your-website-needs-a-rebuild/",
               tag: "Blog"
             },
             {
               title: "Local SEO for Shropshire Businesses",
-              description: "How to rank in local searches  —  practical steps that actually move the needle.",
-              href: "/blog/local-seo-shropshire-businesses",
+              description: "How to rank in local searches  â€”  practical steps that actually move the needle.",
+              href: "/blog/local-seo-shropshire-businesses/",
               tag: "Blog"
             },
             {
               title: "Website UX Audit",
               description: "Data-driven UX analysis to improve your site's performance and conversions.",
-              href: "/website-ux-audit",
+              href: "/website-ux-audit/",
               tag: "Service"
             }
           ]}

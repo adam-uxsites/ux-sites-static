@@ -24,13 +24,13 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-sm">Services</h3>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li><Link href="/managed-wordpress-hosting" className="hover:text-primary transition-colors">Managed Hosting</Link></li>
-              <li><Link href="/wordpress-care-plan" className="hover:text-primary transition-colors">WordPress Care Plan</Link></li>
-              <li><Link href="/wordpress-care-plan-pro" className="hover:text-primary transition-colors">Care Plan Pro</Link></li>
-              <li><Link href="/new-website" className="hover:text-primary transition-colors">New Websites</Link></li>
-              <li><Link href="/existing-website" className="hover:text-primary transition-colors">Website Refreshes</Link></li>
-              <li><Link href="/website-support" className="hover:text-primary transition-colors">Support & Care</Link></li>
-              <li><Link href="/instant-site-quote" className="hover:text-primary transition-colors">Instant Quote</Link></li>
+              <li><Link href="/managed-wordpress-hosting/" className="hover:text-primary transition-colors">Managed Hosting</Link></li>
+              <li><Link href="/wordpress-care-plan/" className="hover:text-primary transition-colors">WordPress Care Plan</Link></li>
+              <li><Link href="/wordpress-care-plan-pro/" className="hover:text-primary transition-colors">Care Plan Pro</Link></li>
+              <li><Link href="/new-website/" className="hover:text-primary transition-colors">New Websites</Link></li>
+              <li><Link href="/existing-website/" className="hover:text-primary transition-colors">Website Refreshes</Link></li>
+              <li><Link href="/website-support/" className="hover:text-primary transition-colors">Support & Care</Link></li>
+              <li><Link href="/instant-site-quote/" className="hover:text-primary transition-colors">Instant Quote</Link></li>
             </ul>
           </div>
 
@@ -38,12 +38,12 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4 text-sm">WordPress Guides</h3>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li><Link href="/wordpress-help" className="hover:text-primary transition-colors">All Help & Advice</Link></li>
-              <li><Link href="/wordpress-help/wordpress-slow" className="hover:text-primary transition-colors">Fix a Slow Site</Link></li>
-              <li><Link href="/wordpress-help/wordpress-security" className="hover:text-primary transition-colors">Security Guide</Link></li>
-              <li><Link href="/wordpress-help/wordpress-maintenance" className="hover:text-primary transition-colors">Maintenance Checklist</Link></li>
-              <li><Link href="/common-wordpress-errors" className="hover:text-primary transition-colors">Common Errors</Link></li>
-              <li><Link href="/wordpress-care-plan" className="hover:text-primary transition-colors">Care Plan</Link></li>
+              <li><Link href="/wordpress-help/" className="hover:text-primary transition-colors">All Help & Advice</Link></li>
+              <li><Link href="/wordpress-help/wordpress-slow/" className="hover:text-primary transition-colors">Fix a Slow Site</Link></li>
+              <li><Link href="/wordpress-help/wordpress-security/" className="hover:text-primary transition-colors">Security Guide</Link></li>
+              <li><Link href="/wordpress-help/wordpress-maintenance/" className="hover:text-primary transition-colors">Maintenance Checklist</Link></li>
+              <li><Link href="/common-wordpress-errors/" className="hover:text-primary transition-colors">Common Errors</Link></li>
+              <li><Link href="/wordpress-care-plan/" className="hover:text-primary transition-colors">Care Plan</Link></li>
             </ul>
           </div>
 
@@ -55,7 +55,7 @@ export function Footer() {
                 Get in touch to discuss your project  -  no obligation, no hard sell.
               </p>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex w-full items-center justify-center rounded-lg bg-primary text-primary-foreground px-4 py-2.5 text-sm font-bold hover:opacity-90 transition-opacity"
               >
                 Tell us about your project
@@ -69,11 +69,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border text-sm text-muted-foreground gap-4">
           <p>&copy; {new Date().getFullYear()} UX Sites. All rights reserved. Based in St. Martins, Oswestry, Shropshire.</p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 items-center">
-            <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy</Link>
-            <span className="text-border hidden sm:inline">•</span>
-            <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms</Link>
-            <span className="text-border hidden sm:inline">•</span>
-            <Link href="/sitemap" className="hover:text-primary transition-colors">Sitemap</Link>
+            <Link href="/privacy-policy/" className="hover:text-primary transition-colors">Privacy</Link>
+            <span className="text-border hidden sm:inline">â€¢</span>
+            <Link href="/terms-of-service/" className="hover:text-primary transition-colors">Terms</Link>
+            <span className="text-border hidden sm:inline">â€¢</span>
+            <Link href="/sitemap/" className="hover:text-primary transition-colors">Sitemap</Link>
           </div>
         </div>
       </div>

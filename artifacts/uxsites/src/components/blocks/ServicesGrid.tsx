@@ -5,43 +5,43 @@ import { ArrowRight, Server, Wrench, Globe, RefreshCcw, Code, TrendingUp, Zap } 
 const services = [
   {
     title: "Managed WordPress Hosting",
-    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support  -  all included from £50/month.",
+    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support  -  all included from Â£50/month.",
     icon: Server,
-    href: "/managed-wordpress-hosting",
+    href: "/managed-wordpress-hosting/",
     primary: true,
-    tag: "From £50/month"
+    tag: "From Â£50/month"
   },
   {
     title: "WordPress Care Plan",
-    description: "Everything in Managed Hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
+    description: "Everything in Managed Hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation from Â£250/month.",
     icon: Wrench,
-    href: "/wordpress-care-plan",
-    tag: "From £250/month"
+    href: "/wordpress-care-plan/",
+    tag: "From Â£250/month"
   },
   {
     title: "WordPress Care Plan Pro",
-    description: "Increased development capacity, conversion optimisation, advanced performance, integration support, and strategic guidance from £500/month.",
+    description: "Increased development capacity, conversion optimisation, advanced performance, integration support, and strategic guidance from Â£500/month.",
     icon: TrendingUp,
-    href: "/wordpress-care-plan-pro",
-    tag: "From £500/month"
+    href: "/wordpress-care-plan-pro/",
+    tag: "From Â£500/month"
   },
   {
     title: "New Websites",
     description: "Custom-designed, high-performance websites built for conversion. Bespoke to your brand, optimised for search, and built to last.",
     icon: Globe,
-    href: "/new-website"
+    href: "/new-website/"
   },
   {
     title: "Website Refreshes",
     description: "Modernise your existing site with improved UX, faster load times, better mobile experience, and stronger conversion rates.",
     icon: RefreshCcw,
-    href: "/existing-website"
+    href: "/existing-website/"
   },
   {
     title: "Custom WordPress Development",
     description: "Ad-hoc development, custom functionality, plugin builds, API integrations, and complex WordPress work when you need it.",
     icon: Code,
-    href: "/contact"
+    href: "/contact/"
   }
 ];
 

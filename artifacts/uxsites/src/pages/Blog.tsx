@@ -84,7 +84,7 @@ export default function Blog() {
               {filteredPosts.map((post, i) => (
                 <Link
                   key={post.slug}
-                  href={`/blog/${post.slug}`}
+                  href={`/blog/${post.slug}/`}
                   data-testid={`article-card-${post.slug}`}
                   className="block group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-2xl"
                 >
@@ -149,7 +149,7 @@ export default function Blog() {
           title="Have a question about your website?"
           description="Every article here is based on real problems real businesses face. If something resonates, let's talk  -  there's no obligation, just a straight conversation."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

@@ -15,7 +15,7 @@ function StudyCard({ study, index }: { study: typeof CASE_STUDIES[0]; index: num
       transition={{ duration: 0.5, delay: index * 0.12 }}
     >
       <Link
-        href={`/case-studies/${study.slug}`}
+        href={`/case-studies/${study.slug}/`}
         className="group flex flex-col bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5"
       >
         {/* Browser chrome */}
@@ -50,7 +50,7 @@ function StudyCard({ study, index }: { study: typeof CASE_STUDIES[0]; index: num
               {study.service}
             </span>
             <span className="text-xs text-muted-foreground">{study.industry}</span>
-            <span className="text-xs text-muted-foreground">·</span>
+            <span className="text-xs text-muted-foreground">Â·</span>
             <span className="text-xs text-muted-foreground flex items-center gap-1">
               <Clock size={11} /> {study.duration}
             </span>
@@ -71,7 +71,7 @@ export default function CaseStudies() {
     <>
       <SEO
         title="Case Studies | UX Sites Shropshire"
-        description="Real projects we've delivered — new builds, managed hosting migrations, and ongoing website support for businesses across the UK."
+        description="Real projects we've delivered â€” new builds, managed hosting migrations, and ongoing website support for businesses across the UK."
         url="https://uxsites.co.uk/case-studies/"
         schema={[
           webPageSchema({
@@ -98,14 +98,14 @@ export default function CaseStudies() {
                 Projects We've Delivered
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                New builds, hosting migrations, ongoing care plans — real work for real businesses. Each project
+                New builds, hosting migrations, ongoing care plans â€” real work for real businesses. Each project
                 came with its own challenges and our approach was tailored accordingly.
               </p>
             </motion.div>
           </div>
         </section>
 
-        {/* Case study cards — expanded layout */}
+        {/* Case study cards â€” expanded layout */}
         <section className="pb-20">
           <div className="container mx-auto px-4 max-w-5xl space-y-8">
             {CASE_STUDIES.map((study, i) => (
@@ -116,9 +116,9 @@ export default function CaseStudies() {
 
         <CTABanner
           title="Want to see your project here?"
-          description="Whether you need a new website, managed hosting, or ongoing support — we'd love to talk about your business."
+          description="Whether you need a new website, managed hosting, or ongoing support â€” we'd love to talk about your business."
           buttonText="Start a conversation"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

@@ -8,20 +8,20 @@ import { Calculator, Clock, CheckCircle, ArrowRight } from "lucide-react";
 const tiers = [
   {
     name: "Starter",
-    price: "£689",
+    price: "Â£689",
     description: "For simple brochure sites or landing pages",
     features: ["3-5 pages", "Mobile responsive", "Contact form", "Basic SEO setup", "SSL certificate", "1 month support"],
   },
   {
     name: "Business",
-    price: "£1,200",
+    price: "Â£1,200",
     description: "For growing businesses that need more",
     features: ["5-8 pages", "Custom design & branding", "Mobile-first responsive", "Full SEO setup", "Analytics & tracking", "Contact forms & CTAs", "3 months support"],
     popular: true,
   },
   {
     name: "E-commerce",
-    price: "From £2,500",
+    price: "From Â£2,500",
     description: "For online stores and product-based businesses",
     features: ["Product catalog setup", "Payment integration", "Shopping cart", "Inventory management", "SEO & analytics", "Mobile optimised", "6 months support"],
   },
@@ -34,11 +34,10 @@ export default function InstantSiteQuote() {
         title="Instant Website Quote | UX Sites"
         description="Instant website pricing with no callbacks. Get a transparent, fixed quote for your new website, redesign, or managed hosting  -  based on what you actually need."
         url="https://uxsites.co.uk/instant-site-quote/"
-        noindex
         schema={[
           serviceSchema({
             name: "Website Design & Development",
-            description: "Professional website design and development services with transparent pricing. Starter sites from £689.",
+            description: "Professional website design and development services with transparent pricing. Starter sites from Â£689.",
             url: "https://uxsites.co.uk/instant-site-quote/",
             category: "Web Design",
           }),
@@ -61,7 +60,7 @@ export default function InstantSiteQuote() {
                 Know exactly what your website project will cost before you commit. No waiting for callbacks, no hidden fees  -  just clear, transparent pricing based on what you actually need.
               </p>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
               >
                 Get Your Custom Quote
@@ -105,7 +104,7 @@ export default function InstantSiteQuote() {
                     ))}
                   </ul>
                   <Link
-                    href="/contact"
+                    href="/contact/"
                     className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
                   >
                     Get Started <ArrowRight size={14} />
@@ -183,7 +182,7 @@ export default function InstantSiteQuote() {
           title="Ready for a clear, instant quote?"
           description="No waiting for callbacks. No hidden fees. Just straightforward pricing for your website project."
           buttonText="Get Your Instant Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

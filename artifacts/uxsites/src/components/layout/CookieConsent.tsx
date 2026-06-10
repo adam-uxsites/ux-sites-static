@@ -40,7 +40,7 @@ export function CookieConsent() {
                 <p className="text-sm font-medium mb-1">Cookie Consent</p>
                 <p className="text-sm text-muted-foreground">
                   We use a Google Ads cookie to measure the effectiveness of our advertising. No personal data is shared with Google.
-                  <a href="/privacy-policy" className="text-primary hover:underline ml-1 whitespace-nowrap">Privacy policy →</a>
+                  <a href="/privacy-policy/" className="text-primary hover:underline ml-1 whitespace-nowrap">Privacy policy â†’</a>
                 </p>
               </div>
               <div className="flex gap-2 shrink-0">

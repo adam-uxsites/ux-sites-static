@@ -70,9 +70,9 @@ export default function ManagedHostingCostUK() {
             { name: "Managed WordPress Hosting Cost UK", url: "https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026/" },
           ]),
           faqSchema([
-            { question: "How much does managed WordPress hosting cost in the UK?", answer: "Managed WordPress hosting in the UK typically ranges from £30-£150 per month depending on what's included. Our plans start at £50/month for a comprehensive managed service." },
-            { question: "Is managed WordPress hosting worth the cost?", answer: "For most businesses, yes. When you factor in the time spent on maintenance (2-4 hours/month), the cost of a potential hack (often £200-£500 to clean), and the revenue impact of downtime or slow performance, managed hosting typically pays for itself." },
-            { question: "What's the difference between £5 hosting and £50 managed hosting?", answer: "£5 hosting gives you server space and nothing else. You handle updates, security, backups, and performance yourself. £50 managed hosting includes all of that plus expert support, monitoring, and peace of mind." },
+            { question: "How much does managed WordPress hosting cost in the UK?", answer: "Managed WordPress hosting in the UK typically ranges from Â£30-Â£150 per month depending on what's included. Our plans start at Â£50/month for a comprehensive managed service." },
+            { question: "Is managed WordPress hosting worth the cost?", answer: "For most businesses, yes. When you factor in the time spent on maintenance (2-4 hours/month), the cost of a potential hack (often Â£200-Â£500 to clean), and the revenue impact of downtime or slow performance, managed hosting typically pays for itself." },
+            { question: "What's the difference between Â£5 hosting and Â£50 managed hosting?", answer: "Â£5 hosting gives you server space and nothing else. You handle updates, security, backups, and performance yourself. Â£50 managed hosting includes all of that plus expert support, monitoring, and peace of mind." },
           ]),
         ]}
       />
@@ -81,9 +81,9 @@ export default function ManagedHostingCostUK() {
           tagline="Transparent pricing"
           headline="Managed WordPress Hosting Cost UK"
           subheadline="See what managed hosting costs, what is included, and why the real value is in time saved and issues avoided."
-          primaryCta={{ text: "See Our Pricing", href: "/managed-wordpress-hosting#pricing" }}
-          secondaryCta={{ text: "Get in Touch", href: "/contact" }}
-          chips={["£50/month", "No Setup Fee", "Cancel Any Time", "Everything Included"]}
+          primaryCta={{ text: "See Our Pricing", href: "/managed-wordpress-hosting/#pricing" }}
+          secondaryCta={{ text: "Get in Touch", href: "/contact/" }}
+          chips={["Â£50/month", "No Setup Fee", "Cancel Any Time", "Everything Included"]}
         />
 
         {/* Cost comparison table */}
@@ -109,7 +109,7 @@ export default function ManagedHostingCostUK() {
                 </thead>
                 <tbody>
                   {[
-                    ["Monthly fee", "£3-£10", "£10-£30", "£50"],
+                    ["Monthly fee", "Â£3-Â£10", "Â£10-Â£30", "Â£50"],
                     ["Daily automated backups", false, "Manual", true],
                     ["Security monitoring", false, false, true],
                     ["Plugin & core updates", false, "Manual", true],
@@ -118,19 +118,19 @@ export default function ManagedHostingCostUK() {
                     ["Content update requests", false, false, true],
                     ["SSL certificate", "Extra", "Manual", "Included"],
                     ["Your time per month", "2-4 hrs", "3-6 hrs", "0 hrs"],
-                    ["Emergency fix costs", "£100+ each", "£100+ each", "Included"]
+                    ["Emergency fix costs", "Â£100+ each", "Â£100+ each", "Included"]
                   ].map(([feature, budget, vps, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
                       <td className="py-3 px-4 text-center text-muted-foreground">
-                        {budget === false ? "✕" : budget as string}
+                        {budget === false ? "âœ•" : budget as string}
                       </td>
                       <td className="py-3 px-4 text-center text-muted-foreground">
-                        {vps === false ? "✕" : vps as string}
+                        {vps === false ? "âœ•" : vps as string}
                       </td>
                       <td className="py-3 px-4 text-center">
                         {managed === true
-                          ? <span className="text-primary font-bold">✓</span>
+                          ? <span className="text-primary font-bold">âœ“</span>
                           : <span className="text-primary font-bold">{managed as string}</span>}
                       </td>
                     </tr>
@@ -214,11 +214,11 @@ export default function ManagedHostingCostUK() {
           faqs={[
             {
               question: "How much does managed WordPress hosting cost in the UK?",
-              answer: "Managed WordPress hosting in the UK typically ranges from £30-£150 per month depending on what's included. Basic managed plans start around £30 but often exclude things like backups or content updates. Our plans start at £50/month and include everything  -  hosting, security, backups, updates, support, and simple content changes."
+              answer: "Managed WordPress hosting in the UK typically ranges from Â£30-Â£150 per month depending on what's included. Basic managed plans start around Â£30 but often exclude things like backups or content updates. Our plans start at Â£50/month and include everything  -  hosting, security, backups, updates, support, and simple content changes."
             },
             {
               question: "Is managed WordPress hosting worth the extra cost?",
-              answer: "For most businesses, yes. When you factor in the time you'd spend on maintenance (typically 2-4 hours per month at your hourly rate), the potential cost of a hack (often £200-£500 to clean), and the revenue impact of downtime or slow performance, managed hosting usually pays for itself several times over."
+              answer: "For most businesses, yes. When you factor in the time you'd spend on maintenance (typically 2-4 hours per month at your hourly rate), the potential cost of a hack (often Â£200-Â£500 to clean), and the revenue impact of downtime or slow performance, managed hosting usually pays for itself several times over."
             },
             {
               question: "Why does managed hosting cost more than regular hosting?",
@@ -226,7 +226,7 @@ export default function ManagedHostingCostUK() {
             },
             {
               question: "Can I start with a monthly plan and switch to annual later?",
-              answer: "Yes. You can start on a monthly plan (cancel anytime with 30 days notice) and switch to annual billing at any point to save £100  -  equivalent to two months free."
+              answer: "Yes. You can start on a monthly plan (cancel anytime with 30 days notice) and switch to annual billing at any point to save Â£100  -  equivalent to two months free."
             }
           ]}
         />
@@ -234,10 +234,10 @@ export default function ManagedHostingCostUK() {
         <CTABanner
           title="Ready to see what managed hosting should cost?"
           description="Get transparent pricing with everything included  -  no hidden fees, no surprise charges. Just reliable managed hosting from people who know WordPress."
-          buttonText="Get Started from £50/month"
-          buttonHref="/contact"
+          buttonText="Get Started from Â£50/month"
+          buttonHref="/contact/"
           secondaryButtonText="Full Feature Breakdown"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
       </main>
     </>

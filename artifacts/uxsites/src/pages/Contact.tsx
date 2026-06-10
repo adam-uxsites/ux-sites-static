@@ -15,9 +15,9 @@ import { Button } from "@/components/ui/button";
 import { AlertCircle, Loader2, Mail, Phone, Clock, ArrowRight, Send, MessageSquare, Shield, Building2, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart } from "lucide-react";
 
 const services = [
-  { value: "hosting", label: "Managed WordPress Hosting (£50/mo)" },
-  { value: "care-plan", label: "WordPress Care Plan (£250/mo)" },
-  { value: "care-plan-pro", label: "WordPress Care Plan Pro (£500/mo)" },
+  { value: "hosting", label: "Managed WordPress Hosting (Â£50/mo)" },
+  { value: "care-plan", label: "WordPress Care Plan (Â£250/mo)" },
+  { value: "care-plan-pro", label: "WordPress Care Plan Pro (Â£500/mo)" },
   { value: "new", label: "New Website" },
   { value: "refresh", label: "Website Refresh / Redesign" },
   { value: "improve", label: "Existing Website Improvements" },
@@ -70,7 +70,7 @@ export default function Contact() {
         body: JSON.stringify(values),
       });
       if (res.ok) {
-        setLocation("/thank-you");
+        setLocation("/thank-you/");
         return;
       } else {
         const data = await res.json().catch(() => ({}));
@@ -87,7 +87,7 @@ export default function Contact() {
     <>
       <SEO
         title="Start Your Website Project | UX Sites Shropshire"
-        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing — no obligation, no hard sell."
+        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing â€” no obligation, no hard sell."
         url="https://uxsites.co.uk/contact/"
         schema={[
           {
@@ -277,7 +277,7 @@ export default function Contact() {
                           )}
                         />
 
-                        {/* Honeypot — hidden from humans, catches bots */}
+                        {/* Honeypot â€” hidden from humans, catches bots */}
                         <div className="absolute opacity-0 pointer-events-none" aria-hidden="true">
                           <FormField
                             control={form.control}
@@ -306,7 +306,7 @@ export default function Contact() {
 
                         <p className="text-sm text-center text-muted-foreground">
                           By submitting this form you agree to our{" "}
-                          <a href="/privacy-policy" className="text-primary hover:underline">privacy policy</a>.
+                          <a href="/privacy-policy/" className="text-primary hover:underline">privacy policy</a>.
                           We'll never share your data with third parties.
                         </p>
                       </form>
@@ -384,13 +384,13 @@ export default function Contact() {
                   <h2 className="font-bold text-lg mb-4">Industries We Serve</h2>
                   <div className="space-y-3">
                     {[
-                      { icon: Wrench, label: "Trades & Construction", href: "/websites-for-builders" },
-                      { icon: Briefcase, label: "Professional Services", href: "/websites-for-lawyers" },
-                      { icon: Sparkles, label: "Beauty & Personal Care", href: "/websites-for-hairdressers" },
-                      { icon: Coffee, label: "Food & Drink", href: "/websites-for-restaurants" },
-                      { icon: ShoppingBag, label: "Retail & Home", href: "/websites-for-retail-shops" },
-                      { icon: Heart, label: "Community & Education", href: "/websites-for-schools" },
-                      { icon: Building2, label: "Business & Tech", href: "/websites-for-developers" },
+                      { icon: Wrench, label: "Trades & Construction", href: "/websites-for-builders/" },
+                      { icon: Briefcase, label: "Professional Services", href: "/websites-for-lawyers/" },
+                      { icon: Sparkles, label: "Beauty & Personal Care", href: "/websites-for-hairdressers/" },
+                      { icon: Coffee, label: "Food & Drink", href: "/websites-for-restaurants/" },
+                      { icon: ShoppingBag, label: "Retail & Home", href: "/websites-for-retail-shops/" },
+                      { icon: Heart, label: "Community & Education", href: "/websites-for-schools/" },
+                      { icon: Building2, label: "Business & Tech", href: "/websites-for-developers/" },
                     ].map((ind, i) => {
                       const Icon = ind.icon;
                       return (

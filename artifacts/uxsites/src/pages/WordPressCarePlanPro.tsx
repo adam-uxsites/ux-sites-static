@@ -13,7 +13,7 @@ const features = [
   {
     icon: Zap,
     title: "Increased Development Capacity",
-    description: "More monthly development time dedicated to your site  —  for larger feature additions, more complex integrations, and ongoing content work. Development time scales with your needs so you're never constrained by your retainer."
+    description: "More monthly development time dedicated to your site  â€”  for larger feature additions, more complex integrations, and ongoing content work. Development time scales with your needs so you're never constrained by your retainer."
   },
   {
     icon: HeadphonesIcon,
@@ -23,17 +23,17 @@ const features = [
   {
     icon: TrendingUp,
     title: "Conversion & Performance Improvements",
-    description: "Active work on improving your site's conversion rate, page speed, Core Web Vitals, and overall user experience. Data-informed changes designed to grow your business  —  not just cosmetic tweaks."
+    description: "Active work on improving your site's conversion rate, page speed, Core Web Vitals, and overall user experience. Data-informed changes designed to grow your business  â€”  not just cosmetic tweaks."
   },
   {
     icon: Cpu,
     title: "Advanced Website Optimisation",
-    description: "Deeper performance tuning, advanced caching configurations, database optimisation, CDN management, and technical SEO. Your site doesn't just load fast  —  it's genuinely high-performance under any traffic conditions."
+    description: "Deeper performance tuning, advanced caching configurations, database optimisation, CDN management, and technical SEO. Your site doesn't just load fast  â€”  it's genuinely high-performance under any traffic conditions."
   },
   {
     icon: Lightbulb,
     title: "Ongoing Technical Guidance",
-    description: "Strategic input on your wider digital presence  —  tooling decisions, third-party integrations, platform choices, and technical planning. You get an experienced technical partner who helps you make informed decisions."
+    description: "Strategic input on your wider digital presence  â€”  tooling decisions, third-party integrations, platform choices, and technical planning. You get an experienced technical partner who helps you make informed decisions."
   },
   {
     icon: Clock,
@@ -43,7 +43,7 @@ const features = [
   {
     icon: Target,
     title: "Growth-Focused Roadmap",
-    description: "Each quarter we review your website's performance, identify opportunities, and plan the next priorities. Your site has a direction  —  not just maintenance, but meaningful improvement."
+    description: "Each quarter we review your website's performance, identify opportunities, and plan the next priorities. Your site has a direction  â€”  not just maintenance, but meaningful improvement."
   },
   {
     icon: BarChart3,
@@ -53,18 +53,18 @@ const features = [
   {
     icon: Workflow,
     title: "Business Systems Integration",
-    description: "Beyond just the website  —  we help connect your digital tools into a coherent system. From form submissions flowing to your CRM to ecommerce orders syncing with your accounting software."
+    description: "Beyond just the website  â€”  we help connect your digital tools into a coherent system. From form submissions flowing to your CRM to ecommerce orders syncing with your accounting software."
   }
 ];
 
 const useCases = [
   {
     title: "You're Outgrowing Your Current Setup",
-    description: "Your business is growing and your website needs to keep pace. More traffic, more content, more functionality  —  the standard care plan's 4 hours isn't enough anymore. Pro gives you the capacity to execute without waiting for next month."
+    description: "Your business is growing and your website needs to keep pace. More traffic, more content, more functionality  â€”  the standard care plan's 4 hours isn't enough anymore. Pro gives you the capacity to execute without waiting for next month."
   },
   {
     title: "Your Website Is Central to Operations",
-    description: "Your website isn't just a brochure  —  it's where bookings happen, where customers manage accounts, where your team works. When it's down or slow, you lose real money. Pro gives you faster support and deeper optimisation."
+    description: "Your website isn't just a brochure  â€”  it's where bookings happen, where customers manage accounts, where your team works. When it's down or slow, you lose real money. Pro gives you faster support and deeper optimisation."
   },
   {
     title: "You Need Third-Party Integrations",
@@ -72,12 +72,12 @@ const useCases = [
   },
   {
     title: "You Want Strategic Technical Input",
-    description: "You're making decisions about your digital presence  —  which platform to use, whether to build or buy, how to structure your tech stack. Pro gives you access to experienced technical guidance as part of your retainer."
+    description: "You're making decisions about your digital presence  â€”  which platform to use, whether to build or buy, how to structure your tech stack. Pro gives you access to experienced technical guidance as part of your retainer."
   }
 ];
 
 const proBenefits = [
-  "Everything in the WordPress Care Plan (£250/month)",
+  "Everything in the WordPress Care Plan (Â£250/month)",
   "Larger monthly development allocation for bigger projects",
   "Faster response and resolution times",
   "Active conversion rate optimisation work",
@@ -93,13 +93,13 @@ export default function WordPressCarePlanPro() {
   return (
     <>
       <SEO
-        title="WordPress Care Plan Pro from £500/mo | UX Sites Shropshire"
-        description="Premium WordPress care plan with managed hosting, priority support, advanced optimisation, conversion improvements & integrations — your website treated as a growth asset."
+        title="WordPress Care Plan Pro from Â£500/mo | UX Sites Shropshire"
+        description="Premium WordPress care plan with managed hosting, priority support, advanced optimisation, conversion improvements & integrations â€” your website treated as a growth asset."
         url="https://uxsites.co.uk/wordpress-care-plan-pro/"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan Pro",
-            description: "Growth-focused WordPress care plan with increased development capacity, advanced performance optimisation, conversion improvements, and integration support from £500/month.",
+            description: "Growth-focused WordPress care plan with increased development capacity, advanced performance optimisation, conversion improvements, and integration support from Â£500/month.",
             url: "https://uxsites.co.uk/wordpress-care-plan-pro/",
             category: "WordPress Care Plan",
             price: "500",
@@ -114,18 +114,18 @@ export default function WordPressCarePlanPro() {
             { question: "What is the WordPress Care Plan Pro?", answer: "Care Plan Pro is our top-tier monthly retainer for businesses that rely heavily on their website. It includes everything in the standard Care Plan plus increased development capacity, faster support, advanced optimisation, conversion improvements, integration support, and strategic technical guidance." },
             { question: "Who needs Care Plan Pro over the standard Care Plan?", answer: "Growing businesses that consistently need more than 4 hours of monthly development, want active conversion rate optimisation and advanced performance work, require integration support for business tools, and value having strategic technical input as part of their retainer." },
             { question: "What kind of integration work is covered?", answer: "Connecting your website with CRM systems, booking and scheduling platforms, email marketing tools, payment gateways, analytics platforms, and other third-party services. If your business tools need to talk to your website, we handle the integration and ongoing maintenance." },
-            { question: "Can I upgrade from the standard Care Plan to Pro?", answer: "Yes  —  at any time with no penalties. We'll adjust your monthly development allocation, support priority, and billing from the next cycle. Downgrading also works the same way." },
+            { question: "Can I upgrade from the standard Care Plan to Pro?", answer: "Yes  â€”  at any time with no penalties. We'll adjust your monthly development allocation, support priority, and billing from the next cycle. Downgrading also works the same way." },
             { question: "What does a quarterly growth roadmap involve?", answer: "Every three months we review your website's performance data, identify opportunities for improvement, and agree on priorities for the coming quarter. This ensures your site has a clear direction aligned with your business goals." },
-            { question: "Is there a minimum commitment for Care Plan Pro?", answer: "No  —  like all our plans, Care Plan Pro runs month-to-month with 30 days notice. We believe you stay with us because you value the service, not because you're locked in." },
+            { question: "Is there a minimum commitment for Care Plan Pro?", answer: "No  â€”  like all our plans, Care Plan Pro runs month-to-month with 30 days notice. We believe you stay with us because you value the service, not because you're locked in." },
           ]),
         ]}
       />
       <main>
         <HeroBlock
           tagline="Growth-focused website partnership"
-          headline="WordPress Care Plan Pro from £500/month"
+          headline="WordPress Care Plan Pro from Â£500/month"
           subheadline="Everything in the standard Care Plan, amplified. More development capacity, faster support, advanced optimisation, conversion improvements, and integration support for businesses that rely heavily on their website."
-          primaryCta={{ text: "Get Care Plan Pro", href: "/contact" }}
+          primaryCta={{ text: "Get Care Plan Pro", href: "/contact/" }}
           secondaryCta={{ text: "See Pricing", href: "#pricing" }}
           chips={["Increased Capacity", "Faster Support", "Conversion Optimisation", "Advanced Performance", "Integrations Support", "Quarterly Roadmap"]}
         />
@@ -171,7 +171,7 @@ export default function WordPressCarePlanPro() {
             <div className="text-center mb-14">
               <h2 className="text-3xl font-bold mb-4">Is Care Plan Pro Right for You?</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Pro isn't for everyone  —  it's designed for specific situations where a standard care plan doesn't go far enough.
+                Pro isn't for everyone  â€”  it's designed for specific situations where a standard care plan doesn't go far enough.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
@@ -235,19 +235,19 @@ export default function WordPressCarePlanPro() {
               name: "Managed WordPress Hosting",
               monthly: 50,
               annual: 500,
-              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
+              description: "Fully managed hosting, maintenance, security, and backups  â€”  everything your WordPress site needs to stay secure, fast, and online.",
               features: [
                 "Managed WordPress hosting on high-performance servers",
                 "Daily automated off-site backups (30-day retention)",
                 "Security monitoring & malware protection",
                 "WordPress core, plugin & theme updates",
                 "Performance monitoring & optimisation",
-                "SSL certificate  —  included, auto-renewed",
+                "SSL certificate  â€”  included, auto-renewed",
                 "Uptime monitoring every minute",
                 "30 minutes monthly development time",
                 "Expert email & plugin support"
               ],
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               ctaText: "View Managed Hosting"
             },
             {
@@ -259,11 +259,11 @@ export default function WordPressCarePlanPro() {
                 "Everything in Managed Hosting",
                 "4 hours development & support monthly",
                 "Proactive website improvements",
-                "Priority support  —  faster response",
+                "Priority support  â€”  faster response",
                 "Technical consultation included",
                 "Ongoing website optimisation"
               ],
-              href: "/wordpress-care-plan",
+              href: "/wordpress-care-plan/",
               ctaText: "View Care Plan"
             },
             {
@@ -282,12 +282,12 @@ export default function WordPressCarePlanPro() {
                 "Detailed monthly performance reporting",
                 "Ongoing strategic technical guidance"
               ],
-              href: "/wordpress-care-plan-pro",
+              href: "/wordpress-care-plan-pro/",
               ctaText: "View Care Plan Pro",
               highlighted: true
             }
           ]}
-          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  â€”  save 2 months per year."
         />
 
         <FAQBlock
@@ -306,7 +306,7 @@ export default function WordPressCarePlanPro() {
             },
             {
               question: "Can I upgrade from the standard Care Plan to Pro?",
-              answer: "Yes  —  at any time with no penalties. We'll adjust your monthly development allocation, support priority, and billing from the next cycle. Downgrading also works the same way."
+              answer: "Yes  â€”  at any time with no penalties. We'll adjust your monthly development allocation, support priority, and billing from the next cycle. Downgrading also works the same way."
             },
             {
               question: "What does a quarterly growth roadmap involve?",
@@ -314,18 +314,18 @@ export default function WordPressCarePlanPro() {
             },
             {
               question: "Is there a minimum commitment for Care Plan Pro?",
-              answer: "No  —  like all our plans, Care Plan Pro runs month-to-month with 30 days notice. We believe you stay with us because you value the service, not because you're locked in."
+              answer: "No  â€”  like all our plans, Care Plan Pro runs month-to-month with 30 days notice. We believe you stay with us because you value the service, not because you're locked in."
             }
           ]}
         />
 
         <CTABanner
           title="Ready to treat your website as a growth asset?"
-          description="Get increased development capacity, advanced optimisation, conversion improvements, integration support, and strategic guidance from £500/month."
+          description="Get increased development capacity, advanced optimisation, conversion improvements, integration support, and strategic guidance from Â£500/month."
           buttonText="Get Care Plan Pro"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Care Plan"
-          secondaryButtonHref="/wordpress-care-plan"
+          secondaryButtonHref="/wordpress-care-plan/"
         />
 
         <RelatedPages
@@ -333,38 +333,38 @@ export default function WordPressCarePlanPro() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting, maintenance, security, and backups from £50/month. The foundation tier.",
-              href: "/managed-wordpress-hosting",
-              tag: "From £50"
+              description: "Hosting, maintenance, security, and backups from Â£50/month. The foundation tier.",
+              href: "/managed-wordpress-hosting/",
+              tag: "From Â£50"
             },
             {
               title: "WordPress Care Plan",
-              description: "Ongoing development, proactive improvements, and priority support from £250/month.",
-              href: "/wordpress-care-plan",
-              tag: "From £250"
+              description: "Ongoing development, proactive improvements, and priority support from Â£250/month.",
+              href: "/wordpress-care-plan/",
+              tag: "From Â£250"
             },
             {
               title: "Website Support & Care Plans",
               description: "Full details on our website support services and how they compare with managed hosting.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "Managed Hosting Cost UK",
               description: "See what managed hosting costs and how to judge the real value for your business.",
-              href: "/managed-wordpress-hosting-cost-uk-2026",
+              href: "/managed-wordpress-hosting-cost-uk-2026/",
               tag: "Pricing"
             },
             {
               title: "Fully Managed Hosting",
-              description: "Everything included  —  hosting, updates, security, backups, and 30 min development time.",
-              href: "/fully-managed-wordpress-hosting",
+              description: "Everything included  â€”  hosting, updates, security, backups, and 30 min development time.",
+              href: "/fully-managed-wordpress-hosting/",
               tag: "Hosting"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Maintenance"
             }
           ]}

@@ -9,17 +9,17 @@ import { Code, LineChart, ShieldCheck, Lightbulb, Server, HeartHandshake, Trendi
 
 const journey = [
   {
-    era: "2014 — 2017",
+    era: "2014 â€” 2017",
     title: "Website Designer",
     description: "Started building websites for small businesses, learning the craft of front-end development, design systems, and what makes a site that actually works for its owner."
   },
   {
-    era: "2017 — 2020",
+    era: "2017 â€” 2020",
     title: "UX Analyst",
     description: "Moved into UX, working with GA4, Google Tag Manager, conversion tracking, and third-party integrations. Ran user testing sessions, analysed behaviour data, and optimised funnels to improve real business outcomes."
   },
   {
-    era: "2020 — Present",
+    era: "2020 â€” Present",
     title: "Full-Stack & DevOps",
     description: "Expanded into back-end development, app development, CRM integrations, Google Merchant Centre, SEO, Google Business Profile, and paid advertising. Built and managed high-performance server infrastructure for WordPress."
   }
@@ -44,7 +44,7 @@ const values = [
   {
     icon: Search,
     title: "Data-Driven",
-    description: "Every recommendation is backed by data, analytics, and real user behaviour. No guesswork, no trends for the sake of it — just what works."
+    description: "Every recommendation is backed by data, analytics, and real user behaviour. No guesswork, no trends for the sake of it â€” just what works."
   }
 ];
 
@@ -63,7 +63,7 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About UX Sites — 10+ Years of WordPress Expertise in Shropshire"
+        title="About UX Sites â€” 10+ Years of WordPress Expertise in Shropshire"
         description="UX Sites was founded by Adam, a Google-certified UX professional with 10+ years in web design. Honest, upfront expertise for small to medium businesses."
         url="https://uxsites.co.uk/about/"
         schema={[
@@ -83,9 +83,9 @@ export default function About() {
         <HeroBlock
           tagline="About UX Sites"
           headline="10+ Years of WordPress & Digital Expertise"
-          subheadline="UX Sites was founded to provide honest, reliable, and affordable web services to small and medium businesses. No jargon, no hidden fees — just straightforward expertise from someone who's been doing this professionally for over a decade."
-          primaryCta={{ text: "Get in Touch", href: "/contact" }}
-          secondaryCta={{ text: "View Our Work", href: "/case-studies" }}
+          subheadline="UX Sites was founded to provide honest, reliable, and affordable web services to small and medium businesses. No jargon, no hidden fees â€” just straightforward expertise from someone who's been doing this professionally for over a decade."
+          primaryCta={{ text: "Get in Touch", href: "/contact/" }}
+          secondaryCta={{ text: "View Our Work", href: "/case-studies/" }}
           chips={["10+ Years Experience", "Google Certified", "Honest Pricing", "WordPress Specialists"]}
         />
 
@@ -95,7 +95,7 @@ export default function About() {
             <div className="section-header">
               <h2 className="heading-section mb-4">The Journey</h2>
               <p className="subhead-section">
-                From designing websites to running a managed hosting platform — here's how the experience stacks up.
+                From designing websites to running a managed hosting platform â€” here's how the experience stacks up.
               </p>
             </div>
             <div className="max-w-4xl mx-auto space-y-6">
@@ -154,7 +154,7 @@ export default function About() {
                     <ul className="space-y-2">
                       {group.items.map((item, j) => (
                         <li key={j} className="body-card flex items-start gap-2">
-                          <span className="text-primary mt-0.5 shrink-0">—</span>
+                          <span className="text-primary mt-0.5 shrink-0">â€”</span>
                           {item}
                         </li>
                       ))}
@@ -172,7 +172,7 @@ export default function About() {
             <div className="section-header">
               <h2 className="heading-section mb-4">How We Work</h2>
               <p className="subhead-section">
-                The principles that guide every decision — from the hosting we recommend to the advice we give.
+                The principles that guide every decision â€” from the hosting we recommend to the advice we give.
               </p>
             </div>
             <div className="grid-cards">
@@ -211,7 +211,7 @@ export default function About() {
                 </div>
                 <h2 className="heading-section mb-6">High-Quality Server Infrastructure</h2>
                 <p className="body-lg mb-6">
-                  We invest in premium hosting infrastructure that delivers the performance, security, and reliability that small and medium businesses deserve. Our platform includes features you'd typically only find on enterprise-level WordPress hosts — server-level caching, CDN, automated backups, and 24/7 security monitoring.
+                  We invest in premium hosting infrastructure that delivers the performance, security, and reliability that small and medium businesses deserve. Our platform includes features you'd typically only find on enterprise-level WordPress hosts â€” server-level caching, CDN, automated backups, and 24/7 security monitoring.
                 </p>
                 <p className="body-lg mb-8">
                   Our platform is built on premium infrastructure that delivers the performance, security, and reliability that small and medium businesses deserve.
@@ -244,13 +244,13 @@ export default function About() {
                 </div>
                 <h2 className="heading-section mb-6">Serving Local Businesses Across Shropshire & Beyond</h2>
                 <p className="body-lg mb-6">
-                  We're based in <strong className="text-foreground">St. Martins, near Oswestry</strong> in North Shropshire — right on the border with Wales. This central location means we can easily meet clients across Shropshire, Cheshire, Wrexham, and the wider Welsh borders.
+                  We're based in <strong className="text-foreground">St. Martins, near Oswestry</strong> in North Shropshire â€” right on the border with Wales. This central location means we can easily meet clients across Shropshire, Cheshire, Wrexham, and the wider Welsh borders.
                 </p>
                 <p className="body-lg mb-6">
                   Prefer to meet in person? We're happy to come to you for an initial consultation, site visit, or ongoing catch-up. No video call required if you'd rather sit down and talk through your project face to face.
                 </p>
                 <p className="body-lg mb-8">
-                  We also work with companies nationwide via online meetings — so don't worry if you're outside our area. Most of our client relationships are managed remotely, and that works just fine.
+                  We also work with companies nationwide via online meetings â€” so don't worry if you're outside our area. Most of our client relationships are managed remotely, and that works just fine.
                 </p>
               </div>
               <div>
@@ -258,16 +258,16 @@ export default function About() {
                   <h3 className="heading-card mb-4">Nearby Areas We Cover</h3>
                   <div className="grid grid-cols-2 gap-x-6 gap-y-2">
                     {[
-                      { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
-                      { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury" },
-                      { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-                      { name: "Whitchurch", href: "/wordpress-hosting-whitchurch" },
-                      { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-                      { name: "Chirk", href: "/wordpress-hosting-chirk" },
-                      { name: "Gobowen", href: "/wordpress-hosting-gobowen" },
-                      { name: "Llangollen", href: "/wordpress-hosting-llangollen" },
-                      { name: "Welshpool", href: "/wordpress-hosting-welshpool" },
-                      { name: "Ruabon", href: "/wordpress-hosting-ruabon" },
+                      { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
+                      { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury/" },
+                      { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+                      { name: "Whitchurch", href: "/wordpress-hosting-whitchurch/" },
+                      { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+                      { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+                      { name: "Gobowen", href: "/wordpress-hosting-gobowen/" },
+                      { name: "Llangollen", href: "/wordpress-hosting-llangollen/" },
+                      { name: "Welshpool", href: "/wordpress-hosting-welshpool/" },
+                      { name: "Ruabon", href: "/wordpress-hosting-ruabon/" },
                     ].map((area, i) => (
                       <Link key={i} href={area.href} className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors py-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-primary/60 shrink-0" />
@@ -284,19 +284,19 @@ export default function About() {
         {/* CTA */}
         <CTABanner
           title="Let's Talk About Your Website"
-          description="Whether you need a new site, managed hosting, or just some honest advice — get in touch and we'll take it from there."
+          description="Whether you need a new site, managed hosting, or just some honest advice â€” get in touch and we'll take it from there."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
           pages={[
-            { title: "Managed WordPress Hosting", href: "/managed-wordpress-hosting", description: "Everything included in our managed hosting plans" },
-            { title: "WordPress Care Plan", href: "/wordpress-care-plan", description: "Ongoing development, updates & priority support" },
-            { title: "Web Design Oswestry", href: "/web-design-oswestry", description: "Custom WordPress websites for Oswestry and the Welsh borders" },
-            { title: "WordPress Support Shropshire", href: "/wordpress-support-shropshire", description: "Expert WordPress support for Shropshire businesses" },
-            { title: "New Website", href: "/new-website", description: "Custom WordPress websites built for your business" },
-            { title: "Case Studies", href: "/case-studies", description: "Recent projects and client results" },
+            { title: "Managed WordPress Hosting", href: "/managed-wordpress-hosting/", description: "Everything included in our managed hosting plans" },
+            { title: "WordPress Care Plan", href: "/wordpress-care-plan/", description: "Ongoing development, updates & priority support" },
+            { title: "Web Design Oswestry", href: "/web-design-oswestry/", description: "Custom WordPress websites for Oswestry and the Welsh borders" },
+            { title: "WordPress Support Shropshire", href: "/wordpress-support-shropshire/", description: "Expert WordPress support for Shropshire businesses" },
+            { title: "New Website", href: "/new-website/", description: "Custom WordPress websites built for your business" },
+            { title: "Case Studies", href: "/case-studies/", description: "Recent projects and client results" },
           ]}
         />
       </main>

@@ -26,13 +26,13 @@ export default function WordPressMaintenance() {
   return (
     <>
       <SEO
-        title="WordPress Maintenance from £50/mo | UX Sites Shropshire"
-        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support — from £50/month. Stress-free site care."
+        title="WordPress Maintenance from Â£50/mo | UX Sites Shropshire"
+        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support â€” from Â£50/month. Stress-free site care."
         url="https://uxsites.co.uk/wordpress-maintenance/"
         schema={[
           serviceSchema({
             name: "WordPress Maintenance Service",
-            description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From £50/month.",
+            description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From Â£50/month.",
             url: "https://uxsites.co.uk/wordpress-maintenance/",
             category: "WordPress Maintenance",
             price: "50",
@@ -51,8 +51,8 @@ export default function WordPressMaintenance() {
           tagline="WordPress maintenance done properly"
           headline="WordPress Maintenance Service  -  Done for You"
           subheadline="WordPress requires regular, careful maintenance to stay secure, current, and performing well. Our maintenance service handles all of it  -  updates, backups, security, performance monitoring  -  so you can focus entirely on your business."
-          primaryCta={{ text: "Get Maintenance Coverage", href: "/contact" }}
-          secondaryCta={{ text: "Full Hosting & Support", href: "/website-support" }}
+          primaryCta={{ text: "Get Maintenance Coverage", href: "/contact/" }}
+          secondaryCta={{ text: "Full Hosting & Support", href: "/website-support/" }}
           chips={["Plugin Updates", "Security Scanning", "Daily Backups", "Uptime Monitoring", "Expert Support"]}
         />
 
@@ -212,13 +212,13 @@ export default function WordPressMaintenance() {
                   ].map(([feature, maint, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
-                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
-                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
+                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">âœ“</span> : <span className="text-muted-foreground"> - </span>}</td>
+                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">âœ“</span> : <span className="text-muted-foreground"> - </span>}</td>
                     </tr>
                   ))}
                   <tr className="border-b border-border/50">
                     <td className="py-3 px-4 font-bold">Works with your current host</td>
-                    <td className="py-3 px-4 text-center text-primary">✓</td>
+                    <td className="py-3 px-4 text-center text-primary">âœ“</td>
                     <td className="py-3 px-4 text-center text-muted-foreground">Migrates to ours</td>
                   </tr>
                 </tbody>
@@ -226,8 +226,8 @@ export default function WordPressMaintenance() {
             </div>
             <div className="text-center mt-8">
               <p className="text-muted-foreground text-sm mb-4">Most clients find managed hosting better value  -  it replaces their existing hosting cost entirely.</p>
-              <Link href="/managed-wordpress-hosting" className="text-primary text-sm font-bold hover:underline">
-                View managed hosting plans from £50/month →
+              <Link href="/managed-wordpress-hosting/" className="text-primary text-sm font-bold hover:underline">
+                View managed hosting plans from Â£50/month â†’
               </Link>
             </div>
           </div>
@@ -262,9 +262,9 @@ export default function WordPressMaintenance() {
           title="Stop worrying about your WordPress site"
           description="Get ongoing maintenance coverage and know your site is being looked after  -  properly, by someone who understands it."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Managed Hosting"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
 
         <RelatedPages
@@ -273,49 +273,49 @@ export default function WordPressMaintenance() {
             {
               title: "Website Support & Care Plans",
               description: "Full care plan details  -  what's covered and why it matters for your business.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + maintenance in one plan  -  the most complete solution from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Hosting + maintenance in one plan  -  the most complete solution from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "WordPress Security Monitoring",
               description: "How we actively protect your site from hacks, malware, and vulnerabilities.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Related"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily off-site backups and how rapid restoration works if the worst happens.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Related"
             },
             {
               title: "Website Maintenance Shropshire",
-              description: "Professional website maintenance for Shropshire businesses — local, reliable, stress-free.",
-              href: "/website-maintenance-shropshire",
+              description: "Professional website maintenance for Shropshire businesses â€” local, reliable, stress-free.",
+              href: "/website-maintenance-shropshire/",
               tag: "Local"
             },
             {
               title: "WordPress Support Shropshire",
               description: "Expert WordPress support and fixes for Shropshire businesses.",
-              href: "/wordpress-support-shropshire",
+              href: "/wordpress-support-shropshire/",
               tag: "Local"
             },
             {
               title: "Website Speed Optimisation",
               description: "How we keep your site loading fast  -  and why speed matters for rankings.",
-              href: "/website-speed-optimisation",
+              href: "/website-speed-optimisation/",
               tag: "Related"
             },
             {
               title: "WordPress Security Essentials",
               description: "What every WordPress site owner needs to know about keeping their site secure.",
-              href: "/blog/wordpress-security-essentials",
+              href: "/blog/wordpress-security-essentials/",
               tag: "Blog"
             }
           ]}

@@ -126,8 +126,8 @@ export default function WordPressHelpSlow() {
           tagline="Speed up your WordPress site"
           headline="How to Fix a Slow WordPress Website"
           subheadline="A slow WordPress website can hurt your business. Learn how to diagnose performance issues and implement effective fixes."
-          primaryCta={{ text: "Need Expert Help?", href: "/contact" }}
-          secondaryCta={{ text: "View All Guides", href: "/wordpress-help" }}
+          primaryCta={{ text: "Need Expert Help?", href: "/contact/" }}
+          secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Performance", "10 min read", "Step-by-step", "Beginner friendly"]}
         />
 
@@ -226,7 +226,7 @@ export default function WordPressHelpSlow() {
                 ))}
               </ul>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
               >
                 Get Performance Help
@@ -244,9 +244,9 @@ export default function WordPressHelpSlow() {
           title="Let us speed up your WordPress site"
           description="We handle the full performance optimisation process  -  caching, image compression, database tuning, plugin audit, and hosting recommendations  -  so your site loads fast without the hassle."
           buttonText="Get a Speed Audit"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View All Guides"
-          secondaryButtonHref="/wordpress-help"
+          secondaryButtonHref="/wordpress-help/"
         />
 
         <RelatedPages
@@ -255,25 +255,25 @@ export default function WordPressHelpSlow() {
             {
               title: "WordPress Maintenance Checklist",
               description: "Keep your site running fast with regular maintenance tasks.",
-              href: "/wordpress-help/wordpress-maintenance",
+              href: "/wordpress-help/wordpress-maintenance/",
               tag: "Guide"
             },
             {
               title: "How to Secure a WordPress Website",
               description: "Essential security measures to protect your WordPress site.",
-              href: "/wordpress-help/wordpress-security",
+              href: "/wordpress-help/wordpress-security/",
               tag: "Guide"
             },
             {
               title: "What to Do If a WordPress Update Breaks Your Site",
               description: "Emergency recovery guide for broken WordPress sites.",
-              href: "/wordpress-help/wordpress-update-issues",
+              href: "/wordpress-help/wordpress-update-issues/",
               tag: "Guide"
             },
             {
               title: "Website Speed Optimisation Service",
               description: "Professional performance optimisation for your WordPress site.",
-              href: "/website-speed-optimisation",
+              href: "/website-speed-optimisation/",
               tag: "Service"
             },
           ]}

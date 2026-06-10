@@ -35,17 +35,17 @@ const painPoints = [
 ];
 
 const serviceAreas = [
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
-  { name: "St. Martins", href: "/wordpress-hosting-st-martins" },
-  { name: "Chirk", href: "/wordpress-hosting-chirk" },
-  { name: "Gobowen", href: "/wordpress-hosting-gobowen" },
-  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch" },
-  { name: "Llangollen", href: "/wordpress-hosting-llangollen" },
-  { name: "Welshpool", href: "/wordpress-hosting-welshpool" },
-  { name: "Ruabon", href: "/wordpress-hosting-ruabon" }
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
+  { name: "St. Martins", href: "/wordpress-hosting-st-martins/" },
+  { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+  { name: "Gobowen", href: "/wordpress-hosting-gobowen/" },
+  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch/" },
+  { name: "Llangollen", href: "/wordpress-hosting-llangollen/" },
+  { name: "Welshpool", href: "/wordpress-hosting-welshpool/" },
+  { name: "Ruabon", href: "/wordpress-hosting-ruabon/" }
 ];
 
 export default function WebsitesForBuilders() {
@@ -68,7 +68,7 @@ export default function WebsitesForBuilders() {
           ]),
           faqSchema([
             {
-              question: "I'm a busy builder — will I have time to manage a website?",
+              question: "I'm a busy builder â€” will I have time to manage a website?",
               answer: "You won't need to. We handle everything from setup to ongoing maintenance. With our managed hosting service, we take care of updates, security, backups, and performance. Your site stays live and up to date while you focus on the build."
             },
             {
@@ -77,7 +77,7 @@ export default function WebsitesForBuilders() {
             },
             {
               question: "How much does a professional builder website cost?",
-              answer: "New websites start from £1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
+              answer: "New websites start from Â£1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
             },
             {
               question: "Will my site show up on Google when local customers search for builders?",
@@ -91,8 +91,8 @@ export default function WebsitesForBuilders() {
           tagline="Construction trade websites"
           headline="Websites for Builders and Construction Companies"
           subheadline="Your website should be one of your best tools for winning new work. We build professional, mobile-friendly sites that showcase your projects and make it easy for local customers to get in touch."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Project Portfolio", "Mobile First", "Local SEO", "Trust & Credibility", "Ongoing Support"]}
         />
 
@@ -101,7 +101,7 @@ export default function WebsitesForBuilders() {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Why builders need a professional website</h2>
               <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-                Your reputation is built on the quality of your work — but these days your website is how most customers first discover it. Here's what matters.
+                Your reputation is built on the quality of your work â€” but these days your website is how most customers first discover it. Here's what matters.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
@@ -131,12 +131,12 @@ export default function WebsitesForBuilders() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">What a good builder website includes</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Every builder we work with has a different specialism — extensions, renovations, new builds, or commercial work — but the best sites share a common approach.
+                  Every builder we work with has a different specialism â€” extensions, renovations, new builds, or commercial work â€” but the best sites share a common approach.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   We build each page around your specific services and the areas you cover, helping potential customers understand exactly what you do and whether you're the right fit for their project.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -169,7 +169,7 @@ export default function WebsitesForBuilders() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -219,12 +219,12 @@ export default function WebsitesForBuilders() {
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { name: "Electrician Websites", href: "/websites-for-electricians", desc: "Specialist sites for electrical contractors and businesses." },
-                { name: "Plumber Websites", href: "/websites-for-plumbers", desc: "Websites designed for plumbing and heating engineers." },
-                { name: "Roofer Websites", href: "/websites-for-roofers", desc: "Professional roofing company websites with project galleries." },
-                { name: "Decorator Websites", href: "/websites-for-decorators", desc: "Painting and decorating websites that showcase your finish." },
-                { name: "Joiner Websites", href: "/websites-for-joiners", desc: "Websites for joinery and carpentry businesses." },
-                { name: "Scaffolder Websites", href: "/websites-for-scaffolders", desc: "Scaffolding company websites for local and regional work." }
+                { name: "Electrician Websites", href: "/websites-for-electricians/", desc: "Specialist sites for electrical contractors and businesses." },
+                { name: "Plumber Websites", href: "/websites-for-plumbers/", desc: "Websites designed for plumbing and heating engineers." },
+                { name: "Roofer Websites", href: "/websites-for-roofers/", desc: "Professional roofing company websites with project galleries." },
+                { name: "Decorator Websites", href: "/websites-for-decorators/", desc: "Painting and decorating websites that showcase your finish." },
+                { name: "Joiner Websites", href: "/websites-for-joiners/", desc: "Websites for joinery and carpentry businesses." },
+                { name: "Scaffolder Websites", href: "/websites-for-scaffolders/", desc: "Scaffolding company websites for local and regional work." }
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -252,11 +252,11 @@ export default function WebsitesForBuilders() {
 
         <BenefitsGrid
           title="How We Help Your Building Business"
-          subtitle="Beyond the website — we keep your online presence running smoothly so you can focus on the build."
+          subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the build."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you work on site." },
-            { title: "New Website Builds", description: "From £1,500. A fully custom website designed and built around your services, portfolio, and target areas. Mobile-first, fast, and optimised for Google." },
-            { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign, restructure, and re-optimise it to generate enquiries again — often without starting from scratch." },
+            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you work on site." },
+            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed and built around your services, portfolio, and target areas. Mobile-first, fast, and optimised for Google." },
+            { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign, restructure, and re-optimise it to generate enquiries again â€” often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages, Google Business integration, and structured markup so you show up when local customers search for builders in your area." }
 
 
@@ -266,7 +266,7 @@ export default function WebsitesForBuilders() {
         <FAQBlock
           faqs={[
             {
-              question: "I'm a busy builder — will I have time to manage a website?",
+              question: "I'm a busy builder â€” will I have time to manage a website?",
               answer: "You won't need to. We handle everything from setup to ongoing maintenance. With our managed hosting service, we take care of updates, security, backups, and performance. Your site stays live and up to date while you focus on the build."
             },
             {
@@ -275,7 +275,7 @@ export default function WebsitesForBuilders() {
             },
             {
               question: "How much does a professional builder website cost?",
-              answer: "New websites start from £1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
+              answer: "New websites start from Â£1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
             },
             {
               question: "Will my site show up on Google when local customers search for builders?",
@@ -295,7 +295,7 @@ export default function WebsitesForBuilders() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "£50", label: "Per Month Managed Hosting" }
+            { number: "Â£50", label: "Per Month Managed Hosting" }
 
 
           ]}
@@ -303,11 +303,11 @@ export default function WebsitesForBuilders() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -316,49 +316,49 @@ export default function WebsitesForBuilders() {
             {
               title: "Websites for Electricians",
               description: "Specialist websites for electrical contractors and businesses.",
-              href: "/websites-for-electricians",
+              href: "/websites-for-electricians/",
               tag: "Trade"
             },
             {
               title: "Websites for Plumbers",
               description: "Websites designed for plumbing and heating engineers.",
-              href: "/websites-for-plumbers",
+              href: "/websites-for-plumbers/",
               tag: "Trade"
             },
             {
               title: "Websites for Roofers",
               description: "Professional roofing company websites.",
-              href: "/websites-for-roofers",
+              href: "/websites-for-roofers/",
               tag: "Trade"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Full details of our managed hosting plans with daily backups and expert support.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process — from first conversation to launch.",
-              href: "/new-website",
+              description: "Our full website design and development process â€” from first conversation to launch.",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Small Business Websites",
               description: "Affordable websites for small businesses and sole traders.",
-              href: "/small-business-websites",
+              href: "/small-business-websites/",
               tag: "Service"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }          ]}
         />

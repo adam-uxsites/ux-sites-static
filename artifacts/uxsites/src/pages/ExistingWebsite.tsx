@@ -59,7 +59,7 @@ export default function ExistingWebsite() {
     <>
       <SEO
         title="WordPress Website Refresh & Redesign | UX Sites Shropshire"
-        description="Transform your existing WordPress site into a high-performance asset — design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
+        description="Transform your existing WordPress site into a high-performance asset â€” design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
         url="https://uxsites.co.uk/existing-website/"
         schema={[
           serviceSchema({
@@ -101,7 +101,7 @@ export default function ExistingWebsite() {
           tagline="Turn your website into an asset"
           headline="Website Refreshes & Rebuilds That Actually Deliver"
           subheadline="Is your site slow, outdated, or simply not generating the enquiries it should? We modernise existing WordPress sites  -  improving performance, design, user experience, and conversions without necessarily starting from scratch."
-          primaryCta={{ text: "Get a Free Site Audit", href: "/contact" }}
+          primaryCta={{ text: "Get a Free Site Audit", href: "/contact/" }}
           secondaryCta={{ text: "See What We Fix", href: "#improvements" }}
           chips={["Performance Fix", "Mobile Experience", "UX Improvements", "SEO", "Conversion Optimisation"]}
         />
@@ -201,7 +201,7 @@ export default function ExistingWebsite() {
                     "The content management setup works well"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">✓</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">âœ“</div>
                       {item}
                     </li>
                   ))}
@@ -218,7 +218,7 @@ export default function ExistingWebsite() {
                     "Security issues are too embedded to resolve without starting clean"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">→</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">â†’</div>
                       {item}
                     </li>
                   ))}
@@ -265,7 +265,7 @@ export default function ExistingWebsite() {
           title="Let's see what your site is actually doing"
           description="Get a free, honest site audit  -  no obligation, no sales pitch. We'll tell you what's working, what isn't, and what your realistic options are."
           buttonText="Request a Free Audit"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -274,37 +274,37 @@ export default function ExistingWebsite() {
             {
               title: "Website Speed Optimisation",
               description: "Diagnose and fix the root causes of slow load times  -  Core Web Vitals, images, caching, and hosting.",
-              href: "/website-speed-optimisation",
+              href: "/website-speed-optimisation/",
               tag: "Performance"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Security issues often explain poor performance  -  we scan, protect, and harden your site.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Post-refresh: keep your updated site maintained, secure, and performing well.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Maintenance"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Move to hosting built for WordPress  -  the fastest way to improve baseline performance.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Hosting"
             },
             {
               title: "Websites for Small Businesses",
               description: "Need a full rebuild? We build custom WordPress sites tailored to small businesses.",
-              href: "/small-business-websites",
+              href: "/small-business-websites/",
               tag: "Web Design"
             },
             {
               title: "5 Signs Your Website Needs a Rebuild",
               description: "When a refresh isn't enough  -  the five clear indicators of a site that needs replacing.",
-              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              href: "/blog/5-signs-your-website-needs-a-rebuild/",
               tag: "Blog"
             }
           ]}

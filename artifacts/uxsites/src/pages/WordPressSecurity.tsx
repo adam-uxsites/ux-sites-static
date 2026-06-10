@@ -36,8 +36,8 @@ export default function WordPressSecurity() {
           tagline="Your website is a target  -  let's protect it properly"
           headline="WordPress Security Monitoring & Malware Protection"
           subheadline="WordPress powers 43% of the web, which makes it the most targeted CMS on the internet. We provide continuous security monitoring, vulnerability management, and rapid malware response  -  so your site stays protected around the clock."
-          primaryCta={{ text: "Get Security Coverage", href: "/contact" }}
-          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting" }}
+          primaryCta={{ text: "Get Security Coverage", href: "/contact/" }}
+          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}
           chips={["24/7 Monitoring", "Malware Scanning", "Brute Force Protection", "Vulnerability Management", "Rapid Response"]}
         />
 
@@ -67,13 +67,13 @@ export default function WordPressSecurity() {
                 </p>
                 <p className="text-muted-foreground text-sm mb-6">
                   For a step-by-step guide to securing your site, read our{" "}
-                  <a href="/blog/wordpress-security-guide" className="text-primary font-bold hover:underline">WordPress security guide for small businesses</a>.
+                  <a href="/blog/wordpress-security-guide/" className="text-primary font-bold hover:underline">WordPress security guide for small businesses</a>.
                 </p>
                 <Link
-                  href="/wordpress-maintenance"
+                  href="/wordpress-maintenance/"
                   className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline"
                 >
-                  See our WordPress maintenance service →
+                  See our WordPress maintenance service â†’
                 </Link>
               </div>
               <div className="space-y-4">
@@ -219,7 +219,7 @@ export default function WordPressSecurity() {
                 If you're seeing any of these, treat it as urgent. A compromised site can be cleaned, but speed matters  -  the longer an infection runs, the more damage it causes to your search presence and reputation.
               </p>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
               >
                 Get Emergency Security Help
@@ -270,9 +270,9 @@ export default function WordPressSecurity() {
           title="Get your WordPress site properly protected"
           description="Security monitoring, malware protection, and vulnerability management  -  all included in our managed hosting and care plans."
           buttonText="Get Protected"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Managed Hosting"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
 
         <RelatedPages
@@ -280,38 +280,38 @@ export default function WordPressSecurity() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Security monitoring included  -  plus hosting, backups, updates, and support from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Security monitoring included  -  plus hosting, backups, updates, and support from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily off-site backups  -  your last line of defence if a security incident damages your site.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Related"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Keeping plugins and WordPress core updated  -  the primary defence against vulnerabilities.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Related"
             },
             {
               title: "Website Support & Care Plans",
               description: "Comprehensive ongoing care including security, updates, monitoring, and support.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "WordPress Security Essentials",
               description: "What every business website owner needs to know about WordPress security.",
-              href: "/blog/wordpress-security-essentials",
+              href: "/blog/wordpress-security-essentials/",
               tag: "Blog"
             },
             {
               title: "Managed Hosting Shropshire",
               description: "Local expert security monitoring for Shropshire businesses.",
-              href: "/wordpress-hosting-shropshire",
+              href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             }
           ]}

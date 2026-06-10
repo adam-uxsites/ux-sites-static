@@ -104,8 +104,8 @@ export default function WhatsIncludedMgdHosting() {
           tagline="Everything you need to know"
           headline="What's Included in Managed WordPress Hosting"
           subheadline="Get the full breakdown of what services and features are typically included in managed WordPress hosting plans."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact" }}
-          secondaryCta={{ text: "View Pricing", href: "/managed-wordpress-hosting#pricing" }}
+          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
+          secondaryCta={{ text: "View Pricing", href: "/managed-wordpress-hosting/#pricing" }}
           chips={["Backups", "Security", "Updates", "Performance", "SSL & CDN", "Support", "Staging", "Migration"]}
         />
 
@@ -195,11 +195,11 @@ export default function WhatsIncludedMgdHosting() {
 
         <CTABanner
           title="One price. Everything included."
-          description="Managed WordPress hosting from £50/month  -  with no hidden extras or surprise charges."
+          description="Managed WordPress hosting from Â£50/month  -  with no hidden extras or surprise charges."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="Compare Plans"
-          secondaryButtonHref="/managed-wordpress-hosting-vs-shared-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting-vs-shared-hosting/"
         />
       </main>
     </>

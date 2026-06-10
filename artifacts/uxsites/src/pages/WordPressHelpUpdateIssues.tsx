@@ -128,8 +128,8 @@ export default function WordPressHelpUpdateIssues() {
           tagline="Emergency recovery guide"
           headline="What to Do If a WordPress Update Breaks Your Site"
           subheadline="WordPress updates can sometimes cause issues. Don't panic  -  most problems can be fixed with the right approach."
-          primaryCta={{ text: "Need Emergency Help?", href: "/contact" }}
-          secondaryCta={{ text: "View All Guides", href: "/wordpress-help" }}
+          primaryCta={{ text: "Need Emergency Help?", href: "/contact/" }}
+          secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Troubleshooting", "8 min read", "Step-by-step", "Emergency"]}
         />
 
@@ -199,7 +199,7 @@ export default function WordPressHelpUpdateIssues() {
                     <p className="text-sm font-semibold text-muted-foreground mb-3">{option.scenario}</p>
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-grow">{option.desc}</p>
                     <div className="text-sm text-muted-foreground bg-card p-3 rounded-lg border border-border/50">
-                      <span className="font-semibold text-foreground">→ </span>{option.when}
+                      <span className="font-semibold text-foreground">â†’ </span>{option.when}
                     </div>
                   </motion.div>
                 );
@@ -255,7 +255,7 @@ export default function WordPressHelpUpdateIssues() {
                 </p>
               </div>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity shrink-0"
               >
                 Get Emergency Help
@@ -273,9 +273,9 @@ export default function WordPressHelpUpdateIssues() {
           title="Worried about your next WordPress update?"
           description="Our maintenance service handles updates safely  -  with backups, staging testing, and expert oversight  -  so you never have to deal with a broken site again."
           buttonText="Get Maintenance Coverage"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View All Guides"
-          secondaryButtonHref="/wordpress-help"
+          secondaryButtonHref="/wordpress-help/"
         />
 
         <RelatedPages
@@ -284,25 +284,25 @@ export default function WordPressHelpUpdateIssues() {
             {
               title: "How to Fix a Slow WordPress Website",
               description: "Diagnose and fix performance issues on your WordPress site.",
-              href: "/wordpress-help/wordpress-slow",
+              href: "/wordpress-help/wordpress-slow/",
               tag: "Guide"
             },
             {
               title: "WordPress Maintenance Checklist",
               description: "Prevent update issues with regular maintenance.",
-              href: "/wordpress-help/wordpress-maintenance",
+              href: "/wordpress-help/wordpress-maintenance/",
               tag: "Guide"
             },
             {
               title: "How to Secure a WordPress Website",
               description: "Essential security measures to protect your site.",
-              href: "/wordpress-help/wordpress-security",
+              href: "/wordpress-help/wordpress-security/",
               tag: "Guide"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Professional updates and maintenance handled for you.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Service"
             },
           ]}

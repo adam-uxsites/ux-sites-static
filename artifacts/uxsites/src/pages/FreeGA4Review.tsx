@@ -58,7 +58,7 @@ export default function FreeGA4Review() {
         body: JSON.stringify({ ...values, service: "Free GA4 Review" }),
       });
       if (res.ok) {
-        setLocation("/thank-you");
+        setLocation("/thank-you/");
         return;
       } else {
         const data = await res.json().catch(() => ({}));
@@ -283,7 +283,7 @@ export default function FreeGA4Review() {
 
                         <p className="text-sm text-center text-muted-foreground">
                           By submitting this form you agree to our{" "}
-                          <a href="/privacy-policy" className="text-primary hover:underline">privacy policy</a>.
+                          <a href="/privacy-policy/" className="text-primary hover:underline">privacy policy</a>.
                           We'll never share your data with third parties.
                         </p>
                       </form>

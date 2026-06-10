@@ -64,7 +64,7 @@ export default function WhatIsMgdHosting() {
             { question: "How is managed hosting different from regular hosting?", answer: "Regular hosting provides server space and leaves everything else to you. Managed hosting includes proactive security monitoring, automatic backups, WordPress updates, performance optimisation, and expert support as part of the service." },
             { question: "Do I need technical skills for managed hosting?", answer: "No  -  that's the point. Managed hosting is designed for people who want their website to work without needing to manage the technical side. Everything is handled for you." },
             { question: "Is managed hosting only for large websites?", answer: "No. Managed hosting is valuable for any website where reliability, security, and your time matter. Small business sites benefit just as much as large ones  -  sometimes more, because small business owners have less time to deal with technical issues." },
-            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting typically costs £20-£100/month depending on the provider and what's included. Our managed hosting starts at £50/month with everything included  -  backups, security, updates, performance optimisation, and support." },
+            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting typically costs Â£20-Â£100/month depending on the provider and what's included. Our managed hosting starts at Â£50/month with everything included  -  backups, security, updates, performance optimisation, and support." },
           ]),
         ]}
       />
@@ -73,8 +73,8 @@ export default function WhatIsMgdHosting() {
           tagline="Beginner-friendly guide"
           headline="What Is Managed WordPress Hosting?"
           subheadline="A beginner-friendly guide to understanding managed WordPress hosting and how it differs from traditional hosting solutions."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact" }}
-          secondaryCta={{ text: "Compare vs Shared Hosting", href: "/managed-wordpress-hosting-vs-shared-hosting" }}
+          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
+          secondaryCta={{ text: "Compare vs Shared Hosting", href: "/managed-wordpress-hosting-vs-shared-hosting/" }}
           chips={["Beginner Guide", "Plain English", "No Jargon", "Comparisons", "Who Needs It"]}
         />
 
@@ -135,7 +135,7 @@ export default function WhatIsMgdHosting() {
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-6 h-6 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 border border-border">
-                      <span className="text-sm font-bold text-muted-foreground">✕</span>
+                      <span className="text-sm font-bold text-muted-foreground">âœ•</span>
                     </div>
                     <div>
                       <span className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-1 block">Standard</span>
@@ -230,18 +230,18 @@ export default function WhatIsMgdHosting() {
             },
             {
               question: "How much does managed WordPress hosting cost?",
-              answer: "Managed WordPress hosting typically ranges from £20 to £100 per month depending on the provider and what's included. Our managed hosting starts at £50/month with everything included  -  backups, security, updates, performance optimisation, CDN, SSL, and expert support. There are no hidden costs or upsells."
+              answer: "Managed WordPress hosting typically ranges from Â£20 to Â£100 per month depending on the provider and what's included. Our managed hosting starts at Â£50/month with everything included  -  backups, security, updates, performance optimisation, CDN, SSL, and expert support. There are no hidden costs or upsells."
             }
           ]}
         />
 
         <CTABanner
           title="Ready to stop worrying about your website?"
-          description="Managed WordPress hosting from £50/month  -  everything included, nothing to manage."
+          description="Managed WordPress hosting from Â£50/month  -  everything included, nothing to manage."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="What's Included"
-          secondaryButtonHref="/whats-included-managed-wordpress-hosting"
+          secondaryButtonHref="/whats-included-managed-wordpress-hosting/"
         />
 
         <RelatedPages
@@ -250,37 +250,37 @@ export default function WhatIsMgdHosting() {
             {
               title: "Managed WordPress Hosting  -  Full Details",
               description: "Everything included, pricing, and how it works. Our complete managed hosting service explained.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "What's Included in Managed Hosting",
               description: "Full breakdown of every feature and service included in managed WordPress hosting plans.",
-              href: "/whats-included-managed-wordpress-hosting",
+              href: "/whats-included-managed-wordpress-hosting/",
               tag: "Guide"
             },
             {
               title: "Managed vs Shared Hosting",
               description: "Honest comparison of managed and shared hosting  -  costs, features, and real-world differences.",
-              href: "/managed-wordpress-hosting-vs-shared-hosting",
+              href: "/managed-wordpress-hosting-vs-shared-hosting/",
               tag: "Comparison"
             },
             {
               title: "Managed Hosting for Small Businesses",
               description: "Is managed hosting worth it for small businesses? ROI analysis and cost comparison.",
-              href: "/managed-hosting-small-businesses",
+              href: "/managed-hosting-small-businesses/",
               tag: "Guide"
             },
             {
               title: "Managed WordPress Hosting Shropshire",
               description: "Local managed hosting expertise for Shropshire and West Midlands businesses.",
-              href: "/wordpress-hosting-shropshire",
+              href: "/wordpress-hosting-shropshire/",
               tag: "Local"
             },
             {
               title: "WordPress Security Monitoring",
               description: "How we proactively protect your WordPress site from security threats and vulnerabilities.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             }
           ]}

@@ -26,13 +26,13 @@ export default function FullyManagedHosting() {
   return (
     <>
       <SEO
-        title="Fully Managed WordPress Hosting | £50/month | UX Sites"
-        description="Everything-included managed WordPress hosting from £50/month. Updates, security, backups, performance, expert support, and 30 mins development time."
+        title="Fully Managed WordPress Hosting | Â£50/month | UX Sites"
+        description="Everything-included managed WordPress hosting from Â£50/month. Updates, security, backups, performance, expert support, and 30 mins development time."
         url="https://uxsites.co.uk/fully-managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Fully Managed WordPress Hosting",
-            description: "Fully managed WordPress hosting for businesses from £50/month. Includes hosting, updates, security, backups, performance, and expert support.",
+            description: "Fully managed WordPress hosting for businesses from Â£50/month. Includes hosting, updates, security, backups, performance, and expert support.",
             url: "https://uxsites.co.uk/fully-managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -45,7 +45,7 @@ export default function FullyManagedHosting() {
           ]),
           faqSchema([
             { question: "What is fully managed WordPress hosting?", answer: "Fully managed WordPress hosting means we take care of everything  -  the hosting infrastructure, security, backups, updates, performance optimisation, and ongoing support. You just run your business." },
-            { question: "How much does fully managed hosting cost?", answer: "Managed WordPress hosting starts from £50/month on a rolling monthly plan, with no setup fees or minimum contract." },
+            { question: "How much does fully managed hosting cost?", answer: "Managed WordPress hosting starts from Â£50/month on a rolling monthly plan, with no setup fees or minimum contract." },
             { question: "What is the 30 minutes development time?", answer: "Each month includes up to 30 minutes for simple content changes  -  text updates, image swaps, contact details, opening hours, or small tweaks. It covers the routine changes most websites need." },
             { question: "Can you migrate my existing site?", answer: "Yes  -  we handle the complete migration process including files, database, email accounts, and DNS. Migration is always included free with no downtime during the transfer." },
             { question: "What happens if my site breaks after an update?", answer: "We take a backup before every update. If anything goes wrong, we restore from that backup and investigate the conflict before trying again  -  usually within the hour." },
@@ -56,9 +56,9 @@ export default function FullyManagedHosting() {
         <HeroBlock
           tagline="Worry-free Managed WordPress hosting"
           headline="Fully Managed WordPress Hosting for Businesses (UK)"
-          subheadline="Managed WordPress hosting with ongoing support, updates, monitoring, fixes, and small website changes from £50/month so you never have to worry about your website again."
-          primaryCta={{ text: "Get Started", href: "/contact" }}
-          secondaryCta={{ text: "View Pricing", href: "/managed-wordpress-hosting" }}
+          subheadline="Managed WordPress hosting with ongoing support, updates, monitoring, fixes, and small website changes from Â£50/month so you never have to worry about your website again."
+          primaryCta={{ text: "Get Started", href: "/contact/" }}
+          secondaryCta={{ text: "View Pricing", href: "/managed-wordpress-hosting/" }}
           chips={["Daily Backups", "Security Monitoring", "Performance Optimised", "Updates Included", "Expert Support", "30 Min Dev Time"]}
         />
 
@@ -165,12 +165,12 @@ export default function FullyManagedHosting() {
                       <td className="py-4 px-4 text-foreground font-medium">{feature as string}</td>
                       <td className="py-4 px-4 text-center">
                         {shared === false
-                          ? <span className="text-muted-foreground">✕</span>
+                          ? <span className="text-muted-foreground">âœ•</span>
                           : <span className="text-muted-foreground">{shared as string}</span>}
                       </td>
                       <td className="py-4 px-4 text-center">
                         {managed === true
-                          ? <span className="text-primary font-bold">✓</span>
+                          ? <span className="text-primary font-bold">âœ“</span>
                           : <span className="text-primary font-bold">{managed as string}</span>}
                       </td>
                     </tr>
@@ -208,11 +208,11 @@ export default function FullyManagedHosting() {
 
         <CTABanner
           title="Ready for worry-free WordPress hosting?"
-          description="Get fully managed hosting with expert support, security, backups, and performance optimisation  -  all from £50/month."
+          description="Get fully managed hosting with expert support, security, backups, and performance optimisation  -  all from Â£50/month."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="Ask a Question"
-          secondaryButtonHref="/contact"
+          secondaryButtonHref="/contact/"
         />
 
         <RelatedPages
@@ -221,37 +221,37 @@ export default function FullyManagedHosting() {
             {
               title: "Managed WordPress Hosting  -  Full Details",
               description: "Everything included in our managed hosting plans, pricing, and the full feature comparison.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "Managed Hosting Cost UK 2026",
               description: "See what managed WordPress hosting costs in the UK and why the real value is in time saved.",
-              href: "/managed-wordpress-hosting-cost-uk-2026",
+              href: "/managed-wordpress-hosting-cost-uk-2026/",
               tag: "Pricing"
             },
             {
               title: "WordPress Security Monitoring",
               description: "How we actively protect your site from hacks, malware, and vulnerabilities  -  24/7.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Maintenance"
             },
             {
               title: "WordPress Migration to Managed Hosting",
               description: "How moving your site to managed hosting works  -  simple, safe, and stress-free.",
-              href: "/wordpress-migration-to-managed-hosting",
+              href: "/wordpress-migration-to-managed-hosting/",
               tag: "Migration"
             },
             {
               title: "Why Managed Hosting Matters",
               description: "The real cost comparison between cheap hosting and managed  -  the numbers might surprise you.",
-              href: "/blog/why-managed-wordpress-hosting",
+              href: "/blog/why-managed-wordpress-hosting/",
               tag: "Blog"
             }
           ]}

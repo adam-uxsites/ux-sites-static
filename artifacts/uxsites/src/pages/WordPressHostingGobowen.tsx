@@ -11,66 +11,66 @@ import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
 
 const nearbyLocations = [
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
-  { name: "St. Martins", href: "/wordpress-hosting-st-martins" },
-  { name: "Chirk", href: "/wordpress-hosting-chirk" },
-  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-  { name: "Llangollen", href: "/wordpress-hosting-llangollen" },
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
+  { name: "St. Martins", href: "/wordpress-hosting-st-martins/" },
+  { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+  { name: "Llangollen", href: "/wordpress-hosting-llangollen/" },
 ];
 
 const trades = [
-  { name: "Builders", href: "/websites-for-builders" },
-  { name: "Electricians", href: "/websites-for-electricians" },
-  { name: "Plumbers", href: "/websites-for-plumbers" },
-  { name: "Decorators", href: "/websites-for-decorators" },
-  { name: "Joiners", href: "/websites-for-joiners" },
-  { name: "Scaffolders", href: "/websites-for-scaffolders" },
-  { name: "Roofers", href: "/websites-for-roofers" },
-  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters" },
-  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters" },
-  { name: "Pressure Washers", href: "/websites-for-pressure-washers" },
-  { name: "Solicitors", href: "/websites-for-lawyers" },
-  { name: "Finance Advisors", href: "/websites-for-finance-advisors" },
-  { name: "Estate Agents", href: "/websites-for-estate-agents" },
-  { name: "Consultants", href: "/websites-for-consultants" },
-  { name: "Hairdressers", href: "/websites-for-hairdressers" },
-  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics" },
-  { name: "Tanning Studios", href: "/websites-for-tanning-studios" },
-  { name: "Nail Studios", href: "/websites-for-nail-studios" },
-  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios" },
-  { name: "Restaurants", href: "/websites-for-restaurants" },
-  { name: "Takeaways", href: "/websites-for-takeaways" },
-  { name: "Coffee Shops", href: "/websites-for-coffee-shops" },
-  { name: "Cafes", href: "/websites-for-cafes" },
-  { name: "Butchers", href: "/websites-for-butchers" },
-  { name: "Retail Shops", href: "/websites-for-retail-shops" },
-  { name: "Jewellers", href: "/websites-for-jewellers" },
-  { name: "Gardeners", href: "/websites-for-gardeners" },
-  { name: "Landscapers", href: "/websites-for-landscapers" },
-  { name: "Cleaners", href: "/websites-for-cleaners" },
-  { name: "Schools", href: "/websites-for-schools" },
-  { name: "Tutors", href: "/websites-for-tutors" },
-  { name: "Charities", href: "/websites-for-charities" },
-  { name: "Local Groups", href: "/websites-for-local-groups" },
-  { name: "Nursing Homes", href: "/websites-for-nursing-homes" },
-  { name: "Developers", href: "/websites-for-developers" },
-  { name: "SMEs", href: "/websites-for-smes" },
-  { name: "Medium Businesses", href: "/websites-for-medium-businesses" },
-  { name: "Manufacturers", href: "/websites-for-manufacturers" },
-  { name: "Small Businesses", href: "/small-business-websites" }
+  { name: "Builders", href: "/websites-for-builders/" },
+  { name: "Electricians", href: "/websites-for-electricians/" },
+  { name: "Plumbers", href: "/websites-for-plumbers/" },
+  { name: "Decorators", href: "/websites-for-decorators/" },
+  { name: "Joiners", href: "/websites-for-joiners/" },
+  { name: "Scaffolders", href: "/websites-for-scaffolders/" },
+  { name: "Roofers", href: "/websites-for-roofers/" },
+  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters/" },
+  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters/" },
+  { name: "Pressure Washers", href: "/websites-for-pressure-washers/" },
+  { name: "Solicitors", href: "/websites-for-lawyers/" },
+  { name: "Finance Advisors", href: "/websites-for-finance-advisors/" },
+  { name: "Estate Agents", href: "/websites-for-estate-agents/" },
+  { name: "Consultants", href: "/websites-for-consultants/" },
+  { name: "Hairdressers", href: "/websites-for-hairdressers/" },
+  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics/" },
+  { name: "Tanning Studios", href: "/websites-for-tanning-studios/" },
+  { name: "Nail Studios", href: "/websites-for-nail-studios/" },
+  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios/" },
+  { name: "Restaurants", href: "/websites-for-restaurants/" },
+  { name: "Takeaways", href: "/websites-for-takeaways/" },
+  { name: "Coffee Shops", href: "/websites-for-coffee-shops/" },
+  { name: "Cafes", href: "/websites-for-cafes/" },
+  { name: "Butchers", href: "/websites-for-butchers/" },
+  { name: "Retail Shops", href: "/websites-for-retail-shops/" },
+  { name: "Jewellers", href: "/websites-for-jewellers/" },
+  { name: "Gardeners", href: "/websites-for-gardeners/" },
+  { name: "Landscapers", href: "/websites-for-landscapers/" },
+  { name: "Cleaners", href: "/websites-for-cleaners/" },
+  { name: "Schools", href: "/websites-for-schools/" },
+  { name: "Tutors", href: "/websites-for-tutors/" },
+  { name: "Charities", href: "/websites-for-charities/" },
+  { name: "Local Groups", href: "/websites-for-local-groups/" },
+  { name: "Nursing Homes", href: "/websites-for-nursing-homes/" },
+  { name: "Developers", href: "/websites-for-developers/" },
+  { name: "SMEs", href: "/websites-for-smes/" },
+  { name: "Medium Businesses", href: "/websites-for-medium-businesses/" },
+  { name: "Manufacturers", href: "/websites-for-manufacturers/" },
+  { name: "Small Businesses", href: "/small-business-websites/" }
 ];
 export default function WordPressHostingGobowen() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Gobowen | From £50/month | UX Sites"
-        description="Managed WordPress hosting for Gobowen businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Gobowen | From Â£50/month | UX Sites"
+        description="Managed WordPress hosting for Gobowen businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-gobowen/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Gobowen",
-            description: "Managed WordPress hosting for Gobowen businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Gobowen and surrounding areas.",
+            description: "Managed WordPress hosting for Gobowen businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Gobowen and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-gobowen/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingGobowen() {
         <HeroBlock
           tagline="Reliable hosting for Gobowen businesses"
           headline="Managed WordPress Hosting for Gobowen Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Gobowen, Oswestry and North Shropshire. Security, backups, updates, performance monitoring and support all included from £50/month. Your Gobowen business website kept secure and running smoothly."
-          primaryCta={{ text: "Get Started from £50/month", href: "/contact?plan=monthly" }}
-          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting" }}
-          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Gobowen, Oswestry and North Shropshire. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Gobowen business website kept secure and running smoothly."
+          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
+          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
+            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Serving North Shropshire" }
@@ -120,13 +120,13 @@ export default function WordPressHostingGobowen() {
                   Gobowen is a growing village community just north of Oswestry along the A5, home to a range of local businesses from independent retailers and tradespeople to professional services and the renowned Robert Jones and Agnes Hunt Orthopaedic Hospital near Whittington Road. For many Gobowen businesses, their website is the primary way customers find and evaluate them.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  With budget hosting, you get slow performance during peak traffic, no proactive security monitoring, and the burden of managing updates yourself. When something breaks — and it will — you waste valuable time fixing issues or waiting for generic support to respond.
+                  With budget hosting, you get slow performance during peak traffic, no proactive security monitoring, and the burden of managing updates yourself. When something breaks â€” and it will â€” you waste valuable time fixing issues or waiting for generic support to respond.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  UX Sites managed hosting changes that. We handle everything — daily backups, security scanning, plugin updates, performance optimisation, and round-the-clock monitoring. You get a real person who knows Gobowen and the area, with quick responses and a commitment to keeping your site running at its best.
+                  UX Sites managed hosting changes that. We handle everything â€” daily backups, security scanning, plugin updates, performance optimisation, and round-the-clock monitoring. You get a real person who knows Gobowen and the area, with quick responses and a commitment to keeping your site running at its best.
                 </p>
                 <Link
-                  href="/managed-wordpress-hosting"
+                  href="/managed-wordpress-hosting/"
                   className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
                 >
                   View full hosting details
@@ -136,11 +136,11 @@ export default function WordPressHostingGobowen() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support, locally",
-                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -227,10 +227,10 @@ export default function WordPressHostingGobowen() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -242,15 +242,15 @@ export default function WordPressHostingGobowen() {
           faqs={[
             {
               question: "Do you only host WordPress sites built by you?",
-              answer: "No — we host any properly built WordPress site. We review the site first, fix any underlying issues, and migrate it to our environment. Most existing sites transfer smoothly with zero downtime."
+              answer: "No â€” we host any properly built WordPress site. We review the site first, fix any underlying issues, and migrate it to our environment. Most existing sites transfer smoothly with zero downtime."
             },
             {
               question: "Can you redesign my existing Gobowen business website too?",
-              answer: "Yes. We offer full website redesigns for existing sites — from visual refreshes to complete rebuilds. Many clients start with a redesign and then move to managed hosting for ongoing peace of mind."
+              answer: "Yes. We offer full website redesigns for existing sites â€” from visual refreshes to complete rebuilds. Many clients start with a redesign and then move to managed hosting for ongoing peace of mind."
             },
             {
               question: "How quickly do you respond to support requests?",
-              answer: "We aim to respond within a few hours during business days — often much sooner. Because we manage your site directly, there's no ticketing system or waiting in a queue. You email the person who runs your site."
+              answer: "We aim to respond within a few hours during business days â€” often much sooner. Because we manage your site directly, there's no ticketing system or waiting in a queue. You email the person who runs your site."
             },
             {
               question: "What happens if my site goes down?",
@@ -263,9 +263,9 @@ export default function WordPressHostingGobowen() {
 
         <CTABanner
           title="Let's get your Gobowen website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -274,37 +274,37 @@ export default function WordPressHostingGobowen() {
             {
               title: "Managed WordPress Hosting Oswestry",
               description: "Managed hosting for businesses in Oswestry and the border region.",
-              href: "/wordpress-hosting-oswestry",
+              href: "/wordpress-hosting-oswestry/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting St. Martins",
               description: "Managed hosting for businesses in St. Martins and surrounding areas.",
-              href: "/wordpress-hosting-st-martins",
+              href: "/wordpress-hosting-st-martins/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting Chirk",
               description: "Expert managed hosting for Chirk border businesses.",
-              href: "/wordpress-hosting-chirk",
+              href: "/wordpress-hosting-chirk/",
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting — Full Details",
+              title: "Managed WordPress Hosting â€” Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing support, updates and care for existing WordPress websites.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process — from discovery to launch.",
-              href: "/new-website",
+              description: "Full details of our new website process â€” from discovery to launch.",
+              href: "/new-website/",
               tag: "Service"
             }
 

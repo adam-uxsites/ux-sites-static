@@ -49,7 +49,7 @@ export default function ThankYou() {
                   Back to Home
                 </Link>
                 <Link
-                  href="/blog"
+                  href="/blog/"
                   className="inline-flex items-center justify-center rounded-lg border border-border bg-card px-6 py-3 text-sm font-bold hover:bg-muted transition-colors"
                 >
                   Read the Blog

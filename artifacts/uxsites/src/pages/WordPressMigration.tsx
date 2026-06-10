@@ -80,8 +80,8 @@ export default function WordPressMigration() {
           tagline="Simple, safe migration"
           headline="WordPress Migration to Managed Hosting"
           subheadline="Moving your WordPress site should be simple, safe, and low stress. This page explains the migration process."
-          primaryCta={{ text: "Start Your Migration", href: "/contact" }}
-          secondaryCta={{ text: "View the Step-by-Step Guide", href: "/migration-guide" }}
+          primaryCta={{ text: "Start Your Migration", href: "/contact/" }}
+          secondaryCta={{ text: "View the Step-by-Step Guide", href: "/migration-guide/" }}
           chips={["Free Migration", "Zero Downtime", "We Handle Everything", "Stress-Free Process"]}
         />
 
@@ -228,7 +228,7 @@ export default function WordPressMigration() {
             </div>
             <div className="mt-10 text-center">
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold hover:opacity-90 transition-opacity h-12"
               >
                 Start Your Migration <ArrowRight size={16} className="ml-2" />
@@ -267,9 +267,9 @@ export default function WordPressMigration() {
           title="Ready to move your site to managed hosting?"
           description="Free migration, zero downtime, and a dedicated expert who handles everything. Get in touch to start the process."
           buttonText="Start Your Migration"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="Ask a Question First"
-          secondaryButtonHref="/contact"
+          secondaryButtonHref="/contact/"
         />
 
         <RelatedPages
@@ -278,43 +278,43 @@ export default function WordPressMigration() {
             {
               title: "Managed WordPress Hosting  -  Full Details",
               description: "Everything included in our managed hosting plans, pricing, and the full feature comparison.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "Fully Managed WordPress Hosting",
               description: "Hosting with updates, security, backups, and 30 minutes monthly development time.",
-              href: "/fully-managed-wordpress-hosting",
+              href: "/fully-managed-wordpress-hosting/",
               tag: "Hosting"
             },
             {
               title: "WordPress Security Monitoring",
               description: "How we actively protect your site from hacks, malware, and vulnerabilities  -  24/7.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily off-site backups with 30-day retention  -  and rapid restoration when needed.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Backups"
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
-              href: "/wordpress-support-shropshire",
+              description: "Expert WordPress support for Shropshire businesses â€” local, reliable, responsive.",
+              href: "/wordpress-support-shropshire/",
               tag: "Local"
             },
             {
               title: "Managed Hosting Cost UK",
               description: "See what managed hosting costs and how to judge the real value for your business.",
-              href: "/managed-wordpress-hosting-cost-uk-2026",
+              href: "/managed-wordpress-hosting-cost-uk-2026/",
               tag: "Pricing"
             },
             {
               title: "What Is a WordPress Care Plan?",
               description: "A simple guide to care plans and how they compare to managed hosting and support.",
-              href: "/wordpress-care-plan",
+              href: "/wordpress-care-plan/",
               tag: "Guide"
             }
           ]}

@@ -40,9 +40,9 @@ const includesItems = [
 ];
 
 const specialisms = [
-  { name: "Legal Consultant Websites", href: "/websites-for-legal-consultants" },
-  { name: "Business Consultant Websites", href: "/websites-for-business-consultants" },
-  { name: "Marketing Consultant Websites", href: "/websites-for-marketing-consultants" }
+  { name: "Legal Consultant Websites", href: "/websites-for-legal-consultants/" },
+  { name: "Business Consultant Websites", href: "/websites-for-business-consultants/" },
+  { name: "Marketing Consultant Websites", href: "/websites-for-marketing-consultants/" }
 ];
 
 export default function WebsitesForConsultants() {
@@ -88,8 +88,8 @@ export default function WebsitesForConsultants() {
           tagline="Consultant websites that convert"
           headline="Websites for consultants and professional services firms"
           subheadline="If you are a consultant, your website should do more than look good. It should explain your expertise clearly, position your offer, and help potential clients contact you with confidence."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Authority Focused", "Trust First", "Lead Quality", "Clear Messaging", "Case Studies"]}
         />
 
@@ -135,7 +135,7 @@ export default function WebsitesForConsultants() {
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   We build each page around your specific services and audience, but the foundations remain consistent across every project.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -300,9 +300,9 @@ export default function WebsitesForConsultants() {
           title="Let's build your consultant website"
           description="Get a free, no-obligation quote. We'll talk through your specialism, what your site needs to achieve, and how we can help  -  no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -311,43 +311,43 @@ export default function WebsitesForConsultants() {
             {
               title: "Websites for Legal Consultants",
               description: "Specialist websites for legal consultants and professional services firms.",
-              href: "/websites-for-legal-consultants",
+              href: "/websites-for-legal-consultants/",
               tag: "Service"
             },
             {
               title: "Websites for Business Consultants",
               description: "Business consultant websites that turn expertise into enquiries.",
-              href: "/websites-for-business-consultants",
+              href: "/websites-for-business-consultants/",
               tag: "Service"
             },
             {
               title: "Websites for Marketing Consultants",
               description: "Marketing consultant websites focused on positioning and pipeline.",
-              href: "/websites-for-marketing-consultants",
+              href: "/websites-for-marketing-consultants/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
               description: "Full details of our website design and development process  -  from first conversation to launch.",
-              href: "/new-website",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Work  -  Recent Projects",
               description: "See examples of websites we've built for consultants and professional services.",
-              href: "/work",
+              href: "/work/",
               tag: "Portfolio"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }
           ]}

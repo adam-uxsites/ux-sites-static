@@ -68,7 +68,7 @@ const breachCosts = [
   {
     icon: DollarSign,
     title: "Financial Costs",
-    items: ["Emergency cleanup fees (£200-£2,000+)", "Lost revenue during downtime", "Potential ransom payments for ransomware", "SSL certificate reissuance costs", "SEO recovery campaigns to regain rankings"]
+    items: ["Emergency cleanup fees (Â£200-Â£2,000+)", "Lost revenue during downtime", "Potential ransom payments for ransomware", "SSL certificate reissuance costs", "SEO recovery campaigns to regain rankings"]
   },
   {
     icon: BadgeAlert,
@@ -128,8 +128,8 @@ export default function WordPressHelpHacked() {
           tagline="Understanding the threats"
           headline="Why WordPress Websites Get Hacked"
           subheadline="WordPress powers 40% of websites, making it a prime target. Understanding the common attack vectors helps you protect your site."
-          primaryCta={{ text: "Get Security Help", href: "/contact" }}
-          secondaryCta={{ text: "View All Guides", href: "/wordpress-help" }}
+          primaryCta={{ text: "Get Security Help", href: "/contact/" }}
+          secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Security", "Prevention", "Attack Vectors", "Risk Assessment"]}
         />
 
@@ -245,7 +245,7 @@ export default function WordPressHelpHacked() {
                     <ul className="space-y-2">
                       {category.items.map((item, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <span className="text-primary mt-0.5">•</span>
+                          <span className="text-primary mt-0.5">â€¢</span>
                           {item}
                         </li>
                       ))}
@@ -277,7 +277,7 @@ export default function WordPressHelpHacked() {
                   "Security monitoring and file integrity checks"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <span className="text-primary font-bold mt-0.5">✓</span>
+                    <span className="text-primary font-bold mt-0.5">âœ“</span>
                     {item}
                   </div>
                 ))}
@@ -286,10 +286,10 @@ export default function WordPressHelpHacked() {
                 Security isn't a one-time setup  -  it's an ongoing practice. Prevention is always cheaper, faster, and less stressful than dealing with a compromised site.
               </p>
               <Link
-                href="/wordpress-help/wordpress-security"
+                href="/wordpress-help/wordpress-security/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
               >
-                Read Our WordPress Security Guide →
+                Read Our WordPress Security Guide â†’
               </Link>
             </div>
           </div>
@@ -304,9 +304,9 @@ export default function WordPressHelpHacked() {
           title="Worried about your WordPress site's security?"
           description="We provide active security monitoring, vulnerability patching, and malware protection  -  so you don't have to worry about being hacked."
           buttonText="Get Protected"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View All Guides"
-          secondaryButtonHref="/wordpress-help"
+          secondaryButtonHref="/wordpress-help/"
         />
 
         <RelatedPages
@@ -315,25 +315,25 @@ export default function WordPressHelpHacked() {
             {
               title: "How to Secure a WordPress Website",
               description: "Essential security measures to protect your site from hackers.",
-              href: "/wordpress-help/wordpress-security",
+              href: "/wordpress-help/wordpress-security/",
               tag: "Guide"
             },
             {
               title: "WordPress Maintenance Checklist",
               description: "Keep your site secure with regular maintenance tasks.",
-              href: "/wordpress-help/wordpress-maintenance",
+              href: "/wordpress-help/wordpress-maintenance/",
               tag: "Guide"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Active protection against hacks, malware, and vulnerabilities.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Secure hosting with built-in security monitoring.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
           ]}

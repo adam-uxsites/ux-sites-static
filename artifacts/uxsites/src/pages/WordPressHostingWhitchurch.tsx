@@ -11,66 +11,66 @@ import { Link } from "wouter";
 import { MapPin, Check } from "lucide-react";
 
 const nearbyLocations = [
-  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
+  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
   { name: "Market Drayton", href: null },
   { name: "Nantwich", href: null },
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
 ];
 
 const trades = [
-  { name: "Builders", href: "/websites-for-builders" },
-  { name: "Electricians", href: "/websites-for-electricians" },
-  { name: "Plumbers", href: "/websites-for-plumbers" },
-  { name: "Decorators", href: "/websites-for-decorators" },
-  { name: "Joiners", href: "/websites-for-joiners" },
-  { name: "Scaffolders", href: "/websites-for-scaffolders" },
-  { name: "Roofers", href: "/websites-for-roofers" },
-  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters" },
-  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters" },
-  { name: "Pressure Washers", href: "/websites-for-pressure-washers" },
-  { name: "Solicitors", href: "/websites-for-lawyers" },
-  { name: "Finance Advisors", href: "/websites-for-finance-advisors" },
-  { name: "Estate Agents", href: "/websites-for-estate-agents" },
-  { name: "Consultants", href: "/websites-for-consultants" },
-  { name: "Hairdressers", href: "/websites-for-hairdressers" },
-  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics" },
-  { name: "Tanning Studios", href: "/websites-for-tanning-studios" },
-  { name: "Nail Studios", href: "/websites-for-nail-studios" },
-  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios" },
-  { name: "Restaurants", href: "/websites-for-restaurants" },
-  { name: "Takeaways", href: "/websites-for-takeaways" },
-  { name: "Coffee Shops", href: "/websites-for-coffee-shops" },
-  { name: "Cafes", href: "/websites-for-cafes" },
-  { name: "Butchers", href: "/websites-for-butchers" },
-  { name: "Retail Shops", href: "/websites-for-retail-shops" },
-  { name: "Jewellers", href: "/websites-for-jewellers" },
-  { name: "Gardeners", href: "/websites-for-gardeners" },
-  { name: "Landscapers", href: "/websites-for-landscapers" },
-  { name: "Cleaners", href: "/websites-for-cleaners" },
-  { name: "Schools", href: "/websites-for-schools" },
-  { name: "Tutors", href: "/websites-for-tutors" },
-  { name: "Charities", href: "/websites-for-charities" },
-  { name: "Local Groups", href: "/websites-for-local-groups" },
-  { name: "Nursing Homes", href: "/websites-for-nursing-homes" },
-  { name: "Developers", href: "/websites-for-developers" },
-  { name: "SMEs", href: "/websites-for-smes" },
-  { name: "Medium Businesses", href: "/websites-for-medium-businesses" },
-  { name: "Manufacturers", href: "/websites-for-manufacturers" },
-  { name: "Small Businesses", href: "/small-business-websites" }
+  { name: "Builders", href: "/websites-for-builders/" },
+  { name: "Electricians", href: "/websites-for-electricians/" },
+  { name: "Plumbers", href: "/websites-for-plumbers/" },
+  { name: "Decorators", href: "/websites-for-decorators/" },
+  { name: "Joiners", href: "/websites-for-joiners/" },
+  { name: "Scaffolders", href: "/websites-for-scaffolders/" },
+  { name: "Roofers", href: "/websites-for-roofers/" },
+  { name: "Air Conditioning", href: "/websites-for-air-conditioning-fitters/" },
+  { name: "Solar Panel Fitters", href: "/websites-for-solar-panel-fitters/" },
+  { name: "Pressure Washers", href: "/websites-for-pressure-washers/" },
+  { name: "Solicitors", href: "/websites-for-lawyers/" },
+  { name: "Finance Advisors", href: "/websites-for-finance-advisors/" },
+  { name: "Estate Agents", href: "/websites-for-estate-agents/" },
+  { name: "Consultants", href: "/websites-for-consultants/" },
+  { name: "Hairdressers", href: "/websites-for-hairdressers/" },
+  { name: "Facial Aesthetics", href: "/websites-for-facial-aesthetics/" },
+  { name: "Tanning Studios", href: "/websites-for-tanning-studios/" },
+  { name: "Nail Studios", href: "/websites-for-nail-studios/" },
+  { name: "Tattoo Studios", href: "/websites-for-tattoo-studios/" },
+  { name: "Restaurants", href: "/websites-for-restaurants/" },
+  { name: "Takeaways", href: "/websites-for-takeaways/" },
+  { name: "Coffee Shops", href: "/websites-for-coffee-shops/" },
+  { name: "Cafes", href: "/websites-for-cafes/" },
+  { name: "Butchers", href: "/websites-for-butchers/" },
+  { name: "Retail Shops", href: "/websites-for-retail-shops/" },
+  { name: "Jewellers", href: "/websites-for-jewellers/" },
+  { name: "Gardeners", href: "/websites-for-gardeners/" },
+  { name: "Landscapers", href: "/websites-for-landscapers/" },
+  { name: "Cleaners", href: "/websites-for-cleaners/" },
+  { name: "Schools", href: "/websites-for-schools/" },
+  { name: "Tutors", href: "/websites-for-tutors/" },
+  { name: "Charities", href: "/websites-for-charities/" },
+  { name: "Local Groups", href: "/websites-for-local-groups/" },
+  { name: "Nursing Homes", href: "/websites-for-nursing-homes/" },
+  { name: "Developers", href: "/websites-for-developers/" },
+  { name: "SMEs", href: "/websites-for-smes/" },
+  { name: "Medium Businesses", href: "/websites-for-medium-businesses/" },
+  { name: "Manufacturers", href: "/websites-for-manufacturers/" },
+  { name: "Small Businesses", href: "/small-business-websites/" }
 ];
 export default function WordPressHostingWhitchurch() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Whitchurch | From £50/month | UX Sites"
-        description="Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Whitchurch | From Â£50/month | UX Sites"
+        description="Managed WordPress hosting for Whitchurch businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-whitchurch/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Whitchurch",
-            description: "Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Whitchurch and surrounding areas.",
+            description: "Managed WordPress hosting for Whitchurch businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Whitchurch and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-whitchurch/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingWhitchurch() {
         <HeroBlock
           tagline="Hosting for Whitchurch & the borderlands"
           headline="Managed WordPress Hosting for Whitchurch Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Whitchurch and the Cheshire-Shropshire border region. Security, backups, updates, performance monitoring and support all included from £50/month. Your Whitchurch business website kept secure, fast and hassle-free."
-          primaryCta={{ text: "Get Started from £50/month", href: "/contact?plan=monthly" }}
-          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting" }}
-          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Whitchurch and the Cheshire-Shropshire border region. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Whitchurch business website kept secure, fast and hassle-free."
+          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
+          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
+            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Serving Shropshire & borders" }
@@ -117,16 +117,16 @@ export default function WordPressHostingWhitchurch() {
                   Why Whitchurch Businesses Choose Managed Hosting
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Whitchurch is Shropshire's northernmost market town at the meeting of the A41, A49 and A525, with a rich history dating back to Roman times as the settlement of Mediolanum. Today it's a thriving town with a diverse business community — independent retailers along High Street and Green End, professional services around St Alkmund's Church, agricultural businesses serving the surrounding farmland around Wayland Wood and Brown Moss, and a growing number of creative and digital enterprises attracted by the town's quality of life.
+                  Whitchurch is Shropshire's northernmost market town at the meeting of the A41, A49 and A525, with a rich history dating back to Roman times as the settlement of Mediolanum. Today it's a thriving town with a diverse business community â€” independent retailers along High Street and Green End, professional services around St Alkmund's Church, agricultural businesses serving the surrounding farmland around Wayland Wood and Brown Moss, and a growing number of creative and digital enterprises attracted by the town's quality of life.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Like many market towns, Whitchurch businesses often rely on word-of-mouth and online presence in equal measure. Your website needs to make a strong first impression and work reliably — especially if you're competing with businesses from nearby Chester, Shrewsbury or Wrexham for customers. Standard shared hosting won't give you the edge you need.
+                  Like many market towns, Whitchurch businesses often rely on word-of-mouth and online presence in equal measure. Your website needs to make a strong first impression and work reliably â€” especially if you're competing with businesses from nearby Chester, Shrewsbury or Wrexham for customers. Standard shared hosting won't give you the edge you need.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With UX Sites managed hosting, your Whitchurch website gets professional UK-based infrastructure with personal support from a Shropshire-based expert. We handle security monitoring, daily backups, WordPress updates, and performance optimisation — keeping your site fast, secure, and always available. You focus on running your business, and we keep your website running at its best.
+                  With UX Sites managed hosting, your Whitchurch website gets professional UK-based infrastructure with personal support from a Shropshire-based expert. We handle security monitoring, daily backups, WordPress updates, and performance optimisation â€” keeping your site fast, secure, and always available. You focus on running your business, and we keep your website running at its best.
                 </p>
                 <Link
-                  href="/managed-wordpress-hosting"
+                  href="/managed-wordpress-hosting/"
                   className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
                 >
                   View full hosting details
@@ -136,11 +136,11 @@ export default function WordPressHostingWhitchurch() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support for Whitchurch businesses",
-                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -234,10 +234,10 @@ export default function WordPressHostingWhitchurch() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -253,11 +253,11 @@ export default function WordPressHostingWhitchurch() {
             },
             {
               question: "Do you build new websites for Whitchurch businesses?",
-              answer: "Yes — we build custom WordPress websites from £1,500, designed for your specific business. We also redesign existing sites, improve loading speeds, and provide ongoing maintenance and support."
+              answer: "Yes â€” we build custom WordPress websites from Â£1,500, designed for your specific business. We also redesign existing sites, improve loading speeds, and provide ongoing maintenance and support."
             },
             {
-              question: "I run a small business — is managed hosting worth it?",
-              answer: "If your website generates enquiries, bookings or sales for your business, then absolutely. Managed hosting costs from £50/month and covers everything — hosting, security, backups, updates and support. Compare that to the cost of a hacked site, lost business from downtime, or hours spent managing updates yourself."
+              question: "I run a small business â€” is managed hosting worth it?",
+              answer: "If your website generates enquiries, bookings or sales for your business, then absolutely. Managed hosting costs from Â£50/month and covers everything â€” hosting, security, backups, updates and support. Compare that to the cost of a hacked site, lost business from downtime, or hours spent managing updates yourself."
             },
             {
               question: "How quickly can you migrate my site?",
@@ -270,9 +270,9 @@ export default function WordPressHostingWhitchurch() {
 
         <CTABanner
           title="Let's get your Whitchurch website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -281,37 +281,37 @@ export default function WordPressHostingWhitchurch() {
             {
               title: "Managed WordPress Hosting Ellesmere",
               description: "Managed hosting for businesses in Ellesmere and the Shropshire Lakelands.",
-              href: "/wordpress-hosting-ellesmere",
+              href: "/wordpress-hosting-ellesmere/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting Wrexham",
               description: "Expert managed hosting for Wrexham businesses.",
-              href: "/wordpress-hosting-wrexham",
+              href: "/wordpress-hosting-wrexham/",
               tag: "Nearby"
             },
             {
               title: "Managed WordPress Hosting Oswestry",
               description: "Reliable managed hosting for Oswestry border businesses.",
-              href: "/wordpress-hosting-oswestry",
+              href: "/wordpress-hosting-oswestry/",
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting — Full Details",
+              title: "Managed WordPress Hosting â€” Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process — from discovery to launch.",
-              href: "/new-website",
+              description: "Full details of our new website process â€” from discovery to launch.",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing support, updates and care for existing WordPress websites.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             }
 

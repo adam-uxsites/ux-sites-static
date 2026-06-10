@@ -30,7 +30,7 @@ export default function WebsiteSpeedOptimisation() {
             { name: "Website Speed Optimisation", url: "https://uxsites.co.uk/website-speed-optimisation/" },
           ]),
           faqSchema([
-            { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from £200-£500 depending on the size of the site and the work required." },
+            { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from Â£200-Â£500 depending on the size of the site and the work required." },
             { question: "How quickly will I see results?", answer: "Most optimisation improvements are visible immediately after implementation. Google's Core Web Vitals scores typically update within 28 days as the crawl data refreshes." },
             { question: "Will it affect my website's appearance?", answer: "No. Speed optimisation is entirely technical  -  it improves how your site loads without changing how it looks to visitors." },
           ]),
@@ -41,8 +41,8 @@ export default function WebsiteSpeedOptimisation() {
           tagline="Faster websites rank better and convert more"
           headline="WordPress Speed Optimisation  -  Real, Measurable Results"
           subheadline="A slow website costs you visitors, rankings, and revenue. We diagnose the root causes of poor WordPress performance and fix them properly  -  reducing load times, improving Core Web Vitals scores, and delivering a noticeably faster site."
-          primaryCta={{ text: "Get a Free Speed Audit", href: "/contact" }}
-          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting" }}
+          primaryCta={{ text: "Get a Free Speed Audit", href: "/contact/" }}
+          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}
           chips={["Core Web Vitals", "LCP & CLS", "Image Optimisation", "Caching", "Mobile Speed"]}
         />
 
@@ -211,11 +211,11 @@ export default function WebsiteSpeedOptimisation() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:underline"
               >
-                Google PageSpeed Insights  -  pagespeed.web.dev � - 
+                Google PageSpeed Insights  -  pagespeed.web.dev ï¿½ - 
               </a>
               <p className="mt-4 text-sm text-muted-foreground">
                 For a complete walkthrough of speed optimisation techniques, read our{" "}
-                <a href="/blog/website-speed-optimisation-guide" className="text-primary font-bold hover:underline">website speed optimisation guide</a>.
+                <a href="/blog/website-speed-optimisation-guide/" className="text-primary font-bold hover:underline">website speed optimisation guide</a>.
               </p>
             </div>
           </div>
@@ -262,9 +262,9 @@ export default function WebsiteSpeedOptimisation() {
           title="Let's find out what's slowing your site down"
           description="Request a free speed audit  -  we'll run your site through professional performance tools and give you an honest report on what's causing slowness and what it would take to fix it."
           buttonText="Request Free Speed Audit"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Managed Hosting"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
 
         <RelatedPages
@@ -273,37 +273,37 @@ export default function WebsiteSpeedOptimisation() {
             {
               title: "Website Refreshes & Rebuilds",
               description: "Sometimes performance issues require more than optimisation  -  a full rebuild delivers speed from the ground up.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Performance-optimised hosting with ongoing monitoring included  -  from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Performance-optimised hosting with ongoing monitoring included  -  from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Ongoing maintenance that includes regular performance checks and database optimisation.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Related"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Security and performance go hand-in-hand  -  a compromised site is often also a slow site.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Related"
             },
             {
               title: "Core Web Vitals & Speed",
               description: "How loading speed directly impacts your revenue  -  with practical improvement tips.",
-              href: "/blog/core-web-vitals-speed-conversion",
+              href: "/blog/core-web-vitals-speed-conversion/",
               tag: "Blog"
             },
             {
               title: "5 Signs Your Website Needs a Rebuild",
               description: "When slow load times are a symptom of deeper problems that optimisation alone can't fix.",
-              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              href: "/blog/5-signs-your-website-needs-a-rebuild/",
               tag: "Blog"
             }
           ]}

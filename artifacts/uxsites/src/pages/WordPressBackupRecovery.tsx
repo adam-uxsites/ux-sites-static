@@ -35,8 +35,8 @@ export default function WordPressBackupRecovery() {
           tagline="Your last line of defence"
           headline="WordPress Backup & Recovery  -  Done Properly"
           subheadline="A reliable, tested backup is the difference between a serious incident and a minor inconvenience. We run automated daily backups to secure off-site cloud storage  -  so if the worst happens, we can restore your site within the hour."
-          primaryCta={{ text: "Get Backup Coverage", href: "/contact" }}
-          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting" }}
+          primaryCta={{ text: "Get Backup Coverage", href: "/contact/" }}
+          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}
           chips={["Daily Automated", "Off-Site Storage", "30-Day Retention", "Full Site Recovery", "Within the Hour"]}
         />
 
@@ -193,9 +193,9 @@ export default function WordPressBackupRecovery() {
           title="Make sure you have a backup you can actually use"
           description="Backup coverage is included in all our managed hosting and care plans. Get in touch to discuss your current backup situation."
           buttonText="Get Proper Backup Coverage"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Managed Hosting"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
 
         <RelatedPages
@@ -203,38 +203,38 @@ export default function WordPressBackupRecovery() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Backups + security + hosting + support  -  everything included from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Backups + security + hosting + support  -  everything included from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Active security monitoring  -  catching incidents before they require a restoration.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Related"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Regular maintenance including pre-update backups and database optimisation.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Related"
             },
             {
               title: "Website Support & Care Plans",
               description: "Full care plan details  -  backup coverage included as standard.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "Managed Hosting Shropshire",
               description: "Local managed hosting with backup coverage for Shropshire businesses.",
-              href: "/wordpress-hosting-shropshire",
+              href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             },
             {
               title: "WordPress Security Essentials",
               description: "What every business website owner needs to know about keeping their site protected.",
-              href: "/blog/wordpress-security-essentials",
+              href: "/blog/wordpress-security-essentials/",
               tag: "Blog"
             }
           ]}

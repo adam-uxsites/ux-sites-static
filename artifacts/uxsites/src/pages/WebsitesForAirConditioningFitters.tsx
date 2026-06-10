@@ -18,7 +18,7 @@ const painPoints = [
   },
   {
     title: "Accreditations and certifications win contracts",
-    description: "F-Gas certification, manufacturers' accreditations, and insurance are essential trust signals — especially for commercial clients. These need to be prominent and verified on your site."
+    description: "F-Gas certification, manufacturers' accreditations, and insurance are essential trust signals â€” especially for commercial clients. These need to be prominent and verified on your site."
   },
   {
     title: "Case studies demonstrate your capability",
@@ -26,7 +26,7 @@ const painPoints = [
   },
   {
     title: "Service and maintenance is recurring revenue",
-    description: "Air conditioning systems need regular servicing. Your website should promote maintenance contracts alongside installation — creating ongoing relationships and recurring income."
+    description: "Air conditioning systems need regular servicing. Your website should promote maintenance contracts alongside installation â€” creating ongoing relationships and recurring income."
   },
   {
     title: "Local businesses search for local installers",
@@ -35,17 +35,17 @@ const painPoints = [
 ];
 
 const serviceAreas = [
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
-  { name: "St. Martins", href: "/wordpress-hosting-st-martins" },
-  { name: "Chirk", href: "/wordpress-hosting-chirk" },
-  { name: "Gobowen", href: "/wordpress-hosting-gobowen" },
-  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch" },
-  { name: "Llangollen", href: "/wordpress-hosting-llangollen" },
-  { name: "Welshpool", href: "/wordpress-hosting-welshpool" },
-  { name: "Ruabon", href: "/wordpress-hosting-ruabon" }
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
+  { name: "St. Martins", href: "/wordpress-hosting-st-martins/" },
+  { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+  { name: "Gobowen", href: "/wordpress-hosting-gobowen/" },
+  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch/" },
+  { name: "Llangollen", href: "/wordpress-hosting-llangollen/" },
+  { name: "Welshpool", href: "/wordpress-hosting-welshpool/" },
+  { name: "Ruabon", href: "/wordpress-hosting-ruabon/" }
 ];
 
 export default function WebsitesForAirConditioningFitters() {
@@ -69,15 +69,15 @@ export default function WebsitesForAirConditioningFitters() {
           faqSchema([
             {
               question: "Who manages the website while I'm out installing systems?",
-              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
+              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
-              question: "I need to target both businesses and homeowners — can one site do both?",
+              question: "I need to target both businesses and homeowners â€” can one site do both?",
               answer: "Yes. We structure your site with clear paths for commercial and domestic customers, so each audience finds the relevant services, case studies, and contact information."
             },
             {
               question: "How much does a website for an air conditioning business cost?",
-              answer: "New websites start from £1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
+              answer: "New websites start from Â£1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote maintenance contracts through the site?",
@@ -91,8 +91,8 @@ export default function WebsitesForAirConditioningFitters() {
           tagline="HVAC trade websites"
           headline="Websites for Air Conditioning Installers"
           subheadline="Whether you're installing for businesses or homeowners, your website needs to communicate your expertise and make it easy to request a quote. We build professional sites for HVAC contractors."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Commercial & Domestic", "Certifications", "Case Studies", "Local SEO", "Ongoing Support"]}
         />
 
@@ -134,9 +134,9 @@ export default function WebsitesForAirConditioningFitters() {
                   Air conditioning businesses serve a wide range of customers. Your website needs to guide each type of visitor to the right information and make it easy for them to take the next step.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We structure your site around your specific mix of work — whether that's commercial installations, residential systems, maintenance contracts, or a combination of all three.
+                  We structure your site around your specific mix of work â€” whether that's commercial installations, residential systems, maintenance contracts, or a combination of all three.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -169,7 +169,7 @@ export default function WebsitesForAirConditioningFitters() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -219,10 +219,10 @@ export default function WebsitesForAirConditioningFitters() {
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { name: "Electrician Websites", href: "/websites-for-electricians", desc: "Websites for electrical contractors and businesses." },
-                { name: "Solar Panel Fitter Websites", href: "/websites-for-solar-panel-fitters", desc: "Websites for solar installation and renewable energy businesses." },
-                { name: "Plumber Websites", href: "/websites-for-plumbers", desc: "Websites for plumbing and heating engineers." },
-                { name: "Builder Websites", href: "/websites-for-builders", desc: "Professional websites for builders and construction companies." }
+                { name: "Electrician Websites", href: "/websites-for-electricians/", desc: "Websites for electrical contractors and businesses." },
+                { name: "Solar Panel Fitter Websites", href: "/websites-for-solar-panel-fitters/", desc: "Websites for solar installation and renewable energy businesses." },
+                { name: "Plumber Websites", href: "/websites-for-plumbers/", desc: "Websites for plumbing and heating engineers." },
+                { name: "Builder Websites", href: "/websites-for-builders/", desc: "Professional websites for builders and construction companies." }
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -250,12 +250,12 @@ export default function WebsitesForAirConditioningFitters() {
 
         <BenefitsGrid
           title="How We Help Your HVAC Business"
-          subtitle="Beyond the website — we keep your online presence running smoothly."
+          subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
-            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to serve both commercial and domestic customers with clear paths, certifications, and case studies." },
+            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
+            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to serve both commercial and domestic customers with clear paths, certifications, and case studies." },
             { title: "Existing Site Refreshes", description: "Your current site not generating enquiries? We can redesign with better audience targeting, stronger trust signals, and improved local SEO." },
-            { title: "Lead Generation Optimisation", description: "Quote request forms and contact flows designed to capture qualified leads — whether from office managers or homeowners." }
+            { title: "Lead Generation Optimisation", description: "Quote request forms and contact flows designed to capture qualified leads â€” whether from office managers or homeowners." }
 
 
           ]}
@@ -265,22 +265,22 @@ export default function WebsitesForAirConditioningFitters() {
           faqs={[
             {
               question: "Who manages the website while I'm out installing systems?",
-              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
+              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
-              question: "I need to target both businesses and homeowners — can one site do both?",
+              question: "I need to target both businesses and homeowners â€” can one site do both?",
               answer: "Yes. We structure your site with clear paths for commercial and domestic customers, so each audience finds the relevant services, case studies, and contact information."
             },
             {
               question: "How much does a website for an air conditioning business cost?",
-              answer: "New websites start from £1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
+              answer: "New websites start from Â£1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote maintenance contracts through the site?",
               answer: "Yes. We can include service plan pages, maintenance booking forms, and reminder systems to help you generate recurring servicing income alongside installation work."
             },
             {
-              question: "I'm starting my own HVAC business — is a website worth it from day one?",
+              question: "I'm starting my own HVAC business â€” is a website worth it from day one?",
               answer: "A professional website helps you look established when bidding for commercial contracts or domestic work. We can start with a focused site and expand as your business grows."
             }
 
@@ -293,7 +293,7 @@ export default function WebsitesForAirConditioningFitters() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "£50", label: "Per Month Managed Hosting" }
+            { number: "Â£50", label: "Per Month Managed Hosting" }
 
 
           ]}
@@ -301,11 +301,11 @@ export default function WebsitesForAirConditioningFitters() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -314,49 +314,49 @@ export default function WebsitesForAirConditioningFitters() {
             {
               title: "Websites for Electricians",
               description: "Specialist websites for electrical contractors and businesses.",
-              href: "/websites-for-electricians",
+              href: "/websites-for-electricians/",
               tag: "Trade"
             },
             {
               title: "Websites for Solar Panel Fitters",
               description: "Solar installation and renewable energy websites.",
-              href: "/websites-for-solar-panel-fitters",
+              href: "/websites-for-solar-panel-fitters/",
               tag: "Trade"
             },
             {
               title: "Websites for Plumbers",
               description: "Websites designed for plumbing and heating engineers.",
-              href: "/websites-for-plumbers",
+              href: "/websites-for-plumbers/",
               tag: "Trade"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Full details of our managed hosting plans with daily backups and expert support.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process — from first conversation to launch.",
-              href: "/new-website",
+              description: "Our full website design and development process â€” from first conversation to launch.",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Small Business Websites",
               description: "Affordable websites for small businesses and sole traders.",
-              href: "/small-business-websites",
+              href: "/small-business-websites/",
               tag: "Service"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }          ]}
         />

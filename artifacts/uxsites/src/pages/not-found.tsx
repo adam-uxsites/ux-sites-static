@@ -21,7 +21,7 @@ export default function NotFound() {
             Back to Home
           </Link>
           <Link
-            href="/contact"
+            href="/contact/"
             className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card text-foreground px-6 py-3 text-sm font-bold hover:bg-primary/10 hover:border-primary/40 transition-all"
           >
             <Search size={16} />

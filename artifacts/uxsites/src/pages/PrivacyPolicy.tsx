@@ -121,7 +121,7 @@ export default function PrivacyPolicy() {
           title="Have a question about privacy?"
           description="If you'd like to know more about how we handle your data, get in touch and we'll be happy to explain."
           buttonText="Contact Us"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

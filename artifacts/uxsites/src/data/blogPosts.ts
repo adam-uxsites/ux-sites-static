@@ -21,9 +21,9 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
 ## Why Is Cheap Hosting Actually Expensive?
 
-Cheap hosting costs £3-8/month on the surface, but the real cost shows up in lost revenue, wasted time, and emergency fixes. When your site goes down at a critical moment  -  and research shows 1 in 4 WordPress sites get hacked (Sucuri 2024 Website Threat Report)  -  cheap hosting leaves you stranded with no support and no backup.
+Cheap hosting costs Â£3-8/month on the surface, but the real cost shows up in lost revenue, wasted time, and emergency fixes. When your site goes down at a critical moment  -  and research shows 1 in 4 WordPress sites get hacked (Sucuri 2024 Website Threat Report)  -  cheap hosting leaves you stranded with no support and no backup.
 
-The hidden costs of cheap hosting aren't on the pricing page. They appear as lost enquiries during downtime, hours spent troubleshooting issues yourself, and emergency developer fees that can run £200-500 per incident.
+The hidden costs of cheap hosting aren't on the pricing page. They appear as lost enquiries during downtime, hours spent troubleshooting issues yourself, and emergency developer fees that can run Â£200-500 per incident.
 
 ## What "Unmanaged" Actually Means
 
@@ -55,13 +55,13 @@ A properly managed WordPress hosting plan takes all of that off your plate. At U
 
 | | Cheap Hosting | Managed Hosting |
 |---|---|---|
-| Monthly cost | £3-8 | £50 |
+| Monthly cost | Â£3-8 | Â£50 |
 | Your time managing it | 2-4 hrs/month | 0 hrs |
 | Security incidents per year | 1 in 4 sites hacked | Actively prevented |
 | Downtime response | Self-service | We handle it |
 | Backup restoration | Often impossible | Within the hour |
 
-For a business that values its online presence, the maths isn't complicated. Two hours of your time per month at £50/hr exceeds the £50/month cost of managed hosting  -  and that's before accounting for emergency fixes that average £200-500 per incident for unmanaged sites.
+For a business that values its online presence, the maths isn't complicated. Two hours of your time per month at Â£50/hr exceeds the Â£50/month cost of managed hosting  -  and that's before accounting for emergency fixes that average Â£200-500 per incident for unmanaged sites.
 
 ## Who Is Managed Hosting For?
 
@@ -75,9 +75,9 @@ Managed hosting is the right choice if:
 
 ## How to Get Started with Managed Hosting
 
-We work with businesses across Shropshire and the UK. Whether you have an existing site you'd like us to migrate, or you're starting fresh, [get in touch](/contact) and we'll talk through what makes sense for your situation.
+We work with businesses across Shropshire and the UK. Whether you have an existing site you'd like us to migrate, or you're starting fresh, [get in touch](/contact/) and we'll talk through what makes sense for your situation.
 
-Managed WordPress hosting starts from £50/month or £500/year (saving two months). [View the full details](/managed-wordpress-hosting).
+Managed WordPress hosting starts from Â£50/month or Â£500/year (saving two months). [View the full details](/managed-wordpress-hosting/).
     `
   },
   {
@@ -145,7 +145,7 @@ A good rebuild addresses all of these with a data-driven approach: understanding
 
 Done properly, a website rebuild is an investment that pays for itself. Businesses we've worked with have seen significant improvements in enquiry volume after launching a new site  -  not because of magic, but because the site finally does what it's supposed to do.
 
-If any of these signs resonate, [get in touch](/contact) for a free conversation about what a rebuild might look like for your business.
+If any of these signs resonate, [get in touch](/contact/) for a free conversation about what a rebuild might look like for your business.
     `
   },
   {
@@ -215,7 +215,7 @@ You can check your current performance right now:
 
 A score below 50 is poor. 50-89 is needs improvement. 90+ is good.
 
-If you're scoring below 70 on mobile, it's worth having a conversation about what's causing it and what can be done. [Get in touch](/contact)  -  we're happy to run a free performance review and tell you honestly what the situation is and what it would take to fix it.
+If you're scoring below 70 on mobile, it's worth having a conversation about what's causing it and what can be done. [Get in touch](/contact/)  -  we're happy to run a free performance review and tell you honestly what the situation is and what it would take to fix it.
     `
   },
   {
@@ -308,7 +308,7 @@ Local SEO isn't instant. Depending on your starting point and competition level,
 
 It's a long game, but it compounds. A well-optimised local presence built over 12 months is difficult for competitors to displace quickly.
 
-If you'd like a free local SEO audit for your Shropshire business, [get in touch](/contact)  -  we'll tell you where you currently stand and what the realistic path to improvement looks like.
+If you'd like a free local SEO audit for your Shropshire business, [get in touch](/contact/)  -  we'll tell you where you currently stand and what the realistic path to improvement looks like.
     `
   },
   {
@@ -378,7 +378,7 @@ For a business owner whose focus is running their business, this is genuinely di
 
 This is exactly what managed hosting is designed to solve. Our clients' sites are monitored continuously, updated carefully, and backed up daily. Security isn't something they need to think about.
 
-If you'd like to know how your current site stacks up, [get in touch](/contact) for a free security review.
+If you'd like to know how your current site stacks up, [get in touch](/contact/) for a free security review.
     `
   },
   {
@@ -445,10 +445,10 @@ Let's add up what cheap hosting actually costs a business:
 
 | Cost | Cheap Hosting | Managed Hosting |
 |---|---|---|
-| Monthly fee | £3-8 | £50 |
+| Monthly fee | Â£3-8 | Â£50 |
 | Time troubleshooting issues | 2-5 hrs/month | 0 hrs |
 | Lost revenue during downtime | Variable (often significant) | Near zero |
-| Emergency developer fees | £100-500 per incident | Included |
+| Emergency developer fees | Â£100-500 per incident | Included |
 | Reputational damage | Hard to quantify | Prevented |
 
 When you look at the full picture, "cheap" hosting is anything but. The time, stress, and lost opportunities far outweigh the savings.
@@ -471,7 +471,7 @@ Your WordPress website is a business tool. When it breaks, you lose money, time,
 
 Managed hosting gives you a stable, secure foundation for your website. It's not an expense; it's an investment in reliability.
 
-If you're tired of your website breaking, [talk to us about managed WordPress hosting](/managed-wordpress-hosting). We'll migrate your site, secure it, and keep it running smoothly.
+If you're tired of your website breaking, [talk to us about managed WordPress hosting](/managed-wordpress-hosting/). We'll migrate your site, secure it, and keep it running smoothly.
     `
   },
   {
@@ -537,11 +537,11 @@ We work with businesses across the region  -  from Shrewsbury to Oswestry, Telfo
 
 ## The Cost of Staying Local
 
-Managed WordPress hosting from UX Sites starts at £50/month or £500/year. Compare that to the cost of your time dealing with hosting problems, lost enquiries from downtime, and emergency fixes when things go wrong.
+Managed WordPress hosting from UX Sites starts at Â£50/month or Â£500/year. Compare that to the cost of your time dealing with hosting problems, lost enquiries from downtime, and emergency fixes when things go wrong.
 
 For Shropshire and Wrexham businesses, having a local team that answers the phone and actually fixes things isn't a luxury  -  it's common sense.
 
-[Get in touch](/contact) to discuss migrating your site to managed hosting, or [view our hosting plans](/managed-wordpress-hosting) for full details.
+[Get in touch](/contact/) to discuss migrating your site to managed hosting, or [view our hosting plans](/managed-wordpress-hosting/) for full details.
     `
   },
   {
@@ -555,13 +555,13 @@ For Shropshire and Wrexham businesses, having a local team that answers the phon
     content: `
 ## The Real Cost of Cheap Hosting
 
-It's tempting to look at hosting prices and pick the cheapest option. £3.99/month feels like a bargain for a business on a tight budget. But the real cost of cheap hosting isn't on the pricing page  -  it's buried in the things that go wrong.
+It's tempting to look at hosting prices and pick the cheapest option. Â£3.99/month feels like a bargain for a business on a tight budget. But the real cost of cheap hosting isn't on the pricing page  -  it's buried in the things that go wrong.
 
-**Time.** Every hour you spend troubleshooting a hosting issue is an hour you're not spending on your actual business. If you earn £50/hour running your business, and you spend 3 hours a month on hosting problems, that's £150/month in lost productive time.
+**Time.** Every hour you spend troubleshooting a hosting issue is an hour you're not spending on your actual business. If you earn Â£50/hour running your business, and you spend 3 hours a month on hosting problems, that's Â£150/month in lost productive time.
 
 **Stress.** There's nothing quite like the sinking feeling of discovering your website is down and having no idea how to fix it. That stress has a cost too, even if it's hard to quantify.
 
-**Lost revenue.** If your site is down for a day, how many enquiries do you miss? For a small business generating even 5 leads per day at £100 average value, one day of downtime costs £500.
+**Lost revenue.** If your site is down for a day, how many enquiries do you miss? For a small business generating even 5 leads per day at Â£100 average value, one day of downtime costs Â£500.
 
 **Reputational damage.** Customers who see a broken or hacked website don't come back. They go to your competitors.
 
@@ -585,11 +585,11 @@ Let's be honest about the numbers:
 
 | | DIY (Cheap Hosting) | Managed (UX Sites) |
 |---|---|---|
-| Hosting fee | £3-8/month | £50/month |
-| Your time (3 hrs/month @ £50/hr) | £150/month | £0 |
-| Plugins (security, backup, cache) | £100-300/year | Included |
-| Emergency fixes (avg 2/year) | £200-1000/year | Included |
-| **Total annual cost** | **£2,200-3,500+** | **£600** |
+| Hosting fee | Â£3-8/month | Â£50/month |
+| Your time (3 hrs/month @ Â£50/hr) | Â£150/month | Â£0 |
+| Plugins (security, backup, cache) | Â£100-300/year | Included |
+| Emergency fixes (avg 2/year) | Â£200-1000/year | Included |
+| **Total annual cost** | **Â£2,200-3,500+** | **Â£600** |
 
 The managed option isn't just cheaper  -  it's dramatically cheaper when you account for everything. And that's before we factor in the cost of downtime.
 
@@ -623,7 +623,7 @@ Managed hosting makes sense if:
 
 If your website is a hobby or side project, cheap hosting might be fine. But if your business depends on your site, managed hosting isn't an expense  -  it's an investment that pays for itself.
 
-[View our managed WordPress hosting plans](/managed-wordpress-hosting) or [get in touch](/contact) to discuss migrating your site.
+[View our managed WordPress hosting plans](/managed-wordpress-hosting/) or [get in touch](/contact/) to discuss migrating your site.
     `
   },
   {
@@ -765,7 +765,7 @@ After the migration is complete:
 
 Migrating from Magento to Shopify is perfectly doable with this guide, but it's also time-consuming. If you'd rather focus on running your business, we handle Magento to Shopify migrations as a service  -  including data migration, theme setup, URL redirects, and post-migration testing.
 
-[Get in touch](/contact) for a free consultation about your migration project.
+[Get in touch](/contact/) for a free consultation about your migration project.
     `
   },
   {
@@ -801,7 +801,7 @@ Not all web design services are equal. Here's what to look for:
 
 One of the frustrations of hiring a web designer is not knowing what anything costs. Many designers won't give you a price without a lengthy consultation first.
 
-UX Sites offers instant quotes for most projects. You can see exactly what different options cost  -  from a starter site to a full ecommerce build  -  without booking a call or filling in a long form. [Try the instant quote tool](/quote) to see what your project would cost.
+UX Sites offers instant quotes for most projects. You can see exactly what different options cost  -  from a starter site to a full ecommerce build  -  without booking a call or filling in a long form. [Try the instant quote tool](/quote/) to see what your project would cost.
 
 ## Types of Web Design Services Available
 
@@ -831,12 +831,12 @@ UX-led websites consistently generate more enquiries because they're built aroun
 
 | Service | Typical Range |
 |---|---|
-| Starter website (3-5 pages) | £500-1,000 |
-| UX-led website (from) | £689 |
-| Small business website (5-10 pages) | £1,000-3,000 |
-| Ecommerce website | £2,000-5,000+ |
+| Starter website (3-5 pages) | Â£500-1,000 |
+| UX-led website (from) | Â£689 |
+| Small business website (5-10 pages) | Â£1,000-3,000 |
+| Ecommerce website | Â£2,000-5,000+ |
 
-These are typical ranges. Every project is different, so [get an instant quote](/quote) for your specific requirements.
+These are typical ranges. Every project is different, so [get an instant quote](/quote/) for your specific requirements.
 
 ## Real Results from Local Businesses
 
@@ -852,7 +852,7 @@ Look for these qualities:
 - **Ongoing support**  -  Not a "hand over the keys and goodbye" approach
 - **Proven results**  -  Case studies and examples you can relate to
 
-If you're looking for web design in Shropshire or Chester, [get in touch](/contact) for a free conversation about your project.
+If you're looking for web design in Shropshire or Chester, [get in touch](/contact/) for a free conversation about your project.
     `
   },
   {
@@ -866,7 +866,7 @@ If you're looking for web design in Shropshire or Chester, [get in touch](/conta
     content: `
 ## The Appeal of DIY Builders
 
-Wix, Squarespace, and WordPress.com make it incredibly easy to get a website online quickly. For less than £20/month, you can pick a template, drag and drop some content, and have a site live in an afternoon.
+Wix, Squarespace, and WordPress.com make it incredibly easy to get a website online quickly. For less than Â£20/month, you can pick a template, drag and drop some content, and have a site live in an afternoon.
 
 For very small businesses, sole traders, or hobby projects, this can be the right choice. But as your business grows and your website becomes more important, the limitations of DIY builders become hard to ignore.
 
@@ -884,7 +884,7 @@ For very small businesses, sole traders, or hobby projects, this can be the righ
 
 DIY builders are a good fit if:
 
-- Your budget is very limited (under £500)
+- Your budget is very limited (under Â£500)
 - Your website is a simple single-page brochure
 - You don't need ecommerce or complex functionality
 - You have time to learn the platform and manage it yourself
@@ -906,16 +906,16 @@ Professional web design is the better investment if:
 
 | | DIY Builder | Professional Site |
 |---|---|---|
-| Initial build | £0 (your time) | £689-3,000 |
-| Monthly subscription | £15-40 | £0 (paid upfront) |
-| Hosting | Included | £5-50/month |
-| Domain | £10-15/year | £10-15/year |
-| Add-ons/extras | £50-200/year | Included in build |
+| Initial build | Â£0 (your time) | Â£689-3,000 |
+| Monthly subscription | Â£15-40 | Â£0 (paid upfront) |
+| Hosting | Included | Â£5-50/month |
+| Domain | Â£10-15/year | Â£10-15/year |
+| Add-ons/extras | Â£50-200/year | Included in build |
 | Your time (setup) | 20-100 hours | 5-10 hours (briefing) |
 | Your time (ongoing) | 2-5 hrs/month | 0-1 hr/month |
-| Redesign when outgrown | £1,000-5,000 | Unlikely needed |
+| Redesign when outgrown | Â£1,000-5,000 | Unlikely needed |
 
-If you value your time at £30/hour, the DIY builder costs you £600-3,000 in time during setup alone  -  before you even get to the subscription fees.
+If you value your time at Â£30/hour, the DIY builder costs you Â£600-3,000 in time during setup alone  -  before you even get to the subscription fees.
 
 ## Time Investment Comparison
 
@@ -947,7 +947,7 @@ A professionally built website lasts 3-5 years with regular content updates, com
 
 ## Making the Right Choice
 
-There's no single right answer  -  it depends on your business, your budget, and your goals. If you're unsure, [get in touch](/contact). We'll give you honest advice about what level of investment makes sense for your situation  -  even if that advice is to start with a DIY builder.
+There's no single right answer  -  it depends on your business, your budget, and your goals. If you're unsure, [get in touch](/contact/). We'll give you honest advice about what level of investment makes sense for your situation  -  even if that advice is to start with a DIY builder.
     `
   },
   {
@@ -997,11 +997,11 @@ The cost varies dramatically depending on your approach:
 
 | Approach | Cost | What You Get |
 |---|---|---|
-| DIY (Wix/Squarespace) | £200-600/year | Template-based, your time, limited SEO |
-| Freelancer (basic) | £500-2,000 | Simple site, limited UX, little ongoing support |
-| Freelancer (quality) | £2,000-5,000 | Good design, basic UX, custom build |
-| Agency (standard) | £5,000-15,000 | Full UX process, custom design, project management |
-| UX Sites | From £689 | UX-led design, WordPress/Shopify, ongoing support |
+| DIY (Wix/Squarespace) | Â£200-600/year | Template-based, your time, limited SEO |
+| Freelancer (basic) | Â£500-2,000 | Simple site, limited UX, little ongoing support |
+| Freelancer (quality) | Â£2,000-5,000 | Good design, basic UX, custom build |
+| Agency (standard) | Â£5,000-15,000 | Full UX process, custom design, project management |
+| UX Sites | From Â£689 | UX-led design, WordPress/Shopify, ongoing support |
 
 UX Sites sits in a unique position  -  we provide agency-quality UX-led design at prices that undercut most agencies, because we've streamlined our process and work efficiently.
 
@@ -1036,7 +1036,7 @@ The best redesigns don't just look better  -  they perform better. Before starti
 
 If any of the signs above sound familiar, it's worth having a conversation. We'll give you an honest assessment of what your current site needs  -  whether that's a full redesign, a refresh, or just some targeted improvements.
 
-[Get in touch](/contact) for a free website review and redesign quote.
+[Get in touch](/contact/) for a free website review and redesign quote.
     `
   },
   {
@@ -1068,11 +1068,11 @@ The cost of a WordPress website varies enormously because every project is diffe
 
 | Site Type | Typical Range | What's Included |
 |---|---|---|
-| Starter site (3-5 pages) | £500-1,500 | Basic design, essential pages, mobile-friendly |
-| Small business (5-10 pages) | £1,500-5,000 | Custom design, blog, SEO setup, contact forms |
-| Ecommerce (10-50+ products) | £3,000-10,000+ | Full product management, payments, shipping |
-| Ecommerce (50+ products) | £5,000-20,000+ | Advanced features, custom integrations |
-| Bespoke/custom build | £5,000-20,000+ | Fully custom design, complex functionality |
+| Starter site (3-5 pages) | Â£500-1,500 | Basic design, essential pages, mobile-friendly |
+| Small business (5-10 pages) | Â£1,500-5,000 | Custom design, blog, SEO setup, contact forms |
+| Ecommerce (10-50+ products) | Â£3,000-10,000+ | Full product management, payments, shipping |
+| Ecommerce (50+ products) | Â£5,000-20,000+ | Advanced features, custom integrations |
+| Bespoke/custom build | Â£5,000-20,000+ | Fully custom design, complex functionality |
 
 ## Ongoing Costs
 
@@ -1080,23 +1080,23 @@ A WordPress site has ongoing costs that you need to budget for:
 
 | Item | Monthly | Annual |
 |---|---|---|
-| Hosting (basic shared) | £3-8 | £36-96 |
-| Hosting (managed WordPress) | £50 | £500-600 |
-| Domain name |  -  | £10-15 |
+| Hosting (basic shared) | Â£3-8 | Â£36-96 |
+| Hosting (managed WordPress) | Â£50 | Â£500-600 |
+| Domain name |  -  | Â£10-15 |
 | SSL certificate | Often free | Free |
-| Premium plugins | £0-40/month | £0-500/year |
+| Premium plugins | Â£0-40/month | Â£0-500/year |
 | Maintenance/updates (DIY) | Your time | Your time |
-| Maintenance (managed service) | £50-200 | £600-2,400 |
+| Maintenance (managed service) | Â£50-200 | Â£600-2,400 |
 
-**The big decision is hosting.** Cheap shared hosting at £5/month works until it doesn't  -  then you're paying for emergency fixes and lost revenue. Managed WordPress hosting at £50/month is more expensive but includes security, updates, backups, and support.
+**The big decision is hosting.** Cheap shared hosting at Â£5/month works until it doesn't  -  then you're paying for emergency fixes and lost revenue. Managed WordPress hosting at Â£50/month is more expensive but includes security, updates, backups, and support.
 
 ## Hidden Costs to Watch For
 
-**Emergency fixes**  -  When something breaks on a self-managed site, emergency developer rates are typically £75-150/hour. One or two incidents a year quickly add up.
+**Emergency fixes**  -  When something breaks on a self-managed site, emergency developer rates are typically Â£75-150/hour. One or two incidents a year quickly add up.
 
 **Redesign costs**  -  A cheap site built on a template will feel outdated in 1-2 years and need replacing. A well-built custom site lasts 3-5 years.
 
-**Plugin subscriptions**  -  Many WordPress plugins charge annual fees. Common ones include security (£99/year), backups (£49/year), page builders (£99-299/year), and SEO tools (£99/year).
+**Plugin subscriptions**  -  Many WordPress plugins charge annual fees. Common ones include security (Â£99/year), backups (Â£49/year), page builders (Â£99-299/year), and SEO tools (Â£99/year).
 
 **Mobile optimisation**  -  Some designers build for desktop first and treat mobile as an afterthought. Proper mobile-first design should be included, but check before you commit.
 
@@ -1108,23 +1108,23 @@ A WordPress site has ongoing costs that you need to budget for:
 
 **Invest in UX**  -  A UX-led site costs more upfront but generates more enquiries. Over 12 months, the higher conversion rate more than pays for the difference.
 
-**Choose managed hosting**  -  The £45/month difference between cheap and managed hosting is dwarfed by the cost of your time dealing with issues and the revenue lost during downtime.
+**Choose managed hosting**  -  The Â£45/month difference between cheap and managed hosting is dwarfed by the cost of your time dealing with issues and the revenue lost during downtime.
 
-**Plan for the long term**  -  A £3,000 site that lasts 4 years costs £750/year. A £1,000 site that lasts 18 months costs £667/year  -  and you get less functionality and more hassle. The better site is often better value.
+**Plan for the long term**  -  A Â£3,000 site that lasts 4 years costs Â£750/year. A Â£1,000 site that lasts 18 months costs Â£667/year  -  and you get less functionality and more hassle. The better site is often better value.
 
-**Get an instant quote**  -  At UX Sites, we offer [instant quotes](/quote) so you can see exactly what different options cost without a lengthy sales process.
+**Get an instant quote**  -  At UX Sites, we offer [instant quotes](/quote/) so you can see exactly what different options cost without a lengthy sales process.
 
 ## Typical UX Sites Pricing
 
 | Service | Starting From |
 |---|---|
-| Starter website | £500 |
-| UX-led website | £689 |
-| Small business website | £1,500 |
-| Ecommerce website | £2,000 |
-| Managed WordPress hosting | £50/month |
+| Starter website | Â£500 |
+| UX-led website | Â£689 |
+| Small business website | Â£1,500 |
+| Ecommerce website | Â£2,000 |
+| Managed WordPress hosting | Â£50/month |
 
-[Get an instant quote](/quote) for your specific project, or [contact us](/contact) to discuss your requirements.
+[Get an instant quote](/quote/) for your specific project, or [contact us](/contact/) to discuss your requirements.
     `
   },
   {
@@ -1138,7 +1138,7 @@ A WordPress site has ongoing costs that you need to budget for:
     content: `
 ## What Is Responsive Web Design?
 
-Responsive web design means your website automatically adapts to look and work perfectly on any device — phone, tablet, laptop, or desktop. It's not a separate "mobile site" or an afterthought. It's a single website that responds to the screen it's viewed on.
+Responsive web design means your website automatically adapts to look and work perfectly on any device â€” phone, tablet, laptop, or desktop. It's not a separate "mobile site" or an afterthought. It's a single website that responds to the screen it's viewed on.
 
 In 2024, over 60% of all web traffic came from mobile devices (Statista). Google now indexes and ranks websites based on their mobile version first. If your site isn't responsive, you're providing a poor experience to more than half your visitors and actively hurting your search rankings.
 
@@ -1148,7 +1148,7 @@ A non-responsive website creates frustration at every stage of the customer jour
 
 **Users leave immediately.** If a potential customer visits your site on their phone and has to pinch, zoom, and scroll sideways to read content, they'll leave within seconds. 53% of mobile users abandon a site that takes over 3 seconds to load, and that number climbs even higher for sites that are difficult to navigate (Google Research).
 
-**Your SEO suffers.** Google's mobile-first indexing means the search engine primarily uses your mobile version to determine rankings. If your mobile experience is poor — slow loading, unreadable text, touch targets too close together — you'll rank lower on all devices, not just phones.
+**Your SEO suffers.** Google's mobile-first indexing means the search engine primarily uses your mobile version to determine rankings. If your mobile experience is poor â€” slow loading, unreadable text, touch targets too close together â€” you'll rank lower on all devices, not just phones.
 
 **Your credibility takes a hit.** A site that looks broken on mobile signals that you haven't invested in your online presence. In a competitive local market like Shropshire, that trust gap can be the difference between a prospect choosing you or a competitor.
 
@@ -1156,34 +1156,34 @@ A non-responsive website creates frustration at every stage of the customer jour
 
 - **Fluid layouts** that resize naturally across screen widths
 - **Touch-friendly navigation** with buttons and links sized for fingers, not mouse cursors
-- **Readable text** without zooming — minimum 16px body text, adequate line height
+- **Readable text** without zooming â€” minimum 16px body text, adequate line height
 - **Optimised images** that load the right size for each device
 - **Simplified navigation** that adapts menus for small screens
-- **Fast loading** on mobile connections — the same Core Web Vitals standards apply
+- **Fast loading** on mobile connections â€” the same Core Web Vitals standards apply
 
 ## Common Responsive Design Mistakes
 
-**Hiding content on mobile** — "Mobile" doesn't mean "less". Hiding important content on small screens forces users to find a desktop to access basic information. Instead, prioritise and reorganise.
+**Hiding content on mobile** â€” "Mobile" doesn't mean "less". Hiding important content on small screens forces users to find a desktop to access basic information. Instead, prioritise and reorganise.
 
-**Not testing on real devices** — Browser DevTools resizing doesn't capture real-world behaviour. Touch interactions, data connection speeds, and screen glare all affect the actual experience.
+**Not testing on real devices** â€” Browser DevTools resizing doesn't capture real-world behaviour. Touch interactions, data connection speeds, and screen glare all affect the actual experience.
 
-**Fixed-width elements** — Any element with a fixed pixel width will overflow on smaller screens, forcing horizontal scrolling.
+**Fixed-width elements** â€” Any element with a fixed pixel width will overflow on smaller screens, forcing horizontal scrolling.
 
 ## How UX Sites Builds Responsive Websites
 
-Every website we build at UX Sites is designed mobile-first. We start with the phone layout and add complexity as screens get larger — rather than the traditional approach of designing for desktop and stripping things away.
+Every website we build at UX Sites is designed mobile-first. We start with the phone layout and add complexity as screens get larger â€” rather than the traditional approach of designing for desktop and stripping things away.
 
-This means your site is genuinely optimised for mobile, not just adapted. Every element — navigation, forms, calls to action, images — is designed for touch interaction and small screens from the ground up.
+This means your site is genuinely optimised for mobile, not just adapted. Every element â€” navigation, forms, calls to action, images â€” is designed for touch interaction and small screens from the ground up.
 
 The result is a site that works for your customers wherever they're browsing. Whether they're searching for your business on their phone in a coffee shop, browsing on a tablet at home, or reviewing details on a desktop at work, they get a consistent, professional experience.
 
-If your current site isn't responsive, or you're not sure how your mobile experience stacks up, [get in touch](/contact) for a free mobile UX review. We can also show you examples of our responsive work on our [portfolio page](/work).
+If your current site isn't responsive, or you're not sure how your mobile experience stacks up, [get in touch](/contact/) for a free mobile UX review. We can also show you examples of our responsive work on our [portfolio page](/work/).
     `
   },
   {
     slug: "website-speed-optimisation-guide",
     title: "Website Speed Optimisation: A Complete Guide for UK Businesses",
-    excerpt: "A slow website is costing you customers and revenue. Here's a practical guide to page speed optimisation — what causes slow sites and how to fix them.",
+    excerpt: "A slow website is costing you customers and revenue. Here's a practical guide to page speed optimisation â€” what causes slow sites and how to fix them.",
     date: "11 May 2026",
     category: "Performance",
     readTime: "8 min read",
@@ -1203,19 +1203,19 @@ For a UK small business generating even 10 enquiries per month from their websit
 
 Most slow websites share common problems:
 
-**Unoptimised images** — This is the single biggest culprit by far. Smartphone photos can be 5-8MB each, and serving them at full resolution on a web page means visitors download massive files unnecessarily. Images should be compressed, converted to WebP format, and resized to their display dimensions.
+**Unoptimised images** â€” This is the single biggest culprit by far. Smartphone photos can be 5-8MB each, and serving them at full resolution on a web page means visitors download massive files unnecessarily. Images should be compressed, converted to WebP format, and resized to their display dimensions.
 
-**Cheap shared hosting** — On a £5/month shared hosting plan, your site competes for resources with hundreds of other websites. When another site on your server gets a traffic spike, yours slows down. There's no technical fix for this — the hosting itself is the bottleneck.
+**Cheap shared hosting** â€” On a Â£5/month shared hosting plan, your site competes for resources with hundreds of other websites. When another site on your server gets a traffic spike, yours slows down. There's no technical fix for this â€” the hosting itself is the bottleneck.
 
-**Too many plugins** — Every plugin adds code that must be loaded. A typical business WordPress site with 20-30 plugins creates enormous overhead, much of which is unnecessary.
+**Too many plugins** â€” Every plugin adds code that must be loaded. A typical business WordPress site with 20-30 plugins creates enormous overhead, much of which is unnecessary.
 
-**Render-blocking resources** — CSS and JavaScript files that must load fully before the page can display anything, causing a blank white screen for the first 2-3 seconds.
+**Render-blocking resources** â€” CSS and JavaScript files that must load fully before the page can display anything, causing a blank white screen for the first 2-3 seconds.
 
-**No caching** — Without caching, every single visitor causes the server to rebuild the entire page from scratch. Caching delivers a pre-built version instantly.
+**No caching** â€” Without caching, every single visitor causes the server to rebuild the entire page from scratch. Caching delivers a pre-built version instantly.
 
 ## How to Fix a Slow WordPress Site
 
-**Step 1: Measure your current performance.** Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev). Pay attention to the mobile score — this is what Google primarily uses for rankings. A score below 50 needs urgent attention. 50-89 needs improvement. 90+ is good.
+**Step 1: Measure your current performance.** Run your site through [Google PageSpeed Insights](https://pagespeed.web.dev). Pay attention to the mobile score â€” this is what Google primarily uses for rankings. A score below 50 needs urgent attention. 50-89 needs improvement. 90+ is good.
 
 **Step 2: Optimise images.** Compress all existing images and ensure future uploads are automatically compressed. Convert to WebP format. Use responsive image sizes so mobile devices don't download desktop-sized images.
 
@@ -1223,19 +1223,19 @@ Most slow websites share common problems:
 
 **Step 4: Minify and defer.** Minify CSS, JavaScript, and HTML. Defer non-critical JavaScript so it loads after the main content. Remove unused CSS if possible.
 
-**Step 5: Review your hosting.** If you've done everything above and your site is still slow, your hosting is the problem. [Managed WordPress hosting](/managed-wordpress-hosting) provides dedicated resources, server-level caching, and automatic performance optimisation that cheap shared hosting simply can't match.
+**Step 5: Review your hosting.** If you've done everything above and your site is still slow, your hosting is the problem. [Managed WordPress hosting](/managed-wordpress-hosting/) provides dedicated resources, server-level caching, and automatic performance optimisation that cheap shared hosting simply can't match.
 
 ## How We Help
 
-Our [website speed optimisation service](/website-speed-optimisation) covers everything above and more — from performance audits to image compression and caching setup. For clients on our managed hosting, performance monitoring and optimisation are ongoing, not a one-time fix.
+Our [website speed optimisation service](/website-speed-optimisation/) covers everything above and more â€” from performance audits to image compression and caching setup. For clients on our managed hosting, performance monitoring and optimisation are ongoing, not a one-time fix.
 
-If you'd like a free speed audit for your website, [get in touch](/contact). We'll tell you exactly what's slowing your site down and what it would take to fix it.
+If you'd like a free speed audit for your website, [get in touch](/contact/). We'll tell you exactly what's slowing your site down and what it would take to fix it.
     `
   },
   {
     slug: "small-business-seo-guide",
     title: "Small Business SEO: How to Get Found on Google in 2026",
-    excerpt: "A practical SEO guide for UK small businesses — from local search to technical foundations. What actually moves the needle for small business websites.",
+    excerpt: "A practical SEO guide for UK small businesses â€” from local search to technical foundations. What actually moves the needle for small business websites.",
     date: "8 May 2026",
     category: "SEO",
     readTime: "9 min read",
@@ -1243,7 +1243,7 @@ If you'd like a free speed audit for your website, [get in touch](/contact). We'
     content: `
 ## Why SEO Matters for Small Businesses
 
-When a potential customer searches for your service — "plumber near me", "accountant Shrewsbury", "website designer UK" — the businesses that appear on the first page of Google get the overwhelming majority of clicks. 68% of all clicks go to the top five organic results (Backlinko, 2024).
+When a potential customer searches for your service â€” "plumber near me", "accountant Shrewsbury", "website designer UK" â€” the businesses that appear on the first page of Google get the overwhelming majority of clicks. 68% of all clicks go to the top five organic results (Backlinko, 2024).
 
 For small businesses competing against larger companies with bigger marketing budgets, SEO is the great leveller. A well-optimised small business website can outrank a much larger competitor if it's built properly, serves relevant content, and earns genuine local signals.
 
@@ -1251,37 +1251,37 @@ For small businesses competing against larger companies with bigger marketing bu
 
 Before anything else, your website needs solid technical foundations:
 
-**Core Web Vitals** — Google measures how real users experience your site: loading speed (LCP), interactivity (INP), and visual stability (CLS). Poor scores here hurt rankings on all devices. We wrote about this in detail in our [Core Web Vitals and speed guide](/blog/core-web-vitals-speed-conversion).
+**Core Web Vitals** â€” Google measures how real users experience your site: loading speed (LCP), interactivity (INP), and visual stability (CLS). Poor scores here hurt rankings on all devices. We wrote about this in detail in our [Core Web Vitals and speed guide](/blog/core-web-vitals-speed-conversion/).
 
-**Mobile-friendly design** — With Google's mobile-first indexing, your mobile site is your primary ranking signal. If it's not responsive and fast, you can't rank well.
+**Mobile-friendly design** â€” With Google's mobile-first indexing, your mobile site is your primary ranking signal. If it's not responsive and fast, you can't rank well.
 
-**SSL certificate** — HTTPS is a ranking signal. Modern browsers actively warn users about non-HTTPS sites, damaging trust and reducing traffic.
+**SSL certificate** â€” HTTPS is a ranking signal. Modern browsers actively warn users about non-HTTPS sites, damaging trust and reducing traffic.
 
-**Clean site structure** — Logical URL hierarchy, proper heading structure (H1, H2, H3), and internal linking help search engines understand your content.
+**Clean site structure** â€” Logical URL hierarchy, proper heading structure (H1, H2, H3), and internal linking help search engines understand your content.
 
 ## Local SEO for UK Businesses
 
 For businesses serving a specific geographic area, local SEO is often the highest-return activity available:
 
-**Google Business Profile** — This is the single most important local SEO factor. Claim your listing, verify your details, choose accurate categories, and actively manage it with posts and photo updates.
+**Google Business Profile** â€” This is the single most important local SEO factor. Claim your listing, verify your details, choose accurate categories, and actively manage it with posts and photo updates.
 
-**NAP consistency** — Your business Name, Address, and Phone number must be identical across your website, Google Business Profile, and all directory listings (Yell, Bing Places, Apple Maps, etc.).
+**NAP consistency** â€” Your business Name, Address, and Phone number must be identical across your website, Google Business Profile, and all directory listings (Yell, Bing Places, Apple Maps, etc.).
 
-**Local content** — Create pages and blog posts that serve local search intent. A "plumber in Telford" page with genuine, useful content will outperform a generic "plumber" page for local searches.
+**Local content** â€” Create pages and blog posts that serve local search intent. A "plumber in Telford" page with genuine, useful content will outperform a generic "plumber" page for local searches.
 
-For a deeper dive, see our full [local SEO guide for Shropshire businesses](/blog/local-seo-shropshire-businesses).
+For a deeper dive, see our full [local SEO guide for Shropshire businesses](/blog/local-seo-shropshire-businesses/).
 
 ## On-Page SEO Essentials
 
-**Title tags and meta descriptions** — Every page needs a unique, descriptive title tag (under 60 characters) and meta description (under 160 characters). Include your primary keyword and location naturally.
+**Title tags and meta descriptions** â€” Every page needs a unique, descriptive title tag (under 60 characters) and meta description (under 160 characters). Include your primary keyword and location naturally.
 
-**Content quality** — Google increasingly rewards genuinely useful content. Thin, generic pages that don't serve the user will struggle to rank. Pages that provide thorough, helpful information perform better.
+**Content quality** â€” Google increasingly rewards genuinely useful content. Thin, generic pages that don't serve the user will struggle to rank. Pages that provide thorough, helpful information perform better.
 
-**Internal linking** — Link between related pages and blog posts on your site. This helps search engines understand your site structure and distributes ranking authority across your pages.
+**Internal linking** â€” Link between related pages and blog posts on your site. This helps search engines understand your site structure and distributes ranking authority across your pages.
 
 ## Building Authority
 
-Backlinks — links from other websites to yours — remain a strong ranking signal. For small businesses, focus on quality over quantity:
+Backlinks â€” links from other websites to yours â€” remain a strong ranking signal. For small businesses, focus on quality over quantity:
 
 - Local business directories and chambers of commerce
 - Industry associations and professional bodies
@@ -1291,15 +1291,15 @@ Backlinks — links from other websites to yours — remain a strong ranking sig
 
 ## What SEO Can Achieve for a Small Business
 
-Realistic expectations matter. Most small business sites won't rank #1 nationally for broad terms overnight. But ranking for local, service-specific terms — "accountant in Shrewsbury", "website designer UK" — is achievable with consistent effort over 3-6 months.
+Realistic expectations matter. Most small business sites won't rank #1 nationally for broad terms overnight. But ranking for local, service-specific terms â€” "accountant in Shrewsbury", "website designer UK" â€” is achievable with consistent effort over 3-6 months.
 
-If you'd like an honest assessment of your current SEO position and what's realistically achievable for your business, [get in touch](/contact). We offer free SEO reviews for UK small businesses.
+If you'd like an honest assessment of your current SEO position and what's realistically achievable for your business, [get in touch](/contact/). We offer free SEO reviews for UK small businesses.
     `
   },
   {
     slug: "wordpress-security-guide",
     title: "WordPress Security for Small Businesses: A Practical Protection Guide",
-    excerpt: "WordPress powers 43% of the web — and is the most targeted CMS. Here's a practical guide to keeping your business website secure without becoming a security expert.",
+    excerpt: "WordPress powers 43% of the web â€” and is the most targeted CMS. Here's a practical guide to keeping your business website secure without becoming a security expert.",
     date: "6 May 2026",
     category: "Security",
     readTime: "7 min read",
@@ -1313,19 +1313,19 @@ A compromised website can mean lost customer data, damaged reputation, blacklist
 
 ## The Most Common Vulnerabilities
 
-**Outdated plugins and themes** account for the majority of WordPress compromises. When developers discover security flaws, they release patches. If you don't apply those patches, your site remains exposed to vulnerabilities that hackers actively exploit. We covered this in more detail in our [WordPress security essentials post](/blog/wordpress-security-essentials).
+**Outdated plugins and themes** account for the majority of WordPress compromises. When developers discover security flaws, they release patches. If you don't apply those patches, your site remains exposed to vulnerabilities that hackers actively exploit. We covered this in more detail in our [WordPress security essentials post](/blog/wordpress-security-essentials/).
 
-**Weak passwords** — Automated brute force attacks try thousands of common passwords per minute. If your admin password is anything guessable, your site will be compromised eventually.
+**Weak passwords** â€” Automated brute force attacks try thousands of common passwords per minute. If your admin password is anything guessable, your site will be compromised eventually.
 
-**Unused themes and plugins** — Old, deactivated plugins and themes that are still present on your server create additional attack surfaces. If you're not using something, delete it completely.
+**Unused themes and plugins** â€” Old, deactivated plugins and themes that are still present on your server create additional attack surfaces. If you're not using something, delete it completely.
 
-**Default login URL** — Every WordPress site uses /wp-admin by default. Changing this eliminates a significant volume of automated attacks.
+**Default login URL** â€” Every WordPress site uses /wp-admin by default. Changing this eliminates a significant volume of automated attacks.
 
-**Insecure hosting** — Cheap shared hosting environments can allow cross-site contamination. A compromised site on the same server can affect yours.
+**Insecure hosting** â€” Cheap shared hosting environments can allow cross-site contamination. A compromised site on the same server can affect yours.
 
 ## Seven Steps to a Secure WordPress Site
 
-**1. Keep everything updated.** WordPress core, all active themes, all plugins — apply updates promptly. This alone prevents the majority of successful attacks.
+**1. Keep everything updated.** WordPress core, all active themes, all plugins â€” apply updates promptly. This alone prevents the majority of successful attacks.
 
 **2. Use strong, unique credentials.** Every admin, editor, and author account should have a strong, unique password stored in a password manager. Never reuse passwords across accounts.
 
@@ -1337,7 +1337,7 @@ A compromised website can mean lost customer data, damaged reputation, blacklist
 
 **6. Install a security plugin.** Wordfence or Solid Security provide firewall protection, malware scanning, and login monitoring. They're not a replacement for good practices, but they're an important additional layer.
 
-**7. Choose secure hosting.** Your hosting provider is your first line of defence. Managed hosting providers actively monitor for threats, apply security updates, and isolate your site from other customers. See how our [managed WordPress hosting](/managed-wordpress-hosting) handles security.
+**7. Choose secure hosting.** Your hosting provider is your first line of defence. Managed hosting providers actively monitor for threats, apply security updates, and isolate your site from other customers. See how our [managed WordPress hosting](/managed-wordpress-hosting/) handles security.
 
 ## Signs Your Site May Be Compromised
 
@@ -1347,19 +1347,19 @@ A compromised website can mean lost customer data, damaged reputation, blacklist
 - Your site loading much more slowly than usual
 - Spam content appearing on your pages
 
-If you notice any of these, act immediately. [Get in touch](/contact) and we can help assess the situation and clean your site.
+If you notice any of these, act immediately. [Get in touch](/contact/) and we can help assess the situation and clean your site.
 
 ## Prevention Is Cheaper Than Recovery
 
-The cost of preventing a security incident — good hosting, regular updates, proper configuration — is a fraction of the cost of recovering from one. Emergency WordPress repair can run £200-500 per incident, plus lost revenue during downtime and reputational damage.
+The cost of preventing a security incident â€” good hosting, regular updates, proper configuration â€” is a fraction of the cost of recovering from one. Emergency WordPress repair can run Â£200-500 per incident, plus lost revenue during downtime and reputational damage.
 
-Our [WordPress maintenance service](/wordpress-maintenance) and managed hosting plans handle all of this for you, so security is something you never need to think about.
+Our [WordPress maintenance service](/wordpress-maintenance/) and managed hosting plans handle all of this for you, so security is something you never need to think about.
     `
   },
   {
     slug: "shopify-vs-woocommerce-uk",
     title: "Shopify vs WooCommerce: Choosing the Right Ecommerce Platform for Your UK Business",
-    excerpt: "Shopify or WooCommerce? An honest comparison for UK small businesses — costs, features, flexibility, and which one makes sense for your specific situation.",
+    excerpt: "Shopify or WooCommerce? An honest comparison for UK small businesses â€” costs, features, flexibility, and which one makes sense for your specific situation.",
     date: "4 May 2026",
     category: "E-commerce",
     readTime: "8 min read",
@@ -1373,17 +1373,17 @@ The right choice depends on your specific situation: your budget, your technical
 
 ## Shopify: The All-in-One Solution
 
-Shopify is a fully hosted platform. You pay a monthly subscription and everything — hosting, security, checkout, payments — is included and managed for you.
+Shopify is a fully hosted platform. You pay a monthly subscription and everything â€” hosting, security, checkout, payments â€” is included and managed for you.
 
 **Pros:**
-- Quick to set up — you can have a basic store running in a day
-- Everything works out of the box — hosting, SSL, payments included
+- Quick to set up â€” you can have a basic store running in a day
+- Everything works out of the box â€” hosting, SSL, payments included
 - Excellent for physical products with simple variations
 - Good app ecosystem for adding functionality
 - Built-in PCI compliance for payment security
 
 **Cons:**
-- Monthly fees add up (£25-£200/month depending on plan)
+- Monthly fees add up (Â£25-Â£200/month depending on plan)
 - Transaction fees unless you use Shopify Payments
 - Limited customisation without apps (which cost extra)
 - Less control over your data and SEO
@@ -1398,7 +1398,7 @@ WooCommerce is a free WordPress plugin that turns any WordPress site into a full
 **Pros:**
 - Complete control over design, functionality, and data
 - No monthly platform fees (just hosting and domain costs)
-- Unlimited customisation — if you can imagine it, WooCommerce can do it
+- Unlimited customisation â€” if you can imagine it, WooCommerce can do it
 - Better SEO capabilities than Shopify
 - No transaction fees beyond payment gateway charges
 - Full ownership of your content and customer data
@@ -1406,7 +1406,7 @@ WooCommerce is a free WordPress plugin that turns any WordPress site into a full
 **Cons:**
 - More complex to set up and manage
 - Hosting, security, backups, and updates are your responsibility
-- Requires more maintenance — plugins need updating, performance needs monitoring
+- Requires more maintenance â€” plugins need updating, performance needs monitoring
 - Can become expensive with premium plugins and extensions
 
 **Best for:** Businesses that want full control, plan to scale with custom features, or already have a WordPress site.
@@ -1415,15 +1415,15 @@ WooCommerce is a free WordPress plugin that turns any WordPress site into a full
 
 | | Shopify (Basic) | WooCommerce (Managed) |
 |---|---|---|
-| Monthly platform cost | £25/month | £0 |
-| Hosting | Included | £50/month (managed) |
-| Domain | £10-15/year | £10-15/year |
+| Monthly platform cost | Â£25/month | Â£0 |
+| Hosting | Included | Â£50/month (managed) |
+| Domain | Â£10-15/year | Â£10-15/year |
 | SSL | Included | Included (managed) |
 | Transaction fees | 1.5% + 20p (Shopify Payments) | 1.5% + 20p (Stripe) |
 | Premium plugins/apps | Variable | Variable |
-| **Year 1 total** | **~£375+** | **~£625** (including design) |
+| **Year 1 total** | **~Â£375+** | **~Â£625** (including design) |
 
-With WooCommerce on managed WordPress hosting, year two onwards drops to around £600/year with no design costs. Shopify remains at £375/year plus transaction fees.
+With WooCommerce on managed WordPress hosting, year two onwards drops to around Â£600/year with no design costs. Shopify remains at Â£375/year plus transaction fees.
 
 ## Which One Should You Choose?
 
@@ -1442,13 +1442,13 @@ Choose **WooCommerce** if:
 
 ## The Middle Ground
 
-If WooCommerce sounds right but you don't want the technical responsibility, [managed WordPress hosting](/managed-wordpress-hosting) solves that problem. We handle hosting, security, updates, backups, and performance — so you get WooCommerce's flexibility without the maintenance burden.
+If WooCommerce sounds right but you don't want the technical responsibility, [managed WordPress hosting](/managed-wordpress-hosting/) solves that problem. We handle hosting, security, updates, backups, and performance â€” so you get WooCommerce's flexibility without the maintenance burden.
 
 ## Need Help Building Your Online Store?
 
-Whether you choose Shopify or WooCommerce, [we can build your online store](/new-website) and set everything up properly. We work with both platforms and will give you honest advice about which is the right fit for your specific business.
+Whether you choose Shopify or WooCommerce, [we can build your online store](/new-website/) and set everything up properly. We work with both platforms and will give you honest advice about which is the right fit for your specific business.
 
-[Get in touch](/contact) for a free consultation about your ecommerce project.
+[Get in touch](/contact/) for a free consultation about your ecommerce project.
     `
   },
 ];

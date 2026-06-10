@@ -81,7 +81,7 @@ export default function CommonWordPressErrors() {
     <>
       <SEO
         title="Common WordPress Errors & How to Fix Them | UX Sites"
-        description="Common WordPress errors explained in plain English — white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
+        description="Common WordPress errors explained in plain English â€” white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
         url="https://uxsites.co.uk/common-wordpress-errors/"
         schema={[
           serviceSchema({
@@ -105,8 +105,8 @@ export default function CommonWordPressErrors() {
           tagline="Quick fixes for common issues"
           headline="Common WordPress Errors and How to Fix Them"
           subheadline="When a WordPress site breaks, it can be stressful. The good news is most issues fall into common categories. This guide explains the most common WordPress errors in plain English."
-          primaryCta={{ text: "Need Help Right Now?", href: "/contact" }}
-          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting" }}
+          primaryCta={{ text: "Need Help Right Now?", href: "/contact/" }}
+          secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}
           chips={["Troubleshooting", "DIY Fixes", "Error Codes", "WordPress Help", "Server Issues"]}
         />
 
@@ -201,7 +201,7 @@ export default function CommonWordPressErrors() {
                 If you've tried the steps above and the error persists, or if you're not comfortable making these changes yourself, that's what we're here for. Managed hosting clients never deal with this stuff alone  -  we handle it.
               </p>
               <Link
-                href="/managed-wordpress-hosting"
+                href="/managed-wordpress-hosting/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold hover:opacity-90 transition-opacity h-12"
               >
                 Learn About Managed Hosting
@@ -214,9 +214,9 @@ export default function CommonWordPressErrors() {
           title="Get WordPress support without the stress"
           description="Managed hosting clients never deal with these errors alone. We monitor, maintain, and fix issues before you even know they exist."
           buttonText="Get Managed Hosting"
-          buttonHref="/managed-wordpress-hosting"
+          buttonHref="/managed-wordpress-hosting/"
           secondaryButtonText="Contact Us"
-          secondaryButtonHref="/contact"
+          secondaryButtonHref="/contact/"
         />
 
         <RelatedPages
@@ -225,43 +225,43 @@ export default function CommonWordPressErrors() {
             {
               title: "Managed WordPress Hosting",
               description: "Never deal with server errors alone  -  we handle everything from monitoring to fixes.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Regular updates and maintenance to prevent errors before they happen.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Service"
             },
             {
               title: "Website Support & Care Plans",
               description: "Ongoing support and maintenance to keep your WordPress site healthy.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily backups mean you can always restore to a working state.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Related"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Proactive security to prevent errors caused by compromised sites.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Related"
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses — local help when you need it.",
-              href: "/wordpress-support-shropshire",
+              description: "Expert WordPress support for Shropshire businesses â€” local help when you need it.",
+              href: "/wordpress-support-shropshire/",
               tag: "Local"
             },
             {
               title: "WordPress Hosting Shropshire",
               description: "Local managed hosting with expert support for Shropshire businesses.",
-              href: "/wordpress-hosting-shropshire",
+              href: "/wordpress-hosting-shropshire/",
               tag: "Local"
             }
           ]}

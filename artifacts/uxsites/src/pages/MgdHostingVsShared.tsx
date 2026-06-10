@@ -40,8 +40,8 @@ const comparisonData = [
   },
   {
     feature: "Cost",
-    shared: "£3-£15/month introductory, then £10-£25/month on renewal. Extras quickly add up.",
-    managed: "£50/month fixed. Backups, security, updates, support  -  all included with no upsells.",
+    shared: "Â£3-Â£15/month introductory, then Â£10-Â£25/month on renewal. Extras quickly add up.",
+    managed: "Â£50/month fixed. Backups, security, updates, support  -  all included with no upsells.",
     verdict: "Depends  -  shared is cheaper upfront, managed is better value overall."
   }
 ];
@@ -50,12 +50,12 @@ const whyItMatters = [
   {
     icon: Timer,
     title: "Your Time Has Real Value",
-    description: "Managing WordPress yourself takes 2-4 hours per month on updates, checks, and maintenance. At a realistic hourly rate, that's £40-£120/month of your time  -  more than the cost of managed hosting."
+    description: "Managing WordPress yourself takes 2-4 hours per month on updates, checks, and maintenance. At a realistic hourly rate, that's Â£40-Â£120/month of your time  -  more than the cost of managed hosting."
   },
   {
     icon: Shield,
     title: "Risk Has a Cost Too",
-    description: "A hacked site costs an average of £200-£500 to clean. Lost business during downtime can be significantly more. Managed hosting reduces these risks dramatically."
+    description: "A hacked site costs an average of Â£200-Â£500 to clean. Lost business during downtime can be significantly more. Managed hosting reduces these risks dramatically."
   },
   {
     icon: DollarSign,
@@ -95,7 +95,7 @@ export default function MgdHostingVsShared() {
           tagline="Making the right choice"
           headline="Managed WordPress Hosting vs Shared Hosting"
           subheadline="Compare the benefits and drawbacks of managed hosting versus traditional shared hosting for your WordPress site."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact" }}
+          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
           secondaryCta={{ text: "Learn About Shared Hosting", href: "#comparison" }}
           chips={["Feature Comparison", "Cost Analysis", "Performance", "Security", "Support"]}
         />
@@ -197,12 +197,12 @@ export default function MgdHostingVsShared() {
                   </thead>
                   <tbody>
                     {[
-                      ["Monthly hosting fee", "£10-£25", "£50"],
-                      ["Security plugin (e.g. Wordfence)", "£0-£10/month", "Included"],
-                      ["Backup service (e.g. UpdraftPlus)", "£0-£5/month", "Included"],
-                      ["SSL certificate", "£0-£70/year", "Included"],
-                      ["Your time (2-4 hrs/month @ £25/hr)", "£50-£100/month", "£0"],
-                      ["Total monthly cost", "£60-£140/month", "£50/month"],
+                      ["Monthly hosting fee", "Â£10-Â£25", "Â£50"],
+                      ["Security plugin (e.g. Wordfence)", "Â£0-Â£10/month", "Included"],
+                      ["Backup service (e.g. UpdraftPlus)", "Â£0-Â£5/month", "Included"],
+                      ["SSL certificate", "Â£0-Â£70/year", "Included"],
+                      ["Your time (2-4 hrs/month @ Â£25/hr)", "Â£50-Â£100/month", "Â£0"],
+                      ["Total monthly cost", "Â£60-Â£140/month", "Â£50/month"],
                     ].map(([item, shared, managed], i) => (
                       <tr key={i} className="border-b border-border/50">
                         <td className="py-3 px-4 text-foreground font-medium">{item as string}</td>
@@ -215,7 +215,7 @@ export default function MgdHostingVsShared() {
               </div>
               <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
                 Shared hosting costs are estimates based on typical UK market prices. Your actual costs will vary. 
-                The time cost uses a conservative £25/hour  -  if your time is worth more, the managed option makes even more financial sense.
+                The time cost uses a conservative Â£25/hour  -  if your time is worth more, the managed option makes even more financial sense.
               </p>
             </div>
           </div>
@@ -245,11 +245,11 @@ export default function MgdHostingVsShared() {
 
         <CTABanner
           title="Ready for the managed difference?"
-          description="Stop managing your hosting and start focusing on your business. Managed WordPress hosting from £50/month  -  everything included."
+          description="Stop managing your hosting and start focusing on your business. Managed WordPress hosting from Â£50/month  -  everything included."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Full Details"
-          secondaryButtonHref="/managed-wordpress-hosting"
+          secondaryButtonHref="/managed-wordpress-hosting/"
         />
       </main>
     </>

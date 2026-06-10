@@ -29,19 +29,19 @@ export default function HomeBelowFold() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Tried &amp; Tested Across Multiple Industries</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We build bespoke WordPress sites for every type of business  —  from tradespeople and retailers to professional firms and community organisations.
+              We build bespoke WordPress sites for every type of business  â€”  from tradespeople and retailers to professional firms and community organisations.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {[
-              { icon: Wrench, title: "Trades & Construction", desc: "Builders, electricians, plumbers and more", href: "/websites-for-builders" },
-              { icon: Briefcase, title: "Professional Services", desc: "Solicitors, accountants, estate agents", href: "/websites-for-lawyers" },
-              { icon: Sparkles, title: "Beauty & Personal Care", desc: "Hair salons, nail bars, tattoo studios", href: "/websites-for-hairdressers" },
-              { icon: Coffee, title: "Food & Drink", desc: "Restaurants, cafes, takeaways, butchers", href: "/websites-for-restaurants" },
-              { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, jewellers, gardeners, cleaners", href: "/websites-for-retail-shops" },
-              { icon: Heart, title: "Community & Education", desc: "Schools, charities, nursing homes", href: "/websites-for-schools" },
-              { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers" },
-              { icon: Activity, title: "Health & Medical", desc: "Therapists, nursing homes, clinics", href: "/websites-for-nursing-homes" },
+              { icon: Wrench, title: "Trades & Construction", desc: "Builders, electricians, plumbers and more", href: "/websites-for-builders/" },
+              { icon: Briefcase, title: "Professional Services", desc: "Solicitors, accountants, estate agents", href: "/websites-for-lawyers/" },
+              { icon: Sparkles, title: "Beauty & Personal Care", desc: "Hair salons, nail bars, tattoo studios", href: "/websites-for-hairdressers/" },
+              { icon: Coffee, title: "Food & Drink", desc: "Restaurants, cafes, takeaways, butchers", href: "/websites-for-restaurants/" },
+              { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, jewellers, gardeners, cleaners", href: "/websites-for-retail-shops/" },
+              { icon: Heart, title: "Community & Education", desc: "Schools, charities, nursing homes", href: "/websites-for-schools/" },
+              { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers/" },
+              { icon: Activity, title: "Health & Medical", desc: "Therapists, nursing homes, clinics", href: "/websites-for-nursing-homes/" },
             ].map((cat, i) => {
               const Icon = cat.icon;
               return (
@@ -61,7 +61,7 @@ export default function HomeBelowFold() {
           </div>
           <div className="text-center mt-10">
             <a
-              href="/small-business-websites"
+              href="/small-business-websites/"
               className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
             >
               View all industries we serve <ArrowRight size={14} />
@@ -148,7 +148,7 @@ export default function HomeBelowFold() {
                   </div>
                   <div>
                     <div className="font-bold text-foreground">Zahrah Aullybocus</div>
-                    <div className="text-sm text-muted-foreground">Jan 5, 2026 · Google Review</div>
+                    <div className="text-sm text-muted-foreground">Jan 5, 2026 Â· Google Review</div>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export default function HomeBelowFold() {
         title="Ready to start your project?"
         description="Get in touch to discuss your website requirements. We'll provide a tailored quote based on your specific needs in Shropshire or nationwide."
         buttonText="Contact Us Today"
-        buttonHref="/contact"
+        buttonHref="/contact/"
       />
     </>
   );

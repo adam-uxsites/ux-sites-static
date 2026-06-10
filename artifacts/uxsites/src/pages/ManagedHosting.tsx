@@ -79,13 +79,13 @@ export default function ManagedHosting() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
-        description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support — 99.9% uptime. No tech headaches."
+        title="Managed WordPress Hosting from Â£50/mo | UX Sites Shropshire"
+        description="Managed WordPress hosting from Â£50/month with daily backups, 24/7 security, performance optimisation & expert support â€” 99.9% uptime. No tech headaches."
         url="https://uxsites.co.uk/managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting",
-            description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
+            description: "Fully managed WordPress hosting from Â£50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
             url: "https://uxsites.co.uk/managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -105,7 +105,7 @@ export default function ManagedHosting() {
             { question: "What counts as a 'content update request'?", answer: "Text changes, image swaps, updating contact details, changing opening hours, adding team members, updating service descriptions  -  the kind of things that should be straightforward to change. We're not talking about adding new sections or functionality; those would be quoted separately. But most routine content changes are covered." },
             { question: "What if my site gets hacked while I'm on managed hosting?", answer: "We monitor for security threats continuously and deal with the vast majority before they cause any damage. In the very unlikely event a site on our managed hosting is compromised, malware removal and full restoration from a clean backup is included at no additional cost." },
             { question: "Do you only host WordPress sites?", answer: "Yes  -  we specialise exclusively in WordPress. This lets us be genuinely expert at what we do rather than spreading thin across dozens of platforms. If your site isn't on WordPress, we'd likely recommend migrating it as part of any onboarding." },
-            { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you £100). There's no long-term lock-in beyond that." },
+            { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you Â£100). There's no long-term lock-in beyond that." },
             { question: "What happens to my site if I decide to leave?", answer: "You own your site completely. If you decide to move on, we'll provide you with a full export of your WordPress files and database to migrate wherever you like. We don't hold your site hostage." },
           ]),
         ]}
@@ -113,9 +113,9 @@ export default function ManagedHosting() {
       <main>
         <HeroBlock
           tagline="Everything included, nothing to worry about"
-          headline="Managed WordPress Hosting from £50/month"
+          headline="Managed WordPress Hosting from Â£50/month"
           subheadline="We handle the hosting, security, backups, performance, and updates  -  so you can focus entirely on running your business. Backed by 10+ years of UX and analytics expertise, not just server management. No technical knowledge required. No nasty surprises."
-          primaryCta={{ text: "Get Started", href: "/contact" }}
+          primaryCta={{ text: "Get Started", href: "/contact/" }}
           secondaryCta={{ text: "View Pricing", href: "#pricing" }}
           chips={["Daily Backups", "Security Monitoring", "GA4 Included", "30 Min Dev Time", "Expert Support", "UX & Analytics Backed"]}
         />
@@ -125,7 +125,7 @@ export default function ManagedHosting() {
             { number: "99.9%", label: "Uptime Commitment", sub: "Less than 9hrs downtime/year" },
             { number: "30", label: "Min Dev Time / Month", sub: "Content changes included" },
             { number: "24/7", label: "Security Monitoring", sub: "Continuous active scanning" },
-            { number: "£50", label: "Per Month", sub: "Or £500/year  -  save £100" }
+            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year  -  save Â£100" }
           ]}
         />
 
@@ -321,7 +321,7 @@ export default function ManagedHosting() {
             plans={[
               {
                 title: "Monthly",
-                price: "£50",
+                price: "Â£50",
                 period: "month",
                 description: "Flexible rolling plan  -  cancel any time with 30 days notice.",
                 features: [
@@ -341,9 +341,9 @@ export default function ManagedHosting() {
               },
               {
                 title: "Annual",
-                price: "£500",
+                price: "Â£500",
                 period: "year",
-                description: "Pay annually and save £100  -  equivalent to two months free.",
+                description: "Pay annually and save Â£100  -  equivalent to two months free.",
                 features: [
                   "Everything in Monthly, plus:",
                   "Free site migration from existing host",
@@ -423,19 +423,19 @@ export default function ManagedHosting() {
               name: "Managed WordPress Hosting",
               monthly: 50,
               annual: 500,
-              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
+              description: "Fully managed hosting, maintenance, security, and backups  â€”  everything your WordPress site needs to stay secure, fast, and online.",
               features: [
                 "Managed WordPress hosting on high-performance servers",
                 "Daily automated off-site backups (30-day retention)",
                 "Security monitoring & malware protection",
                 "WordPress core, plugin & theme updates",
                 "Performance monitoring & optimisation",
-                "SSL certificate  —  included, auto-renewed",
+                "SSL certificate  â€”  included, auto-renewed",
                 "Uptime monitoring every minute",
                 "30 minutes monthly development time",
                 "Expert email & plugin support"
               ],
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               ctaText: "View Managed Hosting",
               highlighted: true
             },
@@ -448,11 +448,11 @@ export default function ManagedHosting() {
                 "Everything in Managed Hosting",
                 "4 hours development & support monthly",
                 "Proactive website improvements",
-                "Priority support  —  faster response",
+                "Priority support  â€”  faster response",
                 "Technical consultation included",
                 "Ongoing website optimisation"
               ],
-              href: "/wordpress-care-plan",
+              href: "/wordpress-care-plan/",
               ctaText: "View Care Plan"
             },
             {
@@ -469,11 +469,11 @@ export default function ManagedHosting() {
                 "Integrations & digital tools support",
                 "Ongoing strategic technical guidance"
               ],
-              href: "/wordpress-care-plan-pro",
+              href: "/wordpress-care-plan-pro/",
               ctaText: "View Care Plan Pro"
             }
           ]}
-          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  â€”  save 2 months per year."
         />
 
         {/* Downtime risk calculator link */}
@@ -485,7 +485,7 @@ export default function ManagedHosting() {
                 Even a few hours of downtime can mean lost revenue and damaged reputation. Use our <strong className="text-foreground">downtime and hack cost calculator</strong> to see what your site is really worth protecting  -  and compare it with the cost of managed hosting.
               </p>
               <Link
-                href="/downtime-hack-calculator"
+                href="/downtime-hack-calculator/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold shadow hover:opacity-90 transition-opacity h-12"
               >
                 Calculate Your Risk
@@ -498,7 +498,7 @@ export default function ManagedHosting() {
         <section className="section-padding-lg bg-background">
           <div className="section-wrap">
             <div className="section-header">
-              <h2 className="heading-section mb-4">More Than Just Hosting — Backed by UX & Analytics Expertise</h2>
+              <h2 className="heading-section mb-4">More Than Just Hosting â€” Backed by UX & Analytics Expertise</h2>
               <p className="subhead-section">
                 Most hosting companies just keep your site online. What sets us apart is the depth of experience behind it.
               </p>
@@ -507,7 +507,7 @@ export default function ManagedHosting() {
               {[
                 {
                   title: "Google Analytics 4 Included",
-                  description: "Every managed hosting plan includes proper GA4 setup with goal and conversion tracking — not just a tracking code pasted in. You get data you can actually use."
+                  description: "Every managed hosting plan includes proper GA4 setup with goal and conversion tracking â€” not just a tracking code pasted in. You get data you can actually use."
                 },
                 {
                   title: "UX-Driven Development Time",
@@ -519,7 +519,7 @@ export default function ManagedHosting() {
                 },
                 {
                   title: "10+ Years of UX Analysis",
-                  description: "Before UX Sites, we worked as UX analysts — running user testing sessions, analysing behaviour data, and optimising conversion funnels. That experience shapes how we manage and improve every site."
+                  description: "Before UX Sites, we worked as UX analysts â€” running user testing sessions, analysing behaviour data, and optimising conversion funnels. That experience shapes how we manage and improve every site."
                 }
               ].map((item, i) => (
                 <motion.div
@@ -566,7 +566,7 @@ export default function ManagedHosting() {
             },
             {
               question: "Is there a setup fee or minimum contract?",
-              answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you £100). There's no long-term lock-in beyond that."
+              answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you Â£100). There's no long-term lock-in beyond that."
             },
             {
               question: "What happens to my site if I decide to leave?",
@@ -579,9 +579,9 @@ export default function ManagedHosting() {
           title="Ready for hassle-free hosting?"
           description="Join businesses across Shropshire and the UK who trust UX Sites to keep their websites secure, fast, and online. Get in touch and we'll talk through what makes sense for your situation."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="Ask a Question"
-          secondaryButtonHref="/contact"
+          secondaryButtonHref="/contact/"
         />
 
         <RelatedPages
@@ -589,50 +589,50 @@ export default function ManagedHosting() {
           pages={[
             {
               title: "WordPress Care Plan",
-              description: "Managed hosting plus 4 hours monthly development, proactive improvements, and priority support from £250/month.",
-              href: "/wordpress-care-plan",
-              tag: "£250/mo"
+              description: "Managed hosting plus 4 hours monthly development, proactive improvements, and priority support from Â£250/month.",
+              href: "/wordpress-care-plan/",
+              tag: "Â£250/mo"
             },
             {
               title: "WordPress Care Plan Pro",
-              description: "Increased development capacity, conversion optimisation, and integration support from £500/month.",
-              href: "/wordpress-care-plan-pro",
-              tag: "£500/mo"
+              description: "Increased development capacity, conversion optimisation, and integration support from Â£500/month.",
+              href: "/wordpress-care-plan-pro/",
+              tag: "Â£500/mo"
             },
             {
               title: "Managed Hosting for Shropshire Businesses",
               description: "Local expertise with enterprise reliability  -  tailored specifically for Shropshire businesses.",
-              href: "/wordpress-hosting-shropshire",
+              href: "/wordpress-hosting-shropshire/",
               tag: "Local"
             },
             {
               title: "WordPress Security Monitoring",
               description: "How we actively protect your site from hacks, malware, and vulnerabilities  -  24/7.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily off-site backups with 30-day retention  -  and rapid restoration when needed.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Backups"
             },
             {
               title: "Why Managed Hosting Matters",
               description: "The real cost comparison between cheap hosting and managed  -  the numbers might surprise you.",
-              href: "/blog/why-managed-wordpress-hosting",
+              href: "/blog/why-managed-wordpress-hosting/",
               tag: "Blog"
             },
             {
               title: "Google Analytics 4 Setup",
-              description: "GA4 setup, troubleshooting, and custom reporting — included with every managed hosting plan.",
-              href: "/google-analytics-setup",
+              description: "GA4 setup, troubleshooting, and custom reporting â€” included with every managed hosting plan.",
+              href: "/google-analytics-setup/",
               tag: "Service"
             },
             {
               title: "Conversion Tracking Setup",
               description: "Professional conversion tracking for Google Ads, forms, and phone calls.",
-              href: "/conversion-tracking-setup",
+              href: "/conversion-tracking-setup/",
               tag: "Service"
             }
           ]}

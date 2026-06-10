@@ -15,7 +15,7 @@ export default function SmallBusinessWebsites() {
     <>
       <SEO
         title="Websites for Small Businesses | UX Sites Shropshire"
-        description="Professional small business websites that actually generate enquiries — custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
+        description="Professional small business websites that actually generate enquiries â€” custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
         url="https://uxsites.co.uk/small-business-websites/"
         schema={[
           serviceSchema({
@@ -36,9 +36,9 @@ export default function SmallBusinessWebsites() {
           tagline="Built for small businesses that mean business"
           headline="Websites That Work as Hard as You Do"
           subheadline="Small businesses deserve professional websites  -  not cheap templates that look like every competitor. We build bespoke WordPress sites for small and medium businesses that generate real enquiries, build genuine credibility, and are easy to manage yourself."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See What's Included", href: "#included" }}
-          chips={["From £1,500", "No Templates", "Conversion Focused", "Easy to Manage", "Mobile First"]}
+          chips={["From Â£1,500", "No Templates", "Conversion Focused", "Easy to Manage", "Mobile First"]}
         />
 
         {/* Problem framing */}
@@ -106,9 +106,9 @@ export default function SmallBusinessWebsites() {
                 </p>
                 <p className="text-muted-foreground text-sm mb-6">
                   Want to know how SEO helps small businesses get found? Read our{" "}
-                  <a href="/blog/small-business-seo-guide" className="text-primary font-bold hover:underline">small business SEO guide</a>.
+                  <a href="/blog/small-business-seo-guide/" className="text-primary font-bold hover:underline">small business SEO guide</a>.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -157,12 +157,12 @@ export default function SmallBusinessWebsites() {
                   We don't publish fixed prices because every small business has different needs  -  the number of pages, whether you need ecommerce, how much content creation support you need.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  What we can tell you: most small business websites we build are in the range of <strong className="text-foreground">£1,500-£4,000</strong>, depending on scope. We quote accurately before starting, and there are no surprise add-ons at the end.
+                  What we can tell you: most small business websites we build are in the range of <strong className="text-foreground">Â£1,500-Â£4,000</strong>, depending on scope. We quote accurately before starting, and there are no surprise add-ons at the end.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  After launch, ongoing hosting and maintenance is available from <strong className="text-foreground">£50/month</strong>  -  covering everything so you never have to worry about the technical side.
+                  After launch, ongoing hosting and maintenance is available from <strong className="text-foreground">Â£50/month</strong>  -  covering everything so you never have to worry about the technical side.
                 </p>
-                <Link href="/contact" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/contact/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   Get a free quote
                 </Link>
               </div>
@@ -177,15 +177,15 @@ export default function SmallBusinessWebsites() {
                     <div className="flex justify-between"><span>Analytics setup</span><span>Included</span></div>
                     <div className="flex justify-between"><span>Contact form</span><span>Included</span></div>
                     <div className="flex justify-between"><span>Training session</span><span>Included</span></div>
-                    <div className="flex justify-between border-t border-border pt-2 mt-2 font-bold text-foreground"><span>Starting from</span><span>£1,500</span></div>
+                    <div className="flex justify-between border-t border-border pt-2 mt-2 font-bold text-foreground"><span>Starting from</span><span>Â£1,500</span></div>
                   </div>
                 </div>
                 <div className="p-6 bg-background border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">Ongoing (Optional)</h3>
                   <div className="space-y-2 text-sm text-muted-foreground">
-                    <div className="flex justify-between"><span>Managed hosting + support</span><span>£50/month</span></div>
-                    <div className="flex justify-between"><span>Annual plan (save £100)</span><span>£500/year</span></div>
-                    <div className="flex justify-between"><span>Domain registration (.co.uk)</span><span>~£12/year</span></div>
+                    <div className="flex justify-between"><span>Managed hosting + support</span><span>Â£50/month</span></div>
+                    <div className="flex justify-between"><span>Annual plan (save Â£100)</span><span>Â£500/year</span></div>
+                    <div className="flex justify-between"><span>Domain registration (.co.uk)</span><span>~Â£12/year</span></div>
                   </div>
                 </div>
               </div>
@@ -231,7 +231,7 @@ export default function SmallBusinessWebsites() {
               answer: "You'll need to provide the core information about your business. We structure and present it effectively. If you need copywriting support, we can discuss that as part of the project."
             },
             {
-              question: "What's included in the £50/month hosting?",
+              question: "What's included in the Â£50/month hosting?",
               answer: "Everything: hosting, SSL, daily backups, security monitoring, WordPress updates, performance optimisation, and content update requests. Full details on our managed hosting page."
             }
           ]}
@@ -243,18 +243,18 @@ export default function SmallBusinessWebsites() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Websites by Industry</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Our small business websites are tailored to your specific trade or profession  —  not generic templates.
+                Our small business websites are tailored to your specific trade or profession  â€”  not generic templates.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
               {[
-                { icon: Wrench, title: "Trades & Construction", desc: "Builders, electricians, plumbers", href: "/websites-for-builders" },
-                { icon: Briefcase, title: "Professional Services", desc: "Solicitors, accountants, agents", href: "/websites-for-lawyers" },
-                { icon: Sparkles, title: "Beauty & Personal Care", desc: "Hair salons, nail bars, tattoos", href: "/websites-for-hairdressers" },
-                { icon: Coffee, title: "Food & Drink", desc: "Restaurants, cafes, takeaways", href: "/websites-for-restaurants" },
-                { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, gardeners, cleaners", href: "/websites-for-retail-shops" },
-                { icon: Heart, title: "Community & Education", desc: "Schools, charities, care homes", href: "/websites-for-schools" },
-                { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers" },
+                { icon: Wrench, title: "Trades & Construction", desc: "Builders, electricians, plumbers", href: "/websites-for-builders/" },
+                { icon: Briefcase, title: "Professional Services", desc: "Solicitors, accountants, agents", href: "/websites-for-lawyers/" },
+                { icon: Sparkles, title: "Beauty & Personal Care", desc: "Hair salons, nail bars, tattoos", href: "/websites-for-hairdressers/" },
+                { icon: Coffee, title: "Food & Drink", desc: "Restaurants, cafes, takeaways", href: "/websites-for-restaurants/" },
+                { icon: ShoppingBag, title: "Retail & Home", desc: "Shops, gardeners, cleaners", href: "/websites-for-retail-shops/" },
+                { icon: Heart, title: "Community & Education", desc: "Schools, charities, care homes", href: "/websites-for-schools/" },
+                { icon: Building2, title: "Business & Tech", desc: "Developers, manufacturers, SMEs", href: "/websites-for-developers/" },
               ].map((cat, i) => {
                 const Icon = cat.icon;
                 return (
@@ -281,9 +281,9 @@ export default function SmallBusinessWebsites() {
           title="Let's build your small business a website that works"
           description="Get a free, no-obligation quote. We'll talk through what you need, what it involves, and what it'll cost  -  no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -292,37 +292,37 @@ export default function SmallBusinessWebsites() {
             {
               title: "New Website Design & Build",
               description: "Full details of our website design and development process  -  from first conversation to launch.",
-              href: "/new-website",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Web Design Shropshire",
               description: "Local web design for Shropshire businesses  -  in-person meetings available.",
-              href: "/web-design-shropshire",
+              href: "/web-design-shropshire/",
               tag: "Related"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Keep your new site secure and fast with managed hosting from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Keep your new site secure and fast with managed hosting from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "Website Refreshes & Rebuilds",
               description: "Already have a site that isn't performing? We modernise and improve existing websites.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Service"
             },
             {
               title: "5 Signs Your Website Needs a Rebuild",
               description: "How to know when your current website is costing your business more than it's worth.",
-              href: "/blog/5-signs-your-website-needs-a-rebuild",
+              href: "/blog/5-signs-your-website-needs-a-rebuild/",
               tag: "Blog"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Post-launch: keep your site updated, secure, and running smoothly.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Related"
             }
           ]}

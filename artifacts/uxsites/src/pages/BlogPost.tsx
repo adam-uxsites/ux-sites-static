@@ -164,7 +164,7 @@ export default function BlogPost() {
           <div className="container mx-auto px-4 max-w-3xl">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
               <Link
-                href="/blog"
+                href="/blog/"
                 data-testid="back-to-blog"
                 className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-10"
               >
@@ -228,7 +228,7 @@ export default function BlogPost() {
               <nav className="mt-16 pt-8 border-t border-border grid grid-cols-2 gap-6">
                 {prevPost ? (
                   <Link
-                    href={`/blog/${prevPost.slug}`}
+                    href={`/blog/${prevPost.slug}/`}
                     data-testid="prev-post"
                     className="group flex flex-col gap-2 p-5 rounded-xl bg-card border border-border hover:border-foreground/20 transition-colors"
                   >
@@ -242,7 +242,7 @@ export default function BlogPost() {
                 ) : <div />}
                 {nextPost ? (
                   <Link
-                    href={`/blog/${nextPost.slug}`}
+                    href={`/blog/${nextPost.slug}/`}
                     data-testid="next-post"
                     className="group flex flex-col gap-2 p-5 rounded-xl bg-card border border-border hover:border-foreground/20 transition-colors text-right"
                   >
@@ -263,7 +263,7 @@ export default function BlogPost() {
           title="Need help with your website?"
           description="Whether it's hosting, a new build, or a quick question  -  get in touch and we'll give you a straight answer."
           buttonText="Get in Touch"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

@@ -36,8 +36,8 @@ export default function WebsiteSupport() {
   return (
     <>
       <SEO
-        title="WordPress Care & Support from £50/mo | UX Sites Shropshire"
-        description="Keep your WordPress site secure, updated & running smoothly — updates, backups, security monitoring & expert support from £50/month."
+        title="WordPress Care & Support from Â£50/mo | UX Sites Shropshire"
+        description="Keep your WordPress site secure, updated & running smoothly â€” updates, backups, security monitoring & expert support from Â£50/month."
         url="https://uxsites.co.uk/website-support/"
         schema={[
           serviceSchema({
@@ -79,8 +79,8 @@ export default function WebsiteSupport() {
           tagline="Protect your digital investment"
           headline="WordPress Support & Website Care Plans"
           subheadline="Your website is a business asset  -  it needs ongoing attention to stay secure, current, and performing well. Our care plans ensure you're never left dealing with a hacked, broken, or outdated site."
-          primaryCta={{ text: "Discuss a Care Plan", href: "/contact" }}
-          secondaryCta={{ text: "View Hosting Plans", href: "/managed-wordpress-hosting" }}
+          primaryCta={{ text: "Discuss a Care Plan", href: "/contact/" }}
+          secondaryCta={{ text: "View Hosting Plans", href: "/managed-wordpress-hosting/" }}
           chips={["Security Monitoring", "Plugin Updates", "Daily Backups", "Uptime Monitoring", "Content Updates"]}
         />
 
@@ -244,7 +244,7 @@ export default function WebsiteSupport() {
           title="Give your website the attention it deserves"
           description="A properly maintained WordPress site is more secure, faster, and more effective. Get in touch to discuss a care plan for your business."
           buttonText="Discuss a Care Plan"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
 
         <RelatedPages
@@ -253,43 +253,43 @@ export default function WebsiteSupport() {
             {
               title: "WordPress Maintenance Service",
               description: "Careful updates, database optimisation, plugin audits, and monthly health reporting.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Maintenance"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Active malware scanning, vulnerability monitoring, and brute-force protection.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Security"
             },
             {
               title: "WordPress Backup & Recovery",
               description: "Daily off-site backups with 30-day retention and restoration within the hour.",
-              href: "/wordpress-backup-recovery",
+              href: "/wordpress-backup-recovery/",
               tag: "Backups"
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + care + support in a single plan  -  from £50/month.",
-              href: "/managed-wordpress-hosting",
+              description: "Hosting + care + support in a single plan  -  from Â£50/month.",
+              href: "/managed-wordpress-hosting/",
               tag: "Hosting"
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
-              href: "/wordpress-support-shropshire",
+              description: "Expert WordPress support for Shropshire businesses â€” local, reliable, responsive.",
+              href: "/wordpress-support-shropshire/",
               tag: "Local"
             },
             {
               title: "Website Speed Optimisation",
               description: "Performance monitoring and Core Web Vitals improvements  -  included in care plans.",
-              href: "/website-speed-optimisation",
+              href: "/website-speed-optimisation/",
               tag: "Performance"
             },
             {
               title: "WordPress Security Essentials",
               description: "A practical guide to what actually keeps a WordPress site secure.",
-              href: "/blog/wordpress-security-essentials",
+              href: "/blog/wordpress-security-essentials/",
               tag: "Blog"
             }
           ]}

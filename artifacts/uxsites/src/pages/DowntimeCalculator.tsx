@@ -7,7 +7,7 @@ import { breadcrumbSchema, serviceSchema } from "@/lib/schemas";
 import { Calculator, TriangleAlert, TrendingDown, ShieldCheck, Info } from "lucide-react";
 
 function formatCurrency(n: number): string {
-  return "£" + n.toLocaleString("en-GB", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+  return "Â£" + n.toLocaleString("en-GB", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 }
 
 export default function DowntimeCalculator() {
@@ -93,8 +93,8 @@ export default function DowntimeCalculator() {
                         className="w-full h-2 rounded-full appearance-none cursor-pointer bg-muted accent-primary"
                       />
                       <div className="flex justify-between text-sm text-muted-foreground mt-1">
-                        <span>£500</span>
-                        <span>£100k</span>
+                        <span>Â£500</span>
+                        <span>Â£100k</span>
                       </div>
                     </div>
 
@@ -137,12 +137,12 @@ export default function DowntimeCalculator() {
                         className="w-full h-2 rounded-full appearance-none cursor-pointer bg-muted accent-primary"
                       />
                       <div className="flex justify-between text-sm text-muted-foreground mt-1">
-                        <span>£250</span>
-                        <span>£10k</span>
+                        <span>Â£250</span>
+                        <span>Â£10k</span>
                       </div>
                       <p className="text-sm text-muted-foreground mt-2 flex items-start gap-1.5">
                         <Info size={12} className="shrink-0 mt-0.5" />
-                        Typical cleanup and recovery ranges from £500 to £3,000 depending on severity.
+                        Typical cleanup and recovery ranges from Â£500 to Â£3,000 depending on severity.
                       </p>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ export default function DowntimeCalculator() {
                         </div>
                       )}
                       <Link
-                        href="/contact"
+                        href="/contact/"
                         className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-2.5 text-sm font-bold shadow hover:opacity-90 transition-opacity mt-4"
                       >
                         Talk to Us About Managed Hosting
@@ -239,15 +239,15 @@ export default function DowntimeCalculator() {
               {[
                 {
                   title: "Downtime Costs Real Revenue",
-                  description: "Every hour your site is down, you lose potential sales, enquiries, and credibility. For an e-commerce site generating £10k/month, 24 hours of downtime could cost over £300 in immediate lost revenue  -  not including future lost business from frustrated visitors."
+                  description: "Every hour your site is down, you lose potential sales, enquiries, and credibility. For an e-commerce site generating Â£10k/month, 24 hours of downtime could cost over Â£300 in immediate lost revenue  -  not including future lost business from frustrated visitors."
                 },
                 {
                   title: "Hack Recovery Is Expensive",
-                  description: "Cleaning a hacked WordPress site costs £500-£3,000 on average, with many small businesses forced to rebuild entirely. Managed hosting prevents the vast majority of attacks and includes cleanup if the worst happens."
+                  description: "Cleaning a hacked WordPress site costs Â£500-Â£3,000 on average, with many small businesses forced to rebuild entirely. Managed hosting prevents the vast majority of attacks and includes cleanup if the worst happens."
                 },
                 {
                   title: "Prevention Beats Cure Every Time",
-                  description: "At £50/month, managed hosting costs less than a single hour of emergency development time. You're not just paying for server space  -  you're buying protection, performance, and someone who knows your site."
+                  description: "At Â£50/month, managed hosting costs less than a single hour of emergency development time. You're not just paying for server space  -  you're buying protection, performance, and someone who knows your site."
                 }
               ].map((item, i) => (
                 <motion.div
@@ -270,7 +270,7 @@ export default function DowntimeCalculator() {
           title="Ready to Stop Worrying About Your Website?"
           description="Get managed hosting that includes security, backups, updates, performance, and support  -  all for one fixed monthly price. No surprises, no hidden costs."
           buttonText="Get Started"
-          buttonHref="/contact"
+          buttonHref="/contact/"
         />
       </main>
     </>

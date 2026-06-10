@@ -14,15 +14,15 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 const painPoints = [
   {
     title: "Your craftsmanship needs to be seen",
-    description: "Joinery is about precision and quality. A website with high-quality photos of your work — kitchens, staircases, built-in furniture, windows, doors — lets potential customers judge your skill before they call."
+    description: "Joinery is about precision and quality. A website with high-quality photos of your work â€” kitchens, staircases, built-in furniture, windows, doors â€” lets potential customers judge your skill before they call."
   },
   {
-    title: "Customers pay for quality — your site should reflect that",
+    title: "Customers pay for quality â€” your site should reflect that",
     description: "Joinery customers are often investing in high-end work for their home. Your website needs to feel as premium as the work you produce. A template site won't do justice to your craft."
   },
   {
     title: "Gallery variety shows your range",
-    description: "From kitchen fitting to bespoke furniture, staircases to garden structures — showing the breadth of your work helps customers understand everything you can do for them."
+    description: "From kitchen fitting to bespoke furniture, staircases to garden structures â€” showing the breadth of your work helps customers understand everything you can do for them."
   },
   {
     title: "Local reputation needs online backing",
@@ -35,17 +35,17 @@ const painPoints = [
 ];
 
 const serviceAreas = [
-  { name: "Oswestry", href: "/wordpress-hosting-oswestry" },
-  { name: "St. Martins", href: "/wordpress-hosting-st-martins" },
-  { name: "Chirk", href: "/wordpress-hosting-chirk" },
-  { name: "Gobowen", href: "/wordpress-hosting-gobowen" },
-  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury" },
-  { name: "Wrexham", href: "/wordpress-hosting-wrexham" },
-  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere" },
-  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch" },
-  { name: "Llangollen", href: "/wordpress-hosting-llangollen" },
-  { name: "Welshpool", href: "/wordpress-hosting-welshpool" },
-  { name: "Ruabon", href: "/wordpress-hosting-ruabon" }
+  { name: "Oswestry", href: "/wordpress-hosting-oswestry/" },
+  { name: "St. Martins", href: "/wordpress-hosting-st-martins/" },
+  { name: "Chirk", href: "/wordpress-hosting-chirk/" },
+  { name: "Gobowen", href: "/wordpress-hosting-gobowen/" },
+  { name: "Shrewsbury", href: "/wordpress-hosting-shrewsbury/" },
+  { name: "Wrexham", href: "/wordpress-hosting-wrexham/" },
+  { name: "Ellesmere", href: "/wordpress-hosting-ellesmere/" },
+  { name: "Whitchurch", href: "/wordpress-hosting-whitchurch/" },
+  { name: "Llangollen", href: "/wordpress-hosting-llangollen/" },
+  { name: "Welshpool", href: "/wordpress-hosting-welshpool/" },
+  { name: "Ruabon", href: "/wordpress-hosting-ruabon/" }
 ];
 
 export default function WebsitesForJoiners() {
@@ -68,8 +68,8 @@ export default function WebsitesForJoiners() {
           ]),
           faqSchema([
             {
-              question: "I spend my days in the workshop — who manages my website?",
-              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
+              question: "I spend my days in the workshop â€” who manages my website?",
+              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
               question: "Do you build sites that work well for showing joinery work?",
@@ -77,7 +77,7 @@ export default function WebsitesForJoiners() {
             },
             {
               question: "How much does a joiner's website cost?",
-              answer: "New websites start from £1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
+              answer: "New websites start from Â£1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
             },
             {
               question: "Can I update my own portfolio when I finish new projects?",
@@ -90,9 +90,9 @@ export default function WebsitesForJoiners() {
         <HeroBlock
           tagline="Joinery trade websites"
           headline="Websites for Joiners and Carpenters"
-          subheadline="Your work is built on quality and precision — your website should reflect the same standard. We build beautiful portfolio sites that showcase your craftsmanship and help you win bespoke projects."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          subheadline="Your work is built on quality and precision â€” your website should reflect the same standard. We build beautiful portfolio sites that showcase your craftsmanship and help you win bespoke projects."
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Portfolio Driven", "Craftsmanship Focus", "Mobile First", "Local SEO", "Ongoing Support"]}
         />
 
@@ -136,7 +136,7 @@ export default function WebsitesForJoiners() {
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   Whether you specialise in kitchens, staircases, furniture, or bespoke joinery, we structure your site to show your work at its best and make it easy for customers to enquire.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -147,7 +147,7 @@ export default function WebsitesForJoiners() {
                   "About page telling your story and approach",
                   "Customer testimonials linked to specific projects",
                   "Service area pages for local SEO",
-                  "Contact and enquiry forms — simple and mobile-friendly"
+                  "Contact and enquiry forms â€” simple and mobile-friendly"
                 ].map((item, i) => (
                   <motion.div
                     key={i}
@@ -169,7 +169,7 @@ export default function WebsitesForJoiners() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -219,11 +219,11 @@ export default function WebsitesForJoiners() {
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { name: "Builder Websites", href: "/websites-for-builders", desc: "Professional websites for builders and construction companies." },
-                { name: "Decorator Websites", href: "/websites-for-decorators", desc: "Painting and decorating websites that showcase your finish." },
-                { name: "Electrician Websites", href: "/websites-for-electricians", desc: "Websites for electrical contractors and businesses." },
-                { name: "Plumber Websites", href: "/websites-for-plumbers", desc: "Websites for plumbing and heating engineers." },
-                { name: "Roofer Websites", href: "/websites-for-roofers", desc: "Professional roofing company websites." }
+                { name: "Builder Websites", href: "/websites-for-builders/", desc: "Professional websites for builders and construction companies." },
+                { name: "Decorator Websites", href: "/websites-for-decorators/", desc: "Painting and decorating websites that showcase your finish." },
+                { name: "Electrician Websites", href: "/websites-for-electricians/", desc: "Websites for electrical contractors and businesses." },
+                { name: "Plumber Websites", href: "/websites-for-plumbers/", desc: "Websites for plumbing and heating engineers." },
+                { name: "Roofer Websites", href: "/websites-for-roofers/", desc: "Professional roofing company websites." }
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -251,12 +251,12 @@ export default function WebsitesForJoiners() {
 
         <BenefitsGrid
           title="How We Help Your Joinery Business"
-          subtitle="Beyond the website — we keep your online presence running smoothly."
+          subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
-            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your craftsmanship and help you win more bespoke projects." },
+            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
+            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your craftsmanship and help you win more bespoke projects." },
             { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with better galleries, modern layout, and improved local SEO." },
-            { title: "Portfolio Content Updates", description: "We can add new project photos and descriptions as you complete work — keeping your portfolio fresh without you touching the website." }
+            { title: "Portfolio Content Updates", description: "We can add new project photos and descriptions as you complete work â€” keeping your portfolio fresh without you touching the website." }
 
 
           ]}
@@ -265,8 +265,8 @@ export default function WebsitesForJoiners() {
         <FAQBlock
           faqs={[
             {
-              question: "I spend my days in the workshop — who manages my website?",
-              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
+              question: "I spend my days in the workshop â€” who manages my website?",
+              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
               question: "Do you build sites that work well for showing joinery work?",
@@ -274,14 +274,14 @@ export default function WebsitesForJoiners() {
             },
             {
               question: "How much does a joiner's website cost?",
-              answer: "New websites start from £1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
+              answer: "New websites start from Â£1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
             },
             {
               question: "Can I update my own portfolio when I finish new projects?",
               answer: "Yes. We build on WordPress so you can easily add new photos and project descriptions. We'll show you how during handover, and we're always here if you need a hand."
             },
             {
-              question: "I'm starting my own joinery business — is a website worth it?",
+              question: "I'm starting my own joinery business â€” is a website worth it?",
               answer: "A professional website helps you look established and credible from day one. Even a focused site with a few project photos helps win your first customers and builds confidence in your work."
             }
 
@@ -294,7 +294,7 @@ export default function WebsitesForJoiners() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "£50", label: "Per Month Managed Hosting" }
+            { number: "Â£50", label: "Per Month Managed Hosting" }
 
 
           ]}
@@ -302,11 +302,11 @@ export default function WebsitesForJoiners() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -315,43 +315,43 @@ export default function WebsitesForJoiners() {
             {
               title: "Websites for Builders",
               description: "Professional websites for builders and construction companies.",
-              href: "/websites-for-builders",
+              href: "/websites-for-builders/",
               tag: "Trade"
             },
             {
               title: "Websites for Decorators",
               description: "Painting and decorating websites that showcase your finish.",
-              href: "/websites-for-decorators",
+              href: "/websites-for-decorators/",
               tag: "Trade"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Full details of our managed hosting plans with daily backups and expert support.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process — from first conversation to launch.",
-              href: "/new-website",
+              description: "Our full website design and development process â€” from first conversation to launch.",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Small Business Websites",
               description: "Affordable websites for small businesses and sole traders.",
-              href: "/small-business-websites",
+              href: "/small-business-websites/",
               tag: "Service"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }          ]}
         />

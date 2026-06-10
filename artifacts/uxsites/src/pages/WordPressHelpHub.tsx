@@ -14,7 +14,7 @@ const guides = [
   {
     title: "How to Fix a Slow WordPress Website",
     description: "Step-by-step guide to diagnose and fix slow WordPress loading times. Includes image optimization, caching, and database cleanup.",
-    href: "/wordpress-help/wordpress-slow",
+    href: "/wordpress-help/wordpress-slow/",
     tag: "Performance",
     readTime: "10 min read",
     icon: Zap,
@@ -22,7 +22,7 @@ const guides = [
   {
     title: "What to Do If a WordPress Update Breaks Your Site",
     description: "Emergency recovery guide for when WordPress updates break your site. Rollback, backup restoration, and conflict resolution steps.",
-    href: "/wordpress-help/wordpress-update-issues",
+    href: "/wordpress-help/wordpress-update-issues/",
     tag: "Troubleshooting",
     readTime: "8 min read",
     icon: Wrench,
@@ -30,7 +30,7 @@ const guides = [
   {
     title: "How to Secure a WordPress Website",
     description: "Essential WordPress security measures  -  strong passwords, updates, security plugins, and more. Protect your site from hackers.",
-    href: "/wordpress-help/wordpress-security",
+    href: "/wordpress-help/wordpress-security/",
     tag: "Security",
     readTime: "12 min read",
     icon: Shield,
@@ -38,7 +38,7 @@ const guides = [
   {
     title: "Why WordPress Websites Get Hacked",
     description: "Understanding common WordPress attack vectors including outdated software, weak passwords, and vulnerable plugins. Learn prevention methods.",
-    href: "/wordpress-help/wordpress-hacked",
+    href: "/wordpress-help/wordpress-hacked/",
     tag: "Prevention",
     readTime: "15 min read",
     icon: AlertTriangle,
@@ -46,7 +46,7 @@ const guides = [
   {
     title: "WordPress Maintenance Checklist",
     description: "Complete WordPress maintenance checklist for small businesses. Daily, weekly, monthly, quarterly, and annual tasks to keep your site healthy.",
-    href: "/wordpress-help/wordpress-maintenance",
+    href: "/wordpress-help/wordpress-maintenance/",
     tag: "Maintenance",
     readTime: "18 min read",
     icon: CheckCircle,
@@ -221,9 +221,9 @@ export default function WordPressHelpHub() {
           title="Need hands-on WordPress help?"
           description="Not sure where to start? We provide professional WordPress support, maintenance, and security services  -  so you don't have to figure it all out alone."
           buttonText="Get WordPress Support"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View Our Services"
-          secondaryButtonHref="/website-support"
+          secondaryButtonHref="/website-support/"
         />
 
         <RelatedPages
@@ -232,25 +232,25 @@ export default function WordPressHelpHub() {
             {
               title: "Website Support & Care Plans",
               description: "Ongoing WordPress support, maintenance, and monitoring  -  handled for you.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Service"
             },
             {
               title: "WordPress Maintenance Service",
               description: "Regular updates, backups, security scans, and performance optimisation.",
-              href: "/wordpress-maintenance",
+              href: "/wordpress-maintenance/",
               tag: "Service"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Active protection against hacks, malware, and vulnerabilities.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Hosting with built-in maintenance, security, and expert support.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
           ]}

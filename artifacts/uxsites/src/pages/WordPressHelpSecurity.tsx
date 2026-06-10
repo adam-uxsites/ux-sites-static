@@ -119,8 +119,8 @@ export default function WordPressHelpSecurity() {
           tagline="Protect your WordPress site"
           headline="How to Secure a WordPress Website"
           subheadline="WordPress powers 40% of websites, making it a prime target. Learn essential security measures to protect your site."
-          primaryCta={{ text: "Get Security Coverage", href: "/contact" }}
-          secondaryCta={{ text: "View All Guides", href: "/wordpress-help" }}
+          primaryCta={{ text: "Get Security Coverage", href: "/contact/" }}
+          secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Security", "12 min read", "Step-by-step", "Proven methods"]}
         />
 
@@ -245,7 +245,7 @@ export default function WordPressHelpSecurity() {
                 If you're on a managed hosting or maintenance plan with us, skip steps 1-6 and contact us immediately. We handle emergency cleanup and restoration as part of the service.
               </p>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity"
               >
                 Get Emergency Help
@@ -263,9 +263,9 @@ export default function WordPressHelpSecurity() {
           title="Get comprehensive WordPress security"
           description="Security monitoring, malware protection, vulnerability management, and rapid incident response  -  all included in our managed hosting and care plans."
           buttonText="Get Protected"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="View All Guides"
-          secondaryButtonHref="/wordpress-help"
+          secondaryButtonHref="/wordpress-help/"
         />
 
         <RelatedPages
@@ -274,25 +274,25 @@ export default function WordPressHelpSecurity() {
             {
               title: "Why WordPress Websites Get Hacked",
               description: "Understanding common attack vectors and how to prevent them.",
-              href: "/wordpress-help/wordpress-hacked",
+              href: "/wordpress-help/wordpress-hacked/",
               tag: "Guide"
             },
             {
               title: "WordPress Maintenance Checklist",
               description: "Keep your site secure with regular maintenance tasks.",
-              href: "/wordpress-help/wordpress-maintenance",
+              href: "/wordpress-help/wordpress-maintenance/",
               tag: "Guide"
             },
             {
               title: "WordPress Security Monitoring",
               description: "Active protection against hacks, malware, and vulnerabilities.",
-              href: "/wordpress-security",
+              href: "/wordpress-security/",
               tag: "Service"
             },
             {
               title: "What to Do If a WordPress Update Breaks Your Site",
               description: "Emergency recovery guide for broken sites.",
-              href: "/wordpress-help/wordpress-update-issues",
+              href: "/wordpress-help/wordpress-update-issues/",
               tag: "Guide"
             },
           ]}

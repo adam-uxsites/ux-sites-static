@@ -82,8 +82,8 @@ export default function WebsitesForLegalConsultants() {
           tagline="Legal consultant websites"
           headline="Legal Consultant Websites Built for Clarity and Trust"
           subheadline="Legal consultants need websites that make complex services easy to understand, demonstrate authority, and guide visitors toward the right enquiry route."
-          primaryCta={{ text: "Start Your Project", href: "/contact" }}
-          secondaryCta={{ text: "See Our Work", href: "/work" }}
+          primaryCta={{ text: "Start Your Project", href: "/contact/" }}
+          secondaryCta={{ text: "See Our Work", href: "/work/" }}
           chips={["Trust First", "Clear Services", "Approachable", "Secure", "Qualified Leads"]}
         />
 
@@ -132,7 +132,7 @@ export default function WebsitesForLegalConsultants() {
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   Each practice area gets its own dedicated page with tailored content, relevant credentials, and a clear path to enquiry  -  so clients always land on the right page for their needs.
                 </p>
-                <Link href="/new-website" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
                 </Link>
               </div>
@@ -231,7 +231,7 @@ export default function WebsitesForLegalConsultants() {
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   From daily backups to real-time security scanning, we handle everything technical so you can focus on your clients.
                 </p>
-                <Link href="/managed-wordpress-hosting" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
+                <Link href="/managed-wordpress-hosting/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   Learn about managed hosting
                 </Link>
               </div>
@@ -300,9 +300,9 @@ export default function WebsitesForLegalConsultants() {
           title="Let's build your legal consultant website"
           description="Get a free, no-obligation quote. We'll talk through your practice areas, what your site needs to achieve, and how we can help  -  no jargon, no pressure."
           buttonText="Get a Free Quote"
-          buttonHref="/contact"
+          buttonHref="/contact/"
           secondaryButtonText="See Our Process"
-          secondaryButtonHref="/new-website"
+          secondaryButtonHref="/new-website/"
         />
 
         <RelatedPages
@@ -311,43 +311,43 @@ export default function WebsitesForLegalConsultants() {
             {
               title: "Websites for Consultants",
               description: "Specialist websites for consultants and professional services firms.",
-              href: "/websites-for-consultants",
+              href: "/websites-for-consultants/",
               tag: "Hub"
             },
             {
               title: "Websites for Business Consultants",
               description: "Business consultant websites that turn expertise into enquiries.",
-              href: "/websites-for-business-consultants",
+              href: "/websites-for-business-consultants/",
               tag: "Service"
             },
             {
               title: "Websites for Marketing Consultants",
               description: "Marketing consultant websites focused on positioning and pipeline.",
-              href: "/websites-for-marketing-consultants",
+              href: "/websites-for-marketing-consultants/",
               tag: "Service"
             },
             {
               title: "Managed WordPress Hosting",
               description: "Keep your legal website secure and reliable with managed hosting.",
-              href: "/managed-wordpress-hosting",
+              href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
               description: "Full details of our website design and development process.",
-              href: "/new-website",
+              href: "/new-website/",
               tag: "Service"
             },
             {
               title: "Existing Website Refreshes",
               description: "Modernise your existing site with improved UX, speed and mobile experience.",
-              href: "/existing-website",
+              href: "/existing-website/",
               tag: "Website"
             },
             {
               title: "Website Support & Maintenance",
               description: "Ongoing updates, security, backups, and expert support for your WordPress site.",
-              href: "/website-support",
+              href: "/website-support/",
               tag: "Support"
             }          ]}
         />
