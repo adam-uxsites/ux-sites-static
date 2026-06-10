@@ -96,7 +96,7 @@ export default function WordPressHostingChirk() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Regional Experience", sub: "Serving the border region" }
@@ -124,7 +124,7 @@ export default function WordPressHostingChirk() {
                   Standard hosting from large providers leaves you responsible for updates, security, and performance. When your site has issues, you're dealing with generic support teams who don't know you or your website. For a business in a competitive border market, unreliable hosting means lost customers.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With UX Sites managed hosting, you get expert support from someone who understands the Chirk area. We handle all the technical management â€” daily backups, security monitoring, plugin updates, and performance optimisation â€” while you focus on running your business.
+                  With UX Sites managed hosting, you get expert support from someone who understands the Chirk area. We handle all the technical management — daily backups, security monitoring, plugin updates, and performance optimisation — while you focus on running your business.
                 </p>
                 <Link
                   href="/managed-wordpress-hosting/"
@@ -137,11 +137,11 @@ export default function WordPressHostingChirk() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support, locally",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across the border region", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across the border region", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -228,10 +228,10 @@ export default function WordPressHostingChirk() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -243,8 +243,8 @@ export default function WordPressHostingChirk() {
         <FAQBlock
           faqs={[
             {
-              question: "Chirk is close to the Welsh border â€” does that affect hosting?",
-              answer: "Not at all. Our hosting is on enterprise-grade UK servers with fast connectivity throughout Wales and England. Being a border business gives you the best of both worlds â€” and we support clients on both sides."
+              question: "Chirk is close to the Welsh border — does that affect hosting?",
+              answer: "Not at all. Our hosting is on enterprise-grade UK servers with fast connectivity throughout Wales and England. Being a border business gives you the best of both worlds — and we support clients on both sides."
             },
             {
               question: "Can you host a site that was built by another designer?",
@@ -252,11 +252,11 @@ export default function WordPressHostingChirk() {
             },
             {
               question: "What if my Chirk tourism or hospitality business needs a new website?",
-              answer: "We build custom WordPress sites too â€” perfect for Chirk's tourism, hospitality and local service businesses. Many clients start with a new website and move onto managed hosting afterwards."
+              answer: "We build custom WordPress sites too — perfect for Chirk's tourism, hospitality and local service businesses. Many clients start with a new website and move onto managed hosting afterwards."
             },
             {
               question: "Do you offer any discounts for annual payments?",
-              answer: "Yes. Annual plans are £500/year â€” saving you £100 compared to monthly billing. All features are identical across both plans."
+              answer: "Yes. Annual plans are £500/year — saving you £100 compared to monthly billing. All features are identical across both plans."
             }
 
 
@@ -266,7 +266,7 @@ export default function WordPressHostingChirk() {
 
         <CTABanner
           title="Let's get your Chirk website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -293,14 +293,14 @@ export default function WordPressHostingChirk() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process â€” from discovery to launch.",
+              description: "Full details of our new website process — from discovery to launch.",
               href: "/new-website/",
               tag: "Service"
             },

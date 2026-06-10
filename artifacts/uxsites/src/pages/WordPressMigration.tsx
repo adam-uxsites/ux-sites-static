@@ -301,7 +301,7 @@ export default function WordPressMigration() {
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses â€” local, reliable, responsive.",
+              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
               href: "/wordpress-support-shropshire/",
               tag: "Local"
             },

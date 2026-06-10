@@ -135,7 +135,7 @@ export default function WhatIsMgdHosting() {
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-6 h-6 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 border border-border">
-                      <span className="text-sm font-bold text-muted-foreground">âœ•</span>
+                      <span className="text-sm font-bold text-muted-foreground">✕</span>
                     </div>
                     <div>
                       <span className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-1 block">Standard</span>

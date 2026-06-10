@@ -18,7 +18,7 @@ const painPoints = [
   },
   {
     title: "Accreditations unlock customer trust",
-    description: "MCS certification, RECC registration, and manufacturer accreditations are essential â€” they're often required for grants and Smart Export Guarantee payments. Your site must display these prominently."
+    description: "MCS certification, RECC registration, and manufacturer accreditations are essential — they're often required for grants and Smart Export Guarantee payments. Your site must display these prominently."
   },
   {
     title: "Financial case studies sell solar",
@@ -72,7 +72,7 @@ export default function WebsitesForSolarPanelFitters() {
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
             },
             {
-              question: "I need to show MCS accreditation and savings calculations â€” can your sites handle that?",
+              question: "I need to show MCS accreditation and savings calculations — can your sites handle that?",
               answer: "Yes. We display your accreditations prominently and can present savings data in clear, persuasive formats that help customers understand the financial case for solar."
             },
             {
@@ -101,7 +101,7 @@ export default function WebsitesForSolarPanelFitters() {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Why solar panel installers need a persuasive website</h2>
               <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-                Solar is a considered purchase. Your website needs to educate, build trust, and make the financial case â€” all while showing why you're the right installer for the job.
+                Solar is a considered purchase. Your website needs to educate, build trust, and make the financial case — all while showing why you're the right installer for the job.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
@@ -134,7 +134,7 @@ export default function WebsitesForSolarPanelFitters() {
                   Solar customers are making a significant investment. Your website needs to educate them about the technology, demonstrate your expertise, and present a clear financial picture.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We build each site around your specific services â€” whether that's solar PV, battery storage, EV charging, or all three â€” and the areas you cover.
+                  We build each site around your specific services — whether that's solar PV, battery storage, EV charging, or all three — and the areas you cover.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -169,7 +169,7 @@ export default function WebsitesForSolarPanelFitters() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -250,12 +250,12 @@ export default function WebsitesForSolarPanelFitters() {
 
         <BenefitsGrid
           title="How We Help Your Solar Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly."
+          subtitle="Beyond the website — we keep your online presence running smoothly."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your accreditations, present savings data, and generate installation enquiries." },
             { title: "Existing Site Refreshes", description: "Your current site not converting? We can redesign with stronger trust signals, better case studies, and improved local SEO." },
-            { title: "Content That Educates and Sells", description: "Blog posts, guides, and case studies that explain solar technology, financial benefits, and your installation process â€” helping customers feel confident choosing you." }
+            { title: "Content That Educates and Sells", description: "Blog posts, guides, and case studies that explain solar technology, financial benefits, and your installation process — helping customers feel confident choosing you." }
 
 
           ]}
@@ -268,7 +268,7 @@ export default function WebsitesForSolarPanelFitters() {
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
             },
             {
-              question: "I need to show MCS accreditation and savings calculations â€” can your sites handle that?",
+              question: "I need to show MCS accreditation and savings calculations — can your sites handle that?",
               answer: "Yes. We display your accreditations prominently and can present savings data in clear, persuasive formats that help customers understand the financial case for solar."
             },
             {
@@ -280,7 +280,7 @@ export default function WebsitesForSolarPanelFitters() {
               answer: "Yes. Ongoing panel cleaning, monitoring, and maintenance services can be promoted through your site, creating recurring income alongside new installations."
             },
             {
-              question: "I'm starting a solar installation business â€” should I get a website first?",
+              question: "I'm starting a solar installation business — should I get a website first?",
               answer: "A professional website helps you look established when competing for installations. We can create a focused site with your accreditations and service areas and expand as your business grows."
             }
 
@@ -301,7 +301,7 @@ export default function WebsitesForSolarPanelFitters() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -337,7 +337,7 @@ export default function WebsitesForSolarPanelFitters() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

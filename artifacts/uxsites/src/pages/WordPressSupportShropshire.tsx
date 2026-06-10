@@ -26,12 +26,12 @@ export default function WordPressSupportShropshire() {
     <>
       <SEO
         title="WordPress Support Shropshire | Expert Help & Maintenance | UX Sites"
-        description="Professional WordPress support for Shropshire businesses â€” updates, security, fixes, and ongoing care from a local expert. Based near Oswestry, serving the whole county."
+        description="Professional WordPress support for Shropshire businesses — updates, security, fixes, and ongoing care from a local expert. Based near Oswestry, serving the whole county."
         url="https://uxsites.co.uk/wordpress-support-shropshire/"
         schema={[
           serviceSchema({
             name: "WordPress Support Shropshire",
-            description: "Expert WordPress support for Shropshire businesses â€” updates, security monitoring, bug fixes, performance optimisation, and ongoing care from a local WordPress specialist.",
+            description: "Expert WordPress support for Shropshire businesses — updates, security monitoring, bug fixes, performance optimisation, and ongoing care from a local WordPress specialist.",
             url: "https://uxsites.co.uk/wordpress-support-shropshire/",
             category: "WordPress Support",
           }),
@@ -42,7 +42,7 @@ export default function WordPressSupportShropshire() {
           ]),
           faqSchema([
             { question: "Do you support WordPress sites that weren't built by you?", answer: "Yes. We review existing sites before taking them on to identify any issues and ensure we can support them properly. Most sites transfer smoothly regardless of who built them." },
-            { question: "How quickly do you respond to support requests?", answer: "We aim to respond within a few hours during business hours. Urgent issues â€” sites down, security incidents â€” are prioritised and dealt with immediately." },
+            { question: "How quickly do you respond to support requests?", answer: "We aim to respond within a few hours during business hours. Urgent issues — sites down, security incidents — are prioritised and dealt with immediately." },
             { question: "Can you meet in person in Shropshire?", answer: "Yes. For Shropshire businesses, in-person meetings are available across the county. We're based near Oswestry and can come to you." },
           ]),
         ]}
@@ -51,7 +51,7 @@ export default function WordPressSupportShropshire() {
         <HeroBlock
           tagline="Local WordPress support, when you need it"
           headline="WordPress Support for Shropshire Businesses"
-          subheadline="Reliable WordPress support from a Shropshire-based expert â€” updates, security, fixes, and ongoing care. No generic helpdesk, no waiting days for a response, no hidden charges."
+          subheadline="Reliable WordPress support from a Shropshire-based expert — updates, security, fixes, and ongoing care. No generic helpdesk, no waiting days for a response, no hidden charges."
           primaryCta={{ text: "Get Support", href: "/contact/" }}
           secondaryCta={{ text: "View Our Care Plans", href: "/wordpress-care-plan/" }}
           chips={["Shropshire Based", "Quick Response", "Security Monitoring", "Updates Included", "Local Expert"]}
@@ -79,10 +79,10 @@ export default function WordPressSupportShropshire() {
                   WordPress Support That Actually Helps
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Most WordPress support options are either expensive agencies or generic helpdesks that don't know your site. We're a Shropshire-based WordPress specialist who can support your site regardless of who built it â€” handling everything from routine updates to urgent fixes.
+                  Most WordPress support options are either expensive agencies or generic helpdesks that don't know your site. We're a Shropshire-based WordPress specialist who can support your site regardless of who built it — handling everything from routine updates to urgent fixes.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Whether your site has broken after an update, you need security issues fixed, or you just want someone keeping an eye on things â€” we provide straightforward WordPress support for Shropshire businesses.
+                  Whether your site has broken after an update, you need security issues fixed, or you just want someone keeping an eye on things — we provide straightforward WordPress support for Shropshire businesses.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   Based near Oswestry, we can offer in-person meetings for Shropshire clients as well as remote support. You're dealing with a real person who knows WordPress inside out, not a ticket system.
@@ -102,7 +102,7 @@ export default function WordPressSupportShropshire() {
                   },
                   {
                     title: "How Support Works",
-                    items: ["Email us with what you need changing", "Urgent issues prioritised immediately", "Non-urgent work handled in priority order", "Monthly development time included on plans", "No ticket systems â€” direct contact", "Free migration if moving from another host"]
+                    items: ["Email us with what you need changing", "Urgent issues prioritised immediately", "Non-urgent work handled in priority order", "Monthly development time included on plans", "No ticket systems — direct contact", "Free migration if moving from another host"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -157,12 +157,12 @@ export default function WordPressSupportShropshire() {
           title="What's Included in Our WordPress Support"
           subtitle="Everything your Shropshire site needs to stay secure, fast, and well-maintained."
           benefits={[
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities." },
             { title: "Bug Fixes & Repairs", description: "Something broken? We'll diagnose and fix it, whether it's a plugin conflict or a theme issue." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast." },
             { title: "30 Minutes Dev Time", description: "Included monthly for content changes, text edits, image swaps, and minor adjustments." },
-            { title: "Expert Support", description: "Direct access to a Shropshire-based WordPress specialist â€” no ticket systems, no waiting." }
+            { title: "Expert Support", description: "Direct access to a Shropshire-based WordPress specialist — no ticket systems, no waiting." }
           ]}
         />
 
@@ -170,7 +170,7 @@ export default function WordPressSupportShropshire() {
           faqs={[
             {
               question: "Can you support a WordPress site that someone else built?",
-              answer: "Yes. We review existing sites before taking them on â€” to check for any issues and ensure we can support them properly. Most sites transfer smoothly regardless of who built them."
+              answer: "Yes. We review existing sites before taking them on — to check for any issues and ensure we can support them properly. Most sites transfer smoothly regardless of who built them."
             },
             {
               question: "What if my site goes down or gets hacked?",
@@ -178,7 +178,7 @@ export default function WordPressSupportShropshire() {
             },
             {
               question: "How is this different from just updating things myself?",
-              answer: "You can update plugins yourself, but if something breaks, you're dealing with it. We handle updates carefully, review compatibility, maintain backups, and fix anything that goes wrong â€” so you don't have to worry about it."
+              answer: "You can update plugins yourself, but if something breaks, you're dealing with it. We handle updates carefully, review compatibility, maintain backups, and fix anything that goes wrong — so you don't have to worry about it."
             },
             {
               question: "Do you offer ongoing support or one-off fixes?",
@@ -189,7 +189,7 @@ export default function WordPressSupportShropshire() {
 
         <CTABanner
           title="Need WordPress support in Shropshire?"
-          description="Get in touch and we'll take a look at your site. Free initial review for Shropshire businesses â€” no obligation."
+          description="Get in touch and we'll take a look at your site. Free initial review for Shropshire businesses — no obligation."
           buttonText="Get Support"
           buttonHref="/contact/"
         />
@@ -217,7 +217,7 @@ export default function WordPressSupportShropshire() {
             },
             {
               title: "Managed WordPress Hosting Shropshire",
-              description: "Local managed hosting from £50/month â€” keeping your site secure and fast.",
+              description: "Local managed hosting from £50/month — keeping your site secure and fast.",
               href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             },

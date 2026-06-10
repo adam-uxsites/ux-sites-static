@@ -27,7 +27,7 @@ export default function WordPressMaintenance() {
     <>
       <SEO
         title="WordPress Maintenance from £50/mo | UX Sites Shropshire"
-        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support â€” from £50/month. Stress-free site care."
+        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support — from £50/month. Stress-free site care."
         url="https://uxsites.co.uk/wordpress-maintenance/"
         schema={[
           serviceSchema({
@@ -212,13 +212,13 @@ export default function WordPressMaintenance() {
                   ].map(([feature, maint, managed], i) => (
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
-                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">âœ“</span> : <span className="text-muted-foreground"> - </span>}</td>
-                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">âœ“</span> : <span className="text-muted-foreground"> - </span>}</td>
+                      <td className="py-3 px-4 text-center">{maint ? <span className="text-primary">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
+                      <td className="py-3 px-4 text-center">{managed ? <span className="text-primary font-bold">✓</span> : <span className="text-muted-foreground"> - </span>}</td>
                     </tr>
                   ))}
                   <tr className="border-b border-border/50">
                     <td className="py-3 px-4 font-bold">Works with your current host</td>
-                    <td className="py-3 px-4 text-center text-primary">âœ“</td>
+                    <td className="py-3 px-4 text-center text-primary">✓</td>
                     <td className="py-3 px-4 text-center text-muted-foreground">Migrates to ours</td>
                   </tr>
                 </tbody>
@@ -227,7 +227,7 @@ export default function WordPressMaintenance() {
             <div className="text-center mt-8">
               <p className="text-muted-foreground text-sm mb-4">Most clients find managed hosting better value  -  it replaces their existing hosting cost entirely.</p>
               <Link href="/managed-wordpress-hosting/" className="text-primary text-sm font-bold hover:underline">
-                View managed hosting plans from £50/month â†’
+                View managed hosting plans from £50/month →
               </Link>
             </div>
           </div>
@@ -296,7 +296,7 @@ export default function WordPressMaintenance() {
             },
             {
               title: "Website Maintenance Shropshire",
-              description: "Professional website maintenance for Shropshire businesses â€” local, reliable, stress-free.",
+              description: "Professional website maintenance for Shropshire businesses — local, reliable, stress-free.",
               href: "/website-maintenance-shropshire/",
               tag: "Local"
             },

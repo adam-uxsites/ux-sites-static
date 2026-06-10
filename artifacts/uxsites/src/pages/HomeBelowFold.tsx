@@ -29,7 +29,7 @@ export default function HomeBelowFold() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Tried &amp; Tested Across Multiple Industries</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We build bespoke WordPress sites for every type of business  â€”  from tradespeople and retailers to professional firms and community organisations.
+              We build bespoke WordPress sites for every type of business  —  from tradespeople and retailers to professional firms and community organisations.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">

@@ -96,7 +96,7 @@ export default function WordPressHostingGobowen() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Serving North Shropshire" }
@@ -120,10 +120,10 @@ export default function WordPressHostingGobowen() {
                   Gobowen is a growing village community just north of Oswestry along the A5, home to a range of local businesses from independent retailers and tradespeople to professional services and the renowned Robert Jones and Agnes Hunt Orthopaedic Hospital near Whittington Road. For many Gobowen businesses, their website is the primary way customers find and evaluate them.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  With budget hosting, you get slow performance during peak traffic, no proactive security monitoring, and the burden of managing updates yourself. When something breaks â€” and it will â€” you waste valuable time fixing issues or waiting for generic support to respond.
+                  With budget hosting, you get slow performance during peak traffic, no proactive security monitoring, and the burden of managing updates yourself. When something breaks — and it will — you waste valuable time fixing issues or waiting for generic support to respond.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  UX Sites managed hosting changes that. We handle everything â€” daily backups, security scanning, plugin updates, performance optimisation, and round-the-clock monitoring. You get a real person who knows Gobowen and the area, with quick responses and a commitment to keeping your site running at its best.
+                  UX Sites managed hosting changes that. We handle everything — daily backups, security scanning, plugin updates, performance optimisation, and round-the-clock monitoring. You get a real person who knows Gobowen and the area, with quick responses and a commitment to keeping your site running at its best.
                 </p>
                 <Link
                   href="/managed-wordpress-hosting/"
@@ -136,11 +136,11 @@ export default function WordPressHostingGobowen() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support, locally",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -227,10 +227,10 @@ export default function WordPressHostingGobowen() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -242,15 +242,15 @@ export default function WordPressHostingGobowen() {
           faqs={[
             {
               question: "Do you only host WordPress sites built by you?",
-              answer: "No â€” we host any properly built WordPress site. We review the site first, fix any underlying issues, and migrate it to our environment. Most existing sites transfer smoothly with zero downtime."
+              answer: "No — we host any properly built WordPress site. We review the site first, fix any underlying issues, and migrate it to our environment. Most existing sites transfer smoothly with zero downtime."
             },
             {
               question: "Can you redesign my existing Gobowen business website too?",
-              answer: "Yes. We offer full website redesigns for existing sites â€” from visual refreshes to complete rebuilds. Many clients start with a redesign and then move to managed hosting for ongoing peace of mind."
+              answer: "Yes. We offer full website redesigns for existing sites — from visual refreshes to complete rebuilds. Many clients start with a redesign and then move to managed hosting for ongoing peace of mind."
             },
             {
               question: "How quickly do you respond to support requests?",
-              answer: "We aim to respond within a few hours during business days â€” often much sooner. Because we manage your site directly, there's no ticketing system or waiting in a queue. You email the person who runs your site."
+              answer: "We aim to respond within a few hours during business days — often much sooner. Because we manage your site directly, there's no ticketing system or waiting in a queue. You email the person who runs your site."
             },
             {
               question: "What happens if my site goes down?",
@@ -263,7 +263,7 @@ export default function WordPressHostingGobowen() {
 
         <CTABanner
           title="Let's get your Gobowen website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -290,7 +290,7 @@ export default function WordPressHostingGobowen() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
@@ -303,7 +303,7 @@ export default function WordPressHostingGobowen() {
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process â€” from discovery to launch.",
+              description: "Full details of our new website process — from discovery to launch.",
               href: "/new-website/",
               tag: "Service"
             }

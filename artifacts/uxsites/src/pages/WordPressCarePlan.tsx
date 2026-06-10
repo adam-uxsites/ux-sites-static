@@ -70,7 +70,7 @@ export default function WordPressCarePlan() {
     <>
       <SEO
         title="WordPress Care Plan from £250/mo | UX Sites Shropshire"
-        description="WordPress care plan from £250/month with managed hosting, 4 hours monthly development & priority support â€” your website actively maintained and improved."
+        description="WordPress care plan from £250/month with managed hosting, 4 hours monthly development & priority support — your website actively maintained and improved."
         url="https://uxsites.co.uk/wordpress-care-plan/"
         schema={[
           serviceSchema({
@@ -147,14 +147,14 @@ export default function WordPressCarePlan() {
               name: "Managed WordPress Hosting",
               monthly: 50,
               annual: 500,
-              description: "Fully managed hosting, maintenance, security, and backups  â€”  everything your WordPress site needs to stay secure, fast, and online.",
+              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
               features: [
                 "Managed WordPress hosting on high-performance servers",
                 "Daily automated off-site backups (30-day retention)",
                 "Security monitoring & malware protection",
                 "WordPress core, plugin & theme updates",
                 "Performance monitoring & optimisation",
-                "SSL certificate  â€”  included, auto-renewed",
+                "SSL certificate  —  included, auto-renewed",
                 "Uptime monitoring every minute",
                 "30 minutes monthly development time",
                 "Expert email & plugin support"
@@ -171,7 +171,7 @@ export default function WordPressCarePlan() {
                 "Everything in Managed Hosting",
                 "4 hours development & support monthly",
                 "Proactive website improvements",
-                "Priority support  â€”  faster response",
+                "Priority support  —  faster response",
                 "Technical consultation included",
                 "Ongoing website optimisation"
               ],
@@ -197,7 +197,7 @@ export default function WordPressCarePlan() {
               ctaText: "View Care Plan Pro"
             }
           ]}
-          annualNote="Annual plans are paid upfront and equivalent to 10 months  â€”  save 2 months per year."
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
         />
 
         {/* Who it's for */}
@@ -206,7 +206,7 @@ export default function WordPressCarePlan() {
             <div className="text-center mb-14">
               <h2 className="text-3xl font-bold mb-4">Who Is a Care Plan For?</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                A care plan makes sense when your website is too important to just host  â€”  you need active development, support, and strategic input.
+                A care plan makes sense when your website is too important to just host  —  you need active development, support, and strategic input.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">

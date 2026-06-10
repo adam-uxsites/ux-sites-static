@@ -13,14 +13,14 @@ const steps = [
     number: "01",
     icon: MessageSquare,
     title: "We Discuss Your Requirements & Current Setup",
-    description: "We start by learning about your website â€” what platform it's on, how it's currently hosted, what plugins and themes you use, and what you'd like to improve. This helps us plan a smooth migration and identify anything that needs attention before we move.",
+    description: "We start by learning about your website — what platform it's on, how it's currently hosted, what plugins and themes you use, and what you'd like to improve. This helps us plan a smooth migration and identify anything that needs attention before we move.",
     detail: "We'll ask about your hosting provider, backup practices, any known issues, and your goals for managed hosting."
   },
   {
     number: "02",
     icon: Server,
     title: "We Migrate Your Theme, Plugins & Database",
-    description: "Your entire WordPress site is transferred to our managed hosting environment â€” all theme files, plugins, uploads, and the full database. Nothing is left behind. We replicate your site exactly, then configure the server for optimal performance.",
+    description: "Your entire WordPress site is transferred to our managed hosting environment — all theme files, plugins, uploads, and the full database. Nothing is left behind. We replicate your site exactly, then configure the server for optimal performance.",
     detail: "Migration is free and handled entirely by us. You don't need to touch any files or settings."
   },
   {
@@ -34,21 +34,21 @@ const steps = [
     number: "04",
     icon: SearchCheck,
     title: "We Check & Test Everything Before Go-Live",
-    description: "Your migrated site is thoroughly tested in a staging environment â€” every page, form, link, and function. We check performance, mobile responsiveness, page speed, and that all integrations are working. Nothing goes live until we're confident it's solid.",
+    description: "Your migrated site is thoroughly tested in a staging environment — every page, form, link, and function. We check performance, mobile responsiveness, page speed, and that all integrations are working. Nothing goes live until we're confident it's solid.",
     detail: "Testing covers all devices, page load speeds, form submissions, contact forms, and any third-party integrations."
   },
   {
     number: "05",
     icon: Globe,
     title: "Your Domain Switches Over With Zero Downtime",
-    description: "We point your domain to the new server once everything is confirmed working. Your old site stays live throughout â€” visitors see no interruption as the DNS change propagates. We monitor the transition closely and are on hand immediately if anything needs attention.",
+    description: "We point your domain to the new server once everything is confirmed working. Your old site stays live throughout — visitors see no interruption as the DNS change propagates. We monitor the transition closely and are on hand immediately if anything needs attention.",
     detail: "No maintenance mode. No 'site under construction' page. Your site remains accessible the entire time."
   },
   {
     number: "06",
     icon: Bell,
-    title: "Your Site Goes Live â€” Monitored, Updated & Supported",
-    description: "Once you're on our managed hosting, we take over completely. Daily backups, 24/7 security monitoring, WordPress updates, performance optimisation, and 30 minutes of monthly development time for content changes and tweaks â€” just email us what you need changing.",
+    title: "Your Site Goes Live — Monitored, Updated & Supported",
+    description: "Once you're on our managed hosting, we take over completely. Daily backups, 24/7 security monitoring, WordPress updates, performance optimisation, and 30 minutes of monthly development time for content changes and tweaks — just email us what you need changing.",
     detail: "30 minutes rolls over each month for content updates, text changes, image swaps, or minor adjustments."
   }
 ];
@@ -61,20 +61,20 @@ const includedAfterMigration = [
   "SSL certificate management",
   "Uptime monitoring with 99.9% commitment",
   "30 minutes monthly development time for changes",
-  "Priority email support â€” no ticket systems"
+  "Priority email support — no ticket systems"
 ];
 
 export default function MigrationGuide() {
   return (
     <>
       <SEO
-        title="WordPress Migration Guide â€” How Onboarding Works | UX Sites"
+        title="WordPress Migration Guide — How Onboarding Works | UX Sites"
         description="Step-by-step guide to migrating your WordPress site to UX Sites managed hosting. Requirements, migration, security fixes, testing, zero-downtime domain switch, and ongoing support."
         url="https://uxsites.co.uk/migration-guide/"
         schema={[
           serviceSchema({
             name: "WordPress Migration to Managed Hosting",
-            description: "Step-by-step migration guide for moving your WordPress site to UX Sites managed hosting â€” from requirements discussion through to go-live and ongoing support.",
+            description: "Step-by-step migration guide for moving your WordPress site to UX Sites managed hosting — from requirements discussion through to go-live and ongoing support.",
             url: "https://uxsites.co.uk/migration-guide/",
             category: "WordPress Migration",
           }),
@@ -84,21 +84,21 @@ export default function MigrationGuide() {
             { name: "Migration Guide", url: "https://uxsites.co.uk/migration-guide/" },
           ]),
           faqSchema([
-            { question: "How long does the migration process take?", answer: "Most standard WordPress sites are migrated within 24-48 hours. More complex sites â€” those with custom integrations, large media libraries, or specific security requirements â€” may take slightly longer. We'll give you a realistic timeline during the initial discussion." },
+            { question: "How long does the migration process take?", answer: "Most standard WordPress sites are migrated within 24-48 hours. More complex sites — those with custom integrations, large media libraries, or specific security requirements — may take slightly longer. We'll give you a realistic timeline during the initial discussion." },
             { question: "Is there any downtime during the migration?", answer: "No. Your existing site stays live on your current host throughout the entire process. We only switch your domain over once the new site is fully tested and confirmed working. There's no interruption for your visitors." },
             { question: "What if something goes wrong during migration?", answer: "We take a full backup of your site before doing anything. If any issue arises, we can restore your site to its original state immediately. Nothing is ever modified on your live site without your knowledge." },
             { question: "What information do you need from me to get started?", answer: "We'll need your current hosting login details (cPanel, dashboard, or SFTP), your WordPress admin credentials, and a brief overview of any plugins or integrations your site relies on. We'll guide you through exactly what's needed during the initial call." },
-            { question: "Will my site look different after migration?", answer: "No â€” we migrate your existing theme, content, and settings exactly as they are. The only changes will be improvements to performance and security. If your site needs a design refresh, we can discuss that separately." },
-            { question: "What's the 30 minutes of monthly development time for?", answer: "It covers routine content changes â€” text updates, image swaps, adding team members, updating pricing or opening hours, service descriptions, and similar tweaks. Just email us what you need changed and we'll handle it. Larger feature additions or new page builds would be quoted separately." },
-            { question: "Am I locked into a contract?", answer: "No. All plans run month-to-month with 30 days notice. There's no setup fee and no long-term commitment. You're free to leave at any time â€” and we'll provide a full export of your site if you do." },
+            { question: "Will my site look different after migration?", answer: "No — we migrate your existing theme, content, and settings exactly as they are. The only changes will be improvements to performance and security. If your site needs a design refresh, we can discuss that separately." },
+            { question: "What's the 30 minutes of monthly development time for?", answer: "It covers routine content changes — text updates, image swaps, adding team members, updating pricing or opening hours, service descriptions, and similar tweaks. Just email us what you need changed and we'll handle it. Larger feature additions or new page builds would be quoted separately." },
+            { question: "Am I locked into a contract?", answer: "No. All plans run month-to-month with 30 days notice. There's no setup fee and no long-term commitment. You're free to leave at any time — and we'll provide a full export of your site if you do." },
           ]),
         ]}
       />
       <main>
         <HeroBlock
           tagline="Simple, safe, stress-free"
-          headline="Your WordPress Migration Guide â€” How Onboarding Works"
-          subheadline="Moving to managed hosting doesn't have to be complicated. Here's exactly what happens when you come on board with UX Sites â€” from our first conversation to your site going live and beyond."
+          headline="Your WordPress Migration Guide — How Onboarding Works"
+          subheadline="Moving to managed hosting doesn't have to be complicated. Here's exactly what happens when you come on board with UX Sites — from our first conversation to your site going live and beyond."
           primaryCta={{ text: "Start Your Migration", href: "/contact/" }}
           secondaryCta={{ text: "Why Migrate?", href: "/wordpress-migration-to-managed-hosting/" }}
           chips={["Free Migration", "Zero Downtime", "Security Audit", "30 Min Dev Time", "We Handle Everything"]}
@@ -108,7 +108,7 @@ export default function MigrationGuide() {
         <section className="section-padding-lg bg-background">
           <div className="section-wrap">
             <div className="section-header">
-              <h2 className="heading-section mb-4">The Onboarding Process â€” Step by Step</h2>
+              <h2 className="heading-section mb-4">The Onboarding Process — Step by Step</h2>
               <p className="subhead-section">
                 From our first conversation to your site going live on managed hosting, here's exactly what happens.
               </p>
@@ -141,7 +141,7 @@ export default function MigrationGuide() {
                       <p className="body-card mb-3">{step.description}</p>
                       {step.detail && (
                         <p className="text-xs text-muted-foreground/60 italic flex items-start gap-1.5">
-                          <span className="mt-0.5 shrink-0">â€”</span>
+                          <span className="mt-0.5 shrink-0">—</span>
                           <span>{step.detail}</span>
                         </p>
                       )}

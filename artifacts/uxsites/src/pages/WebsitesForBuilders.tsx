@@ -68,7 +68,7 @@ export default function WebsitesForBuilders() {
           ]),
           faqSchema([
             {
-              question: "I'm a busy builder â€” will I have time to manage a website?",
+              question: "I'm a busy builder — will I have time to manage a website?",
               answer: "You won't need to. We handle everything from setup to ongoing maintenance. With our managed hosting service, we take care of updates, security, backups, and performance. Your site stays live and up to date while you focus on the build."
             },
             {
@@ -101,7 +101,7 @@ export default function WebsitesForBuilders() {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Why builders need a professional website</h2>
               <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-                Your reputation is built on the quality of your work â€” but these days your website is how most customers first discover it. Here's what matters.
+                Your reputation is built on the quality of your work — but these days your website is how most customers first discover it. Here's what matters.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-6">
@@ -131,7 +131,7 @@ export default function WebsitesForBuilders() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">What a good builder website includes</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Every builder we work with has a different specialism â€” extensions, renovations, new builds, or commercial work â€” but the best sites share a common approach.
+                  Every builder we work with has a different specialism — extensions, renovations, new builds, or commercial work — but the best sites share a common approach.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
                   We build each page around your specific services and the areas you cover, helping potential customers understand exactly what you do and whether you're the right fit for their project.
@@ -169,7 +169,7 @@ export default function WebsitesForBuilders() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -252,11 +252,11 @@ export default function WebsitesForBuilders() {
 
         <BenefitsGrid
           title="How We Help Your Building Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the build."
+          subtitle="Beyond the website — we keep your online presence running smoothly so you can focus on the build."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you work on site." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed and built around your services, portfolio, and target areas. Mobile-first, fast, and optimised for Google." },
-            { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign, restructure, and re-optimise it to generate enquiries again â€” often without starting from scratch." },
+            { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign, restructure, and re-optimise it to generate enquiries again — often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages, Google Business integration, and structured markup so you show up when local customers search for builders in your area." }
 
 
@@ -266,7 +266,7 @@ export default function WebsitesForBuilders() {
         <FAQBlock
           faqs={[
             {
-              question: "I'm a busy builder â€” will I have time to manage a website?",
+              question: "I'm a busy builder — will I have time to manage a website?",
               answer: "You won't need to. We handle everything from setup to ongoing maintenance. With our managed hosting service, we take care of updates, security, backups, and performance. Your site stays live and up to date while you focus on the build."
             },
             {
@@ -303,7 +303,7 @@ export default function WebsitesForBuilders() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -339,7 +339,7 @@ export default function WebsitesForBuilders() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

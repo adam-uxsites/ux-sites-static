@@ -73,7 +73,7 @@ export default function WordPressSecurity() {
                   href="/wordpress-maintenance/"
                   className="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline"
                 >
-                  See our WordPress maintenance service â†’
+                  See our WordPress maintenance service →
                 </Link>
               </div>
               <div className="space-y-4">

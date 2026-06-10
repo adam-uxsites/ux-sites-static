@@ -14,7 +14,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 const painPoints = [
   {
     title: "Before-and-after photos are your best sales tool",
-    description: "Pressure washing is visual work. A gallery of transformations â€” driveways, patios, block paving, decking, commercial premises â€” shows potential customers the dramatic difference you can make."
+    description: "Pressure washing is visual work. A gallery of transformations — driveways, patios, block paving, decking, commercial premises — shows potential customers the dramatic difference you can make."
   },
   {
     title: "Domestic and commercial are different markets",
@@ -30,7 +30,7 @@ const painPoints = [
   },
   {
     title: "Insurance and professionalism build trust",
-    description: "Customers are letting you work on their property â€” public liability insurance and a professional presentation give them confidence to book. Your website is where they check before calling."
+    description: "Customers are letting you work on their property — public liability insurance and a professional presentation give them confidence to book. Your website is where they check before calling."
   }
 ];
 
@@ -90,7 +90,7 @@ export default function WebsitesForPressureWashers() {
         <HeroBlock
           tagline="Cleaning trade websites"
           headline="Websites for Pressure Washing and Cleaning Businesses"
-          subheadline="Your transformations sell themselves â€” but only if customers can see them. We build professional websites with stunning before-and-after galleries that help you win more cleaning work."
+          subheadline="Your transformations sell themselves — but only if customers can see them. We build professional websites with stunning before-and-after galleries that help you win more cleaning work."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Before & After", "Domestic & Commercial", "Mobile First", "Local SEO", "Ongoing Support"]}
@@ -134,7 +134,7 @@ export default function WebsitesForPressureWashers() {
                   Whether you focus on domestic driveways and patios or commercial contracts, your website needs to showcase your work and make it easy for customers to book you.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We build each site around your specific services â€” from one-off driveway cleans to regular commercial maintenance contracts â€” and the areas you cover.
+                  We build each site around your specific services — from one-off driveway cleans to regular commercial maintenance contracts — and the areas you cover.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -169,7 +169,7 @@ export default function WebsitesForPressureWashers() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -250,7 +250,7 @@ export default function WebsitesForPressureWashers() {
 
         <BenefitsGrid
           title="How We Help Your Cleaning Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly."
+          subtitle="Beyond the website — we keep your online presence running smoothly."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're out cleaning." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your transformations and generate local cleaning enquiries." },
@@ -280,7 +280,7 @@ export default function WebsitesForPressureWashers() {
               answer: "Yes. We can include commercial maintenance pages, service plan sign-ups, and recurring booking options to help you build regular income alongside one-off jobs."
             },
             {
-              question: "I'm starting a pressure washing business â€” do I need a website from day one?",
+              question: "I'm starting a pressure washing business — do I need a website from day one?",
               answer: "A professional website helps you look established from the start. Even with a few before-and-after photos, a well-built site helps you win your first customers and build a reputation."
             }
 
@@ -301,7 +301,7 @@ export default function WebsitesForPressureWashers() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -331,7 +331,7 @@ export default function WebsitesForPressureWashers() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

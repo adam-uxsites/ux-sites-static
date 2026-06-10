@@ -14,7 +14,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 const painPoints = [
   {
     title: "Emergency work needs instant access",
-    description: "When someone loses power or has an electrical fault, they search for an electrician who can come now â€” not a big company with a call centre. Your site needs to be findable and make it one tap to call."
+    description: "When someone loses power or has an electrical fault, they search for an electrician who can come now — not a big company with a call centre. Your site needs to be findable and make it one tap to call."
   },
   {
     title: "Credentials and certifications matter online",
@@ -22,7 +22,7 @@ const painPoints = [
   },
   {
     title: "Service clarity prevents wasted calls",
-    description: "Domestic, commercial, industrial â€” customers need to know you cover their type of work. Clear service pages help the right enquiries reach you and filter out jobs you don't take."
+    description: "Domestic, commercial, industrial — customers need to know you cover their type of work. Clear service pages help the right enquiries reach you and filter out jobs you don't take."
   },
   {
     title: "Local search drives local work",
@@ -68,8 +68,8 @@ export default function WebsitesForElectricians() {
           ]),
           faqSchema([
             {
-              question: "I don't have time to manage a website â€” who looks after it?",
-              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
+              question: "I don't have time to manage a website — who looks after it?",
+              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it — just focus on your electrical work."
             },
             {
               question: "My current website is very basic and not getting calls. Can you improve it?",
@@ -134,7 +134,7 @@ export default function WebsitesForElectricians() {
                   From domestic call-outs to commercial contracts, an electrician's website needs to serve different customers in different ways. The best sites make it obvious who you are, what you cover, and how to get hold of you.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We build each site around your specific mix of work â€” whether that's emergency repairs, new builds, testing and inspection, or EV charger installation.
+                  We build each site around your specific mix of work — whether that's emergency repairs, new builds, testing and inspection, or EV charger installation.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -145,7 +145,7 @@ export default function WebsitesForElectricians() {
                   "Service pages for domestic, commercial, and specialist work",
                   "Certifications and accreditations prominently displayed",
                   "Service area pages for local SEO",
-                  "Emergency contact information â€” prominent and mobile-friendly",
+                  "Emergency contact information — prominent and mobile-friendly",
                   "Project gallery or case studies of recent work",
                   "Testimonials and review highlights from real customers"
                 ].map((item, i) => (
@@ -169,7 +169,7 @@ export default function WebsitesForElectricians() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -251,11 +251,11 @@ export default function WebsitesForElectricians() {
 
         <BenefitsGrid
           title="How We Help Your Electrical Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the job."
+          subtitle="Beyond the website — we keep your online presence running smoothly so you can focus on the job."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your services, certifications, and service areas. Mobile-first, fast, and optimised for Google." },
-            { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign, restructure, and re-optimise to generate enquiries again â€” often without starting from scratch." },
+            { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign, restructure, and re-optimise to generate enquiries again — often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages and Google Business integration so you show up when local customers search for electricians in your area." }
 
 
@@ -265,8 +265,8 @@ export default function WebsitesForElectricians() {
         <FAQBlock
           faqs={[
             {
-              question: "I don't have time to manage a website â€” who looks after it?",
-              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
+              question: "I don't have time to manage a website — who looks after it?",
+              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it — just focus on your electrical work."
             },
             {
               question: "My current website is very basic and not getting calls. Can you improve it?",
@@ -281,7 +281,7 @@ export default function WebsitesForElectricians() {
               answer: "We optimise every site for local search with service area pages, Google Business integration, and structured data. Combined with your existing reputation, this helps you rank for local searches."
             },
             {
-              question: "I'm starting my own electrical business â€” do I need a website from day one?",
+              question: "I'm starting my own electrical business — do I need a website from day one?",
               answer: "A professional website helps you look established from the start, even when you're building your client base. We can create a focused site with your services and area and expand as you grow."
             }
 
@@ -302,7 +302,7 @@ export default function WebsitesForElectricians() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -338,7 +338,7 @@ export default function WebsitesForElectricians() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

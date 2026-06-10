@@ -26,12 +26,12 @@ export default function WebsiteMaintenanceShropshire() {
     <>
       <SEO
         title="Website Maintenance Shropshire | WordPress Care & Updates | UX Sites"
-        description="Professional website maintenance for Shropshire businesses â€” WordPress updates, security, backups, and support from a local expert. Keep your site secure, fast, and up to date."
+        description="Professional website maintenance for Shropshire businesses — WordPress updates, security, backups, and support from a local expert. Keep your site secure, fast, and up to date."
         url="https://uxsites.co.uk/website-maintenance-shropshire/"
         schema={[
           serviceSchema({
             name: "Website Maintenance Shropshire",
-            description: "Professional website maintenance for Shropshire businesses â€” WordPress updates, security monitoring, daily backups, performance optimisation, and expert support from a local specialist.",
+            description: "Professional website maintenance for Shropshire businesses — WordPress updates, security monitoring, daily backups, performance optimisation, and expert support from a local specialist.",
             url: "https://uxsites.co.uk/website-maintenance-shropshire/",
             category: "Website Maintenance",
           }),
@@ -82,7 +82,7 @@ export default function WebsiteMaintenanceShropshire() {
                   Your website needs regular maintenance to stay secure, perform well, and keep delivering results. But finding time to manage updates, check backups, and monitor security is hard when you're running a business.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  We provide comprehensive website maintenance for Shropshire businesses â€” handling everything from WordPress updates and security monitoring to daily backups and performance optimisation. Your site stays in top shape without you needing to touch anything.
+                  We provide comprehensive website maintenance for Shropshire businesses — handling everything from WordPress updates and security monitoring to daily backups and performance optimisation. Your site stays in top shape without you needing to touch anything.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   Based near Oswestry, we work with businesses across Shrewsbury, Telford, Oswestry, Whitchurch, and throughout the county. In-person meetings available, and we're always at the end of an email.
@@ -98,11 +98,11 @@ export default function WebsiteMaintenanceShropshire() {
                 {[
                   {
                     title: "What's Included in Maintenance",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "24/7 security monitoring & scans", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "30 minutes monthly development time"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "24/7 security monitoring & scans", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "30 minutes monthly development time"]
                   },
                   {
                     title: "Why Professional Maintenance Matters",
-                    items: ["Outdated plugins are the #1 cause of WordPress hacks", "Regular backups mean you never lose work", "Performance monitoring catches slowdowns early", "You don't need to log into WordPress at all", "Everything fixed if an update breaks something", "Peace of mind â€” your site is being looked after"]
+                    items: ["Outdated plugins are the #1 cause of WordPress hacks", "Regular backups mean you never lose work", "Performance monitoring catches slowdowns early", "You don't need to log into WordPress at all", "Everything fixed if an update breaks something", "Peace of mind — your site is being looked after"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -155,12 +155,12 @@ export default function WebsiteMaintenanceShropshire() {
 
         <BenefitsGrid
           title="Shropshire Website Maintenance Plans Include"
-          subtitle="Everything your website needs to stay secure, fast, and well-maintained â€” all included in one monthly plan."
+          subtitle="Everything your website needs to stay secure, fast, and well-maintained — all included in one monthly plan."
           benefits={[
             { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast." },
             { title: "30 Minutes Dev Time", description: "Monthly allocation for content changes, text edits, and minor adjustments." }
           ]}
@@ -170,11 +170,11 @@ export default function WebsiteMaintenanceShropshire() {
           faqs={[
             {
               question: "Do you maintain WordPress sites that weren't built by you?",
-              answer: "Yes. We review existing sites before taking them on â€” to check for any issues and ensure we can maintain them properly. Most sites transfer smoothly regardless of who built them."
+              answer: "Yes. We review existing sites before taking them on — to check for any issues and ensure we can maintain them properly. Most sites transfer smoothly regardless of who built them."
             },
             {
               question: "What's the difference between maintenance and the care plan?",
-              answer: "Website maintenance covers the technical upkeep â€” updates, backups, security, and performance. The WordPress Care Plan (£50/month) combines this with managed hosting and 30 minutes of monthly development time for content changes."
+              answer: "Website maintenance covers the technical upkeep — updates, backups, security, and performance. The WordPress Care Plan (£50/month) combines this with managed hosting and 30 minutes of monthly development time for content changes."
             },
             {
               question: "Can you meet in person in Shropshire?",
@@ -182,14 +182,14 @@ export default function WebsiteMaintenanceShropshire() {
             },
             {
               question: "How quickly can you fix something if it goes wrong?",
-              answer: "For maintenance clients, issues are prioritised. Urgent problems â€” sites down, security incidents â€” are dealt with immediately. Non-urgent work is handled in priority order."
+              answer: "For maintenance clients, issues are prioritised. Urgent problems — sites down, security incidents — are dealt with immediately. Non-urgent work is handled in priority order."
             }
           ]}
         />
 
         <CTABanner
           title="Take the worry out of website maintenance"
-          description="Get in touch and we'll review your current setup. Free initial consultation for Shropshire businesses â€” no obligation."
+          description="Get in touch and we'll review your current setup. Free initial consultation for Shropshire businesses — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -217,7 +217,7 @@ export default function WebsiteMaintenanceShropshire() {
             },
             {
               title: "Managed WordPress Hosting Shropshire",
-              description: "Local managed hosting from £50/month â€” keeping your Shropshire site secure and fast.",
+              description: "Local managed hosting from £50/month — keeping your Shropshire site secure and fast.",
               href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             },

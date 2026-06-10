@@ -96,7 +96,7 @@ export default function WordPressHostingStMartins() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Regional Experience", sub: "Serving North Shropshire" }
@@ -117,13 +117,13 @@ export default function WordPressHostingStMartins() {
                   Local Hosting Support for St. Martins
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  St. Martins is a close-knit village community in North Shropshire, close to the Welsh border along the A495. Local businesses here â€” from agricultural suppliers and tradespeople around Overton Road to village services and rural professionals serving the wider area around Tynewydd â€” increasingly rely on their websites to connect with customers and grow.
+                  St. Martins is a close-knit village community in North Shropshire, close to the Welsh border along the A495. Local businesses here — from agricultural suppliers and tradespeople around Overton Road to village services and rural professionals serving the wider area around Tynewydd — increasingly rely on their websites to connect with customers and grow.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Cheap hosting from big providers often means slow performance, frequent downtime, and no real support when something goes wrong. You're left managing WordPress updates, security patches and backups yourself â€” or paying someone else to do it.
+                  Cheap hosting from big providers often means slow performance, frequent downtime, and no real support when something goes wrong. You're left managing WordPress updates, security patches and backups yourself — or paying someone else to do it.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With UX Sites managed hosting, we take care of everything â€” from daily backups and security monitoring to performance optimisation and updates. You get a real person who knows the area, responds quickly, and ensures your website is always working at its best.
+                  With UX Sites managed hosting, we take care of everything — from daily backups and security monitoring to performance optimisation and updates. You get a real person who knows the area, responds quickly, and ensures your website is always working at its best.
                 </p>
                 <Link
                   href="/managed-wordpress-hosting/"
@@ -136,11 +136,11 @@ export default function WordPressHostingStMartins() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support, locally",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across Shropshire", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -227,10 +227,10 @@ export default function WordPressHostingStMartins() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -250,11 +250,11 @@ export default function WordPressHostingStMartins() {
             },
             {
               question: "How is managed hosting different from what I have now?",
-              answer: "Most budget hosting puts your site on a shared server with hundreds of others â€” slow, insecure, and you handle all maintenance. Managed hosting means your site is on a properly configured WordPress environment with daily backups, security monitoring, updates and support handled for you."
+              answer: "Most budget hosting puts your site on a shared server with hundreds of others — slow, insecure, and you handle all maintenance. Managed hosting means your site is on a properly configured WordPress environment with daily backups, security monitoring, updates and support handled for you."
             },
             {
               question: "Do you offer annual billing?",
-              answer: "Yes. Annual plans are £500/year â€” saving you £100 compared to monthly billing. Both plans include everything: hosting, backups, security, updates, SSL and support."
+              answer: "Yes. Annual plans are £500/year — saving you £100 compared to monthly billing. Both plans include everything: hosting, backups, security, updates, SSL and support."
             }
 
 
@@ -263,7 +263,7 @@ export default function WordPressHostingStMartins() {
 
         <CTABanner
           title="Let's get your St. Martins website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -290,7 +290,7 @@ export default function WordPressHostingStMartins() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"

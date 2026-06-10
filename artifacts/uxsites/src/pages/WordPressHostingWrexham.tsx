@@ -96,7 +96,7 @@ export default function WordPressHostingWrexham() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -117,10 +117,10 @@ export default function WordPressHostingWrexham() {
                   Why Wrexham Businesses Need Managed Hosting
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  As the largest town in North Wales, Wrexham has a dynamic and growing business scene â€” from the recently regenerated town centre around Eagles Meadow and along Mold Road to the famous Racecourse Ground and the vast Wrexham Industrial Estate, one of the largest in Europe. Whether you're running a local retail business on Chester Road, a professional practice by the A483 corridor, or a manufacturing operation on Berse Road, your website is central to how customers find and engage with you.
+                  As the largest town in North Wales, Wrexham has a dynamic and growing business scene — from the recently regenerated town centre around Eagles Meadow and along Mold Road to the famous Racecourse Ground and the vast Wrexham Industrial Estate, one of the largest in Europe. Whether you're running a local retail business on Chester Road, a professional practice by the A483 corridor, or a manufacturing operation on Berse Road, your website is central to how customers find and engage with you.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Standard shared hosting from big providers leaves you vulnerable to slow performance, security risks, and the hassle of managing updates yourself. When your site goes down or runs slowly, you lose credibility and customers â€” especially in a competitive market like Wrexham.
+                  Standard shared hosting from big providers leaves you vulnerable to slow performance, security risks, and the hassle of managing updates yourself. When your site goes down or runs slowly, you lose credibility and customers — especially in a competitive market like Wrexham.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
                   With managed hosting from UX Sites, you get enterprise-grade infrastructure with a personal touch. We handle security, backups, updates, and performance monitoring so your site is always fast and secure. You get a real expert who knows the Wrexham area and responds quickly when you need help.
@@ -136,11 +136,11 @@ export default function WordPressHostingWrexham() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support for Wrexham businesses",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across the border region", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across the border region", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -227,10 +227,10 @@ export default function WordPressHostingWrexham() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -242,7 +242,7 @@ export default function WordPressHostingWrexham() {
           faqs={[
             {
               question: "Do you host websites for Wrexham businesses in Welsh?",
-              answer: "Yes â€” we support bilingual and Welsh-language WordPress sites. We can host and maintain sites with Welsh content, multi-language plugins and any regional requirements."
+              answer: "Yes — we support bilingual and Welsh-language WordPress sites. We can host and maintain sites with Welsh content, multi-language plugins and any regional requirements."
             },
             {
               question: "Can you take over hosting of my existing Wrexham business site?",
@@ -263,7 +263,7 @@ export default function WordPressHostingWrexham() {
 
         <CTABanner
           title="Let's get your Wrexham website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -290,14 +290,14 @@ export default function WordPressHostingWrexham() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process â€” from discovery to launch.",
+              description: "Full details of our new website process — from discovery to launch.",
               href: "/new-website/",
               tag: "Service"
             },

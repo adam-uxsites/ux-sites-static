@@ -12,7 +12,7 @@ const services = [
   {
     icon: BarChart3,
     title: "GA4 Setup & Configuration",
-    description: "Full Google Analytics 4 property setup â€” including events, conversions, user properties, and data streams configured correctly for your site."
+    description: "Full Google Analytics 4 property setup — including events, conversions, user properties, and data streams configured correctly for your site."
   },
   {
     icon: Bug,
@@ -22,22 +22,22 @@ const services = [
   {
     icon: Wrench,
     title: "Google Tag Manager Setup",
-    description: "GTM container creation with properly structured tags, triggers, and variables â€” clean enough that you can understand what's firing and why."
+    description: "GTM container creation with properly structured tags, triggers, and variables — clean enough that you can understand what's firing and why."
   },
   {
     icon: Target,
     title: "Conversion Tracking Audit",
-    description: "Full audit of your existing conversion tracking â€” Google Ads, GA4 events, form tracking, phone call tracking â€” identifying gaps and fixing misconfigurations."
+    description: "Full audit of your existing conversion tracking — Google Ads, GA4 events, form tracking, phone call tracking — identifying gaps and fixing misconfigurations."
   },
   {
     icon: CheckCircle2,
     title: "Goal & Event Configuration",
-    description: "Form submissions, button clicks, phone calls, scroll depth, video engagement â€” structured as meaningful events so you know what's actually driving results."
+    description: "Form submissions, button clicks, phone calls, scroll depth, video engagement — structured as meaningful events so you know what's actually driving results."
   },
   {
     icon: TrendingUp,
     title: "Reporting Dashboard Setup",
-    description: "Custom GA4 dashboards and Looker Studio reports that show you the metrics that matter â€” not vanity numbers, but the data you can act on."
+    description: "Custom GA4 dashboards and Looker Studio reports that show you the metrics that matter — not vanity numbers, but the data you can act on."
   }
 ];
 
@@ -60,7 +60,7 @@ export default function GoogleAnalyticsSetup() {
         schema={[
           serviceSchema({
             name: "Google Analytics 4 Setup & Troubleshooting",
-            description: "Professional GA4 setup, troubleshooting, and support â€” including Google Tag Manager configuration, conversion tracking, and custom reporting dashboards.",
+            description: "Professional GA4 setup, troubleshooting, and support — including Google Tag Manager configuration, conversion tracking, and custom reporting dashboards.",
             url: "https://uxsites.co.uk/google-analytics-setup/",
             category: "Analytics",
           }),
@@ -69,10 +69,10 @@ export default function GoogleAnalyticsSetup() {
             { name: "Google Analytics 4 Setup", url: "https://uxsites.co.uk/google-analytics-setup/" },
           ]),
           faqSchema([
-            { question: "How is this different from the GA4 setup my web developer already did?", answer: "Many developers install GA4 by copy-pasting a tracking code or using a plugin â€” which gives you basic pageview data but nothing useful. We configure events, conversions, and goals properly so you can actually see which channels and actions drive results." },
-            { question: "Can you fix GA4 if it's been set up wrong?", answer: "Yes â€” this is one of the most common things we deal with. We audit your existing setup, identify what's broken or missing, and fix it. We'll also explain what was wrong and how to avoid it happening again." },
+            { question: "How is this different from the GA4 setup my web developer already did?", answer: "Many developers install GA4 by copy-pasting a tracking code or using a plugin — which gives you basic pageview data but nothing useful. We configure events, conversions, and goals properly so you can actually see which channels and actions drive results." },
+            { question: "Can you fix GA4 if it's been set up wrong?", answer: "Yes — this is one of the most common things we deal with. We audit your existing setup, identify what's broken or missing, and fix it. We'll also explain what was wrong and how to avoid it happening again." },
             { question: "Do I need Google Tag Manager as well?", answer: "Not necessarily, but for most businesses we recommend it. GTM gives you more control over tracking without editing your theme code. We'll advise on the best setup for your specific situation." },
-            { question: "How long does a GA4 setup take?", answer: "A standard setup with basic events and conversions takes 1-2 days. More complex setups â€” multiple domains, custom events, integration with Google Ads â€” may take longer. We'll give you a clear timeline." },
+            { question: "How long does a GA4 setup take?", answer: "A standard setup with basic events and conversions takes 1-2 days. More complex setups — multiple domains, custom events, integration with Google Ads — may take longer. We'll give you a clear timeline." },
             { question: "Will I understand the reports afterwards?", answer: "Yes. We set up a dashboard that shows your key metrics clearly, and we explain what each number means and why it matters. You don't need to be an analytics expert to understand your data." },
           ]),
         ]}
@@ -93,7 +93,7 @@ export default function GoogleAnalyticsSetup() {
             <div className="text-center mb-14">
               <h2 className="heading-section mb-4">GA4 Services We Offer</h2>
               <p className="subhead-section">
-                From initial setup to troubleshooting an existing configuration â€” we handle the full range of GA4 work.
+                From initial setup to troubleshooting an existing configuration — we handle the full range of GA4 work.
               </p>
             </div>
             <div className="grid-cards-3">
@@ -126,7 +126,7 @@ export default function GoogleAnalyticsSetup() {
             <div className="section-header">
               <h2 className="heading-section mb-4">Signs Your GA4 Needs Professional Attention</h2>
               <p className="subhead-section">
-                If any of these sound familiar, your analytics data isn't trustworthy â€” and that means your decisions aren't either.
+                If any of these sound familiar, your analytics data isn't trustworthy — and that means your decisions aren't either.
               </p>
             </div>
             <div className="max-w-3xl mx-auto space-y-3">
@@ -157,7 +157,7 @@ export default function GoogleAnalyticsSetup() {
                   If your analytics data is wrong, every decision you make based on it is wrong too. You're allocating budget to channels that might be underperforming, or missing opportunities because you can't see what's working.
                 </p>
                 <p className="body-lg mb-6">
-                  We bring 10+ years of analytics experience â€” including hands-on GA4 work, Google Tag Manager configuration, and conversion tracking across dozens of business types. We know what good tracking looks like because we've fixed a lot of bad setups.
+                  We bring 10+ years of analytics experience — including hands-on GA4 work, Google Tag Manager configuration, and conversion tracking across dozens of business types. We know what good tracking looks like because we've fixed a lot of bad setups.
                 </p>
                 <p className="body-lg mb-8">
                   Every setup we do includes testing and verification. You'll know your data is accurate because we prove it.
@@ -170,9 +170,9 @@ export default function GoogleAnalyticsSetup() {
                     "Understand what business decisions the data needs to inform",
                     "Audit current setup for gaps, errors, and misconfigurations",
                     "Implement clean tracking with meaningful event structures",
-                    "Verify everything works â€” test conversions, check data flow",
+                    "Verify everything works — test conversions, check data flow",
                     "Set up a dashboard you can actually understand and use",
-                    "Explain what everything means â€” no jargon, no mysteries"
+                    "Explain what everything means — no jargon, no mysteries"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
                       <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />
@@ -188,9 +188,9 @@ export default function GoogleAnalyticsSetup() {
         <BenefitsGrid
           title="What You Get When We Set Up Your Analytics"
           benefits={[
-            { title: "Accurate Data", description: "No double-counting, no missing events, no mysterious 'direct' traffic â€” just reliable numbers you can trust." },
+            { title: "Accurate Data", description: "No double-counting, no missing events, no mysterious 'direct' traffic — just reliable numbers you can trust." },
             { title: "Meaningful Conversions", description: "Form submissions, phone calls, and key actions tracked properly so you know what's driving results." },
-            { title: "Clean GTM Setup", description: "If we use Tag Manager, it's structured properly â€” you'll understand what's firing and why." },
+            { title: "Clean GTM Setup", description: "If we use Tag Manager, it's structured properly — you'll understand what's firing and why." },
             { title: "Custom Dashboards", description: "A Looker Studio or GA4 dashboard that shows the metrics that actually matter to your business." },
             { title: "Google Ads Integration", description: "Conversion tracking connected to Google Ads so you can optimise campaigns based on real data." },
             { title: "Ongoing Support Available", description: "Need adjustments later? Our support plans cover analytics changes as part of your monthly development time." }
@@ -201,11 +201,11 @@ export default function GoogleAnalyticsSetup() {
           faqs={[
             {
               question: "How is this different from the GA4 setup my web developer already did?",
-              answer: "Many developers install GA4 by copy-pasting a tracking code or using a plugin â€” which gives you basic pageview data but nothing useful. We configure events, conversions, and goals properly so you can actually see which channels and actions drive results."
+              answer: "Many developers install GA4 by copy-pasting a tracking code or using a plugin — which gives you basic pageview data but nothing useful. We configure events, conversions, and goals properly so you can actually see which channels and actions drive results."
             },
             {
               question: "Can you fix GA4 if it's been set up wrong?",
-              answer: "Yes â€” this is one of the most common things we deal with. We audit your existing setup, identify what's broken or missing, and fix it. We'll also explain what was wrong and how to avoid it happening again."
+              answer: "Yes — this is one of the most common things we deal with. We audit your existing setup, identify what's broken or missing, and fix it. We'll also explain what was wrong and how to avoid it happening again."
             },
             {
               question: "Do I need Google Tag Manager as well?",

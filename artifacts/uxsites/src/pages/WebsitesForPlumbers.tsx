@@ -14,7 +14,7 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 const painPoints = [
   {
     title: "Emergency plumbing needs instant results",
-    description: "When a pipe bursts at 2am or a boiler fails in winter, customers don't browse â€” they search and call the first plumber they find. Your site needs to be visible, fast, and make it one tap to dial."
+    description: "When a pipe bursts at 2am or a boiler fails in winter, customers don't browse — they search and call the first plumber they find. Your site needs to be visible, fast, and make it one tap to dial."
   },
   {
     title: "Trust is everything in this trade",
@@ -68,8 +68,8 @@ export default function WebsitesForPlumbers() {
           ]),
           faqSchema([
             {
-              question: "I'm always on the road â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
+              question: "I'm always on the road — who manages the website for me?",
+              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything — your site just works."
             },
             {
               question: "I've got an old website that doesn't bring in calls. Can you fix it?",
@@ -81,7 +81,7 @@ export default function WebsitesForPlumbers() {
             },
             {
               question: "Will my Gas Safe registration and insurance details be on the site?",
-              answer: "Yes. We make sure your credentials are clearly displayed â€” it's one of the first things customers look for. We also add trust signals like reviews and guarantees throughout the site."
+              answer: "Yes. We make sure your credentials are clearly displayed — it's one of the first things customers look for. We also add trust signals like reviews and guarantees throughout the site."
             }
           ]),
         ]}
@@ -90,7 +90,7 @@ export default function WebsitesForPlumbers() {
         <HeroBlock
           tagline="Plumbing trade websites"
           headline="Websites for Plumbers and Heating Engineers"
-          subheadline="When customers need a plumber, they search online first â€” often in a hurry. We build professional, mobile-friendly sites that help you get found, build trust instantly, and make it easy for customers to call."
+          subheadline="When customers need a plumber, they search online first — often in a hurry. We build professional, mobile-friendly sites that help you get found, build trust instantly, and make it easy for customers to call."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Gas Safe Credentials", "Emergency Contact", "Mobile First", "Local SEO", "Ongoing Support"]}
@@ -131,10 +131,10 @@ export default function WebsitesForPlumbers() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">What a good plumbing website includes</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Plumbing and heating customers often need help urgently. Your website needs to make it as easy as possible for them to find you, trust you, and get in touch â€” ideally in under ten seconds.
+                  Plumbing and heating customers often need help urgently. Your website needs to make it as easy as possible for them to find you, trust you, and get in touch — ideally in under ten seconds.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We build each site around your specific services â€” whether that's emergency repairs, bathroom installations, central heating, or commercial work â€” and the areas you cover.
+                  We build each site around your specific services — whether that's emergency repairs, bathroom installations, central heating, or commercial work — and the areas you cover.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -142,7 +142,7 @@ export default function WebsitesForPlumbers() {
               </div>
               <div className="grid gap-3">
                 {[
-                  "Prominent emergency contact number â€” one tap on mobile",
+                  "Prominent emergency contact number — one tap on mobile",
                   "Gas Safe and other credentials clearly displayed",
                   "Service pages for each type of work you offer",
                   "Service area pages for local SEO",
@@ -169,7 +169,7 @@ export default function WebsitesForPlumbers() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -251,11 +251,11 @@ export default function WebsitesForPlumbers() {
 
         <BenefitsGrid
           title="How We Help Your Plumbing Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the job."
+          subtitle="Beyond the website — we keep your online presence running smoothly so you can focus on the job."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your services, accreditations, and service areas. Mobile-first, fast, and optimised for Google." },
-            { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign and re-optimise to generate enquiries again â€” often without starting from scratch." },
+            { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign and re-optimise to generate enquiries again — often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages and Google Business integration so you show up when local customers search for plumbers in your area." }
 
 
@@ -265,8 +265,8 @@ export default function WebsitesForPlumbers() {
         <FAQBlock
           faqs={[
             {
-              question: "I'm always on the road â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
+              question: "I'm always on the road — who manages the website for me?",
+              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything — your site just works."
             },
             {
               question: "I've got an old website that doesn't bring in calls. Can you fix it?",
@@ -278,10 +278,10 @@ export default function WebsitesForPlumbers() {
             },
             {
               question: "Will my Gas Safe registration and insurance details be on the site?",
-              answer: "Yes. We make sure your credentials are clearly displayed â€” it's one of the first things customers look for. We also add trust signals like reviews and guarantees throughout the site."
+              answer: "Yes. We make sure your credentials are clearly displayed — it's one of the first things customers look for. We also add trust signals like reviews and guarantees throughout the site."
             },
             {
-              question: "I'm setting up my own plumbing business â€” should I get a website from the start?",
+              question: "I'm setting up my own plumbing business — should I get a website from the start?",
               answer: "Yes. A professional website helps you look established from day one, even while you build your client base. We can start with a focused site covering your services and area and expand as you grow."
             }
 
@@ -302,7 +302,7 @@ export default function WebsitesForPlumbers() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -338,7 +338,7 @@ export default function WebsitesForPlumbers() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

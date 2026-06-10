@@ -59,7 +59,7 @@ export default function ExistingWebsite() {
     <>
       <SEO
         title="WordPress Website Refresh & Redesign | UX Sites Shropshire"
-        description="Transform your existing WordPress site into a high-performance asset â€” design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
+        description="Transform your existing WordPress site into a high-performance asset — design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
         url="https://uxsites.co.uk/existing-website/"
         schema={[
           serviceSchema({
@@ -201,7 +201,7 @@ export default function ExistingWebsite() {
                     "The content management setup works well"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">âœ“</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">✓</div>
                       {item}
                     </li>
                   ))}
@@ -218,7 +218,7 @@ export default function ExistingWebsite() {
                     "Security issues are too embedded to resolve without starting clean"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">â†’</div>
+                      <div className="w-5 h-5 rounded-full bg-muted flex items-center justify-center shrink-0 mt-0.5 text-sm font-bold">→</div>
                       {item}
                     </li>
                   ))}

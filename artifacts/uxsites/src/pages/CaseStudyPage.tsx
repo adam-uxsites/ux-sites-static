@@ -280,7 +280,7 @@ export default function CaseStudyPage() {
 
         <CTABanner
           title="Ready to start your own project?"
-          description="Whether you need a new website, hosting, or ongoing support â€” we'd love to hear about your business."
+          description="Whether you need a new website, hosting, or ongoing support — we'd love to hear about your business."
           buttonText="Get in touch"
           buttonHref="/contact/"
         />

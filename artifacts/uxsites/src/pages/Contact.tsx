@@ -87,7 +87,7 @@ export default function Contact() {
     <>
       <SEO
         title="Start Your Website Project | UX Sites Shropshire"
-        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing â€” no obligation, no hard sell."
+        description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing — no obligation, no hard sell."
         url="https://uxsites.co.uk/contact/"
         schema={[
           {
@@ -277,7 +277,7 @@ export default function Contact() {
                           )}
                         />
 
-                        {/* Honeypot â€” hidden from humans, catches bots */}
+                        {/* Honeypot — hidden from humans, catches bots */}
                         <div className="absolute opacity-0 pointer-events-none" aria-hidden="true">
                           <FormField
                             control={form.control}

@@ -12,22 +12,22 @@ const trackingMethods = [
   {
     icon: MousePointerClick,
     title: "Form Submission Tracking",
-    description: "Know exactly which forms generate leads and where they come from â€” contact forms, quote requests, newsletter signups, and booking forms."
+    description: "Know exactly which forms generate leads and where they come from — contact forms, quote requests, newsletter signups, and booking forms."
   },
   {
     icon: PhoneCall,
     title: "Phone Call Tracking",
-    description: "Track calls from your website â€” clicks to call, click-to-call buttons, and call extensions â€” so you know which traffic generates phone enquiries."
+    description: "Track calls from your website — clicks to call, click-to-call buttons, and call extensions — so you know which traffic generates phone enquiries."
   },
   {
     icon: ShoppingCart,
     title: "Ecommerce Tracking",
-    description: "Full purchase tracking, add-to-cart events, product views, and revenue attribution â€” essential data for any WooCommerce or Shopify setup."
+    description: "Full purchase tracking, add-to-cart events, product views, and revenue attribution — essential data for any WooCommerce or Shopify setup."
   },
   {
     icon: Smartphone,
     title: "Button Click & Engagement",
-    description: "Track clicks on key buttons â€” Get a Quote, Book Now, Download â€” and engagement events like scroll depth, video plays, and PDF downloads."
+    description: "Track clicks on key buttons — Get a Quote, Book Now, Download — and engagement events like scroll depth, video plays, and PDF downloads."
   }
 ];
 
@@ -45,12 +45,12 @@ export default function ConversionTrackingSetup() {
     <>
       <SEO
         title="Google Ads Conversion Tracking Setup | UX Sites"
-        description="Professional conversion tracking setup for Google Ads, GA4, and your website. Form tracking, phone call tracking, and ecommerce â€” so you know what's actually working."
+        description="Professional conversion tracking setup for Google Ads, GA4, and your website. Form tracking, phone call tracking, and ecommerce — so you know what's actually working."
         url="https://uxsites.co.uk/conversion-tracking-setup/"
         schema={[
           serviceSchema({
             name: "Google Ads Conversion Tracking Setup",
-            description: "Professional conversion tracking setup for Google Ads and GA4 â€” form submissions, phone calls, ecommerce purchases, button clicks, and custom events configured and verified.",
+            description: "Professional conversion tracking setup for Google Ads and GA4 — form submissions, phone calls, ecommerce purchases, button clicks, and custom events configured and verified.",
             url: "https://uxsites.co.uk/conversion-tracking-setup/",
             category: "Analytics",
           }),
@@ -59,19 +59,19 @@ export default function ConversionTrackingSetup() {
             { name: "Conversion Tracking Setup", url: "https://uxsites.co.uk/conversion-tracking-setup/" },
           ]),
           faqSchema([
-            { question: "How long does conversion tracking setup take?", answer: "Most setups â€” form tracking, phone call tracking, and basic Google Ads conversion import â€” take 1-2 days. Ecommerce tracking or complex setups may take longer." },
+            { question: "How long does conversion tracking setup take?", answer: "Most setups — form tracking, phone call tracking, and basic Google Ads conversion import — take 1-2 days. Ecommerce tracking or complex setups may take longer." },
             { question: "Do I need Google Analytics 4 first?", answer: "You need GA4 installed (we can do that too). We set up tracking within GA4 and import the conversions into Google Ads so you can optimise your campaigns." },
             { question: "Can you track offline conversions too?", answer: "In most cases, yes. If you can capture the data (lead source, date, value), we can import it back into Google Ads as offline conversions." },
-            { question: "What if I'm not using Google Ads?", answer: "Conversion tracking is still valuable even without ads â€” it tells you which marketing channels and user actions drive results. We can set it up in GA4 regardless of ad spend." },
-            { question: "How do I know the tracking is working?", answer: "We test every conversion action â€” submitting a test form, clicking tracked buttons, triggering events â€” and verify the data appears correctly in GA4 and Google Ads." },
+            { question: "What if I'm not using Google Ads?", answer: "Conversion tracking is still valuable even without ads — it tells you which marketing channels and user actions drive results. We can set it up in GA4 regardless of ad spend." },
+            { question: "How do I know the tracking is working?", answer: "We test every conversion action — submitting a test form, clicking tracked buttons, triggering events — and verify the data appears correctly in GA4 and Google Ads." },
           ]),
         ]}
       />
       <main>
         <HeroBlock
           tagline="Know exactly where your leads come from"
-          headline="Conversion Tracking Setup â€” Stop Guessing, Start Knowing"
-          subheadline="If you can't see which clicks turn into customers, you're flying blind. We set up conversion tracking that actually works â€” form submissions, phone calls, purchases, and any action that matters to your business."
+          headline="Conversion Tracking Setup — Stop Guessing, Start Knowing"
+          subheadline="If you can't see which clicks turn into customers, you're flying blind. We set up conversion tracking that actually works — form submissions, phone calls, purchases, and any action that matters to your business."
           primaryCta={{ text: "Audit My Current Tracking", href: "/contact/" }}
           secondaryCta={{ text: "GA4 Setup Services", href: "/google-analytics-setup/" }}
           chips={["Form Tracking", "Phone Call Tracking", "Google Ads Integration", "Ecommerce", "GA4 Events"]}
@@ -146,7 +146,7 @@ export default function ConversionTrackingSetup() {
               <div>
                 <h2 className="heading-section mb-6">How Conversion Tracking Helps Your Business</h2>
                 <p className="body-lg mb-6">
-                  Without conversion tracking, you're making marketing decisions based on incomplete information. You might think Google Ads is working because you're getting clicks â€” but if those clicks don't turn into leads, you're wasting money.
+                  Without conversion tracking, you're making marketing decisions based on incomplete information. You might think Google Ads is working because you're getting clicks — but if those clicks don't turn into leads, you're wasting money.
                 </p>
                 <p className="body-lg mb-6">
                   With proper tracking, you know exactly which channels, campaigns, and keywords drive actual business results. You can calculate your true cost per lead, identify what's working, and scale confidently.
@@ -163,7 +163,7 @@ export default function ConversionTrackingSetup() {
                     "Audit current tracking for gaps, errors, and misconfigurations",
                     "Implement events in GA4 and/or Google Tag Manager",
                     "Import conversions into Google Ads for campaign optimisation",
-                    "Test every conversion action â€” we prove each one works",
+                    "Test every conversion action — we prove each one works",
                     "Provide documentation so you understand what's been set up"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
@@ -182,7 +182,7 @@ export default function ConversionTrackingSetup() {
           benefits={[
             { title: "Know Your Real Cost Per Lead", description: "See exactly how much each lead costs across Google Ads, organic, social, and other channels." },
             { title: "Optimise Based on Data", description: "Stop guessing which campaigns work. Scale what drives conversions, cut what doesn't." },
-            { title: "Form & Phone Call Visibility", description: "Track every lead source â€” online forms, phone calls, and offline conversions too." },
+            { title: "Form & Phone Call Visibility", description: "Track every lead source — online forms, phone calls, and offline conversions too." },
             { title: "Clean Google Ads Integration", description: "Conversion data flows into Google Ads automatically so Smart Bidding can optimise effectively." },
             { title: "Verified & Tested", description: "Every conversion action is tested and verified before we finish. No 'it should be working'." },
             { title: "Ongoing Support Available", description: "Need adjustments or new tracking later? Our support plans cover analytics changes." }
@@ -193,11 +193,11 @@ export default function ConversionTrackingSetup() {
           faqs={[
             {
               question: "How is this different from what my web developer already set up?",
-              answer: "Many developers install basic page tracking but don't configure meaningful conversion events. We focus on the actions that actually matter to your business â€” form submissions, phone calls, purchases â€” and make sure they're tracked properly and connected to Google Ads."
+              answer: "Many developers install basic page tracking but don't configure meaningful conversion events. We focus on the actions that actually matter to your business — form submissions, phone calls, purchases — and make sure they're tracked properly and connected to Google Ads."
             },
             {
               question: "Can you fix tracking that's been set up incorrectly?",
-              answer: "Yes â€” this is probably the most common thing we deal with. We audit your current setup, identify what's broken, and fix it. We'll explain what was wrong so you understand the difference."
+              answer: "Yes — this is probably the most common thing we deal with. We audit your current setup, identify what's broken, and fix it. We'll explain what was wrong so you understand the difference."
             },
             {
               question: "Do I need Google Tag Manager?",
@@ -205,7 +205,7 @@ export default function ConversionTrackingSetup() {
             },
             {
               question: "How do you test that tracking is working?",
-              answer: "We use GA4 DebugView and GTM preview mode to verify every event fires correctly. We also physically test each action â€” submitting a form, clicking a button â€” and check the data appears in both GA4 and Google Ads."
+              answer: "We use GA4 DebugView and GTM preview mode to verify every event fires correctly. We also physically test each action — submitting a form, clicking a button — and check the data appears in both GA4 and Google Ads."
             },
             {
               question: "Can you track conversions on a site you didn't build?",
@@ -216,7 +216,7 @@ export default function ConversionTrackingSetup() {
 
         <CTABanner
           title="Not sure if your tracking is working?"
-          description="Get in touch and we'll audit your current conversion tracking setup. Free initial review â€” we'll tell you what's working and what needs fixing."
+          description="Get in touch and we'll audit your current conversion tracking setup. Free initial review — we'll tell you what's working and what needs fixing."
           buttonText="Get a Free Tracking Audit"
           buttonHref="/contact/"
         />

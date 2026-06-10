@@ -18,11 +18,11 @@ const painPoints = [
   },
   {
     title: "Before-and-after photos prove your quality",
-    description: "Roofing transformations are dramatic. A gallery of completed work â€” new roofs, repairs, chimney work, flat roofs, fascias and guttering â€” shows potential customers the standard they can expect."
+    description: "Roofing transformations are dramatic. A gallery of completed work — new roofs, repairs, chimney work, flat roofs, fascias and guttering — shows potential customers the standard they can expect."
   },
   {
     title: "Emergency repairs need instant contact",
-    description: "When a roof is leaking or storm damage has struck, customers search urgently. Your site needs to be findable and make it one tap to call you â€” day or night."
+    description: "When a roof is leaking or storm damage has struck, customers search urgently. Your site needs to be findable and make it one tap to call you — day or night."
   },
   {
     title: "Local reputation is everything in roofing",
@@ -68,7 +68,7 @@ export default function WebsitesForRoofers() {
           ]),
           faqSchema([
             {
-              question: "I'm always up on roofs â€” who manages the website?",
+              question: "I'm always up on roofs — who manages the website?",
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
             },
             {
@@ -169,7 +169,7 @@ export default function WebsitesForRoofers() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -251,7 +251,7 @@ export default function WebsitesForRoofers() {
 
         <BenefitsGrid
           title="How We Help Your Roofing Business"
-          subtitle="Beyond the website â€” we keep your online presence working for you."
+          subtitle="Beyond the website — we keep your online presence working for you."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on the job." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your work, build trust, and generate local leads." },
@@ -265,7 +265,7 @@ export default function WebsitesForRoofers() {
         <FAQBlock
           faqs={[
             {
-              question: "I'm always up on roofs â€” who manages the website?",
+              question: "I'm always up on roofs — who manages the website?",
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
             },
             {
@@ -281,7 +281,7 @@ export default function WebsitesForRoofers() {
               answer: "We optimise every site for local search with service area pages, Google Business integration, and structured data. This helps you show up when local customers search for roofing contractors."
             },
             {
-              question: "I'm a sole trader roofer â€” is a website worth the investment?",
+              question: "I'm a sole trader roofer — is a website worth the investment?",
               answer: "Absolutely. Even sole traders benefit from a professional site that backs up word of mouth, shows your work, and makes it easy for customers to get in touch. We can start focused and grow as you do."
             }
 
@@ -302,7 +302,7 @@ export default function WebsitesForRoofers() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -338,7 +338,7 @@ export default function WebsitesForRoofers() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

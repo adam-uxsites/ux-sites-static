@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <SEO
         title="UX Sites | Managed WordPress Hosting & Web Design Shropshire"
-        description="Managed WordPress hosting & care plans from £50â€“£500/month. Daily backups, real-time security, expert support â€” no technical headaches. Google UX Certified."
+        description="Managed WordPress hosting & care plans from £50–£500/month. Daily backups, real-time security, expert support — no technical headaches. Google UX Certified."
         url="https://uxsites.co.uk/"
         schema={[webSiteSchema(), organizationSchema()]}
       />
@@ -21,7 +21,7 @@ export default function Home() {
         <HeroBlock 
           tagline="Perfect for small/medium businesses"
           headline="Managed Hosting, Care Plans & WordPress Support for UK Businesses"
-          subheadline="From £50/month managed hosting to full-service care plans at £250 or £500/month  â€”  hosting, updates, security, development, and expert support included. Focus on running your business while we handle your website."
+          subheadline="From £50/month managed hosting to full-service care plans at £250 or £500/month  —  hosting, updates, security, development, and expert support included. Focus on running your business while we handle your website."
           primaryCta={{ text: "Managed Hosting", href: "/managed-wordpress-hosting/" }}
           secondaryCta={{ text: "View Care Plans", href: "/wordpress-care-plan/" }}
           chips={["Managed Hosting £50/mo", "Care Plan £250/mo", "Care Plan Pro £500/mo", "Security & Backups", "Expert Support", "Content Updates", "Performance Optimised", "Uptime Monitoring"]}

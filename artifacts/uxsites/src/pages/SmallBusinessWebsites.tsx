@@ -15,7 +15,7 @@ export default function SmallBusinessWebsites() {
     <>
       <SEO
         title="Websites for Small Businesses | UX Sites Shropshire"
-        description="Professional small business websites that actually generate enquiries â€” custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
+        description="Professional small business websites that actually generate enquiries — custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
         url="https://uxsites.co.uk/small-business-websites/"
         schema={[
           serviceSchema({
@@ -243,7 +243,7 @@ export default function SmallBusinessWebsites() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Websites by Industry</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Our small business websites are tailored to your specific trade or profession  â€”  not generic templates.
+                Our small business websites are tailored to your specific trade or profession  —  not generic templates.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">

@@ -44,7 +44,7 @@ const processSteps = [
   {
     number: "06",
     title: "Testing & Launch",
-    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics 4 and Search Console configuration, conversion tracking setup â€” then a smooth handover and launch.",
+    description: "Thorough testing across devices, browsers, and screen sizes. Speed optimisation, SEO technical setup, Google Analytics 4 and Search Console configuration, conversion tracking setup — then a smooth handover and launch.",
     detail: "Training session included so you can manage your site"
   }
 ];
@@ -68,7 +68,7 @@ export default function NewWebsite() {
     <>
       <SEO
         title="Custom WordPress Website Design & Build | UX Sites Shropshire"
-        description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready â€” from a Google UX Certified developer. Based in Shropshire, serving the UK."
+        description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready — from a Google UX Certified developer. Based in Shropshire, serving the UK."
         url="https://uxsites.co.uk/new-website/"
         schema={[
           serviceSchema({
@@ -312,7 +312,7 @@ export default function NewWebsite() {
             },
             {
               title: "Local SEO for Shropshire Businesses",
-              description: "How to rank in local searches  â€”  practical steps that actually move the needle.",
+              description: "How to rank in local searches  —  practical steps that actually move the needle.",
               href: "/blog/local-seo-shropshire-businesses/",
               tag: "Blog"
             },

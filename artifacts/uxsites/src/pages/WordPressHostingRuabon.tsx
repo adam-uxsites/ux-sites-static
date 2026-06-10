@@ -95,7 +95,7 @@ export default function WordPressHostingRuabon() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -119,10 +119,10 @@ export default function WordPressHostingRuabon() {
                   Ruabon is a historic village in Wrexham County Borough, sitting at the gateway to the beautiful Ceiriog Valley along the A539. Local businesses here range from rural enterprises and agricultural suppliers around Church Street and Ruabon Mountain to professional services near the railway station and hospitality in the Cefn Mawr area, many serving customers across North Wales and the border region.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  Most budget hosting plans leave you to manage WordPress updates, security patches, and backups yourself. When your site has problems â€” slow loading times, security vulnerabilities, or worse, a hack â€” you're on your own trying to fix it or waiting for generic support that doesn't know your business.
+                  Most budget hosting plans leave you to manage WordPress updates, security patches, and backups yourself. When your site has problems — slow loading times, security vulnerabilities, or worse, a hack — you're on your own trying to fix it or waiting for generic support that doesn't know your business.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With managed hosting from UX Sites, all of that is handled for you. Daily backups, continuous security monitoring, automatic plugin and core updates, and performance optimisation â€” all included. Plus, you get direct access to a real person who knows the area and responds quickly to any request.
+                  With managed hosting from UX Sites, all of that is handled for you. Daily backups, continuous security monitoring, automatic plugin and core updates, and performance optimisation — all included. Plus, you get direct access to a real person who knows the area and responds quickly to any request.
                 </p>
                 <Link
                   href="/managed-wordpress-hosting/"
@@ -135,11 +135,11 @@ export default function WordPressHostingRuabon() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support for Ruabon businesses",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -233,10 +233,10 @@ export default function WordPressHostingRuabon() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -260,7 +260,7 @@ export default function WordPressHostingRuabon() {
             },
             {
               question: "How do annual payments work?",
-              answer: "Annual plans are £500/year â€” saving you £100 compared to monthly billing at £50/month. The service is identical: hosting, backups, security, updates, SSL and support are all included in both plans."
+              answer: "Annual plans are £500/year — saving you £100 compared to monthly billing at £50/month. The service is identical: hosting, backups, security, updates, SSL and support are all included in both plans."
             }
 
 
@@ -269,7 +269,7 @@ export default function WordPressHostingRuabon() {
 
         <CTABanner
           title="Let's get your Ruabon website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -296,7 +296,7 @@ export default function WordPressHostingRuabon() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"

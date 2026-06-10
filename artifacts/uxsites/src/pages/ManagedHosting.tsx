@@ -80,7 +80,7 @@ export default function ManagedHosting() {
     <>
       <SEO
         title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
-        description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support â€” 99.9% uptime. No tech headaches."
+        description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support — 99.9% uptime. No tech headaches."
         url="https://uxsites.co.uk/managed-wordpress-hosting/"
         schema={[
           serviceSchema({
@@ -423,14 +423,14 @@ export default function ManagedHosting() {
               name: "Managed WordPress Hosting",
               monthly: 50,
               annual: 500,
-              description: "Fully managed hosting, maintenance, security, and backups  â€”  everything your WordPress site needs to stay secure, fast, and online.",
+              description: "Fully managed hosting, maintenance, security, and backups  —  everything your WordPress site needs to stay secure, fast, and online.",
               features: [
                 "Managed WordPress hosting on high-performance servers",
                 "Daily automated off-site backups (30-day retention)",
                 "Security monitoring & malware protection",
                 "WordPress core, plugin & theme updates",
                 "Performance monitoring & optimisation",
-                "SSL certificate  â€”  included, auto-renewed",
+                "SSL certificate  —  included, auto-renewed",
                 "Uptime monitoring every minute",
                 "30 minutes monthly development time",
                 "Expert email & plugin support"
@@ -448,7 +448,7 @@ export default function ManagedHosting() {
                 "Everything in Managed Hosting",
                 "4 hours development & support monthly",
                 "Proactive website improvements",
-                "Priority support  â€”  faster response",
+                "Priority support  —  faster response",
                 "Technical consultation included",
                 "Ongoing website optimisation"
               ],
@@ -473,7 +473,7 @@ export default function ManagedHosting() {
               ctaText: "View Care Plan Pro"
             }
           ]}
-          annualNote="Annual plans are paid upfront and equivalent to 10 months  â€”  save 2 months per year."
+          annualNote="Annual plans are paid upfront and equivalent to 10 months  —  save 2 months per year."
         />
 
         {/* Downtime risk calculator link */}
@@ -498,7 +498,7 @@ export default function ManagedHosting() {
         <section className="section-padding-lg bg-background">
           <div className="section-wrap">
             <div className="section-header">
-              <h2 className="heading-section mb-4">More Than Just Hosting â€” Backed by UX & Analytics Expertise</h2>
+              <h2 className="heading-section mb-4">More Than Just Hosting — Backed by UX & Analytics Expertise</h2>
               <p className="subhead-section">
                 Most hosting companies just keep your site online. What sets us apart is the depth of experience behind it.
               </p>
@@ -507,7 +507,7 @@ export default function ManagedHosting() {
               {[
                 {
                   title: "Google Analytics 4 Included",
-                  description: "Every managed hosting plan includes proper GA4 setup with goal and conversion tracking â€” not just a tracking code pasted in. You get data you can actually use."
+                  description: "Every managed hosting plan includes proper GA4 setup with goal and conversion tracking — not just a tracking code pasted in. You get data you can actually use."
                 },
                 {
                   title: "UX-Driven Development Time",
@@ -519,7 +519,7 @@ export default function ManagedHosting() {
                 },
                 {
                   title: "10+ Years of UX Analysis",
-                  description: "Before UX Sites, we worked as UX analysts â€” running user testing sessions, analysing behaviour data, and optimising conversion funnels. That experience shapes how we manage and improve every site."
+                  description: "Before UX Sites, we worked as UX analysts — running user testing sessions, analysing behaviour data, and optimising conversion funnels. That experience shapes how we manage and improve every site."
                 }
               ].map((item, i) => (
                 <motion.div
@@ -625,7 +625,7 @@ export default function ManagedHosting() {
             },
             {
               title: "Google Analytics 4 Setup",
-              description: "GA4 setup, troubleshooting, and custom reporting â€” included with every managed hosting plan.",
+              description: "GA4 setup, troubleshooting, and custom reporting — included with every managed hosting plan.",
               href: "/google-analytics-setup/",
               tag: "Service"
             },

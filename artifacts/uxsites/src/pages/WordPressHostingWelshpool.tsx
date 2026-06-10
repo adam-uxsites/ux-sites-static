@@ -95,7 +95,7 @@ export default function WordPressHostingWelshpool() {
 
         <StatsBar
           stats={[
-            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year — save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -122,7 +122,7 @@ export default function WordPressHostingWelshpool() {
                   For businesses in Welshpool and across mid-Wales, your website needs to work for customers on both sides of the border. Whether you're attracting tourists to your B&B, selling products online, or providing professional services, a slow or unreliable website damages your credibility and costs you opportunities. Budget hosting simply doesn't cut it.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  With UX Sites managed hosting, your Welshpool website gets professional UK-based hosting with personal support from someone who knows the border region. We handle everything â€” daily backups, security monitoring, WordPress updates, performance optimisation â€” so your site is always fast, secure and available. No generic support desks, no waiting on tickets, just a real person who looks after your site.
+                  With UX Sites managed hosting, your Welshpool website gets professional UK-based hosting with personal support from someone who knows the border region. We handle everything — daily backups, security monitoring, WordPress updates, performance optimisation — so your site is always fast, secure and available. No generic support desks, no waiting on tickets, just a real person who looks after your site.
                 </p>
                 <Link
                   href="/managed-wordpress-hosting/"
@@ -135,11 +135,11 @@ export default function WordPressHostingWelshpool() {
                 {[
                   {
                     title: "Everything managed for you",
-                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate â€” included & auto-renewed", "Content update requests by email"]
+                    items: ["WordPress core, plugin & theme updates", "Daily automated off-site backups", "Security monitoring & malware protection", "Performance optimisation & caching", "SSL certificate — included & auto-renewed", "Content update requests by email"]
                   },
                   {
                     title: "Expert support for Welshpool businesses",
-                    items: ["Direct email access to the person who manages your site", "Quick responses â€” not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
+                    items: ["Direct email access to the person who manages your site", "Quick responses — not a generic helpdesk ticket", "In-person support available across the region", "99.9% uptime commitment"]
                   }
                 ].map((group, i) => (
                   <div key={i} className="p-6 bg-card border border-border rounded-2xl">
@@ -233,10 +233,10 @@ export default function WordPressHostingWelshpool() {
           title="What's Included in Every Plan"
           subtitle="No hidden charges, no add-ons you should have had from the start."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress â€” not shared with hundreds of unrelated sites." },
+            { title: "Managed WordPress Hosting", description: "High-performance hosting environment configured specifically for WordPress — not shared with hundreds of unrelated sites." },
             { title: "Daily Automated Backups", description: "Off-site cloud backups every day, retained for 30 days. Full restoration possible within the hour if needed." },
             { title: "Security Monitoring", description: "Continuous scanning for malware, intrusion attempts, and vulnerabilities. Caught and dealt with before you're aware." },
-            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully â€” reviewed for compatibility, not just clicked through." },
+            { title: "WordPress Updates", description: "Core, theme and plugin updates applied carefully — reviewed for compatibility, not just clicked through." },
             { title: "SSL Certificate", description: "HTTPS secured and auto-renewing. Your visitors will never see a 'Not Secure' warning." },
             { title: "Performance Optimisation", description: "Caching, image compression, and database maintenance to keep load times fast as your site grows." }
 
@@ -248,19 +248,19 @@ export default function WordPressHostingWelshpool() {
           faqs={[
             {
               question: "Do you support bilingual Welsh and English websites?",
-              answer: "Yes â€” we fully support bilingual and Welsh-language WordPress sites. Whether you need a Welsh-first website or a bilingual site with both languages, our hosting environment handles it seamlessly."
+              answer: "Yes — we fully support bilingual and Welsh-language WordPress sites. Whether you need a Welsh-first website or a bilingual site with both languages, our hosting environment handles it seamlessly."
             },
             {
               question: "Can you take over hosting of my existing Welshpool website?",
-              answer: "Yes. We review your current WordPress site, fix any issues, and migrate it to our managed hosting with zero downtime. We handle everything â€” files, database, email and DNS â€” so you don't need to lift a finger."
+              answer: "Yes. We review your current WordPress site, fix any issues, and migrate it to our managed hosting with zero downtime. We handle everything — files, database, email and DNS — so you don't need to lift a finger."
             },
             {
-              question: "My tourism business needs a new website â€” can you help with design too?",
+              question: "My tourism business needs a new website — can you help with design too?",
               answer: "Absolutely. We design and build custom WordPress websites from £1,500, perfect for Welshpool's tourism, hospitality and local business community. Many clients start with a new site and move onto managed hosting for ongoing peace of mind."
             },
             {
               question: "Is your pricing the same for Welshpool businesses?",
-              answer: "Yes â€” same pricing for everyone. £50/month or £500/year, with everything included: hosting, daily backups, security monitoring, WordPress updates, SSL certificate, and direct support. No hidden fees, no tiered plans."
+              answer: "Yes — same pricing for everyone. £50/month or £500/year, with everything included: hosting, daily backups, security monitoring, WordPress updates, SSL certificate, and direct support. No hidden fees, no tiered plans."
             }
 
 
@@ -269,7 +269,7 @@ export default function WordPressHostingWelshpool() {
 
         <CTABanner
           title="Let's get your Welshpool website on managed hosting"
-          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation â€” no obligation."
+          description="Get in touch to discuss your current setup. We'll tell you exactly what's involved and give you a clear recommendation — no obligation."
           buttonText="Get in Touch"
           buttonHref="/contact/"
         />
@@ -290,14 +290,14 @@ export default function WordPressHostingWelshpool() {
               tag: "Nearby"
             },
             {
-              title: "Managed WordPress Hosting â€” Full Details",
+              title: "Managed WordPress Hosting — Full Details",
               description: "Everything included in our managed hosting plans, pricing, and full feature comparison.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },
             {
               title: "New Website Design & Build",
-              description: "Full details of our new website process â€” from discovery to launch.",
+              description: "Full details of our new website process — from discovery to launch.",
               href: "/new-website/",
               tag: "Service"
             },

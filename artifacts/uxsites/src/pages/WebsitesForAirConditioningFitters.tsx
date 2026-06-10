@@ -18,7 +18,7 @@ const painPoints = [
   },
   {
     title: "Accreditations and certifications win contracts",
-    description: "F-Gas certification, manufacturers' accreditations, and insurance are essential trust signals â€” especially for commercial clients. These need to be prominent and verified on your site."
+    description: "F-Gas certification, manufacturers' accreditations, and insurance are essential trust signals — especially for commercial clients. These need to be prominent and verified on your site."
   },
   {
     title: "Case studies demonstrate your capability",
@@ -26,7 +26,7 @@ const painPoints = [
   },
   {
     title: "Service and maintenance is recurring revenue",
-    description: "Air conditioning systems need regular servicing. Your website should promote maintenance contracts alongside installation â€” creating ongoing relationships and recurring income."
+    description: "Air conditioning systems need regular servicing. Your website should promote maintenance contracts alongside installation — creating ongoing relationships and recurring income."
   },
   {
     title: "Local businesses search for local installers",
@@ -72,7 +72,7 @@ export default function WebsitesForAirConditioningFitters() {
               answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
-              question: "I need to target both businesses and homeowners â€” can one site do both?",
+              question: "I need to target both businesses and homeowners — can one site do both?",
               answer: "Yes. We structure your site with clear paths for commercial and domestic customers, so each audience finds the relevant services, case studies, and contact information."
             },
             {
@@ -134,7 +134,7 @@ export default function WebsitesForAirConditioningFitters() {
                   Air conditioning businesses serve a wide range of customers. Your website needs to guide each type of visitor to the right information and make it easy for them to take the next step.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We structure your site around your specific mix of work â€” whether that's commercial installations, residential systems, maintenance contracts, or a combination of all three.
+                  We structure your site around your specific mix of work — whether that's commercial installations, residential systems, maintenance contracts, or a combination of all three.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -169,7 +169,7 @@ export default function WebsitesForAirConditioningFitters() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -250,12 +250,12 @@ export default function WebsitesForAirConditioningFitters() {
 
         <BenefitsGrid
           title="How We Help Your HVAC Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly."
+          subtitle="Beyond the website — we keep your online presence running smoothly."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed to serve both commercial and domestic customers with clear paths, certifications, and case studies." },
             { title: "Existing Site Refreshes", description: "Your current site not generating enquiries? We can redesign with better audience targeting, stronger trust signals, and improved local SEO." },
-            { title: "Lead Generation Optimisation", description: "Quote request forms and contact flows designed to capture qualified leads â€” whether from office managers or homeowners." }
+            { title: "Lead Generation Optimisation", description: "Quote request forms and contact flows designed to capture qualified leads — whether from office managers or homeowners." }
 
 
           ]}
@@ -268,7 +268,7 @@ export default function WebsitesForAirConditioningFitters() {
               answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
-              question: "I need to target both businesses and homeowners â€” can one site do both?",
+              question: "I need to target both businesses and homeowners — can one site do both?",
               answer: "Yes. We structure your site with clear paths for commercial and domestic customers, so each audience finds the relevant services, case studies, and contact information."
             },
             {
@@ -280,7 +280,7 @@ export default function WebsitesForAirConditioningFitters() {
               answer: "Yes. We can include service plan pages, maintenance booking forms, and reminder systems to help you generate recurring servicing income alongside installation work."
             },
             {
-              question: "I'm starting my own HVAC business â€” is a website worth it from day one?",
+              question: "I'm starting my own HVAC business — is a website worth it from day one?",
               answer: "A professional website helps you look established when bidding for commercial contracts or domestic work. We can start with a focused site and expand as your business grows."
             }
 
@@ -301,7 +301,7 @@ export default function WebsitesForAirConditioningFitters() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -337,7 +337,7 @@ export default function WebsitesForAirConditioningFitters() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

@@ -12,7 +12,7 @@ import { Link } from "wouter";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
 const painPoints = [
-  { title: "Your atmosphere is part of the experience", description: "Coffee shops are about more than coffee â€” they're about the vibe. Photos of your interior, outdoor seating, and latte art help customers imagine themselves there." },
+  { title: "Your atmosphere is part of the experience", description: "Coffee shops are about more than coffee — they're about the vibe. Photos of your interior, outdoor seating, and latte art help customers imagine themselves there." },
   { title: "Your menu should highlight what makes you special", description: "Specialty coffee, artisan pastries, and unique drinks deserve a well-presented menu. Help customers discover what sets you apart from high street chains." },
   { title: "Location is everything for coffee shops", description: "Customers need to find you easily. Clear location info, a map, and nearby landmarks help drive foot traffic from people searching for coffee nearby." },
   { title: "Free WiFi and workspaces attract regulars", description: "Many coffee shop customers work remotely or study. Highlighting your free WiFi, power outlets, and comfortable seating can attract a loyal daytime crowd." },
@@ -33,7 +33,7 @@ export default function WebsitesForCoffeeShops() {
         serviceSchema({ name: "Websites for Coffee Shops", description: "Professional websites for coffee shops and artisan cafes. Menu displays, atmosphere galleries, location info, and local SEO.", url: "https://uxsites.co.uk/websites-for-coffee-shops/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Coffee Shops", url: "https://uxsites.co.uk/websites-for-coffee-shops/" }]),
         faqSchema([
-          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy serving customers — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your drinks, food, and prices. You can update it yourself or we can do it for you." },
           { question: "How much does a coffee shop website cost?", answer: "New websites start from £1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
           { question: "Can I promote events and live music on the site?", answer: "Absolutely. We can add an events section so you can promote open mic nights, live music, tasting events, and other special occasions." },
@@ -43,7 +43,7 @@ export default function WebsitesForCoffeeShops() {
       <main>
         <HeroBlock tagline="Coffee shop websites" headline="Websites for Coffee Shops and Artisan Cafes" subheadline="Your coffee and atmosphere deserve to be seen. We build beautiful, mobile-friendly sites that showcase your space and bring customers through your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Menu Display", "Atmosphere Gallery", "Location Map", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why coffee shops need a website that brings people in</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your coffee and atmosphere sell the experience â€” your website just needs to show it. Here's what makes a great coffee shop website.</p></div>
+          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why coffee shops need a website that brings people in</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your coffee and atmosphere sell the experience — your website just needs to show it. Here's what makes a great coffee shop website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
         </section>
         <section className="py-24 bg-background">
@@ -54,7 +54,7 @@ export default function WebsitesForCoffeeShops() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Coffee Shop Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for coffee shops across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,14 +71,14 @@ export default function WebsitesForCoffeeShops() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Coffee Shop" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Coffee Shop" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your atmosphere and attract more customers." },
           { title: "Existing Site Refreshes", description: "Your current site not bringing people in? We can redesign with a stronger visual focus and better local presence." },
           { title: "Social Media Integration", description: "Embed your Instagram feed so your latest coffee photos and posts automatically appear on your site." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy serving customers — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your drinks, food, and prices. You can update it yourself or we can do it for you." },
           { question: "How much does a coffee shop website cost?", answer: "New websites start from £1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
           { question: "Can I promote events and live music on the site?", answer: "Absolutely. We can add an events section so you can promote open mic nights, live music, tasting events, and other special occasions." },

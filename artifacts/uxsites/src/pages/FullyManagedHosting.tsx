@@ -165,12 +165,12 @@ export default function FullyManagedHosting() {
                       <td className="py-4 px-4 text-foreground font-medium">{feature as string}</td>
                       <td className="py-4 px-4 text-center">
                         {shared === false
-                          ? <span className="text-muted-foreground">âœ•</span>
+                          ? <span className="text-muted-foreground">✕</span>
                           : <span className="text-muted-foreground">{shared as string}</span>}
                       </td>
                       <td className="py-4 px-4 text-center">
                         {managed === true
-                          ? <span className="text-primary font-bold">âœ“</span>
+                          ? <span className="text-primary font-bold">✓</span>
                           : <span className="text-primary font-bold">{managed as string}</span>}
                       </td>
                     </tr>

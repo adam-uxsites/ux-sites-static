@@ -37,7 +37,7 @@ export default function WebsiteSupport() {
     <>
       <SEO
         title="WordPress Care & Support from £50/mo | UX Sites Shropshire"
-        description="Keep your WordPress site secure, updated & running smoothly â€” updates, backups, security monitoring & expert support from £50/month."
+        description="Keep your WordPress site secure, updated & running smoothly — updates, backups, security monitoring & expert support from £50/month."
         url="https://uxsites.co.uk/website-support/"
         schema={[
           serviceSchema({
@@ -276,7 +276,7 @@ export default function WebsiteSupport() {
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses â€” local, reliable, responsive.",
+              description: "Expert WordPress support for Shropshire businesses — local, reliable, responsive.",
               href: "/wordpress-support-shropshire/",
               tag: "Local"
             },

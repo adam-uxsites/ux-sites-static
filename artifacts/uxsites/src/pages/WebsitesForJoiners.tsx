@@ -14,15 +14,15 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 const painPoints = [
   {
     title: "Your craftsmanship needs to be seen",
-    description: "Joinery is about precision and quality. A website with high-quality photos of your work â€” kitchens, staircases, built-in furniture, windows, doors â€” lets potential customers judge your skill before they call."
+    description: "Joinery is about precision and quality. A website with high-quality photos of your work — kitchens, staircases, built-in furniture, windows, doors — lets potential customers judge your skill before they call."
   },
   {
-    title: "Customers pay for quality â€” your site should reflect that",
+    title: "Customers pay for quality — your site should reflect that",
     description: "Joinery customers are often investing in high-end work for their home. Your website needs to feel as premium as the work you produce. A template site won't do justice to your craft."
   },
   {
     title: "Gallery variety shows your range",
-    description: "From kitchen fitting to bespoke furniture, staircases to garden structures â€” showing the breadth of your work helps customers understand everything you can do for them."
+    description: "From kitchen fitting to bespoke furniture, staircases to garden structures — showing the breadth of your work helps customers understand everything you can do for them."
   },
   {
     title: "Local reputation needs online backing",
@@ -68,7 +68,7 @@ export default function WebsitesForJoiners() {
           ]),
           faqSchema([
             {
-              question: "I spend my days in the workshop â€” who manages my website?",
+              question: "I spend my days in the workshop — who manages my website?",
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
@@ -90,7 +90,7 @@ export default function WebsitesForJoiners() {
         <HeroBlock
           tagline="Joinery trade websites"
           headline="Websites for Joiners and Carpenters"
-          subheadline="Your work is built on quality and precision â€” your website should reflect the same standard. We build beautiful portfolio sites that showcase your craftsmanship and help you win bespoke projects."
+          subheadline="Your work is built on quality and precision — your website should reflect the same standard. We build beautiful portfolio sites that showcase your craftsmanship and help you win bespoke projects."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Portfolio Driven", "Craftsmanship Focus", "Mobile First", "Local SEO", "Ongoing Support"]}
@@ -147,7 +147,7 @@ export default function WebsitesForJoiners() {
                   "About page telling your story and approach",
                   "Customer testimonials linked to specific projects",
                   "Service area pages for local SEO",
-                  "Contact and enquiry forms â€” simple and mobile-friendly"
+                  "Contact and enquiry forms — simple and mobile-friendly"
                 ].map((item, i) => (
                   <motion.div
                     key={i}
@@ -169,7 +169,7 @@ export default function WebsitesForJoiners() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -251,12 +251,12 @@ export default function WebsitesForJoiners() {
 
         <BenefitsGrid
           title="How We Help Your Joinery Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly."
+          subtitle="Beyond the website — we keep your online presence running smoothly."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your craftsmanship and help you win more bespoke projects." },
             { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with better galleries, modern layout, and improved local SEO." },
-            { title: "Portfolio Content Updates", description: "We can add new project photos and descriptions as you complete work â€” keeping your portfolio fresh without you touching the website." }
+            { title: "Portfolio Content Updates", description: "We can add new project photos and descriptions as you complete work — keeping your portfolio fresh without you touching the website." }
 
 
           ]}
@@ -265,7 +265,7 @@ export default function WebsitesForJoiners() {
         <FAQBlock
           faqs={[
             {
-              question: "I spend my days in the workshop â€” who manages my website?",
+              question: "I spend my days in the workshop — who manages my website?",
               answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
@@ -281,7 +281,7 @@ export default function WebsitesForJoiners() {
               answer: "Yes. We build on WordPress so you can easily add new photos and project descriptions. We'll show you how during handover, and we're always here if you need a hand."
             },
             {
-              question: "I'm starting my own joinery business â€” is a website worth it?",
+              question: "I'm starting my own joinery business — is a website worth it?",
               answer: "A professional website helps you look established and credible from day one. Even a focused site with a few project photos helps win your first customers and builds confidence in your work."
             }
 
@@ -302,7 +302,7 @@ export default function WebsitesForJoiners() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -332,7 +332,7 @@ export default function WebsitesForJoiners() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

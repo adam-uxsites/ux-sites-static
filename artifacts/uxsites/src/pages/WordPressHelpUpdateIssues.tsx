@@ -199,7 +199,7 @@ export default function WordPressHelpUpdateIssues() {
                     <p className="text-sm font-semibold text-muted-foreground mb-3">{option.scenario}</p>
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-grow">{option.desc}</p>
                     <div className="text-sm text-muted-foreground bg-card p-3 rounded-lg border border-border/50">
-                      <span className="font-semibold text-foreground">â†’ </span>{option.when}
+                      <span className="font-semibold text-foreground">→ </span>{option.when}
                     </div>
                   </motion.div>
                 );

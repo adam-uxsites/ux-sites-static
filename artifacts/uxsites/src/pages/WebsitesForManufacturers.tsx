@@ -33,7 +33,7 @@ export default function WebsitesForManufacturers() {
         serviceSchema({ name: "Websites for Manufacturers", description: "Professional websites for manufacturing companies and factories. Capability pages, product lines, quality certifications, B2B enquiry, and local SEO.", url: "https://uxsites.co.uk/websites-for-manufacturers/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Manufacturers", url: "https://uxsites.co.uk/websites-for-manufacturers/" }]),
         faqSchema([
-          { question: "Our team is busy on the factory floor â€” who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on production." },
+          { question: "Our team is busy on the factory floor — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on production." },
           { question: "Can we showcase our manufacturing capabilities and equipment?", answer: "Absolutely. We build dedicated capability pages with equipment lists, materials, processes, and production photos." },
           { question: "How much does a manufacturing website cost?", answer: "New websites start from £1,500. If you need capability pages, product lines, and B2B enquiry forms, we'll give you a fixed quote upfront." },
           { question: "Can we display our ISO certifications and quality standards?", answer: "Yes. We can prominently feature your certifications and quality accreditations to build trust with B2B clients." },
@@ -41,9 +41,9 @@ export default function WebsitesForManufacturers() {
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Manufacturer websites" headline="Websites for Manufacturing Companies and Factories" subheadline="Your capabilities speak for themselves â€” your website should prove them. We build professional, B2B-focused websites that showcase your manufacturing expertise." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Capability Pages", "Product Lines", "ISO Certifications", "Mobile First", "B2B Enquiry"]} />
+        <HeroBlock tagline="Manufacturer websites" headline="Websites for Manufacturing Companies and Factories" subheadline="Your capabilities speak for themselves — your website should prove them. We build professional, B2B-focused websites that showcase your manufacturing expertise." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Capability Pages", "Product Lines", "ISO Certifications", "Mobile First", "B2B Enquiry"]} />
         <section className="py-24 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why manufacturers need a website that wins B2B clients</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your factory produces quality â€” your website should prove it. Here's what makes a great manufacturing website.</p></div>
+          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why manufacturers need a website that wins B2B clients</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your factory produces quality — your website should prove it. Here's what makes a great manufacturing website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
         </section>
         <section className="py-24 bg-background">
@@ -54,7 +54,7 @@ export default function WebsitesForManufacturers() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Manufacturer Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for manufacturers across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,14 +71,14 @@ export default function WebsitesForManufacturers() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Manufacturing Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Manufacturing Business" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while your team focuses on production." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your capabilities and attract B2B clients." },
           { title: "Existing Site Refreshes", description: "Your current site not generating B2B enquiries? We can redesign with better capability pages and enquiry flows." },
           { title: "B2B Enquiry System", description: "We build detailed enquiry forms that capture specifications, quantities, and requirements so you can respond with accurate quotes." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Our team is busy on the factory floor â€” who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on production." },
+          { question: "Our team is busy on the factory floor — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on production." },
           { question: "Can we showcase our manufacturing capabilities and equipment?", answer: "Absolutely. We build dedicated capability pages with equipment lists, materials, processes, and production photos." },
           { question: "How much does a manufacturing website cost?", answer: "New websites start from £1,500. If you need capability pages, product lines, and B2B enquiry forms, we'll give you a fixed quote upfront." },
           { question: "Can we display our ISO certifications and quality standards?", answer: "Yes. We can prominently feature your certifications and quality accreditations to build trust with B2B clients." },

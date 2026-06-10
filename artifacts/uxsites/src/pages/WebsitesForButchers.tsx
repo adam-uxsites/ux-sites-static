@@ -33,7 +33,7 @@ export default function WebsitesForButchers() {
         serviceSchema({ name: "Websites for Butchers", description: "Professional websites for butchers, farm shops, and meat retailers. Product showcases, online ordering, sourcing stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-butchers/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Butchers", url: "https://uxsites.co.uk/websites-for-butchers/" }]),
         faqSchema([
-          { question: "I'm busy in the shop â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy in the shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers order meat for delivery online?", answer: "Yes. We can add an online ordering system or a simple enquiry form so customers can place orders for collection or delivery." },
           { question: "How much does a butcher's website cost?", answer: "New websites start from £1,500. If you need a product showcase, sourcing story, and online ordering, we'll give you a fixed quote upfront." },
           { question: "Can I update my product range and prices myself?", answer: "Yes. We build your site so you can easily update products, prices, and special offers yourself. Or we can do it for you as part of our managed service." },
@@ -41,9 +41,9 @@ export default function WebsitesForButchers() {
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Butcher and farm shop websites" headline="Websites for Butchers, Farm Shops, and Meat Retailers" subheadline="Your quality speaks for itself â€” your website should show it. We build beautiful, mobile-friendly sites that showcase your products and tell your story." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Product Showcase", "Online Ordering", "Sourcing Story", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Butcher and farm shop websites" headline="Websites for Butchers, Farm Shops, and Meat Retailers" subheadline="Your quality speaks for itself — your website should show it. We build beautiful, mobile-friendly sites that showcase your products and tell your story." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Product Showcase", "Online Ordering", "Sourcing Story", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why butchers need a website that showcases quality</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your products and reputation speak volumes â€” your website should amplify them. Here's what makes a great butcher's website.</p></div>
+          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why butchers need a website that showcases quality</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your products and reputation speak volumes — your website should amplify them. Here's what makes a great butcher's website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
         </section>
         <section className="py-24 bg-background">
@@ -54,7 +54,7 @@ export default function WebsitesForButchers() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Butcher Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for butchers across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,14 +71,14 @@ export default function WebsitesForButchers() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Butchery Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Butchery Business" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your products and tell your story." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with a stronger product focus and better ordering flow." },
           { title: "Online Order Setup", description: "We can set up an online ordering system so customers can order meat for collection or delivery." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy in the shop â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy in the shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers order meat for delivery online?", answer: "Yes. We can add an online ordering system or a simple enquiry form so customers can place orders for collection or delivery." },
           { question: "How much does a butcher's website cost?", answer: "New websites start from £1,500. If you need a product showcase, sourcing story, and online ordering, we'll give you a fixed quote upfront." },
           { question: "Can I update my product range and prices myself?", answer: "Yes. We build your site so you can easily update products, prices, and special offers yourself. Or we can do it for you as part of our managed service." },

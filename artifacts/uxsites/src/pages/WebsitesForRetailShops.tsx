@@ -15,7 +15,7 @@ const painPoints = [
   { title: "Your products need to shine online", description: "Independent retail is about unique products and personal curation. A well-designed product showcase helps customers discover what makes your shop special." },
   { title: "Opening hours matter more than you think", description: "Customers need to know when you're open. Clear, prominent opening hours on your website reduce frustration and prevent wasted trips." },
   { title: "Location and parking information drives foot traffic", description: "Helping customers find you easily with a map, address, and parking info encourages more people to visit your physical shop." },
-  { title: "Your shop's story builds customer loyalty", description: "Independent shops have character and history. Sharing your story â€” why you opened, what you sell, your values â€” builds connection with customers." },
+  { title: "Your shop's story builds customer loyalty", description: "Independent shops have character and history. Sharing your story — why you opened, what you sell, your values — builds connection with customers." },
   { title: "New shops need to build awareness fast", description: "If you're opening a new retail shop, a professional website helps you attract your first customers and establish your presence in the community." }
 ];
 
@@ -33,7 +33,7 @@ export default function WebsitesForRetailShops() {
         serviceSchema({ name: "Websites for Retail Shops", description: "Professional websites for independent retail shops and boutiques. Product showcases, location info, shop stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-retail-shops/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Retail Shops", url: "https://uxsites.co.uk/websites-for-retail-shops/" }]),
         faqSchema([
-          { question: "I'm busy running my shop â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy running my shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can I showcase my products and update them myself?", answer: "Yes. We build your site so you can easily add and update products, prices, and promotions yourself. Or we can manage it for you." },
           { question: "How much does a retail shop website cost?", answer: "New websites start from £1,500. If you need a product showcase, location info, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can customers buy products directly from my website?", answer: "Yes. We can set up an e-commerce system so you can sell products online as well as in-store." },
@@ -41,9 +41,9 @@ export default function WebsitesForRetailShops() {
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Retail shop websites" headline="Websites for Independent Retail Shops and Boutiques" subheadline="Your shop is unique â€” your website should be too. We build beautiful, mobile-friendly sites that showcase your products and bring customers through your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Product Showcase", "Location Map", "Opening Hours", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Retail shop websites" headline="Websites for Independent Retail Shops and Boutiques" subheadline="Your shop is unique — your website should be too. We build beautiful, mobile-friendly sites that showcase your products and bring customers through your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Product Showcase", "Location Map", "Opening Hours", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why retail shops need a website that drives foot traffic</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your shop has character â€” your website should reflect it. Here's what makes a great independent retail website.</p></div>
+          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why retail shops need a website that drives foot traffic</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your shop has character — your website should reflect it. Here's what makes a great independent retail website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
         </section>
         <section className="py-24 bg-background">
@@ -54,7 +54,7 @@ export default function WebsitesForRetailShops() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Retail Shop Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for retail shops across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,14 +71,14 @@ export default function WebsitesForRetailShops() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Retail Shop" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Retail Shop" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your products and attract more customers." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your shop's character? We can redesign with a stronger visual identity." },
           { title: "E-commerce Integration", description: "Want to sell online as well as in-store? We can set up an e-commerce system that works alongside your physical shop." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy running my shop â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy running my shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can I showcase my products and update them myself?", answer: "Yes. We build your site so you can easily add and update products, prices, and promotions yourself. Or we can manage it for you." },
           { question: "How much does a retail shop website cost?", answer: "New websites start from £1,500. If you need a product showcase, location info, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can customers buy products directly from my website?", answer: "Yes. We can set up an e-commerce system so you can sell products online as well as in-store." },

@@ -81,7 +81,7 @@ export default function CommonWordPressErrors() {
     <>
       <SEO
         title="Common WordPress Errors & How to Fix Them | UX Sites"
-        description="Common WordPress errors explained in plain English â€” white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
+        description="Common WordPress errors explained in plain English — white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
         url="https://uxsites.co.uk/common-wordpress-errors/"
         schema={[
           serviceSchema({
@@ -254,7 +254,7 @@ export default function CommonWordPressErrors() {
             },
             {
               title: "WordPress Support Shropshire",
-              description: "Expert WordPress support for Shropshire businesses â€” local help when you need it.",
+              description: "Expert WordPress support for Shropshire businesses — local help when you need it.",
               href: "/wordpress-support-shropshire/",
               tag: "Local"
             },

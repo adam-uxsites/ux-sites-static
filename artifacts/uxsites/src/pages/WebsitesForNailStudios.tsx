@@ -33,7 +33,7 @@ export default function WebsitesForNailStudios() {
         serviceSchema({ name: "Websites for Nail Studios", description: "Professional websites for nail technicians and nail art studios. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-nail-studios/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Nail Studios", url: "https://uxsites.co.uk/websites-for-nail-studios/" }]),
         faqSchema([
-          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy with clients — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
           { question: "How much does a nail studio website cost?", answer: "New websites start from £1,500. If you need a portfolio, price list, and online booking, we'll give you a fixed quote upfront." },
           { question: "Can you create a gallery for my nail art work?", answer: "Absolutely. We build dedicated portfolio galleries so you can showcase your nail art with high-quality images and categorise by style or service." },
@@ -43,7 +43,7 @@ export default function WebsitesForNailStudios() {
       <main>
         <HeroBlock tagline="Nail studio websites" headline="Websites for Nail Studios and Nail Technicians" subheadline="Your nail art deserves a showcase as polished as your work. We build beautiful, mobile-friendly sites that display your portfolio and make booking easy." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Portfolio Gallery", "Price Lists", "Online Booking", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
-          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why nail studios need a website that shows your skill</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your nail art speaks for itself â€” but only if potential clients can see it. Here's what makes a great nail studio website.</p></div>
+          <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why nail studios need a website that shows your skill</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your nail art speaks for itself — but only if potential clients can see it. Here's what makes a great nail studio website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
         </section>
         <section className="py-24 bg-background">
@@ -54,7 +54,7 @@ export default function WebsitesForNailStudios() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Nail Studio Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for nail studios across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,14 +71,14 @@ export default function WebsitesForNailStudios() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Nail Studio" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Nail Studio" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your nail art and attract more bookings." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with a stronger visual focus and better booking flow." },
-          { title: "Gift Voucher Integration", description: "Let clients purchase and send gift vouchers directly through your website â€” a great way to attract new customers." }
+          { title: "Gift Voucher Integration", description: "Let clients purchase and send gift vouchers directly through your website — a great way to attract new customers." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy with clients — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
           { question: "How much does a nail studio website cost?", answer: "New websites start from £1,500. If you need a portfolio, price list, and online booking, we'll give you a fixed quote upfront." },
           { question: "Can you create a gallery for my nail art work?", answer: "Absolutely. We build dedicated portfolio galleries so you can showcase your nail art with high-quality images and categorise by style or service." },

@@ -13,16 +13,16 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 const painPoints = [
   {
-    title: "Your customers are other trades â€” not the public",
+    title: "Your customers are other trades — not the public",
     description: "Builders, roofers, and contractors are your main customers. Your website needs to speak their language, show your capabilities, and make it easy for them to get a quote and book you in."
   },
   {
     title: "Credentials and safety are non-negotiable",
-    description: "CISRS cards, insurance, RAMS, and health and safety accreditation â€” these are what your customers look for before they hire. Your site needs to put these front and centre."
+    description: "CISRS cards, insurance, RAMS, and health and safety accreditation — these are what your customers look for before they hire. Your site needs to put these front and centre."
   },
   {
     title: "Project portfolio proves your capability",
-    description: "Photos of completed scaffolding projects â€” domestic, commercial, industrial, heritage â€” show potential customers the scale and type of work you can handle."
+    description: "Photos of completed scaffolding projects — domestic, commercial, industrial, heritage — show potential customers the scale and type of work you can handle."
   },
   {
     title: "Service area clarity saves time",
@@ -30,7 +30,7 @@ const painPoints = [
   },
   {
     title: "Quick turnaround needs quick contact",
-    description: "Scaffolding is often needed on a timeline â€” a builder needs scaffold up before they start. Your site needs to make it fast and easy for contractors to get a quote and place an order."
+    description: "Scaffolding is often needed on a timeline — a builder needs scaffold up before they start. Your site needs to make it fast and easy for contractors to get a quote and place an order."
   }
 ];
 
@@ -68,8 +68,8 @@ export default function WebsitesForScaffolders() {
           ]),
           faqSchema([
             {
-              question: "My customers are builders and contractors â€” do I still need a proper website?",
-              answer: "Yes. Trade customers check online before hiring â€” they look for CISRS accreditation, insurance, and project experience. A professional site with these details front and centre helps you win contracts."
+              question: "My customers are builders and contractors — do I still need a proper website?",
+              answer: "Yes. Trade customers check online before hiring — they look for CISRS accreditation, insurance, and project experience. A professional site with these details front and centre helps you win contracts."
             },
             {
               question: "Who keeps the website updated while I'm on site?",
@@ -81,7 +81,7 @@ export default function WebsitesForScaffolders() {
             },
             {
               question: "Can potential customers request quotes directly from the site?",
-              answer: "Yes. We include quote request forms that capture the key details â€” location, project type, duration â€” so you receive ready-to-qualify leads rather than vague enquiries."
+              answer: "Yes. We include quote request forms that capture the key details — location, project type, duration — so you receive ready-to-qualify leads rather than vague enquiries."
             }
           ]),
         ]}
@@ -90,7 +90,7 @@ export default function WebsitesForScaffolders() {
         <HeroBlock
           tagline="Scaffolding trade websites"
           headline="Websites for Scaffolding Contractors"
-          subheadline="Your credentials, your coverage, your capability â€” all in one place. We build professional websites that help scaffolding companies win contracts from builders, contractors, and project managers."
+          subheadline="Your credentials, your coverage, your capability — all in one place. We build professional websites that help scaffolding companies win contracts from builders, contractors, and project managers."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Credentials First", "Trade Focused", "Quick Quote", "Service Areas", "Ongoing Support"]}
@@ -147,7 +147,7 @@ export default function WebsitesForScaffolders() {
                   "Service area pages for local SEO",
                   "Quick quote request forms for trade customers",
                   "RAMS and policy documents available to download",
-                  "Contact information prominent â€” phone and email"
+                  "Contact information prominent — phone and email"
                 ].map((item, i) => (
                   <motion.div
                     key={i}
@@ -169,7 +169,7 @@ export default function WebsitesForScaffolders() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -250,12 +250,12 @@ export default function WebsitesForScaffolders() {
 
         <BenefitsGrid
           title="How We Help Your Scaffolding Business"
-          subtitle="Beyond the website â€” we keep your online presence working for you."
+          subtitle="Beyond the website — we keep your online presence working for you."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays live without you needing to think about it." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your credentials, services, and coverage areas. Mobile-first and optimised for trade customer enquiries." },
             { title: "Existing Site Refreshes", description: "Your current site not representing your capability? We can redesign with stronger credentials, better portfolio, and improved local SEO." },
-            { title: "Trade-Focused Lead Generation", description: "Quote request forms and contact flows designed for trade customers â€” quick, detailed enough to qualify leads, and easy to respond to." }
+            { title: "Trade-Focused Lead Generation", description: "Quote request forms and contact flows designed for trade customers — quick, detailed enough to qualify leads, and easy to respond to." }
 
 
           ]}
@@ -264,8 +264,8 @@ export default function WebsitesForScaffolders() {
         <FAQBlock
           faqs={[
             {
-              question: "My customers are builders and contractors â€” do I still need a proper website?",
-              answer: "Yes. Trade customers check online before hiring â€” they look for CISRS accreditation, insurance, and project experience. A professional site with these details front and centre helps you win contracts."
+              question: "My customers are builders and contractors — do I still need a proper website?",
+              answer: "Yes. Trade customers check online before hiring — they look for CISRS accreditation, insurance, and project experience. A professional site with these details front and centre helps you win contracts."
             },
             {
               question: "Who keeps the website updated while I'm on site?",
@@ -277,10 +277,10 @@ export default function WebsitesForScaffolders() {
             },
             {
               question: "Can potential customers request quotes directly from the site?",
-              answer: "Yes. We include quote request forms that capture the key details â€” location, project type, duration â€” so you receive ready-to-qualify leads rather than vague enquiries."
+              answer: "Yes. We include quote request forms that capture the key details — location, project type, duration — so you receive ready-to-qualify leads rather than vague enquiries."
             },
             {
-              question: "I'm a one-man-band scaffolder â€” is a website worth it for me?",
+              question: "I'm a one-man-band scaffolder — is a website worth it for me?",
               answer: "A focused site helps even sole traders look professional and win work from builders and homeowners. You can start with a simple site and expand as your business grows."
             }
 
@@ -301,7 +301,7 @@ export default function WebsitesForScaffolders() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -331,7 +331,7 @@ export default function WebsitesForScaffolders() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

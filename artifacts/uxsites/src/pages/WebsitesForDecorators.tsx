@@ -13,8 +13,8 @@ import { Check, ArrowRight, MapPin } from "lucide-react";
 
 const painPoints = [
   {
-    title: "Your work is visual â€” your site should show it",
-    description: "Decorating is about finish and detail. A website with a strong gallery of completed projects â€” rooms, feature walls, exterior work, commercial spaces â€” shows potential customers exactly what you can achieve."
+    title: "Your work is visual — your site should show it",
+    description: "Decorating is about finish and detail. A website with a strong gallery of completed projects — rooms, feature walls, exterior work, commercial spaces — shows potential customers exactly what you can achieve."
   },
   {
     title: "Before-and-after photos sell your skill",
@@ -68,12 +68,12 @@ export default function WebsitesForDecorators() {
           ]),
           faqSchema([
             {
-              question: "I'm busy on site â€” who manages the website for me?",
+              question: "I'm busy on site — who manages the website for me?",
               answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
             },
             {
               question: "I've got a basic website that doesn't show my work well. Can you improve it?",
-              answer: "Yes. We can redesign your site with a strong portfolio focus â€” galleries, before-and-after shots, and project descriptions that show off your finish and help you win more enquiries."
+              answer: "Yes. We can redesign your site with a strong portfolio focus — galleries, before-and-after shots, and project descriptions that show off your finish and help you win more enquiries."
             },
             {
               question: "How much does a decorator's website cost?",
@@ -81,7 +81,7 @@ export default function WebsitesForDecorators() {
             },
             {
               question: "Will I be able to add new photos myself?",
-              answer: "Yes â€” we build on WordPress so you can add photos and update your portfolio whenever you complete a project. We'll show you how, and we're here if you need help."
+              answer: "Yes — we build on WordPress so you can add photos and update your portfolio whenever you complete a project. We'll show you how, and we're here if you need help."
             }
           ]),
         ]}
@@ -90,7 +90,7 @@ export default function WebsitesForDecorators() {
         <HeroBlock
           tagline="Decorating trade websites"
           headline="Websites for Painters and Decorators"
-          subheadline="Your work is visual â€” your website should show it off. We build professional sites with stunning project galleries that help you win more decorating and painting work."
+          subheadline="Your work is visual — your website should show it off. We build professional sites with stunning project galleries that help you win more decorating and painting work."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Portfolio Focused", "Before & After", "Mobile First", "Local SEO", "Ongoing Support"]}
@@ -134,7 +134,7 @@ export default function WebsitesForDecorators() {
                   Decorating customers want to see your work before they book. A well-structured portfolio with project photos, descriptions, and customer feedback is the most powerful tool for winning new clients.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-8">
-                  We build each site around your style of work â€” whether that's interior decorating, exterior painting, wallpapering, or commercial projects.
+                  We build each site around your style of work — whether that's interior decorating, exterior painting, wallpapering, or commercial projects.
                 </p>
                 <Link href="/new-website/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   See our full website process
@@ -147,7 +147,7 @@ export default function WebsitesForDecorators() {
                   "Service pages for interior, exterior, and specialist work",
                   "Customer testimonials linked to specific projects",
                   "Clear service area information for local SEO",
-                  "Easy contact flow â€” quote requests and click-to-call"
+                  "Easy contact flow — quote requests and click-to-call"
                 ].map((item, i) => (
                   <motion.div
                     key={i}
@@ -169,7 +169,7 @@ export default function WebsitesForDecorators() {
         </section>
 
         <TestimonialBlock
-          quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
+          quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
           role="Small Business Owner"
@@ -251,12 +251,12 @@ export default function WebsitesForDecorators() {
 
         <BenefitsGrid
           title="How We Help Your Decorating Business"
-          subtitle="Beyond the website â€” we keep your online presence running smoothly."
+          subtitle="Beyond the website — we keep your online presence running smoothly."
           benefits={[
             { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
             { title: "New Website Builds", description: "From £1,500. A fully custom website with a strong portfolio focus, designed to showcase your work and help you win more decorating projects." },
             { title: "Existing Site Refreshes", description: "Your current site not doing your work justice? We can redesign with better galleries, modern layout, and improved local SEO." },
-            { title: "Portfolio Content Updates", description: "We can add new photos and project descriptions to your site as you complete work â€” keeping your portfolio fresh without you needing to touch the website." }
+            { title: "Portfolio Content Updates", description: "We can add new photos and project descriptions to your site as you complete work — keeping your portfolio fresh without you needing to touch the website." }
 
 
           ]}
@@ -265,12 +265,12 @@ export default function WebsitesForDecorators() {
         <FAQBlock
           faqs={[
             {
-              question: "I'm busy on site â€” who manages the website for me?",
+              question: "I'm busy on site — who manages the website for me?",
               answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
             },
             {
               question: "I've got a basic website that doesn't show my work well. Can you improve it?",
-              answer: "Yes. We can redesign your site with a strong portfolio focus â€” galleries, before-and-after shots, and project descriptions that show off your finish and help you win more enquiries."
+              answer: "Yes. We can redesign your site with a strong portfolio focus — galleries, before-and-after shots, and project descriptions that show off your finish and help you win more enquiries."
             },
             {
               question: "How much does a decorator's website cost?",
@@ -278,10 +278,10 @@ export default function WebsitesForDecorators() {
             },
             {
               question: "Will I be able to add new photos myself?",
-              answer: "Yes â€” we build on WordPress so you can add photos and update your portfolio whenever you complete a project. We'll show you how, and we're here if you need help."
+              answer: "Yes — we build on WordPress so you can add photos and update your portfolio whenever you complete a project. We'll show you how, and we're here if you need help."
             },
             {
-              question: "I'm starting out as a decorator â€” is a website worth it?",
+              question: "I'm starting out as a decorator — is a website worth it?",
               answer: "A professional website helps you look established from day one. Even with a small portfolio, a well-built site with a few strong project photos helps build trust and win your first clients."
             }
 
@@ -302,7 +302,7 @@ export default function WebsitesForDecorators() {
 
         <CTABanner
           title="Let's build your trade website"
-          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve â€” no jargon, no pressure."
+          description="Get a free, no-obligation quote. We'll talk through your services, your target areas, and what your site needs to achieve — no jargon, no pressure."
           buttonText="Get a Free Quote"
           buttonHref="/contact/"
           secondaryButtonText="See Our Process"
@@ -332,7 +332,7 @@ export default function WebsitesForDecorators() {
             },
             {
               title: "New Website Design & Build",
-              description: "Our full website design and development process â€” from first conversation to launch.",
+              description: "Our full website design and development process — from first conversation to launch.",
               href: "/new-website/",
               tag: "Service"
             },

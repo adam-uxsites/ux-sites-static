@@ -123,14 +123,14 @@ export default function ManagedHostingCostUK() {
                     <tr key={i} className="border-b border-border/50">
                       <td className="py-3 px-4 font-medium">{feature as string}</td>
                       <td className="py-3 px-4 text-center text-muted-foreground">
-                        {budget === false ? "âœ•" : budget as string}
+                        {budget === false ? "✕" : budget as string}
                       </td>
                       <td className="py-3 px-4 text-center text-muted-foreground">
-                        {vps === false ? "âœ•" : vps as string}
+                        {vps === false ? "✕" : vps as string}
                       </td>
                       <td className="py-3 px-4 text-center">
                         {managed === true
-                          ? <span className="text-primary font-bold">âœ“</span>
+                          ? <span className="text-primary font-bold">✓</span>
                           : <span className="text-primary font-bold">{managed as string}</span>}
                       </td>
                     </tr>

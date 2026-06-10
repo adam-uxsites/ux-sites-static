@@ -12,7 +12,7 @@ import { Link } from "wouter";
 import { Check, ArrowRight, MapPin } from "lucide-react";
 
 const painPoints = [
-  { title: "Visual results drive bookings", description: "Spray tanning is a visual service. A gallery of your work â€” different skin tones, spray tan finishes, and sunbed results â€” shows clients the quality they can expect." },
+  { title: "Visual results drive bookings", description: "Spray tanning is a visual service. A gallery of your work — different skin tones, spray tan finishes, and sunbed results — shows clients the quality they can expect." },
   { title: "Price lists need to be clear and accessible", description: "Clients want to know your prices before they book. Clear, easy-to-find pricing information helps them make a decision and reduces enquiries about basic costs." },
   { title: "Online booking is essential for modern studios", description: "Most tanning clients expect to book online. Your website needs an easy booking system that works on mobile so clients can book appointments anytime." },
   { title: "Local search brings in local clients", description: "People search for 'spray tan near me' or 'tanning studio in [town]' when they want a treatment. Local SEO helps your studio appear in those searches." },
@@ -41,7 +41,7 @@ export default function WebsitesForTanningStudios() {
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Tanning studio websites" headline="Websites for Tanning Studios and Spray Tan Technicians" subheadline="Your tanning results sell themselves â€” your website just needs to show them off. We build beautiful, mobile-friendly sites that showcase your work and make booking effortless." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Results Gallery", "Price Lists", "Online Booking", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Tanning studio websites" headline="Websites for Tanning Studios and Spray Tan Technicians" subheadline="Your tanning results sell themselves — your website just needs to show them off. We build beautiful, mobile-friendly sites that showcase your work and make booking effortless." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Results Gallery", "Price Lists", "Online Booking", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why tanning studios need a website that books clients</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your work is visual and your clients want convenience. Here's what makes a great tanning studio website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -54,7 +54,7 @@ export default function WebsitesForTanningStudios() {
             </div>
           </div>
         </section>
-        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site â€” I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
+        <TestimonialBlock quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues." name="Zahrah Aullybocus" date="January 2026" role="Small Business Owner" />
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-14"><div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4"><span className="flex h-2 w-2 rounded-full bg-primary mr-2" />Service Areas</div><h2 className="text-3xl font-bold mb-4">Areas We Serve for Tanning Studio Websites</h2><p className="text-muted-foreground text-lg max-w-2xl mx-auto">We build and support websites for tanning studios across Shropshire, Wrexham, and the Welsh borders.</p></div>
@@ -71,7 +71,7 @@ export default function WebsitesForTanningStudios() {
             ].map((item, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.08 }}><Link href={item.href} aria-label={`Learn more about ${item.name}`} className="group flex flex-col h-full p-8 bg-card border border-border rounded-2xl hover:border-primary/40 transition-all"><h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">{item.name}</h3><p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-4">{item.desc}</p><span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary">Learn more <ArrowRight size={14} /></span></Link></motion.div>))}</div>
           </div>
         </section>
-        <BenefitsGrid title="How We Help Your Tanning Studio" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
+        <BenefitsGrid title="How We Help Your Tanning Studio" subtitle="Beyond the website — we keep your online presence running smoothly." benefits={[
           { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
           { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your tanning services and attract more bookings." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with a stronger visual focus and better booking flow." },
