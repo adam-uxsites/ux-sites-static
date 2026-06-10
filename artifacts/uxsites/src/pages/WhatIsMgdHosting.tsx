@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
@@ -64,7 +64,7 @@ export default function WhatIsMgdHosting() {
             { question: "How is managed hosting different from regular hosting?", answer: "Regular hosting provides server space and leaves everything else to you. Managed hosting includes proactive security monitoring, automatic backups, WordPress updates, performance optimisation, and expert support as part of the service." },
             { question: "Do I need technical skills for managed hosting?", answer: "No  -  that's the point. Managed hosting is designed for people who want their website to work without needing to manage the technical side. Everything is handled for you." },
             { question: "Is managed hosting only for large websites?", answer: "No. Managed hosting is valuable for any website where reliability, security, and your time matter. Small business sites benefit just as much as large ones  -  sometimes more, because small business owners have less time to deal with technical issues." },
-            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting typically costs Â£20-Â£100/month depending on the provider and what's included. Our managed hosting starts at Â£50/month with everything included  -  backups, security, updates, performance optimisation, and support." },
+            { question: "How much does managed WordPress hosting cost?", answer: "Managed WordPress hosting typically costs £20-£100/month depending on the provider and what's included. Our managed hosting starts at £50/month with everything included  -  backups, security, updates, performance optimisation, and support." },
           ]),
         ]}
       />
@@ -230,14 +230,14 @@ export default function WhatIsMgdHosting() {
             },
             {
               question: "How much does managed WordPress hosting cost?",
-              answer: "Managed WordPress hosting typically ranges from Â£20 to Â£100 per month depending on the provider and what's included. Our managed hosting starts at Â£50/month with everything included  -  backups, security, updates, performance optimisation, CDN, SSL, and expert support. There are no hidden costs or upsells."
+              answer: "Managed WordPress hosting typically ranges from £20 to £100 per month depending on the provider and what's included. Our managed hosting starts at £50/month with everything included  -  backups, security, updates, performance optimisation, CDN, SSL, and expert support. There are no hidden costs or upsells."
             }
           ]}
         />
 
         <CTABanner
           title="Ready to stop worrying about your website?"
-          description="Managed WordPress hosting from Â£50/month  -  everything included, nothing to manage."
+          description="Managed WordPress hosting from £50/month  -  everything included, nothing to manage."
           buttonText="Get Started"
           buttonHref="/contact/"
           secondaryButtonText="What's Included"

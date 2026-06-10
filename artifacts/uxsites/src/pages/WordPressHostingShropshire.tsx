@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -14,13 +14,13 @@ export default function WordPressHostingShropshire() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Shropshire | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Shropshire businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Shropshire | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-shropshire/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Shropshire",
-            description: "Managed WordPress hosting for Shropshire businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support.",
+            description: "Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support.",
             url: "https://uxsites.co.uk/wordpress-hosting-shropshire/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -38,15 +38,15 @@ export default function WordPressHostingShropshire() {
         <HeroBlock
           tagline="Local hosting expertise, enterprise reliability"
           headline="Managed WordPress Hosting for Shropshire Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert â€” security, backups, updates, performance monitoring, and support all included from Â£50/month. You focus on your business; we keep your website running."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert â€” security, backups, updates, performance monitoring, and support all included from £50/month. You focus on your business; we keep your website running."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Shropshire Based", "Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
+          chips={["Shropshire Based", "£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Shropshire-based since day one" }
@@ -187,8 +187,8 @@ export default function WordPressHostingShropshire() {
             <p className="text-muted-foreground mb-10">Simple, transparent pricing â€” everything included.</p>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               {[
-                { title: "Monthly", price: "Â£50/month", note: "Cancel with 30 days notice", highlight: false },
-                { title: "Annual", price: "Â£500/year", note: "Save Â£100 â€” equivalent to 2 months free", highlight: true }
+                { title: "Monthly", price: "£50/month", note: "Cancel with 30 days notice", highlight: false },
+                { title: "Annual", price: "£500/year", note: "Save £100 â€” equivalent to 2 months free", highlight: true }
               ].map((plan, i) => (
                 <div key={i} className={`p-8 rounded-2xl border ${plan.highlight ? 'border-primary' : 'border-border'} bg-background`}>
                   <h3 className="text-xl font-bold mb-2">{plan.title}</h3>

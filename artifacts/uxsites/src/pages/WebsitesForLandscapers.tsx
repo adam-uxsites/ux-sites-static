@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForLandscapers() {
         serviceSchema({ name: "Websites for Landscapers", description: "Professional websites for landscapers and garden designers. Project portfolios, design process pages, before-and-after galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-landscapers/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Landscapers", url: "https://uxsites.co.uk/websites-for-landscapers/" }]),
         faqSchema([
-          { question: "I'm busy on site â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your projects." },
+          { question: "I'm busy on site â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your projects." },
           { question: "Can I showcase my completed landscaping projects?", answer: "Absolutely. We build dedicated project portfolio pages with photos, descriptions, and before-and-after comparisons." },
-          { question: "How much does a landscaper's website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, design process page, and service areas, we'll give you a fixed quote upfront." },
+          { question: "How much does a landscaper's website cost?", answer: "New websites start from £1,500. If you need a portfolio, design process page, and service areas, we'll give you a fixed quote upfront." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add a quote request form that captures project details, location, and contact information so you can respond quickly." },
           { question: "How do I explain my design and build process?", answer: "We can create a clear 'how it works' page that walks potential clients through your process from initial consultation to final planting." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Landscaper websites" headline="Websites for Landscapers and Garden Designers" subheadline="Your projects speak for themselves â€” your website should show them off. We build beautiful, mobile-friendly sites that showcase your portfolio and attract high-value clients." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Project Portfolios", "Before & After", "Design Process", "Mobile First", "Quote Forms"]} />
+        <HeroBlock tagline="Landscaper websites" headline="Websites for Landscapers and Garden Designers" subheadline="Your projects speak for themselves â€” your website should show them off. We build beautiful, mobile-friendly sites that showcase your portfolio and attract high-value clients." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Project Portfolios", "Before & After", "Design Process", "Mobile First", "Quote Forms"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why landscapers need a website that showcases your work</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your projects are your best marketing â€” your website should make them shine. Here's what makes a great landscaper's website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForLandscapers() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Landscaping Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your projects." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your portfolio and attract high-value clients." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your projects." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your portfolio and attract high-value clients." },
           { title: "Existing Site Refreshes", description: "Your current site not winning you projects? We can redesign with stronger portfolios and better lead generation." },
           { title: "Project Case Studies", description: "We can help you write and present detailed project case studies that demonstrate your expertise and results." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy on site â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your projects." },
+          { question: "I'm busy on site â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your projects." },
           { question: "Can I showcase my completed landscaping projects?", answer: "Absolutely. We build dedicated project portfolio pages with photos, descriptions, and before-and-after comparisons." },
-          { question: "How much does a landscaper's website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, design process page, and service areas, we'll give you a fixed quote upfront." },
+          { question: "How much does a landscaper's website cost?", answer: "New websites start from £1,500. If you need a portfolio, design process page, and service areas, we'll give you a fixed quote upfront." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add a quote request form that captures project details, location, and contact information so you can respond quickly." },
           { question: "How do I explain my design and build process?", answer: "We can create a clear 'how it works' page that walks potential clients through your process from initial consultation to final planting." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your landscaping website" description="Get a free, no-obligation quote. We'll talk through your projects and your services." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Gardeners", description: "Websites for gardeners and grounds maintenance.", href: "/websites-for-gardeners/", tag: "Trades" },

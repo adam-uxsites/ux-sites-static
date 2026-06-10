@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+﻿import { useState, useEffect } from "react";
 import { SEO } from "@/components/seo/SEO";
 import { EmailLink } from "@/components/ui/EmailLink";
 import { motion } from "framer-motion";
@@ -15,9 +15,9 @@ import { Button } from "@/components/ui/button";
 import { AlertCircle, Loader2, Mail, Phone, Clock, ArrowRight, Send, MessageSquare, Shield, Building2, Wrench, Briefcase, Sparkles, Coffee, ShoppingBag, Heart } from "lucide-react";
 
 const services = [
-  { value: "hosting", label: "Managed WordPress Hosting (Â£50/mo)" },
-  { value: "care-plan", label: "WordPress Care Plan (Â£250/mo)" },
-  { value: "care-plan-pro", label: "WordPress Care Plan Pro (Â£500/mo)" },
+  { value: "hosting", label: "Managed WordPress Hosting (£50/mo)" },
+  { value: "care-plan", label: "WordPress Care Plan (£250/mo)" },
+  { value: "care-plan-pro", label: "WordPress Care Plan Pro (£500/mo)" },
   { value: "new", label: "New Website" },
   { value: "refresh", label: "Website Refresh / Redesign" },
   { value: "improve", label: "Existing Website Improvements" },

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForCoffeeShops() {
         serviceSchema({ name: "Websites for Coffee Shops", description: "Professional websites for coffee shops and artisan cafes. Menu displays, atmosphere galleries, location info, and local SEO.", url: "https://uxsites.co.uk/websites-for-coffee-shops/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Coffee Shops", url: "https://uxsites.co.uk/websites-for-coffee-shops/" }]),
         faqSchema([
-          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your drinks, food, and prices. You can update it yourself or we can do it for you." },
-          { question: "How much does a coffee shop website cost?", answer: "New websites start from Â£1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
+          { question: "How much does a coffee shop website cost?", answer: "New websites start from £1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
           { question: "Can I promote events and live music on the site?", answer: "Absolutely. We can add an events section so you can promote open mic nights, live music, tasting events, and other special occasions." },
           { question: "Do you include social media integration?", answer: "Yes. We can embed your Instagram feed so your latest posts and photos automatically appear on your site, showcasing your coffee and atmosphere." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Coffee shop websites" headline="Websites for Coffee Shops and Artisan Cafes" subheadline="Your coffee and atmosphere deserve to be seen. We build beautiful, mobile-friendly sites that showcase your space and bring customers through your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Menu Display", "Atmosphere Gallery", "Location Map", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Coffee shop websites" headline="Websites for Coffee Shops and Artisan Cafes" subheadline="Your coffee and atmosphere deserve to be seen. We build beautiful, mobile-friendly sites that showcase your space and bring customers through your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Menu Display", "Atmosphere Gallery", "Location Map", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why coffee shops need a website that brings people in</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your coffee and atmosphere sell the experience â€” your website just needs to show it. Here's what makes a great coffee shop website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForCoffeeShops() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Coffee Shop" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your atmosphere and attract more customers." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your atmosphere and attract more customers." },
           { title: "Existing Site Refreshes", description: "Your current site not bringing people in? We can redesign with a stronger visual focus and better local presence." },
           { title: "Social Media Integration", description: "Embed your Instagram feed so your latest coffee photos and posts automatically appear on your site." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy serving customers â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your drinks, food, and prices. You can update it yourself or we can do it for you." },
-          { question: "How much does a coffee shop website cost?", answer: "New websites start from Â£1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
+          { question: "How much does a coffee shop website cost?", answer: "New websites start from £1,500. If you need a menu, gallery, and location info, we'll give you a fixed quote upfront." },
           { question: "Can I promote events and live music on the site?", answer: "Absolutely. We can add an events section so you can promote open mic nights, live music, tasting events, and other special occasions." },
           { question: "Do you include social media integration?", answer: "Yes. We can embed your Instagram feed so your latest posts and photos automatically appear on your site, showcasing your coffee and atmosphere." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your coffee shop website" description="Get a free, no-obligation quote. We'll talk through your space and your brand." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Cafes", description: "Websites for cafes, tearooms, and delis.", href: "/websites-for-cafes/", tag: "Food" },

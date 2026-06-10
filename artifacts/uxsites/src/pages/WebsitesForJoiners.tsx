@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForJoiners() {
           faqSchema([
             {
               question: "I spend my days in the workshop â€” who manages my website?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
               question: "Do you build sites that work well for showing joinery work?",
@@ -77,7 +77,7 @@ export default function WebsitesForJoiners() {
             },
             {
               question: "How much does a joiner's website cost?",
-              answer: "New websites start from Â£1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
+              answer: "New websites start from £1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
             },
             {
               question: "Can I update my own portfolio when I finish new projects?",
@@ -92,7 +92,7 @@ export default function WebsitesForJoiners() {
           headline="Websites for Joiners and Carpenters"
           subheadline="Your work is built on quality and precision â€” your website should reflect the same standard. We build beautiful portfolio sites that showcase your craftsmanship and help you win bespoke projects."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Portfolio Driven", "Craftsmanship Focus", "Mobile First", "Local SEO", "Ongoing Support"]}
         />
 
@@ -253,8 +253,8 @@ export default function WebsitesForJoiners() {
           title="How We Help Your Joinery Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your craftsmanship and help you win more bespoke projects." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your craftsmanship and help you win more bespoke projects." },
             { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with better galleries, modern layout, and improved local SEO." },
             { title: "Portfolio Content Updates", description: "We can add new project photos and descriptions as you complete work â€” keeping your portfolio fresh without you touching the website." }
 
@@ -266,7 +266,7 @@ export default function WebsitesForJoiners() {
           faqs={[
             {
               question: "I spend my days in the workshop â€” who manages my website?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on making and fitting."
             },
             {
               question: "Do you build sites that work well for showing joinery work?",
@@ -274,7 +274,7 @@ export default function WebsitesForJoiners() {
             },
             {
               question: "How much does a joiner's website cost?",
-              answer: "New websites start from Â£1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
+              answer: "New websites start from £1,500. If you need a portfolio site with galleries and service pages, we'll give you a fixed quote upfront with no hidden extras."
             },
             {
               question: "Can I update my own portfolio when I finish new projects?",
@@ -294,7 +294,7 @@ export default function WebsitesForJoiners() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

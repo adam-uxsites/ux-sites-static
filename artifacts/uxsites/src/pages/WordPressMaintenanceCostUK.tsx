@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
@@ -16,39 +16,39 @@ const costDrivers = [
   {
     icon: HeadphonesIcon,
     title: "Freelance Support",
-    description: "A freelancer handles updates and maintenance on an ad-hoc basis. Typically charged hourly (Â£30-Â£60/hr) or as a retainer. Good for specific tasks, but response times can be slow and there's no guaranteed cover if they're unavailable.",
-    cost: "Â£30-Â£100/month"
+    description: "A freelancer handles updates and maintenance on an ad-hoc basis. Typically charged hourly (£30-£60/hr) or as a retainer. Good for specific tasks, but response times can be slow and there's no guaranteed cover if they're unavailable.",
+    cost: "£30-£100/month"
   },
   {
     icon: Server,
     title: "Managed Maintenance Plans",
     description: "A dedicated provider handles everything  -  updates, security, backups, monitoring, and support  -  for a fixed monthly fee. Includes expert cover and guaranteed response times. You know what you're paying and what's covered.",
-    cost: "Â£50-Â£150/month"
+    cost: "£50-£150/month"
   },
   {
     icon: Building2,
     title: "Agency Care Plan",
     description: "A full-service agency manages your hosting, maintenance, support, and ongoing improvements. Often includes strategy, reporting, and priority access. The most comprehensive option, suited to businesses where the website is central to operations.",
-    cost: "Â£200-Â£500+/month"
+    cost: "£200-£500+/month"
   }
 ];
 
 const costRanges = [
-  { option: "DIY (your own time)", monthly: "Â£0", time: "2-4 hrs/month", risk: "High", support: "None" },
-  { option: "Basic care plan", monthly: "Â£30-Â£60", time: "0 hrs", risk: "Low", support: "Email" },
-  { option: "Managed hosting + maintenance", monthly: "Â£50-Â£150", time: "0 hrs", risk: "Minimal", support: "Priority email" },
+  { option: "DIY (your own time)", monthly: "£0", time: "2-4 hrs/month", risk: "High", support: "None" },
+  { option: "Basic care plan", monthly: "£30-£60", time: "0 hrs", risk: "Low", support: "Email" },
+  { option: "Managed hosting + maintenance", monthly: "£50-£150", time: "0 hrs", risk: "Minimal", support: "Priority email" },
 ];
 
 const valueReasons = [
   {
     icon: Clock,
     title: "Your time has a cost",
-    description: "If you value your time at even Â£30/hour and spend 3 hours per month on WordPress upkeep, that's Â£90/month  -  more than most managed plans. You're not saving money by doing it yourself; you're just paying with time instead of cash."
+    description: "If you value your time at even £30/hour and spend 3 hours per month on WordPress upkeep, that's £90/month  -  more than most managed plans. You're not saving money by doing it yourself; you're just paying with time instead of cash."
   },
   {
     icon: Shield,
     title: "Emergency fixes are expensive",
-    description: "A hacked site typically costs Â£200-Â£500 to clean up. A broken update that takes your site offline on a weekend could mean lost sales. Managed maintenance prevents emergencies  -  and when rare issues do occur, they're covered by your plan."
+    description: "A hacked site typically costs £200-£500 to clean up. A broken update that takes your site offline on a weekend could mean lost sales. Managed maintenance prevents emergencies  -  and when rare issues do occur, they're covered by your plan."
   },
   {
     icon: TrendingUp,
@@ -77,7 +77,7 @@ export default function WordPressMaintenanceCostUK() {
             { name: "WordPress Maintenance Cost UK", url: "https://uxsites.co.uk/wordpress-maintenance-cost-uk/" },
           ]),
           faqSchema([
-            { question: "How much does WordPress maintenance cost in the UK?", answer: "WordPress maintenance costs in the UK range from Â£0 (DIY) to Â£500+/month for full-service agency care plans. Most small businesses pay between Â£50-Â£150/month for a comprehensive managed maintenance plan." },
+            { question: "How much does WordPress maintenance cost in the UK?", answer: "WordPress maintenance costs in the UK range from £0 (DIY) to £500+/month for full-service agency care plans. Most small businesses pay between £50-£150/month for a comprehensive managed maintenance plan." },
             { question: "Is WordPress maintenance worth paying for?", answer: "For most businesses, yes. When you factor in the time cost of DIY maintenance (2-4 hours/month), the risk of security issues, and the value of having expert support available when things go wrong, paid maintenance is typically excellent value." },
             { question: "What's included in a typical WordPress maintenance plan?", answer: "A good maintenance plan includes WordPress core and plugin updates, security monitoring, daily backups, uptime monitoring, performance checks, and expert support. Some plans also include content update requests." },
           ]),
@@ -90,7 +90,7 @@ export default function WordPressMaintenanceCostUK() {
           subheadline="A practical guide to what WordPress maintenance costs, what affects the price, and how to judge value."
           primaryCta={{ text: "See Our Maintenance Plan", href: "/wordpress-maintenance/" }}
           secondaryCta={{ text: "Get in Touch", href: "/contact/" }}
-          chips={["Â£0-Â£500+/month", "DIY to Full Service", "Value Depends on Context"]}
+          chips={["£0-£500+/month", "DIY to Full Service", "Value Depends on Context"]}
         />
 
         {/* What drives WordPress maintenance cost */}
@@ -232,11 +232,11 @@ export default function WordPressMaintenanceCostUK() {
           faqs={[
             {
               question: "How much does WordPress maintenance cost in the UK?",
-              answer: "WordPress maintenance in the UK ranges from free (DIY) to Â£500+/month for full-service agency plans. Most small and medium businesses pay between Â£50-Â£150/month for a managed plan that covers updates, security, backups, monitoring, and support."
+              answer: "WordPress maintenance in the UK ranges from free (DIY) to £500+/month for full-service agency plans. Most small and medium businesses pay between £50-£150/month for a managed plan that covers updates, security, backups, monitoring, and support."
             },
             {
               question: "Is it cheaper to maintain WordPress myself?",
-              answer: "It depends on how you value your time. If you spend 3 hours per month on WordPress maintenance and your time is worth Â£30/hour, that's Â£90/month  -  more than most managed plans. And that doesn't include the cost of emergency fixes when something goes wrong."
+              answer: "It depends on how you value your time. If you spend 3 hours per month on WordPress maintenance and your time is worth £30/hour, that's £90/month  -  more than most managed plans. And that doesn't include the cost of emergency fixes when something goes wrong."
             },
             {
               question: "What affects the price of a WordPress maintenance plan?",
@@ -250,7 +250,7 @@ export default function WordPressMaintenanceCostUK() {
         />
 
         <CTABanner
-          title="Get professional maintenance from Â£50/month"
+          title="Get professional maintenance from £50/month"
           description="A comprehensive WordPress maintenance plan costs less than you might think  -  and saves far more than it costs. Get in touch to discuss what makes sense for your site."
           buttonText="Discuss Maintenance"
           buttonHref="/contact/"

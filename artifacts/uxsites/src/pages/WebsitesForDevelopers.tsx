@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -36,12 +36,12 @@ export default function WebsitesForDevelopers() {
           { question: "I'm a small developer doing one project at a time â€” is a website worth it?", answer: "Absolutely. A professional site showcasing your completed projects helps you secure your next plot of land, attract buyers before you've broken ground, and look established when negotiating with investors." },
           { question: "We're building a whole housing estate â€” can the site handle multiple developments?", answer: "Yes. We build sites that scale from a single project to multiple concurrent developments, with individual pages per site featuring floor plans, CGI renders, specs, and contact details." },
           { question: "Can I use the site to sell homes off-plan before they're built?", answer: "Yes. We can create dedicated development pages with CGI visuals, floor plans, specifications, and enquiry forms to generate interest and reservations before completion." },
-          { question: "How much does a property developer's website cost?", answer: "New websites start from Â£1,500. If you have multiple developments or need CGI-heavy presentations, we'll scope it and give you a fixed upfront quote." },
+          { question: "How much does a property developer's website cost?", answer: "New websites start from £1,500. If you have multiple developments or need CGI-heavy presentations, we'll scope it and give you a fixed upfront quote." },
           { question: "I'm starting my own development company â€” is a website a priority?", answer: "A professional website helps you look credible when approaching landowners, investors, and buyers. We can start with your first project and expand as your portfolio grows." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Property development websites" headline="Websites for Property Developers" subheadline="Whether you're renovating a single terrace or building a whole housing estate, your website proves what you can deliver. We build professional sites that showcase your developments and attract buyers, landowners, and investors." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Development Portfolio", "Off-Plan Sales", "CGI & Floor Plans", "Local Expertise", "Scalable"]} />
+        <HeroBlock tagline="Property development websites" headline="Websites for Property Developers" subheadline="Whether you're renovating a single terrace or building a whole housing estate, your website proves what you can deliver. We build professional sites that showcase your developments and attract buyers, landowners, and investors." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Development Portfolio", "Off-Plan Sales", "CGI & Floor Plans", "Local Expertise", "Scalable"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why property developers need a website at any scale</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">From small-scale renovations to large housing estates, your website is how you prove your track record and attract the next opportunity.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -73,8 +73,8 @@ export default function WebsitesForDevelopers() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Development Business" subtitle="Beyond the website â€” we keep your online presence working for you." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your next development." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your developments and attract buyers, landowners, and investors." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your next development." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your developments and attract buyers, landowners, and investors." },
           { title: "Existing Site Refreshes", description: "Your current site not doing justice to your work? We can redesign with better visuals, clearer project pages, and stronger lead generation." },
           { title: "Scalable Development Portfolios", description: "Start with one project and add more as your portfolio grows. We build sites that scale from a single renovation to multiple concurrent housing estates." }
         ]} />
@@ -82,10 +82,10 @@ export default function WebsitesForDevelopers() {
           { question: "I'm a small developer doing one project at a time â€” is a website worth it?", answer: "Absolutely. A professional site showcasing your completed projects helps you secure your next plot of land, attract buyers before you've broken ground, and look established when negotiating with investors." },
           { question: "We're building a whole housing estate â€” can the site handle multiple developments?", answer: "Yes. We build sites that scale from a single project to multiple concurrent developments, with individual pages per site featuring floor plans, CGI renders, specs, and contact details." },
           { question: "Can I use the site to sell homes off-plan before they're built?", answer: "Yes. We can create dedicated development pages with CGI visuals, floor plans, specifications, and enquiry forms to generate interest and reservations before completion." },
-          { question: "How much does a property developer's website cost?", answer: "New websites start from Â£1,500. If you have multiple developments or need CGI-heavy presentations, we'll scope it and give you a fixed upfront quote." },
+          { question: "How much does a property developer's website cost?", answer: "New websites start from £1,500. If you have multiple developments or need CGI-heavy presentations, we'll scope it and give you a fixed upfront quote." },
           { question: "I'm starting my own development company â€” is a website a priority?", answer: "A professional website helps you look credible when approaching landowners, investors, and buyers. We can start with your first project and expand as your portfolio grows." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your property development website" description="Get a free, no-obligation quote. We'll talk through your developments, your target buyers, and what your site needs to achieve." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Builders", description: "Professional websites for builders and construction companies.", href: "/websites-for-builders/", tag: "Trade" },

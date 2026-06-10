@@ -3,6 +3,14 @@ import { preview } from "vite";
 import { fileURLToPath } from "url";
 import path from "path";
 import fs from "fs";
+import TurndownService from "turndown";
+
+const turndownService = new TurndownService({
+  headingStyle: "atx",
+  codeBlockStyle: "fenced",
+});
+
+turndownService.remove(["nav", "footer", "script", "style", "noscript", "svg"]);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -138,9 +146,18 @@ const blogSlugs = [
 
 blogSlugs.forEach(slug => routes.push(`/blog/${slug}/`));
 
+const NOINDEX_ROUTES = new Set([
+  "/thank-you/",
+  "/privacy-policy/",
+  "/terms-of-service/",
+  "/sitemap/",
+]);
+
 function generateSitemap(allRoutes) {
-  const urls = allRoutes.map(route => {
-    const urlPath = route === "/" ? "/" : `${route}/`;
+  const urls = allRoutes
+    .filter(route => !NOINDEX_ROUTES.has(route))
+    .map(route => {
+    const urlPath = route === "/" ? "/" : route.replace(/\/+$/, "") + "/";
     const escaped = urlPath.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     return `  <url>\n    <loc>${SITE_URL}${escaped}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>${route === "/" ? "1.0" : "0.7"}</priority>\n  </url>`;
   }).join("\n");
@@ -263,6 +280,12 @@ async function prerender() {
 
       fs.mkdirSync(path.dirname(filePath), { recursive: true });
       fs.writeFileSync(filePath, html, "utf-8");
+
+      // Generate markdown version of the page for Accept: text/markdown
+      const mdFilePath = filePath.replace(/\.html$/, ".md");
+      const markdown = turndownService.turndown(html);
+      fs.writeFileSync(mdFilePath, markdown, "utf-8");
+
       success++;
       process.stdout.write(`\r  ? [${i + 1}/${total}] ${route}                  `);
     } catch (err) {

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -86,7 +86,7 @@ export default function WebsitesForMarketingConsultants() {
           headline="Marketing Consultant Websites Focused on Positioning and Pipeline"
           subheadline="Marketing consultants need websites that present strategic capability clearly, demonstrate proof, and attract the right kind of enquiry."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Strategic Positioning", "Proof Led", "Qualified Leads", "Conversion Focused"]}
         />
 

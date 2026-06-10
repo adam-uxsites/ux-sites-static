@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForDecorators() {
           faqSchema([
             {
               question: "I'm busy on site â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
+              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
             },
             {
               question: "I've got a basic website that doesn't show my work well. Can you improve it?",
@@ -77,7 +77,7 @@ export default function WebsitesForDecorators() {
             },
             {
               question: "How much does a decorator's website cost?",
-              answer: "New websites start from Â£1,500. If you mainly need a portfolio site with a few service pages, it may cost less. We give fixed quotes upfront with no hidden charges."
+              answer: "New websites start from £1,500. If you mainly need a portfolio site with a few service pages, it may cost less. We give fixed quotes upfront with no hidden charges."
             },
             {
               question: "Will I be able to add new photos myself?",
@@ -92,7 +92,7 @@ export default function WebsitesForDecorators() {
           headline="Websites for Painters and Decorators"
           subheadline="Your work is visual â€” your website should show it off. We build professional sites with stunning project galleries that help you win more decorating and painting work."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Portfolio Focused", "Before & After", "Mobile First", "Local SEO", "Ongoing Support"]}
         />
 
@@ -253,8 +253,8 @@ export default function WebsitesForDecorators() {
           title="How We Help Your Decorating Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website with a strong portfolio focus, designed to showcase your work and help you win more decorating projects." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your portfolio site stays up to date with zero effort from you." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website with a strong portfolio focus, designed to showcase your work and help you win more decorating projects." },
             { title: "Existing Site Refreshes", description: "Your current site not doing your work justice? We can redesign with better galleries, modern layout, and improved local SEO." },
             { title: "Portfolio Content Updates", description: "We can add new photos and project descriptions to your site as you complete work â€” keeping your portfolio fresh without you needing to touch the website." }
 
@@ -266,7 +266,7 @@ export default function WebsitesForDecorators() {
           faqs={[
             {
               question: "I'm busy on site â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
+              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on the decorating."
             },
             {
               question: "I've got a basic website that doesn't show my work well. Can you improve it?",
@@ -274,7 +274,7 @@ export default function WebsitesForDecorators() {
             },
             {
               question: "How much does a decorator's website cost?",
-              answer: "New websites start from Â£1,500. If you mainly need a portfolio site with a few service pages, it may cost less. We give fixed quotes upfront with no hidden charges."
+              answer: "New websites start from £1,500. If you mainly need a portfolio site with a few service pages, it may cost less. We give fixed quotes upfront with no hidden charges."
             },
             {
               question: "Will I be able to add new photos myself?",
@@ -294,7 +294,7 @@ export default function WebsitesForDecorators() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

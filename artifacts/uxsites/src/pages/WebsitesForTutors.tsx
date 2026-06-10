@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForTutors() {
         serviceSchema({ name: "Websites for Tutors", description: "Professional websites for tutors and tuition centres. Subject listings, qualifications, pricing, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tutors/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tutors", url: "https://uxsites.co.uk/websites-for-tutors/" }]),
         faqSchema([
-          { question: "I'm busy teaching â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your students." },
+          { question: "I'm busy teaching â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your students." },
           { question: "Can students book lessons through the website?", answer: "Yes. We can integrate a booking system so students can check availability and book lessons directly online." },
-          { question: "How much does a tutor's website cost?", answer: "New websites start from Â£1,500. If you need subject listings, pricing, and booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tutor's website cost?", answer: "New websites start from £1,500. If you need subject listings, pricing, and booking, we'll give you a fixed quote upfront." },
           { question: "Can I list my qualifications and experience?", answer: "Absolutely. We build tutor profile pages where you can showcase your qualifications, teaching experience, and student success stories." },
           { question: "Can I offer both online and in-person tutoring options?", answer: "Yes. We can clearly present both options with their own booking flows so students can choose their preferred format." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Tutor websites" headline="Websites for Tutors and Tuition Centres" subheadline="Your expertise changes lives â€” your website should show it. We build professional, mobile-friendly sites that help you attract more students and grow your tutoring business." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Subject Listings", "Online Booking", "Pricing", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Tutor websites" headline="Websites for Tutors and Tuition Centres" subheadline="Your expertise changes lives â€” your website should show it. We build professional, mobile-friendly sites that help you attract more students and grow your tutoring business." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Subject Listings", "Online Booking", "Pricing", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why tutors need a website that attracts students</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your teaching speaks for itself â€” but only if students can find you. Here's what makes a great tutor website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForTutors() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Tutoring Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your students." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your subjects and attract more students." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your students." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your subjects and attract more students." },
           { title: "Existing Site Refreshes", description: "Your current site not attracting students? We can redesign with clearer subject pages and better booking flow." },
           { title: "Online Booking Integration", description: "We can integrate a booking system so students can view availability and book lessons directly through your website." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy teaching â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your students." },
+          { question: "I'm busy teaching â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your students." },
           { question: "Can students book lessons through the website?", answer: "Yes. We can integrate a booking system so students can check availability and book lessons directly online." },
-          { question: "How much does a tutor's website cost?", answer: "New websites start from Â£1,500. If you need subject listings, pricing, and booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tutor's website cost?", answer: "New websites start from £1,500. If you need subject listings, pricing, and booking, we'll give you a fixed quote upfront." },
           { question: "Can I list my qualifications and experience?", answer: "Absolutely. We build tutor profile pages where you can showcase your qualifications, teaching experience, and student success stories." },
           { question: "Can I offer both online and in-person tutoring options?", answer: "Yes. We can clearly present both options with their own booking flows so students can choose their preferred format." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your tutor website" description="Get a free, no-obligation quote. We'll talk through your subjects and your teaching." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Schools", description: "Websites for schools, nurseries, and education.", href: "/websites-for-schools/", tag: "Education" },

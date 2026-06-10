@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -83,7 +83,7 @@ export default function WebsitesForLegalConsultants() {
           headline="Legal Consultant Websites Built for Clarity and Trust"
           subheadline="Legal consultants need websites that make complex services easy to understand, demonstrate authority, and guide visitors toward the right enquiry route."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Trust First", "Clear Services", "Approachable", "Secure", "Qualified Leads"]}
         />
 

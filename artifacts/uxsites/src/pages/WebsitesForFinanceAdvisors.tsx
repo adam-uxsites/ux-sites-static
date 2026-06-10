@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,14 +33,14 @@ export default function WebsitesForFinanceAdvisors() {
         serviceSchema({ name: "Websites for Financial Advisors", description: "Professional websites for financial advisors and wealth managers. Compliance-ready design, service pages, trust signals, and local SEO.", url: "https://uxsites.co.uk/websites-for-finance-advisors/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Finance Advisors", url: "https://uxsites.co.uk/websites-for-finance-advisors/" }]),
         faqSchema([
-          { question: "Who manages my website while I'm with clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site stays professional and compliant while you focus on your clients." },
+          { question: "Who manages my website while I'm with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays professional and compliant while you focus on your clients." },
           { question: "Does the website include FCA compliance and regulatory disclosures?", answer: "Yes. We ensure your site includes the necessary regulatory information, complaints procedures, and compliance statements your business needs." },
-          { question: "How much does a financial advisor's website cost?", answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need multiple service areas, adviser profiles, and compliance content, we'll scope it and give you a clear price." },
+          { question: "How much does a financial advisor's website cost?", answer: "New websites start from £1,500 with a fixed quote upfront. If you need multiple service areas, adviser profiles, and compliance content, we'll scope it and give you a clear price." },
           { question: "My current site isn't generating enquiries. Can you improve it?", answer: "Yes. We can refresh your site with clearer service pages, better trust signals, and improved local SEO to generate more qualified enquiries." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Financial services websites" headline="Websites for Financial Advisors and Wealth Managers" subheadline="Your clients need to trust you before they share their financial future. We build professional, compliant websites that communicate expertise and make it easy for clients to get in touch." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["FCA Compliant", "Service Clarity", "Trust Signals", "Local SEO", "Ongoing Support"]} />
+        <HeroBlock tagline="Financial services websites" headline="Websites for Financial Advisors and Wealth Managers" subheadline="Your clients need to trust you before they share their financial future. We build professional, compliant websites that communicate expertise and make it easy for clients to get in touch." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["FCA Compliant", "Service Clarity", "Trust Signals", "Local SEO", "Ongoing Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why financial advisors need a trust-first website</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Financial advice is one of the most trust-intensive services. Your website needs to build confidence before a client ever books a consultation.</p></div>
@@ -73,18 +73,18 @@ export default function WebsitesForFinanceAdvisors() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Advisory Practice" subtitle="Beyond the website â€” we keep your online presence running securely." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays professional and compliant while you focus on clients." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed around your services, credentials, and target locations. Mobile-first and optimised for Google." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays professional and compliant while you focus on clients." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your services, credentials, and target locations. Mobile-first and optimised for Google." },
           { title: "Existing Site Refreshes", description: "Your current site not generating enquiries? We can redesign with clearer services, better trust signals, and improved local SEO." },
           { title: "Compliant & Secure", description: "SSL certificates, security monitoring, and regular updates keep your site secure. Compliant contact forms and privacy-conscious design." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Who manages my website while I'm with clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site stays professional and compliant while you focus on your clients." },
+          { question: "Who manages my website while I'm with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays professional and compliant while you focus on your clients." },
           { question: "Does the website include FCA compliance and regulatory disclosures?", answer: "Yes. We ensure your site includes the necessary regulatory information, complaints procedures, and compliance statements your business needs." },
-          { question: "How much does a financial advisor's website cost?", answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need multiple service areas, adviser profiles, and compliance content, we'll scope it and give you a clear price." },
+          { question: "How much does a financial advisor's website cost?", answer: "New websites start from £1,500 with a fixed quote upfront. If you need multiple service areas, adviser profiles, and compliance content, we'll scope it and give you a clear price." },
           { question: "My current site isn't generating enquiries. Can you improve it?", answer: "Yes. We can refresh your site with clearer service pages, better trust signals, and improved local SEO to generate more qualified enquiries." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your professional services website" description="Get a free, no-obligation quote. We'll talk through your services and what your site needs to achieve." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Solicitors", description: "Professional websites for solicitors and law firms.", href: "/websites-for-lawyers/", tag: "Service" },

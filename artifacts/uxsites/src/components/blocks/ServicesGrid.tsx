@@ -1,29 +1,29 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ArrowRight, Server, Wrench, Globe, RefreshCcw, Code, TrendingUp, Zap } from "lucide-react";
 
 const services = [
   {
     title: "Managed WordPress Hosting",
-    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support  -  all included from Â£50/month.",
+    description: "Enterprise-grade hosting with daily backups, security monitoring, performance optimisation, and expert support  -  all included from £50/month.",
     icon: Server,
     href: "/managed-wordpress-hosting/",
     primary: true,
-    tag: "From Â£50/month"
+    tag: "From £50/month"
   },
   {
     title: "WordPress Care Plan",
-    description: "Everything in Managed Hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation from Â£250/month.",
+    description: "Everything in Managed Hosting plus 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
     icon: Wrench,
     href: "/wordpress-care-plan/",
-    tag: "From Â£250/month"
+    tag: "From £250/month"
   },
   {
     title: "WordPress Care Plan Pro",
-    description: "Increased development capacity, conversion optimisation, advanced performance, integration support, and strategic guidance from Â£500/month.",
+    description: "Increased development capacity, conversion optimisation, advanced performance, integration support, and strategic guidance from £500/month.",
     icon: TrendingUp,
     href: "/wordpress-care-plan-pro/",
-    tag: "From Â£500/month"
+    tag: "From £500/month"
   },
   {
     title: "New Websites",

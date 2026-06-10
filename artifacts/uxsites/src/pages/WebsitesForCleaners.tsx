@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForCleaners() {
         serviceSchema({ name: "Websites for Cleaners", description: "Professional websites for domestic and commercial cleaners. Service pages, area coverage, quote forms, testimonials, and local SEO.", url: "https://uxsites.co.uk/websites-for-cleaners/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cleaners", url: "https://uxsites.co.uk/websites-for-cleaners/" }]),
         faqSchema([
-          { question: "I'm busy cleaning â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy cleaning â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add an easy quote request form that captures job details, location, and contact information so you can respond quickly." },
-          { question: "How much does a cleaning business website cost?", answer: "New websites start from Â£1,500. If you need service pages, area coverage, and quote forms, we'll give you a fixed quote upfront." },
+          { question: "How much does a cleaning business website cost?", answer: "New websites start from £1,500. If you need service pages, area coverage, and quote forms, we'll give you a fixed quote upfront." },
           { question: "Can I list different services like end-of-tenancy and regular cleaning?", answer: "Absolutely. We can create dedicated pages for each service type with descriptions, pricing, and their own booking or quote forms." },
           { question: "How do I show I'm reliable and trustworthy?", answer: "Testimonials, reviews, and any accreditations or insurance details help build trust. We can feature these prominently on your site." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Cleaning business websites" headline="Websites for Domestic and Commercial Cleaners" subheadline="Your reputation is everything â€” your website should reflect it. We build professional, mobile-friendly sites that showcase your services and help you win new clients." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Service Pages", "Quote Forms", "Area Coverage", "Mobile First", "Client Reviews"]} />
+        <HeroBlock tagline="Cleaning business websites" headline="Websites for Domestic and Commercial Cleaners" subheadline="Your reputation is everything â€” your website should reflect it. We build professional, mobile-friendly sites that showcase your services and help you win new clients." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Service Pages", "Quote Forms", "Area Coverage", "Mobile First", "Client Reviews"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why cleaners need a website that wins trust</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Cleaning is about trust and reliability â€” your website should prove both. Here's what makes a great cleaning business website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForCleaners() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Cleaning Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your services and help you win new clients." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your services and help you win new clients." },
           { title: "Existing Site Refreshes", description: "Your current site not winning you work? We can redesign with clearer service pages and better lead generation." },
           { title: "Online Booking Integration", description: "We can add a simple booking system so regular clients can schedule their cleans directly through your website." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy cleaning â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy cleaning â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add an easy quote request form that captures job details, location, and contact information so you can respond quickly." },
-          { question: "How much does a cleaning business website cost?", answer: "New websites start from Â£1,500. If you need service pages, area coverage, and quote forms, we'll give you a fixed quote upfront." },
+          { question: "How much does a cleaning business website cost?", answer: "New websites start from £1,500. If you need service pages, area coverage, and quote forms, we'll give you a fixed quote upfront." },
           { question: "Can I list different services like end-of-tenancy and regular cleaning?", answer: "Absolutely. We can create dedicated pages for each service type with descriptions, pricing, and their own booking or quote forms." },
           { question: "How do I show I'm reliable and trustworthy?", answer: "Testimonials, reviews, and any accreditations or insurance details help build trust. We can feature these prominently on your site." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your cleaning website" description="Get a free, no-obligation quote. We'll talk through your services and your areas." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Gardeners", description: "Websites for gardeners and grounds maintenance.", href: "/websites-for-gardeners/", tag: "Services" },

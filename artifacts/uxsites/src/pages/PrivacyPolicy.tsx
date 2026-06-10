@@ -1,5 +1,6 @@
 import { SEO } from "@/components/seo/SEO";
 import { CTABanner } from "@/components/blocks/CTABanner";
+import { EmailLink } from "@/components/ui/EmailLink";
 import { motion } from "framer-motion";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
 
@@ -103,7 +104,7 @@ export default function PrivacyPolicy() {
                   <li>Object to processing of your data</li>
                   <li>Withdraw your consent (where applicable)</li>
                 </ul>
-                <p className="mt-4">To exercise your rights, please contact us at admin@uxsites.co.uk.</p>
+                <p className="mt-4">To exercise your rights, please <EmailLink email="admin@uxsites.co.uk">contact us</EmailLink>.</p>
               </Section>
 
               <Section number="9" title="Third-Party Links">
@@ -112,7 +113,7 @@ export default function PrivacyPolicy() {
 
               <Section number="10" title="Contact Us">
                 <p>If you have any questions about this Privacy Policy or how we handle your data, please contact:</p>
-                <p className="mt-2">UX Sites<br />Email: admin@uxsites.co.uk</p>
+                <p className="mt-2">UX Sites<br />Email: <EmailLink email="admin@uxsites.co.uk" /></p>
               </Section>
             </div>
           </div>

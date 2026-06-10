@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -205,7 +205,7 @@ export default function WordPressSupportShropshire() {
             },
             {
               title: "WordPress Care Plan",
-              description: "Ongoing development, updates & priority support from Â£50/month.",
+              description: "Ongoing development, updates & priority support from £50/month.",
               href: "/wordpress-care-plan/",
               tag: "Service"
             },
@@ -217,7 +217,7 @@ export default function WordPressSupportShropshire() {
             },
             {
               title: "Managed WordPress Hosting Shropshire",
-              description: "Local managed hosting from Â£50/month â€” keeping your site secure and fast.",
+              description: "Local managed hosting from £50/month â€” keeping your site secure and fast.",
               href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             },

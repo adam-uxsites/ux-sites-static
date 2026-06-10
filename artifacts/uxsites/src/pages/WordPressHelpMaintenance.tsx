@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -276,7 +276,7 @@ export default function WordPressHelpMaintenance() {
           <div className="container mx-auto px-4 max-w-4xl text-center">
             <h2 className="text-2xl font-bold mb-4">Too Busy to Handle All This Yourself?</h2>
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-              Our maintenance service covers every task on this checklist  -  plus expert support, security monitoring, and performance optimisation. From Â£50/month.
+              Our maintenance service covers every task on this checklist  -  plus expert support, security monitoring, and performance optimisation. From £50/month.
             </p>
             <Link
               href="/contact/"

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -38,7 +38,7 @@ export default function WebDesignOswestry() {
           ]),
           faqSchema([
             { question: "Do you only design websites for Oswestry businesses?", answer: "We're based near Oswestry but work with businesses across the UK. Being local is a bonus for face-to-face meetings, but most projects are handled remotely." },
-            { question: "How much does web design cost in Oswestry?", answer: "Most small business websites start from around Â£1,500. We provide a fixed quote after understanding your requirements â€” no surprises." },
+            { question: "How much does web design cost in Oswestry?", answer: "Most small business websites start from around £1,500. We provide a fixed quote after understanding your requirements â€” no surprises." },
             { question: "How long does an Oswestry web design project take?", answer: "Most projects take 4â€“6 weeks from briefing to launch. We'll give you a realistic timeline before starting." },
           ]),
         ]}
@@ -251,11 +251,11 @@ export default function WebDesignOswestry() {
             },
             {
               question: "How much does a website cost for an Oswestry business?",
-              answer: "Websites are quoted based on scope â€” the number of pages, complexity of design, and any custom functionality. Most small business sites start from around Â£1,500. We always provide a detailed quote before any work begins."
+              answer: "Websites are quoted based on scope â€” the number of pages, complexity of design, and any custom functionality. Most small business sites start from around £1,500. We always provide a detailed quote before any work begins."
             },
             {
               question: "What happens after my site launches?",
-              answer: "We offer managed WordPress hosting from Â£50/month, which covers hosting, security, backups, updates and support. Most Oswestry clients find this the most convenient option rather than managing hosting themselves."
+              answer: "We offer managed WordPress hosting from £50/month, which covers hosting, security, backups, updates and support. Most Oswestry clients find this the most convenient option rather than managing hosting themselves."
             }
           ]}
         />
@@ -286,7 +286,7 @@ export default function WebDesignOswestry() {
             },
             {
               title: "Managed WordPress Hosting Oswestry",
-              description: "Local managed hosting from Â£50/month for Oswestry businesses.",
+              description: "Local managed hosting from £50/month for Oswestry businesses.",
               href: "/wordpress-hosting-oswestry/",
               tag: "Related"
             },

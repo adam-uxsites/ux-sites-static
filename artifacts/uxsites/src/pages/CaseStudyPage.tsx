@@ -34,7 +34,7 @@ export default function CaseStudyPage() {
     <>
       <SEO
         title={`${study.client} Case Study | UX Sites Shropshire`}
-        description={study.tagline}
+        description={study.metaDescription}
         url={`https://uxsites.co.uk/case-studies/${study.slug}/`}
         schema={[
           breadcrumbSchema([

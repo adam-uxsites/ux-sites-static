@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForTanningStudios() {
         serviceSchema({ name: "Websites for Tanning Studios", description: "Professional websites for tanning studios and spray tan technicians. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tanning-studios/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tanning Studios", url: "https://uxsites.co.uk/websites-for-tanning-studios/" }]),
         faqSchema([
-          { question: "Who manages my website when I'm busy with clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "Who manages my website when I'm busy with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does a tanning studio website cost?", answer: "New websites start from Â£1,500. If you need a gallery, price list, and online booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tanning studio website cost?", answer: "New websites start from £1,500. If you need a gallery, price list, and online booking, we'll give you a fixed quote upfront." },
           { question: "Can you show before-and-after photos on the site?", answer: "Yes. We build dedicated galleries so you can showcase your spray tan results across different skin tones and tanning packages." },
           { question: "What about promoting seasonal offers and packages?", answer: "We can add a promotions section or banner system so you can easily highlight seasonal deals, package bundles, and special offers." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Tanning studio websites" headline="Websites for Tanning Studios and Spray Tan Technicians" subheadline="Your tanning results sell themselves â€” your website just needs to show them off. We build beautiful, mobile-friendly sites that showcase your work and make booking effortless." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Results Gallery", "Price Lists", "Online Booking", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Tanning studio websites" headline="Websites for Tanning Studios and Spray Tan Technicians" subheadline="Your tanning results sell themselves â€” your website just needs to show them off. We build beautiful, mobile-friendly sites that showcase your work and make booking effortless." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Results Gallery", "Price Lists", "Online Booking", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why tanning studios need a website that books clients</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your work is visual and your clients want convenience. Here's what makes a great tanning studio website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForTanningStudios() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Tanning Studio" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your tanning services and attract more bookings." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your tanning services and attract more bookings." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with a stronger visual focus and better booking flow." },
           { title: "Online Booking Integration", description: "We can integrate your preferred booking system or build a simple enquiry form that works perfectly on mobile." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Who manages my website when I'm busy with clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "Who manages my website when I'm busy with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does a tanning studio website cost?", answer: "New websites start from Â£1,500. If you need a gallery, price list, and online booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tanning studio website cost?", answer: "New websites start from £1,500. If you need a gallery, price list, and online booking, we'll give you a fixed quote upfront." },
           { question: "Can you show before-and-after photos on the site?", answer: "Yes. We build dedicated galleries so you can showcase your spray tan results across different skin tones and tanning packages." },
           { question: "What about promoting seasonal offers and packages?", answer: "We can add a promotions section or banner system so you can easily highlight seasonal deals, package bundles, and special offers." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your tanning studio website" description="Get a free, no-obligation quote. We'll talk through your services and your brand." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Facial Aesthetics", description: "Websites for aesthetic clinics and practitioners.", href: "/websites-for-facial-aesthetics/", tag: "Beauty" },

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -89,7 +89,7 @@ export default function WebsitesForConsultants() {
           headline="Websites for consultants and professional services firms"
           subheadline="If you are a consultant, your website should do more than look good. It should explain your expertise clearly, position your offer, and help potential clients contact you with confidence."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Authority Focused", "Trust First", "Lead Quality", "Clear Messaging", "Case Studies"]}
         />
 
@@ -335,7 +335,7 @@ export default function WebsitesForConsultants() {
             {
               title: "Work  -  Recent Projects",
               description: "See examples of websites we've built for consultants and professional services.",
-              href: "/work/",
+              href: "/case-studies/",
               tag: "Portfolio"
             },
             {

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForPlumbers() {
           faqSchema([
             {
               question: "I'm always on the road â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (Â£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
+              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
             },
             {
               question: "I've got an old website that doesn't bring in calls. Can you fix it?",
@@ -77,7 +77,7 @@ export default function WebsitesForPlumbers() {
             },
             {
               question: "How much does a plumber's website cost?",
-              answer: "New websites start from Â£1,500. If you need a straightforward site with service pages and contact details, it may cost less. We quote fixed prices upfront with no surprises."
+              answer: "New websites start from £1,500. If you need a straightforward site with service pages and contact details, it may cost less. We quote fixed prices upfront with no surprises."
             },
             {
               question: "Will my Gas Safe registration and insurance details be on the site?",
@@ -92,7 +92,7 @@ export default function WebsitesForPlumbers() {
           headline="Websites for Plumbers and Heating Engineers"
           subheadline="When customers need a plumber, they search online first â€” often in a hurry. We build professional, mobile-friendly sites that help you get found, build trust instantly, and make it easy for customers to call."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Gas Safe Credentials", "Emergency Contact", "Mobile First", "Local SEO", "Ongoing Support"]}
         />
 
@@ -253,8 +253,8 @@ export default function WebsitesForPlumbers() {
           title="How We Help Your Plumbing Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the job."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed around your services, accreditations, and service areas. Mobile-first, fast, and optimised for Google." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your services, accreditations, and service areas. Mobile-first, fast, and optimised for Google." },
             { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign and re-optimise to generate enquiries again â€” often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages and Google Business integration so you show up when local customers search for plumbers in your area." }
 
@@ -266,7 +266,7 @@ export default function WebsitesForPlumbers() {
           faqs={[
             {
               question: "I'm always on the road â€” who manages the website for me?",
-              answer: "We do. Our managed hosting service (Â£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
+              answer: "We do. Our managed hosting service (£50/month) includes all updates, security, backups, and performance monitoring. You don't need to log in or touch anything â€” your site just works."
             },
             {
               question: "I've got an old website that doesn't bring in calls. Can you fix it?",
@@ -274,7 +274,7 @@ export default function WebsitesForPlumbers() {
             },
             {
               question: "How much does a plumber's website cost?",
-              answer: "New websites start from Â£1,500. If you need a straightforward site with service pages and contact details, it may cost less. We quote fixed prices upfront with no surprises."
+              answer: "New websites start from £1,500. If you need a straightforward site with service pages and contact details, it may cost less. We quote fixed prices upfront with no surprises."
             },
             {
               question: "Will my Gas Safe registration and insurance details be on the site?",
@@ -294,7 +294,7 @@ export default function WebsitesForPlumbers() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

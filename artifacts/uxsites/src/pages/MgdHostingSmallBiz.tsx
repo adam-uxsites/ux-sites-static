@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
@@ -89,15 +89,15 @@ export default function MgdHostingSmallBiz() {
                 </thead>
                 <tbody>
                   {[
-                    ["Monthly hosting", "Â£10-Â£25", "Â£50"],
-                    ["Security plugin (premium)", "Â£0-Â£10/month", "Included"],
-                    ["Backup plugin/service", "Â£0-Â£5/month", "Included"],
-                    ["SSL certificate", "Â£0-Â£70/year", "Included"],
-                    ["CDN service", "Â£0-Â£20/month", "Included"],
-                    ["Your time (2-4 hrs/month)", "Â£40-Â£120/month", "Â£0"],
+                    ["Monthly hosting", "£10-£25", "£50"],
+                    ["Security plugin (premium)", "£0-£10/month", "Included"],
+                    ["Backup plugin/service", "£0-£5/month", "Included"],
+                    ["SSL certificate", "£0-£70/year", "Included"],
+                    ["CDN service", "£0-£20/month", "Included"],
+                    ["Your time (2-4 hrs/month)", "£40-£120/month", "£0"],
                     ["", "", ""],
-                    ["Monthly total (approx)", "Â£50-Â£180/month", "Â£50/month"],
-                    ["Annual total (approx)", "Â£600-Â£2,160/year", "Â£500/year"],
+                    ["Monthly total (approx)", "£50-£180/month", "£50/month"],
+                    ["Annual total (approx)", "£600-£2,160/year", "£500/year"],
                     ["Time required (annual)", "24-48 hours", "0 hours"],
                   ].map(([item, diy, managed], i) => {
                     const isTotal = i === 7 || i === 8;
@@ -121,7 +121,7 @@ export default function MgdHostingSmallBiz() {
             </div>
             <p className="text-sm text-muted-foreground mt-4 leading-relaxed">
               DIY costs estimated based on typical UK pricing for shared hosting and common WordPress tools. 
-              Time valued at a conservative Â£20/hour  -  many business owners' time is worth significantly more.
+              Time valued at a conservative £20/hour  -  many business owners' time is worth significantly more.
             </p>
           </div>
         </section>
@@ -158,7 +158,7 @@ export default function MgdHostingSmallBiz() {
                   ))}
                 </div>
                 <p className="text-muted-foreground text-sm mt-6 leading-relaxed">
-                  27 hours is over half a working week. If your time is worth Â£20/hour, that's Â£540 in lost time per year. At Â£50/hour (more realistic for many business owners), it's Â£1,350.
+                  27 hours is over half a working week. If your time is worth £20/hour, that's £540 in lost time per year. At £50/hour (more realistic for many business owners), it's £1,350.
                 </p>
               </motion.div>
 
@@ -210,19 +210,19 @@ export default function MgdHostingSmallBiz() {
                 {
                   icon: AlertTriangle,
                   title: "Hacked Site Recovery",
-                  cost: "Â£200-Â£500+",
+                  cost: "£200-£500+",
                   desc: "Average cost to clean a compromised WordPress site. Managed hosting includes malware removal at no extra cost."
                 },
                 {
                   icon: TrendingDown,
                   title: "Lost Business During Downtime",
-                  cost: "Â£100-Â£1,000+/day",
+                  cost: "£100-£1,000+/day",
                   desc: "If your site is down for 24 hours, how much business do you lose? Managed hosting aims for 99.9% uptime."
                 },
                 {
                   icon: PoundSterling,
                   title: "Emergency Support",
-                  cost: "Â£50-Â£150/hour",
+                  cost: "£50-£150/hour",
                   desc: "Emergency developer support to fix a broken site. Managed hosting clients never need emergency support."
                 },
               ].map((item, i) => {
@@ -323,14 +323,14 @@ export default function MgdHostingSmallBiz() {
             },
             {
               question: "Is there a minimum contract or setup fee?",
-              answer: "No setup fee and no minimum contract. Monthly plans run on a rolling basis with 30 days notice to cancel. Annual plans are paid upfront (saving Â£100). Either way, there's no long-term lock-in."
+              answer: "No setup fee and no minimum contract. Monthly plans run on a rolling basis with 30 days notice to cancel. Annual plans are paid upfront (saving £100). Either way, there's no long-term lock-in."
             }
           ]}
         />
 
         <CTABanner
           title="See the difference for yourself"
-          description="Free migration. No long-term contract. Managed WordPress hosting from Â£50/month  -  everything included."
+          description="Free migration. No long-term contract. Managed WordPress hosting from £50/month  -  everything included."
           buttonText="Get Started"
           buttonHref="/contact/"
           secondaryButtonText="What's Included"

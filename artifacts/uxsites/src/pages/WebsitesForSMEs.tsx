@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForSMEs() {
         serviceSchema({ name: "Websites for SMEs", description: "Professional websites for small and medium enterprises. Scalable design, core service pages, lead generation, managed hosting, and local SEO.", url: "https://uxsites.co.uk/websites-for-smes/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for SMEs", url: "https://uxsites.co.uk/websites-for-smes/" }]),
         faqSchema([
-          { question: "Our team is focused on growth â€” who manages our website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
+          { question: "Our team is focused on growth â€” who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
           { question: "Can our website grow as our business expands?", answer: "Yes. We build on a flexible platform that scales with you â€” adding new services, team members, or even e-commerce capabilities as you grow." },
-          { question: "How much does an SME website cost?", answer: "New websites start from Â£1,500. If you need service pages, lead generation, and professional design, we'll give you a fixed quote upfront." },
+          { question: "How much does an SME website cost?", answer: "New websites start from £1,500. If you need service pages, lead generation, and professional design, we'll give you a fixed quote upfront." },
           { question: "How do we capture leads from our website?", answer: "We build clear calls to action, enquiry forms, and contact information into every page. Your site will work as a 24/7 lead generation tool." },
           { question: "What happens when we need to add new services or team members?", answer: "We build your site to be easily expandable. Adding new pages or team profiles is straightforward, and we can handle updates as part of your hosting plan." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="SME websites" headline="Websites for Small and Medium Enterprises" subheadline="Your business is growing â€” your website should grow with it. We build professional, scalable websites that generate leads and build credibility." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Scalable Design", "Lead Generation", "Professional", "Mobile First", "Managed Support"]} />
+        <HeroBlock tagline="SME websites" headline="Websites for Small and Medium Enterprises" subheadline="Your business is growing â€” your website should grow with it. We build professional, scalable websites that generate leads and build credibility." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Scalable Design", "Lead Generation", "Professional", "Mobile First", "Managed Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why SMEs need a website that works as hard as you do</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your business runs on hard work â€” your website should match that effort. Here's what makes a great SME website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForSMEs() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your SME" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while your team focuses on your business." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to generate leads and build credibility for your business." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while your team focuses on your business." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to generate leads and build credibility for your business." },
           { title: "Existing Site Refreshes", description: "Your current site not keeping up with your growth? We can redesign with a scalable platform and better lead generation." },
           { title: "Ongoing Support & Updates", description: "As your business evolves, we handle site updates, new pages, and feature additions so you can focus on growth." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Our team is focused on growth â€” who manages our website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
+          { question: "Our team is focused on growth â€” who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
           { question: "Can our website grow as our business expands?", answer: "Yes. We build on a flexible platform that scales with you â€” adding new services, team members, or even e-commerce capabilities as you grow." },
-          { question: "How much does an SME website cost?", answer: "New websites start from Â£1,500. If you need service pages, lead generation, and professional design, we'll give you a fixed quote upfront." },
+          { question: "How much does an SME website cost?", answer: "New websites start from £1,500. If you need service pages, lead generation, and professional design, we'll give you a fixed quote upfront." },
           { question: "How do we capture leads from our website?", answer: "We build clear calls to action, enquiry forms, and contact information into every page. Your site will work as a 24/7 lead generation tool." },
           { question: "What happens when we need to add new services or team members?", answer: "We build your site to be easily expandable. Adding new pages or team profiles is straightforward, and we can handle updates as part of your hosting plan." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your SME website" description="Get a free, no-obligation quote. We'll talk through your business and your goals." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Medium Businesses", description: "Websites for established mid-sized companies.", href: "/websites-for-medium-businesses/", tag: "Business" },

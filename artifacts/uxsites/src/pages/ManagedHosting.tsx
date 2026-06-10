@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { EmailText } from "@/components/ui/EmailLink";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { PricingBlock } from "@/components/blocks/PricingBlock";
@@ -79,13 +79,13 @@ export default function ManagedHosting() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting from Â£50/mo | UX Sites Shropshire"
-        description="Managed WordPress hosting from Â£50/month with daily backups, 24/7 security, performance optimisation & expert support â€” 99.9% uptime. No tech headaches."
+        title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
+        description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support â€” 99.9% uptime. No tech headaches."
         url="https://uxsites.co.uk/managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting",
-            description: "Fully managed WordPress hosting from Â£50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
+            description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
             url: "https://uxsites.co.uk/managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -105,7 +105,7 @@ export default function ManagedHosting() {
             { question: "What counts as a 'content update request'?", answer: "Text changes, image swaps, updating contact details, changing opening hours, adding team members, updating service descriptions  -  the kind of things that should be straightforward to change. We're not talking about adding new sections or functionality; those would be quoted separately. But most routine content changes are covered." },
             { question: "What if my site gets hacked while I'm on managed hosting?", answer: "We monitor for security threats continuously and deal with the vast majority before they cause any damage. In the very unlikely event a site on our managed hosting is compromised, malware removal and full restoration from a clean backup is included at no additional cost." },
             { question: "Do you only host WordPress sites?", answer: "Yes  -  we specialise exclusively in WordPress. This lets us be genuinely expert at what we do rather than spreading thin across dozens of platforms. If your site isn't on WordPress, we'd likely recommend migrating it as part of any onboarding." },
-            { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you Â£100). There's no long-term lock-in beyond that." },
+            { question: "Is there a setup fee or minimum contract?", answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you £100). There's no long-term lock-in beyond that." },
             { question: "What happens to my site if I decide to leave?", answer: "You own your site completely. If you decide to move on, we'll provide you with a full export of your WordPress files and database to migrate wherever you like. We don't hold your site hostage." },
           ]),
         ]}
@@ -113,7 +113,7 @@ export default function ManagedHosting() {
       <main>
         <HeroBlock
           tagline="Everything included, nothing to worry about"
-          headline="Managed WordPress Hosting from Â£50/month"
+          headline="Managed WordPress Hosting from £50/month"
           subheadline="We handle the hosting, security, backups, performance, and updates  -  so you can focus entirely on running your business. Backed by 10+ years of UX and analytics expertise, not just server management. No technical knowledge required. No nasty surprises."
           primaryCta={{ text: "Get Started", href: "/contact/" }}
           secondaryCta={{ text: "View Pricing", href: "#pricing" }}
@@ -125,7 +125,7 @@ export default function ManagedHosting() {
             { number: "99.9%", label: "Uptime Commitment", sub: "Less than 9hrs downtime/year" },
             { number: "30", label: "Min Dev Time / Month", sub: "Content changes included" },
             { number: "24/7", label: "Security Monitoring", sub: "Continuous active scanning" },
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year  -  save Â£100" }
+            { number: "£50", label: "Per Month", sub: "Or £500/year  -  save £100" }
           ]}
         />
 
@@ -200,7 +200,7 @@ export default function ManagedHosting() {
                   </div>
                   <div className="space-y-4 text-sm">
                     <div>
-                      <div className="text-muted-foreground mb-1">From: client@mybusiness.co.uk</div>
+                      <div className="text-muted-foreground mb-1">From: client@mybusiness.co·uk</div>
                       <div className="text-muted-foreground mb-1">Subject: Quick update needed</div>
                     </div>
                     <div className="border-t border-border pt-4 text-muted-foreground leading-relaxed">
@@ -321,7 +321,7 @@ export default function ManagedHosting() {
             plans={[
               {
                 title: "Monthly",
-                price: "Â£50",
+                price: "£50",
                 period: "month",
                 description: "Flexible rolling plan  -  cancel any time with 30 days notice.",
                 features: [
@@ -337,13 +337,13 @@ export default function ManagedHosting() {
                   "Email & plugin support"
                 ],
                 ctaText: "Get Started  -  Monthly",
-                ctaHref: "/contact?plan=monthly"
+                ctaHref: "/contact/?plan=monthly"
               },
               {
                 title: "Annual",
-                price: "Â£500",
+                price: "£500",
                 period: "year",
-                description: "Pay annually and save Â£100  -  equivalent to two months free.",
+                description: "Pay annually and save £100  -  equivalent to two months free.",
                 features: [
                   "Everything in Monthly, plus:",
                   "Free site migration from existing host",
@@ -355,7 +355,7 @@ export default function ManagedHosting() {
                   "Year-end traffic & performance report"
                 ],
                 ctaText: "Get Started  -  Annual",
-                ctaHref: "/contact?plan=annual",
+                ctaHref: "/contact/?plan=annual",
                 popular: true
               }
             ]}
@@ -566,7 +566,7 @@ export default function ManagedHosting() {
             },
             {
               question: "Is there a setup fee or minimum contract?",
-              answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you Â£100). There's no long-term lock-in beyond that."
+              answer: "No setup fee. Monthly plans can be cancelled with 30 days notice. Annual plans are paid upfront for 12 months (and save you £100). There's no long-term lock-in beyond that."
             },
             {
               question: "What happens to my site if I decide to leave?",
@@ -589,15 +589,15 @@ export default function ManagedHosting() {
           pages={[
             {
               title: "WordPress Care Plan",
-              description: "Managed hosting plus 4 hours monthly development, proactive improvements, and priority support from Â£250/month.",
+              description: "Managed hosting plus 4 hours monthly development, proactive improvements, and priority support from £250/month.",
               href: "/wordpress-care-plan/",
-              tag: "Â£250/mo"
+              tag: "£250/mo"
             },
             {
               title: "WordPress Care Plan Pro",
-              description: "Increased development capacity, conversion optimisation, and integration support from Â£500/month.",
+              description: "Increased development capacity, conversion optimisation, and integration support from £500/month.",
               href: "/wordpress-care-plan-pro/",
-              tag: "Â£500/mo"
+              tag: "£500/mo"
             },
             {
               title: "Managed Hosting for Shropshire Businesses",

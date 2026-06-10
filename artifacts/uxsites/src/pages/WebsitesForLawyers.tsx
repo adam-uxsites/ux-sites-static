@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForLawyers() {
         serviceSchema({ name: "Websites for Solicitors & Law Firms", description: "Professional websites for legal practices. Practice area pages, trust signals, local SEO, and enquiry generation for solicitors and law firms.", url: "https://uxsites.co.uk/websites-for-lawyers/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Lawyers", url: "https://uxsites.co.uk/websites-for-lawyers/" }]),
         faqSchema([
-          { question: "I'm a busy solicitor â€” who manages my website day to day?", answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site stays professional and secure while you focus on your clients." },
+          { question: "I'm a busy solicitor â€” who manages my website day to day?", answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays professional and secure while you focus on your clients." },
           { question: "My current website looks dated and doesn't generate enquiries. Can you help?", answer: "Yes. We can refresh your site with modern design, clearer practice area pages, and improved local SEO to start generating enquiries again." },
-          { question: "How much does a solicitor's website cost?", answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need a multi-practice site with several service areas, we'll scope it and give you a clear price before any work starts." },
+          { question: "How much does a solicitor's website cost?", answer: "New websites start from £1,500 with a fixed quote upfront. If you need a multi-practice site with several service areas, we'll scope it and give you a clear price before any work starts." },
           { question: "Is my website secure enough for a legal practice?", answer: "Yes. We include SSL certificates, security monitoring, and regular updates as standard. With our managed hosting, your site is actively protected against threats." },
           { question: "I'm setting up my own practice â€” is a website worth it from the start?", answer: "A professional website helps you look established and credible from day one, even while you build your client base. We can start with your core practice areas and expand as you grow." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Legal practice websites" headline="Websites for Solicitors and Law Firms" subheadline="Your website is often the first impression potential clients have of your practice. We build professional, trustworthy sites that showcase your expertise and make it easy for clients to get in touch." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Practice Areas", "Trust Signals", "Enquiry Generation", "Local SEO", "Ongoing Support"]} />
+        <HeroBlock tagline="Legal practice websites" headline="Websites for Solicitors and Law Firms" subheadline="Your website is often the first impression potential clients have of your practice. We build professional, trustworthy sites that showcase your expertise and make it easy for clients to get in touch." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Practice Areas", "Trust Signals", "Enquiry Generation", "Local SEO", "Ongoing Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why law firms need a website that builds trust</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Clients choose a solicitor based on trust and expertise. Your website needs to deliver both before they ever pick up the phone.</p></div>
@@ -74,18 +74,18 @@ export default function WebsitesForLawyers() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Legal Practice" subtitle="Beyond the website â€” we keep your online presence running securely." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays secure and professional with zero effort from you." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed around your practice areas, locations, and target clients. Mobile-first and optimised for Google." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays secure and professional with zero effort from you." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your practice areas, locations, and target clients. Mobile-first and optimised for Google." },
           { title: "Existing Site Refreshes", description: "Your current site not generating instructions? We can redesign with clearer practice areas, better trust signals, and improved local SEO." },
           { title: "Compliant & Secure", description: "SSL certificates, security monitoring, and regular updates keep your site secure and compliant. GDPR-ready contact forms and privacy-conscious design." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm a busy solicitor â€” who manages my website day to day?", answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site stays professional and secure while you focus on your clients." },
+          { question: "I'm a busy solicitor â€” who manages my website day to day?", answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays professional and secure while you focus on your clients." },
           { question: "My current website looks dated and doesn't generate enquiries. Can you help?", answer: "Yes. We can refresh your site with modern design, clearer practice area pages, and improved local SEO to start generating enquiries again." },
-          { question: "How much does a solicitor's website cost?", answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need a multi-practice site with several service areas, we'll scope it and give you a clear price before any work starts." },
+          { question: "How much does a solicitor's website cost?", answer: "New websites start from £1,500 with a fixed quote upfront. If you need a multi-practice site with several service areas, we'll scope it and give you a clear price before any work starts." },
           { question: "Is my website secure enough for a legal practice?", answer: "Yes. We include SSL certificates, security monitoring, and regular updates as standard. With our managed hosting, your site is actively protected against threats." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your professional services website" description="Get a free, no-obligation quote. We'll talk through your practice areas, target locations, and what your site needs to achieve." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Finance Advisors", description: "Websites for financial advisors and wealth management firms.", href: "/websites-for-finance-advisors/", tag: "Service" },

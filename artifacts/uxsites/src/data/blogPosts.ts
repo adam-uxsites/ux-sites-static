@@ -1,4 +1,4 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   slug: string;
   title: string;
   excerpt: string;
@@ -21,9 +21,9 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
 ## Why Is Cheap Hosting Actually Expensive?
 
-Cheap hosting costs Â£3-8/month on the surface, but the real cost shows up in lost revenue, wasted time, and emergency fixes. When your site goes down at a critical moment  -  and research shows 1 in 4 WordPress sites get hacked (Sucuri 2024 Website Threat Report)  -  cheap hosting leaves you stranded with no support and no backup.
+Cheap hosting costs £3-8/month on the surface, but the real cost shows up in lost revenue, wasted time, and emergency fixes. When your site goes down at a critical moment  -  and research shows 1 in 4 WordPress sites get hacked (Sucuri 2024 Website Threat Report)  -  cheap hosting leaves you stranded with no support and no backup.
 
-The hidden costs of cheap hosting aren't on the pricing page. They appear as lost enquiries during downtime, hours spent troubleshooting issues yourself, and emergency developer fees that can run Â£200-500 per incident.
+The hidden costs of cheap hosting aren't on the pricing page. They appear as lost enquiries during downtime, hours spent troubleshooting issues yourself, and emergency developer fees that can run £200-500 per incident.
 
 ## What "Unmanaged" Actually Means
 
@@ -55,13 +55,13 @@ A properly managed WordPress hosting plan takes all of that off your plate. At U
 
 | | Cheap Hosting | Managed Hosting |
 |---|---|---|
-| Monthly cost | Â£3-8 | Â£50 |
+| Monthly cost | £3-8 | £50 |
 | Your time managing it | 2-4 hrs/month | 0 hrs |
 | Security incidents per year | 1 in 4 sites hacked | Actively prevented |
 | Downtime response | Self-service | We handle it |
 | Backup restoration | Often impossible | Within the hour |
 
-For a business that values its online presence, the maths isn't complicated. Two hours of your time per month at Â£50/hr exceeds the Â£50/month cost of managed hosting  -  and that's before accounting for emergency fixes that average Â£200-500 per incident for unmanaged sites.
+For a business that values its online presence, the maths isn't complicated. Two hours of your time per month at £50/hr exceeds the £50/month cost of managed hosting  -  and that's before accounting for emergency fixes that average £200-500 per incident for unmanaged sites.
 
 ## Who Is Managed Hosting For?
 
@@ -77,7 +77,7 @@ Managed hosting is the right choice if:
 
 We work with businesses across Shropshire and the UK. Whether you have an existing site you'd like us to migrate, or you're starting fresh, [get in touch](/contact/) and we'll talk through what makes sense for your situation.
 
-Managed WordPress hosting starts from Â£50/month or Â£500/year (saving two months). [View the full details](/managed-wordpress-hosting/).
+Managed WordPress hosting starts from £50/month or £500/year (saving two months). [View the full details](/managed-wordpress-hosting/).
     `
   },
   {
@@ -445,10 +445,10 @@ Let's add up what cheap hosting actually costs a business:
 
 | Cost | Cheap Hosting | Managed Hosting |
 |---|---|---|
-| Monthly fee | Â£3-8 | Â£50 |
+| Monthly fee | £3-8 | £50 |
 | Time troubleshooting issues | 2-5 hrs/month | 0 hrs |
 | Lost revenue during downtime | Variable (often significant) | Near zero |
-| Emergency developer fees | Â£100-500 per incident | Included |
+| Emergency developer fees | £100-500 per incident | Included |
 | Reputational damage | Hard to quantify | Prevented |
 
 When you look at the full picture, "cheap" hosting is anything but. The time, stress, and lost opportunities far outweigh the savings.
@@ -537,7 +537,7 @@ We work with businesses across the region  -  from Shrewsbury to Oswestry, Telfo
 
 ## The Cost of Staying Local
 
-Managed WordPress hosting from UX Sites starts at Â£50/month or Â£500/year. Compare that to the cost of your time dealing with hosting problems, lost enquiries from downtime, and emergency fixes when things go wrong.
+Managed WordPress hosting from UX Sites starts at £50/month or £500/year. Compare that to the cost of your time dealing with hosting problems, lost enquiries from downtime, and emergency fixes when things go wrong.
 
 For Shropshire and Wrexham businesses, having a local team that answers the phone and actually fixes things isn't a luxury  -  it's common sense.
 
@@ -555,13 +555,13 @@ For Shropshire and Wrexham businesses, having a local team that answers the phon
     content: `
 ## The Real Cost of Cheap Hosting
 
-It's tempting to look at hosting prices and pick the cheapest option. Â£3.99/month feels like a bargain for a business on a tight budget. But the real cost of cheap hosting isn't on the pricing page  -  it's buried in the things that go wrong.
+It's tempting to look at hosting prices and pick the cheapest option. £3.99/month feels like a bargain for a business on a tight budget. But the real cost of cheap hosting isn't on the pricing page  -  it's buried in the things that go wrong.
 
-**Time.** Every hour you spend troubleshooting a hosting issue is an hour you're not spending on your actual business. If you earn Â£50/hour running your business, and you spend 3 hours a month on hosting problems, that's Â£150/month in lost productive time.
+**Time.** Every hour you spend troubleshooting a hosting issue is an hour you're not spending on your actual business. If you earn £50/hour running your business, and you spend 3 hours a month on hosting problems, that's £150/month in lost productive time.
 
 **Stress.** There's nothing quite like the sinking feeling of discovering your website is down and having no idea how to fix it. That stress has a cost too, even if it's hard to quantify.
 
-**Lost revenue.** If your site is down for a day, how many enquiries do you miss? For a small business generating even 5 leads per day at Â£100 average value, one day of downtime costs Â£500.
+**Lost revenue.** If your site is down for a day, how many enquiries do you miss? For a small business generating even 5 leads per day at £100 average value, one day of downtime costs £500.
 
 **Reputational damage.** Customers who see a broken or hacked website don't come back. They go to your competitors.
 
@@ -585,11 +585,11 @@ Let's be honest about the numbers:
 
 | | DIY (Cheap Hosting) | Managed (UX Sites) |
 |---|---|---|
-| Hosting fee | Â£3-8/month | Â£50/month |
-| Your time (3 hrs/month @ Â£50/hr) | Â£150/month | Â£0 |
-| Plugins (security, backup, cache) | Â£100-300/year | Included |
-| Emergency fixes (avg 2/year) | Â£200-1000/year | Included |
-| **Total annual cost** | **Â£2,200-3,500+** | **Â£600** |
+| Hosting fee | £3-8/month | £50/month |
+| Your time (3 hrs/month @ £50/hr) | £150/month | £0 |
+| Plugins (security, backup, cache) | £100-300/year | Included |
+| Emergency fixes (avg 2/year) | £200-1000/year | Included |
+| **Total annual cost** | **£2,200-3,500+** | **£600** |
 
 The managed option isn't just cheaper  -  it's dramatically cheaper when you account for everything. And that's before we factor in the cost of downtime.
 
@@ -831,10 +831,10 @@ UX-led websites consistently generate more enquiries because they're built aroun
 
 | Service | Typical Range |
 |---|---|
-| Starter website (3-5 pages) | Â£500-1,000 |
-| UX-led website (from) | Â£689 |
-| Small business website (5-10 pages) | Â£1,000-3,000 |
-| Ecommerce website | Â£2,000-5,000+ |
+| Starter website (3-5 pages) | £500-1,000 |
+| UX-led website (from) | £689 |
+| Small business website (5-10 pages) | £1,000-3,000 |
+| Ecommerce website | £2,000-5,000+ |
 
 These are typical ranges. Every project is different, so [get an instant quote](/quote/) for your specific requirements.
 
@@ -866,7 +866,7 @@ If you're looking for web design in Shropshire or Chester, [get in touch](/conta
     content: `
 ## The Appeal of DIY Builders
 
-Wix, Squarespace, and WordPress.com make it incredibly easy to get a website online quickly. For less than Â£20/month, you can pick a template, drag and drop some content, and have a site live in an afternoon.
+Wix, Squarespace, and WordPress.com make it incredibly easy to get a website online quickly. For less than £20/month, you can pick a template, drag and drop some content, and have a site live in an afternoon.
 
 For very small businesses, sole traders, or hobby projects, this can be the right choice. But as your business grows and your website becomes more important, the limitations of DIY builders become hard to ignore.
 
@@ -884,7 +884,7 @@ For very small businesses, sole traders, or hobby projects, this can be the righ
 
 DIY builders are a good fit if:
 
-- Your budget is very limited (under Â£500)
+- Your budget is very limited (under £500)
 - Your website is a simple single-page brochure
 - You don't need ecommerce or complex functionality
 - You have time to learn the platform and manage it yourself
@@ -906,16 +906,16 @@ Professional web design is the better investment if:
 
 | | DIY Builder | Professional Site |
 |---|---|---|
-| Initial build | Â£0 (your time) | Â£689-3,000 |
-| Monthly subscription | Â£15-40 | Â£0 (paid upfront) |
-| Hosting | Included | Â£5-50/month |
-| Domain | Â£10-15/year | Â£10-15/year |
-| Add-ons/extras | Â£50-200/year | Included in build |
+| Initial build | £0 (your time) | £689-3,000 |
+| Monthly subscription | £15-40 | £0 (paid upfront) |
+| Hosting | Included | £5-50/month |
+| Domain | £10-15/year | £10-15/year |
+| Add-ons/extras | £50-200/year | Included in build |
 | Your time (setup) | 20-100 hours | 5-10 hours (briefing) |
 | Your time (ongoing) | 2-5 hrs/month | 0-1 hr/month |
-| Redesign when outgrown | Â£1,000-5,000 | Unlikely needed |
+| Redesign when outgrown | £1,000-5,000 | Unlikely needed |
 
-If you value your time at Â£30/hour, the DIY builder costs you Â£600-3,000 in time during setup alone  -  before you even get to the subscription fees.
+If you value your time at £30/hour, the DIY builder costs you £600-3,000 in time during setup alone  -  before you even get to the subscription fees.
 
 ## Time Investment Comparison
 
@@ -997,11 +997,11 @@ The cost varies dramatically depending on your approach:
 
 | Approach | Cost | What You Get |
 |---|---|---|
-| DIY (Wix/Squarespace) | Â£200-600/year | Template-based, your time, limited SEO |
-| Freelancer (basic) | Â£500-2,000 | Simple site, limited UX, little ongoing support |
-| Freelancer (quality) | Â£2,000-5,000 | Good design, basic UX, custom build |
-| Agency (standard) | Â£5,000-15,000 | Full UX process, custom design, project management |
-| UX Sites | From Â£689 | UX-led design, WordPress/Shopify, ongoing support |
+| DIY (Wix/Squarespace) | £200-600/year | Template-based, your time, limited SEO |
+| Freelancer (basic) | £500-2,000 | Simple site, limited UX, little ongoing support |
+| Freelancer (quality) | £2,000-5,000 | Good design, basic UX, custom build |
+| Agency (standard) | £5,000-15,000 | Full UX process, custom design, project management |
+| UX Sites | From £689 | UX-led design, WordPress/Shopify, ongoing support |
 
 UX Sites sits in a unique position  -  we provide agency-quality UX-led design at prices that undercut most agencies, because we've streamlined our process and work efficiently.
 
@@ -1068,11 +1068,11 @@ The cost of a WordPress website varies enormously because every project is diffe
 
 | Site Type | Typical Range | What's Included |
 |---|---|---|
-| Starter site (3-5 pages) | Â£500-1,500 | Basic design, essential pages, mobile-friendly |
-| Small business (5-10 pages) | Â£1,500-5,000 | Custom design, blog, SEO setup, contact forms |
-| Ecommerce (10-50+ products) | Â£3,000-10,000+ | Full product management, payments, shipping |
-| Ecommerce (50+ products) | Â£5,000-20,000+ | Advanced features, custom integrations |
-| Bespoke/custom build | Â£5,000-20,000+ | Fully custom design, complex functionality |
+| Starter site (3-5 pages) | £500-1,500 | Basic design, essential pages, mobile-friendly |
+| Small business (5-10 pages) | £1,500-5,000 | Custom design, blog, SEO setup, contact forms |
+| Ecommerce (10-50+ products) | £3,000-10,000+ | Full product management, payments, shipping |
+| Ecommerce (50+ products) | £5,000-20,000+ | Advanced features, custom integrations |
+| Bespoke/custom build | £5,000-20,000+ | Fully custom design, complex functionality |
 
 ## Ongoing Costs
 
@@ -1080,23 +1080,23 @@ A WordPress site has ongoing costs that you need to budget for:
 
 | Item | Monthly | Annual |
 |---|---|---|
-| Hosting (basic shared) | Â£3-8 | Â£36-96 |
-| Hosting (managed WordPress) | Â£50 | Â£500-600 |
-| Domain name |  -  | Â£10-15 |
+| Hosting (basic shared) | £3-8 | £36-96 |
+| Hosting (managed WordPress) | £50 | £500-600 |
+| Domain name |  -  | £10-15 |
 | SSL certificate | Often free | Free |
-| Premium plugins | Â£0-40/month | Â£0-500/year |
+| Premium plugins | £0-40/month | £0-500/year |
 | Maintenance/updates (DIY) | Your time | Your time |
-| Maintenance (managed service) | Â£50-200 | Â£600-2,400 |
+| Maintenance (managed service) | £50-200 | £600-2,400 |
 
-**The big decision is hosting.** Cheap shared hosting at Â£5/month works until it doesn't  -  then you're paying for emergency fixes and lost revenue. Managed WordPress hosting at Â£50/month is more expensive but includes security, updates, backups, and support.
+**The big decision is hosting.** Cheap shared hosting at £5/month works until it doesn't  -  then you're paying for emergency fixes and lost revenue. Managed WordPress hosting at £50/month is more expensive but includes security, updates, backups, and support.
 
 ## Hidden Costs to Watch For
 
-**Emergency fixes**  -  When something breaks on a self-managed site, emergency developer rates are typically Â£75-150/hour. One or two incidents a year quickly add up.
+**Emergency fixes**  -  When something breaks on a self-managed site, emergency developer rates are typically £75-150/hour. One or two incidents a year quickly add up.
 
 **Redesign costs**  -  A cheap site built on a template will feel outdated in 1-2 years and need replacing. A well-built custom site lasts 3-5 years.
 
-**Plugin subscriptions**  -  Many WordPress plugins charge annual fees. Common ones include security (Â£99/year), backups (Â£49/year), page builders (Â£99-299/year), and SEO tools (Â£99/year).
+**Plugin subscriptions**  -  Many WordPress plugins charge annual fees. Common ones include security (£99/year), backups (£49/year), page builders (£99-299/year), and SEO tools (£99/year).
 
 **Mobile optimisation**  -  Some designers build for desktop first and treat mobile as an afterthought. Proper mobile-first design should be included, but check before you commit.
 
@@ -1108,9 +1108,9 @@ A WordPress site has ongoing costs that you need to budget for:
 
 **Invest in UX**  -  A UX-led site costs more upfront but generates more enquiries. Over 12 months, the higher conversion rate more than pays for the difference.
 
-**Choose managed hosting**  -  The Â£45/month difference between cheap and managed hosting is dwarfed by the cost of your time dealing with issues and the revenue lost during downtime.
+**Choose managed hosting**  -  The £45/month difference between cheap and managed hosting is dwarfed by the cost of your time dealing with issues and the revenue lost during downtime.
 
-**Plan for the long term**  -  A Â£3,000 site that lasts 4 years costs Â£750/year. A Â£1,000 site that lasts 18 months costs Â£667/year  -  and you get less functionality and more hassle. The better site is often better value.
+**Plan for the long term**  -  A £3,000 site that lasts 4 years costs £750/year. A £1,000 site that lasts 18 months costs £667/year  -  and you get less functionality and more hassle. The better site is often better value.
 
 **Get an instant quote**  -  At UX Sites, we offer [instant quotes](/quote/) so you can see exactly what different options cost without a lengthy sales process.
 
@@ -1118,11 +1118,11 @@ A WordPress site has ongoing costs that you need to budget for:
 
 | Service | Starting From |
 |---|---|
-| Starter website | Â£500 |
-| UX-led website | Â£689 |
-| Small business website | Â£1,500 |
-| Ecommerce website | Â£2,000 |
-| Managed WordPress hosting | Â£50/month |
+| Starter website | £500 |
+| UX-led website | £689 |
+| Small business website | £1,500 |
+| Ecommerce website | £2,000 |
+| Managed WordPress hosting | £50/month |
 
 [Get an instant quote](/quote/) for your specific project, or [contact us](/contact/) to discuss your requirements.
     `
@@ -1177,7 +1177,7 @@ This means your site is genuinely optimised for mobile, not just adapted. Every 
 
 The result is a site that works for your customers wherever they're browsing. Whether they're searching for your business on their phone in a coffee shop, browsing on a tablet at home, or reviewing details on a desktop at work, they get a consistent, professional experience.
 
-If your current site isn't responsive, or you're not sure how your mobile experience stacks up, [get in touch](/contact/) for a free mobile UX review. We can also show you examples of our responsive work on our [portfolio page](/work/).
+If your current site isn't responsive, or you're not sure how your mobile experience stacks up, [get in touch](/contact/) for a free mobile UX review. We can also show you examples of our responsive work on our [portfolio page](/case-studies/).
     `
   },
   {
@@ -1205,7 +1205,7 @@ Most slow websites share common problems:
 
 **Unoptimised images** â€” This is the single biggest culprit by far. Smartphone photos can be 5-8MB each, and serving them at full resolution on a web page means visitors download massive files unnecessarily. Images should be compressed, converted to WebP format, and resized to their display dimensions.
 
-**Cheap shared hosting** â€” On a Â£5/month shared hosting plan, your site competes for resources with hundreds of other websites. When another site on your server gets a traffic spike, yours slows down. There's no technical fix for this â€” the hosting itself is the bottleneck.
+**Cheap shared hosting** â€” On a £5/month shared hosting plan, your site competes for resources with hundreds of other websites. When another site on your server gets a traffic spike, yours slows down. There's no technical fix for this â€” the hosting itself is the bottleneck.
 
 **Too many plugins** â€” Every plugin adds code that must be loaded. A typical business WordPress site with 20-30 plugins creates enormous overhead, much of which is unnecessary.
 
@@ -1351,7 +1351,7 @@ If you notice any of these, act immediately. [Get in touch](/contact/) and we ca
 
 ## Prevention Is Cheaper Than Recovery
 
-The cost of preventing a security incident â€” good hosting, regular updates, proper configuration â€” is a fraction of the cost of recovering from one. Emergency WordPress repair can run Â£200-500 per incident, plus lost revenue during downtime and reputational damage.
+The cost of preventing a security incident â€” good hosting, regular updates, proper configuration â€” is a fraction of the cost of recovering from one. Emergency WordPress repair can run £200-500 per incident, plus lost revenue during downtime and reputational damage.
 
 Our [WordPress maintenance service](/wordpress-maintenance/) and managed hosting plans handle all of this for you, so security is something you never need to think about.
     `
@@ -1383,7 +1383,7 @@ Shopify is a fully hosted platform. You pay a monthly subscription and everythin
 - Built-in PCI compliance for payment security
 
 **Cons:**
-- Monthly fees add up (Â£25-Â£200/month depending on plan)
+- Monthly fees add up (£25-£200/month depending on plan)
 - Transaction fees unless you use Shopify Payments
 - Limited customisation without apps (which cost extra)
 - Less control over your data and SEO
@@ -1415,15 +1415,15 @@ WooCommerce is a free WordPress plugin that turns any WordPress site into a full
 
 | | Shopify (Basic) | WooCommerce (Managed) |
 |---|---|---|
-| Monthly platform cost | Â£25/month | Â£0 |
-| Hosting | Included | Â£50/month (managed) |
-| Domain | Â£10-15/year | Â£10-15/year |
+| Monthly platform cost | £25/month | £0 |
+| Hosting | Included | £50/month (managed) |
+| Domain | £10-15/year | £10-15/year |
 | SSL | Included | Included (managed) |
 | Transaction fees | 1.5% + 20p (Shopify Payments) | 1.5% + 20p (Stripe) |
 | Premium plugins/apps | Variable | Variable |
-| **Year 1 total** | **~Â£375+** | **~Â£625** (including design) |
+| **Year 1 total** | **~£375+** | **~£625** (including design) |
 
-With WooCommerce on managed WordPress hosting, year two onwards drops to around Â£600/year with no design costs. Shopify remains at Â£375/year plus transaction fees.
+With WooCommerce on managed WordPress hosting, year two onwards drops to around £600/year with no design costs. Shopify remains at £375/year plus transaction fees.
 
 ## Which One Should You Choose?
 

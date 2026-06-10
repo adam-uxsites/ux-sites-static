@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -99,7 +99,7 @@ export default function WebsitesForBusinessConsultants() {
           headline="Business Consultant Websites That Turn Expertise Into Enquiries"
           subheadline="Business consultants need websites that make services, process, and outcomes crystal clear to decision-makers."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Authority Led", "Outcome Focused", "Clear Process", "Qualified Leads", "Trust Signals"]}
         />
 
@@ -276,7 +276,7 @@ export default function WebsitesForBusinessConsultants() {
             {
               title: "Work  -  Recent Projects",
               description: "See examples of websites we've built for consultants and professional services.",
-              href: "/work/",
+              href: "/case-studies/",
               tag: "Portfolio"
             },
             {

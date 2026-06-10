@@ -3,6 +3,7 @@ export interface CaseStudy {
   portfolioId: string;
   client: string;
   tagline: string;
+  metaDescription: string;
   industry: string;
   service: string;
   overview: string;
@@ -23,6 +24,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     portfolioId: "kingman-law",
     client: "Kingman Property Law",
     tagline: "Building a conveyancing practice from the ground up",
+    metaDescription: "See how UX Sites built the complete digital foundation for Kingman Property Law — a new conveyancing practice. Logo design, WordPress website, local SEO pages, and analytics infrastructure from scratch.",
     industry: "Legal Services",
     service: "New Build",
     overview:
@@ -52,6 +54,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     portfolioId: "conveyancing-fairy",
     client: "Conveyancing Fairy",
     tagline: "A complete rebuild after a frustrating first attempt",
+    metaDescription: "After a frustrating first website attempt, UX Sites rebuilt Conveyancing Fairy from the ground up — a content-rich WordPress site with podcasts, guides, resources, and conversion-optimised contact flows.",
     industry: "Legal Services",
     service: "New Build",
     overview:
@@ -87,6 +90,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     portfolioId: "rhind-speech-therapy",
     client: "Rhind Speech Therapy",
     tagline: "Securing and improving an established therapy practice website",
+    metaDescription: "UX Sites secured and improved Rhind Speech Therapy's established website — migrating to managed hosting, fixing security vulnerabilities, updating plugins, and optimising performance for parents seeking therapy support.",
     industry: "Healthcare",
     service: "Managed Hosting",
     overview:

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -77,7 +77,7 @@ const useCases = [
 ];
 
 const proBenefits = [
-  "Everything in the WordPress Care Plan (Â£250/month)",
+  "Everything in the WordPress Care Plan (£250/month)",
   "Larger monthly development allocation for bigger projects",
   "Faster response and resolution times",
   "Active conversion rate optimisation work",
@@ -93,13 +93,13 @@ export default function WordPressCarePlanPro() {
   return (
     <>
       <SEO
-        title="WordPress Care Plan Pro from Â£500/mo | UX Sites Shropshire"
+        title="WordPress Care Plan Pro from £500/mo | UX Sites Shropshire"
         description="Premium WordPress care plan with managed hosting, priority support, advanced optimisation, conversion improvements & integrations â€” your website treated as a growth asset."
         url="https://uxsites.co.uk/wordpress-care-plan-pro/"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan Pro",
-            description: "Growth-focused WordPress care plan with increased development capacity, advanced performance optimisation, conversion improvements, and integration support from Â£500/month.",
+            description: "Growth-focused WordPress care plan with increased development capacity, advanced performance optimisation, conversion improvements, and integration support from £500/month.",
             url: "https://uxsites.co.uk/wordpress-care-plan-pro/",
             category: "WordPress Care Plan",
             price: "500",
@@ -123,7 +123,7 @@ export default function WordPressCarePlanPro() {
       <main>
         <HeroBlock
           tagline="Growth-focused website partnership"
-          headline="WordPress Care Plan Pro from Â£500/month"
+          headline="WordPress Care Plan Pro from £500/month"
           subheadline="Everything in the standard Care Plan, amplified. More development capacity, faster support, advanced optimisation, conversion improvements, and integration support for businesses that rely heavily on their website."
           primaryCta={{ text: "Get Care Plan Pro", href: "/contact/" }}
           secondaryCta={{ text: "See Pricing", href: "#pricing" }}
@@ -321,7 +321,7 @@ export default function WordPressCarePlanPro() {
 
         <CTABanner
           title="Ready to treat your website as a growth asset?"
-          description="Get increased development capacity, advanced optimisation, conversion improvements, integration support, and strategic guidance from Â£500/month."
+          description="Get increased development capacity, advanced optimisation, conversion improvements, integration support, and strategic guidance from £500/month."
           buttonText="Get Care Plan Pro"
           buttonHref="/contact/"
           secondaryButtonText="View Care Plan"
@@ -333,15 +333,15 @@ export default function WordPressCarePlanPro() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting, maintenance, security, and backups from Â£50/month. The foundation tier.",
+              description: "Hosting, maintenance, security, and backups from £50/month. The foundation tier.",
               href: "/managed-wordpress-hosting/",
-              tag: "From Â£50"
+              tag: "From £50"
             },
             {
               title: "WordPress Care Plan",
-              description: "Ongoing development, proactive improvements, and priority support from Â£250/month.",
+              description: "Ongoing development, proactive improvements, and priority support from £250/month.",
               href: "/wordpress-care-plan/",
-              tag: "From Â£250"
+              tag: "From £250"
             },
             {
               title: "Website Support & Care Plans",

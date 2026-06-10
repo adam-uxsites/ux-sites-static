@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -64,13 +64,13 @@ export default function WordPressHostingWhitchurch() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Whitchurch | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Whitchurch businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Whitchurch | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-whitchurch/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Whitchurch",
-            description: "Managed WordPress hosting for Whitchurch businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Whitchurch and surrounding areas.",
+            description: "Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Whitchurch and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-whitchurch/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingWhitchurch() {
         <HeroBlock
           tagline="Hosting for Whitchurch & the borderlands"
           headline="Managed WordPress Hosting for Whitchurch Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Whitchurch and the Cheshire-Shropshire border region. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Whitchurch business website kept secure, fast and hassle-free."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Whitchurch and the Cheshire-Shropshire border region. Security, backups, updates, performance monitoring and support all included from £50/month. Your Whitchurch business website kept secure, fast and hassle-free."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Serving Shropshire & borders" }
@@ -253,11 +253,11 @@ export default function WordPressHostingWhitchurch() {
             },
             {
               question: "Do you build new websites for Whitchurch businesses?",
-              answer: "Yes â€” we build custom WordPress websites from Â£1,500, designed for your specific business. We also redesign existing sites, improve loading speeds, and provide ongoing maintenance and support."
+              answer: "Yes â€” we build custom WordPress websites from £1,500, designed for your specific business. We also redesign existing sites, improve loading speeds, and provide ongoing maintenance and support."
             },
             {
               question: "I run a small business â€” is managed hosting worth it?",
-              answer: "If your website generates enquiries, bookings or sales for your business, then absolutely. Managed hosting costs from Â£50/month and covers everything â€” hosting, security, backups, updates and support. Compare that to the cost of a hacked site, lost business from downtime, or hours spent managing updates yourself."
+              answer: "If your website generates enquiries, bookings or sales for your business, then absolutely. Managed hosting costs from £50/month and covers everything â€” hosting, security, backups, updates and support. Compare that to the cost of a hacked site, lost business from downtime, or hours spent managing updates yourself."
             },
             {
               question: "How quickly can you migrate my site?",

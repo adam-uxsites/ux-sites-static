@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForFacialAesthetics() {
         serviceSchema({ name: "Websites for Facial Aesthetics", description: "Professional websites for aesthetic clinics and practitioners. Before-and-after galleries, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-facial-aesthetics/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Facial Aesthetics", url: "https://uxsites.co.uk/websites-for-facial-aesthetics/" }]),
         faqSchema([
-          { question: "Who manages my website when I'm treating clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "Who manages my website when I'm treating clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does an aesthetic clinic website cost?", answer: "New websites start from Â£1,500. If you need a gallery, practitioner profiles, and consultation booking, we'll give you a fixed quote upfront." },
+          { question: "How much does an aesthetic clinic website cost?", answer: "New websites start from £1,500. If you need a gallery, practitioner profiles, and consultation booking, we'll give you a fixed quote upfront." },
           { question: "Do you include before-and-after galleries?", answer: "Absolutely. We build dedicated before-and-after galleries with categorisation so potential clients can filter by treatment type and see your best results." },
           { question: "What about social media links and embedding Instagram feeds?", answer: "Yes. We can embed your Instagram feed so fresh content automatically appears on your site, and link through to your social channels for more engagement." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Aesthetic clinic websites" headline="Websites for Facial Aesthetics and Aesthetic Clinics" subheadline="Your results speak for themselves â€” your website should make sure people see them. We build beautiful, mobile-friendly sites that showcase your treatments and make it easy for clients to book consultations." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Before & After Galleries", "Consultation Booking", "Mobile First", "Local SEO", "Ongoing Support"]} />
+        <HeroBlock tagline="Aesthetic clinic websites" headline="Websites for Facial Aesthetics and Aesthetic Clinics" subheadline="Your results speak for themselves â€” your website should make sure people see them. We build beautiful, mobile-friendly sites that showcase your treatments and make it easy for clients to book consultations." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Before & After Galleries", "Consultation Booking", "Mobile First", "Local SEO", "Ongoing Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why aesthetic clinics need a website that converts</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your treatments deliver visible results â€” your website needs to show them. Here's what makes a great aesthetics website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForFacialAesthetics() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Aesthetics Practice" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your treatments and attract new clients." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your treatments and attract new clients." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with stronger visuals and a better booking flow." },
           { title: "Social Media Integration", description: "Embed your Instagram feed and link your social channels so fresh content automatically appears on your site." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Who manages my website when I'm treating clients?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "Who manages my website when I'm treating clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does an aesthetic clinic website cost?", answer: "New websites start from Â£1,500. If you need a gallery, practitioner profiles, and consultation booking, we'll give you a fixed quote upfront." },
+          { question: "How much does an aesthetic clinic website cost?", answer: "New websites start from £1,500. If you need a gallery, practitioner profiles, and consultation booking, we'll give you a fixed quote upfront." },
           { question: "Do you include before-and-after galleries?", answer: "Absolutely. We build dedicated before-and-after galleries with categorisation so potential clients can filter by treatment type and see your best results." },
           { question: "What about social media links and embedding Instagram feeds?", answer: "Yes. We can embed your Instagram feed so fresh content automatically appears on your site, and link through to your social channels for more engagement." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your aesthetic clinic website" description="Get a free, no-obligation quote. We'll talk through your treatments and your brand." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Tanning Studios", description: "Websites for spray tanning and beauty studios.", href: "/websites-for-tanning-studios/", tag: "Beauty" },

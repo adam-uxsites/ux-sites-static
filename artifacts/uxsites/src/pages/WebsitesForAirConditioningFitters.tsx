@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForAirConditioningFitters() {
           faqSchema([
             {
               question: "Who manages the website while I'm out installing systems?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
+              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
               question: "I need to target both businesses and homeowners â€” can one site do both?",
@@ -77,7 +77,7 @@ export default function WebsitesForAirConditioningFitters() {
             },
             {
               question: "How much does a website for an air conditioning business cost?",
-              answer: "New websites start from Â£1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote maintenance contracts through the site?",
@@ -92,7 +92,7 @@ export default function WebsitesForAirConditioningFitters() {
           headline="Websites for Air Conditioning Installers"
           subheadline="Whether you're installing for businesses or homeowners, your website needs to communicate your expertise and make it easy to request a quote. We build professional sites for HVAC contractors."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Commercial & Domestic", "Certifications", "Case Studies", "Local SEO", "Ongoing Support"]}
         />
 
@@ -252,8 +252,8 @@ export default function WebsitesForAirConditioningFitters() {
           title="How We Help Your HVAC Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to serve both commercial and domestic customers with clear paths, certifications, and case studies." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to serve both commercial and domestic customers with clear paths, certifications, and case studies." },
             { title: "Existing Site Refreshes", description: "Your current site not generating enquiries? We can redesign with better audience targeting, stronger trust signals, and improved local SEO." },
             { title: "Lead Generation Optimisation", description: "Quote request forms and contact flows designed to capture qualified leads â€” whether from office managers or homeowners." }
 
@@ -265,7 +265,7 @@ export default function WebsitesForAirConditioningFitters() {
           faqs={[
             {
               question: "Who manages the website while I'm out installing systems?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
+              answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site takes care of itself while you focus on installations."
             },
             {
               question: "I need to target both businesses and homeowners â€” can one site do both?",
@@ -273,7 +273,7 @@ export default function WebsitesForAirConditioningFitters() {
             },
             {
               question: "How much does a website for an air conditioning business cost?",
-              answer: "New websites start from Â£1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need separate sections for commercial and domestic work, plus case studies and maintenance promotions, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote maintenance contracts through the site?",
@@ -293,7 +293,7 @@ export default function WebsitesForAirConditioningFitters() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

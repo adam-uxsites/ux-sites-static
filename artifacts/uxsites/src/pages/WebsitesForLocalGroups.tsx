@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForLocalGroups() {
         serviceSchema({ name: "Websites for Local Groups", description: "Professional websites for community groups, clubs, and societies. Membership info, events calendars, photo galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-local-groups/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Local Groups", url: "https://uxsites.co.uk/websites-for-local-groups/" }]),
         faqSchema([
-          { question: "Our committee is all volunteer â€” who manages the website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your group." },
+          { question: "Our committee is all volunteer â€” who manages the website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your group." },
           { question: "Can we add events and photo galleries ourselves?", answer: "Yes. We build easy-to-use content management so you can add events, upload photos, and update information without technical skills." },
-          { question: "How much does a community group website cost?", answer: "New websites start from Â£1,500. If you need membership info, events, and contact details, we'll give you a fixed quote upfront." },
+          { question: "How much does a community group website cost?", answer: "New websites start from £1,500. If you need membership info, events, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can people join or become members through the website?", answer: "Absolutely. We can add a membership enquiry form or online sign-up so potential members can get in touch directly." },
           { question: "Do you offer discounted rates for community groups?", answer: "Yes. We offer reduced pricing for non-profit community groups and societies. Get in touch to discuss your needs." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Local group websites" headline="Websites for Community Groups, Clubs, and Societies" subheadline="Your group brings people together â€” your website should help you grow. We build professional, mobile-friendly sites that attract members and showcase your activities." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Membership Info", "Events Calendar", "Photo Gallery", "Mobile First", "Contact"]} />
+        <HeroBlock tagline="Local group websites" headline="Websites for Community Groups, Clubs, and Societies" subheadline="Your group brings people together â€” your website should help you grow. We build professional, mobile-friendly sites that attract members and showcase your activities." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Membership Info", "Events Calendar", "Photo Gallery", "Mobile First", "Contact"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why local groups need a website that brings people together</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your group builds community â€” your website should help people find you. Here's what makes a great local group website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForLocalGroups() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Community Group" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while your team focuses on your group." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to attract members and showcase your activities." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while your team focuses on your group." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to attract members and showcase your activities." },
           { title: "Existing Site Refreshes", description: "Your current site not engaging members? We can redesign with better events and membership information." },
           { title: "Discounted Group Rates", description: "We offer reduced pricing for non-profit community groups and societies. Get in touch to discuss your needs." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Our committee is all volunteer â€” who manages the website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your group." },
+          { question: "Our committee is all volunteer â€” who manages the website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your group." },
           { question: "Can we add events and photo galleries ourselves?", answer: "Yes. We build easy-to-use content management so you can add events, upload photos, and update information without technical skills." },
-          { question: "How much does a community group website cost?", answer: "New websites start from Â£1,500. If you need membership info, events, and contact details, we'll give you a fixed quote upfront." },
+          { question: "How much does a community group website cost?", answer: "New websites start from £1,500. If you need membership info, events, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can people join or become members through the website?", answer: "Absolutely. We can add a membership enquiry form or online sign-up so potential members can get in touch directly." },
           { question: "Do you offer discounted rates for community groups?", answer: "Yes. We offer reduced pricing for non-profit community groups and societies. Get in touch to discuss your needs." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your community group website" description="Get a free, no-obligation quote. We'll talk through your group and your goals." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Charities", description: "Websites for charities and community groups.", href: "/websites-for-charities/", tag: "Community" },

@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -77,7 +77,7 @@ export default function WebsitesForBuilders() {
             },
             {
               question: "How much does a professional builder website cost?",
-              answer: "New websites start from Â£1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
+              answer: "New websites start from £1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
             },
             {
               question: "Will my site show up on Google when local customers search for builders?",
@@ -92,7 +92,7 @@ export default function WebsitesForBuilders() {
           headline="Websites for Builders and Construction Companies"
           subheadline="Your website should be one of your best tools for winning new work. We build professional, mobile-friendly sites that showcase your projects and make it easy for local customers to get in touch."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Project Portfolio", "Mobile First", "Local SEO", "Trust & Credibility", "Ongoing Support"]}
         />
 
@@ -254,8 +254,8 @@ export default function WebsitesForBuilders() {
           title="How We Help Your Building Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the build."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you work on site." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed and built around your services, portfolio, and target areas. Mobile-first, fast, and optimised for Google." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you work on site." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed and built around your services, portfolio, and target areas. Mobile-first, fast, and optimised for Google." },
             { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign, restructure, and re-optimise it to generate enquiries again â€” often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages, Google Business integration, and structured markup so you show up when local customers search for builders in your area." }
 
@@ -275,7 +275,7 @@ export default function WebsitesForBuilders() {
             },
             {
               question: "How much does a professional builder website cost?",
-              answer: "New websites start from Â£1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
+              answer: "New websites start from £1,500, depending on the number of pages and features. Existing site refreshes start from less. We give you a fixed quote upfront with no hidden charges."
             },
             {
               question: "Will my site show up on Google when local customers search for builders?",
@@ -295,7 +295,7 @@ export default function WebsitesForBuilders() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

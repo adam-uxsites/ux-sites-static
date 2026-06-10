@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -66,13 +66,13 @@ export default function WordPressHostingOswestry() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Oswestry | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Oswestry businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Oswestry | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Oswestry businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-oswestry/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Oswestry",
-            description: "Managed WordPress hosting for Oswestry businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Oswestry and surrounding areas.",
+            description: "Managed WordPress hosting for Oswestry businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Oswestry and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-oswestry/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -90,15 +90,15 @@ export default function WordPressHostingOswestry() {
         <HeroBlock
           tagline="Border town hosting expertise"
           headline="Managed WordPress Hosting for Oswestry Businesses"
-          subheadline="Reliable managed WordPress hosting from a Shropshire-based expert serving Oswestry and the Welsh borders. Security, backups, updates, performance monitoring and support all included from Â£50/month. Keep your Oswestry business website fast, secure and hassle-free."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Reliable managed WordPress hosting from a Shropshire-based expert serving Oswestry and the Welsh borders. Security, backups, updates, performance monitoring and support all included from £50/month. Keep your Oswestry business website fast, secure and hassle-free."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Oswestry Based", "Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
+          chips={["Oswestry Based", "£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Regional Experience", sub: "Serving the border region" }
@@ -256,7 +256,7 @@ export default function WordPressHostingOswestry() {
             },
             {
               question: "What if I also need a new website or design work?",
-              answer: "We build custom WordPress websites too, from Â£1,500. Many Oswestry clients start with a new site and move to managed hosting afterwards. We also support existing sites with refreshes, speed optimisation and ongoing maintenance."
+              answer: "We build custom WordPress websites too, from £1,500. Many Oswestry clients start with a new site and move to managed hosting afterwards. We also support existing sites with refreshes, speed optimisation and ongoing maintenance."
             }
 
 

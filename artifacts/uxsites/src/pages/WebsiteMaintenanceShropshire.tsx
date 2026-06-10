@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -174,7 +174,7 @@ export default function WebsiteMaintenanceShropshire() {
             },
             {
               question: "What's the difference between maintenance and the care plan?",
-              answer: "Website maintenance covers the technical upkeep â€” updates, backups, security, and performance. The WordPress Care Plan (Â£50/month) combines this with managed hosting and 30 minutes of monthly development time for content changes."
+              answer: "Website maintenance covers the technical upkeep â€” updates, backups, security, and performance. The WordPress Care Plan (£50/month) combines this with managed hosting and 30 minutes of monthly development time for content changes."
             },
             {
               question: "Can you meet in person in Shropshire?",
@@ -205,7 +205,7 @@ export default function WebsiteMaintenanceShropshire() {
             },
             {
               title: "WordPress Care Plan",
-              description: "Ongoing development, updates & priority support from Â£50/month.",
+              description: "Ongoing development, updates & priority support from £50/month.",
               href: "/wordpress-care-plan/",
               tag: "Service"
             },
@@ -217,7 +217,7 @@ export default function WebsiteMaintenanceShropshire() {
             },
             {
               title: "Managed WordPress Hosting Shropshire",
-              description: "Local managed hosting from Â£50/month â€” keeping your Shropshire site secure and fast.",
+              description: "Local managed hosting from £50/month â€” keeping your Shropshire site secure and fast.",
               href: "/wordpress-hosting-shropshire/",
               tag: "Related"
             },

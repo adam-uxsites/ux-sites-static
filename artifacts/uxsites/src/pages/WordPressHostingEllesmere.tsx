@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -64,13 +64,13 @@ export default function WordPressHostingEllesmere() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Ellesmere | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Ellesmere businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Ellesmere | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Ellesmere businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-ellesmere/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Ellesmere",
-            description: "Managed WordPress hosting for Ellesmere businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ellesmere and surrounding areas.",
+            description: "Managed WordPress hosting for Ellesmere businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ellesmere and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-ellesmere/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingEllesmere() {
         <HeroBlock
           tagline="Hosting for Shropshire's Lakeland"
           headline="Managed WordPress Hosting for Ellesmere Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Ellesmere and the surrounding lake district. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Ellesmere business website kept secure, fast and hassle-free."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving Ellesmere and the surrounding lake district. Security, backups, updates, performance monitoring and support all included from £50/month. Your Ellesmere business website kept secure, fast and hassle-free."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Local Experience", sub: "Serving North Shropshire" }
@@ -255,7 +255,7 @@ export default function WordPressHostingEllesmere() {
             },
             {
               question: "Do you build new websites for Ellesmere businesses?",
-              answer: "Yes â€” we build custom WordPress websites from Â£1,500, designed specifically for your business. Whether you're a B&B, a local retailer, or a professional service, we'll create a site that works for you and your customers."
+              answer: "Yes â€” we build custom WordPress websites from £1,500, designed specifically for your business. Whether you're a B&B, a local retailer, or a professional service, we'll create a site that works for you and your customers."
             },
             {
               question: "Can you take over an existing site that's slow or has issues?",

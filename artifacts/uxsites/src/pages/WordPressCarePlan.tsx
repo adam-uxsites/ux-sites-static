@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,13 +69,13 @@ export default function WordPressCarePlan() {
   return (
     <>
       <SEO
-        title="WordPress Care Plan from Â£250/mo | UX Sites Shropshire"
-        description="WordPress care plan from Â£250/month with managed hosting, 4 hours monthly development & priority support â€” your website actively maintained and improved."
+        title="WordPress Care Plan from £250/mo | UX Sites Shropshire"
+        description="WordPress care plan from £250/month with managed hosting, 4 hours monthly development & priority support â€” your website actively maintained and improved."
         url="https://uxsites.co.uk/wordpress-care-plan/"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan",
-            description: "Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation from Â£250/month.",
+            description: "Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
             url: "https://uxsites.co.uk/wordpress-care-plan/",
             category: "WordPress Care Plan",
             price: "250",
@@ -88,9 +88,9 @@ export default function WordPressCarePlan() {
           ]),
           faqSchema([
             { question: "What is a WordPress care plan?", answer: "A WordPress care plan is a monthly retainer that bundles managed hosting with ongoing development time, proactive improvements, priority support, and technical consultation. It's designed for businesses that want a long-term partner proactively looking after their website." },
-            { question: "How is a care plan different from managed hosting?", answer: "Managed hosting (Â£50/month) keeps your site secure, fast, and online with daily backups, updates, security monitoring, and 30 minutes of monthly content changes. A care plan (Â£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  it's a significantly deeper level of ongoing support." },
+            { question: "How is a care plan different from managed hosting?", answer: "Managed hosting (£50/month) keeps your site secure, fast, and online with daily backups, updates, security monitoring, and 30 minutes of monthly content changes. A care plan (£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  it's a significantly deeper level of ongoing support." },
             { question: "What can I use the development hours for?", answer: "Content updates, new pages, design improvements, performance tuning, SEO adjustments, plugin configurations, form additions, integration work, and most other website changes. If you're unsure whether something is covered, just ask  -  if it fits within the monthly allocation, we'll handle it." },
-            { question: "Can I start on managed hosting and upgrade later?", answer: "Yes. The three tiers are designed as a natural progression. Start with managed hosting (Â£50/month) and upgrade to a care plan (Â£250/month) or care plan pro (Â£500/month) whenever your needs grow  -  no lock-in, no penalties." },
+            { question: "Can I start on managed hosting and upgrade later?", answer: "Yes. The three tiers are designed as a natural progression. Start with managed hosting (£50/month) and upgrade to a care plan (£250/month) or care plan pro (£500/month) whenever your needs grow  -  no lock-in, no penalties." },
             { question: "What if I need more than 4 hours in a month?", answer: "Additional development time is charged at our standard hourly rate. We'll always confirm before any work that exceeds your monthly allocation, so there are never surprise bills." },
             { question: "Do you work with existing sites or only sites you build?", answer: "Both. We review existing WordPress sites before taking them on to understand their setup and address any immediate issues. Once on a care plan, we handle everything." },
           ]),
@@ -99,7 +99,7 @@ export default function WordPressCarePlan() {
       <main>
         <HeroBlock
           tagline="Ongoing website support & improvement"
-          headline="WordPress Care Plan from Â£250/month"
+          headline="WordPress Care Plan from £250/month"
           subheadline="Managed hosting, 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  everything your website needs to keep getting better."
           primaryCta={{ text: "Get Your Care Plan", href: "/contact/" }}
           secondaryCta={{ text: "Compare Plans", href: "#pricing" }}
@@ -246,21 +246,21 @@ export default function WordPressCarePlan() {
               {[
                 {
                   title: "Managed Hosting",
-                  price: "Â£50/month",
+                  price: "£50/month",
                   desc: "Hosting, maintenance, security, backups, and basic content changes. For businesses that want their site professionally managed.",
                   href: "/managed-wordpress-hosting/",
                   tag: "Essential"
                 },
                 {
                   title: "WordPress Care Plan",
-                  price: "Â£250/month",
+                  price: "£250/month",
                   desc: "Everything in hosting plus ongoing development, proactive improvements, and priority support. For businesses that want a website partner.",
                   href: "/wordpress-care-plan/",
                   tag: "Recommended"
                 },
                 {
                   title: "Care Plan Pro",
-                  price: "Â£500/month",
+                  price: "£500/month",
                   desc: "Everything in the care plan with increased capacity, advanced optimisation, and growth-focused support. For businesses that rely heavily on their website.",
                   href: "/wordpress-care-plan-pro/",
                   tag: "Growth"
@@ -306,7 +306,7 @@ export default function WordPressCarePlan() {
             },
             {
               question: "How is a care plan different from managed hosting?",
-              answer: "Managed hosting (Â£50/month) keeps your site secure, fast, and online with daily backups, updates, security monitoring, and 30 minutes of monthly content changes. A care plan (Â£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  it's a significantly deeper level of ongoing support."
+              answer: "Managed hosting (£50/month) keeps your site secure, fast, and online with daily backups, updates, security monitoring, and 30 minutes of monthly content changes. A care plan (£250/month) adds 4 hours of monthly development time, proactive improvements, priority support, and technical consultation  -  it's a significantly deeper level of ongoing support."
             },
             {
               question: "What can I use the development hours for?",
@@ -314,7 +314,7 @@ export default function WordPressCarePlan() {
             },
             {
               question: "Can I start on managed hosting and upgrade later?",
-              answer: "Yes. The three tiers are designed as a natural progression. Start with managed hosting (Â£50/month) and upgrade to a care plan (Â£250/month) or care plan pro (Â£500/month) whenever your needs grow  -  no lock-in, no penalties."
+              answer: "Yes. The three tiers are designed as a natural progression. Start with managed hosting (£50/month) and upgrade to a care plan (£250/month) or care plan pro (£500/month) whenever your needs grow  -  no lock-in, no penalties."
             },
             {
               question: "What if I need more than 4 hours in a month?",
@@ -329,10 +329,10 @@ export default function WordPressCarePlan() {
 
         <CTABanner
           title="Ready for a proper website partner?"
-          description="Get managed hosting, 4 hours of monthly development, proactive improvements, and priority support from Â£250/month. No lock-in. No hassle."
+          description="Get managed hosting, 4 hours of monthly development, proactive improvements, and priority support from £250/month. No lock-in. No hassle."
           buttonText="Start Your Care Plan"
           buttonHref="/contact/"
-          secondaryButtonText="Managed Hosting Â£50"
+          secondaryButtonText="Managed Hosting £50"
           secondaryButtonHref="/managed-wordpress-hosting/"
         />
 
@@ -341,15 +341,15 @@ export default function WordPressCarePlan() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting, maintenance, security, and backups from Â£50/month. The foundation tier for businesses that want professional hosting.",
+              description: "Hosting, maintenance, security, and backups from £50/month. The foundation tier for businesses that want professional hosting.",
               href: "/managed-wordpress-hosting/",
-              tag: "From Â£50"
+              tag: "From £50"
             },
             {
               title: "WordPress Care Plan Pro",
-              description: "Increased development capacity, advanced optimisation, conversion improvements, and integration support from Â£500/month.",
+              description: "Increased development capacity, advanced optimisation, conversion improvements, and integration support from £500/month.",
               href: "/wordpress-care-plan-pro/",
-              tag: "From Â£500"
+              tag: "From £500"
             },
             {
               title: "Website Support & Care Plans",

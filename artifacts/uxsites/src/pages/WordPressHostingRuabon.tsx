@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -63,13 +63,13 @@ export default function WordPressHostingRuabon() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Ruabon | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Ruabon businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Ruabon | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Ruabon businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-ruabon/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Ruabon",
-            description: "Managed WordPress hosting for Ruabon businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ruabon and surrounding areas.",
+            description: "Managed WordPress hosting for Ruabon businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ruabon and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-ruabon/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -87,15 +87,15 @@ export default function WordPressHostingRuabon() {
         <HeroBlock
           tagline="Reliable hosting for the Ceiriog Valley"
           headline="Managed WordPress Hosting for Ruabon Businesses"
-          subheadline="Professional managed WordPress hosting from a border-region expert serving Ruabon and the Ceiriog Valley. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Ruabon business website kept secure, fast and professionally managed."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a border-region expert serving Ruabon and the Ceiriog Valley. Security, backups, updates, performance monitoring and support all included from £50/month. Your Ruabon business website kept secure, fast and professionally managed."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -252,7 +252,7 @@ export default function WordPressHostingRuabon() {
             },
             {
               question: "What happens if my Ruabon business needs a completely new website?",
-              answer: "We design and build custom WordPress websites from Â£1,500. Many clients start with a new website and then move onto our managed hosting plan for ongoing care and support."
+              answer: "We design and build custom WordPress websites from £1,500. Many clients start with a new website and then move onto our managed hosting plan for ongoing care and support."
             },
             {
               question: "Is the hosting infrastructure UK-based?",
@@ -260,7 +260,7 @@ export default function WordPressHostingRuabon() {
             },
             {
               question: "How do annual payments work?",
-              answer: "Annual plans are Â£500/year â€” saving you Â£100 compared to monthly billing at Â£50/month. The service is identical: hosting, backups, security, updates, SSL and support are all included in both plans."
+              answer: "Annual plans are £500/year â€” saving you £100 compared to monthly billing at £50/month. The service is identical: hosting, backups, security, updates, SSL and support are all included in both plans."
             }
 
 

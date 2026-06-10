@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForRoofers() {
           faqSchema([
             {
               question: "I'm always up on roofs â€” who manages the website?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
             },
             {
               question: "I've got an old site but it doesn't generate enquiries. Can you help?",
@@ -77,7 +77,7 @@ export default function WebsitesForRoofers() {
             },
             {
               question: "How much does a roofer's website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with project gallery, service pages, and contact features, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with project gallery, service pages, and contact features, we'll give you a fixed quote upfront."
             },
             {
               question: "Will my site rank when people search for roofers in my area?",
@@ -92,7 +92,7 @@ export default function WebsitesForRoofers() {
           headline="Websites for Roofing Contractors"
           subheadline="A new roof is a big investment. Your website needs to build the trust that turns a search into a quote. We build professional sites that showcase your work and help local customers choose you."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Project Gallery", "Trust Signals", "Emergency Contact", "Local SEO", "Ongoing Support"]}
         />
 
@@ -253,8 +253,8 @@ export default function WebsitesForRoofers() {
           title="How We Help Your Roofing Business"
           subtitle="Beyond the website â€” we keep your online presence working for you."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on the job." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your work, build trust, and generate local leads." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on the job." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your work, build trust, and generate local leads." },
             { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign with better galleries, stronger trust signals, and improved local SEO." },
             { title: "Local SEO Optimisation", description: "Service area pages, Google Business integration, and structured markup so you show up when local customers search for roofers." }
 
@@ -266,7 +266,7 @@ export default function WebsitesForRoofers() {
           faqs={[
             {
               question: "I'm always up on roofs â€” who manages the website?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site looks after itself while you focus on the roofing work."
             },
             {
               question: "I've got an old site but it doesn't generate enquiries. Can you help?",
@@ -274,7 +274,7 @@ export default function WebsitesForRoofers() {
             },
             {
               question: "How much does a roofer's website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with project gallery, service pages, and contact features, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with project gallery, service pages, and contact features, we'll give you a fixed quote upfront."
             },
             {
               question: "Will my site rank when people search for roofers in my area?",
@@ -294,7 +294,7 @@ export default function WebsitesForRoofers() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

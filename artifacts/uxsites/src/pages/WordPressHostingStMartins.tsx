@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -64,13 +64,13 @@ export default function WordPressHostingStMartins() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting St. Martins | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for St. Martins businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting St. Martins | From £50/month | UX Sites"
+        description="Managed WordPress hosting for St. Martins businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-st-martins/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting St. Martins",
-            description: "Managed WordPress hosting for St. Martins businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving St. Martins and surrounding areas.",
+            description: "Managed WordPress hosting for St. Martins businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving St. Martins and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-st-martins/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingStMartins() {
         <HeroBlock
           tagline="Reliable hosting for North Shropshire"
           headline="Managed WordPress Hosting for St. Martins Businesses"
-          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving St. Martins and the surrounding area. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your St. Martins business website kept secure and running smoothly."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a Shropshire-based expert serving St. Martins and the surrounding area. Security, backups, updates, performance monitoring and support all included from £50/month. Your St. Martins business website kept secure and running smoothly."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Regional Experience", sub: "Serving North Shropshire" }
@@ -246,7 +246,7 @@ export default function WordPressHostingStMartins() {
             },
             {
               question: "Can you help with more than just hosting?",
-              answer: "Absolutely. We build new custom WordPress websites from Â£1,500, redesign existing sites, and provide ongoing maintenance and support. Many of our St. Martins clients use us for all their website needs."
+              answer: "Absolutely. We build new custom WordPress websites from £1,500, redesign existing sites, and provide ongoing maintenance and support. Many of our St. Martins clients use us for all their website needs."
             },
             {
               question: "How is managed hosting different from what I have now?",
@@ -254,7 +254,7 @@ export default function WordPressHostingStMartins() {
             },
             {
               question: "Do you offer annual billing?",
-              answer: "Yes. Annual plans are Â£500/year â€” saving you Â£100 compared to monthly billing. Both plans include everything: hosting, backups, security, updates, SSL and support."
+              answer: "Yes. Annual plans are £500/year â€” saving you £100 compared to monthly billing. Both plans include everything: hosting, backups, security, updates, SSL and support."
             }
 
 

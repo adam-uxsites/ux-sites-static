@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -38,7 +38,7 @@ export default function SmallBusinessWebsites() {
           subheadline="Small businesses deserve professional websites  -  not cheap templates that look like every competitor. We build bespoke WordPress sites for small and medium businesses that generate real enquiries, build genuine credibility, and are easy to manage yourself."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
           secondaryCta={{ text: "See What's Included", href: "#included" }}
-          chips={["From Â£1,500", "No Templates", "Conversion Focused", "Easy to Manage", "Mobile First"]}
+          chips={["From £1,500", "No Templates", "Conversion Focused", "Easy to Manage", "Mobile First"]}
         />
 
         {/* Problem framing */}
@@ -157,10 +157,10 @@ export default function SmallBusinessWebsites() {
                   We don't publish fixed prices because every small business has different needs  -  the number of pages, whether you need ecommerce, how much content creation support you need.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                  What we can tell you: most small business websites we build are in the range of <strong className="text-foreground">Â£1,500-Â£4,000</strong>, depending on scope. We quote accurately before starting, and there are no surprise add-ons at the end.
+                  What we can tell you: most small business websites we build are in the range of <strong className="text-foreground">£1,500-£4,000</strong>, depending on scope. We quote accurately before starting, and there are no surprise add-ons at the end.
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  After launch, ongoing hosting and maintenance is available from <strong className="text-foreground">Â£50/month</strong>  -  covering everything so you never have to worry about the technical side.
+                  After launch, ongoing hosting and maintenance is available from <strong className="text-foreground">£50/month</strong>  -  covering everything so you never have to worry about the technical side.
                 </p>
                 <Link href="/contact/" className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-6 py-3 text-sm font-bold hover:opacity-90 transition-opacity">
                   Get a free quote
@@ -177,15 +177,15 @@ export default function SmallBusinessWebsites() {
                     <div className="flex justify-between"><span>Analytics setup</span><span>Included</span></div>
                     <div className="flex justify-between"><span>Contact form</span><span>Included</span></div>
                     <div className="flex justify-between"><span>Training session</span><span>Included</span></div>
-                    <div className="flex justify-between border-t border-border pt-2 mt-2 font-bold text-foreground"><span>Starting from</span><span>Â£1,500</span></div>
+                    <div className="flex justify-between border-t border-border pt-2 mt-2 font-bold text-foreground"><span>Starting from</span><span>£1,500</span></div>
                   </div>
                 </div>
                 <div className="p-6 bg-background border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">Ongoing (Optional)</h3>
                   <div className="space-y-2 text-sm text-muted-foreground">
-                    <div className="flex justify-between"><span>Managed hosting + support</span><span>Â£50/month</span></div>
-                    <div className="flex justify-between"><span>Annual plan (save Â£100)</span><span>Â£500/year</span></div>
-                    <div className="flex justify-between"><span>Domain registration (.co.uk)</span><span>~Â£12/year</span></div>
+                    <div className="flex justify-between"><span>Managed hosting + support</span><span>£50/month</span></div>
+                    <div className="flex justify-between"><span>Annual plan (save £100)</span><span>£500/year</span></div>
+                    <div className="flex justify-between"><span>Domain registration (.co.uk)</span><span>~£12/year</span></div>
                   </div>
                 </div>
               </div>
@@ -231,7 +231,7 @@ export default function SmallBusinessWebsites() {
               answer: "You'll need to provide the core information about your business. We structure and present it effectively. If you need copywriting support, we can discuss that as part of the project."
             },
             {
-              question: "What's included in the Â£50/month hosting?",
+              question: "What's included in the £50/month hosting?",
               answer: "Everything: hosting, SSL, daily backups, security monitoring, WordPress updates, performance optimisation, and content update requests. Full details on our managed hosting page."
             }
           ]}
@@ -303,7 +303,7 @@ export default function SmallBusinessWebsites() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Keep your new site secure and fast with managed hosting from Â£50/month.",
+              description: "Keep your new site secure and fast with managed hosting from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },

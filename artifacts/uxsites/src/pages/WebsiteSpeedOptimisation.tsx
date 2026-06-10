@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -30,7 +30,7 @@ export default function WebsiteSpeedOptimisation() {
             { name: "Website Speed Optimisation", url: "https://uxsites.co.uk/website-speed-optimisation/" },
           ]),
           faqSchema([
-            { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from Â£200-Â£500 depending on the size of the site and the work required." },
+            { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from £200-£500 depending on the size of the site and the work required." },
             { question: "How quickly will I see results?", answer: "Most optimisation improvements are visible immediately after implementation. Google's Core Web Vitals scores typically update within 28 days as the crawl data refreshes." },
             { question: "Will it affect my website's appearance?", answer: "No. Speed optimisation is entirely technical  -  it improves how your site loads without changing how it looks to visitors." },
           ]),
@@ -278,7 +278,7 @@ export default function WebsiteSpeedOptimisation() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Performance-optimised hosting with ongoing monitoring included  -  from Â£50/month.",
+              description: "Performance-optimised hosting with ongoing monitoring included  -  from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },

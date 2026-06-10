@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForCafes() {
         serviceSchema({ name: "Websites for Cafes", description: "Professional websites for cafes, tearooms, and delis. Menu displays, location info, catering services, and local SEO.", url: "https://uxsites.co.uk/websites-for-cafes/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cafes", url: "https://uxsites.co.uk/websites-for-cafes/" }]),
         faqSchema([
-          { question: "I'm busy running the cafe â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy running the cafe â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu and prices online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your food, drinks, and prices. You can update it yourself or we can do it for you." },
-          { question: "How much does a cafe website cost?", answer: "New websites start from Â£1,500. If you need a menu, location info, and contact details, we'll give you a fixed quote upfront." },
+          { question: "How much does a cafe website cost?", answer: "New websites start from £1,500. If you need a menu, location info, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can I promote my catering services on the site?", answer: "Absolutely. We can add a dedicated catering page showcasing your offerings and a simple enquiry form for corporate clients." },
           { question: "Do you include online ordering for takeaway customers?", answer: "Yes. We can add a takeaway ordering system or link to your preferred delivery platform so customers can order ahead." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Cafe websites" headline="Websites for Cafes, Tearooms, and Delis" subheadline="Your food and atmosphere make people want to visit â€” your website just needs to show them. We build beautiful, mobile-friendly sites that bring customers to your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Menu Display", "Location Map", "Opening Hours", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Cafe websites" headline="Websites for Cafes, Tearooms, and Delis" subheadline="Your food and atmosphere make people want to visit â€” your website just needs to show them. We build beautiful, mobile-friendly sites that bring customers to your door." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Menu Display", "Location Map", "Opening Hours", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why cafes need a website that brings customers in</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your cafe's warmth and food speak for themselves â€” but only if people can find you. Here's what makes a great cafe website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForCafes() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Cafe" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your menu and bring customers to your door." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your customers." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your menu and bring customers to your door." },
           { title: "Existing Site Refreshes", description: "Your current site not bringing people in? We can redesign with a stronger visual focus and better local presence." },
           { title: "Menu Update Service", description: "We can manage your menu updates for you â€” seasonal changes, specials, and price updates handled as part of your hosting plan." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy running the cafe â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
+          { question: "I'm busy running the cafe â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu and prices online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your food, drinks, and prices. You can update it yourself or we can do it for you." },
-          { question: "How much does a cafe website cost?", answer: "New websites start from Â£1,500. If you need a menu, location info, and contact details, we'll give you a fixed quote upfront." },
+          { question: "How much does a cafe website cost?", answer: "New websites start from £1,500. If you need a menu, location info, and contact details, we'll give you a fixed quote upfront." },
           { question: "Can I promote my catering services on the site?", answer: "Absolutely. We can add a dedicated catering page showcasing your offerings and a simple enquiry form for corporate clients." },
           { question: "Do you include online ordering for takeaway customers?", answer: "Yes. We can add a takeaway ordering system or link to your preferred delivery platform so customers can order ahead." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your cafe website" description="Get a free, no-obligation quote. We'll talk through your menu and your brand." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Coffee Shops", description: "Websites for coffee shops and artisan cafes.", href: "/websites-for-coffee-shops/", tag: "Food" },

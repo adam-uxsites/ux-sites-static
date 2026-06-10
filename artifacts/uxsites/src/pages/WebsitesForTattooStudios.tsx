@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForTattooStudios() {
         serviceSchema({ name: "Websites for Tattoo Studios", description: "Professional websites for tattoo artists and piercing studios. Artist portfolios, flash sheets, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tattoo-studios/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tattoo Studios", url: "https://uxsites.co.uk/websites-for-tattoo-studios/" }]),
         faqSchema([
-          { question: "I'm busy tattooing â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy tattooing â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate a consultation booking system so clients can check availability and book a consultation without picking up the phone." },
-          { question: "How much does a tattoo studio website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, flash sheets, and consultation booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tattoo studio website cost?", answer: "New websites start from £1,500. If you need a portfolio, flash sheets, and consultation booking, we'll give you a fixed quote upfront." },
           { question: "Can I display flash sheets and change them regularly?", answer: "Yes. We build easy-to-update galleries so you can add new flash designs whenever you want, keeping your site fresh for returning visitors." },
           { question: "Do you include artist profiles for multiple artists?", answer: "Absolutely. If your studio has multiple artists, we can create individual profiles with their portfolios, styles, and booking links." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Tattoo studio websites" headline="Websites for Tattoo Studios and Piercing Artists" subheadline="Your art deserves a showcase that does it justice. We build bold, mobile-friendly sites that display your portfolio and make booking consultations easy." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Artist Portfolios", "Flash Sheets", "Consultation Booking", "Mobile First", "Local SEO"]} />
+        <HeroBlock tagline="Tattoo studio websites" headline="Websites for Tattoo Studios and Piercing Artists" subheadline="Your art deserves a showcase that does it justice. We build bold, mobile-friendly sites that display your portfolio and make booking consultations easy." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Artist Portfolios", "Flash Sheets", "Consultation Booking", "Mobile First", "Local SEO"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why tattoo studios need a website that shows your art</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your work speaks for itself â€” but only if potential clients can see it. Here's what makes a great tattoo studio website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForTattooStudios() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Tattoo Studio" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your art." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your portfolio and attract more clients." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your art." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your portfolio and attract more clients." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your art? We can redesign with a stronger visual focus and better booking flow." },
           { title: "Multi-Artist Studio Setup", description: "If your studio has multiple artists, we can create individual profiles, portfolios, and booking links for each." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy tattooing â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy tattooing â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate a consultation booking system so clients can check availability and book a consultation without picking up the phone." },
-          { question: "How much does a tattoo studio website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, flash sheets, and consultation booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a tattoo studio website cost?", answer: "New websites start from £1,500. If you need a portfolio, flash sheets, and consultation booking, we'll give you a fixed quote upfront." },
           { question: "Can I display flash sheets and change them regularly?", answer: "Yes. We build easy-to-update galleries so you can add new flash designs whenever you want, keeping your site fresh for returning visitors." },
           { question: "Do you include artist profiles for multiple artists?", answer: "Absolutely. If your studio has multiple artists, we can create individual profiles with their portfolios, styles, and booking links." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your tattoo studio website" description="Get a free, no-obligation quote. We'll talk through your art and your studio." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Nail Studios", description: "Websites for nail technicians and nail art studios.", href: "/websites-for-nail-studios/", tag: "Beauty" },

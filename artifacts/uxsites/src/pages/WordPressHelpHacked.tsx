@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -68,7 +68,7 @@ const breachCosts = [
   {
     icon: DollarSign,
     title: "Financial Costs",
-    items: ["Emergency cleanup fees (Â£200-Â£2,000+)", "Lost revenue during downtime", "Potential ransom payments for ransomware", "SSL certificate reissuance costs", "SEO recovery campaigns to regain rankings"]
+    items: ["Emergency cleanup fees (£200-£2,000+)", "Lost revenue during downtime", "Potential ransom payments for ransomware", "SSL certificate reissuance costs", "SEO recovery campaigns to regain rankings"]
   },
   {
     icon: BadgeAlert,

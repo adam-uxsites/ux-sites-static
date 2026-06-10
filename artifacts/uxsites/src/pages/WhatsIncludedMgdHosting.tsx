@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -195,7 +195,7 @@ export default function WhatsIncludedMgdHosting() {
 
         <CTABanner
           title="One price. Everything included."
-          description="Managed WordPress hosting from Â£50/month  -  with no hidden extras or surprise charges."
+          description="Managed WordPress hosting from £50/month  -  with no hidden extras or surprise charges."
           buttonText="Get Started"
           buttonHref="/contact/"
           secondaryButtonText="Compare Plans"

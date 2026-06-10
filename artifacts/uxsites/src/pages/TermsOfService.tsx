@@ -1,5 +1,6 @@
 import { SEO } from "@/components/seo/SEO";
 import { CTABanner } from "@/components/blocks/CTABanner";
+import { EmailLink } from "@/components/ui/EmailLink";
 import { motion } from "framer-motion";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schemas";
 
@@ -102,7 +103,7 @@ export default function TermsOfService() {
 
               <Section number="11" title="Contact">
                 <p>If you have any questions about these terms, please get in touch:</p>
-                <p className="mt-2">Email: admin@uxsites.co.uk</p>
+                <p className="mt-2">Email: <EmailLink email="admin@uxsites.co.uk" /></p>
               </Section>
             </div>
           </div>

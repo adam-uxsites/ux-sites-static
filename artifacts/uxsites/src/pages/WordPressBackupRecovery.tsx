@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -203,7 +203,7 @@ export default function WordPressBackupRecovery() {
           pages={[
             {
               title: "Managed WordPress Hosting",
-              description: "Backups + security + hosting + support  -  everything included from Â£50/month.",
+              description: "Backups + security + hosting + support  -  everything included from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },

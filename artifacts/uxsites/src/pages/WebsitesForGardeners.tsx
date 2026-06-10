@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForGardeners() {
         serviceSchema({ name: "Websites for Gardeners", description: "Professional websites for gardeners and grounds maintenance. Service portfolios, before-and-after galleries, seasonal promotions, and local SEO.", url: "https://uxsites.co.uk/websites-for-gardeners/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Gardeners", url: "https://uxsites.co.uk/websites-for-gardeners/" }]),
         faqSchema([
-          { question: "I'm busy working outdoors â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your gardens." },
+          { question: "I'm busy working outdoors â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your gardens." },
           { question: "Can I show before-and-after photos of my work?", answer: "Absolutely. We build dedicated galleries so you can showcase your transformations and prove the quality of your work." },
-          { question: "How much does a gardener's website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, service list, and service areas, we'll give you a fixed quote upfront." },
+          { question: "How much does a gardener's website cost?", answer: "New websites start from £1,500. If you need a portfolio, service list, and service areas, we'll give you a fixed quote upfront." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add a simple quote request form that captures job details, location, and contact information so you can respond quickly." },
           { question: "How do I promote seasonal services like autumn clearance?", answer: "We can add a seasonal promotions section so you can highlight time-limited services and keep your content fresh throughout the year." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Gardener websites" headline="Websites for Gardeners and Grounds Maintenance" subheadline="Your transformations speak for themselves â€” your website should show them. We build beautiful, mobile-friendly sites that showcase your work and help clients find you." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Before & After", "Service Areas", "Seasonal Offers", "Mobile First", "Quote Forms"]} />
+        <HeroBlock tagline="Gardener websites" headline="Websites for Gardeners and Grounds Maintenance" subheadline="Your transformations speak for themselves â€” your website should show them. We build beautiful, mobile-friendly sites that showcase your work and help clients find you." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Before & After", "Service Areas", "Seasonal Offers", "Mobile First", "Quote Forms"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why gardeners need a website that grows your business</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your work transforms gardens â€” your website should help you find more clients. Here's what makes a great gardener's website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,19 +72,19 @@ export default function WebsitesForGardeners() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Gardening Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your gardens." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your work and attract more clients." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your gardens." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your work and attract more clients." },
           { title: "Existing Site Refreshes", description: "Your current site not winning you work? We can redesign with stronger before-and-afters and better quoting flow." },
           { title: "Seasonal Promotion Updates", description: "We can manage your seasonal offers and service updates so your site stays current throughout the year." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy working outdoors â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your gardens." },
+          { question: "I'm busy working outdoors â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your gardens." },
           { question: "Can I show before-and-after photos of my work?", answer: "Absolutely. We build dedicated galleries so you can showcase your transformations and prove the quality of your work." },
-          { question: "How much does a gardener's website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, service list, and service areas, we'll give you a fixed quote upfront." },
+          { question: "How much does a gardener's website cost?", answer: "New websites start from £1,500. If you need a portfolio, service list, and service areas, we'll give you a fixed quote upfront." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add a simple quote request form that captures job details, location, and contact information so you can respond quickly." },
           { question: "How do I promote seasonal services like autumn clearance?", answer: "We can add a seasonal promotions section so you can highlight time-limited services and keep your content fresh throughout the year." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your gardener's website" description="Get a free, no-obligation quote. We'll talk through your services and your areas." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Landscapers", description: "Websites for landscapers and garden designers.", href: "/websites-for-landscapers/", tag: "Trades" },

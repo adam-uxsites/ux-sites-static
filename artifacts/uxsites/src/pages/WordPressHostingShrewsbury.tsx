@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -64,13 +64,13 @@ export default function WordPressHostingShrewsbury() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Shrewsbury | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Shrewsbury businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Shrewsbury | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Shrewsbury businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-shrewsbury/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Shrewsbury",
-            description: "Managed WordPress hosting for Shrewsbury businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and expert support serving Shrewsbury businesses.",
+            description: "Managed WordPress hosting for Shrewsbury businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and expert support serving Shrewsbury businesses.",
             url: "https://uxsites.co.uk/wordpress-hosting-shrewsbury/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingShrewsbury() {
         <HeroBlock
           tagline="Expert hosting for Shrewsbury businesses"
           headline="Managed WordPress Hosting for Shrewsbury Businesses"
-          subheadline="Professional managed WordPress hosting for Shrewsbury businesses. Security, backups, updates, performance monitoring and support all included from Â£50/month. Keep your Shrewsbury business website fast, secure and hassle-free â€” with local support when you need it."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting for Shrewsbury businesses. Security, backups, updates, performance monitoring and support all included from £50/month. Keep your Shrewsbury business website fast, secure and hassle-free â€” with local support when you need it."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Trusted in Shrewsbury", "Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
+          chips={["Trusted in Shrewsbury", "£50/month", "Daily Backups", "99.9% Uptime", "Expert Support"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Serving Shrewsbury", sub: "Deep local knowledge" }
@@ -257,7 +257,7 @@ export default function WordPressHostingShrewsbury() {
             },
             {
               question: "Do you offer web design as well as hosting?",
-              answer: "Yes â€” we build custom WordPress websites for Shrewsbury businesses from Â£1,500. Many clients start with a new site and move to managed hosting, or we take over an existing site and improve it over time."
+              answer: "Yes â€” we build custom WordPress websites for Shrewsbury businesses from £1,500. Many clients start with a new site and move to managed hosting, or we take over an existing site and improve it over time."
             },
             {
               question: "What makes managed hosting better than standard hosting?",

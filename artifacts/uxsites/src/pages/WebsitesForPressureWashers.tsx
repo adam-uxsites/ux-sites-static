@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForPressureWashers() {
           faqSchema([
             {
               question: "Who looks after the website while I'm out cleaning?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site works hard for you while you're out on the job."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site works hard for you while you're out on the job."
             },
             {
               question: "I need a site that shows my before-and-after work well. Can you help?",
@@ -77,7 +77,7 @@ export default function WebsitesForPressureWashers() {
             },
             {
               question: "How much does a pressure washing website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with gallery, service pages, and contact features, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with gallery, service pages, and contact features, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote regular cleaning contracts through the site?",
@@ -92,7 +92,7 @@ export default function WebsitesForPressureWashers() {
           headline="Websites for Pressure Washing and Cleaning Businesses"
           subheadline="Your transformations sell themselves â€” but only if customers can see them. We build professional websites with stunning before-and-after galleries that help you win more cleaning work."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Before & After", "Domestic & Commercial", "Mobile First", "Local SEO", "Ongoing Support"]}
         />
 
@@ -252,8 +252,8 @@ export default function WebsitesForPressureWashers() {
           title="How We Help Your Cleaning Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're out cleaning." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your transformations and generate local cleaning enquiries." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're out cleaning." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your transformations and generate local cleaning enquiries." },
             { title: "Existing Site Refreshes", description: "Your current site not winning work? We can redesign with a strong gallery focus, better local SEO, and clearer calls to action." },
             { title: "Recurring Revenue Pages", description: "Pages designed to promote regular cleaning contracts and commercial maintenance schedules, helping you build predictable income." }
 
@@ -265,7 +265,7 @@ export default function WebsitesForPressureWashers() {
           faqs={[
             {
               question: "Who looks after the website while I'm out cleaning?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site works hard for you while you're out on the job."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site works hard for you while you're out on the job."
             },
             {
               question: "I need a site that shows my before-and-after work well. Can you help?",
@@ -273,7 +273,7 @@ export default function WebsitesForPressureWashers() {
             },
             {
               question: "How much does a pressure washing website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with gallery, service pages, and contact features, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with gallery, service pages, and contact features, we'll give you a fixed quote upfront."
             },
             {
               question: "Can I promote regular cleaning contracts through the site?",
@@ -293,7 +293,7 @@ export default function WebsitesForPressureWashers() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

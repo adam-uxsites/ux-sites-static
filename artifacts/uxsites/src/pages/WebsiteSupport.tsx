@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -36,8 +36,8 @@ export default function WebsiteSupport() {
   return (
     <>
       <SEO
-        title="WordPress Care & Support from Â£50/mo | UX Sites Shropshire"
-        description="Keep your WordPress site secure, updated & running smoothly â€” updates, backups, security monitoring & expert support from Â£50/month."
+        title="WordPress Care & Support from £50/mo | UX Sites Shropshire"
+        description="Keep your WordPress site secure, updated & running smoothly â€” updates, backups, security monitoring & expert support from £50/month."
         url="https://uxsites.co.uk/website-support/"
         schema={[
           serviceSchema({
@@ -270,7 +270,7 @@ export default function WebsiteSupport() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + care + support in a single plan  -  from Â£50/month.",
+              description: "Hosting + care + support in a single plan  -  from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Hosting"
             },

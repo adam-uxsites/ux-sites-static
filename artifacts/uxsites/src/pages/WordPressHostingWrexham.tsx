@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -64,13 +64,13 @@ export default function WordPressHostingWrexham() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Wrexham | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Wrexham businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Wrexham | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Wrexham businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-wrexham/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Wrexham",
-            description: "Managed WordPress hosting for Wrexham businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Wrexham and surrounding areas.",
+            description: "Managed WordPress hosting for Wrexham businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Wrexham and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-wrexham/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -88,15 +88,15 @@ export default function WordPressHostingWrexham() {
         <HeroBlock
           tagline="Expert hosting for North Wales businesses"
           headline="Managed WordPress Hosting for Wrexham Businesses"
-          subheadline="Professional managed WordPress hosting from a border-region expert serving Wrexham and North Wales. Security, backups, updates, performance monitoring and support all included from Â£50/month. Keep your Wrexham business website fast, secure and professionally managed."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a border-region expert serving Wrexham and North Wales. Security, backups, updates, performance monitoring and support all included from £50/month. Keep your Wrexham business website fast, secure and professionally managed."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -250,7 +250,7 @@ export default function WordPressHostingWrexham() {
             },
             {
               question: "Do you build new websites for Wrexham businesses too?",
-              answer: "Absolutely. We build custom WordPress websites from Â£1,500, designed for your specific business needs. We also offer website refreshes, speed optimisation and ongoing maintenance for existing sites."
+              answer: "Absolutely. We build custom WordPress websites from £1,500, designed for your specific business needs. We also offer website refreshes, speed optimisation and ongoing maintenance for existing sites."
             },
             {
               question: "How do I move my site from my current Wrexham web developer?",

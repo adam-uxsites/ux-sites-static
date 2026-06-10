@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -26,13 +26,13 @@ export default function WordPressMaintenance() {
   return (
     <>
       <SEO
-        title="WordPress Maintenance from Â£50/mo | UX Sites Shropshire"
-        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support â€” from Â£50/month. Stress-free site care."
+        title="WordPress Maintenance from £50/mo | UX Sites Shropshire"
+        description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support â€” from £50/month. Stress-free site care."
         url="https://uxsites.co.uk/wordpress-maintenance/"
         schema={[
           serviceSchema({
             name: "WordPress Maintenance Service",
-            description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From Â£50/month.",
+            description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From £50/month.",
             url: "https://uxsites.co.uk/wordpress-maintenance/",
             category: "WordPress Maintenance",
             price: "50",
@@ -227,7 +227,7 @@ export default function WordPressMaintenance() {
             <div className="text-center mt-8">
               <p className="text-muted-foreground text-sm mb-4">Most clients find managed hosting better value  -  it replaces their existing hosting cost entirely.</p>
               <Link href="/managed-wordpress-hosting/" className="text-primary text-sm font-bold hover:underline">
-                View managed hosting plans from Â£50/month â†’
+                View managed hosting plans from £50/month â†’
               </Link>
             </div>
           </div>
@@ -278,7 +278,7 @@ export default function WordPressMaintenance() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Hosting + maintenance in one plan  -  the most complete solution from Â£50/month.",
+              description: "Hosting + maintenance in one plan  -  the most complete solution from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Service"
             },

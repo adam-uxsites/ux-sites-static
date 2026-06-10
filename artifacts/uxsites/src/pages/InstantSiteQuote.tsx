@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { CTABanner } from "@/components/blocks/CTABanner";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
@@ -8,20 +8,20 @@ import { Calculator, Clock, CheckCircle, ArrowRight } from "lucide-react";
 const tiers = [
   {
     name: "Starter",
-    price: "Â£689",
+    price: "£689",
     description: "For simple brochure sites or landing pages",
     features: ["3-5 pages", "Mobile responsive", "Contact form", "Basic SEO setup", "SSL certificate", "1 month support"],
   },
   {
     name: "Business",
-    price: "Â£1,200",
+    price: "£1,200",
     description: "For growing businesses that need more",
     features: ["5-8 pages", "Custom design & branding", "Mobile-first responsive", "Full SEO setup", "Analytics & tracking", "Contact forms & CTAs", "3 months support"],
     popular: true,
   },
   {
     name: "E-commerce",
-    price: "From Â£2,500",
+    price: "From £2,500",
     description: "For online stores and product-based businesses",
     features: ["Product catalog setup", "Payment integration", "Shopping cart", "Inventory management", "SEO & analytics", "Mobile optimised", "6 months support"],
   },
@@ -37,7 +37,7 @@ export default function InstantSiteQuote() {
         schema={[
           serviceSchema({
             name: "Website Design & Development",
-            description: "Professional website design and development services with transparent pricing. Starter sites from Â£689.",
+            description: "Professional website design and development services with transparent pricing. Starter sites from £689.",
             url: "https://uxsites.co.uk/instant-site-quote/",
             category: "Web Design",
           }),

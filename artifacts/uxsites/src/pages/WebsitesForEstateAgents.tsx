@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,15 +33,15 @@ export default function WebsitesForEstateAgents() {
         serviceSchema({ name: "Websites for Estate Agents", description: "Professional websites for estate agents and letting agencies. Property listings, vendor attraction, local SEO, and mobile-first design.", url: "https://uxsites.co.uk/websites-for-estate-agents/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Estate Agents", url: "https://uxsites.co.uk/websites-for-estate-agents/" }]),
         faqSchema([
-          { question: "Who manages my website while I'm out on viewings?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site stays live and professional while you focus on selling." },
+          { question: "Who manages my website while I'm out on viewings?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays live and professional while you focus on selling." },
           { question: "Can I easily add new property listings myself?", answer: "Yes. We build on WordPress so you can add new listings, photos, and details yourself. We'll show you how during handover, and we're here if you need support." },
-          { question: "How much does an estate agent website cost?", answer: "New websites start from Â£1,500. If you need property listing functionality, multiple branches, and area guides, we'll scope it and give you a fixed quote upfront." },
+          { question: "How much does an estate agent website cost?", answer: "New websites start from £1,500. If you need property listing functionality, multiple branches, and area guides, we'll scope it and give you a fixed quote upfront." },
           { question: "Will my site rank when people search for properties in my area?", answer: "We optimise every site for local search with area pages, property listings, and local content to help you rank for property searches in your target towns." },
           { question: "I'm setting up my own agency â€” can I get a professional website quickly?", answer: "Yes. We can create a professional site with your branding, area coverage, and initial listings to help you launch looking established and ready to compete." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Estate agency websites" headline="Websites for Estate Agents and Letting Agencies" subheadline="Your website is your most important branch. We build professional sites that showcase properties, attract vendors, and help you dominate local property searches." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Property Listings", "Vendor Attraction", "Local SEO", "Mobile First", "Ongoing Support"]} />
+        <HeroBlock tagline="Estate agency websites" headline="Websites for Estate Agents and Letting Agencies" subheadline="Your website is your most important branch. We build professional sites that showcase properties, attract vendors, and help you dominate local property searches." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Property Listings", "Vendor Attraction", "Local SEO", "Mobile First", "Ongoing Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why estate agents need a standout website</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">In a competitive market, your website is where buyers browse and vendors decide. Here's what makes the difference.</p></div>
@@ -74,18 +74,18 @@ export default function WebsitesForEstateAgents() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Agency" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays live while you focus on sales." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase properties, attract vendors, and dominate local search." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays live while you focus on sales." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase properties, attract vendors, and dominate local search." },
           { title: "Existing Site Refreshes", description: "Your current site not performing? We can redesign with better property showcases, clearer audience paths, and improved local SEO." },
           { title: "Local SEO Optimisation", description: "Area pages, local content, and Google Business integration so you show up when buyers and vendors search in your area." }
         ]} />
         <FAQBlock faqs={[
-          { question: "Who manages my website while I'm out on viewings?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site stays live and professional while you focus on selling." },
+          { question: "Who manages my website while I'm out on viewings?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays live and professional while you focus on selling." },
           { question: "Can I easily add new property listings myself?", answer: "Yes. We build on WordPress so you can add new listings, photos, and details yourself. We'll show you how during handover, and we're here if you need support." },
-          { question: "How much does an estate agent website cost?", answer: "New websites start from Â£1,500. If you need property listing functionality, multiple branches, and area guides, we'll scope it and give you a fixed quote upfront." },
+          { question: "How much does an estate agent website cost?", answer: "New websites start from £1,500. If you need property listing functionality, multiple branches, and area guides, we'll scope it and give you a fixed quote upfront." },
           { question: "Will my site rank when people search for properties in my area?", answer: "We optimise every site for local search with area pages, property listings, and local content to help you rank for property searches in your target towns." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your estate agency website" description="Get a free, no-obligation quote. We'll talk through your coverage areas, property portfolio, and what your site needs to achieve." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Solicitors", description: "Professional websites for solicitors and law firms.", href: "/websites-for-lawyers/", tag: "Service" },

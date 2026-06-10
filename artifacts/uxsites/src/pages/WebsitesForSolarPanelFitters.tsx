@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForSolarPanelFitters() {
           faqSchema([
             {
               question: "Who handles the website while I'm out on installations?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
             },
             {
               question: "I need to show MCS accreditation and savings calculations â€” can your sites handle that?",
@@ -77,7 +77,7 @@ export default function WebsitesForSolarPanelFitters() {
             },
             {
               question: "How much does a solar installer's website cost?",
-              answer: "New websites start from Â£1,500. If you need case studies, savings calculators, and pages for battery storage and EV charging, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need case studies, savings calculators, and pages for battery storage and EV charging, we'll give you a fixed quote upfront."
             },
             {
               question: "Can the site help me generate service and maintenance enquiries too?",
@@ -92,7 +92,7 @@ export default function WebsitesForSolarPanelFitters() {
           headline="Websites for Solar Panel Installers"
           subheadline="Help customers understand the investment, trust your credentials, and choose you for their installation. We build professional sites for solar and renewable energy contractors."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["MCS Accreditation", "Savings Case Studies", "Battery & EV", "Local SEO", "Ongoing Support"]}
         />
 
@@ -252,8 +252,8 @@ export default function WebsitesForSolarPanelFitters() {
           title="How We Help Your Solar Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your accreditations, present savings data, and generate installation enquiries." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site takes care of itself while you're on installations." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your accreditations, present savings data, and generate installation enquiries." },
             { title: "Existing Site Refreshes", description: "Your current site not converting? We can redesign with stronger trust signals, better case studies, and improved local SEO." },
             { title: "Content That Educates and Sells", description: "Blog posts, guides, and case studies that explain solar technology, financial benefits, and your installation process â€” helping customers feel confident choosing you." }
 
@@ -265,7 +265,7 @@ export default function WebsitesForSolarPanelFitters() {
           faqs={[
             {
               question: "Who handles the website while I'm out on installations?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays live and up to date while you focus on installations."
             },
             {
               question: "I need to show MCS accreditation and savings calculations â€” can your sites handle that?",
@@ -273,7 +273,7 @@ export default function WebsitesForSolarPanelFitters() {
             },
             {
               question: "How much does a solar installer's website cost?",
-              answer: "New websites start from Â£1,500. If you need case studies, savings calculators, and pages for battery storage and EV charging, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need case studies, savings calculators, and pages for battery storage and EV charging, we'll give you a fixed quote upfront."
             },
             {
               question: "Can the site help me generate service and maintenance enquiries too?",
@@ -293,7 +293,7 @@ export default function WebsitesForSolarPanelFitters() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

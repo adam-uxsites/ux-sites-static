@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -63,13 +63,13 @@ export default function WordPressHostingWelshpool() {
   return (
     <>
       <SEO
-        title="Managed WordPress Hosting Welshpool | From Â£50/month | UX Sites"
-        description="Managed WordPress hosting for Welshpool businesses from Â£50/month. Daily backups, security, performance optimisation, and expert support included."
+        title="Managed WordPress Hosting Welshpool | From £50/month | UX Sites"
+        description="Managed WordPress hosting for Welshpool businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
         url="https://uxsites.co.uk/wordpress-hosting-welshpool/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Welshpool",
-            description: "Managed WordPress hosting for Welshpool businesses from Â£50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Welshpool and surrounding areas.",
+            description: "Managed WordPress hosting for Welshpool businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Welshpool and surrounding areas.",
             url: "https://uxsites.co.uk/wordpress-hosting-welshpool/",
             category: "Managed WordPress Hosting",
             price: "50",
@@ -87,15 +87,15 @@ export default function WordPressHostingWelshpool() {
         <HeroBlock
           tagline="Hosting for mid-Wales businesses"
           headline="Managed WordPress Hosting for Welshpool Businesses"
-          subheadline="Professional managed WordPress hosting from a border-region expert serving Welshpool and mid-Wales. Security, backups, updates, performance monitoring and support all included from Â£50/month. Your Welshpool business website kept secure, fast and professionally managed."
-          primaryCta={{ text: "Get Started from Â£50/month", href: "/contact?plan=monthly/" }}
+          subheadline="Professional managed WordPress hosting from a border-region expert serving Welshpool and mid-Wales. Security, backups, updates, performance monitoring and support all included from £50/month. Your Welshpool business website kept secure, fast and professionally managed."
+          primaryCta={{ text: "Get Started from £50/month", href: "/contact/?plan=monthly" }}
           secondaryCta={{ text: "Full Hosting Details", href: "/managed-wordpress-hosting/" }}
-          chips={["Â£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
+          chips={["£50/month", "Daily Backups", "99.9% Uptime", "Expert Support", "Free Migration"]}
         />
 
         <StatsBar
           stats={[
-            { number: "Â£50", label: "Per Month", sub: "Or Â£500/year â€” save Â£100" },
+            { number: "£50", label: "Per Month", sub: "Or £500/year â€” save £100" },
             { number: "99.9%", label: "Uptime Commitment", sub: "Monitored every minute" },
             { number: "30", label: "Day Backup Retention", sub: "Secure off-site storage" },
             { number: "10+", label: "Years Border Experience", sub: "Serving Wales & Shropshire" }
@@ -256,11 +256,11 @@ export default function WordPressHostingWelshpool() {
             },
             {
               question: "My tourism business needs a new website â€” can you help with design too?",
-              answer: "Absolutely. We design and build custom WordPress websites from Â£1,500, perfect for Welshpool's tourism, hospitality and local business community. Many clients start with a new site and move onto managed hosting for ongoing peace of mind."
+              answer: "Absolutely. We design and build custom WordPress websites from £1,500, perfect for Welshpool's tourism, hospitality and local business community. Many clients start with a new site and move onto managed hosting for ongoing peace of mind."
             },
             {
               question: "Is your pricing the same for Welshpool businesses?",
-              answer: "Yes â€” same pricing for everyone. Â£50/month or Â£500/year, with everything included: hosting, daily backups, security monitoring, WordPress updates, SSL certificate, and direct support. No hidden fees, no tiered plans."
+              answer: "Yes â€” same pricing for everyone. £50/month or £500/year, with everything included: hosting, daily backups, security monitoring, WordPress updates, SSL certificate, and direct support. No hidden fees, no tiered plans."
             }
 
 

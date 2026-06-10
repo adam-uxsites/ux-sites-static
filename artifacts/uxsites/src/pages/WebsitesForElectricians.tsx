@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -69,7 +69,7 @@ export default function WebsitesForElectricians() {
           faqSchema([
             {
               question: "I don't have time to manage a website â€” who looks after it?",
-              answer: "We do. With our managed hosting service (Â£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
+              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
             },
             {
               question: "My current website is very basic and not getting calls. Can you improve it?",
@@ -77,7 +77,7 @@ export default function WebsitesForElectricians() {
             },
             {
               question: "How much does a website for an electrician cost?",
-              answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need a simple service-page site, it may cost less. We'll discuss your needs and give you a price before any work starts."
+              answer: "New websites start from £1,500 with a fixed quote upfront. If you need a simple service-page site, it may cost less. We'll discuss your needs and give you a price before any work starts."
             },
             {
               question: "Will my site show up when people search for electricians in my area?",
@@ -92,7 +92,7 @@ export default function WebsitesForElectricians() {
           headline="Websites for Electricians and Electrical Contractors"
           subheadline="Your website should help customers find you, trust you, and call you. We build professional, mobile-friendly sites that showcase your credentials and make it easy for local customers to get in touch."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Certification Showcase", "Mobile First", "Local SEO", "Emergency Call to Action", "Ongoing Support"]}
         />
 
@@ -253,8 +253,8 @@ export default function WebsitesForElectricians() {
           title="How We Help Your Electrical Business"
           subtitle="Beyond the website â€” we keep your online presence running smoothly so you can focus on the job."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed around your services, certifications, and service areas. Mobile-first, fast, and optimised for Google." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your website takes care of itself while you're out on call-outs." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your services, certifications, and service areas. Mobile-first, fast, and optimised for Google." },
             { title: "Existing Site Refreshes", description: "Your current site not bringing in calls? We can redesign, restructure, and re-optimise to generate enquiries again â€” often without starting from scratch." },
             { title: "Local SEO Optimisation", description: "Service area pages and Google Business integration so you show up when local customers search for electricians in your area." }
 
@@ -266,7 +266,7 @@ export default function WebsitesForElectricians() {
           faqs={[
             {
               question: "I don't have time to manage a website â€” who looks after it?",
-              answer: "We do. With our managed hosting service (Â£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
+              answer: "We do. With our managed hosting service (£50/month), we handle all updates, security monitoring, backups, and performance. You don't need to touch it â€” just focus on your electrical work."
             },
             {
               question: "My current website is very basic and not getting calls. Can you improve it?",
@@ -274,7 +274,7 @@ export default function WebsitesForElectricians() {
             },
             {
               question: "How much does a website for an electrician cost?",
-              answer: "New websites start from Â£1,500 with a fixed quote upfront. If you need a simple service-page site, it may cost less. We'll discuss your needs and give you a price before any work starts."
+              answer: "New websites start from £1,500 with a fixed quote upfront. If you need a simple service-page site, it may cost less. We'll discuss your needs and give you a price before any work starts."
             },
             {
               question: "Will my site show up when people search for electricians in my area?",
@@ -294,7 +294,7 @@ export default function WebsitesForElectricians() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

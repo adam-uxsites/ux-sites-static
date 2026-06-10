@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -60,7 +60,7 @@ const included = [
   "Image optimisation and compression",
   "WordPress training  -  you'll feel confident using your site",
   "1 month of post-launch support included",
-  "Optional managed hosting from Â£50/month"
+  "Optional managed hosting from £50/month"
 ];
 
 export default function NewWebsite() {
@@ -73,7 +73,7 @@ export default function NewWebsite() {
         schema={[
           serviceSchema({
             name: "New Website Design & Build",
-            description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from Â£1,500.",
+            description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from £1,500.",
             url: "https://uxsites.co.uk/new-website/",
             category: "Web Design",
           }),
@@ -137,7 +137,7 @@ export default function NewWebsite() {
                     New websites are quoted based on your specific requirements  -  the number of pages, complexity of functionality, and whether content creation support is needed.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Most small business websites start from around Â£1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
+                    Most small business websites start from around £1,500 for a compact, well-designed site. Larger sites with more pages, custom functionality, or e-commerce are quoted accordingly.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
                     Thinking about selling online? Read our comparison of{" "}
@@ -147,10 +147,10 @@ export default function NewWebsite() {
                 <div className="p-6 bg-card border border-border rounded-2xl">
                   <h3 className="font-bold mb-3">What About Ongoing Costs?</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                    After launch, your site will need hosting and ideally ongoing maintenance. We recommend our managed hosting plan (Â£50/month or Â£500/year) which covers everything.
+                    After launch, your site will need hosting and ideally ongoing maintenance. We recommend our managed hosting plan (£50/month or £500/year) which covers everything.
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Domain registration is typically Â£10-15/year for a .co.uk domain.
+                    Domain registration is typically £10-15/year for a .co.uk domain.
                   </p>
                 </div>
                 <div className="p-6 bg-card border border-primary/30 rounded-2xl">
@@ -294,7 +294,7 @@ export default function NewWebsite() {
             },
             {
               title: "Managed WordPress Hosting",
-              description: "Keep your new site secure and performing with managed hosting from Â£50/month.",
+              description: "Keep your new site secure and performing with managed hosting from £50/month.",
               href: "/managed-wordpress-hosting/",
               tag: "Hosting"
             },

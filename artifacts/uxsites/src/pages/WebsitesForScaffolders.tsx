@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -73,11 +73,11 @@ export default function WebsitesForScaffolders() {
             },
             {
               question: "Who keeps the website updated while I'm on site?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on erecting and dismantling."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on erecting and dismantling."
             },
             {
               question: "How much does a scaffolding company website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with your credentials, service areas, and project portfolio, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with your credentials, service areas, and project portfolio, we'll give you a fixed quote upfront."
             },
             {
               question: "Can potential customers request quotes directly from the site?",
@@ -92,7 +92,7 @@ export default function WebsitesForScaffolders() {
           headline="Websites for Scaffolding Contractors"
           subheadline="Your credentials, your coverage, your capability â€” all in one place. We build professional websites that help scaffolding companies win contracts from builders, contractors, and project managers."
           primaryCta={{ text: "Start Your Project", href: "/contact/" }}
-          secondaryCta={{ text: "See Our Work", href: "/work/" }}
+          secondaryCta={{ text: "See Our Work", href: "/case-studies/" }}
           chips={["Credentials First", "Trade Focused", "Quick Quote", "Service Areas", "Ongoing Support"]}
         />
 
@@ -252,8 +252,8 @@ export default function WebsitesForScaffolders() {
           title="How We Help Your Scaffolding Business"
           subtitle="Beyond the website â€” we keep your online presence working for you."
           benefits={[
-            { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays live without you needing to think about it." },
-            { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed around your credentials, services, and coverage areas. Mobile-first and optimised for trade customer enquiries." },
+            { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site stays live without you needing to think about it." },
+            { title: "New Website Builds", description: "From £1,500. A fully custom website designed around your credentials, services, and coverage areas. Mobile-first and optimised for trade customer enquiries." },
             { title: "Existing Site Refreshes", description: "Your current site not representing your capability? We can redesign with stronger credentials, better portfolio, and improved local SEO." },
             { title: "Trade-Focused Lead Generation", description: "Quote request forms and contact flows designed for trade customers â€” quick, detailed enough to qualify leads, and easy to respond to." }
 
@@ -269,11 +269,11 @@ export default function WebsitesForScaffolders() {
             },
             {
               question: "Who keeps the website updated while I'm on site?",
-              answer: "We do. Our managed hosting service (Â£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on erecting and dismantling."
+              answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site runs itself while you focus on erecting and dismantling."
             },
             {
               question: "How much does a scaffolding company website cost?",
-              answer: "New websites start from Â£1,500. If you need a focused site with your credentials, service areas, and project portfolio, we'll give you a fixed quote upfront."
+              answer: "New websites start from £1,500. If you need a focused site with your credentials, service areas, and project portfolio, we'll give you a fixed quote upfront."
             },
             {
               question: "Can potential customers request quotes directly from the site?",
@@ -293,7 +293,7 @@ export default function WebsitesForScaffolders() {
             { number: "15+", label: "Industries Served" },
             { number: "228+", label: "Sites Worked On" },
             { number: "10+", label: "Years Experience" },
-            { number: "Â£50", label: "Per Month Managed Hosting" }
+            { number: "£50", label: "Per Month Managed Hosting" }
 
 
           ]}

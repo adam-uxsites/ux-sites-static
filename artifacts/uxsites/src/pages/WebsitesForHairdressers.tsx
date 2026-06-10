@@ -1,4 +1,4 @@
-import { SEO } from "@/components/seo/SEO";
+﻿import { SEO } from "@/components/seo/SEO";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { BenefitsGrid } from "@/components/blocks/BenefitsGrid";
 import { CTABanner } from "@/components/blocks/CTABanner";
@@ -33,14 +33,14 @@ export default function WebsitesForHairdressers() {
         serviceSchema({ name: "Websites for Hairdressers & Salons", description: "Professional websites for hairdressers and salons. Portfolio galleries, online booking, service menus, and local SEO.", url: "https://uxsites.co.uk/websites-for-hairdressers/", category: "Web Design" }),
         breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Hairdressers", url: "https://uxsites.co.uk/websites-for-hairdressers/" }]),
         faqSchema([
-          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does a salon website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, service menu, and online booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a salon website cost?", answer: "New websites start from £1,500. If you need a portfolio, service menu, and online booking, we'll give you a fixed quote upfront." },
           { question: "My current site doesn't reflect the quality of my work. Can you help?", answer: "Yes. We can redesign your site with a strong visual focus â€” galleries, before-and-after shots, and a design that matches your salon's brand and atmosphere." }
         ])
       ]} />
       <main>
-        <HeroBlock tagline="Salon & barber websites" headline="Websites for Hairdressers and Salons" subheadline="Your website should be as polished as your work. We build beautiful, mobile-friendly sites that showcase your styling and make it easy for clients to book." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/work/" }} chips={["Portfolio Showcase", "Online Booking", "Mobile First", "Local SEO", "Ongoing Support"]} />
+        <HeroBlock tagline="Salon & barber websites" headline="Websites for Hairdressers and Salons" subheadline="Your website should be as polished as your work. We build beautiful, mobile-friendly sites that showcase your styling and make it easy for clients to book." primaryCta={{ text: "Start Your Project", href: "/contact/" }} secondaryCta={{ text: "See Our Work", href: "/case-studies/" }} chips={["Portfolio Showcase", "Online Booking", "Mobile First", "Local SEO", "Ongoing Support"]} />
         <section className="py-24 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-6xl"><div className="text-center mb-16"><h2 className="text-3xl md:text-4xl font-bold mb-4">Why hairdressers need a website that shows your skill</h2><p className="text-muted-foreground text-lg max-w-3xl mx-auto">Your work speaks for itself â€” but only if potential clients can see it. Here's what makes a great salon website.</p></div>
           <div className="grid md:grid-cols-2 gap-6">{painPoints.map((card, i) => (<motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }} className="p-8 bg-background border border-border rounded-2xl"><div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-4"><Check size={16} className="text-primary" strokeWidth={3} /></div><h3 className="text-xl font-bold mb-3">{card.title}</h3><p className="text-muted-foreground leading-relaxed">{card.description}</p></motion.div>))}</div></div>
@@ -72,18 +72,18 @@ export default function WebsitesForHairdressers() {
           </div>
         </section>
         <BenefitsGrid title="How We Help Your Salon Business" subtitle="Beyond the website â€” we keep your online presence running smoothly." benefits={[
-          { title: "Managed WordPress Hosting", description: "Â£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
-          { title: "New Website Builds", description: "From Â£1,500. A fully custom website designed to showcase your work and attract more bookings." },
+          { title: "Managed WordPress Hosting", description: "£50/month covers hosting, daily backups, security monitoring, updates, and ongoing support. Your site runs itself while you focus on your clients." },
+          { title: "New Website Builds", description: "From £1,500. A fully custom website designed to showcase your work and attract more bookings." },
           { title: "Existing Site Refreshes", description: "Your current site not reflecting your quality? We can redesign with a stronger visual focus and better booking flow." },
           { title: "Online Booking Integration", description: "We can integrate your preferred booking system or build a simple enquiry form that works perfectly on mobile." }
         ]} />
         <FAQBlock faqs={[
-          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (Â£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
+          { question: "I'm busy with clients â€” who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
-          { question: "How much does a salon website cost?", answer: "New websites start from Â£1,500. If you need a portfolio, service menu, and online booking, we'll give you a fixed quote upfront." },
+          { question: "How much does a salon website cost?", answer: "New websites start from £1,500. If you need a portfolio, service menu, and online booking, we'll give you a fixed quote upfront." },
           { question: "My current site doesn't reflect the quality of my work. Can you help?", answer: "Yes. We can redesign your site with a strong visual focus â€” galleries, before-and-after shots, and a design that matches your salon's brand and atmosphere." }
         ]} />
-        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "Â£50", label: "Per Month Managed Hosting" }]} />
+        <StatsBar stats={[{ number: "15+", label: "Industries Served" }, { number: "228+", label: "Sites Worked On" }, { number: "10+", label: "Years Experience" }, { number: "£50", label: "Per Month Managed Hosting" }]} />
         <CTABanner title="Let's build your salon website" description="Get a free, no-obligation quote. We'll talk through your services and your brand." buttonText="Get a Free Quote" buttonHref="/contact/" secondaryButtonText="See Our Process" secondaryButtonHref="/new-website/" />
         <RelatedPages title="Related Services" pages={[
           { title: "Websites for Nail Studios", description: "Websites for nail technicians and nail art studios.", href: "/websites-for-nail-studios/", tag: "Beauty" },
