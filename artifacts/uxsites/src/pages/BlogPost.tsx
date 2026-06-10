@@ -141,12 +141,12 @@ export default function BlogPost() {
       <SEO
         title={`${post.title} | UX Sites`}
         description={post.excerpt}
-        url={`https://uxsites.co.uk/blog/${post.slug}`}
+        url={`https://uxsites.co.uk/blog/${post.slug}/`}
         schema={[
           articleSchema({
             headline: post.title,
             description: post.excerpt,
-            url: `https://uxsites.co.uk/blog/${post.slug}`,
+            url: `https://uxsites.co.uk/blog/${post.slug}/`,
             datePublished: toIsoDate(post.date),
             category: post.category,
             image: `https://uxsites.co.uk${post.image}`,
@@ -154,8 +154,8 @@ export default function BlogPost() {
           personSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Blog", url: "https://uxsites.co.uk/blog" },
-            { name: post.title, url: `https://uxsites.co.uk/blog/${post.slug}` },
+            { name: "Blog", url: "https://uxsites.co.uk/blog/" },
+            { name: post.title, url: `https://uxsites.co.uk/blog/${post.slug}/` },
           ]),
         ]}
       />

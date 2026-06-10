@@ -16,18 +16,18 @@ export default function WebsiteSpeedOptimisation() {
       <SEO
         title="Website Speed Optimisation | WordPress Performance | UX Sites"
         description="Speed up your WordPress site and stop losing visitors. Improve Core Web Vitals, reduce load times, and boost search rankings. Expert performance optimisation for UK businesses."
-        url="https://uxsites.co.uk/website-speed-optimisation"
+        url="https://uxsites.co.uk/website-speed-optimisation/"
         schema={[
           serviceSchema({
             name: "Website Speed Optimisation",
             description: "Professional WordPress speed optimisation to improve Core Web Vitals, reduce page load times, and boost Google search rankings. Image optimisation, caching, database cleanup, and CDN setup included.",
-            url: "https://uxsites.co.uk/website-speed-optimisation",
+            url: "https://uxsites.co.uk/website-speed-optimisation/",
             category: "Website Performance Optimisation",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website" },
-            { name: "Website Speed Optimisation", url: "https://uxsites.co.uk/website-speed-optimisation" },
+            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website/" },
+            { name: "Website Speed Optimisation", url: "https://uxsites.co.uk/website-speed-optimisation/" },
           ]),
           faqSchema([
             { question: "How much does website speed optimisation cost?", answer: "Speed optimisation projects are quoted individually after a site audit. Typical projects range from £200-£500 depending on the size of the site and the work required." },

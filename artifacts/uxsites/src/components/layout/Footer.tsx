@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { EmailLink } from "@/components/ui/EmailLink";
 
 export function Footer() {
   return (
@@ -16,9 +17,7 @@ export function Footer() {
               Managed WordPress hosting and web design for businesses in Shropshire and across the UK.
             </p>
             <div className="text-sm font-semibold text-foreground">Based in St. Martins, Oswestry, Shropshire</div>
-            <a href="mailto:hello@uxsites.co.uk" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block">
-              hello@uxsites.co.uk
-            </a>
+            <EmailLink email="hello@uxsites.co.uk" className="text-sm text-muted-foreground hover:text-primary transition-colors mt-1 block" />
           </div>
 
           {/* Services */}

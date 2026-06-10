@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForHairdressers() {
   return (
     <>
-      <SEO title="Websites for Hairdressers & Salons | UX Sites Shropshire" description="Fill your appointment book with a website that showcases your work. Online booking, gallery, and pricing  -  built for hairdressers, barbers, and salons across Shropshire." url="https://uxsites.co.uk/websites-for-hairdressers" schema={[
-        serviceSchema({ name: "Websites for Hairdressers & Salons", description: "Professional websites for hairdressers and salons. Portfolio galleries, online booking, service menus, and local SEO.", url: "https://uxsites.co.uk/websites-for-hairdressers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Hairdressers", url: "https://uxsites.co.uk/websites-for-hairdressers" }]),
+      <SEO title="Websites for Hairdressers & Salons | UX Sites Shropshire" description="Fill your appointment book with a website that showcases your work. Online booking, gallery, and pricing  -  built for hairdressers, barbers, and salons across Shropshire." url="https://uxsites.co.uk/websites-for-hairdressers/" schema={[
+        serviceSchema({ name: "Websites for Hairdressers & Salons", description: "Professional websites for hairdressers and salons. Portfolio galleries, online booking, service menus, and local SEO.", url: "https://uxsites.co.uk/websites-for-hairdressers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Hairdressers", url: "https://uxsites.co.uk/websites-for-hairdressers/" }]),
         faqSchema([
           { question: "I'm busy with clients — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },

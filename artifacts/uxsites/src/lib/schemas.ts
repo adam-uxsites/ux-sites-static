@@ -2,9 +2,7 @@ const SITE_URL = "https://uxsites.co.uk";
 const BRAND_NAME = "UX Sites";
 
 const provider = {
-  "@type": "LocalBusiness",
-  name: BRAND_NAME,
-  url: SITE_URL,
+  "@id": `${SITE_URL}/#business`,
 };
 
 const areaServed = [
@@ -57,7 +55,7 @@ export function localBusinessSchema() {
           itemOffered: {
             "@type": "Service",
             name: "Managed WordPress Hosting",
-            url: `${SITE_URL}/managed-wordpress-hosting`,
+            url: `${SITE_URL}/managed-wordpress-hosting/`,
           },
           price: "50",
           priceCurrency: "GBP",
@@ -136,7 +134,6 @@ export function serviceSchema({
     url,
     provider,
     areaServed,
-    inLanguage: "en-GB",
   };
 
   if (category) base.serviceType = category;
@@ -273,11 +270,11 @@ export function blogSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "@id": `${SITE_URL}/blog`,
+    "@id": `${SITE_URL}/blog/`,
     name: "Blog & Insights | UX Sites Shropshire",
     description:
       "Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK.",
-    url: `${SITE_URL}/blog`,
+    url: `${SITE_URL}/blog/`,
     publisher: {
       "@id": `${SITE_URL}/#organization`,
     },

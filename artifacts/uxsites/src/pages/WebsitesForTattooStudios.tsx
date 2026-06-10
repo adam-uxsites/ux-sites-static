@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForTattooStudios() {
   return (
     <>
-      <SEO title="Websites for Tattoo Studios | UX Sites Shropshire" description="Let your portfolio do the talking. A bold website for tattoo artists and piercing studios to showcase your work and attract more clients across Shropshire." url="https://uxsites.co.uk/websites-for-tattoo-studios" schema={[
-        serviceSchema({ name: "Websites for Tattoo Studios", description: "Professional websites for tattoo artists and piercing studios. Artist portfolios, flash sheets, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tattoo-studios", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tattoo Studios", url: "https://uxsites.co.uk/websites-for-tattoo-studios" }]),
+      <SEO title="Websites for Tattoo Studios | UX Sites Shropshire" description="Let your portfolio do the talking. A bold website for tattoo artists and piercing studios to showcase your work and attract more clients across Shropshire." url="https://uxsites.co.uk/websites-for-tattoo-studios/" schema={[
+        serviceSchema({ name: "Websites for Tattoo Studios", description: "Professional websites for tattoo artists and piercing studios. Artist portfolios, flash sheets, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tattoo-studios/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tattoo Studios", url: "https://uxsites.co.uk/websites-for-tattoo-studios/" }]),
         faqSchema([
           { question: "I'm busy tattooing — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate a consultation booking system so clients can check availability and book a consultation without picking up the phone." },

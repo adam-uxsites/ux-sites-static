@@ -72,16 +72,16 @@ export default function CaseStudies() {
       <SEO
         title="Case Studies | UX Sites Shropshire"
         description="Real projects we've delivered — new builds, managed hosting migrations, and ongoing website support for businesses across the UK."
-        url="https://uxsites.co.uk/case-studies"
+        url="https://uxsites.co.uk/case-studies/"
         schema={[
           webPageSchema({
             name: "Case Studies | UX Sites",
             description: "Real web design and hosting projects delivered for businesses across the UK.",
-            url: "https://uxsites.co.uk/case-studies",
+            url: "https://uxsites.co.uk/case-studies/",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Case Studies", url: "https://uxsites.co.uk/case-studies" },
+            { name: "Case Studies", url: "https://uxsites.co.uk/case-studies/" },
           ]),
         ]}
       />

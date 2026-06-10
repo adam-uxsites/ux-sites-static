@@ -116,12 +116,12 @@ export default function SitemapPage() {
         noindex
         title="Sitemap | UX Sites"
         description="Complete sitemap for UX Sites  -  find all pages, blog posts, and guides about managed WordPress hosting, web design, and website support."
-        url="https://uxsites.co.uk/sitemap"
+        url="https://uxsites.co.uk/sitemap/"
         schema={[
-          webPageSchema({ name: "Sitemap", description: "Complete sitemap for UX Sites  -  find all pages, blog posts, and guides.", url: "https://uxsites.co.uk/sitemap" }),
+          webPageSchema({ name: "Sitemap", description: "Complete sitemap for UX Sites  -  find all pages, blog posts, and guides.", url: "https://uxsites.co.uk/sitemap/" }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Sitemap", url: "https://uxsites.co.uk/sitemap" },
+            { name: "Sitemap", url: "https://uxsites.co.uk/sitemap/" },
           ]),
         ]}
       />

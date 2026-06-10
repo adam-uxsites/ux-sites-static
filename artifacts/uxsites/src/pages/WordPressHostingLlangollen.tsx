@@ -65,13 +65,13 @@ export default function WordPressHostingLlangollen() {
     <>
       <SEO
         title="Managed WordPress Hosting Llangollen | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Llangollen businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Llangollen, the Vale of Llangollen and across Denbighshire."
-        url="https://uxsites.co.uk/wordpress-hosting-llangollen"
+        description="Managed WordPress hosting for Llangollen businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-llangollen/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Llangollen",
             description: "Managed WordPress hosting for Llangollen businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Llangollen and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-llangollen",
+            url: "https://uxsites.co.uk/wordpress-hosting-llangollen/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingLlangollen() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Llangollen", url: "https://uxsites.co.uk/wordpress-hosting-llangollen" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Llangollen", url: "https://uxsites.co.uk/wordpress-hosting-llangollen/" },
           ]),
         ]}
       />

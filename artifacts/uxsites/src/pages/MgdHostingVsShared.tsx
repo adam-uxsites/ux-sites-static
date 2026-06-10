@@ -70,18 +70,18 @@ export default function MgdHostingVsShared() {
       <SEO
         title="Managed WordPress Hosting vs Shared Hosting | UX Sites"
         description="Managed hosting vs shared hosting  -  the real differences in speed, security, support, and total cost. See what you're actually paying for and which is right for your business."
-        url="https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting"
+        url="https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting vs Shared Hosting Comparison",
             description: "Detailed comparison of managed WordPress hosting versus traditional shared hosting, covering performance, security, support, backups, updates, and total cost of ownership.",
-            url: "https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting",
+            url: "https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting/",
             category: "WordPress Hosting",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "Managed vs Shared Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "Managed vs Shared Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting-vs-shared-hosting/" },
           ]),
           faqSchema([
             { question: "Is managed WordPress hosting worth the extra cost compared to shared hosting?", answer: "For most business websites, yes. Shared hosting is cheaper upfront, but when you factor in your time managing updates and security, the cost of backup tools and security plugins, and the risk of a hacked or broken site, managed hosting is frequently the better value overall." },

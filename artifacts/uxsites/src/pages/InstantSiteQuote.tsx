@@ -33,18 +33,18 @@ export default function InstantSiteQuote() {
       <SEO
         title="Instant Website Quote | UX Sites"
         description="Instant website pricing with no callbacks. Get a transparent, fixed quote for your new website, redesign, or managed hosting  -  based on what you actually need."
-        url="https://uxsites.co.uk/instant-site-quote"
+        url="https://uxsites.co.uk/instant-site-quote/"
         noindex
         schema={[
           serviceSchema({
             name: "Website Design & Development",
             description: "Professional website design and development services with transparent pricing. Starter sites from £689.",
-            url: "https://uxsites.co.uk/instant-site-quote",
+            url: "https://uxsites.co.uk/instant-site-quote/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Instant Site Quote", url: "https://uxsites.co.uk/instant-site-quote" },
+            { name: "Instant Site Quote", url: "https://uxsites.co.uk/instant-site-quote/" },
           ]),
         ]}
       />

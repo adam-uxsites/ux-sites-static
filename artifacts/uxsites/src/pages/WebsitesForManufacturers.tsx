@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForManufacturers() {
   return (
     <>
-      <SEO title="Websites for Manufacturing Companies | UX Sites Shropshire" description="Attract B2B clients with a website that showcases your manufacturing capabilities, quality standards, and capacity. Built for factories and manufacturers across Shropshire." url="https://uxsites.co.uk/websites-for-manufacturers" schema={[
-        serviceSchema({ name: "Websites for Manufacturers", description: "Professional websites for manufacturing companies and factories. Capability pages, product lines, quality certifications, B2B enquiry, and local SEO.", url: "https://uxsites.co.uk/websites-for-manufacturers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Manufacturers", url: "https://uxsites.co.uk/websites-for-manufacturers" }]),
+      <SEO title="Websites for Manufacturing Companies | UX Sites Shropshire" description="Attract B2B clients with a website that showcases your manufacturing capabilities, quality standards, and capacity. Built for factories and manufacturers across Shropshire." url="https://uxsites.co.uk/websites-for-manufacturers/" schema={[
+        serviceSchema({ name: "Websites for Manufacturers", description: "Professional websites for manufacturing companies and factories. Capability pages, product lines, quality certifications, B2B enquiry, and local SEO.", url: "https://uxsites.co.uk/websites-for-manufacturers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Manufacturers", url: "https://uxsites.co.uk/websites-for-manufacturers/" }]),
         faqSchema([
           { question: "Our team is busy on the factory floor — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on production." },
           { question: "Can we showcase our manufacturing capabilities and equipment?", answer: "Absolutely. We build dedicated capability pages with equipment lists, materials, processes, and production photos." },

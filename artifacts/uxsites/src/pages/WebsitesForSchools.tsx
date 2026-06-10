@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForSchools() {
   return (
     <>
-      <SEO title="Websites for Schools & Nurseries | UX Sites Shropshire" description="A welcoming website for schools and nurseries that parents trust. Prospectus, admissions, news, and events  -  built for education settings across Shropshire." url="https://uxsites.co.uk/websites-for-schools" schema={[
-        serviceSchema({ name: "Websites for Schools", description: "Professional websites for schools, nurseries, and education settings. Prospectus information, admissions pages, news and events, parent resources, and local SEO.", url: "https://uxsites.co.uk/websites-for-schools", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Schools", url: "https://uxsites.co.uk/websites-for-schools" }]),
+      <SEO title="Websites for Schools & Nurseries | UX Sites Shropshire" description="A welcoming website for schools and nurseries that parents trust. Prospectus, admissions, news, and events  -  built for education settings across Shropshire." url="https://uxsites.co.uk/websites-for-schools/" schema={[
+        serviceSchema({ name: "Websites for Schools", description: "Professional websites for schools, nurseries, and education settings. Prospectus information, admissions pages, news and events, parent resources, and local SEO.", url: "https://uxsites.co.uk/websites-for-schools/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Schools", url: "https://uxsites.co.uk/websites-for-schools/" }]),
         faqSchema([
           { question: "Our school admin team is stretched — who manages the website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your students." },
           { question: "Can parents access prospectus and admissions info online?", answer: "Yes. We build dedicated pages for your prospectus, admissions process, key dates, and virtual tours so parents can find everything they need." },

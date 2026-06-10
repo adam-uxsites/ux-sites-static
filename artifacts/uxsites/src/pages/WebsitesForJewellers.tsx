@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForJewellers() {
   return (
     <>
-      <SEO title="Websites for Jewellers & Jewellery Designers | UX Sites Shropshire" description="A beautiful website for jewellers, makers, and designers. Showcase your craftsmanship, tell your brand story, and attract more customers across Shropshire." url="https://uxsites.co.uk/websites-for-jewellers" schema={[
-        serviceSchema({ name: "Websites for Jewellers", description: "Professional websites for jewellers and jewellery designers. Portfolio galleries, bespoke commission pages, repair services, and local SEO.", url: "https://uxsites.co.uk/websites-for-jewellers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Jewellers", url: "https://uxsites.co.uk/websites-for-jewellers" }]),
+      <SEO title="Websites for Jewellers & Jewellery Designers | UX Sites Shropshire" description="A beautiful website for jewellers, makers, and designers. Showcase your craftsmanship, tell your brand story, and attract more customers across Shropshire." url="https://uxsites.co.uk/websites-for-jewellers/" schema={[
+        serviceSchema({ name: "Websites for Jewellers", description: "Professional websites for jewellers and jewellery designers. Portfolio galleries, bespoke commission pages, repair services, and local SEO.", url: "https://uxsites.co.uk/websites-for-jewellers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Jewellers", url: "https://uxsites.co.uk/websites-for-jewellers/" }]),
         faqSchema([
           { question: "I'm busy making and selling — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your craft." },
           { question: "Can I showcase my jewellery with high-quality images?", answer: "Absolutely. We build dedicated portfolio galleries with high-resolution images so customers can see the detail and quality of your work." },

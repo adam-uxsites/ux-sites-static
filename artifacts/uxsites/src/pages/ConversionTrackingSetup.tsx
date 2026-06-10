@@ -46,17 +46,17 @@ export default function ConversionTrackingSetup() {
       <SEO
         title="Google Ads Conversion Tracking Setup | UX Sites"
         description="Professional conversion tracking setup for Google Ads, GA4, and your website. Form tracking, phone call tracking, and ecommerce — so you know what's actually working."
-        url="https://uxsites.co.uk/conversion-tracking-setup"
+        url="https://uxsites.co.uk/conversion-tracking-setup/"
         schema={[
           serviceSchema({
             name: "Google Ads Conversion Tracking Setup",
             description: "Professional conversion tracking setup for Google Ads and GA4 — form submissions, phone calls, ecommerce purchases, button clicks, and custom events configured and verified.",
-            url: "https://uxsites.co.uk/conversion-tracking-setup",
+            url: "https://uxsites.co.uk/conversion-tracking-setup/",
             category: "Analytics",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Conversion Tracking Setup", url: "https://uxsites.co.uk/conversion-tracking-setup" },
+            { name: "Conversion Tracking Setup", url: "https://uxsites.co.uk/conversion-tracking-setup/" },
           ]),
           faqSchema([
             { question: "How long does conversion tracking setup take?", answer: "Most setups — form tracking, phone call tracking, and basic Google Ads conversion import — take 1-2 days. Ecommerce tracking or complex setups may take longer." },

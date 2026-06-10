@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForCafes() {
   return (
     <>
-      <SEO title="Websites for Cafes & Tearooms | UX Sites Shropshire" description="Bring more customers through your door with a website that showcases your menu, atmosphere, and location. Built for cafes and tearooms across Shropshire." url="https://uxsites.co.uk/websites-for-cafes" schema={[
-        serviceSchema({ name: "Websites for Cafes", description: "Professional websites for cafes, tearooms, and delis. Menu displays, location info, catering services, and local SEO.", url: "https://uxsites.co.uk/websites-for-cafes", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cafes", url: "https://uxsites.co.uk/websites-for-cafes" }]),
+      <SEO title="Websites for Cafes & Tearooms | UX Sites Shropshire" description="Bring more customers through your door with a website that showcases your menu, atmosphere, and location. Built for cafes and tearooms across Shropshire." url="https://uxsites.co.uk/websites-for-cafes/" schema={[
+        serviceSchema({ name: "Websites for Cafes", description: "Professional websites for cafes, tearooms, and delis. Menu displays, location info, catering services, and local SEO.", url: "https://uxsites.co.uk/websites-for-cafes/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cafes", url: "https://uxsites.co.uk/websites-for-cafes/" }]),
         faqSchema([
           { question: "I'm busy running the cafe — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu and prices online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your food, drinks, and prices. You can update it yourself or we can do it for you." },

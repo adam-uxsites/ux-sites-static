@@ -65,13 +65,13 @@ export default function WordPressHostingShrewsbury() {
     <>
       <SEO
         title="Managed WordPress Hosting Shrewsbury | From £50/month | UX Sites"
-        description="Managed WordPress hosting for Shrewsbury businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving businesses across the county town and beyond."
-        url="https://uxsites.co.uk/wordpress-hosting-shrewsbury"
+        description="Managed WordPress hosting for Shrewsbury businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-shrewsbury/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Shrewsbury",
             description: "Managed WordPress hosting for Shrewsbury businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and expert support serving Shrewsbury businesses.",
-            url: "https://uxsites.co.uk/wordpress-hosting-shrewsbury",
+            url: "https://uxsites.co.uk/wordpress-hosting-shrewsbury/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingShrewsbury() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Shrewsbury", url: "https://uxsites.co.uk/wordpress-hosting-shrewsbury" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Shrewsbury", url: "https://uxsites.co.uk/wordpress-hosting-shrewsbury/" },
           ]),
         ]}
       />

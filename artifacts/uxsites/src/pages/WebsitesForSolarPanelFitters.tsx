@@ -54,17 +54,17 @@ export default function WebsitesForSolarPanelFitters() {
       <SEO
         title="Websites for Solar Panel Installers | UX Sites Shropshire"
         description="Showcase your solar installations, demonstrate savings, and build trust with MCS-certified credentials. Get found by homeowners and businesses across Shropshire."
-        url="https://uxsites.co.uk/websites-for-solar-panel-fitters"
+        url="https://uxsites.co.uk/websites-for-solar-panel-fitters/"
         schema={[
           serviceSchema({
             name: "Websites for Solar Panel Installers",
             description: "Professional websites for solar panel and renewable energy installers. MCS accreditation showcases, savings case studies, battery storage promotion, and local SEO.",
-            url: "https://uxsites.co.uk/websites-for-solar-panel-fitters",
+            url: "https://uxsites.co.uk/websites-for-solar-panel-fitters/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Solar Panel Fitters", url: "https://uxsites.co.uk/websites-for-solar-panel-fitters" },
+            { name: "Websites for Solar Panel Fitters", url: "https://uxsites.co.uk/websites-for-solar-panel-fitters/" },
           ]),
           faqSchema([
             {

@@ -15,13 +15,13 @@ export default function WordPressHostingShropshire() {
     <>
       <SEO
         title="Managed WordPress Hosting Shropshire | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Based in St. Martins, Oswestry, serving businesses across Shropshire."
-        url="https://uxsites.co.uk/wordpress-hosting-shropshire"
+        description="Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-shropshire/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Shropshire",
             description: "Managed WordPress hosting for Shropshire businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support.",
-            url: "https://uxsites.co.uk/wordpress-hosting-shropshire",
+            url: "https://uxsites.co.uk/wordpress-hosting-shropshire/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -29,8 +29,8 @@ export default function WordPressHostingShropshire() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Shropshire", url: "https://uxsites.co.uk/wordpress-hosting-shropshire" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Shropshire", url: "https://uxsites.co.uk/wordpress-hosting-shropshire/" },
           ]),
         ]}
       />

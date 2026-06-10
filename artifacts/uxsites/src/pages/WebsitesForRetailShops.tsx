@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForRetailShops() {
   return (
     <>
-      <SEO title="Websites for Independent Retail Shops | UX Sites Shropshire" description="Bring more footfall to your independent shop or boutique. Showcase your products, tell your story, and attract more customers across Shropshire." url="https://uxsites.co.uk/websites-for-retail-shops" schema={[
-        serviceSchema({ name: "Websites for Retail Shops", description: "Professional websites for independent retail shops and boutiques. Product showcases, location info, shop stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-retail-shops", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Retail Shops", url: "https://uxsites.co.uk/websites-for-retail-shops" }]),
+      <SEO title="Websites for Independent Retail Shops | UX Sites Shropshire" description="Bring more footfall to your independent shop or boutique. Showcase your products, tell your story, and attract more customers across Shropshire." url="https://uxsites.co.uk/websites-for-retail-shops/" schema={[
+        serviceSchema({ name: "Websites for Retail Shops", description: "Professional websites for independent retail shops and boutiques. Product showcases, location info, shop stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-retail-shops/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Retail Shops", url: "https://uxsites.co.uk/websites-for-retail-shops/" }]),
         faqSchema([
           { question: "I'm busy running my shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can I showcase my products and update them myself?", answer: "Yes. We build your site so you can easily add and update products, prices, and promotions yourself. Or we can manage it for you." },

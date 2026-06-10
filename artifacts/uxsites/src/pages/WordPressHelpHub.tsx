@@ -84,18 +84,18 @@ export default function WordPressHelpHub() {
     <>
       <SEO
         title="WordPress Help & Guides | UX Sites Shropshire"
-        description="Practical WordPress tutorials and guides to help you maintain, secure, speed up, and troubleshoot your website. Expert advice for UK businesses by Shropshire-based WordPress specialists."
-        url="https://uxsites.co.uk/wordpress-help"
+        description="Practical WordPress guides to maintain, secure, speed up, and troubleshoot your website. Expert advice from Shropshire-based WordPress specialists."
+        url="https://uxsites.co.uk/wordpress-help/"
         schema={[
           serviceSchema({
             name: "WordPress Help & Guides",
             description: "Expert WordPress tutorials and guides covering performance, security, maintenance, troubleshooting, and hack prevention for small business websites.",
-            url: "https://uxsites.co.uk/wordpress-help",
+            url: "https://uxsites.co.uk/wordpress-help/",
             category: "WordPress Guides",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
           ]),
           faqSchema(helpFaqs),
         ]}

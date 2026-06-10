@@ -65,13 +65,13 @@ export default function WordPressHostingGobowen() {
     <>
       <SEO
         title="Managed WordPress Hosting Gobowen | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Gobowen businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Gobowen, Oswestry and across North Shropshire."
-        url="https://uxsites.co.uk/wordpress-hosting-gobowen"
+        description="Managed WordPress hosting for Gobowen businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-gobowen/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Gobowen",
             description: "Managed WordPress hosting for Gobowen businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Gobowen and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-gobowen",
+            url: "https://uxsites.co.uk/wordpress-hosting-gobowen/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingGobowen() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Gobowen", url: "https://uxsites.co.uk/wordpress-hosting-gobowen" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Gobowen", url: "https://uxsites.co.uk/wordpress-hosting-gobowen/" },
           ]),
         ]}
       />

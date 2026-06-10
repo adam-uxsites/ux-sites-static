@@ -71,12 +71,12 @@ export default function WordPressCarePlan() {
       <SEO
         title="WordPress Care Plan from £250/mo | UX Sites Shropshire"
         description="WordPress care plan from £250/month with managed hosting, 4 hours monthly development & priority support — your website actively maintained and improved."
-        url="https://uxsites.co.uk/wordpress-care-plan"
+        url="https://uxsites.co.uk/wordpress-care-plan/"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan",
             description: "Ongoing WordPress care plan with managed hosting, 4 hours monthly development, proactive improvements, priority support, and technical consultation from £250/month.",
-            url: "https://uxsites.co.uk/wordpress-care-plan",
+            url: "https://uxsites.co.uk/wordpress-care-plan/",
             category: "WordPress Care Plan",
             price: "250",
             priceCurrency: "GBP",
@@ -84,7 +84,7 @@ export default function WordPressCarePlan() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Care Plan", url: "https://uxsites.co.uk/wordpress-care-plan" },
+            { name: "WordPress Care Plan", url: "https://uxsites.co.uk/wordpress-care-plan/" },
           ]),
           faqSchema([
             { question: "What is a WordPress care plan?", answer: "A WordPress care plan is a monthly retainer that bundles managed hosting with ongoing development time, proactive improvements, priority support, and technical consultation. It's designed for businesses that want a long-term partner proactively looking after their website." },

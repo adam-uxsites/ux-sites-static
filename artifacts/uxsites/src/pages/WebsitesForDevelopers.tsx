@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForDevelopers() {
   return (
     <>
-      <SEO title="Websites for Property Developers | UX Sites Shropshire" description="Sell your developments faster with a website built for property developers. Showcase completed projects, attract buyers and investors from Shropshire and beyond." url="https://uxsites.co.uk/websites-for-developers" schema={[
-        serviceSchema({ name: "Websites for Property Developers", description: "Professional websites for property developers. Development portfolios, off-plan sales pages, CGI renders, floor plans, and local SEO for developers of all scales.", url: "https://uxsites.co.uk/websites-for-developers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Developers", url: "https://uxsites.co.uk/websites-for-developers" }]),
+      <SEO title="Websites for Property Developers | UX Sites Shropshire" description="Sell your developments faster with a website built for property developers. Showcase completed projects, attract buyers and investors from Shropshire and beyond." url="https://uxsites.co.uk/websites-for-developers/" schema={[
+        serviceSchema({ name: "Websites for Property Developers", description: "Professional websites for property developers. Development portfolios, off-plan sales pages, CGI renders, floor plans, and local SEO for developers of all scales.", url: "https://uxsites.co.uk/websites-for-developers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Developers", url: "https://uxsites.co.uk/websites-for-developers/" }]),
         faqSchema([
           { question: "I'm a small developer doing one project at a time — is a website worth it?", answer: "Absolutely. A professional site showcasing your completed projects helps you secure your next plot of land, attract buyers before you've broken ground, and look established when negotiating with investors." },
           { question: "We're building a whole housing estate — can the site handle multiple developments?", answer: "Yes. We build sites that scale from a single project to multiple concurrent developments, with individual pages per site featuring floor plans, CGI renders, specs, and contact details." },

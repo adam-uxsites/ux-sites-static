@@ -11,10 +11,10 @@ interface SEOProps {
 }
 
 const MAX_TITLE_LENGTH = 55;
+const MAX_DESC_LENGTH = 158;
 
 function truncate(str: string, max: number): string {
   if (str.length <= max) return str;
-  // Try to cut at a natural boundary (space, punctuation)
   const truncated = str.slice(0, max);
   const lastSpace = truncated.lastIndexOf(" ");
   const breakAt = lastSpace > max * 0.8 ? lastSpace : max;
@@ -30,6 +30,7 @@ export function SEO({
   noindex = false,
 }: SEOProps) {
   const truncatedTitle = truncate(title, MAX_TITLE_LENGTH);
+  const truncatedDesc = truncate(description, MAX_DESC_LENGTH);
   const schemas = schema
     ? Array.isArray(schema) ? schema : [schema]
     : [];
@@ -37,16 +38,16 @@ export function SEO({
   return (
     <Helmet>
       <title>{truncatedTitle}</title>
-      <meta name="description" content={description} />
+      <meta name="description" content={truncatedDesc} />
       <meta property="og:title" content={truncatedTitle} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={truncatedDesc} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="UX Sites" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={truncatedTitle} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:description" content={truncatedDesc} />
       <meta name="twitter:image" content={ogImage} />
       {noindex && <meta name="robots" content="noindex, nofollow" />}
       <link rel="canonical" href={url} />

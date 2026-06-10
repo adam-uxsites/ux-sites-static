@@ -16,18 +16,18 @@ export default function WordPressSecurity() {
       <SEO
         title="WordPress Security Monitoring & Protection | UX Sites"
         description="Keep your WordPress site safe with active security monitoring, malware protection, and vulnerability management. Continuous protection for UK businesses by security-aware experts."
-        url="https://uxsites.co.uk/wordpress-security"
+        url="https://uxsites.co.uk/wordpress-security/"
         schema={[
           serviceSchema({
             name: "WordPress Security Monitoring & Protection",
             description: "Active WordPress security monitoring including malware scanning, vulnerability patching, firewall configuration, login protection, and SSL management. Included in all managed hosting plans.",
-            url: "https://uxsites.co.uk/wordpress-security",
+            url: "https://uxsites.co.uk/wordpress-security/",
             category: "WordPress Security",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Security", url: "https://uxsites.co.uk/wordpress-security" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Security", url: "https://uxsites.co.uk/wordpress-security/" },
           ]),
         ]}
       />

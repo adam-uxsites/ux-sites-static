@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForLocalGroups() {
   return (
     <>
-      <SEO title="Websites for Community Groups & Clubs | UX Sites Shropshire" description="Attract new members and share your activities with a simple, effective website. Built for community groups, clubs, and societies across Shropshire." url="https://uxsites.co.uk/websites-for-local-groups" schema={[
-        serviceSchema({ name: "Websites for Local Groups", description: "Professional websites for community groups, clubs, and societies. Membership info, events calendars, photo galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-local-groups", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Local Groups", url: "https://uxsites.co.uk/websites-for-local-groups" }]),
+      <SEO title="Websites for Community Groups & Clubs | UX Sites Shropshire" description="Attract new members and share your activities with a simple, effective website. Built for community groups, clubs, and societies across Shropshire." url="https://uxsites.co.uk/websites-for-local-groups/" schema={[
+        serviceSchema({ name: "Websites for Local Groups", description: "Professional websites for community groups, clubs, and societies. Membership info, events calendars, photo galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-local-groups/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Local Groups", url: "https://uxsites.co.uk/websites-for-local-groups/" }]),
         faqSchema([
           { question: "Our committee is all volunteer — who manages the website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your group." },
           { question: "Can we add events and photo galleries ourselves?", answer: "Yes. We build easy-to-use content management so you can add events, upload photos, and update information without technical skills." },

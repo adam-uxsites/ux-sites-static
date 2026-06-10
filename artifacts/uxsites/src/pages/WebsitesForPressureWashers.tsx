@@ -54,17 +54,17 @@ export default function WebsitesForPressureWashers() {
       <SEO
         title="Websites for Pressure Washing Businesses | UX Sites Shropshire"
         description="Before and after photos that sell your service. A website built for pressure washing businesses to showcase transformations and win more local work across Shropshire."
-        url="https://uxsites.co.uk/websites-for-pressure-washers"
+        url="https://uxsites.co.uk/websites-for-pressure-washers/"
         schema={[
           serviceSchema({
             name: "Websites for Pressure Washing Businesses",
             description: "Professional websites for pressure washers and cleaning contractors. Before-and-after galleries, domestic and commercial services, local SEO, and mobile-first design.",
-            url: "https://uxsites.co.uk/websites-for-pressure-washers",
+            url: "https://uxsites.co.uk/websites-for-pressure-washers/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Pressure Washers", url: "https://uxsites.co.uk/websites-for-pressure-washers" },
+            { name: "Websites for Pressure Washers", url: "https://uxsites.co.uk/websites-for-pressure-washers/" },
           ]),
           faqSchema([
             {

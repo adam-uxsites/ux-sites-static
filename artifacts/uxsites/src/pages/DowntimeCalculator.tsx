@@ -38,16 +38,16 @@ export default function DowntimeCalculator() {
       <SEO
         title="Downtime & Hack Cost Calculator | UX Sites"
         description="How much is website downtime really costing your business? Use our tool to calculate the financial impact of outages and security breaches  -  then compare with managed hosting."
-        url="https://uxsites.co.uk/downtime-hack-calculator"
+        url="https://uxsites.co.uk/downtime-hack-calculator/"
         schema={[
           serviceSchema({
             name: "Website Downtime Cost Calculator",
             description: "Interactive calculator that shows the potential financial impact of website downtime and security breaches, compared with managed hosting costs.",
-            url: "https://uxsites.co.uk/downtime-hack-calculator",
+            url: "https://uxsites.co.uk/downtime-hack-calculator/",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Downtime & Hack Cost Calculator", url: "https://uxsites.co.uk/downtime-hack-calculator" },
+            { name: "Downtime & Hack Cost Calculator", url: "https://uxsites.co.uk/downtime-hack-calculator/" },
           ]),
         ]}
       />

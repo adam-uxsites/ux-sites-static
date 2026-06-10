@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForLawyers() {
   return (
     <>
-      <SEO title="Websites for Solicitors & Law Firms | UX Sites Shropshire" description="Build trust and generate qualified legal enquiries with a professional website designed for solicitors and law firms. Showcase your practice areas across Shropshire." url="https://uxsites.co.uk/websites-for-lawyers" schema={[
-        serviceSchema({ name: "Websites for Solicitors & Law Firms", description: "Professional websites for legal practices. Practice area pages, trust signals, local SEO, and enquiry generation for solicitors and law firms.", url: "https://uxsites.co.uk/websites-for-lawyers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Lawyers", url: "https://uxsites.co.uk/websites-for-lawyers" }]),
+      <SEO title="Websites for Solicitors & Law Firms | UX Sites Shropshire" description="Build trust and generate qualified legal enquiries with a professional website designed for solicitors and law firms. Showcase your practice areas across Shropshire." url="https://uxsites.co.uk/websites-for-lawyers/" schema={[
+        serviceSchema({ name: "Websites for Solicitors & Law Firms", description: "Professional websites for legal practices. Practice area pages, trust signals, local SEO, and enquiry generation for solicitors and law firms.", url: "https://uxsites.co.uk/websites-for-lawyers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Lawyers", url: "https://uxsites.co.uk/websites-for-lawyers/" }]),
         faqSchema([
           { question: "I'm a busy solicitor — who manages my website day to day?", answer: "We do. Our managed hosting service (£50/month) covers all updates, security, backups, and performance. Your site stays professional and secure while you focus on your clients." },
           { question: "My current website looks dated and doesn't generate enquiries. Can you help?", answer: "Yes. We can refresh your site with modern design, clearer practice area pages, and improved local SEO to start generating enquiries again." },

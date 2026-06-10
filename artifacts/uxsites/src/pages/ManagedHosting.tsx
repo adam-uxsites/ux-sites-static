@@ -1,4 +1,5 @@
 import { SEO } from "@/components/seo/SEO";
+import { EmailText } from "@/components/ui/EmailLink";
 import { HeroBlock } from "@/components/blocks/HeroBlock";
 import { PricingBlock } from "@/components/blocks/PricingBlock";
 import { FAQBlock } from "@/components/blocks/FAQBlock";
@@ -80,12 +81,12 @@ export default function ManagedHosting() {
       <SEO
         title="Managed WordPress Hosting from £50/mo | UX Sites Shropshire"
         description="Managed WordPress hosting from £50/month with daily backups, 24/7 security, performance optimisation & expert support — 99.9% uptime. No tech headaches."
-        url="https://uxsites.co.uk/managed-wordpress-hosting"
+        url="https://uxsites.co.uk/managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting",
             description: "Fully managed WordPress hosting from £50/month. Daily automated backups, security monitoring, plugin and core updates, performance optimisation, SSL certificate, and expert support  -  all included.",
-            url: "https://uxsites.co.uk/managed-wordpress-hosting",
+            url: "https://uxsites.co.uk/managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -95,7 +96,7 @@ export default function ManagedHosting() {
           personSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
           ]),
           faqSchema([
             { question: "What exactly is managed WordPress hosting?", answer: "Standard hosting gives you server space and leaves everything else to you  -  updates, security, backups, performance. Managed hosting means we take care of all of that. Your site is monitored, maintained, and kept secure continuously. You don't need to log into WordPress to run updates or worry about whether your backups are working." },
@@ -195,7 +196,7 @@ export default function ManagedHosting() {
                     <div className="w-2 h-2 rounded-full bg-red-500"></div>
                     <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
                     <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                    <span className="text-sm text-muted-foreground ml-2">Email to hello@uxsites.co.uk</span>
+                    <span className="text-sm text-muted-foreground ml-2">Email to <EmailText email="hello@uxsites.co.uk" className="" /></span>
                   </div>
                   <div className="space-y-4 text-sm">
                     <div>

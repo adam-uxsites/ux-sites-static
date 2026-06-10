@@ -35,12 +35,12 @@ export default function CaseStudyPage() {
       <SEO
         title={`${study.client} Case Study | UX Sites Shropshire`}
         description={study.tagline}
-        url={`https://uxsites.co.uk/case-studies/${study.slug}`}
+        url={`https://uxsites.co.uk/case-studies/${study.slug}/`}
         schema={[
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Case Studies", url: "https://uxsites.co.uk/case-studies" },
-            { name: study.client, url: `https://uxsites.co.uk/case-studies/${study.slug}` },
+            { name: "Case Studies", url: "https://uxsites.co.uk/case-studies/" },
+            { name: study.client, url: `https://uxsites.co.uk/case-studies/${study.slug}/` },
           ]),
         ]}
       />

@@ -48,18 +48,18 @@ export default function WebsitesForLegalConsultants() {
       <SEO
         title="Websites for Legal Consultants | UX Sites Shropshire"
         description="Legal consultant websites built for clarity, credibility, and client acquisition. Specialist pages that showcase your expertise and attract qualified enquiries."
-        url="https://uxsites.co.uk/websites-for-legal-consultants"
+        url="https://uxsites.co.uk/websites-for-legal-consultants/"
         schema={[
           serviceSchema({
             name: "Websites for Legal Consultants",
             description: "Legal consultant websites built for clarity and trust. Specialist pages for legal consultants and professional services.",
-            url: "https://uxsites.co.uk/websites-for-legal-consultants",
+            url: "https://uxsites.co.uk/websites-for-legal-consultants/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Consultants", url: "https://uxsites.co.uk/websites-for-consultants" },
-            { name: "Legal Consultant Websites", url: "https://uxsites.co.uk/websites-for-legal-consultants" },
+            { name: "Websites for Consultants", url: "https://uxsites.co.uk/websites-for-consultants/" },
+            { name: "Legal Consultant Websites", url: "https://uxsites.co.uk/websites-for-legal-consultants/" },
           ]),
           faqSchema([
             {

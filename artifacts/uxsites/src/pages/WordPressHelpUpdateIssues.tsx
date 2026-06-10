@@ -107,18 +107,18 @@ export default function WordPressHelpUpdateIssues() {
       <SEO
         title="WordPress Update Issues  -  Recovery Guide | UX Sites"
         description="Emergency recovery guide for when WordPress updates break your site. Step-by-step rollback, backup restoration, and conflict resolution  -  get your site back online fast."
-        url="https://uxsites.co.uk/wordpress-help/wordpress-update-issues"
+        url="https://uxsites.co.uk/wordpress-help/wordpress-update-issues/"
         schema={[
           serviceSchema({
             name: "WordPress Update Issues  -  Recovery Guide",
             description: "Emergency recovery guide for when WordPress updates break your site. Covers rollback procedures, backup restoration, manual fixes, and safe update practices.",
-            url: "https://uxsites.co.uk/wordpress-help/wordpress-update-issues",
+            url: "https://uxsites.co.uk/wordpress-help/wordpress-update-issues/",
             category: "WordPress Troubleshooting Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
-            { name: "WordPress Update Issues", url: "https://uxsites.co.uk/wordpress-help/wordpress-update-issues" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
+            { name: "WordPress Update Issues", url: "https://uxsites.co.uk/wordpress-help/wordpress-update-issues/" },
           ]),
           faqSchema(updateFaqs),
         ]}

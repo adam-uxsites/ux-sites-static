@@ -27,18 +27,18 @@ export default function WordPressSupportShropshire() {
       <SEO
         title="WordPress Support Shropshire | Expert Help & Maintenance | UX Sites"
         description="Professional WordPress support for Shropshire businesses — updates, security, fixes, and ongoing care from a local expert. Based near Oswestry, serving the whole county."
-        url="https://uxsites.co.uk/wordpress-support-shropshire"
+        url="https://uxsites.co.uk/wordpress-support-shropshire/"
         schema={[
           serviceSchema({
             name: "WordPress Support Shropshire",
             description: "Expert WordPress support for Shropshire businesses — updates, security monitoring, bug fixes, performance optimisation, and ongoing care from a local WordPress specialist.",
-            url: "https://uxsites.co.uk/wordpress-support-shropshire",
+            url: "https://uxsites.co.uk/wordpress-support-shropshire/",
             category: "WordPress Support",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
-            { name: "WordPress Support Shropshire", url: "https://uxsites.co.uk/wordpress-support-shropshire" },
+            { name: "Website Support", url: "https://uxsites.co.uk/website-support/" },
+            { name: "WordPress Support Shropshire", url: "https://uxsites.co.uk/wordpress-support-shropshire/" },
           ]),
           faqSchema([
             { question: "Do you support WordPress sites that weren't built by you?", answer: "Yes. We review existing sites before taking them on to identify any issues and ensure we can support them properly. Most sites transfer smoothly regardless of who built them." },

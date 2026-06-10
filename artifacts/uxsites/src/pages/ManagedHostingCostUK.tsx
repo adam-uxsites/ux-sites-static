@@ -52,13 +52,13 @@ export default function ManagedHostingCostUK() {
     <>
       <SEO
         title="Managed WordPress Hosting Cost UK 2026 | UX Sites"
-        description="What does managed WordPress hosting cost in the UK in 2026? Transparent pricing breakdown, what's included at each level, and why value beats cheap hosting every time."
-        url="https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026"
+        description="What does managed WordPress hosting cost in the UK? Transparent pricing breakdown, what's included, and why value beats cheap hosting every time."
+        url="https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Cost UK",
             description: "See what managed WordPress hosting costs in the UK. Compare pricing, what's included, and why the real value is in time saved and issues avoided.",
-            url: "https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026",
+            url: "https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -66,8 +66,8 @@ export default function ManagedHostingCostUK() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "Managed WordPress Hosting Cost UK", url: "https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "Managed WordPress Hosting Cost UK", url: "https://uxsites.co.uk/managed-wordpress-hosting-cost-uk-2026/" },
           ]),
           faqSchema([
             { question: "How much does managed WordPress hosting cost in the UK?", answer: "Managed WordPress hosting in the UK typically ranges from £30-£150 per month depending on what's included. Our plans start at £50/month for a comprehensive managed service." },

@@ -64,13 +64,13 @@ export default function WordPressHostingRuabon() {
     <>
       <SEO
         title="Managed WordPress Hosting Ruabon | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Ruabon businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Ruabon, Wrexham, Chirk and across the Ceiriog Valley."
-        url="https://uxsites.co.uk/wordpress-hosting-ruabon"
+        description="Managed WordPress hosting for Ruabon businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-ruabon/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Ruabon",
             description: "Managed WordPress hosting for Ruabon businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ruabon and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-ruabon",
+            url: "https://uxsites.co.uk/wordpress-hosting-ruabon/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -78,8 +78,8 @@ export default function WordPressHostingRuabon() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Ruabon", url: "https://uxsites.co.uk/wordpress-hosting-ruabon" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Ruabon", url: "https://uxsites.co.uk/wordpress-hosting-ruabon/" },
           ]),
         ]}
       />

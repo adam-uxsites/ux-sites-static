@@ -38,17 +38,17 @@ export default function WebsiteSupport() {
       <SEO
         title="WordPress Care & Support from £50/mo | UX Sites Shropshire"
         description="Keep your WordPress site secure, updated & running smoothly — updates, backups, security monitoring & expert support from £50/month."
-        url="https://uxsites.co.uk/website-support"
+        url="https://uxsites.co.uk/website-support/"
         schema={[
           serviceSchema({
             name: "WordPress Website Support & Care Plans",
             description: "Professional WordPress website support covering regular plugin and core updates, daily backups, security monitoring, uptime monitoring, performance checks, and expert email support.",
-            url: "https://uxsites.co.uk/website-support",
+            url: "https://uxsites.co.uk/website-support/",
             category: "WordPress Website Support",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
+            { name: "Website Support", url: "https://uxsites.co.uk/website-support/" },
           ]),
           faqSchema([
             {

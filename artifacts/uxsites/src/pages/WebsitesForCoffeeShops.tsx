@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForCoffeeShops() {
   return (
     <>
-      <SEO title="Websites for Coffee Shops | UX Sites Shropshire" description="Showcase your coffee, your atmosphere, and your story. A website built for independent coffee shops and artisan cafes across Shropshire to attract more customers." url="https://uxsites.co.uk/websites-for-coffee-shops" schema={[
-        serviceSchema({ name: "Websites for Coffee Shops", description: "Professional websites for coffee shops and artisan cafes. Menu displays, atmosphere galleries, location info, and local SEO.", url: "https://uxsites.co.uk/websites-for-coffee-shops", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Coffee Shops", url: "https://uxsites.co.uk/websites-for-coffee-shops" }]),
+      <SEO title="Websites for Coffee Shops | UX Sites Shropshire" description="Showcase your coffee, your atmosphere, and your story. A website built for independent coffee shops and artisan cafes across Shropshire to attract more customers." url="https://uxsites.co.uk/websites-for-coffee-shops/" schema={[
+        serviceSchema({ name: "Websites for Coffee Shops", description: "Professional websites for coffee shops and artisan cafes. Menu displays, atmosphere galleries, location info, and local SEO.", url: "https://uxsites.co.uk/websites-for-coffee-shops/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Coffee Shops", url: "https://uxsites.co.uk/websites-for-coffee-shops/" }]),
         faqSchema([
           { question: "I'm busy serving customers — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers see my menu online?", answer: "Yes. We build a clear, mobile-friendly menu page that shows your drinks, food, and prices. You can update it yourself or we can do it for you." },

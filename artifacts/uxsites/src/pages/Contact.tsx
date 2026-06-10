@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { SEO } from "@/components/seo/SEO";
+import { EmailLink } from "@/components/ui/EmailLink";
 import { motion } from "framer-motion";
 import { useLocation } from "wouter";
 import { getConsent, GTAG_ID } from "@/lib/analytics";
@@ -87,14 +88,14 @@ export default function Contact() {
       <SEO
         title="Start Your Website Project | UX Sites Shropshire"
         description="Tell us about your website project. We'll respond within 24 hours with a tailored plan and clear pricing — no obligation, no hard sell."
-        url="https://uxsites.co.uk/contact"
+        url="https://uxsites.co.uk/contact/"
         schema={[
           {
             "@context": "https://schema.org",
             "@type": "ContactPage",
             name: "Start Your Project | UX Sites",
             description: "Get in touch with UX Sites to discuss managed WordPress hosting, web design, or website support for your business.",
-            url: "https://uxsites.co.uk/contact",
+            url: "https://uxsites.co.uk/contact/",
             inLanguage: "en-GB",
           },
           {
@@ -329,9 +330,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <div className="text-[15px] font-medium">Email</div>
-                        <a href="mailto:enquiries@uxsites.co.uk" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors">
-                          enquiries@uxsites.co.uk
-                        </a>
+                        <EmailLink email="enquiries@uxsites.co.uk" className="text-[15px] text-muted-foreground hover:text-foreground transition-colors" />
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
@@ -435,9 +434,7 @@ export default function Contact() {
                   <Mail size={24} className="text-primary" />
                 </div>
                 <h3 className="font-bold mb-2">Email Us</h3>
-                <a href="mailto:enquiries@uxsites.co.uk" className="text-muted-foreground hover:text-foreground transition-colors">
-                  enquiries@uxsites.co.uk
-                </a>
+                <EmailLink email="enquiries@uxsites.co.uk" className="text-muted-foreground hover:text-foreground transition-colors" />
                 <p className="text-sm text-muted-foreground mt-2">
                   We'll respond within 24 hours
                 </p>

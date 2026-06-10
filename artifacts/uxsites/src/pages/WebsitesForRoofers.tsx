@@ -54,17 +54,17 @@ export default function WebsitesForRoofers() {
       <SEO
         title="Websites for Roofing Contractors | UX Sites Shropshire"
         description="Win more roofing contracts with a website that shows your best work. Build trust with before/after photos, showcase certifications, and generate local leads across Shropshire."
-        url="https://uxsites.co.uk/websites-for-roofers"
+        url="https://uxsites.co.uk/websites-for-roofers/"
         schema={[
           serviceSchema({
             name: "Websites for Roofing Contractors",
             description: "Professional websites for roofing contractors. Project galleries, trust signals, emergency contact, local SEO, and mobile-first design to help you win more work.",
-            url: "https://uxsites.co.uk/websites-for-roofers",
+            url: "https://uxsites.co.uk/websites-for-roofers/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Roofers", url: "https://uxsites.co.uk/websites-for-roofers" },
+            { name: "Websites for Roofers", url: "https://uxsites.co.uk/websites-for-roofers/" },
           ]),
           faqSchema([
             {

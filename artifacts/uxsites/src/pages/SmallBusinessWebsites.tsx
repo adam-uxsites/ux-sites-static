@@ -16,18 +16,18 @@ export default function SmallBusinessWebsites() {
       <SEO
         title="Websites for Small Businesses | UX Sites Shropshire"
         description="Professional small business websites that actually generate enquiries — custom WordPress design, mobile-first, SEO-ready. From a Google UX Certified designer based in Shropshire."
-        url="https://uxsites.co.uk/small-business-websites"
+        url="https://uxsites.co.uk/small-business-websites/"
         schema={[
           serviceSchema({
             name: "Websites for Small Businesses",
             description: "Custom WordPress websites for small and medium businesses. Clear messaging, conversion-focused design, mobile-first, SEO foundations, and training included. Based in Shropshire.",
-            url: "https://uxsites.co.uk/small-business-websites",
+            url: "https://uxsites.co.uk/small-business-websites/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
-            { name: "Small Business Websites", url: "https://uxsites.co.uk/small-business-websites" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website/" },
+            { name: "Small Business Websites", url: "https://uxsites.co.uk/small-business-websites/" },
           ]),
         ]}
       />

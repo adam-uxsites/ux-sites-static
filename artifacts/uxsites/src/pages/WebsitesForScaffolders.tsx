@@ -54,17 +54,17 @@ export default function WebsitesForScaffolders() {
       <SEO
         title="Websites for Scaffolding Companies | UX Sites Shropshire"
         description="Win more scaffolding contracts with a website that showcases your credentials, capabilities, and coverage areas. Built for contractors serving Shropshire and the Welsh borders."
-        url="https://uxsites.co.uk/websites-for-scaffolders"
+        url="https://uxsites.co.uk/websites-for-scaffolders/"
         schema={[
           serviceSchema({
             name: "Websites for Scaffolding Companies",
             description: "Professional websites for scaffolding contractors. Credential-focused design, project portfolios, service area SEO, and quick-contact features for trade customers.",
-            url: "https://uxsites.co.uk/websites-for-scaffolders",
+            url: "https://uxsites.co.uk/websites-for-scaffolders/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Scaffolders", url: "https://uxsites.co.uk/websites-for-scaffolders" },
+            { name: "Websites for Scaffolders", url: "https://uxsites.co.uk/websites-for-scaffolders/" },
           ]),
           faqSchema([
             {

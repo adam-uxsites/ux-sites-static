@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForButchers() {
   return (
     <>
-      <SEO title="Websites for Butchers & Farm Shops | UX Sites Shropshire" description="Showcase your quality produce and attract more customers. A website built for butchers, farm shops, and meat retailers across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-butchers" schema={[
-        serviceSchema({ name: "Websites for Butchers", description: "Professional websites for butchers, farm shops, and meat retailers. Product showcases, online ordering, sourcing stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-butchers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Butchers", url: "https://uxsites.co.uk/websites-for-butchers" }]),
+      <SEO title="Websites for Butchers & Farm Shops | UX Sites Shropshire" description="Showcase your quality produce and attract more customers. A website built for butchers, farm shops, and meat retailers across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-butchers/" schema={[
+        serviceSchema({ name: "Websites for Butchers", description: "Professional websites for butchers, farm shops, and meat retailers. Product showcases, online ordering, sourcing stories, and local SEO.", url: "https://uxsites.co.uk/websites-for-butchers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Butchers", url: "https://uxsites.co.uk/websites-for-butchers/" }]),
         faqSchema([
           { question: "I'm busy in the shop — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your customers." },
           { question: "Can customers order meat for delivery online?", answer: "Yes. We can add an online ordering system or a simple enquiry form so customers can place orders for collection or delivery." },

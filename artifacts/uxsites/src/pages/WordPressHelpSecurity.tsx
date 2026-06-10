@@ -97,19 +97,19 @@ export default function WordPressHelpSecurity() {
     <>
       <SEO
         title="How to Secure a WordPress Website | UX Sites"
-        description="Essential WordPress security guide  -  strong passwords, regular updates, security plugins, and more. Practical steps to protect your site from hackers without needing to be a tech expert."
-        url="https://uxsites.co.uk/wordpress-help/wordpress-security"
+        description="Essential WordPress security guide covering strong passwords, regular updates, and security plugins. Practical steps to protect your site from hackers."
+        url="https://uxsites.co.uk/wordpress-help/wordpress-security/"
         schema={[
           serviceSchema({
             name: "How to Secure a WordPress Website",
             description: "Essential WordPress security guide covering updates, strong passwords, security plugins, backups, and advanced measures to protect your site from hackers.",
-            url: "https://uxsites.co.uk/wordpress-help/wordpress-security",
+            url: "https://uxsites.co.uk/wordpress-help/wordpress-security/",
             category: "WordPress Security Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
-            { name: "How to Secure a WordPress Website", url: "https://uxsites.co.uk/wordpress-help/wordpress-security" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
+            { name: "How to Secure a WordPress Website", url: "https://uxsites.co.uk/wordpress-help/wordpress-security/" },
           ]),
           faqSchema(securityFaqs),
         ]}

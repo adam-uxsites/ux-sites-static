@@ -65,13 +65,13 @@ export default function WordPressHostingChirk() {
     <>
       <SEO
         title="Managed WordPress Hosting Chirk | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Chirk businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Chirk, Oswestry, Ruabon and across the Welsh border."
-        url="https://uxsites.co.uk/wordpress-hosting-chirk"
+        description="Managed WordPress hosting for Chirk businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-chirk/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Chirk",
             description: "Managed WordPress hosting for Chirk businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Chirk and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-chirk",
+            url: "https://uxsites.co.uk/wordpress-hosting-chirk/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingChirk() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Chirk", url: "https://uxsites.co.uk/wordpress-hosting-chirk" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Chirk", url: "https://uxsites.co.uk/wordpress-hosting-chirk/" },
           ]),
         ]}
       />

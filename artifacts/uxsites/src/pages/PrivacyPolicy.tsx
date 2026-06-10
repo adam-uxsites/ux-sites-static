@@ -10,12 +10,12 @@ export default function PrivacyPolicy() {
         noindex
         title="Privacy Policy | UX Sites"
         description="UX Sites privacy policy explains how we collect, use, and protect your personal information when you use our website."
-        url="https://uxsites.co.uk/privacy-policy"
+        url="https://uxsites.co.uk/privacy-policy/"
         schema={[
-          webPageSchema({ name: "Privacy Policy", description: "UX Sites privacy policy explaining how we collect, use, and protect your personal data.", url: "https://uxsites.co.uk/privacy-policy" }),
+          webPageSchema({ name: "Privacy Policy", description: "UX Sites privacy policy explaining how we collect, use, and protect your personal data.", url: "https://uxsites.co.uk/privacy-policy/" }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Privacy Policy", url: "https://uxsites.co.uk/privacy-policy" },
+            { name: "Privacy Policy", url: "https://uxsites.co.uk/privacy-policy/" },
           ]),
         ]}
       />

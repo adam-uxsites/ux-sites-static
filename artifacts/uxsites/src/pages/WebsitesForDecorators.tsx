@@ -54,17 +54,17 @@ export default function WebsitesForDecorators() {
       <SEO
         title="Websites for Painters & Decorators | UX Sites Shropshire"
         description="A stunning portfolio website that sells your finish before you pick up a brush. Showcase your best work and attract more decorating clients across Shropshire."
-        url="https://uxsites.co.uk/websites-for-decorators"
+        url="https://uxsites.co.uk/websites-for-decorators/"
         schema={[
           serviceSchema({
             name: "Websites for Painters & Decorators",
             description: "Professional websites for painters and decorators. Portfolio galleries, before-and-after showcases, local SEO, and mobile-first design to help you win more work.",
-            url: "https://uxsites.co.uk/websites-for-decorators",
+            url: "https://uxsites.co.uk/websites-for-decorators/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Decorators", url: "https://uxsites.co.uk/websites-for-decorators" },
+            { name: "Websites for Decorators", url: "https://uxsites.co.uk/websites-for-decorators/" },
           ]),
           faqSchema([
             {

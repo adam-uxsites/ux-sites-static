@@ -22,19 +22,19 @@ export default function WebDesignOswestry() {
     <>
       <SEO
         title="Web Design Oswestry | UX Sites — WordPress Websites for Local Businesses"
-        description="Professional web design for Oswestry businesses — custom WordPress websites from a Google UX Certified designer based near Oswestry. Serving Oswestry, St. Martins, Gobowen and across North Shropshire."
-        url="https://uxsites.co.uk/web-design-oswestry"
+        description="Professional web design for Oswestry businesses from a Google UX Certified designer. Custom WordPress websites serving North Shropshire."
+        url="https://uxsites.co.uk/web-design-oswestry/"
         schema={[
           serviceSchema({
             name: "Web Design Oswestry",
             description: "Custom WordPress web design for Oswestry businesses. Based near Oswestry, serving St. Martins, Gobowen, Chirk and beyond. Google UX Certified with 10+ years experience.",
-            url: "https://uxsites.co.uk/web-design-oswestry",
+            url: "https://uxsites.co.uk/web-design-oswestry/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
-            { name: "Web Design Oswestry", url: "https://uxsites.co.uk/web-design-oswestry" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website/" },
+            { name: "Web Design Oswestry", url: "https://uxsites.co.uk/web-design-oswestry/" },
           ]),
           faqSchema([
             { question: "Do you only design websites for Oswestry businesses?", answer: "We're based near Oswestry but work with businesses across the UK. Being local is a bonus for face-to-face meetings, but most projects are handled remotely." },

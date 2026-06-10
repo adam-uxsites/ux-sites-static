@@ -64,13 +64,13 @@ export default function WordPressHostingWelshpool() {
     <>
       <SEO
         title="Managed WordPress Hosting Welshpool | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Welshpool businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Welshpool, Powys and across mid-Wales."
-        url="https://uxsites.co.uk/wordpress-hosting-welshpool"
+        description="Managed WordPress hosting for Welshpool businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-welshpool/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Welshpool",
             description: "Managed WordPress hosting for Welshpool businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Welshpool and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-welshpool",
+            url: "https://uxsites.co.uk/wordpress-hosting-welshpool/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -78,8 +78,8 @@ export default function WordPressHostingWelshpool() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Welshpool", url: "https://uxsites.co.uk/wordpress-hosting-welshpool" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Welshpool", url: "https://uxsites.co.uk/wordpress-hosting-welshpool/" },
           ]),
         ]}
       />

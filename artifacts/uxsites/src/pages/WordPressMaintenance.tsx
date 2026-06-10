@@ -28,12 +28,12 @@ export default function WordPressMaintenance() {
       <SEO
         title="WordPress Maintenance from £50/mo | UX Sites Shropshire"
         description="Monthly WordPress maintenance with updates, security scans, daily backups, uptime monitoring & expert support — from £50/month. Stress-free site care."
-        url="https://uxsites.co.uk/wordpress-maintenance"
+        url="https://uxsites.co.uk/wordpress-maintenance/"
         schema={[
           serviceSchema({
             name: "WordPress Maintenance Service",
             description: "Monthly WordPress maintenance covering plugin and core updates, security scanning, daily automated backups, uptime monitoring, and expert email support. From £50/month.",
-            url: "https://uxsites.co.uk/wordpress-maintenance",
+            url: "https://uxsites.co.uk/wordpress-maintenance/",
             category: "WordPress Maintenance",
             price: "50",
             priceCurrency: "GBP",
@@ -41,8 +41,8 @@ export default function WordPressMaintenance() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Website Support", url: "https://uxsites.co.uk/website-support" },
-            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance" },
+            { name: "Website Support", url: "https://uxsites.co.uk/website-support/" },
+            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance/" },
           ]),
         ]}
       />

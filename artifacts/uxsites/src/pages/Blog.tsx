@@ -26,17 +26,17 @@ export default function Blog() {
       <SEO
         title="Blog & Insights | UX Sites Shropshire"
         description="Expert insights on WordPress hosting, web design, SEO, and digital strategy for UK small businesses. Practical advice from a Google UX Certified developer based in Shropshire."
-        url="https://uxsites.co.uk/blog"
+        url="https://uxsites.co.uk/blog/"
         schema={[
           webPageSchema({
             name: "Blog & Insights | UX Sites",
             description: "Expert insights on WordPress hosting, web design, SEO, and digital strategy for small and medium businesses in Shropshire and across the UK.",
-            url: "https://uxsites.co.uk/blog",
+            url: "https://uxsites.co.uk/blog/",
           }),
           blogSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Blog", url: "https://uxsites.co.uk/blog" },
+            { name: "Blog", url: "https://uxsites.co.uk/blog/" },
           ]),
         ]}
       />

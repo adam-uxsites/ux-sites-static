@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForTakeaways() {
   return (
     <>
-      <SEO title="Websites for Takeaways & Fast Food | UX Sites Shropshire" description="Get more online orders with a takeaway website built for speed. Menus, online ordering, and local SEO  -  designed for takeaways and fast food across Shropshire." url="https://uxsites.co.uk/websites-for-takeaways" schema={[
-        serviceSchema({ name: "Websites for Takeaways", description: "Professional websites for takeaways, delivery services, and fast food. Online ordering systems, digital menus, and local SEO.", url: "https://uxsites.co.uk/websites-for-takeaways", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Takeaways", url: "https://uxsites.co.uk/websites-for-takeaways" }]),
+      <SEO title="Websites for Takeaways & Fast Food | UX Sites Shropshire" description="Get more online orders with a takeaway website built for speed. Menus, online ordering, and local SEO  -  designed for takeaways and fast food across Shropshire." url="https://uxsites.co.uk/websites-for-takeaways/" schema={[
+        serviceSchema({ name: "Websites for Takeaways", description: "Professional websites for takeaways, delivery services, and fast food. Online ordering systems, digital menus, and local SEO.", url: "https://uxsites.co.uk/websites-for-takeaways/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Takeaways", url: "https://uxsites.co.uk/websites-for-takeaways/" }]),
         faqSchema([
           { question: "I'm busy cooking — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your food." },
           { question: "Can customers order directly through the website?", answer: "Yes. We can integrate an online ordering system or link to your preferred delivery platform so customers can order directly from your site." },

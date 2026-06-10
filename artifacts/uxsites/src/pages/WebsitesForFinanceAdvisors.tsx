@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForFinanceAdvisors() {
   return (
     <>
-      <SEO title="Websites for Financial Advisors & IFAs | UX Sites Shropshire" description="Build trust and generate IFA enquiries with a compliant, professional website. Showcase your services, demonstrate expertise, and attract clients across Shropshire." url="https://uxsites.co.uk/websites-for-finance-advisors" schema={[
-        serviceSchema({ name: "Websites for Financial Advisors", description: "Professional websites for financial advisors and wealth managers. Compliance-ready design, service pages, trust signals, and local SEO.", url: "https://uxsites.co.uk/websites-for-finance-advisors", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Finance Advisors", url: "https://uxsites.co.uk/websites-for-finance-advisors" }]),
+      <SEO title="Websites for Financial Advisors & IFAs | UX Sites Shropshire" description="Build trust and generate IFA enquiries with a compliant, professional website. Showcase your services, demonstrate expertise, and attract clients across Shropshire." url="https://uxsites.co.uk/websites-for-finance-advisors/" schema={[
+        serviceSchema({ name: "Websites for Financial Advisors", description: "Professional websites for financial advisors and wealth managers. Compliance-ready design, service pages, trust signals, and local SEO.", url: "https://uxsites.co.uk/websites-for-finance-advisors/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Finance Advisors", url: "https://uxsites.co.uk/websites-for-finance-advisors/" }]),
         faqSchema([
           { question: "Who manages my website while I'm with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays professional and compliant while you focus on your clients." },
           { question: "Does the website include FCA compliance and regulatory disclosures?", answer: "Yes. We ensure your site includes the necessary regulatory information, complaints procedures, and compliance statements your business needs." },

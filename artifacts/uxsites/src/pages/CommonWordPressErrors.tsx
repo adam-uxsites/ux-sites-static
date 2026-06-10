@@ -82,17 +82,17 @@ export default function CommonWordPressErrors() {
       <SEO
         title="Common WordPress Errors & How to Fix Them | UX Sites"
         description="Common WordPress errors explained in plain English — white screen of death, database connection issues, 403 errors & more. Fix them yourself or let us handle it."
-        url="https://uxsites.co.uk/common-wordpress-errors"
+        url="https://uxsites.co.uk/common-wordpress-errors/"
         schema={[
           serviceSchema({
             name: "Common WordPress Errors Guide",
             description: "A comprehensive guide to diagnosing and fixing the most common WordPress errors, including white screen of death, database connection errors, and internal server errors.",
-            url: "https://uxsites.co.uk/common-wordpress-errors",
+            url: "https://uxsites.co.uk/common-wordpress-errors/",
             category: "WordPress Support",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Common WordPress Errors", url: "https://uxsites.co.uk/common-wordpress-errors" },
+            { name: "Common WordPress Errors", url: "https://uxsites.co.uk/common-wordpress-errors/" },
           ]),
           faqSchema(errors.map(e => ({
             question: `How to fix ${e.code}`,

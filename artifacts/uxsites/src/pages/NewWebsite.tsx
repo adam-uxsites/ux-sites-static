@@ -69,17 +69,17 @@ export default function NewWebsite() {
       <SEO
         title="Custom WordPress Website Design & Build | UX Sites Shropshire"
         description="Custom WordPress websites built to generate enquiries. Data-driven design, mobile-first & SEO-ready — from a Google UX Certified developer. Based in Shropshire, serving the UK."
-        url="https://uxsites.co.uk/new-website"
+        url="https://uxsites.co.uk/new-website/"
         schema={[
           serviceSchema({
             name: "New Website Design & Build",
             description: "Bespoke WordPress website design and development for small and medium businesses. Custom design, mobile-first, SEO foundations, Google Analytics 4, and training included. Starting from £1,500.",
-            url: "https://uxsites.co.uk/new-website",
+            url: "https://uxsites.co.uk/new-website/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "New Website", url: "https://uxsites.co.uk/new-website" },
+            { name: "New Website", url: "https://uxsites.co.uk/new-website/" },
           ]),
           faqSchema([
             { question: "How long does a new website take?", answer: "Most small-to-medium business websites take 4-6 weeks from the initial briefing to launch. Larger or more complex sites may take 8-10 weeks. The timeline depends significantly on how quickly client content and feedback are provided  -  we'll give you a clear project schedule at the start." },

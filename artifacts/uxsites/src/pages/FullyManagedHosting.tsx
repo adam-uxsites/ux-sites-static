@@ -27,13 +27,13 @@ export default function FullyManagedHosting() {
     <>
       <SEO
         title="Fully Managed WordPress Hosting | £50/month | UX Sites"
-        description="Everything-included managed WordPress hosting from £50/month. Updates, security, backups, performance, expert support, plus 30 minutes monthly development time. Your site, our responsibility."
-        url="https://uxsites.co.uk/fully-managed-wordpress-hosting"
+        description="Everything-included managed WordPress hosting from £50/month. Updates, security, backups, performance, expert support, and 30 mins development time."
+        url="https://uxsites.co.uk/fully-managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Fully Managed WordPress Hosting",
             description: "Fully managed WordPress hosting for businesses from £50/month. Includes hosting, updates, security, backups, performance, and expert support.",
-            url: "https://uxsites.co.uk/fully-managed-wordpress-hosting",
+            url: "https://uxsites.co.uk/fully-managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -41,7 +41,7 @@ export default function FullyManagedHosting() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Fully Managed WordPress Hosting", url: "https://uxsites.co.uk/fully-managed-wordpress-hosting" },
+            { name: "Fully Managed WordPress Hosting", url: "https://uxsites.co.uk/fully-managed-wordpress-hosting/" },
           ]),
           faqSchema([
             { question: "What is fully managed WordPress hosting?", answer: "Fully managed WordPress hosting means we take care of everything  -  the hosting infrastructure, security, backups, updates, performance optimisation, and ongoing support. You just run your business." },

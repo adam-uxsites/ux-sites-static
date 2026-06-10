@@ -1,9 +1,11 @@
+import { SEO } from "@/components/seo/SEO";
 import { Link } from "wouter";
 import { ArrowLeft, Search } from "lucide-react";
 
 export default function NotFound() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-background">
+      <SEO title="404 Page Not Found | UX Sites" description="The page you're looking for doesn't exist or has been moved. Return to UX Sites home page." />
       <div className="text-center px-4 max-w-md">
         <div className="text-8xl font-bold text-primary/20 mb-4 select-none">404</div>
         <h1 className="text-2xl font-bold text-foreground mb-2">Page Not Found</h1>

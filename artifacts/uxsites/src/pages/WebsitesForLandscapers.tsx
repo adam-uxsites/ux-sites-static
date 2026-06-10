@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForLandscapers() {
   return (
     <>
-      <SEO title="Websites for Landscapers & Garden Designers | UX Sites Shropshire" description="Transform browsers into leads with a portfolio website that showcases your garden transformations. Attract more landscaping clients across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-landscapers" schema={[
-        serviceSchema({ name: "Websites for Landscapers", description: "Professional websites for landscapers and garden designers. Project portfolios, design process pages, before-and-after galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-landscapers", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Landscapers", url: "https://uxsites.co.uk/websites-for-landscapers" }]),
+      <SEO title="Websites for Landscapers & Garden Designers | UX Sites Shropshire" description="Transform browsers into leads with a portfolio website that showcases your garden transformations. Attract more landscaping clients across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-landscapers/" schema={[
+        serviceSchema({ name: "Websites for Landscapers", description: "Professional websites for landscapers and garden designers. Project portfolios, design process pages, before-and-after galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-landscapers/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Landscapers", url: "https://uxsites.co.uk/websites-for-landscapers/" }]),
         faqSchema([
           { question: "I'm busy on site — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your projects." },
           { question: "Can I showcase my completed landscaping projects?", answer: "Absolutely. We build dedicated project portfolio pages with photos, descriptions, and before-and-after comparisons." },

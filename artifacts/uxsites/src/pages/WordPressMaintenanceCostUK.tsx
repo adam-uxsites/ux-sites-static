@@ -63,18 +63,18 @@ export default function WordPressMaintenanceCostUK() {
       <SEO
         title="WordPress Maintenance Cost UK | UX Sites"
         description="What does WordPress maintenance cost in the UK? A practical guide to pricing, what affects the cost, and how to judge real value  -  from DIY to fully managed care plans."
-        url="https://uxsites.co.uk/wordpress-maintenance-cost-uk"
+        url="https://uxsites.co.uk/wordpress-maintenance-cost-uk/"
         schema={[
           serviceSchema({
             name: "WordPress Maintenance Cost UK",
             description: "A practical guide to what WordPress maintenance costs in the UK, what affects the price, and how to judge value.",
-            url: "https://uxsites.co.uk/wordpress-maintenance-cost-uk",
+            url: "https://uxsites.co.uk/wordpress-maintenance-cost-uk/",
             category: "WordPress Maintenance",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance" },
-            { name: "WordPress Maintenance Cost UK", url: "https://uxsites.co.uk/wordpress-maintenance-cost-uk" },
+            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance/" },
+            { name: "WordPress Maintenance Cost UK", url: "https://uxsites.co.uk/wordpress-maintenance-cost-uk/" },
           ]),
           faqSchema([
             { question: "How much does WordPress maintenance cost in the UK?", answer: "WordPress maintenance costs in the UK range from £0 (DIY) to £500+/month for full-service agency care plans. Most small businesses pay between £50-£150/month for a comprehensive managed maintenance plan." },

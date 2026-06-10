@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForTutors() {
   return (
     <>
-      <SEO title="Websites for Tutors & Tuition Centres | UX Sites Shropshire" description="Attract more students with a website that showcases your subjects, qualifications, and results. Built for tutors and tuition centres across Shropshire." url="https://uxsites.co.uk/websites-for-tutors" schema={[
-        serviceSchema({ name: "Websites for Tutors", description: "Professional websites for tutors and tuition centres. Subject listings, qualifications, pricing, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tutors", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tutors", url: "https://uxsites.co.uk/websites-for-tutors" }]),
+      <SEO title="Websites for Tutors & Tuition Centres | UX Sites Shropshire" description="Attract more students with a website that showcases your subjects, qualifications, and results. Built for tutors and tuition centres across Shropshire." url="https://uxsites.co.uk/websites-for-tutors/" schema={[
+        serviceSchema({ name: "Websites for Tutors", description: "Professional websites for tutors and tuition centres. Subject listings, qualifications, pricing, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tutors/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tutors", url: "https://uxsites.co.uk/websites-for-tutors/" }]),
         faqSchema([
           { question: "I'm busy teaching — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your students." },
           { question: "Can students book lessons through the website?", answer: "Yes. We can integrate a booking system so students can check availability and book lessons directly online." },

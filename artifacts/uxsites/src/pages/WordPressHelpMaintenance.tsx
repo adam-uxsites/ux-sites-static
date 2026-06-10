@@ -68,18 +68,18 @@ export default function WordPressHelpMaintenance() {
       <SEO
         title="WordPress Maintenance Checklist | UX Sites"
         description="A complete WordPress maintenance checklist for small businesses. Daily, weekly, monthly, quarterly, and annual tasks to keep your site healthy, secure, and performing at its best."
-        url="https://uxsites.co.uk/wordpress-help/wordpress-maintenance"
+        url="https://uxsites.co.uk/wordpress-help/wordpress-maintenance/"
         schema={[
           serviceSchema({
             name: "WordPress Maintenance Checklist",
             description: "Complete WordPress maintenance checklist covering daily, weekly, monthly, quarterly, and annual tasks to keep your WordPress website healthy, secure, and performing well.",
-            url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance",
+            url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance/",
             category: "WordPress Maintenance Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
-            { name: "WordPress Maintenance Checklist", url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
+            { name: "WordPress Maintenance Checklist", url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance/" },
           ]),
           faqSchema(maintenanceFaqs),
         ]}

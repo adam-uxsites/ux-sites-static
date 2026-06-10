@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForNailStudios() {
   return (
     <>
-      <SEO title="Websites for Nail Studios | UX Sites Shropshire" description="Showcase your nail art and attract more bookings with a beautiful portfolio website. Built for nail technicians and studios across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-nail-studios" schema={[
-        serviceSchema({ name: "Websites for Nail Studios", description: "Professional websites for nail technicians and nail art studios. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-nail-studios", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Nail Studios", url: "https://uxsites.co.uk/websites-for-nail-studios" }]),
+      <SEO title="Websites for Nail Studios | UX Sites Shropshire" description="Showcase your nail art and attract more bookings with a beautiful portfolio website. Built for nail technicians and studios across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-nail-studios/" schema={[
+        serviceSchema({ name: "Websites for Nail Studios", description: "Professional websites for nail technicians and nail art studios. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-nail-studios/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Nail Studios", url: "https://uxsites.co.uk/websites-for-nail-studios/" }]),
         faqSchema([
           { question: "I'm busy with clients — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },

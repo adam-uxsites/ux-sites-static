@@ -20,7 +20,7 @@ export default function ThankYou() {
         title="Thank You | UX Sites"
         description="Thanks for reaching out. We've received your message and will be in touch within 24 hours."
         noindex
-        url="https://uxsites.co.uk/thank-you"
+        url="https://uxsites.co.uk/thank-you/"
       />
       <main>
         <section className="pt-40 pb-32">

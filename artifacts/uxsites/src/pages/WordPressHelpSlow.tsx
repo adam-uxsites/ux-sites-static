@@ -105,18 +105,18 @@ export default function WordPressHelpSlow() {
       <SEO
         title="How to Fix a Slow WordPress Website | UX Sites"
         description="Step-by-step guide to diagnose and fix a slow WordPress website. Image optimisation, caching, database cleanup, plugin audits  -  practical fixes you can apply today."
-        url="https://uxsites.co.uk/wordpress-help/wordpress-slow"
+        url="https://uxsites.co.uk/wordpress-help/wordpress-slow/"
         schema={[
           serviceSchema({
             name: "How to Fix a Slow WordPress Website",
             description: "Step-by-step guide to diagnose and fix slow WordPress loading times. Covers image optimization, caching plugins, database cleanup, plugin audits, and hosting improvements.",
-            url: "https://uxsites.co.uk/wordpress-help/wordpress-slow",
+            url: "https://uxsites.co.uk/wordpress-help/wordpress-slow/",
             category: "WordPress Performance Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
-            { name: "How to Fix a Slow WordPress Website", url: "https://uxsites.co.uk/wordpress-help/wordpress-slow" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
+            { name: "How to Fix a Slow WordPress Website", url: "https://uxsites.co.uk/wordpress-help/wordpress-slow/" },
           ]),
           faqSchema(slowFaqs),
         ]}

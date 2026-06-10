@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForFacialAesthetics() {
   return (
     <>
-      <SEO title="Websites for Facial Aesthetics & Clinics | UX Sites Shropshire" description="A professional, trustworthy website for aesthetic clinics and practitioners. Showcase before/after results, treatments, and attract new clients across Shropshire." url="https://uxsites.co.uk/websites-for-facial-aesthetics" schema={[
-        serviceSchema({ name: "Websites for Facial Aesthetics", description: "Professional websites for aesthetic clinics and practitioners. Before-and-after galleries, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-facial-aesthetics", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Facial Aesthetics", url: "https://uxsites.co.uk/websites-for-facial-aesthetics" }]),
+      <SEO title="Websites for Facial Aesthetics & Clinics | UX Sites Shropshire" description="A professional, trustworthy website for aesthetic clinics and practitioners. Showcase before/after results, treatments, and attract new clients across Shropshire." url="https://uxsites.co.uk/websites-for-facial-aesthetics/" schema={[
+        serviceSchema({ name: "Websites for Facial Aesthetics", description: "Professional websites for aesthetic clinics and practitioners. Before-and-after galleries, consultation booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-facial-aesthetics/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Facial Aesthetics", url: "https://uxsites.co.uk/websites-for-facial-aesthetics/" }]),
         faqSchema([
           { question: "Who manages my website when I'm treating clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book consultations through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },

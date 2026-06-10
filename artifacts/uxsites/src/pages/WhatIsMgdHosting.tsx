@@ -46,18 +46,18 @@ export default function WhatIsMgdHosting() {
       <SEO
         title="What Is Managed WordPress Hosting? | UX Sites"
         description="New to managed WordPress hosting? A beginner-friendly guide explaining what it is, how it differs from shared hosting, and whether it's right for your business."
-        url="https://uxsites.co.uk/what-is-managed-wordpress-hosting"
+        url="https://uxsites.co.uk/what-is-managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Explained",
             description: "A beginner-friendly guide to understanding managed WordPress hosting, how it differs from standard hosting, who needs it, and why it matters for business websites.",
-            url: "https://uxsites.co.uk/what-is-managed-wordpress-hosting",
+            url: "https://uxsites.co.uk/what-is-managed-wordpress-hosting/",
             category: "WordPress Hosting",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "What Is Managed WordPress Hosting?", url: "https://uxsites.co.uk/what-is-managed-wordpress-hosting" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "What Is Managed WordPress Hosting?", url: "https://uxsites.co.uk/what-is-managed-wordpress-hosting/" },
           ]),
           faqSchema([
             { question: "What is managed WordPress hosting?", answer: "Managed WordPress hosting is a service where the hosting provider takes care of all technical aspects of running a WordPress site  -  including security, updates, backups, performance, and support  -  so you can focus on your business." },

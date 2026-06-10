@@ -54,17 +54,17 @@ export default function WebsitesForJoiners() {
       <SEO
         title="Websites for Joiners & Carpenters | UX Sites Shropshire"
         description="Showcase your craftsmanship and win more bespoke joinery projects. A portfolio website built for your trade, designed to impress clients across Shropshire and the Welsh borders."
-        url="https://uxsites.co.uk/websites-for-joiners"
+        url="https://uxsites.co.uk/websites-for-joiners/"
         schema={[
           serviceSchema({
             name: "Websites for Joiners & Carpenters",
             description: "Professional websites for joiners and carpenters. Portfolio-driven design, craftsmanship showcases, local SEO, and mobile-first approach to help you win more work.",
-            url: "https://uxsites.co.uk/websites-for-joiners",
+            url: "https://uxsites.co.uk/websites-for-joiners/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Joiners", url: "https://uxsites.co.uk/websites-for-joiners" },
+            { name: "Websites for Joiners", url: "https://uxsites.co.uk/websites-for-joiners/" },
           ]),
           faqSchema([
             {

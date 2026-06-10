@@ -15,18 +15,18 @@ export default function WordPressBackupRecovery() {
       <SEO
         title="WordPress Backup & Recovery Service | UX Sites"
         description="Automated daily WordPress backups with 30-day retention and rapid recovery. Off-site cloud storage, full-site restoration within the hour. Peace of mind included in every plan."
-        url="https://uxsites.co.uk/wordpress-backup-recovery"
+        url="https://uxsites.co.uk/wordpress-backup-recovery/"
         schema={[
           serviceSchema({
             name: "WordPress Backup & Recovery Service",
             description: "Automated daily WordPress backups with 30-day retention, off-site cloud storage, and rapid full-site recovery. Included in all managed hosting plans.",
-            url: "https://uxsites.co.uk/wordpress-backup-recovery",
+            url: "https://uxsites.co.uk/wordpress-backup-recovery/",
             category: "WordPress Backup",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Backup & Recovery", url: "https://uxsites.co.uk/wordpress-backup-recovery" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Backup & Recovery", url: "https://uxsites.co.uk/wordpress-backup-recovery/" },
           ]),
         ]}
       />

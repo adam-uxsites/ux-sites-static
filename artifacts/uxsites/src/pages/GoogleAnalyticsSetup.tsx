@@ -56,17 +56,17 @@ export default function GoogleAnalyticsSetup() {
       <SEO
         title="Google Analytics 4 Setup & Troubleshooting | UX Sites"
         description="GA4 setup, troubleshooting, and support from a Google UX Certified analyst. Proper tracking configuration, accurate data, and reports you can actually use."
-        url="https://uxsites.co.uk/google-analytics-setup"
+        url="https://uxsites.co.uk/google-analytics-setup/"
         schema={[
           serviceSchema({
             name: "Google Analytics 4 Setup & Troubleshooting",
             description: "Professional GA4 setup, troubleshooting, and support — including Google Tag Manager configuration, conversion tracking, and custom reporting dashboards.",
-            url: "https://uxsites.co.uk/google-analytics-setup",
+            url: "https://uxsites.co.uk/google-analytics-setup/",
             category: "Analytics",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Google Analytics 4 Setup", url: "https://uxsites.co.uk/google-analytics-setup" },
+            { name: "Google Analytics 4 Setup", url: "https://uxsites.co.uk/google-analytics-setup/" },
           ]),
           faqSchema([
             { question: "How is this different from the GA4 setup my web developer already did?", answer: "Many developers install GA4 by copy-pasting a tracking code or using a plugin — which gives you basic pageview data but nothing useful. We configure events, conversions, and goals properly so you can actually see which channels and actions drive results." },

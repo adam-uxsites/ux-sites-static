@@ -65,13 +65,13 @@ export default function WordPressHostingWrexham() {
     <>
       <SEO
         title="Managed WordPress Hosting Wrexham | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Wrexham businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Wrexham, Ruabon, Chirk and across North Wales."
-        url="https://uxsites.co.uk/wordpress-hosting-wrexham"
+        description="Managed WordPress hosting for Wrexham businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-wrexham/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Wrexham",
             description: "Managed WordPress hosting for Wrexham businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Wrexham and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-wrexham",
+            url: "https://uxsites.co.uk/wordpress-hosting-wrexham/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingWrexham() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Wrexham", url: "https://uxsites.co.uk/wordpress-hosting-wrexham" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Wrexham", url: "https://uxsites.co.uk/wordpress-hosting-wrexham/" },
           ]),
         ]}
       />

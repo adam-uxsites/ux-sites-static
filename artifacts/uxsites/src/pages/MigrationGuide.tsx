@@ -70,18 +70,18 @@ export default function MigrationGuide() {
       <SEO
         title="WordPress Migration Guide — How Onboarding Works | UX Sites"
         description="Step-by-step guide to migrating your WordPress site to UX Sites managed hosting. Requirements, migration, security fixes, testing, zero-downtime domain switch, and ongoing support."
-        url="https://uxsites.co.uk/migration-guide"
+        url="https://uxsites.co.uk/migration-guide/"
         schema={[
           serviceSchema({
             name: "WordPress Migration to Managed Hosting",
             description: "Step-by-step migration guide for moving your WordPress site to UX Sites managed hosting — from requirements discussion through to go-live and ongoing support.",
-            url: "https://uxsites.co.uk/migration-guide",
+            url: "https://uxsites.co.uk/migration-guide/",
             category: "WordPress Migration",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "Migration Guide", url: "https://uxsites.co.uk/migration-guide" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "Migration Guide", url: "https://uxsites.co.uk/migration-guide/" },
           ]),
           faqSchema([
             { question: "How long does the migration process take?", answer: "Most standard WordPress sites are migrated within 24-48 hours. More complex sites — those with custom integrations, large media libraries, or specific security requirements — may take slightly longer. We'll give you a realistic timeline during the initial discussion." },

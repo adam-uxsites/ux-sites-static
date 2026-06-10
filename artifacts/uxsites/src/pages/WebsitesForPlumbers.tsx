@@ -54,17 +54,17 @@ export default function WebsitesForPlumbers() {
       <SEO
         title="Websites for Plumbers & Heating Engineers | UX Sites Shropshire"
         description="Get found for emergency and local plumbing jobs with a website built for your trade. Gas safe registered, service areas clearly shown, and optimised for local search in Shropshire."
-        url="https://uxsites.co.uk/websites-for-plumbers"
+        url="https://uxsites.co.uk/websites-for-plumbers/"
         schema={[
           serviceSchema({
             name: "Websites for Plumbers & Heating Engineers",
             description: "Professional websites for plumbers and heating engineers. Emergency contact focus, Gas Safe credentials, local SEO, and mobile-first design to generate more bookings.",
-            url: "https://uxsites.co.uk/websites-for-plumbers",
+            url: "https://uxsites.co.uk/websites-for-plumbers/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Plumbers", url: "https://uxsites.co.uk/websites-for-plumbers" },
+            { name: "Websites for Plumbers", url: "https://uxsites.co.uk/websites-for-plumbers/" },
           ]),
           faqSchema([
             {

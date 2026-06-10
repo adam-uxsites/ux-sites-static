@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForCharities() {
   return (
     <>
-      <SEO title="Websites for Charities & Non-Profits | UX Sites Shropshire" description="Tell your story, attract donors, and grow your impact. A website built for charities and non-profits across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-charities" schema={[
-        serviceSchema({ name: "Websites for Charities", description: "Professional websites for charities and community groups. Donation pages, volunteer sign-up, impact stories, news and events, and local SEO.", url: "https://uxsites.co.uk/websites-for-charities", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Charities", url: "https://uxsites.co.uk/websites-for-charities" }]),
+      <SEO title="Websites for Charities & Non-Profits | UX Sites Shropshire" description="Tell your story, attract donors, and grow your impact. A website built for charities and non-profits across Shropshire and the Welsh borders." url="https://uxsites.co.uk/websites-for-charities/" schema={[
+        serviceSchema({ name: "Websites for Charities", description: "Professional websites for charities and community groups. Donation pages, volunteer sign-up, impact stories, news and events, and local SEO.", url: "https://uxsites.co.uk/websites-for-charities/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Charities", url: "https://uxsites.co.uk/websites-for-charities/" }]),
         faqSchema([
           { question: "Our charity team is small — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your cause." },
           { question: "Can supporters donate directly through the website?", answer: "Yes. We can integrate a donation system with multiple payment options so supporters can contribute easily and securely." },

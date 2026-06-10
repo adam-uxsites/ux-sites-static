@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForRestaurants() {
   return (
     <>
-      <SEO title="Websites for Restaurants & Gastropubs | UX Sites Shropshire" description="Fill more tables with a website that makes people hungry. Showcase your menu, atmosphere, and reviews  -  built for restaurants, bistros, and gastropubs across Shropshire." url="https://uxsites.co.uk/websites-for-restaurants" schema={[
-        serviceSchema({ name: "Websites for Restaurants", description: "Professional websites for restaurants, bistros, and gastropubs. Online menus, reservation systems, food galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-restaurants", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Restaurants", url: "https://uxsites.co.uk/websites-for-restaurants" }]),
+      <SEO title="Websites for Restaurants & Gastropubs | UX Sites Shropshire" description="Fill more tables with a website that makes people hungry. Showcase your menu, atmosphere, and reviews  -  built for restaurants, bistros, and gastropubs across Shropshire." url="https://uxsites.co.uk/websites-for-restaurants/" schema={[
+        serviceSchema({ name: "Websites for Restaurants", description: "Professional websites for restaurants, bistros, and gastropubs. Online menus, reservation systems, food galleries, and local SEO.", url: "https://uxsites.co.uk/websites-for-restaurants/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Restaurants", url: "https://uxsites.co.uk/websites-for-restaurants/" }]),
         faqSchema([
           { question: "I'm busy running the kitchen — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your food." },
           { question: "Can I update my menu online myself?", answer: "Yes. We build your site so you can easily update menus, prices, and specials yourself. Or we can do it for you as part of our managed service." },

@@ -60,17 +60,17 @@ export default function ExistingWebsite() {
       <SEO
         title="WordPress Website Refresh & Redesign | UX Sites Shropshire"
         description="Transform your existing WordPress site into a high-performance asset — design refresh, speed optimisation, mobile improvements, SEO & conversion tweaks. Free audit included."
-        url="https://uxsites.co.uk/existing-website"
+        url="https://uxsites.co.uk/existing-website/"
         schema={[
           serviceSchema({
             name: "Website Refresh & Rebuild",
             description: "Modernise your existing WordPress website  -  performance optimisation, mobile experience improvements, design refresh, SEO, and conversion rate improvements. Free site audit included.",
-            url: "https://uxsites.co.uk/existing-website",
+            url: "https://uxsites.co.uk/existing-website/",
             category: "Website Redesign",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website" },
+            { name: "Existing Website", url: "https://uxsites.co.uk/existing-website/" },
           ]),
           faqSchema([
             {

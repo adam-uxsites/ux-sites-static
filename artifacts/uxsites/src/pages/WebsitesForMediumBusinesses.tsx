@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForMediumBusinesses() {
   return (
     <>
-      <SEO title="Websites for Medium-Sized Businesses | UX Sites Shropshire" description="A corporate website that matches your ambition. Multi-department sites with professional design, built for established mid-sized companies across Shropshire." url="https://uxsites.co.uk/websites-for-medium-businesses" schema={[
-        serviceSchema({ name: "Websites for Medium Businesses", description: "Professional websites for established mid-sized companies. Multi-department pages, team profiles, case studies, corporate design, and scalable infrastructure.", url: "https://uxsites.co.uk/websites-for-medium-businesses", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Medium Businesses", url: "https://uxsites.co.uk/websites-for-medium-businesses" }]),
+      <SEO title="Websites for Medium-Sized Businesses | UX Sites Shropshire" description="A corporate website that matches your ambition. Multi-department sites with professional design, built for established mid-sized companies across Shropshire." url="https://uxsites.co.uk/websites-for-medium-businesses/" schema={[
+        serviceSchema({ name: "Websites for Medium Businesses", description: "Professional websites for established mid-sized companies. Multi-department pages, team profiles, case studies, corporate design, and scalable infrastructure.", url: "https://uxsites.co.uk/websites-for-medium-businesses/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Medium Businesses", url: "https://uxsites.co.uk/websites-for-medium-businesses/" }]),
         faqSchema([
           { question: "Our team is busy running the business — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
           { question: "Can our website support multiple departments or locations?", answer: "Absolutely. We design information architecture that supports multiple departments, locations, or service lines with clear navigation." },

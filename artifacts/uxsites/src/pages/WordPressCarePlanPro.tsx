@@ -95,12 +95,12 @@ export default function WordPressCarePlanPro() {
       <SEO
         title="WordPress Care Plan Pro from £500/mo | UX Sites Shropshire"
         description="Premium WordPress care plan with managed hosting, priority support, advanced optimisation, conversion improvements & integrations — your website treated as a growth asset."
-        url="https://uxsites.co.uk/wordpress-care-plan-pro"
+        url="https://uxsites.co.uk/wordpress-care-plan-pro/"
         schema={[
           serviceSchema({
             name: "WordPress Care Plan Pro",
             description: "Growth-focused WordPress care plan with increased development capacity, advanced performance optimisation, conversion improvements, and integration support from £500/month.",
-            url: "https://uxsites.co.uk/wordpress-care-plan-pro",
+            url: "https://uxsites.co.uk/wordpress-care-plan-pro/",
             category: "WordPress Care Plan",
             price: "500",
             priceCurrency: "GBP",
@@ -108,7 +108,7 @@ export default function WordPressCarePlanPro() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Care Plan Pro", url: "https://uxsites.co.uk/wordpress-care-plan-pro" },
+            { name: "WordPress Care Plan Pro", url: "https://uxsites.co.uk/wordpress-care-plan-pro/" },
           ]),
           faqSchema([
             { question: "What is the WordPress Care Plan Pro?", answer: "Care Plan Pro is our top-tier monthly retainer for businesses that rely heavily on their website. It includes everything in the standard Care Plan plus increased development capacity, faster support, advanced optimisation, conversion improvements, integration support, and strategic technical guidance." },

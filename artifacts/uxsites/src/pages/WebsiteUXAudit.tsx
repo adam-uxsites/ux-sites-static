@@ -51,17 +51,17 @@ export default function WebsiteUXAudit() {
       <SEO
         title="Website UX Audit & Analysis | UX Sites — Improve Conversions"
         description="Data-driven UX audit for your website — identify friction points, understand user behaviour, and get a prioritised action plan to improve conversions and user experience."
-        url="https://uxsites.co.uk/website-ux-audit"
+        url="https://uxsites.co.uk/website-ux-audit/"
         schema={[
           serviceSchema({
             name: "Website UX Audit",
             description: "Professional website UX audit and analysis — combining analytics data, user behaviour tracking, and usability expertise to identify friction points and improve conversion rates.",
-            url: "https://uxsites.co.uk/website-ux-audit",
+            url: "https://uxsites.co.uk/website-ux-audit/",
             category: "UX",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Website UX Audit", url: "https://uxsites.co.uk/website-ux-audit" },
+            { name: "Website UX Audit", url: "https://uxsites.co.uk/website-ux-audit/" },
           ]),
           faqSchema([
             { question: "How long does a UX audit take?", answer: "Most audits are completed within 1-2 weeks, depending on the size and complexity of the site. You'll receive a full report with findings and recommendations." },

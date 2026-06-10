@@ -64,18 +64,18 @@ export default function About() {
     <>
       <SEO
         title="About UX Sites — 10+ Years of WordPress Expertise in Shropshire"
-        description="UX Sites was founded by Adam, a Google-certified UX professional with over a decade of experience in web design, development, and digital strategy. Honest, upfront, and built for small to medium businesses."
-        url="https://uxsites.co.uk/about"
+        description="UX Sites was founded by Adam, a Google-certified UX professional with 10+ years in web design. Honest, upfront expertise for small to medium businesses."
+        url="https://uxsites.co.uk/about/"
         schema={[
           webPageSchema({
             name: "About UX Sites",
             description: "UX Sites provides managed WordPress hosting, web design, and ongoing support for small to medium businesses in Shropshire and across the UK.",
-            url: "https://uxsites.co.uk/about",
+            url: "https://uxsites.co.uk/about/",
           }),
           personSchema(),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "About", url: "https://uxsites.co.uk/about" },
+            { name: "About", url: "https://uxsites.co.uk/about/" },
           ]),
         ]}
       />

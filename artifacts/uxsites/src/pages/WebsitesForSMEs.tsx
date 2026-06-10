@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForSMEs() {
   return (
     <>
-      <SEO title="Websites for SMEs | UX Sites Shropshire" description="A professional website that grows with your business. Built for SMEs in Shropshire  -  scalable, modern, and designed to generate real enquiries." url="https://uxsites.co.uk/websites-for-smes" schema={[
-        serviceSchema({ name: "Websites for SMEs", description: "Professional websites for small and medium enterprises. Scalable design, core service pages, lead generation, managed hosting, and local SEO.", url: "https://uxsites.co.uk/websites-for-smes", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for SMEs", url: "https://uxsites.co.uk/websites-for-smes" }]),
+      <SEO title="Websites for SMEs | UX Sites Shropshire" description="A professional website that grows with your business. Built for SMEs in Shropshire  -  scalable, modern, and designed to generate real enquiries." url="https://uxsites.co.uk/websites-for-smes/" schema={[
+        serviceSchema({ name: "Websites for SMEs", description: "Professional websites for small and medium enterprises. Scalable design, core service pages, lead generation, managed hosting, and local SEO.", url: "https://uxsites.co.uk/websites-for-smes/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for SMEs", url: "https://uxsites.co.uk/websites-for-smes/" }]),
         faqSchema([
           { question: "Our team is focused on growth — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your business." },
           { question: "Can our website grow as our business expands?", answer: "Yes. We build on a flexible platform that scales with you — adding new services, team members, or even e-commerce capabilities as you grow." },

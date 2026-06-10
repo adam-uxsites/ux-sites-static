@@ -75,13 +75,13 @@ export default function WhatsIncludedMgdHosting() {
     <>
       <SEO
         title="What's Included in Managed WordPress Hosting | UX Sites"
-        description="Full breakdown of what's included in managed WordPress hosting. Daily backups, security monitoring, updates, performance, SSL, CDN, and expert support  -  all explained in plain English."
-        url="https://uxsites.co.uk/whats-included-managed-wordpress-hosting"
+        description="Full breakdown of managed WordPress hosting features. Daily backups, security, updates, performance, SSL, and expert support - explained in plain English."
+        url="https://uxsites.co.uk/whats-included-managed-wordpress-hosting/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting  -  What's Included",
             description: "Full breakdown of managed WordPress hosting inclusions: daily backups, security monitoring, updates, performance optimisation, SSL, CDN, uptime monitoring, expert support, staging, and migration.",
-            url: "https://uxsites.co.uk/whats-included-managed-wordpress-hosting",
+            url: "https://uxsites.co.uk/whats-included-managed-wordpress-hosting/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -89,8 +89,8 @@ export default function WhatsIncludedMgdHosting() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "What's Included", url: "https://uxsites.co.uk/whats-included-managed-wordpress-hosting" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "What's Included", url: "https://uxsites.co.uk/whats-included-managed-wordpress-hosting/" },
           ]),
           faqSchema([
             { question: "What's included in managed WordPress hosting?", answer: "Managed WordPress hosting includes daily automated backups, security monitoring, WordPress core/plugin/theme updates, performance optimisation, SSL certificates, CDN, uptime monitoring, expert WordPress support, staging environments, and free site migration  -  all for one monthly price." },

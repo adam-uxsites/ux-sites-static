@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForCleaners() {
   return (
     <>
-      <SEO title="Websites for Cleaners | UX Sites Shropshire" description="Attract more domestic and commercial cleaning clients with a website that sells your reliability. Showcase your services, service areas, and get found across Shropshire." url="https://uxsites.co.uk/websites-for-cleaners" schema={[
-        serviceSchema({ name: "Websites for Cleaners", description: "Professional websites for domestic and commercial cleaners. Service pages, area coverage, quote forms, testimonials, and local SEO.", url: "https://uxsites.co.uk/websites-for-cleaners", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cleaners", url: "https://uxsites.co.uk/websites-for-cleaners" }]),
+      <SEO title="Websites for Cleaners | UX Sites Shropshire" description="Attract more domestic and commercial cleaning clients with a website that sells your reliability. Showcase your services, service areas, and get found across Shropshire." url="https://uxsites.co.uk/websites-for-cleaners/" schema={[
+        serviceSchema({ name: "Websites for Cleaners", description: "Professional websites for domestic and commercial cleaners. Service pages, area coverage, quote forms, testimonials, and local SEO.", url: "https://uxsites.co.uk/websites-for-cleaners/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Cleaners", url: "https://uxsites.co.uk/websites-for-cleaners/" }]),
         faqSchema([
           { question: "I'm busy cleaning — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients request a quote through the website?", answer: "Yes. We add an easy quote request form that captures job details, location, and contact information so you can respond quickly." },

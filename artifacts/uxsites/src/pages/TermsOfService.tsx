@@ -10,12 +10,12 @@ export default function TermsOfService() {
         noindex
         title="Terms of Service | UX Sites"
         description="UX Sites terms of service  -  clear, straightforward terms covering quotes, payments, intellectual property, and project delivery for web design and managed hosting clients."
-        url="https://uxsites.co.uk/terms-of-service"
+        url="https://uxsites.co.uk/terms-of-service/"
         schema={[
-          webPageSchema({ name: "Terms of Service", description: "UX Sites terms of service covering quotes, payments, intellectual property, and project delivery.", url: "https://uxsites.co.uk/terms-of-service" }),
+          webPageSchema({ name: "Terms of Service", description: "UX Sites terms of service covering quotes, payments, intellectual property, and project delivery.", url: "https://uxsites.co.uk/terms-of-service/" }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Terms of Service", url: "https://uxsites.co.uk/terms-of-service" },
+            { name: "Terms of Service", url: "https://uxsites.co.uk/terms-of-service/" },
           ]),
         ]}
       />

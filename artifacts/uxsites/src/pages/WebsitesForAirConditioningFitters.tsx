@@ -54,17 +54,17 @@ export default function WebsitesForAirConditioningFitters() {
       <SEO
         title="Websites for Air Conditioning Installers | UX Sites Shropshire"
         description="Win commercial and domestic HVAC contracts with a website that showcases your expertise, certifications, and completed installations. Built for contractors serving Shropshire."
-        url="https://uxsites.co.uk/websites-for-air-conditioning-fitters"
+        url="https://uxsites.co.uk/websites-for-air-conditioning-fitters/"
         schema={[
           serviceSchema({
             name: "Websites for Air Conditioning Installers",
             description: "Professional websites for air conditioning and HVAC contractors. Dual audience design for commercial and domestic clients, certification showcases, case studies, and local SEO.",
-            url: "https://uxsites.co.uk/websites-for-air-conditioning-fitters",
+            url: "https://uxsites.co.uk/websites-for-air-conditioning-fitters/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Air Conditioning Fitters", url: "https://uxsites.co.uk/websites-for-air-conditioning-fitters" },
+            { name: "Websites for Air Conditioning Fitters", url: "https://uxsites.co.uk/websites-for-air-conditioning-fitters/" },
           ]),
           faqSchema([
             {

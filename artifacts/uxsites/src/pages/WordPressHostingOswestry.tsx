@@ -67,13 +67,13 @@ export default function WordPressHostingOswestry() {
     <>
       <SEO
         title="Managed WordPress Hosting Oswestry | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Oswestry businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Oswestry, St. Martins, Gobowen and across North Shropshire."
-        url="https://uxsites.co.uk/wordpress-hosting-oswestry"
+        description="Managed WordPress hosting for Oswestry businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-oswestry/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Oswestry",
             description: "Managed WordPress hosting for Oswestry businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Oswestry and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-oswestry",
+            url: "https://uxsites.co.uk/wordpress-hosting-oswestry/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -81,8 +81,8 @@ export default function WordPressHostingOswestry() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Oswestry", url: "https://uxsites.co.uk/wordpress-hosting-oswestry" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Oswestry", url: "https://uxsites.co.uk/wordpress-hosting-oswestry/" },
           ]),
         ]}
       />

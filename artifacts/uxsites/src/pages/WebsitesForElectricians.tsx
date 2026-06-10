@@ -54,17 +54,17 @@ export default function WebsitesForElectricians() {
       <SEO
         title="Websites for Electricians & Electrical Contractors | UX Sites Shropshire"
         description="Get found for local electrical work with a website that showcases your credentials and NICEIC registration. Make it easy for customers across Shropshire to call you."
-        url="https://uxsites.co.uk/websites-for-electricians"
+        url="https://uxsites.co.uk/websites-for-electricians/"
         schema={[
           serviceSchema({
             name: "Websites for Electricians & Electrical Contractors",
             description: "Professional websites for electricians and electrical contractors. Local SEO, service pages, certification showcases, and mobile-first design to help you win more work.",
-            url: "https://uxsites.co.uk/websites-for-electricians",
+            url: "https://uxsites.co.uk/websites-for-electricians/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Electricians", url: "https://uxsites.co.uk/websites-for-electricians" },
+            { name: "Websites for Electricians", url: "https://uxsites.co.uk/websites-for-electricians/" },
           ]),
           faqSchema([
             {

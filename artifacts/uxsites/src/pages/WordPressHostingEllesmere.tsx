@@ -65,13 +65,13 @@ export default function WordPressHostingEllesmere() {
     <>
       <SEO
         title="Managed WordPress Hosting Ellesmere | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Ellesmere businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Ellesmere, North Shropshire and the Welsh border."
-        url="https://uxsites.co.uk/wordpress-hosting-ellesmere"
+        description="Managed WordPress hosting for Ellesmere businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-ellesmere/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Ellesmere",
             description: "Managed WordPress hosting for Ellesmere businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Ellesmere and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-ellesmere",
+            url: "https://uxsites.co.uk/wordpress-hosting-ellesmere/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingEllesmere() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Ellesmere", url: "https://uxsites.co.uk/wordpress-hosting-ellesmere" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Ellesmere", url: "https://uxsites.co.uk/wordpress-hosting-ellesmere/" },
           ]),
         ]}
       />

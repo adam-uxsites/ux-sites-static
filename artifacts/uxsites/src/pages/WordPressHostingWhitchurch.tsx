@@ -65,13 +65,13 @@ export default function WordPressHostingWhitchurch() {
     <>
       <SEO
         title="Managed WordPress Hosting Whitchurch | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving Whitchurch, North Shropshire and the Cheshire border."
-        url="https://uxsites.co.uk/wordpress-hosting-whitchurch"
+        description="Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-whitchurch/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting Whitchurch",
             description: "Managed WordPress hosting for Whitchurch businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving Whitchurch and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-whitchurch",
+            url: "https://uxsites.co.uk/wordpress-hosting-whitchurch/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingWhitchurch() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting Whitchurch", url: "https://uxsites.co.uk/wordpress-hosting-whitchurch" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting Whitchurch", url: "https://uxsites.co.uk/wordpress-hosting-whitchurch/" },
           ]),
         ]}
       />

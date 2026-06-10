@@ -51,18 +51,18 @@ export default function WebsitesForMarketingConsultants() {
       <SEO
         title="Websites for Marketing Consultants | UX Sites Shropshire"
         description="Build authority and attract qualified enquiries with a website positioned for your expertise. Marketing consultant websites designed to showcase results."
-        url="https://uxsites.co.uk/websites-for-marketing-consultants"
+        url="https://uxsites.co.uk/websites-for-marketing-consultants/"
         schema={[
           serviceSchema({
             name: "Websites for Marketing Consultants",
             description: "Marketing consultant websites focused on positioning and pipeline. Build authority and attract qualified enquiries.",
-            url: "https://uxsites.co.uk/websites-for-marketing-consultants",
+            url: "https://uxsites.co.uk/websites-for-marketing-consultants/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Consultants", url: "https://uxsites.co.uk/websites-for-consultants" },
-            { name: "Marketing Consultant Websites", url: "https://uxsites.co.uk/websites-for-marketing-consultants" },
+            { name: "Websites for Consultants", url: "https://uxsites.co.uk/websites-for-consultants/" },
+            { name: "Marketing Consultant Websites", url: "https://uxsites.co.uk/websites-for-marketing-consultants/" },
           ]),
           faqSchema([
             {

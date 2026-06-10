@@ -13,12 +13,12 @@ export default function MgdHostingSmallBiz() {
       <SEO
         title="Is Managed Hosting Worth It for Small Businesses? | UX Sites"
         description="Is managed WordPress hosting worth the investment for your small business? Compare costs, time saved, and peace of mind  -  plus real ROI benefits explained."
-        url="https://uxsites.co.uk/managed-hosting-small-businesses"
+        url="https://uxsites.co.uk/managed-hosting-small-businesses/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting for Small Businesses",
             description: "Comprehensive guide to the ROI of managed WordPress hosting for small businesses, covering time savings, risk reduction, and total cost of ownership.",
-            url: "https://uxsites.co.uk/managed-hosting-small-businesses",
+            url: "https://uxsites.co.uk/managed-hosting-small-businesses/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -26,8 +26,8 @@ export default function MgdHostingSmallBiz() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "Managed Hosting for Small Businesses", url: "https://uxsites.co.uk/managed-hosting-small-businesses" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "Managed Hosting for Small Businesses", url: "https://uxsites.co.uk/managed-hosting-small-businesses/" },
           ]),
           faqSchema([
             { question: "Is managed WordPress hosting worth it for small businesses?", answer: "For most small businesses, yes. When you factor in the time spent managing updates and security, the cost of separate tools for backups and security, and the risk of a hacked or broken site, managed hosting often delivers better value than a DIY approach." },

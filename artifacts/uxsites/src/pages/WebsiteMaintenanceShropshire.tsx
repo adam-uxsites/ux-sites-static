@@ -27,18 +27,18 @@ export default function WebsiteMaintenanceShropshire() {
       <SEO
         title="Website Maintenance Shropshire | WordPress Care & Updates | UX Sites"
         description="Professional website maintenance for Shropshire businesses — WordPress updates, security, backups, and support from a local expert. Keep your site secure, fast, and up to date."
-        url="https://uxsites.co.uk/website-maintenance-shropshire"
+        url="https://uxsites.co.uk/website-maintenance-shropshire/"
         schema={[
           serviceSchema({
             name: "Website Maintenance Shropshire",
             description: "Professional website maintenance for Shropshire businesses — WordPress updates, security monitoring, daily backups, performance optimisation, and expert support from a local specialist.",
-            url: "https://uxsites.co.uk/website-maintenance-shropshire",
+            url: "https://uxsites.co.uk/website-maintenance-shropshire/",
             category: "Website Maintenance",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance" },
-            { name: "Website Maintenance Shropshire", url: "https://uxsites.co.uk/website-maintenance-shropshire" },
+            { name: "WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-maintenance/" },
+            { name: "Website Maintenance Shropshire", url: "https://uxsites.co.uk/website-maintenance-shropshire/" },
           ]),
           faqSchema([
             { question: "Do you maintain sites you didn't originally build?", answer: "Yes. We review existing sites before taking them on to identify any issues and ensure we can maintain them properly. Most sites transfer smoothly." },

@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForGardeners() {
   return (
     <>
-      <SEO title="Websites for Gardeners & Grounds Maintenance | UX Sites Shropshire" description="A simple, effective website for gardeners and grounds maintenance businesses. Get found locally, showcase your work, and make it easy for customers across Shropshire to get a quote." url="https://uxsites.co.uk/websites-for-gardeners" schema={[
-        serviceSchema({ name: "Websites for Gardeners", description: "Professional websites for gardeners and grounds maintenance. Service portfolios, before-and-after galleries, seasonal promotions, and local SEO.", url: "https://uxsites.co.uk/websites-for-gardeners", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Gardeners", url: "https://uxsites.co.uk/websites-for-gardeners" }]),
+      <SEO title="Websites for Gardeners & Grounds Maintenance | UX Sites Shropshire" description="A simple, effective website for gardeners and grounds maintenance businesses. Get found locally, showcase your work, and make it easy for customers across Shropshire to get a quote." url="https://uxsites.co.uk/websites-for-gardeners/" schema={[
+        serviceSchema({ name: "Websites for Gardeners", description: "Professional websites for gardeners and grounds maintenance. Service portfolios, before-and-after galleries, seasonal promotions, and local SEO.", url: "https://uxsites.co.uk/websites-for-gardeners/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Gardeners", url: "https://uxsites.co.uk/websites-for-gardeners/" }]),
         faqSchema([
           { question: "I'm busy working outdoors — who manages my website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your gardens." },
           { question: "Can I show before-and-after photos of my work?", answer: "Absolutely. We build dedicated galleries so you can showcase your transformations and prove the quality of your work." },

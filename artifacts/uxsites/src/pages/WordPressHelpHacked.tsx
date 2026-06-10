@@ -106,19 +106,19 @@ export default function WordPressHelpHacked() {
     <>
       <SEO
         title="Why WordPress Websites Get Hacked | UX Sites"
-        description="Why do WordPress sites get hacked? Learn the most common attack vectors  -  outdated software, weak passwords, vulnerable plugins  -  and how to protect your site with simple, effective prevention methods."
-        url="https://uxsites.co.uk/wordpress-help/wordpress-hacked"
+        description="Why do WordPress sites get hacked? Learn common attack vectors - outdated software, weak passwords, vulnerable plugins - and how to protect your site."
+        url="https://uxsites.co.uk/wordpress-help/wordpress-hacked/"
         schema={[
           serviceSchema({
             name: "Why WordPress Websites Get Hacked",
             description: "Detailed guide on common WordPress attack vectors  -  outdated software, weak passwords, vulnerable plugins, SQL injection, XSS, and DDoS attacks  -  with prevention strategies.",
-            url: "https://uxsites.co.uk/wordpress-help/wordpress-hacked",
+            url: "https://uxsites.co.uk/wordpress-help/wordpress-hacked/",
             category: "WordPress Security Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help" },
-            { name: "Why WordPress Websites Get Hacked", url: "https://uxsites.co.uk/wordpress-help/wordpress-hacked" },
+            { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
+            { name: "Why WordPress Websites Get Hacked", url: "https://uxsites.co.uk/wordpress-help/wordpress-hacked/" },
           ]),
           faqSchema(hackedFaqs),
         ]}

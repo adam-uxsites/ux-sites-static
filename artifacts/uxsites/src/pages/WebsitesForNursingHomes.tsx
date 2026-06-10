@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForNursingHomes() {
   return (
     <>
-      <SEO title="Websites for Care Homes & Nursing Homes | UX Sites Shropshire" description="A warm, reassuring website for care homes and nursing homes. Help families make informed decisions and attract residents across Shropshire." url="https://uxsites.co.uk/websites-for-nursing-homes" schema={[
-        serviceSchema({ name: "Websites for Nursing Homes", description: "Professional websites for care homes, nursing homes, and assisted living facilities. Care type pages, virtual tours, admissions info, and local SEO.", url: "https://uxsites.co.uk/websites-for-nursing-homes", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Nursing Homes", url: "https://uxsites.co.uk/websites-for-nursing-homes" }]),
+      <SEO title="Websites for Care Homes & Nursing Homes | UX Sites Shropshire" description="A warm, reassuring website for care homes and nursing homes. Help families make informed decisions and attract residents across Shropshire." url="https://uxsites.co.uk/websites-for-nursing-homes/" schema={[
+        serviceSchema({ name: "Websites for Nursing Homes", description: "Professional websites for care homes, nursing homes, and assisted living facilities. Care type pages, virtual tours, admissions info, and local SEO.", url: "https://uxsites.co.uk/websites-for-nursing-homes/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Nursing Homes", url: "https://uxsites.co.uk/websites-for-nursing-homes/" }]),
         faqSchema([
           { question: "Our care team is focused on residents — who manages our website?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while your team focuses on your residents." },
           { question: "Can families take a virtual tour before visiting?", answer: "Yes. We can create a virtual tour or extensive photo gallery so families can explore your facilities from anywhere." },

@@ -53,18 +53,18 @@ export default function WebsitesForBuilders() {
     <>
       <SEO
         title="Websites for Builders & Construction | UX Sites Shropshire"
-        description="Get more local leads with a website built for builders and construction companies. Showcase your projects, demonstrate quality, and make it easy for customers in Shropshire to hire you."
-        url="https://uxsites.co.uk/websites-for-builders"
+        description="Get more local leads with a website for builders and construction companies. Showcase your projects and make it easy for Shropshire customers to hire you."
+        url="https://uxsites.co.uk/websites-for-builders/"
         schema={[
           serviceSchema({
             name: "Websites for Builders & Construction",
             description: "Professional websites for builders and construction companies. Portfolio showcases, service pages, local SEO, and mobile-first design to help you win more work.",
-            url: "https://uxsites.co.uk/websites-for-builders",
+            url: "https://uxsites.co.uk/websites-for-builders/",
             category: "Web Design",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Websites for Builders", url: "https://uxsites.co.uk/websites-for-builders" },
+            { name: "Websites for Builders", url: "https://uxsites.co.uk/websites-for-builders/" },
           ]),
           faqSchema([
             {

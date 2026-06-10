@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForEstateAgents() {
   return (
     <>
-      <SEO title="Websites for Estate Agents | UX Sites Shropshire" description="Dominate local property search with a website built for estate agents. Showcase listings, attract vendors, and generate more instructions across Shropshire." url="https://uxsites.co.uk/websites-for-estate-agents" schema={[
-        serviceSchema({ name: "Websites for Estate Agents", description: "Professional websites for estate agents and letting agencies. Property listings, vendor attraction, local SEO, and mobile-first design.", url: "https://uxsites.co.uk/websites-for-estate-agents", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Estate Agents", url: "https://uxsites.co.uk/websites-for-estate-agents" }]),
+      <SEO title="Websites for Estate Agents | UX Sites Shropshire" description="Dominate local property search with a website built for estate agents. Showcase listings, attract vendors, and generate more instructions across Shropshire." url="https://uxsites.co.uk/websites-for-estate-agents/" schema={[
+        serviceSchema({ name: "Websites for Estate Agents", description: "Professional websites for estate agents and letting agencies. Property listings, vendor attraction, local SEO, and mobile-first design.", url: "https://uxsites.co.uk/websites-for-estate-agents/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Estate Agents", url: "https://uxsites.co.uk/websites-for-estate-agents/" }]),
         faqSchema([
           { question: "Who manages my website while I'm out on viewings?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site stays live and professional while you focus on selling." },
           { question: "Can I easily add new property listings myself?", answer: "Yes. We build on WordPress so you can add new listings, photos, and details yourself. We'll show you how during handover, and we're here if you need support." },

@@ -55,18 +55,18 @@ export default function WordPressMigration() {
       <SEO
         title="WordPress Migration to Managed Hosting | UX Sites"
         description="Moving your WordPress site to managed hosting  -  simple, safe, and stress-free. Learn how migration works, what to expect, and how we handle the entire process for you."
-        url="https://uxsites.co.uk/wordpress-migration-to-managed-hosting"
+        url="https://uxsites.co.uk/wordpress-migration-to-managed-hosting/"
         schema={[
           serviceSchema({
             name: "WordPress Migration to Managed Hosting",
             description: "Moving your WordPress site to managed hosting should be simple, safe, and low stress. Learn about the migration process.",
-            url: "https://uxsites.co.uk/wordpress-migration-to-managed-hosting",
+            url: "https://uxsites.co.uk/wordpress-migration-to-managed-hosting/",
             category: "WordPress Migration",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Migration to Managed Hosting", url: "https://uxsites.co.uk/wordpress-migration-to-managed-hosting" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Migration to Managed Hosting", url: "https://uxsites.co.uk/wordpress-migration-to-managed-hosting/" },
           ]),
           faqSchema([
             { question: "Will there be downtime during the migration?", answer: "No  -  we manage the migration with zero planned downtime. Your old site stays live until the new one is confirmed working and DNS has propagated. Visitors won't notice any interruption." },

@@ -65,13 +65,13 @@ export default function WordPressHostingStMartins() {
     <>
       <SEO
         title="Managed WordPress Hosting St. Martins | From £50/month | UX Sites"
-        description="Stress-free managed WordPress hosting for St. Martins businesses from £50/month. Daily backups, security monitoring, expert support and 99.9% uptime. Serving St. Martins, Oswestry, Gobowen and across North Shropshire."
-        url="https://uxsites.co.uk/wordpress-hosting-st-martins"
+        description="Managed WordPress hosting for St. Martins businesses from £50/month. Daily backups, security, performance optimisation, and expert support included."
+        url="https://uxsites.co.uk/wordpress-hosting-st-martins/"
         schema={[
           serviceSchema({
             name: "Managed WordPress Hosting St. Martins",
             description: "Managed WordPress hosting for St. Martins businesses from £50/month. Daily backups, malware scanning, plugin updates, performance optimisation, SSL, and local expert support serving St. Martins and surrounding areas.",
-            url: "https://uxsites.co.uk/wordpress-hosting-st-martins",
+            url: "https://uxsites.co.uk/wordpress-hosting-st-martins/",
             category: "Managed WordPress Hosting",
             price: "50",
             priceCurrency: "GBP",
@@ -79,8 +79,8 @@ export default function WordPressHostingStMartins() {
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
-            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting" },
-            { name: "WordPress Hosting St. Martins", url: "https://uxsites.co.uk/wordpress-hosting-st-martins" },
+            { name: "Managed WordPress Hosting", url: "https://uxsites.co.uk/managed-wordpress-hosting/" },
+            { name: "WordPress Hosting St. Martins", url: "https://uxsites.co.uk/wordpress-hosting-st-martins/" },
           ]),
         ]}
       />

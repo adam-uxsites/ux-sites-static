@@ -29,9 +29,9 @@ const serviceAreas = [
 export default function WebsitesForTanningStudios() {
   return (
     <>
-      <SEO title="Websites for Tanning Studios | UX Sites Shropshire" description="Showcase your tanning results and attract more bookings with a fresh, professional website. Built for spray tan and sunbed studios across Shropshire." url="https://uxsites.co.uk/websites-for-tanning-studios" schema={[
-        serviceSchema({ name: "Websites for Tanning Studios", description: "Professional websites for tanning studios and spray tan technicians. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tanning-studios", category: "Web Design" }),
-        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tanning Studios", url: "https://uxsites.co.uk/websites-for-tanning-studios" }]),
+      <SEO title="Websites for Tanning Studios | UX Sites Shropshire" description="Showcase your tanning results and attract more bookings with a fresh, professional website. Built for spray tan and sunbed studios across Shropshire." url="https://uxsites.co.uk/websites-for-tanning-studios/" schema={[
+        serviceSchema({ name: "Websites for Tanning Studios", description: "Professional websites for tanning studios and spray tan technicians. Portfolio galleries, price lists, online booking, and local SEO.", url: "https://uxsites.co.uk/websites-for-tanning-studios/", category: "Web Design" }),
+        breadcrumbSchema([{ name: "Home", url: "https://uxsites.co.uk/" }, { name: "Websites for Tanning Studios", url: "https://uxsites.co.uk/websites-for-tanning-studios/" }]),
         faqSchema([
           { question: "Who manages my website when I'm busy with clients?", answer: "We do. Our managed hosting service (£50/month) covers updates, security, backups, and performance. Your site runs itself while you focus on your clients." },
           { question: "Can clients book appointments through the website?", answer: "Yes. We can integrate online booking or link to your existing booking system so clients can check availability and book without picking up the phone." },
