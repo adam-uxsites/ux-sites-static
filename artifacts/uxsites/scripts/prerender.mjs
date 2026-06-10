@@ -141,7 +141,7 @@ blogSlugs.forEach(slug => routes.push(`/blog/${slug}/`));
 function generateSitemap(allRoutes) {
   const urls = allRoutes.map(route => {
     const urlPath = route === "/" ? "/" : `${route}/`;
-    const escaped = urlPath.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, /"&quot;");
+    const escaped = urlPath.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     return `  <url>\n    <loc>${SITE_URL}${escaped}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>${route === "/" ? "1.0" : "0.7"}</priority>\n  </url>`;
   }).join("\n");
 
