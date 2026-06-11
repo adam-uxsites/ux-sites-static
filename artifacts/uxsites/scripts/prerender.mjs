@@ -142,6 +142,7 @@ const blogSlugs = [
   "why-your-wordpress-website-keeps-breaking",
   "wordpress-security-essentials",
   "wordpress-security-guide",
+  "agent-ready-website-level-5",
 ];
 
 blogSlugs.forEach(slug => routes.push(`/blog/${slug}/`));

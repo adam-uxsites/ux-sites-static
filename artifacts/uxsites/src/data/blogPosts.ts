@@ -11,6 +11,66 @@
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "agent-ready-website-level-5",
+    title: "UX Sites Reaches Level 5 (Agent-Native) on isitagentready.com",
+    excerpt: "We've achieved the highest score on isitagentready.com, meaning uxsites.co.uk is fully optimised for AI agents. Here's what we did and why it matters for your business.",
+    date: "11 June 2026",
+    category: "Technology",
+    readTime: "5 min read",
+    image: "/blog/agent-ready.svg",
+    content: `
+## What is isitagentready.com?
+
+[isitagentready.com](https://isitagentready.com) is a new benchmarking tool that scores websites on how well they support AI agents  -  from search engine crawlers and ChatGPT to autonomous shopping bots and AI assistants. It tests across five levels, from basic crawlability to full agent-native capability.
+
+We recently put uxsites.co.uk through the benchmark and achieved **Level 5 (Agent-Native)**  -  the highest possible score. Here's how we got there and why every business should care about agent readiness.
+
+## The Five Levels
+
+The benchmark tests for five progressive levels of agent support:
+
+- **Level 1 (Crawlable)**  -  Standard SEO basics: robots.txt, sitemap, meta tags
+- **Level 2 (Agent-Readable)**  -  Structured data, clear content semantics, accessibility
+- **Level 3 (Discoverable)**  -  API documentation, web bot auth patterns, Link headers
+- **Level 4 (Interoperable)**  -  Agent Cards, MCP servers, OAuth, content negotiation
+- **Level 5 (Agent-Native)**  -  Full agent protocol support, A2A, commerce agent APIs
+
+The tool also includes optional checks for APIs, MCP servers, and e-commerce — categories that only apply to sites offering those services. For a business website like uxsites.co.uk, those checks are toggled off, and the score reflects only the relevant criteria. With all applicable checks passing, we achieved **Level 5 (Agent-Native)** — the highest possible score for our site type.
+
+## What We Implemented
+
+Here's what it took to reach Level 5 on uxsites.co.uk:
+
+**Link headers for agent discovery.** We added RFC 8288 Link headers to every page, telling agents where to find our service documentation and API descriptions. This is the agent equivalent of a sitemap.
+
+**DNS-AID records.** We published DNS-AID TXT records so agents can discover our site's agent capabilities at the DNS level before making a single HTTP request.
+
+**Markdown content negotiation.** Our pages now serve both HTML and Markdown representations. Agents that prefer Markdown receive it automatically, making content extraction dramatically simpler and more reliable.
+
+**Content Signals.** We added agent-specific directives to robots.txt that tell AI crawlers exactly what to index and how to interact with our content.
+
+**Structured data.** Our pages use Schema.org markup throughout, making it easy for agents to extract business information, articles, FAQs, and local business details.
+
+## Why This Matters
+
+AI agents aren't coming  -  they're already here. ChatGPT browses the web. Perplexity fetches live data. Shopping bots compare prices across stores. Google's AI Overviews pull content from websites directly.
+
+Every business with an online presence will need to be agent-ready, just as every business needed a mobile-responsive site a decade ago. The shift from human-only browsing to human-plus-agent browsing is already underway.
+
+For our clients, this means:
+- **Better visibility in AI search results**  -  agents can find and understand your content
+- **Direct agent-driven transactions**  -  autonomous shopping agents can buy from your store
+- **Future-proofed infrastructure**  -  as AI adoption grows, your site won't be left behind
+
+## What's Next
+
+We're continuing to track the isitagentready.com benchmark as it evolves. The goalposts will move as AI agents become more sophisticated, but the foundation we've built means uxsites.co.uk will stay ahead of the curve.
+
+**Is your website ready for AI agents?** [Get in touch](/contact/) to discuss making your site agent-native, or check your own score at [isitagentready.com](https://isitagentready.com).
+    `
+  },
+
+  {
     slug: "why-managed-wordpress-hosting",
     title: "Why Managed WordPress Hosting is Essential for UK Businesses",
     excerpt: "Discover the hidden costs of cheap hosting and why a managed solution is the smartest investment you can make for your online presence.",
@@ -1461,6 +1521,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   Security: "#FB923C",
   "E-commerce": "#FBBF24",
   "Web Design": "#A78BFA",
+  "Technology": "#818CF8",
 };
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
