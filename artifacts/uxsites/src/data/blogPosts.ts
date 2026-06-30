@@ -1511,6 +1511,136 @@ Whether you choose Shopify or WooCommerce, [we can build your online store](/new
 [Get in touch](/contact/) for a free consultation about your ecommerce project.
     `
   },
+
+  {
+    slug: "website-interaction-tracking",
+    title: "Website Interaction Tracking: Smarter Decisions, Better Results",
+    excerpt: "Learn how website interaction tracking helps you understand user clicks, scroll depth, and form engagement. Make data-driven decisions and improve conversions with real user behaviour data.",
+    date: "30 June 2026",
+    category: "Analytics",
+    readTime: "7 min read",
+    image: "/blog/interaction-tracking.svg",
+    content: `
+## Why Standard Analytics Is Not Enough
+
+Almost every business website has some form of analytics installed. Google Analytics, or something similar. You can see how many people visited yesterday, which pages they landed on, and roughly how long they stayed. Maybe you have set up goals to track form submissions or button clicks.
+
+That is a good start. But it is not enough to make confident decisions.
+
+Standard analytics tells you **what** happened, but not **why**. You can see that 500 people visited your pricing page last month, but you cannot see:
+- Which ones scrolled all the way to the bottom
+- Which ones clicked your "Get Started" button and then changed their minds
+- Where in your contact form people stopped filling it in
+- Which sections of your homepage are actually being seen versus ignored
+
+This is the analytics gap. And it is why so many website changes are based on hunches rather than evidence.
+
+## What Most Businesses Track vs What They Miss
+
+The typical analytics setup covers a few essential metrics but leaves a massive blind spot:
+
+**Page views and sessions.** How many people visited, and how many pages did they look at? Useful for understanding overall traffic, but it tells you nothing about whether those visits were meaningful or frustrating.
+
+**Landing pages.** Which pages are people entering through? This helps with SEO and marketing attribution. But it stops at the doorway.
+
+**Key events and conversions.** Form submissions, purchases, phone calls. These are the outcomes you care about. But conversion analytics alone cannot tell you why the people who did not convert dropped off.
+
+The missing layer is **interaction analytics** -- understanding what people actually do on each page before they leave or convert. This is where [conversion tracking setup](/conversion-tracking-setup/) comes in, bridging the gap between traffic data and real user behaviour.
+
+## What Website Interaction Tracking Reveals
+
+Website interaction tracking captures detailed behaviour at the page level. Here is what it measures and why it matters for your business:
+
+**Element-level clicks.** Which buttons, links, images, and UI elements are people actually clicking? You might discover that a prominent button you thought was clear is barely being touched, while an unexpected link in your footer is getting heavy use. This data lets you optimise layout and call-to-action placement based on real behaviour, not assumptions.
+
+**Scroll depth tracking.** How far down each page do users scroll? If 80% of your visitors never make it past the first screen on your pricing page, the most important information needs to move up. Scroll tracking reveals whether your content is reaching your audience or disappearing below the fold.
+
+**Form engagement and abandonment.** Where in your forms do people stop? Which fields cause hesitation or abandonment? A contact form with 12 fields might lose 60% of users before they finish. Interaction analytics shows you the exact point of friction -- whether it is a confusing label, a required field people do not want to fill in, or a validation error that appears too late.
+
+**Funnel progression analysis.** For multi-step processes -- a quote request, a booking flow, a checkout -- you can see exactly where people drop off at each step. If you lose 40% of users between step 2 and step 3 of a four-step funnel, you know exactly where to investigate.
+
+**Hover and attention patterns.** On desktop, you can see where users hover their mouse (which tends to follow their gaze). This reveals which parts of a page are drawing attention and which are being skipped entirely.
+
+## How Interaction Tracking Improves Business Decision Making
+
+When you have interaction data, your decisions shift from opinion-based to evidence-based. Here is how that plays out in practice:
+
+**Design changes become testable.** Instead of redesigning a page based on what feels right or what a stakeholder prefers, you can measure whether the new version actually improves engagement. Does the new button placement get more clicks? Do users scroll further down the page? You will know within days, not months.
+
+**Content decisions get objective.** You might think your hero section is compelling, but interaction data might show that nobody is clicking your primary call to action. You can test messaging variations and see which one drives real engagement, measured in clicks and scrolls, not just page views.
+
+**Friction points become visible.** The biggest benefit of interaction tracking is finding problems you did not know existed. A form field that confuses everyone. A button that looks like a heading. A page section that loads late and gets missed entirely. These issues cost you conversions every day, but standard analytics never surfaces them. A [website UX audit](/website-ux-audit/) combined with interaction data is the most effective way to uncover these issues.
+
+**ROI calculations get precise.** When you can connect specific interactions -- clicking a particular button, scrolling past a certain point -- to eventual conversions, you understand exactly which elements of your site drive value. You can prioritise design and content investments based on what actually works.
+
+## The Statistical Foundation of Interaction Analytics
+
+The real power comes when you have enough data to be statistically confident in your findings. A single user's behaviour might be an outlier. But when 200 out of 1,000 users click a particular element and 40% of those go on to convert, you have a statistically significant signal that guides your decisions.
+
+Website interaction tracking turns your website into a continuous feedback loop:
+- You make a change
+- You measure how users interact with it
+- You compare interaction patterns against conversion data
+- You learn what works and iterate
+
+Without interaction tracking, you are running that loop blind -- making changes and hoping for the best, without knowing whether they helped or hurt.
+
+## Interaction Tracking for Local Businesses in Shropshire and the UK
+
+For small and medium businesses in Shropshire, Chester, Wrexham, and across the UK, interaction tracking is particularly valuable. Unlike large enterprises with dedicated analytics teams, most local businesses rely on simple analytics setups that provide surface-level data.
+
+A local service business -- a plumber in Telford, an estate agent in Shrewsbury, or a cafe in Oswestry -- might be spending money on website changes without knowing whether those changes actually help. Interaction tracking gives these businesses the same data-driven advantage that large corporations have, without requiring a dedicated analytics team.
+
+The insights are especially powerful when paired with proper [Google Analytics setup](/google-analytics-setup/) and event tracking tailored to your specific business goals.
+
+## A Practical Example of Interaction Tracking in Action
+
+Let us say you run a service business and your website has a "Get a Quote" button, a phone number, and a contact form. Standard analytics shows you get 100 visitors a day, and 3 people submit the contact form. Not bad, but you want to improve.
+
+With interaction tracking, you discover:
+- Only 30% of visitors scroll past the hero section on mobile
+- The "Get a Quote" button is being clicked, but it links to a page that loads slowly, so most users give up
+- The contact form has a "Phone number" field that is marked required, and users are abandoning the form at that exact field
+- 15% of desktop users hover over the phone number but never click it (suggesting they are considering calling but need more reassurance)
+
+Each of these findings is actionable. Fix the mobile layout. Speed up the quote page. Make the phone number optional or move it later in the form. Add a testimonial near the phone number.
+
+Without interaction tracking, you would have none of this context. You might spend time and money redesigning the wrong page, or adding features nobody needs.
+
+## How to Set Up User Interaction Tracking
+
+Interaction tracking requires a tool that captures individual events at the page level. Here are the most common approaches:
+
+**Google Analytics 4 with enhanced measurement.** GA4 captures some interaction data out of the box -- scrolls, outbound clicks, site search, video engagement. But it is limited in scope and requires careful event configuration for custom elements. A properly configured [Google Analytics setup](/google-analytics-setup/) is the foundation.
+
+**Heatmap and session recording tools.** Services like Hotjar, Crazy Egg, and Microsoft Clarity provide visual heatmaps of clicks and scrolls, plus session recordings that let you watch real users navigate your site. These are invaluable for qualitative analysis but harder to quantify at scale.
+
+**Custom event tracking.** Setting up specific events in Google Tag Manager or your analytics platform gives you precise control over what you measure. You define exactly which elements to track and what counts as a meaningful interaction.
+
+**All-in-one analytics platforms.** Tools like Plausible, PostHog, or Mixpanel combine page-level analytics with event tracking in a single platform, making it easier to connect interactions with conversions.
+
+For most businesses, the right approach is a combination: [conversion tracking setup](/conversion-tracking-setup/) for ongoing measurement, plus heatmaps and session recordings for discovery.
+
+## Getting Started with Website Interaction Tracking
+
+If you do not currently track interactions on your website, the first step is simple: pick one page that matters most -- your pricing page, your contact page, or your primary landing page -- and set up interaction tracking on that page first. Watch for:
+
+- Where are people clicking that surprises you?
+- Where do people stop scrolling?
+- Which elements are being ignored entirely?
+- Is there a pattern in where people drop off?
+
+Once you have seen the data on one page, you will have a clear picture of what to prioritise next. Most businesses find that the first round of interaction data reveals obvious, fixable problems they had been overlooking for months or years.
+
+## The Bottom Line
+
+Every change you make to your website is a hypothesis. "If we move this button, more people will click it." "If we simplify this form, more people will complete it." "If we restructure this page, people will read further."
+
+Website interaction tracking is how you test those hypotheses with real data. Without it, you are guessing. With it, you are iterating toward a website that actually works for your visitors -- and for your business.
+
+If you would like help setting up interaction tracking on your website, [get in touch](/contact/). We will help you understand what your users are actually doing and turn that data into better decisions.
+    `
+  },
 ];
 
 export const CATEGORY_COLORS: Record<string, string> = {
@@ -1522,6 +1652,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   "E-commerce": "#FBBF24",
   "Web Design": "#A78BFA",
   "Technology": "#818CF8",
+  "Analytics": "#48C9B0",
 };
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

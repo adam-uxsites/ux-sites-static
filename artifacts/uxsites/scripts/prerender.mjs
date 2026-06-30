@@ -143,6 +143,7 @@ const blogSlugs = [
   "wordpress-security-essentials",
   "wordpress-security-guide",
   "agent-ready-website-level-5",
+  "website-interaction-tracking",
 ];
 
 blogSlugs.forEach(slug => routes.push(`/blog/${slug}/`));
