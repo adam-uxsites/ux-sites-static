@@ -69,6 +69,8 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border text-sm text-muted-foreground gap-4">
           <p>&copy; {new Date().getFullYear()} UX Sites. All rights reserved. Based in St. Martins, Oswestry, Shropshire.</p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 items-center">
+            <Link href="/resources/" className="hover:text-primary transition-colors">Resources</Link>
+            <span className="text-border hidden sm:inline">•</span>
             <Link href="/privacy-policy/" className="hover:text-primary transition-colors">Privacy</Link>
             <span className="text-border hidden sm:inline">•</span>
             <Link href="/terms-of-service/" className="hover:text-primary transition-colors">Terms</Link>

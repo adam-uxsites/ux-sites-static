@@ -89,7 +89,7 @@ export default function FreeGA4Review() {
         ]}
       />
       <main>
-        <section className="pt-32 pb-16 md:pt-44 md:pb-20 overflow-hidden relative">
+        <section className="pt-10 pb-16 md:pt-14 md:pb-20 overflow-hidden relative">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="max-w-3xl">
               <motion.div

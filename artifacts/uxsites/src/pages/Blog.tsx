@@ -41,7 +41,7 @@ export default function Blog() {
         ]}
       />
       <main>
-        <section className="pt-32 pb-12 md:pt-44 md:pb-16">
+        <section className="pt-10 pb-12 md:pt-14 md:pb-16">
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="mb-4">
               <span className="inline-flex items-center rounded-full border border-border bg-card px-3 py-1 text-sm font-medium text-muted-foreground">

@@ -115,6 +115,8 @@ const routes = [
   "/free-ga4-review/",
   "/conversion-tracking-setup/",
   "/website-ux-audit/",
+  "/resources/",
+  "/resources/website-stats-quiz/",
 
   "/downtime-hack-calculator/",
   "/case-studies/",

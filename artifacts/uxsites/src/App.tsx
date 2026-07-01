@@ -119,6 +119,8 @@ const FreeGA4Review = lazy(() => import("@/pages/FreeGA4Review"));
 const ConversionTrackingSetup = lazy(() => import("@/pages/ConversionTrackingSetup"));
 const WebsiteUXAudit = lazy(() => import("@/pages/WebsiteUXAudit"));
 const DowntimeCalculator = lazy(() => import("@/pages/DowntimeCalculator"));
+const Resources = lazy(() => import("@/pages/Resources"));
+const WebsiteStatsQuiz = lazy(() => import("@/pages/WebsiteStatsQuiz"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
 const queryClient = new QueryClient();
@@ -255,6 +257,8 @@ function Router() {
           <Route path="/free-ga4-review/" component={FreeGA4Review} />
           <Route path="/conversion-tracking-setup/" component={ConversionTrackingSetup} />
           <Route path="/website-ux-audit/" component={WebsiteUXAudit} />
+          <Route path="/resources/website-stats-quiz/" component={WebsiteStatsQuiz} />
+          <Route path="/resources/" component={Resources} />
           <Route component={NotFound} />
         </Switch>
       </Suspense>

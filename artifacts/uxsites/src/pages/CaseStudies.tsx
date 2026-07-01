@@ -87,7 +87,7 @@ export default function CaseStudies() {
       />
       <main>
         {/* Hero */}
-        <section className="pt-32 pb-16 md:pt-44 md:pb-20">
+        <section className="pt-10 pb-16 md:pt-14 md:pb-20">
           <div className="container mx-auto px-4 max-w-4xl text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
               <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-6">

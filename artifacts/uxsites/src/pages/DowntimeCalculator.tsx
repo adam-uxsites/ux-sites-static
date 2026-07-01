@@ -52,7 +52,7 @@ export default function DowntimeCalculator() {
         ]}
       />
       <main>
-        <section className="pt-32 pb-16 md:pt-44">
+        <section className="pt-10 pb-16 md:pt-14">
           <div className="container mx-auto px-4 max-w-3xl text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
               <div className="inline-flex items-center rounded-full border border-border bg-card px-3 py-1 text-sm font-medium text-muted-foreground mb-8">

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#40ED88" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#40ED88" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#40ED88"/>
+      <stop offset="100%" stop-color="#40ED88" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="24" fill="url(#bg)"/>
+  <rect width="800" height="500" rx="24" fill="url(#glow)"/>
+
+  <rect x="60" y="40" width="680" height="420" rx="16" fill="#111" stroke="#232323" stroke-width="1"/>
+
+  <rect x="80" y="60" width="640" height="6" rx="3" fill="#232323"/>
+  <rect x="80" y="60" width="320" height="6" rx="3" fill="url(#progress)"/>
+
+  <text x="400" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">
+    Do you track user behaviour across sessions?
+  </text>
+
+  <rect x="100" y="155" width="600" height="52" rx="10" fill="#1a1a1a" stroke="#232323" stroke-width="1"/>
+  <circle cx="130" cy="181" r="14" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="130" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#555" text-anchor="middle">A</text>
+  <text x="160" y="187" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#999">
+    Yes, I use user IDs or cross-session tracking
+  </text>
+
+  <rect x="100" y="217" width="600" height="52" rx="10" fill="#40ED88" fill-opacity="0.08" stroke="#40ED88" stroke-width="1.5"/>
+  <circle cx="130" cy="243" r="14" fill="#40ED88" stroke="none"/>
+  <text x="130" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="black" text-anchor="middle">B</text>
+  <text x="160" y="249" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#ddd">
+    I look at returning versus new visitor stats
+  </text>
+
+  <rect x="100" y="279" width="600" height="52" rx="10" fill="#1a1a1a" stroke="#232323" stroke-width="1"/>
+  <circle cx="130" cy="305" r="14" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="130" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#555" text-anchor="middle">C</text>
+  <text x="160" y="311" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#999">
+    I do not track across sessions
+  </text>
+
+  <rect x="100" y="341" width="600" height="52" rx="10" fill="#1a1a1a" stroke="#232323" stroke-width="1"/>
+  <circle cx="130" cy="367" r="14" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="130" y="372" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#555" text-anchor="middle">D</text>
+  <text x="160" y="373" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#999">
+    What does cross-session tracking mean?
+  </text>
+
+  <text x="100" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#555">
+    Question 13 of 15
+  </text>
+  <text x="700" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#555" text-anchor="end">
+    86% complete
+  </text>
+</svg>

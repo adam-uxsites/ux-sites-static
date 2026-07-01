@@ -21,7 +21,7 @@ export default function TermsOfService() {
         ]}
       />
       <main>
-        <section className="pt-32 pb-16 md:pt-44">
+        <section className="pt-10 pb-16 md:pt-14">
           <div className="container mx-auto px-4 max-w-3xl">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
               <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Terms of Service</h1>

@@ -15,7 +15,7 @@ export default function CaseStudyPage() {
     return (
       <>
         <SEO title="Case Study Not Found | UX Sites" noindex />
-        <main className="pt-32 pb-20">
+        <main className="pt-10 pb-20 md:pt-14">
           <div className="container mx-auto px-4 max-w-3xl text-center">
             <h1 className="text-3xl font-bold mb-4">Case study not found</h1>
             <p className="text-muted-foreground mb-8">The case study you're looking for doesn't exist or has been moved.</p>

@@ -126,7 +126,7 @@ export default function SitemapPage() {
         ]}
       />
       <main>
-        <section className="pt-32 pb-20 md:pt-44">
+        <section className="pt-10 pb-20 md:pt-14">
           <div className="container mx-auto px-4 max-w-4xl">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
               <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-8">Sitemap</h1>
