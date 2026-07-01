@@ -9,6 +9,8 @@ interface Question {
   id: number;
   text: string;
   options: { label: string; value: number }[];
+  strength: string;
+  tip: string;
 }
 
 interface Tier {
@@ -24,147 +26,169 @@ interface Tier {
 const QUESTIONS: Question[] = [
   {
     id: 1,
-    text: "Do you have analytics tracking set up on your website?",
+    text: "How often do you check your website analytics?",
     options: [
-      { label: "Yes, properly configured with goals and events", value: 3 },
-      { label: "Yes, a basic setup but no goals or events", value: 2 },
-      { label: "I think so  -  it was installed by someone else", value: 1 },
-      { label: "No analytics at all", value: 0 },
+      { label: "Daily. Numbers are life.", value: 3 },
+      { label: "Weekly. It is in my routine.", value: 2 },
+      { label: "Monthly. Usually when someone asks me.", value: 1 },
+      { label: "Once a year, maybe?", value: 0 },
     ],
+    strength: "You check your analytics regularly - great habit for staying on top of your data.",
+    tip: "Try checking your analytics at least weekly to spot trends and opportunities early.",
   },
   {
     id: 2,
     text: "How well do you know your monthly website traffic?",
     options: [
-      { label: "I check it daily and track trends over time", value: 3 },
-      { label: "I have a rough idea from memory", value: 2 },
-      { label: "I could look it up if I had to", value: 1 },
-      { label: "I have no idea", value: 0 },
+      { label: "Down to the last visitor. Yes, I have a spreadsheet.", value: 3 },
+      { label: "I check it regularly and track trends", value: 2 },
+      { label: "I could log in and find out", value: 1 },
+      { label: "I have absolutely no idea", value: 0 },
     ],
+    strength: "You have a solid handle on your traffic numbers - essential for measuring growth.",
+    tip: "Set up a monthly traffic report so you can track trends over time.",
   },
   {
     id: 3,
     text: "How confident are you that your traffic numbers are real people?",
     options: [
       { label: "I actively filter bot and spam traffic", value: 3 },
-      { label: "I assume most visitors are real people", value: 1 },
-      { label: "I have never considered bot traffic", value: 0 },
+      { label: "Wait, some of them are BOTS?", value: 1 },
+      { label: "I have never considered it", value: 0 },
     ],
+    strength: "You actively filter out bot traffic - your data is cleaner and more reliable.",
+    tip: "Look into bot filtering in your analytics setup to get a clearer picture of real visitors.",
   },
   {
     id: 4,
-    text: "Do you know how many conversions your website actually generates?",
+    text: "Do you know how many conversions your website generates?",
     options: [
-      { label: "Full conversion tracking set up and reviewed regularly", value: 3 },
+      { label: "Full conversion tracking is my pride and joy", value: 3 },
       { label: "I track some conversions but not everything", value: 2 },
-      { label: "I count enquiries as they come in manually", value: 1 },
-      { label: "I genuinely do not know", value: 0 },
+      { label: "I count enquiries as they ping into my inbox", value: 1 },
+      { label: "No conversion tracking at all", value: 0 },
     ],
+    strength: "You track conversions closely - you know exactly what your website is delivering.",
+    tip: "Set up conversion tracking to measure what matters most for your business.",
   },
   {
     id: 5,
-    text: "Do you know which are your top-performing pages?",
+    text: "Do you know which pages on your site perform best?",
     options: [
-      { label: "Yes, I regularly review page performance metrics", value: 3 },
-      { label: "I have a general idea", value: 2 },
+      { label: "Yes, I review page performance like my fantasy football team", value: 3 },
+      { label: "I have a general idea which ones pull their weight", value: 2 },
       { label: "I could find out if I logged into analytics", value: 1 },
-      { label: "No idea", value: 0 },
+      { label: "I assume it is the homepage. Probably.", value: 0 },
     ],
+    strength: "You know your top-performing pages - this helps you double down on what works.",
+    tip: "Identify your top pages and optimise them further for even better performance.",
   },
   {
     id: 6,
-    text: "Do you know how far users scroll on your key pages?",
+    text: "Do you know how far users scroll on your pages?",
     options: [
-      { label: "Yes, I have scroll depth tracking set up", value: 3 },
-      { label: "I have a rough sense from the page layout", value: 1 },
-      { label: "I have never considered it", value: 0 },
+      { label: "Yes, I watch those scroll depth reports like a hawk", value: 3 },
+      { label: "I have a rough sense from the page layout", value: 2 },
+      { label: "Not far enough", value: 1 },
+      { label: "24.38%", value: 0 },
     ],
+    strength: "You track scroll depth - valuable insight into how users engage with your content.",
+    tip: "Set up scroll depth tracking to understand if users are seeing your key content.",
   },
   {
     id: 7,
-    text: "Do you know where users drop off in your forms or funnels?",
+    text: "Do you know where people drop off in your forms?",
     options: [
-      { label: "Yes, I track form abandonment and funnel progression", value: 3 },
-      { label: "I have a general sense from the enquiries I receive", value: 1 },
-      { label: "I assume everyone who starts completes the process", value: 0 },
+      { label: "Yes, I track form abandonment closely", value: 3 },
+      { label: "I know they do, but not why", value: 2 },
+      { label: "I assume if they start, they finish. Optimism!", value: 1 },
+      { label: "None of the spammers abandon my forms", value: 0 },
     ],
+    strength: "You track form abandonment - this is gold for fixing conversion leaks.",
+    tip: "Analyse where users drop off in your forms and simplify those friction points.",
   },
   {
     id: 8,
-    text: "Do you know which specific elements on your pages people click?",
+    text: "Do you know what people actually click on your site?",
     options: [
-      { label: "Yes, I use click tracking or heatmaps", value: 3 },
-      { label: "I have looked at it before but do not monitor it", value: 1 },
-      { label: "I have not thought about it", value: 0 },
+      { label: "Yes, heatmaps are my guilty pleasure", value: 3 },
+      { label: "I have a pretty good idea from experience", value: 1 },
+      { label: "I assume they click what I want them to click", value: 0 },
     ],
+    strength: "You use heatmaps or click tracking - knowing what users click helps refine your layout.",
+    tip: "Heatmaps and click tracking can reveal what users actually care about on your pages.",
   },
   {
     id: 9,
-    text: "Which best describes how you handle website changes?",
+    text: "How do you handle changes to your website?",
     options: [
-      { label: "I A/B test changes before rolling them out", value: 3 },
-      { label: "I make changes and monitor the impact afterwards", value: 2 },
-      { label: "I make changes and hope for the best", value: 1 },
-      { label: "I rarely make changes because I do not know what to improve", value: 0 },
+      { label: "A/B test everything. Science!", value: 3 },
+      { label: "Make changes and monitor the aftermath", value: 2 },
+      { label: "Make changes and cross my fingers", value: 1 },
+      { label: "If it isnt broke, I am not touching it", value: 0 },
     ],
+    strength: "You A/B test changes - data-driven decisions beat gut feelings every time.",
+    tip: "Try A/B testing your changes instead of guessing what will work best.",
   },
   {
     id: 10,
-    text: "Do you know which marketing channels drive your most valuable traffic?",
+    text: "Do you know which marketing channels actually work?",
     options: [
-      { label: "Yes, I track source and medium against conversions", value: 3 },
-      { label: "I know where people come from broadly", value: 2 },
-      { label: "I only look at total traffic numbers", value: 1 },
-      { label: "I have no channel tracking at all", value: 0 },
+      { label: "I track source and medium against conversions", value: 3 },
+      { label: "I know roughly where people come from", value: 2 },
+      { label: "I just look at the big number at the top", value: 1 },
+      { label: "Is a billboard still a channel?", value: 0 },
     ],
+    strength: "You track channel performance against conversions - this maximises your marketing ROI.",
+    tip: "Set up channel tracking to see which marketing channels drive your best traffic.",
   },
   {
     id: 11,
-    text: "Do you have call tracking set up on your website?",
+    text: "Do you track phone calls from your website?",
     options: [
-      { label: "Yes, with a dedicated call tracking solution", value: 3 },
-      { label: "I track click-to-call clicks on my site", value: 2 },
-      { label: "I just have a phone number listed on the site", value: 1 },
-      { label: "No phone number or call tracking at all", value: 0 },
+      { label: "Yes, with a dedicated call tracking setup", value: 3 },
+      { label: "I track click-to-call button clicks", value: 2 },
+      { label: "I have a number on the site and hope it rings", value: 1 },
+      { label: "I just let it go to voicemail", value: 0 },
     ],
-  },
-  {
-    id: 12,
-    text: "How often do you review your analytics data?",
-    options: [
-      { label: "Weekly or daily  -  it is part of my routine", value: 3 },
-      { label: "Monthly  -  I check in periodically", value: 2 },
-      { label: "Occasionally  -  when something feels off", value: 1 },
-      { label: "Rarely or never", value: 0 },
-    ],
+    strength: "You have call tracking in place - you know exactly how many phone leads come from your site.",
+    tip: "Consider call tracking to understand how many phone leads your website generates.",
   },
   {
     id: 13,
-    text: "Do you track user behaviour across multiple sessions?",
+    text: "Do you track what users do across multiple visits?",
     options: [
-      { label: "Yes, I use user IDs or cross-session tracking", value: 3 },
-      { label: "I look at returning versus new visitor stats", value: 1 },
-      { label: "I do not track across sessions", value: 0 },
+      { label: "Yes, I use cross-session tracking", value: 3 },
+      { label: "I glance at returning vs new visitor stats", value: 2 },
+      { label: "I know some people come back, but that is about it", value: 1 },
+      { label: "I assume everyone leaves and never returns", value: 0 },
     ],
+    strength: "You track behaviour across sessions - this reveals the full customer journey.",
+    tip: "Look into cross-session tracking to understand how users behave over time.",
   },
   {
     id: 14,
-    text: "Do you have automated analytics reports or dashboards?",
+    text: "Do you get automated analytics reports?",
     options: [
-      { label: "Yes, I get regular reports sent to me automatically", value: 3 },
-      { label: "I have a dashboard set up but check it manually", value: 2 },
-      { label: "I log in and pull reports when needed", value: 1 },
-      { label: "No reporting at all", value: 0 },
+      { label: "Yes, they arrive in my inbox like clockwork", value: 3 },
+      { label: "I have a dashboard but I have to wander over to it", value: 2 },
+      { label: "You can automate reports?", value: 1 },
+      { label: "You can get reports?", value: 0 },
     ],
+    strength: "Automated reports keep you informed without manual effort - smart setup.",
+    tip: "Set up automated reports so your data comes to you instead of the other way around.",
   },
   {
     id: 15,
-    text: "Do you segment your audience to understand different user behaviours?",
+    text: "Do you treat different types of visitors differently?",
     options: [
-      { label: "Yes, I regularly analyse different audience segments", value: 3 },
-      { label: "I have looked at segments once or twice", value: 1 },
-      { label: "I treat all visitors the same", value: 0 },
+      { label: "Yes, I segment and analyse like a Data Scientist", value: 3 },
+      { label: "I have glanced at segments once or twice", value: 2 },
+      { label: "All visitors are equal in the eyes of my website", value: 1 },
+      { label: "I assume every visitor is the same person... Me", value: 0 },
     ],
+    strength: "You segment your audience - personalised experiences drive better results.",
+    tip: "Start segmenting your visitors to tailor content and offers to different groups.",
   },
 ];
 
@@ -173,7 +197,7 @@ const TIERS: Tier[] = [
     id: "wandering",
     name: "Wandering in the Dark",
     min: 0,
-    max: 9,
+    max: 8,
     badge: "??",
     description: "You are flying blind when it comes to your website data. No judgment  -  most businesses start here. The good news is there is huge low-hanging fruit waiting for you. A basic analytics setup alone will transform what you know about your visitors.",
     summary: "Huge opportunities ahead. Let's get the basics in place.",
@@ -181,8 +205,8 @@ const TIERS: Tier[] = [
   {
     id: "curious",
     name: "The Curious Beginner",
-    min: 10,
-    max: 18,
+    min: 9,
+    max: 16,
     badge: "!",
     description: "You know analytics exists and you are starting to look at the numbers. A bit of structure could turn your curiosity into real, actionable insights. Focus on setting up goals and conversions to understand what is actually working.",
     summary: "Curiosity is the first step. Time to add some structure.",
@@ -190,8 +214,8 @@ const TIERS: Tier[] = [
   {
     id: "observer",
     name: "The Informed Observer",
-    min: 19,
-    max: 27,
+    min: 17,
+    max: 25,
     badge: "!!",
     description: "You know what is happening on your site. You check your numbers, understand your top pages, and have a handle on traffic. The next step is understanding why things are happening  -  not just what. Interaction tracking and funnel analysis will level you up.",
     summary: "You know the what. Next step: understanding the why.",
@@ -199,8 +223,8 @@ const TIERS: Tier[] = [
   {
     id: "data-driven",
     name: "The Data-Driven",
-    min: 28,
-    max: 36,
+    min: 26,
+    max: 33,
     badge: "!!!",
     description: "You are making informed decisions based on real data. Your website is working for you because you measure what matters and act on it. Keep pushing into advanced areas like audience segmentation, cross-session tracking, and automated reporting.",
     summary: "Solid foundation. Keep pushing into advanced analytics.",
@@ -208,8 +232,8 @@ const TIERS: Tier[] = [
   {
     id: "the-one",
     name: "The One",
-    min: 37,
-    max: 45,
+    min: 34,
+    max: 42,
     badge: "M",
     description: "You have achieved analytics enlightenment. Your website data is a well-oiled machine driving business decisions. From bot filtering to audience segments, you leave no metric unturned. You are the person others ask for analytics advice.",
     summary: "Analytics mastery. Your data works as hard as you do.",
@@ -250,7 +274,7 @@ function generateResultImage(tier: Tier, score: number): string {
 
   ctx.fillStyle = "#40ED88";
   ctx.font = "800 32px system-ui, -apple-system, sans-serif";
-  ctx.fillText(`${score} / 45`, 400, 275);
+  ctx.fillText(`${score} / 42`, 400, 275);
 
   ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
   ctx.font = "400 16px system-ui, -apple-system, sans-serif";
@@ -290,12 +314,16 @@ export default function WebsiteStatsQuiz() {
   const [copied, setCopied] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
   const [usedKeyboard, setUsedKeyboard] = useState(false);
+  const [showAllStrengths, setShowAllStrengths] = useState(false);
+  const [showAllImprovements, setShowAllImprovements] = useState(false);
   const resultRef = useRef<HTMLDivElement>(null);
   const shareRef = useRef<HTMLDivElement>(null);
 
   const score = answers.reduce((a, b) => a + b, 0);
   const tier = getTier(score);
   const progress = ((currentQuestion) / QUESTIONS.length) * 100;
+  const allStrengths = QUESTIONS.filter((_, i) => answers[i] >= 2);
+  const allImprovements = QUESTIONS.filter((_, i) => answers[i] < 2);
 
   const handleStart = useCallback(() => {
     setStep("quiz");
@@ -306,12 +334,7 @@ export default function WebsiteStatsQuiz() {
   }, []);
 
   const handleAnswer = useCallback((value: number) => {
-    setSelectedOption(value);
-  }, []);
-
-  const handleNext = useCallback(() => {
-    if (selectedOption === null) return;
-    const newAnswers = [...answers, selectedOption];
+    const newAnswers = [...answers, value];
     setAnswers(newAnswers);
     setSelectedOption(null);
 
@@ -320,7 +343,7 @@ export default function WebsiteStatsQuiz() {
     } else {
       setStep("results");
     }
-  }, [selectedOption, answers, currentQuestion]);
+  }, [answers, currentQuestion]);
 
   const handleBack = useCallback(() => {
     if (currentQuestion > 0) {
@@ -337,6 +360,8 @@ export default function WebsiteStatsQuiz() {
     setAnswers([]);
     setSelectedOption(null);
     setUsedKeyboard(false);
+    setShowAllStrengths(false);
+    setShowAllImprovements(false);
   }, []);
 
   const handleCopyResult = useCallback(() => {
@@ -409,16 +434,13 @@ export default function WebsiteStatsQuiz() {
         const idx = key.charCodeAt(0) - 97;
         const options = QUESTIONS[currentQuestion].options;
         if (idx < options.length) {
-          setSelectedOption(options[idx].value);
+          handleAnswer(options[idx].value);
         }
-      }
-      if (key === "enter" && selectedOption !== null) {
-        handleNext();
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [step, currentQuestion, selectedOption, handleNext]);
+  }, [step, currentQuestion, handleAnswer]);
 
   return (
     <>
@@ -507,6 +529,10 @@ export default function WebsiteStatsQuiz() {
                     </div>
                   </div>
 
+                  <h2 className="text-2xl md:text-3xl font-bold mb-8 leading-snug">
+                    {QUESTIONS[currentQuestion].text}
+                  </h2>
+
                   <AnimatePresence mode="wait">
                     <motion.div
                       key={currentQuestion}
@@ -515,9 +541,6 @@ export default function WebsiteStatsQuiz() {
                       exit={{ opacity: 0, x: -40 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <h2 className="text-2xl md:text-3xl font-bold mb-8 leading-snug">
-                        {QUESTIONS[currentQuestion].text}
-                      </h2>
 
                       <div className="space-y-3 mb-10">
                         {QUESTIONS[currentQuestion].options.map((option, idx) => (
@@ -550,13 +573,7 @@ export default function WebsiteStatsQuiz() {
                     </motion.div>
                   </AnimatePresence>
 
-                  {!usedKeyboard && (
-                    <p className="hidden md:block text-xs text-muted-foreground/40 text-center mb-6">
-                      Did you know? You can also press A-D to select your answers
-                    </p>
-                  )}
-
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-center justify-start">
                     <button
                       onClick={handleBack}
                       disabled={currentQuestion === 0}
@@ -564,24 +581,6 @@ export default function WebsiteStatsQuiz() {
                     >
                       <ArrowLeft size={15} />
                       Back
-                    </button>
-
-                    <button
-                      onClick={handleNext}
-                      disabled={selectedOption === null}
-                      className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 font-bold hover:opacity-90 transition-opacity disabled:opacity-30 disabled:cursor-not-allowed"
-                    >
-                      {currentQuestion < QUESTIONS.length - 1 ? (
-                        <>
-                          Next
-                          <ArrowRight size={18} className="ml-2" />
-                        </>
-                      ) : (
-                        <>
-                          See My Results
-                          <ArrowRight size={18} className="ml-2" />
-                        </>
-                      )}
                     </button>
                   </div>
                 </motion.div>
@@ -627,6 +626,66 @@ export default function WebsiteStatsQuiz() {
                     <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto">
                       {tier.description}
                     </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 text-left">
+                      <div className="bg-card border border-border rounded-2xl p-5">
+                        <h3 className="text-sm font-bold text-primary uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                          What You Are Doing Well
+                        </h3>
+                        {allStrengths.length === 0 ? (
+                          <p className="text-sm text-muted-foreground">Keep going - every expert started somewhere!</p>
+                        ) : (
+                          <>
+                            <ul className="space-y-2">
+                              {(showAllStrengths ? allStrengths : allStrengths.slice(0, 3)).map((q) => (
+                                <li key={q.id} className="text-sm text-muted-foreground flex items-start gap-2">
+                                  <span className="text-primary shrink-0 mt-0.5">+</span>
+                                  {q.strength}
+                                </li>
+                              ))}
+                            </ul>
+                            {allStrengths.length > 3 && (
+                              <button
+                                onClick={() => setShowAllStrengths(!showAllStrengths)}
+                                className="text-xs text-primary hover:text-primary/80 transition-colors mt-3"
+                              >
+                                {showAllStrengths ? "Show less" : `Show all (${allStrengths.length})`}
+                              </button>
+                            )}
+                          </>
+                        )}
+                      </div>
+
+                      <div className="bg-card border border-border rounded-2xl p-5">
+                        <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-3 flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/50"></span>
+                          Things to Improve
+                        </h3>
+                        {allImprovements.length === 0 ? (
+                          <p className="text-sm text-muted-foreground">Nothing - you are an analytics legend!</p>
+                        ) : (
+                          <>
+                            <ul className="space-y-2">
+                              {(showAllImprovements ? allImprovements : allImprovements.slice(0, 3)).map((q) => (
+                                <li key={q.id} className="text-sm text-muted-foreground flex items-start gap-2">
+                                  <span className="text-muted-foreground/50 shrink-0 mt-0.5">-</span>
+                                  {q.tip}
+                                </li>
+                              ))}
+                            </ul>
+                            {allImprovements.length > 3 && (
+                              <button
+                                onClick={() => setShowAllImprovements(!showAllImprovements)}
+                                className="text-xs text-primary hover:text-primary/80 transition-colors mt-3"
+                              >
+                                {showAllImprovements ? "Show less" : `Show all (${allImprovements.length})`}
+                              </button>
+                            )}
+                          </>
+                        )}
+                      </div>
+                    </div>
 
                     <div className="bg-card border border-border rounded-2xl p-6 mb-10">
                       <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-4">
