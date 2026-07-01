@@ -53,8 +53,9 @@ const QUESTIONS: Question[] = [
     text: "How confident are you that your traffic numbers are real people?",
     options: [
       { label: "I actively filter bot and spam traffic", value: 3 },
-      { label: "Wait, some of them are BOTS?", value: 1 },
-      { label: "I have never considered it", value: 0 },
+      { label: "I know bots exist but I am not convinced I have filtered them properly", value: 2 },
+      { label: "Wait... some of them are bots?", value: 1 },
+      { label: "I assumed every visit was a potential customer", value: 0 },
     ],
     strength: "You actively filter out bot traffic - your data is cleaner and more reliable.",
     tip: "Look into bot filtering in your analytics setup to get a clearer picture of real visitors.",
@@ -112,8 +113,9 @@ const QUESTIONS: Question[] = [
     text: "Do you know what people actually click on your site?",
     options: [
       { label: "Yes, heatmaps are my guilty pleasure", value: 3 },
-      { label: "I have a pretty good idea from experience", value: 1 },
-      { label: "I assume they click what I want them to click", value: 0 },
+      { label: "I check click reports occasionally", value: 2 },
+      { label: "I have a pretty good guess", value: 1 },
+      { label: "I assume they click the giant button", value: 0 },
     ],
     strength: "You use heatmaps or click tracking - knowing what users click helps refine your layout.",
     tip: "Heatmaps and click tracking can reveal what users actually care about on your pages.",
@@ -149,7 +151,7 @@ const QUESTIONS: Question[] = [
       { label: "Yes, with a dedicated call tracking setup", value: 3 },
       { label: "I track click-to-call button clicks", value: 2 },
       { label: "I have a number on the site and hope it rings", value: 1 },
-      { label: "I just let it go to voicemail", value: 0 },
+      { label: "If the phone rings, that is all the reporting I need", value: 0 },
     ],
     strength: "You have call tracking in place - you know exactly how many phone leads come from your site.",
     tip: "Consider call tracking to understand how many phone leads your website generates.",
@@ -199,8 +201,8 @@ const TIERS: Tier[] = [
     min: 0,
     max: 8,
     badge: "??",
-    description: "You are flying blind when it comes to your website data. No judgment  -  most businesses start here. The good news is there is huge low-hanging fruit waiting for you. A basic analytics setup alone will transform what you know about your visitors.",
-    summary: "Huge opportunities ahead. Let's get the basics in place.",
+    description: "Your website is definitely doing... something. Whether it is generating leads, attracting customers, or secretly becoming famous in another country is anyone's guess. You mostly rely on instinct, hope, and the occasional \"we have been a bit busier this week.\"\n\nYour superpower: Optimism.\nYour kryptonite: Opening Google Analytics.\nAchievement unlocked: Every analytics expert started here.",
+    summary: "Your superpower: Optimism. Your kryptonite: Opening Google Analytics.",
   },
   {
     id: "curious",
@@ -208,8 +210,8 @@ const TIERS: Tier[] = [
     min: 9,
     max: 16,
     badge: "!",
-    description: "You know analytics exists and you are starting to look at the numbers. A bit of structure could turn your curiosity into real, actionable insights. Focus on setting up goals and conversions to understand what is actually working.",
-    summary: "Curiosity is the first step. Time to add some structure.",
+    description: "You have peeked behind the curtain. You know where to find your analytics, you check them every now and then, and you are starting to ask the right questions. Unfortunately, your website still knows more about itself than you do.\n\nYour superpower: Curiosity.\nYour kryptonite: \"I will set up conversion tracking tomorrow.\"\nAchievement unlocked: Asking the right questions.",
+    summary: "Your superpower: Curiosity. Your kryptonite: \"I will set up conversion tracking tomorrow.\"",
   },
   {
     id: "observer",
@@ -217,8 +219,8 @@ const TIERS: Tier[] = [
     min: 17,
     max: 25,
     badge: "!!",
-    description: "You know what is happening on your site. You check your numbers, understand your top pages, and have a handle on traffic. The next step is understanding why things are happening  -  not just what. Interaction tracking and funnel analysis will level you up.",
-    summary: "You know the what. Next step: understanding the why.",
+    description: "You are no longer guessing. You know your traffic, your best-performing pages, and have a pretty good feel for what is happening. Now it is time to discover why users behave the way they do.\n\nYour superpower: Seeing patterns.\nYour kryptonite: Assuming everyone behaves the same.\nAchievement unlocked: Trusting data over gut feeling.",
+    summary: "Your superpower: Seeing patterns. Your kryptonite: Assuming everyone behaves the same.",
   },
   {
     id: "data-driven",
@@ -226,8 +228,8 @@ const TIERS: Tier[] = [
     min: 26,
     max: 33,
     badge: "!!!",
-    description: "You are making informed decisions based on real data. Your website is working for you because you measure what matters and act on it. Keep pushing into advanced areas like audience segmentation, cross-session tracking, and automated reporting.",
-    summary: "Solid foundation. Keep pushing into advanced analytics.",
+    description: "You make decisions backed by evidence rather than hope. Your website is not just collecting data - it is helping you make smarter decisions. You are dangerously close to becoming the person who says things like: \"Actually... according to GA4...\"\n\nYour superpower: Evidence.\nYour kryptonite: Explaining attribution at parties.\nAchievement unlocked: Certified data nerd.",
+    summary: "Your superpower: Evidence. Your kryptonite: Explaining attribution at parties.",
   },
   {
     id: "the-one",
@@ -235,8 +237,8 @@ const TIERS: Tier[] = [
     min: 34,
     max: 42,
     badge: "M",
-    description: "You have achieved analytics enlightenment. Your website data is a well-oiled machine driving business decisions. From bot filtering to audience segments, you leave no metric unturned. You are the person others ask for analytics advice.",
-    summary: "Analytics mastery. Your data works as hard as you do.",
+    description: "Legends speak of people like you. Your tracking is tidy. Your reports make sense. Your dashboards spark joy. Bots fear you. UTM parameters behave themselves. You do not check analytics because you have to... you check them because you genuinely want to.\n\nYour superpower: Knowing exactly what is happening.\nYour kryptonite: Seeing broken tracking on other people's websites.\nAchievement unlocked: Analytics enlightenment.",
+    summary: "Your superpower: Knowing exactly what is happening. Your kryptonite: Seeing broken tracking on other people's websites.",
   },
 ];
 
@@ -365,11 +367,15 @@ export default function WebsiteStatsQuiz() {
   }, []);
 
   const handleCopyResult = useCallback(() => {
+    const shareLines: Record<string, string> = {
+      wandering: "I got \"Wandering in the Dark\" on the Website Stats Quiz. Apparently my website could be generating leads... or summoning ghosts.",
+      curious: "I got \"The Curious Beginner\" on the Website Stats Quiz. I know analytics exists. That is a start, right?",
+      observer: "I got \"The Informed Observer\" on the Website Stats Quiz. I know what is happening. Now I just need to figure out why.",
+      "data-driven": "I got \"The Data-Driven\" on the Website Stats Quiz. Apparently I know my UTM parameters better than most people know their own postcode.",
+      "the-one": "I got \"The One\" on the Website Stats Quiz. My dashboards spark joy. Bots fear me.",
+    };
     const text = [
-      `I scored ${score}/45 on the Website Stats Quiz!`,
-      `My result: ${tier.name}`,
-      "",
-      `${tier.summary}`,
+      shareLines[tier.id] || `I got "${tier.name}" on the Website Stats Quiz!`,
       "",
       `Take the quiz yourself: ${QUIZ_URL}`,
     ].join("\n");
@@ -378,7 +384,7 @@ export default function WebsiteStatsQuiz() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
-  }, [score, tier]);
+  }, [tier]);
 
   const handleShareLinkedIn = useCallback(() => {
     window.open(
@@ -389,13 +395,20 @@ export default function WebsiteStatsQuiz() {
   }, []);
 
   const handleShareTwitter = useCallback(() => {
-    const text = `I scored ${score}/45 on the Website Stats Quiz and got "${tier.name}"! How well do YOU know your website stats?`;
+    const shareLines: Record<string, string> = {
+      wandering: "I got \"Wandering in the Dark\" on the Website Stats Quiz. My website could be generating leads or summoning ghosts. Take the quiz:",
+      curious: "I got \"The Curious Beginner\" on the Website Stats Quiz. I know analytics exists. That is a start, right? Take the quiz:",
+      observer: "I got \"The Informed Observer\" on the Website Stats Quiz. I know what is happening. Now I just need to figure out why. Take the quiz:",
+      "data-driven": "I got \"The Data-Driven\" on the Website Stats Quiz. I know my UTM parameters better than most people know their own postcode. Take the quiz:",
+      "the-one": "I got \"The One\" on the Website Stats Quiz. My dashboards spark joy. Bots fear me. Take the quiz:",
+    };
+    const text = shareLines[tier.id] || `I got "${tier.name}" on the Website Stats Quiz! Take the quiz:`;
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(QUIZ_URL)}`,
       "_blank",
       "noopener,noreferrer"
     );
-  }, [score, tier]);
+  }, [tier]);
 
   const handleShareFacebook = useCallback(() => {
     window.open(
