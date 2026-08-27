@@ -70,6 +70,7 @@ const WebsitesForSolarPanelFitters = lazy(() => import("@/pages/WebsitesForSolar
 const WebsitesForPressureWashers = lazy(() => import("@/pages/WebsitesForPressureWashers"));
 const WebsitesForHairdressers = lazy(() => import("@/pages/WebsitesForHairdressers"));
 const WebsitesForLawyers = lazy(() => import("@/pages/WebsitesForLawyers"));
+const WebsitesForSolicitors = lazy(() => import("@/pages/WebsitesForSolicitors"));
 const WebsitesForFinanceAdvisors = lazy(() => import("@/pages/WebsitesForFinanceAdvisors"));
 const WebsitesForEstateAgents = lazy(() => import("@/pages/WebsitesForEstateAgents"));
 const WebsitesForRestaurants = lazy(() => import("@/pages/WebsitesForRestaurants"));
@@ -98,6 +99,15 @@ const WebsitesForManufacturers = lazy(() => import("@/pages/WebsitesForManufactu
 
 const WebDesignShropshire = lazy(() => import("@/pages/WebDesignShropshire"));
 const WebDesignOswestry = lazy(() => import("@/pages/WebDesignOswestry"));
+const SeoServicesShropshire = lazy(() => import("@/pages/SeoServicesShropshire"));
+const WebDesignBridgnorth = lazy(() => import("@/pages/WebDesignBridgnorth"));
+const WebDesignMuchWenlock = lazy(() => import("@/pages/WebDesignMuchWenlock"));
+const WebDesignShrewsbury = lazy(() => import("@/pages/WebDesignShrewsbury"));
+const WebsiteCarePlans = lazy(() => import("@/pages/WebsiteCarePlans"));
+const WordPressHelpBackupGuide = lazy(() => import("@/pages/WordPressHelpBackupGuide"));
+const WordPressHelpNotLoading = lazy(() => import("@/pages/WordPressHelpNotLoading"));
+const WordPressHelp404Errors = lazy(() => import("@/pages/WordPressHelp404Errors"));
+const WordPressHelpMalwareRemoval = lazy(() => import("@/pages/WordPressHelpMalwareRemoval"));
 const WordPressSupportShropshire = lazy(() => import("@/pages/WordPressSupportShropshire"));
 const WebsiteMaintenanceShropshire = lazy(() => import("@/pages/WebsiteMaintenanceShropshire"));
 const WordPressHostingShropshire = lazy(() => import("@/pages/WordPressHostingShropshire"));
@@ -197,6 +207,10 @@ function Router() {
           <Route path="/wordpress-help/wordpress-hacked/" component={WordPressHelpHacked} />
           <Route path="/wordpress-help/wordpress-security/" component={WordPressHelpSecurity} />
           <Route path="/wordpress-help/wordpress-update-issues/" component={WordPressHelpUpdateIssues} />
+          <Route path="/wordpress-help/wordpress-backup-guide/" component={WordPressHelpBackupGuide} />
+          <Route path="/wordpress-help/wordpress-not-loading/" component={WordPressHelpNotLoading} />
+          <Route path="/wordpress-help/wordpress-404-errors/" component={WordPressHelp404Errors} />
+          <Route path="/wordpress-help/wordpress-malware-removal/" component={WordPressHelpMalwareRemoval} />
           <Route path="/websites-for-consultants/" component={WebsitesForConsultants} />
           <Route path="/websites-for-marketing-consultants/" component={WebsitesForMarketingConsultants} />
           <Route path="/websites-for-legal-consultants/" component={WebsitesForLegalConsultants} />
@@ -213,6 +227,7 @@ function Router() {
           <Route path="/websites-for-pressure-washers/" component={WebsitesForPressureWashers} />
           <Route path="/websites-for-hairdressers/" component={WebsitesForHairdressers} />
           <Route path="/websites-for-lawyers/" component={WebsitesForLawyers} />
+          <Route path="/websites-for-solicitors/" component={WebsitesForSolicitors} />
           <Route path="/websites-for-finance-advisors/" component={WebsitesForFinanceAdvisors} />
           <Route path="/websites-for-estate-agents/" component={WebsitesForEstateAgents} />
           <Route path="/websites-for-restaurants/" component={WebsitesForRestaurants} />
@@ -240,6 +255,11 @@ function Router() {
           <Route path="/websites-for-manufacturers/" component={WebsitesForManufacturers} />
           <Route path="/web-design-shropshire/" component={WebDesignShropshire} />
           <Route path="/web-design-oswestry/" component={WebDesignOswestry} />
+          <Route path="/web-design-bridgnorth/" component={WebDesignBridgnorth} />
+          <Route path="/web-design-much-wenlock/" component={WebDesignMuchWenlock} />
+          <Route path="/web-design-shrewsbury/" component={WebDesignShrewsbury} />
+          <Route path="/seo-services-shropshire/" component={SeoServicesShropshire} />
+          <Route path="/website-care-plans/" component={WebsiteCarePlans} />
           <Route path="/wordpress-support-shropshire/" component={WordPressSupportShropshire} />
           <Route path="/website-maintenance-shropshire/" component={WebsiteMaintenanceShropshire} />
           <Route path="/small-business-websites/" component={SmallBusinessWebsites} />

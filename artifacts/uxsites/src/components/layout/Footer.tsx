@@ -30,6 +30,7 @@ export function Footer() {
               <li><Link href="/new-website/" className="hover:text-primary transition-colors">New Websites</Link></li>
               <li><Link href="/existing-website/" className="hover:text-primary transition-colors">Website Refreshes</Link></li>
               <li><Link href="/website-support/" className="hover:text-primary transition-colors">Support & Care</Link></li>
+              <li><Link href="/seo-services-shropshire/" className="hover:text-primary transition-colors">SEO Services Shropshire</Link></li>
               <li><Link href="/instant-site-quote/" className="hover:text-primary transition-colors">Instant Quote</Link></li>
             </ul>
           </div>

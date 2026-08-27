@@ -14,8 +14,8 @@ export default function WebsiteSpeedOptimisation() {
   return (
     <>
       <SEO
-        title="Website Speed Optimisation | WordPress Performance | UX Sites"
-        description="Speed up your WordPress site and stop losing visitors. Improve Core Web Vitals, reduce load times, and boost search rankings. Expert performance optimisation for UK businesses."
+        title="Website Speed Optimisation UK | WordPress Performance | UX Sites"
+        description="Website speed optimisation UK -  take your WordPress site from slow to fast. Improve Core Web Vitals and load times, and stop losing visitors. Expert performance optimisation for UK businesses."
         url="https://uxsites.co.uk/website-speed-optimisation/"
         schema={[
           serviceSchema({
@@ -39,7 +39,7 @@ export default function WebsiteSpeedOptimisation() {
       <main>
         <HeroBlock
           tagline="Faster websites rank better and convert more"
-          headline="WordPress Speed Optimisation  -  Real, Measurable Results"
+          headline="Website Speed Optimisation for UK Businesses"
           subheadline="A slow website costs you visitors, rankings, and revenue. We diagnose the root causes of poor WordPress performance and fix them properly  -  reducing load times, improving Core Web Vitals scores, and delivering a noticeably faster site."
           primaryCta={{ text: "Get a Free Speed Audit", href: "/contact/" }}
           secondaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}

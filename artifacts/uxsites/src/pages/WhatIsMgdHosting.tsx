@@ -73,7 +73,7 @@ export default function WhatIsMgdHosting() {
           tagline="Beginner-friendly guide"
           headline="What Is Managed WordPress Hosting?"
           subheadline="A beginner-friendly guide to understanding managed WordPress hosting and how it differs from traditional hosting solutions."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
+          primaryCta={{ text: "View Our Managed Hosting", href: "/managed-wordpress-hosting/" }}
           secondaryCta={{ text: "Compare vs Shared Hosting", href: "/managed-wordpress-hosting-vs-shared-hosting/" }}
           chips={["Beginner Guide", "Plain English", "No Jargon", "Comparisons", "Who Needs It"]}
         />

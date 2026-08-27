@@ -104,7 +104,7 @@ export default function WhatsIncludedMgdHosting() {
           tagline="Everything you need to know"
           headline="What's Included in Managed WordPress Hosting"
           subheadline="Get the full breakdown of what services and features are typically included in managed WordPress hosting plans."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
+          primaryCta={{ text: "View Hosting Plans", href: "/managed-wordpress-hosting/#pricing" }}
           secondaryCta={{ text: "View Pricing", href: "/managed-wordpress-hosting/#pricing" }}
           chips={["Backups", "Security", "Updates", "Performance", "SSL & CDN", "Support", "Staging", "Migration"]}
         />

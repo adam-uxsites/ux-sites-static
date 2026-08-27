@@ -5,6 +5,7 @@ import { FAQBlock } from "@/components/blocks/FAQBlock";
 import { RelatedPages } from "@/components/blocks/RelatedPages";
 import { motion } from "framer-motion";
 import { serviceSchema, breadcrumbSchema, faqSchema } from "@/lib/schemas";
+import { Link } from "wouter";
 import { Check, Zap, Shield, RefreshCw, Activity, HeadphonesIcon, Clock, Users, Briefcase, TrendingUp } from "lucide-react";
 
 const careItems = [
@@ -68,7 +69,8 @@ export default function FullyManagedHosting() {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">What We Take Care Of</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Everything your WordPress site needs to stay secure, fast, and online  -  handled by us so you never have to think about it.
+                Everything your WordPress site needs to stay secure, fast, and online  -  handled by us so you never have to think about it. The same core plan is summarised on our{" "}
+                <Link href="/managed-wordpress-hosting/" className="text-primary font-bold hover:underline">managed WordPress hosting page</Link>.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -110,9 +110,9 @@ export default function WordPressCarePlan() {
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">What a Care Plan Includes</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">What Is a WordPress Care Plan?</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Everything in managed hosting, plus the ongoing development and support your business needs to keep growing.
+                A WordPress care plan is a monthly retainer that takes every website task off your plate  -  managed hosting, updates, security, backups, uptime monitoring, plus 4 hours of monthly development time and priority support. Your site is actively maintained and improved by people who know it, so you never have to deal with the technical side again.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -386,6 +386,84 @@ export default function WordPressCarePlan() {
               description: "Careful plugin and core updates, database optimisation, and ongoing site health.",
               href: "/wordpress-maintenance/",
               tag: "Maintenance"
+            }
+          ]}
+        />
+
+        <RelatedPages
+          title="WordPress Care Plans for Your Industry"
+          pages={[
+            {
+              title: "Websites for Consultants",
+              description: "Care plans for consultants and professional services firms.",
+              href: "/websites-for-consultants/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for Marketing Consultants",
+              description: "Care plans for marketing consultants and agencies.",
+              href: "/websites-for-marketing-consultants/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for Legal Consultants",
+              description: "Care plans for legal consultants and professional services firms.",
+              href: "/websites-for-legal-consultants/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for Business Consultants",
+              description: "Care plans for business consultants and advisory firms.",
+              href: "/websites-for-business-consultants/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for Cafes",
+              description: "Care plans for cafes, tearooms, and delis.",
+              href: "/websites-for-cafes/",
+              tag: "Food"
+            },
+            {
+              title: "Websites for Coffee Shops",
+              description: "Care plans for coffee shops and artisan cafes.",
+              href: "/websites-for-coffee-shops/",
+              tag: "Food"
+            },
+            {
+              title: "Websites for Facial Aesthetics",
+              description: "Care plans for aesthetic clinics and practitioners.",
+              href: "/websites-for-facial-aesthetics/",
+              tag: "Beauty"
+            },
+            {
+              title: "Websites for Nursing Homes",
+              description: "Care plans for care homes, nursing homes, and assisted living.",
+              href: "/websites-for-nursing-homes/",
+              tag: "Care"
+            },
+            {
+              title: "Websites for Manufacturers",
+              description: "Care plans for manufacturing companies and factories.",
+              href: "/websites-for-manufacturers/",
+              tag: "B2B"
+            },
+            {
+              title: "Websites for Medium Businesses",
+              description: "Care plans for established mid-sized companies.",
+              href: "/websites-for-medium-businesses/",
+              tag: "B2B"
+            },
+            {
+              title: "Websites for Tutors",
+              description: "Care plans for tutors and tuition centres.",
+              href: "/websites-for-tutors/",
+              tag: "Education"
+            },
+            {
+              title: "Websites for Charities",
+              description: "Care plans for charities and community organisations.",
+              href: "/websites-for-charities/",
+              tag: "Community"
             }
           ]}
         />

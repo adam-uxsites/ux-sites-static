@@ -118,8 +118,8 @@ export default function WordPressHelpSecurity() {
         <HeroBlock
           tagline="Protect your WordPress site"
           headline="How to Secure a WordPress Website"
-          subheadline="WordPress powers 40% of websites, making it a prime target. Learn essential security measures to protect your site."
-          primaryCta={{ text: "Get Security Coverage", href: "/contact/" }}
+          subheadline="WordPress powers 43% of websites, making it a prime target. Learn essential security measures to protect your site."
+          primaryCta={{ text: "Managed Security Service", href: "/wordpress-security/" }}
           secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Security", "12 min read", "Step-by-step", "Proven methods"]}
         />

@@ -93,10 +93,10 @@ export default function MgdHostingVsShared() {
       <main>
         <HeroBlock
           tagline="Making the right choice"
-          headline="Managed WordPress Hosting vs Shared Hosting"
-          subheadline="Compare the benefits and drawbacks of managed hosting versus traditional shared hosting for your WordPress site."
-          primaryCta={{ text: "Get Managed Hosting", href: "/contact/" }}
-          secondaryCta={{ text: "Learn About Shared Hosting", href: "#comparison" }}
+          headline="Shared vs Managed WordPress Hosting  -  The Real Differences"
+          subheadline="Compare shared hosting and managed WordPress hosting on speed, security, support, and total cost -  and see which is right for your business."
+          primaryCta={{ text: "View Managed Hosting", href: "/managed-wordpress-hosting/" }}
+          secondaryCta={{ text: "Side-by-Side Comparison", href: "#comparison" }}
           chips={["Feature Comparison", "Cost Analysis", "Performance", "Security", "Support"]}
         />
 

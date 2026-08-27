@@ -57,8 +57,8 @@ const maintenanceFaqs = [
     answer: "Unmaintained sites gradually accumulate security vulnerabilities, performance degradation, plugin conflicts, and outdated content. The risk of being hacked increases significantly, and search rankings often suffer from slow loading and broken features."
   },
   {
-    question: "Should I hire someone for WordPress maintenance?",
-    answer: "If you'd rather focus on running your business than maintaining your website  -  absolutely. Professional maintenance services handle all these tasks for you, plus provide expert support when issues arise. It's typically more cost-effective than dealing with a hacked or broken site."
+    question: "Should I hire someone to maintain my WordPress site?",
+    answer: "If you'd rather focus on running your business than maintaining your website, yes. A professional WordPress maintenance service handles all these tasks for you  -  updates, security scans, backups, and monitoring  -  plus expert support when issues arise. It's typically far more cost-effective than dealing with a hacked or broken site."
   },
 ];
 
@@ -66,30 +66,30 @@ export default function WordPressHelpMaintenance() {
   return (
     <>
       <SEO
-        title="WordPress Maintenance Checklist | UX Sites"
-        description="A complete WordPress maintenance checklist for small businesses. Daily, weekly, monthly, quarterly, and annual tasks to keep your site healthy, secure, and performing at its best."
+        title="What Is WordPress Maintenance? Full Checklist | UX Sites"
+        description="What WordPress maintenance involves and a complete checklist -  daily, weekly, monthly, quarterly and annual tasks to keep your site secure, fast and reliable."
         url="https://uxsites.co.uk/wordpress-help/wordpress-maintenance/"
         schema={[
           serviceSchema({
-            name: "WordPress Maintenance Checklist",
-            description: "Complete WordPress maintenance checklist covering daily, weekly, monthly, quarterly, and annual tasks to keep your WordPress website healthy, secure, and performing well.",
+            name: "What Is WordPress Maintenance? A Complete Checklist",
+            description: "An informational guide explaining what WordPress maintenance involves, covering daily, weekly, monthly, quarterly, and annual tasks to keep a WordPress website healthy, secure, and performing well.",
             url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance/",
             category: "WordPress Maintenance Guide",
           }),
           breadcrumbSchema([
             { name: "Home", url: "https://uxsites.co.uk/" },
             { name: "WordPress Help & Guides", url: "https://uxsites.co.uk/wordpress-help/" },
-            { name: "WordPress Maintenance Checklist", url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance/" },
+            { name: "What Is WordPress Maintenance", url: "https://uxsites.co.uk/wordpress-help/wordpress-maintenance/" },
           ]),
           faqSchema(maintenanceFaqs),
         ]}
       />
       <main>
         <HeroBlock
-          tagline="Complete maintenance guide"
-          headline="WordPress Maintenance Checklist for Small Businesses"
-          subheadline="Keep your WordPress website running smoothly with this complete maintenance checklist."
-          primaryCta={{ text: "Get Professional Maintenance", href: "/contact/" }}
+          tagline="Free DIY maintenance guide"
+          headline="What Is WordPress Maintenance? A Complete Checklist"
+          subheadline="WordPress needs regular attention to stay secure, fast and reliable. This guide explains what maintenance involves and gives you a complete daily-to-annual checklist you can follow yourself."
+          primaryCta={{ text: "Our Maintenance Service", href: "/wordpress-maintenance/" }}
           secondaryCta={{ text: "View All Guides", href: "/wordpress-help/" }}
           chips={["Daily", "Weekly", "Monthly", "Quarterly", "Annual"]}
         />
@@ -98,9 +98,12 @@ export default function WordPressHelpMaintenance() {
         <section className="py-20 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold mb-4">Why Regular WordPress Maintenance Matters</h2>
+              <h2 className="text-3xl font-bold mb-4">What Is WordPress Maintenance?</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                WordPress powers 43% of all websites  -  making it the most targeted CMS on the internet. Regular maintenance isn't optional; it's essential for security, performance, and reliability.
+                WordPress maintenance is the regular work required to keep a WordPress site secure, up to date, and performing well -  updating core, plugins and themes, backing up your data, scanning for security threats, and checking for things going wrong.
+              </p>
+              <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+                It matters because WordPress is the most targeted CMS on the internet, powering 43% of all websites. Left unmaintained, sites accumulate security holes and slow down -  which hurts both your business and your rankings.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
@@ -271,19 +274,47 @@ export default function WordPressHelpMaintenance() {
           </div>
         </section>
 
-        {/* Get help CTA */}
+        {/* DIY or done for you */}
         <section className="py-16 bg-card border-y border-border">
           <div className="container mx-auto px-4 max-w-4xl text-center">
             <h2 className="text-2xl font-bold mb-4">Too Busy to Handle All This Yourself?</h2>
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-              Our maintenance service covers every task on this checklist  -  plus expert support, security monitoring, and performance optimisation. From £50/month.
+              Our WordPress maintenance service covers every task on this checklist  -  updates, security scans, daily backups, uptime and performance monitoring, plus expert support -  from £50/month.
             </p>
             <Link
-              href="/contact/"
+              href="/wordpress-maintenance/"
               className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3.5 text-sm font-bold hover:opacity-90 transition-opacity h-12"
             >
-              Get Maintenance Coverage
+              View the WordPress Maintenance Service
             </Link>
+            <div className="mt-10 grid md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto">
+              <div className="p-6 bg-background border border-border rounded-xl">
+                <h3 className="font-bold mb-2">Maintenance Service vs Care Plan</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  Our maintenance service handles updates, security, backups and monitoring. Our care plans go further -  adding priority support, content changes and SEO work.
+                </p>
+                <Link href="/wordpress-maintenance/" className="text-primary text-sm font-bold hover:underline">
+                  Maintenance service from £50/month →
+                </Link>
+                <span className="mx-2 text-muted-foreground">·</span>
+                <Link href="/wordpress-care-plan/" className="text-primary text-sm font-bold hover:underline">
+                  Compare WordPress care plans
+                </Link>
+              </div>
+              <div className="p-6 bg-background border border-border rounded-xl">
+                <h3 className="font-bold mb-2">Prefer to Do It Yourself?</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  Follow the checklist above. Automate what you can  -  backups and security scans -  and set a recurring calendar reminder for the manual tasks.
+                </p>
+                <Link href="/wordpress-help/wordpress-slow/" className="text-primary text-sm font-bold hover:underline">
+                  Speed guide: fix a slow site →
+                </Link>
+                <span className="mx-2 text-muted-foreground">·</span>
+                <Link href="/wordpress-help/wordpress-security/" className="text-primary text-sm font-bold hover:underline">
+                  Secure your WordPress site
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
 

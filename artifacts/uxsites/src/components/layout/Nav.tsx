@@ -50,6 +50,9 @@ export function Nav() {
                 <DropdownMenuItem asChild className="cursor-pointer">
                   <Link href="/existing-website/" className="w-full">Existing Website</Link>
                 </DropdownMenuItem>
+                <DropdownMenuItem asChild className="cursor-pointer">
+                  <Link href="/seo-services-shropshire/" className="w-full">SEO Services Shropshire</Link>
+                </DropdownMenuItem>
               </div>
             </div>
             <div>
@@ -136,6 +139,7 @@ export function Nav() {
                   <div className="flex flex-col gap-1.5 pl-4">
                     <Link href="/new-website/" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>New Website</Link>
                     <Link href="/existing-website/" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>Existing Website</Link>
+                    <Link href="/seo-services-shropshire/" className="text-base font-medium" onClick={() => setIsMobileMenuOpen(false)}>SEO Services Shropshire</Link>
                   </div>
                 </div>
                 <div>

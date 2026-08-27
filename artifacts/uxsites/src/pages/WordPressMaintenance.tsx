@@ -145,9 +145,16 @@ export default function WordPressMaintenance() {
                   <h3 className="font-bold mb-2">{s.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
                 </motion.div>
-              ))}
-            </div>
-          </div>
+))}
+                </div>
+                <p className="text-sm text-muted-foreground mt-6">
+                  Prefer to handle maintenance yourself? Follow our{" "}
+                  <Link href="/wordpress-help/wordpress-maintenance/" className="text-primary font-semibold hover:underline">
+                    monthly WordPress maintenance checklist
+                  </Link>{" "}
+                  and DIY guide.
+                </p>
+              </div>
         </section>
 
         <BenefitsGrid
@@ -313,10 +320,76 @@ export default function WordPressMaintenance() {
               tag: "Related"
             },
             {
+              title: "WordPress Maintenance Checklist",
+              description: "Our full guide to what WordPress maintenance involves  -  daily, weekly, monthly and annual tasks explained.",
+              href: "/wordpress-help/wordpress-maintenance/",
+              tag: "Guide"
+            },
+            {
               title: "WordPress Security Essentials",
               description: "What every WordPress site owner needs to know about keeping their site secure.",
               href: "/blog/wordpress-security-essentials/",
               tag: "Blog"
+            }
+          ]}
+        />
+
+        <RelatedPages
+          title="WordPress Maintenance for Your Industry"
+          pages={[
+            {
+              title: "Websites for Joiners",
+              description: "Ongoing website maintenance for joiners, carpenters, and woodworking businesses.",
+              href: "/websites-for-joiners/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Decorators",
+              description: "Ongoing website maintenance for decorators and painters.",
+              href: "/websites-for-decorators/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Roofers",
+              description: "Ongoing website maintenance for roofing contractors and specialists.",
+              href: "/websites-for-roofers/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Estate Agents",
+              description: "Ongoing website maintenance for estate agents and letting agencies.",
+              href: "/websites-for-estate-agents/",
+              tag: "Property"
+            },
+            {
+              title: "Websites for Property Developers",
+              description: "Ongoing website maintenance for property developers and construction firms.",
+              href: "/websites-for-developers/",
+              tag: "Property"
+            },
+            {
+              title: "Websites for Retail Shops",
+              description: "Ongoing website maintenance for independent retail shops and boutiques.",
+              href: "/websites-for-retail-shops/",
+              tag: "Retail"
+            },
+            {
+              title: "Websites for Jewellers",
+              description: "Ongoing website maintenance for jewellers and jewellery designers.",
+              href: "/websites-for-jewellers/",
+              tag: "Retail"
+            },
+            {
+              title: "Websites for Lawyers",
+              description: "Ongoing website maintenance for solicitors and law firms.",
+              href: "/websites-for-lawyers/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for Finance Advisors",
+              description: "Ongoing website maintenance for financial advisors and wealth managers.",
+              href: "/websites-for-finance-advisors/",
+              tag: "Professional"
             }
           ]}
         />

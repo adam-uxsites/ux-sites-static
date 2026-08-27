@@ -44,8 +44,8 @@ export default function ConversionTrackingSetup() {
   return (
     <>
       <SEO
-        title="Google Ads Conversion Tracking Setup | UX Sites"
-        description="Professional conversion tracking setup for Google Ads, GA4, and your website. Form tracking, phone call tracking, and ecommerce — so you know what's actually working."
+        title="Conversion Tracking Setup UK | UX Sites"
+        description="Conversion tracking setup UK -  for Google Ads, GA4, and your website. Form tracking, phone call tracking, and ecommerce, so you know what's actually working."
         url="https://uxsites.co.uk/conversion-tracking-setup/"
         schema={[
           serviceSchema({
@@ -70,7 +70,7 @@ export default function ConversionTrackingSetup() {
       <main>
         <HeroBlock
           tagline="Know exactly where your leads come from"
-          headline="Conversion Tracking Setup — Stop Guessing, Start Knowing"
+          headline="Conversion Tracking Setup for UK Businesses"
           subheadline="If you can't see which clicks turn into customers, you're flying blind. We set up conversion tracking that actually works — form submissions, phone calls, purchases, and any action that matters to your business."
           primaryCta={{ text: "Audit My Current Tracking", href: "/contact/" }}
           secondaryCta={{ text: "GA4 Setup Services", href: "/google-analytics-setup/" }}

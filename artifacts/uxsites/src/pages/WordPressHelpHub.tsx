@@ -51,6 +51,38 @@ const guides = [
     readTime: "18 min read",
     icon: CheckCircle,
   },
+  {
+    title: "WordPress Backup Guide",
+    description: "How to back up a WordPress website -  plugins, hosting backups, off-site storage, and how to test a restore properly.",
+    href: "/wordpress-help/wordpress-backup-guide/",
+    tag: "Backups",
+    readTime: "10 min read",
+    icon: Shield,
+  },
+  {
+    title: "WordPress Site Not Loading",
+    description: "Your WordPress site is down or not loading -  how to diagnose and fix the cause quickly, from DNS to plugin errors.",
+    href: "/wordpress-help/wordpress-not-loading/",
+    tag: "Troubleshooting",
+    readTime: "9 min read",
+    icon: Wrench,
+  },
+  {
+    title: "Fix WordPress 404 Errors",
+    description: "Why WordPress shows 404 errors and how to fix broken pages and links -  permalinks, redirects, and deleted content.",
+    href: "/wordpress-help/wordpress-404-errors/",
+    tag: "Troubleshooting",
+    readTime: "8 min read",
+    icon: AlertTriangle,
+  },
+  {
+    title: "WordPress Malware Removal",
+    description: "How to detect and remove WordPress malware -  signs of infection, cleaning steps, and when to call in professionals.",
+    href: "/wordpress-help/wordpress-malware-removal/",
+    tag: "Security",
+    readTime: "14 min read",
+    icon: Shield,
+  },
 ];
 
 const helpFaqs = [

@@ -624,16 +624,87 @@ export default function ManagedHosting() {
               tag: "Blog"
             },
             {
+              title: "What Is Managed WordPress Hosting?",
+              description: "A beginner-friendly guide to managed hosting  -  how it differs from standard hosting and who it's for.",
+              href: "/what-is-managed-wordpress-hosting/",
+              tag: "Guide"
+            },
+            {
+              title: "What's Included in Managed Hosting",
+              description: "A full breakdown of every feature  -  backups, security, updates, performance, support  -  in plain English.",
+              href: "/whats-included-managed-wordpress-hosting/",
+              tag: "Guide"
+            },
+            {
               title: "Google Analytics 4 Setup",
               description: "GA4 setup, troubleshooting, and custom reporting — included with every managed hosting plan.",
               href: "/google-analytics-setup/",
               tag: "Service"
             },
-            {
-              title: "Conversion Tracking Setup",
+            { title: "Conversion Tracking Setup",
               description: "Professional conversion tracking for Google Ads, forms, and phone calls.",
               href: "/conversion-tracking-setup/",
               tag: "Service"
+            }
+          ]}
+        />
+
+        <RelatedPages
+          title="Managed WordPress Hosting for Your Industry"
+          pages={[
+            {
+              title: "Websites for Builders",
+              description: "Website design and managed hosting for builders, construction firms, and contractors.",
+              href: "/websites-for-builders/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Electricians",
+              description: "Managed hosting and websites for electricians and electrical contractors.",
+              href: "/websites-for-electricians/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Plumbers",
+              description: "Websites and managed hosting for plumbers, heating engineers, and gas engineers.",
+              href: "/websites-for-plumbers/",
+              tag: "Trades"
+            },
+            {
+              title: "Websites for Restaurants",
+              description: "Managed hosting and websites for restaurants, bistros, and gastropubs.",
+              href: "/websites-for-restaurants/",
+              tag: "Food"
+            },
+            {
+              title: "Websites for Takeaways",
+              description: "Websites and managed hosting for takeaways, delivery services, and fast food.",
+              href: "/websites-for-takeaways/",
+              tag: "Food"
+            },
+            {
+              title: "Websites for Butchers",
+              description: "Websites and managed hosting for butchers, farm shops, and meat retailers.",
+              href: "/websites-for-butchers/",
+              tag: "Food"
+            },
+            {
+              title: "Websites for Hairdressers",
+              description: "Websites and managed hosting for hairdressers, barbers, and salons.",
+              href: "/websites-for-hairdressers/",
+              tag: "Beauty"
+            },
+            {
+              title: "Websites for Solicitors",
+              description: "Websites and managed hosting for solicitors and law firms.",
+              href: "/websites-for-solicitors/",
+              tag: "Professional"
+            },
+            {
+              title: "Websites for SMEs",
+              description: "Managed hosting and websites built for small and medium enterprises.",
+              href: "/websites-for-smes/",
+              tag: "Business"
             }
           ]}
         />
