@@ -150,6 +150,7 @@ const blogSlugs = [
   "small-business-seo-guide",
   "website-redesign-uk",
   "website-speed-optimisation-guide",
+  "whats-new-in-google-search-console-2026",
   "why-managed-wordpress-hosting",
   "why-your-wordpress-website-keeps-breaking",
   "wordpress-security-essentials",

@@ -1,8 +1,14 @@
 # Old URLs → new locations (301). Curated rules live here and are kept on top;
 # trailing-slash 301s for every route are appended automatically by scripts/prerender.mjs on build.
+# Old root-level blog posts (kept slash + no-slash forms — Google indexed the trailing-slash versions).
+/diy-websites-vs-professional-in-2025/  /blog/diy-websites-vs-professional-in-2025/  301
 /diy-websites-vs-professional-in-2025  /blog/diy-websites-vs-professional-in-2025/  301
+/how-much-does-a-wordpress-website-cost-in-2025/  /blog/how-much-does-a-wordpress-website-cost-in-2025/  301
 /how-much-does-a-wordpress-website-cost-in-2025  /blog/how-much-does-a-wordpress-website-cost-in-2025/  301
+/magento-to-shopify-migration-2025/  /blog/magento-to-shopify-migration-2025/  301
 /magento-to-shopify-migration-2025  /blog/magento-to-shopify-migration-2025/  301
+/wordpress/  /what-is-managed-wordpress-hosting/  301
+/wordpress  /what-is-managed-wordpress-hosting/  301
 
 # SPA fallback — all routes served by index.html (must stay LAST)
 /*    /index.html   200

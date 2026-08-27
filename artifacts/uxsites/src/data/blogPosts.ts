@@ -11,6 +11,87 @@
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "whats-new-in-google-search-console-2026",
+    title: "What's New in Google Search Console: AI Search & Social Insights",
+    excerpt: "Google now gives you a dedicated report for impressions in generative AI results, plus new properties for your Instagram, TikTok, X, and YouTube content. Here's what's new and what to do with it.",
+    date: "28 August 2026",
+    category: "SEO",
+    readTime: "6 min read",
+    image: "/blog/local-seo.svg",
+    content: `
+## Two Big Updates in Search Console
+
+If your website depends on Google for enquiries, Search Console just became more useful. Through summer 2026, Google has rolled out two major features: a dedicated **Generative AI performance report**, and **platform properties** that let you track how your Instagram, TikTok, X, and YouTube content performs on Google Search.
+
+Both close real blind spots: where your site shows up in AI-generated answers, and how your social content ranks in search. Here's what's actually new and what to do about it.
+
+## 1. Gen-AI Performance Report: See Your Site in AI Answers
+
+In June 2026 Google [announced](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports) a dedicated report for impressions in generative AI features. It shows how often your site appears in **AI Overviews** and **AI Mode** — the AI-generated answers Google now shows above (or instead of) traditional results — with a separate report for AI results in [Discover](https://support.google.com/webmasters/answer/16984139).
+
+The report includes:
+- **Impressions** — how often your URLs appeared in generative AI features
+- **Pages** — which individual URLs are being surfaced
+- **Countries** — where those AI searches come from
+- **Devices** — desktop, mobile, and tablet
+- **Dates** — hourly, daily, weekly, or monthly granularity
+
+Data is assigned to each page's canonical URL, exactly like your standard performance report. The same AI impressions also appear within the overall [Performance report](https://support.google.com/webmasters/answer/16984139), so you can view everything in one place.
+
+Two honest caveats:
+- It's rolling out gradually, so you may not see it in your account straight away. Google is prioritising UK site owners first and expanding from there.
+- For now it tracks **impressions only** — there's no click, query, or CTR data for AI appearances yet.
+
+Impression-only data is still genuinely useful. It tells you which pages Google trusts enough to cite inside AI answers, how that compares with your traditional rankings, and where to double down.
+
+## Measure the AI Retrieval Side with Microsoft Clarity
+
+Google tells you the impressions side of the story. To see *why* AI systems pick your content, Microsoft Clarity — a free analytics tool — added an **AI Visibility** section in 2026. Its Citations dashboard shows how your content is referenced in AI-generated answers, mainly within Microsoft's own AI surfaces (Copilot and Bing's generative search).
+
+What you can see:
+- **Grounding queries** — the actual search terms AI systems use to retrieve your content before answering
+- **My cited pages** — which URLs are cited and how often
+- **Share of authority** — your proportion of citations versus other domains for the same topics
+- **AI referral traffic** — the percentage of your sessions arriving from AI assistants
+
+Clarity is free to [set up](https://clarity.microsoft.com/ai-visibility), and you can connect your site directly or via Search Console / Bing Webmaster Tools.
+
+The two tools complement each other. Google shows impressions in its AI results; Clarity shows the retrieval happening behind Copilot's answers — and grounding queries are the closest thing we have to seeing how an LLM interprets your pages.
+
+## 2. Platform Properties: Instagram, TikTok, X & YouTube in Search Console
+
+In July 2026 Google [launched platform properties](https://support.google.com/webmasters/answer/17148418): a new property type that lets you add your **Instagram, TikTok, X, and YouTube** accounts directly to Search Console.
+
+Why it matters: your social posts and videos already appear in Google search results. Platform properties show you how that content performs — the search terms that lead people to your posts, and how often they get clicked.
+
+The reports include:
+- **Performance report** — clicks, impressions, CTR, and average position for your posts on Google Search (plus Discover and Google News where your content appears)
+- **Insights report** — a 28-day overview of traffic trends, your top-performing content, and the queries people used to find it
+- **Top countries** — where your audience is coming from
+- **Achievements** — milestone alerts as your clicks grow
+
+Setting one up is simple: add a property, choose your platform, and authorise the connection. The connections are read-only — Google only ever sees how your content performs in search, never your account itself. New properties take a few days to populate, so you'll see "No data available yet. Check back within 48 hours" in the meantime.
+
+One important caveat: platform properties track your performance on **Google Search only** — not your statistics inside Instagram or TikTok itself. But it fills a genuine gap, because for many small businesses a social profile is now a significant part of how they appear in search.
+
+## What These Changes Mean for Small Businesses
+
+Both updates point in the same direction: search visibility is no longer just your website. It's your website, your social profiles, and whether AI systems can retrieve and cite you.
+
+Practical steps you can take today:
+- **Check which pages appear in AI impressions** — usually your clearest, most directly-answering pages; write more content in those formats
+- **Connect your social profiles** — if you post locally or run a video channel, platform properties will show what actually drives search traffic
+- **Set up Clarity** — grounding queries show how AI interprets your content, which is exactly what Google's own AI features are looking for when they decide what to cite
+
+## Get Help Making Your Site Visible
+
+Search is shifting, but the fundamentals still hold: clear, well-structured content, fast pages, and being findable everywhere your customers search. That's what we help Shropshire and UK businesses with every day, whether it's [managed WordPress hosting](/managed-wordpress-hosting/), a [new website](/new-website/), or [support for an existing one](/website-support/).
+
+If you'd like a hand setting up Search Console and Clarity properly, or checking where your site appears in AI search, [get in touch](/contact/) for a straight conversation.
+    `
+  },
+
+  {
     slug: "agent-ready-website-level-5",
     title: "UX Sites Reaches Level 5 (Agent-Native) on isitagentready.com",
     excerpt: "We've achieved the highest score on isitagentready.com, meaning uxsites.co.uk is fully optimised for AI agents. Here's what we did and why it matters for your business.",

@@ -162,9 +162,9 @@ export default function WebDesignOswestry() {
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="grid md:grid-cols-2 gap-14 items-start">
               <div>
-                <h2 className="text-3xl font-bold mb-6">Industries We've Served Across the Oswestry Area</h2>
+                <h2 className="text-3xl font-bold mb-6">Industries We Work With Across the Oswestry Area</h2>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                  Oswestry and the border region has a diverse business economy — from town centre professional services to agricultural businesses, hospitality, and manufacturing. We've built websites across all of these.
+                  Oswestry and the border region has a diverse business economy — from town centre professional services to agricultural businesses, hospitality, and manufacturing. Whatever sector you're in, your website should reflect the way your Oswestry customers search and buy.
                 </p>
                 <div className="grid grid-cols-2 gap-3">
                   {[
@@ -184,11 +184,11 @@ export default function WebDesignOswestry() {
               </div>
               <div className="space-y-4">
                 <div className="p-7 bg-card border border-border rounded-2xl">
-                  <h3 className="font-bold text-lg mb-3">Recent Local Projects</h3>
+                  <h3 className="font-bold text-lg mb-3">Recent Shropshire Projects</h3>
                   <div className="space-y-4">
                     {[
-                      { name: "Kingman Law", type: "Legal Services", desc: "Professional legal services website — December 2025" },
-                      { name: "Conveyancing Fairy", type: "Property Services", desc: "Residential conveyancing specialists — January 2026" }
+                      { name: "Conveyancing Fairy", type: "Conveyancing", desc: "Residential conveyancing specialists based in Oswestry (Salop House, Salop Road)" },
+                      { name: "Rhind Speech Therapy", type: "Healthcare & Therapy", desc: "Shropshire speech & language therapy practice with a Shrewsbury clinic (Swan Hill)" }
                     ].map((project, i) => (
                       <div key={i} className="border-b border-border last:border-0 pb-4 last:pb-0">
                         <div className="font-bold mb-1">{project.name}</div>
@@ -224,7 +224,7 @@ export default function WebDesignOswestry() {
           quote="Adam did a fantastic job upgrading an existing site — I was 'wowed' with a mock up he produced (knocked my socks off!) He really has an eye for making things look stunning and visually pleasing! Very pleased with the website he has produced for me and will be recommending him to my colleagues."
           name="Zahrah Aullybocus"
           date="January 2026"
-          role="Client, Shropshire"
+          role="Solicitor & Founder, Conveyancing Fairy"
         />
 
         <BenefitsGrid
